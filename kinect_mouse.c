@@ -38,15 +38,9 @@
 
 #include <pthread.h>
 
-#if defined(__APPLE__)
-#include <GLUT/glut.h>
-#include <OpenGL/gl.h>
-#include <OpenGL/glu.h>
-#else
 #include <GL/glut.h>
 #include <GL/gl.h>
 #include <GL/glu.h>
-#endif
 
 #include <math.h>
 
@@ -265,7 +259,7 @@ void depth_cb(freenect_device *dev, void *v_depth, uint32_t timestamp)
 	int px = 0 , py = 0;
 	int tx = 0 , ty = 0;
 	int alert = 0;
-	freenect_depth *depth = v_depth;
+	uint16_t *depth = v_depth;
 
 	pthread_mutex_lock(&gl_backbuf_mutex);
 	for (i=0; i<FREENECT_FRAME_PIX; i++) {
@@ -353,11 +347,11 @@ void depth_cb(freenect_device *dev, void *v_depth, uint32_t timestamp)
 	pthread_mutex_unlock(&gl_backbuf_mutex);
 }
 
-void rgb_cb(freenect_device *dev, freenect_pixel *rgb, uint32_t timestamp)
+void rgb_cb(freenect_device *dev, void *rgb, uint32_t timestamp)
 {
 	pthread_mutex_lock(&gl_backbuf_mutex);
 	got_frames++;
-	memcpy(gl_rgb_back, rgb, FREENECT_RGB_SIZE);
+	memcpy(gl_rgb_back, rgb, FREENECT_VIDEO_RGB_SIZE);
 	pthread_cond_signal(&gl_frame_cond);
 	pthread_mutex_unlock(&gl_backbuf_mutex);
 }
@@ -367,21 +361,22 @@ void *freenect_threadfunc(void *arg)
 	freenect_set_tilt_degs(f_dev,freenect_angle);
 	freenect_set_led(f_dev,LED_GREEN);
 	freenect_set_depth_callback(f_dev, depth_cb);
-	freenect_set_rgb_callback(f_dev, rgb_cb);
-	freenect_set_rgb_format(f_dev, FREENECT_FORMAT_RGB);
-	freenect_set_depth_format(f_dev, FREENECT_FORMAT_11_BIT);
+	freenect_set_video_callback(f_dev, rgb_cb);
+	freenect_set_video_format(f_dev, FREENECT_VIDEO_RGB);
+	freenect_set_depth_format(f_dev, FREENECT_DEPTH_11BIT);
 
 	freenect_start_depth(f_dev);
-	freenect_start_rgb(f_dev);
+	freenect_start_video(f_dev);
 
 	printf("'W'-Tilt Up, 'S'-Level, 'X'-Tilt Down, '0'-'6'-LED Mode\n");
 
 	while(!die && freenect_process_events(f_ctx) >= 0 )
 	{
-		int16_t ax,ay,az;
-		freenect_get_raw_accel(f_dev, &ax, &ay, &az);
+		freenect_raw_tilt_state* state;
+		freenect_update_tilt_state(f_dev);
+		state = freenect_get_tilt_state(f_dev);;
 		double dx,dy,dz;
-		freenect_get_mks_accel(f_dev, &dx, &dy, &dz);
+		freenect_get_mks_accel(state, &dx, &dy, &dz);
 		//printf("\r raw acceleration: %4d %4d %4d  mks acceleration: %4f %4f %4f\r", ax, ay, az, dx, dy, dz);
 		fflush(stdout);
 	}
@@ -389,7 +384,7 @@ void *freenect_threadfunc(void *arg)
 	printf("\nShutting Down Streams...\n");
 
 	freenect_stop_depth(f_dev);
-	freenect_stop_rgb(f_dev);
+	freenect_stop_video(f_dev);
 
 	freenect_close_device(f_dev);
 	freenect_shutdown(f_ctx);
