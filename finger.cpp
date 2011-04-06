@@ -14,6 +14,19 @@
 #include <CLNUIDevice.h>
 #pragma comment(lib, "CLNUIDevice.lib")
 
+//MOUSE
+//X11 control
+#include <assert.h>
+#include <X11/Xlib.h>
+#include <X11/Xatom.h>
+#include <X11/extensions/XTest.h>
+int snstvty = 0;
+float pointerx = 0, pointery = 0;
+float mousex = 0, mousey = 0;
+float tmousex = 0, tmousey = 0;
+int screenw = 0, screenh = 0;
+int pusx = 0, pusy = 0;
+
 void unproject(unsigned short* depth, float* x, float* y, float* z) {
 	int u,v;
 	const float f = 500.0f;
@@ -39,7 +52,7 @@ void unproject(unsigned short* depth, float* x, float* y, float* z) {
 	}
 }
 
-std::vector<cv::Point2i> detectFingertips(cv::Mat1f z, float zMin = 0.0f, float zMax = 0.75f, cv::Mat1f& debugFrame = cv::Mat1f()) {
+std::vector<cv::Point2i> detectFingertips(cv::Mat1f z, float zMin = 0.0f, float zMax = 0.75f, cv::Mat1f& debugFrame = cv::Mat1f(), Scalar& center) {
 	using namespace cv;
 	using namespace std;
 	bool debug = !debugFrame.empty();
@@ -58,7 +71,7 @@ std::vector<cv::Point2i> detectFingertips(cv::Mat1f z, float zMin = 0.0f, float 
 			double area = cv::contourArea(contourMat);
 
 			if (area > 3000)  { // possible hand
-				Scalar center = mean(contourMat);
+			        center = mean(contourMat);
 				Point centerPoint = Point(center.val[0], center.val[1]);
 
 				vector<Point> approxCurve;
@@ -116,7 +129,7 @@ std::vector<cv::Point2i> detectFingertips(cv::Mat1f z, float zMin = 0.0f, float 
 
 					// draw approxCurve hull
 					for (int j=0; j<hull.size(); j++) {
-						cv::circle(debugFrame, approxCurve[hull[j]], 10, Scalar(1.0f), 3);
+					  cv::circle(debugFrame, approxCurve[hull[j]], 10, Scalar(1.0f), 3);
 						if(j == 0) {
 							cv::line(debugFrame, approxCurve[hull[j]], approxCurve[hull[hull.size()-1]], Scalar(1.0f));
 						} else {
@@ -131,10 +144,77 @@ std::vector<cv::Point2i> detectFingertips(cv::Mat1f z, float zMin = 0.0f, float 
 	return fingerTips;
 }
 
-void main() {
+int mouse(Scalar& center){
+
+                        int px = center.val[0];
+                        int py= center.val[1];
+  
+                        pointerx = ((px-640.0f) / -1);
+			pointery = (py);
+			mousex = ((pointerx / 630.0f) * screenw);
+			mousey = ((pointery / 470.0f) * screenh);
+			int mx , my;
+			mx = mousex;
+			my = mousey;
+
+			if(mx > tmousex) tmousex+= (mx - tmousex) / 7;
+			if(mx < tmousex) tmousex-= (tmousex - mx) / 7;
+			if(my > tmousey) tmousey+= (my - tmousey) / 7;
+			if(my < tmousey) tmousey-= (tmousey - my) / 7;			
+			
+			if((pusx <= (mx + 15))  && (pusx >= (mx - 15)) && (pusy <= (my + 15))  && (pusy >= (my - 15))) {
+				pause++;
+				printf("\n%d\n", pause);
+			} else {
+				pusx = mx;
+				pusy = my;
+				pause = 0;
+			}		
+			
+			if(pause > 15) {
+				pause = -30;
+				XTestFakeButtonEvent(display, 1, TRUE, CurrentTime);
+				XTestFakeButtonEvent(display, 1, FALSE, CurrentTime);
+			}
+
+			//printf("-- %d x %d -- \n", mx, my);
+
+			XTestFakeMotionEvent(display, -1, tmousex-200, tmousey-200, CurrentTime);
+			XSync(display, 0);
+
+			//printf("\n\n %d  -  %d \n\n", mx, my);
+
+}
+
+void main(int argc, char **argv) {
 	using namespace std;
 	using namespace cv;
 	using namespace TUIO;
+
+	//Initializing Mouse Stuff
+
+	if (argc == 2) {
+		snstvty = atoi(argv[1]);
+	} else {
+		snstvty = 20000;
+	}
+
+	mousemask(ALL_MOUSE_EVENTS, NULL);
+
+	display = XOpenDisplay(0);
+
+	root_window = DefaultRootWindow(display);
+
+	screenw = XDisplayWidth(display, SCREEN);
+	screenh = XDisplayHeight(display, SCREEN);
+
+	printf("\nDefault Display Found\n");
+	printf("\nSize: %dx%d\n", screenw, screenh);
+
+	screenw += 200;
+	screenh += 200;
+
+	// Done Initializing Mouse Stuff
 
 	cv::Mat depthFrameRaw(480, 640, CV_16UC1);
 	cv::Mat x(480, 640, CV_32FC1);
@@ -178,7 +258,8 @@ void main() {
 					fingerTips = detectFingertips(z, 0, 0.75, debugFrame);
 				} else {
 					// find fingertips
-					fingerTips = detectFingertips(z);
+				  Scalar center;
+				  fingerTips = detectFingertips(z, &center);
 
 					// draw fingetips
 					for(vector<Point2i>::iterator it = fingerTips.begin(); it != fingerTips.end(); it++) {
@@ -210,7 +291,7 @@ void main() {
 				tuio->commitFrame();
 
 				cout << tuio->getTuioCursors().size() << endl;
-				
+				int mouse();
 				// draw our debugframe
 				imshow("debugFrame", debugFrame);
 			}
