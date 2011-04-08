@@ -1,27 +1,10 @@
-Ooblik's Kinect Mouse - By Tim Flaman - tim@timflaman.com
-=========================================================
+Kinect Mouse
+Credit to:
+Tim Flaman - tim@timflaman.com for mouse movement http://www.twitter.com/timOoblik
+Robert Walter - for finger tracking and surface touching http://twitter.com/robbeofficial
 
-This is a demo program to allow the control of the mouse by Microsoft's 
-Kinect sensor. This will not work unless you have compiled and installed
-the Freenect drivers located at https://github.com/OpenKinect/libfreenect
-
-Based off of the Freenect example from the OpenKinect Project.
-
-Probably has to be run as root...
-
-Required Libraries:
- -- libfreenect
- -- libx11-dev
- -- libxtst-dev
-
-To build: 
-
- - Open Terminal and navigate to kinect_mouse dir
- - mkdir build
- - cd build
- - cmake ..
- - make
-
-
-Special thanks to OpenKinect Project. http://www.openkinect.org
-For updates follow me on twitter http://www.twitter.com/timOoblik
+This is a userspace driver to allow multitouch contol by Microsoft's 
+Kinect sensor.
+Required:
+openkinect drivers
+openCV

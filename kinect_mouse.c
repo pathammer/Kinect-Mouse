@@ -22,6 +22,8 @@
  *
  * Binary distributions must follow the binary distribution requirements of
  * either License.
+ * 
+ * This file has been additionally modified by: Tim Flaman
  */
 
 
