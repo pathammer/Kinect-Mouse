@@ -1,0 +1,328 @@
+------------------------------------------------------------
+revno: 30
+tags: v1.0.5
+committer: Henrik Rydberg <rydberg@bitmath.org>
+branch nick: trunk
+timestamp: Tue 2011-03-15 17:03:53 +0100
+message:
+  Release v1.0.5
+------------------------------------------------------------
+revno: 29
+committer: Henrik Rydberg <rydberg@bitmath.org>
+branch nick: trunk
+timestamp: Tue 2011-03-15 15:47:40 +0100
+message:
+  Complete function documentation in evemu.h
+  
+  For reasons not likely to become clear again at the moment, only
+  two functions were ever documented, and those were made in the
+  source file where nobody can see it. This patch adds function
+  documentation to all functions in the header file.
+  
+  Signed-off-by: Henrik Rydberg <rydberg@euromail.se>
+------------------------------------------------------------
+revno: 28
+committer: Henrik Rydberg <rydberg@bitmath.org>
+branch nick: trunk
+timestamp: Tue 2011-03-15 15:47:21 +0100
+message:
+  Add the missing evemu_set_name() function
+  
+  During the evolution of evemu, the process of setting the device
+  name has shifted towards the evemu_extract() and evemu_read() functions,
+  rendering the initial name in evemu_new() more or less useless.
+  This patch adds the missing evemu_set_name() function, in order to
+  make it possible to override the device name before device creation.
+  
+  Signed-off-by: Henrik Rydberg <rydberg@euromail.se>
+------------------------------------------------------------
+revno: 27
+committer: Henrik Rydberg <rydberg@bitmath.org>
+branch nick: trunk
+timestamp: Mon 2011-03-14 18:07:46 +0100
+message:
+  Move realtime read into its own function
+  
+  The realtime read functionality is needed in many places,
+  in particular in the test frameworks of utouch-frame and utouch-grail.
+  Move the realtime code from evemu_play into its own function,
+  and make it part of the API.
+  
+  Signed-off-by: Henrik Rydberg <rydberg@euromail.se>
+------------------------------------------------------------
+revno: 26
+committer: Stephen M. Webb <stephen.webb@canonical.com>
+branch nick: utouch-evemu
+timestamp: Wed 2011-02-02 21:29:13 -0500
+message:
+  Added GPL-3 licensing to source files.
+------------------------------------------------------------
+revno: 25
+committer: Henrik Rydberg <rydberg@bitmath.org>
+branch nick: trunk
+timestamp: Wed 2011-01-05 11:20:10 +0100
+message:
+  Bump to version 1.0.4
+------------------------------------------------------------
+revno: 24
+committer: Henrik Rydberg <rydberg@bitmath.org>
+branch nick: trunk
+timestamp: Wed 2011-01-05 11:19:44 +0100
+message:
+  Add man-pages for the various evemu-tools.
+  
+  Using asciidoc and xmlto, conditional on their availability at configure
+  time.
+  
+  Signed-off-by: Peter Hutterer <peter.hutterer@who-t.net>
+  Signed-off-by: Henrik Rydberg <rydberg@euromail.se>
+------------------------------------------------------------
+revno: 23
+committer: Henrik Rydberg <rydberg@bitmath.org>
+branch nick: trunk
+timestamp: Wed 2011-01-05 11:18:59 +0100
+message:
+  Use libtool to handle libutouch-evemu library flags.
+  
+  Signed-off-by: Peter Hutterer <peter.hutterer@who-t.net>
+  Signed-off-by: Henrik Rydberg <rydberg@euromail.se>
+------------------------------------------------------------
+revno: 22
+committer: Henrik Rydberg <rydberg@bitmath.org>
+branch nick: trunk
+timestamp: Wed 2011-01-05 11:18:32 +0100
+message:
+  SOURCES is not needed for <target>.c files.
+  
+  If the only source for a bin_PROGRAM=foo is foo.c, automake picks it up
+  automatically.
+  
+  Signed-off-by: Peter Hutterer <peter.hutterer@who-t.net>
+  Signed-off-by: Henrik Rydberg <rydberg@euromail.se>
+------------------------------------------------------------
+revno: 21
+committer: Henrik Rydberg <rydberg@bitmath.org>
+branch nick: trunk
+timestamp: Wed 2011-01-05 11:17:53 +0100
+message:
+  Silence compiler warning
+  
+  evemu.c: In function 'evemu_write':
+  evemu.c:244:1: warning: control reaches end of non-void function
+  
+  return 0, assuming that the return value should be 0 on success or nonzero
+  otherwise.
+  
+  Signed-off-by: Peter Hutterer <peter.hutterer@who-t.net>
+  Signed-off-by: Henrik Rydberg <rydberg@euromail.se>
+------------------------------------------------------------
+revno: 20
+committer: Henrik Rydberg <rydberg@bitmath.org>
+branch nick: trunk
+timestamp: Wed 2011-01-05 11:17:01 +0100
+message:
+  Document output format in README.
+  
+  Signed-off-by: Peter Hutterer <peter.hutterer@who-t.net>
+  Signed-off-by: Henrik Rydberg <rydberg@euromail.se>
+------------------------------------------------------------
+revno: 19
+committer: Henrik Rydberg <rydberg@bitmath.org>
+branch nick: trunk
+timestamp: Wed 2011-01-05 11:16:16 +0100
+message:
+  Add a couple of includes to silence compiler warnings.
+  
+  Signed-off-by: Peter Hutterer <peter.hutterer@who-t.net>
+  Signed-off-by: Henrik Rydberg <rydberg@euromail.se>
+------------------------------------------------------------
+revno: 18
+tags: v1.0.3
+committer: Henrik Rydberg <rydberg@bitmath.org>
+branch nick: trunk
+timestamp: Wed 2010-12-22 08:47:53 +0100
+message:
+  Bump to version 1.0.3
+------------------------------------------------------------
+revno: 17
+committer: Henrik Rydberg <rydberg@bitmath.org>
+branch nick: trunk
+timestamp: Wed 2010-12-22 08:47:25 +0100
+message:
+  Add source header to distribution
+  
+  Added the missing header file to the sources, so that it also
+  ends up in the distro tarball.
+------------------------------------------------------------
+revno: 16
+tags: v1.0.2
+committer: Henrik Rydberg <rydberg@bitmath.org>
+branch nick: trunk
+timestamp: Wed 2010-12-22 08:23:24 +0100
+message:
+  Bump to version 1.0.2
+------------------------------------------------------------
+revno: 15
+committer: Henrik Rydberg <rydberg@bitmath.org>
+branch nick: trunk
+timestamp: Wed 2010-12-22 08:22:51 +0100
+message:
+  Use a single abi version variable
+  
+  Simplify versioning by using a single coded variable.
+------------------------------------------------------------
+revno: 14
+tags: v1.0.1
+committer: Henrik Rydberg <rydberg@bitmath.org>
+branch nick: trunk
+timestamp: Tue 2010-12-21 20:43:35 +0100
+message:
+  Bump to version 1.0.1
+------------------------------------------------------------
+revno: 13
+committer: Henrik Rydberg <rydberg@bitmath.org>
+branch nick: trunk
+timestamp: Tue 2010-12-21 20:43:07 +0100
+message:
+  Document the new/delete semantics
+  
+  There is more to do on documentation, but since these are new,
+  add documentation for them first.
+------------------------------------------------------------
+revno: 12
+committer: Henrik Rydberg <rydberg@bitmath.org>
+branch nick: trunk
+timestamp: Tue 2010-12-21 20:42:33 +0100
+message:
+  Complete current evemu api
+  
+  Add missing accessor functions for the device.
+------------------------------------------------------------
+revno: 11
+committer: Henrik Rydberg <rydberg@bitmath.org>
+branch nick: trunk.abi
+timestamp: Tue 2010-12-21 17:51:53 +0100
+message:
+  Support kernel device properties
+  
+  In the upcoming 2.6.38 kernel, there is a new device property
+  bitfield, useful during device setup. This patch adds support
+  for it.
+------------------------------------------------------------
+revno: 10
+committer: Henrik Rydberg <rydberg@bitmath.org>
+branch nick: trunk.abi
+timestamp: Tue 2010-12-21 17:50:56 +0100
+message:
+  Make evemu ABI resilient
+  
+  Hide the evemu struct, make it versioned, and instead use new/delete
+  and accessor functions. This should give us enough ABI stability to
+  run mixed library implementations.
+------------------------------------------------------------
+revno: 9
+git commit: a8df0405686350c3145b3e5119d796c6642339fd
+committer: Henrik Rydberg <rydberg@euromail.se>
+timestamp: Thu 2010-11-18 14:56:30 +0100
+message:
+  Test case for wetab
+  
+  Sequence of 11 taps on a wetab
+  
+  Without the tapping fix, the pointer will only follow the taps
+  once or twice. With tapping fixed, eleven distinct pointer positions
+  can be seen.
+  
+  Tested-by: debb1046@gmail.com
+  Signed-off-by: Henrik Rydberg <rydberg@euromail.se>
+------------------------------------------------------------
+revno: 8
+git commit: ee6f73d719d8188ecfcc7f562f845f0a3461e25f
+committer: Henrik Rydberg <rydberg@euromail.se>
+timestamp: Thu 2010-09-23 17:53:46 +0200
+message:
+  Flush stdout before entering the event loop
+  
+  Scripts that need the device node may have difficulties if
+  the stream is not flushed before entering the event loop.
+  
+  Signed-off-by: Henrik Rydberg <rydberg@euromail.se>
+------------------------------------------------------------
+revno: 7
+git commit: 5059c335c46c3d250deaa6afaca2f7740bdddf36
+committer: Henrik Rydberg <rydberg@euromail.se>
+timestamp: Wed 2010-09-22 17:14:42 +0200
+message:
+  Correct documentation on evemu-play usage
+  
+  The data should be directed into the program, not given
+  as argument. Also make evemu-play complain if given two
+  arguments.
+  
+  Signed-off-by: Henrik Rydberg <rydberg@euromail.se>
+------------------------------------------------------------
+revno: 6
+tags: v1.0.0
+git commit: 7a6456b7db6faa279c669db2e5838a4d6de23eda
+committer: Henrik Rydberg <rydberg@euromail.se>
+timestamp: Sun 2010-09-19 20:15:10 +0200
+message:
+  Rename project and libraries to utouch-evemu
+  
+  This project is part of utouch, and the library should be
+  named thereafter. Also helps avoid confusion with an unrelated
+  project with the same name.
+  
+  Signed-off-by: Henrik Rydberg <rydberg@euromail.se>
+------------------------------------------------------------
+revno: 5
+git commit: 7084c36b584acc4626b113b82af400f88f04897b
+committer: Henrik Rydberg <rydberg@euromail.se>
+timestamp: Sun 2010-09-19 10:43:49 +0200
+message:
+  Correct 3M ABS_MT_ORIENTATION property range
+  
+  Should be [0, 1] for width/height devices, patch sent.
+  
+  Signed-off-by: Henrik Rydberg <rydberg@euromail.se>
+------------------------------------------------------------
+revno: 4
+git commit: 257fcdc55595335b9ffb31a436fc310ed6d9e0d4
+committer: Henrik Rydberg <rydberg@euromail.se>
+timestamp: Sun 2010-09-19 10:29:30 +0200
+message:
+  Show errno when failing to create device
+  
+  Signed-off-by: Henrik Rydberg <rydberg@euromail.se>
+------------------------------------------------------------
+revno: 3
+git commit: 643ebb8d70a99fbb17e9c9b9b89122b039ef5bd0
+committer: Henrik Rydberg <rydberg@euromail.se>
+timestamp: Sun 2010-09-19 09:54:48 +0200
+message:
+  Do not allow spaces in device name
+  
+  Signed-off-by: Henrik Rydberg <rydberg@euromail.se>
+------------------------------------------------------------
+revno: 2
+git commit: 576078ffa78a62a2c807f5a3b471aed815d3ace4
+committer: Henrik Rydberg <rydberg@bitmath.org>
+timestamp: Sun 2010-09-19 09:38:18 +0200
+message:
+  Add a recording from the 3M 22' device
+  
+  This data is using the MT slots version of the 3M driver.
+  
+  Signed-off-by: Henrik Rydberg <rydberg@bitmath.org>
+------------------------------------------------------------
+revno: 1
+git commit: 9bec5056ec35008afd4d68528718fd4519cd3503
+committer: Henrik Rydberg <rydberg@euromail.se>
+timestamp: Sat 2010-09-18 19:10:11 +0200
+message:
+  Initial evemu commit
+  
+  Evemu is a kernel device and emulator, which allows for remote
+  creation and testing of arbitrary devices.
+  
+  Signed-off-by: Henrik Rydberg <rydberg@euromail.se>

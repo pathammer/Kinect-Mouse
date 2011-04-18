@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien\TUIO">
+      <UniqueIdentifier>{3d5398b1-51dd-409b-aa0f-2548b7c71549}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\TUIO">
+      <UniqueIdentifier>{c2c8ddd2-feec-47bd-931e-15357b349f8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\osc">
+      <UniqueIdentifier>{f7bf8b4d-f940-4ec1-bc2f-6aba22b3972c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\osc">
+      <UniqueIdentifier>{d2da54b7-4c3c-427f-bb31-f588155c5b2e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="TUIO\TuioClient.cpp">
+      <Filter>Quelldateien\TUIO</Filter>
+    </ClCompile>
+    <ClCompile Include="TUIO\TuioTime.cpp">
+      <Filter>Quelldateien\TUIO</Filter>
+    </ClCompile>
+    <ClCompile Include="TUIO\TuioServer.cpp">
+      <Filter>Quelldateien\TUIO</Filter>
+    </ClCompile>
+    <ClCompile Include="oscpack\ip\IpEndpointName.cpp">
+      <Filter>Quelldateien\osc</Filter>
+    </ClCompile>
+    <ClCompile Include="oscpack\ip\win32\UdpSocket.cpp">
+      <Filter>Quelldateien\osc</Filter>
+    </ClCompile>
+    <ClCompile Include="oscpack\ip\win32\NetworkingUtils.cpp">
+      <Filter>Quelldateien\osc</Filter>
+    </ClCompile>
+    <ClCompile Include="oscpack\osc\OscOutboundPacketStream.cpp">
+      <Filter>Quelldateien\osc</Filter>
+    </ClCompile>
+    <ClCompile Include="oscpack\osc\OscPrintReceivedElements.cpp">
+      <Filter>Quelldateien\osc</Filter>
+    </ClCompile>
+    <ClCompile Include="oscpack\osc\OscReceivedElements.cpp">
+      <Filter>Quelldateien\osc</Filter>
+    </ClCompile>
+    <ClCompile Include="oscpack\osc\OscTypes.cpp">
+      <Filter>Quelldateien\osc</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TUIO\TuioClient.h">
+      <Filter>Headerdateien\TUIO</Filter>
+    </ClInclude>
+    <ClInclude Include="TUIO\TuioTime.h">
+      <Filter>Headerdateien\TUIO</Filter>
+    </ClInclude>
+    <ClInclude Include="TUIO\TuioContainer.h">
+      <Filter>Headerdateien\TUIO</Filter>
+    </ClInclude>
+    <ClInclude Include="TUIO\TuioCursor.h">
+      <Filter>Headerdateien\TUIO</Filter>
+    </ClInclude>
+    <ClInclude Include="TUIO\TuioListener.h">
+      <Filter>Headerdateien\TUIO</Filter>
+    </ClInclude>
+    <ClInclude Include="TUIO\TuioObject.h">
+      <Filter>Headerdateien\TUIO</Filter>
+    </ClInclude>
+    <ClInclude Include="TUIO\TuioPoint.h">
+      <Filter>Headerdateien\TUIO</Filter>
+    </ClInclude>
+    <ClInclude Include="TUIO\TuioServer.h">
+      <Filter>Headerdateien\TUIO</Filter>
+    </ClInclude>
+    <ClInclude Include="oscpack\ip\IpEndpointName.h">
+      <Filter>Headerdateien\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="oscpack\ip\UdpSocket.h">
+      <Filter>Headerdateien\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="oscpack\osc\MessageMappingOscPacketListener.h">
+      <Filter>Headerdateien\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="oscpack\ip\NetworkingUtils.h">
+      <Filter>Headerdateien\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="oscpack\osc\OscException.h">
+      <Filter>Headerdateien\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="oscpack\osc\OscHostEndianness.h">
+      <Filter>Headerdateien\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="oscpack\osc\OscOutboundPacketStream.h">
+      <Filter>Headerdateien\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="oscpack\osc\OscPacketListener.h">
+      <Filter>Headerdateien\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="oscpack\osc\OscPrintReceivedElements.h">
+      <Filter>Headerdateien\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="oscpack\osc\OscReceivedElements.h">
+      <Filter>Headerdateien\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="oscpack\osc\OscTypes.h">
+      <Filter>Headerdateien\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="oscpack\ip\PacketListener.h">
+      <Filter>Headerdateien\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="oscpack\ip\TimerListener.h">
+      <Filter>Headerdateien\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenCV.h">
+      <Filter>Quelldateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Kinect.h">
+      <Filter>Quelldateien</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

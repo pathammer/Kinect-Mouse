@@ -3,8 +3,11 @@ Credit to:
 Tim Flaman - tim@timflaman.com for mouse movement http://www.twitter.com/timOoblik
 Robert Walter - for finger tracking and surface touching http://twitter.com/robbeofficial
 
-This is a userspace driver to allow multitouch contol by Microsoft's 
-Kinect sensor.
+This is a userspace driver to allow multitouch contol by Microsoft's Kinect sensor.
 Required:
-openkinect drivers
+openkinect libfreenect drivers - https://github.com/OpenKinect/libfreenect
 openCV
+OpenGL
+Glut
+Pthreads
+Utouch & Utouch-evemu - https://launchpad.net/utouch-evemu

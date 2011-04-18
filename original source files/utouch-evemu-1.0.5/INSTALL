@@ -1,0 +1,38 @@
+evemu - Kernel device emulation
+
+To build, you need to have the autoconf and libtool packages
+installed. Then, do
+
+   ./autogen.sh
+   ./configure
+   make
+
+To extract the properties of a device at /dev/input/eventX, do
+
+   sudo ./tools/evemu-describe /dev/input/eventX > device.properties
+
+To record a stream of events, do
+
+   sudo ./tools/evemu-record /dev/input/eventX > device.data
+
+To create a device from the properties, do
+
+   sudo ./tools/evemu-device device.properties
+
+To replay a stream of events, do
+
+   sudo ./tools/evemu-play /dev/input/eventY < device.data
+
+To destroy the device, do
+
+   sudo ./tools/evemu-destroy /dev/input/eventY
+
+To install evemu, do
+
+   sudo make install
+
+By default, evemu installs to /usr/local. To change, use the --prefix
+configure option.
+
+Enjoy,
+Henrik
