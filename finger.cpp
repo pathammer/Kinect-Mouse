@@ -59,8 +59,6 @@
 #include <libfreenect.h>//kinect driver by openkinect
 
 #define SCREEN (DefaultScreen(display))
-
-
 int depth;
 char *display_name;
 
@@ -69,6 +67,7 @@ Window main_window;
 Window root_window;
 
 freenect_context *f_ctx;
+freenect_usb_context *usb_ctx;
 freenect_device *f_dev;
 int freenect_angle = 17;
 int freenect_led;
@@ -275,7 +274,6 @@ void unproject(unsigned short* depth, float* x, float* y, float* z) {
 }
 
 int mouse(cv::Scalar& center){
-
   int px = center.val[0];
   int py= center.val[1];
   
@@ -303,14 +301,14 @@ int mouse(cv::Scalar& center){
 			
   if(hold > 15) {
     hold = -30;
-    XTestFakeButtonEvent(display, 1, 1, CurrentTime);
-    XTestFakeButtonEvent(display, 1, 0, CurrentTime);
+    //XTestFakeButtonEvent(display, 1, 1, CurrentTime);
+    //XTestFakeButtonEvent(display, 1, 0, CurrentTime);
   }
 
   //printf("-- %d x %d -- \n", mx, my);
 
-  XTestFakeMotionEvent(display, -1, tmousex-200, tmousey-200, CurrentTime);
-  XSync(display, 0);
+  //XTestFakeMotionEvent(display, -1, tmousex-200, tmousey-200, CurrentTime);
+  //XSync(display, 0);
 
   //printf("\n\n %d  -  %d \n\n", mx, my);
 
@@ -333,6 +331,7 @@ void printUsage() {
 }
 
 void *freenect_threadfunc(void *arg) {
+	printf("freenect_thread started!\n");
   freenect_set_tilt_degs(f_dev,freenect_angle);
   freenect_set_led(f_dev,LED_GREEN);
   freenect_set_depth_callback(f_dev, depth_cb);
@@ -405,8 +404,8 @@ int main(int argc, char **argv) {
   float zMin = 0.0f;
   float zMax = 0.75f;
 
-  if (!freenect_init(&f_ctx, NULL)) {
-    printf("freenect_init() failed\n");
+  if (freenect_init(&f_ctx, NULL)!=0) {
+    printf("freenect_init() failed - %d\n",freenect_init(&f_ctx, NULL));
     return 1;
   }
   freenect_set_log_level(f_ctx, FREENECT_LOG_DEBUG);//should look into how to read this log
@@ -423,7 +422,7 @@ int main(int argc, char **argv) {
     printf("\nCOULD NOT LOCATE KINECT :(\n");
     return 1;
   }
-		
+	printf("Starting freenect_thread\n");
   int res = pthread_create(&freenect_thread, NULL, freenect_threadfunc, NULL);
   if (res) {
     printf("Could Not Create Thread\n");
