@@ -1,6 +1,6 @@
-LIB = -lglut -lGLU -lfreenect -lcv -lhighgui -lcvaux
+LIB = -lglut -lGLU -lfreenect -lcv -lhighgui -lcvaux -lX11 -lXtst
 INC = -I/usr/local/include/libfreenect/
-OLIB = -lglut -lGLU -lfreenect -lcv -lhighgui -lcvaux
+OLIB = -lglut -lGLU -lfreenect -lcv -lhighgui -lcvaux -lX11 -lXtst
 OINC = -I/usr/local/include/libfreenect/
 old : kinect_mouse.c
 	gcc $(OLIB) $(OINC) kinect_mouse.c -o old-mouse.out 

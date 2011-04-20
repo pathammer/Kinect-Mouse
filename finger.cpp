@@ -79,7 +79,7 @@ float mousex = 0, mousey = 0;
 float tmousex = 0, tmousey = 0;
 int screenw = 0, screenh = 0;
 int pusx = 0, pusy = 0; //got to change this sometime
-
+IplImage *win1=0;
 int key;
 
 uint8_t gl_depth_front[640*480*4];
@@ -100,6 +100,43 @@ cv::Scalar center;
 pthread_t freenect_thread;
 pthread_mutex_t gl_backbuf_mutex = PTHREAD_MUTEX_INITIALIZER;
 pthread_cond_t gl_frame_cond = PTHREAD_COND_INITIALIZER;
+
+int mouse(int px, int py){ 
+  pointerx = ((px-640.0f) / -1);
+  pointery = (py);
+  mousex = ((pointerx / 630.0f) * screenw);
+  mousey = ((pointery / 470.0f) * screenh);
+  int mx , my;
+  mx = mousex;
+  my = mousey;
+
+  if(mx > tmousex) tmousex+= (mx - tmousex) / 7;
+  if(mx < tmousex) tmousex-= (tmousex - mx) / 7;
+  if(my > tmousey) tmousey+= (my - tmousey) / 7;
+  if(my < tmousey) tmousey-= (tmousey - my) / 7;			
+			
+  if((pusx <= (mx + 15))  && (pusx >= (mx - 15)) && (pusy <= (my + 15))  && (pusy >= (my - 15))) {
+    hold++;
+    printf("\n%d\n", hold);
+  } else {
+    pusx = mx;
+    pusy = my;
+    hold = 0;
+  }		
+			
+  if(hold > 15) {
+    hold = -30;
+    XTestFakeButtonEvent(display, 1, 1, CurrentTime);
+    XTestFakeButtonEvent(display, 1, 0, CurrentTime);
+  }
+
+  //printf("-- %d x %d -- \n", mx, my);
+
+  XTestFakeMotionEvent(display, -1, tmousex-200, tmousey-200, CurrentTime);
+  XSync(display, 0);
+
+  printf("\n\n %d  -  %d \n\n", mx, my);
+}
 
 std::vector<cv::Point2i> detectFingertips() {
   using namespace cv;
@@ -192,7 +229,9 @@ std::vector<cv::Point2i> detectFingertips() {
       }
     }
   }
-
+  IplImage tmp_img = debugFrame;
+printf("debug");
+  win1 = &tmp_img;
   return fingerTips;
 }
 
@@ -243,8 +282,7 @@ void depth_cb(freenect_device *dev, void *v_depth, uint32_t timestamp)
   if(alert > snstvty) {	
     printf("\n!!!TOO CLOSE!!!\n");
   }
-  //Ready to pass gl_deapth_back to openCV processing. 1st convert matrix
-  fingerTips = detectFingertips();
+  
   pthread_cond_signal(&gl_frame_cond);
   pthread_mutex_unlock(&gl_backbuf_mutex);
 }
@@ -273,47 +311,6 @@ void unproject(unsigned short* depth, float* x, float* y, float* z) {
   }
 }
 
-int mouse(cv::Scalar& center){
-  int px = center.val[0];
-  int py= center.val[1];
-  
-  pointerx = ((px-640.0f) / -1);
-  pointery = (py);
-  mousex = ((pointerx / 630.0f) * screenw);
-  mousey = ((pointery / 470.0f) * screenh);
-  int mx , my;
-  mx = mousex;
-  my = mousey;
-
-  if(mx > tmousex) tmousex+= (mx - tmousex) / 7;
-  if(mx < tmousex) tmousex-= (tmousex - mx) / 7;
-  if(my > tmousey) tmousey+= (my - tmousey) / 7;
-  if(my < tmousey) tmousey-= (tmousey - my) / 7;			
-			
-  if((pusx <= (mx + 15))  && (pusx >= (mx - 15)) && (pusy <= (my + 15))  && (pusy >= (my - 15))) {
-    hold++;
-    printf("\n%d\n", hold);
-  } else {
-    pusx = mx;
-    pusy = my;
-    hold = 0;
-  }		
-			
-  if(hold > 15) {
-    hold = -30;
-    //XTestFakeButtonEvent(display, 1, 1, CurrentTime);
-    //XTestFakeButtonEvent(display, 1, 0, CurrentTime);
-  }
-
-  //printf("-- %d x %d -- \n", mx, my);
-
-  //XTestFakeMotionEvent(display, -1, tmousex-200, tmousey-200, CurrentTime);
-  //XSync(display, 0);
-
-  //printf("\n\n %d  -  %d \n\n", mx, my);
-
-}
-
 void rgb_cb(freenect_device *dev, void *rgb, uint32_t timestamp)
 {
   pthread_mutex_lock(&gl_backbuf_mutex);
@@ -331,22 +328,30 @@ void printUsage() {
 }
 
 void *freenect_threadfunc(void *arg) {
-	printf("freenect_thread started!\n");
+  printf("freenect_thread started!\n");
   freenect_set_tilt_degs(f_dev,freenect_angle);
   freenect_set_led(f_dev,LED_GREEN);
   freenect_set_depth_callback(f_dev, depth_cb);
   freenect_set_video_callback(f_dev, rgb_cb);
   freenect_set_video_format(f_dev, FREENECT_VIDEO_RGB);
   freenect_set_depth_format(f_dev, FREENECT_DEPTH_11BIT);
-	
-  while ( (key = cvWaitKey(1)) != 27) { //while escape key is not pressed	
+  freenect_start_depth(f_dev);
+  freenect_start_video(f_dev);
+  
+  win1= cvCreateImage(cvSize(640,480), 8, 3 );
+  
+  while ( (key = cvWaitKey(500)) != 27) { //while escape key is not pressed	
+  	printf("%d\n",key);
     freenect_raw_tilt_state* state;
     freenect_update_tilt_state(f_dev);
     state = freenect_get_tilt_state(f_dev);;
     double dx,dy,dz;
     freenect_get_mks_accel(state, &dx, &dy, &dz);
+	//Ready to pass gl_deapth_back to openCV processing. 1st convert matrix
+  fingerTips = detectFingertips();
     //printf("\r raw acceleration: %4d %4d %4d  mks acceleration: %4f %4f %4f\r", ax, ay, az, dx, dy, dz);
     fflush(stdout);
+	cvShowImage( "Kmouse", win1);
   }
   printf("\nShutting Down Streams...\n");
 
@@ -357,6 +362,7 @@ void *freenect_threadfunc(void *arg) {
   freenect_shutdown(f_ctx);
 
   printf("-- done!\n");
+  pthread_exit(0);
 }
 
 int main(int argc, char **argv) {
@@ -428,6 +434,7 @@ int main(int argc, char **argv) {
     printf("Could Not Create Thread\n");
     return 1;
   }
+  pthread_join(freenect_thread,NULL);
 /* 
     std::vector<cv::Point2i> fingerTips;
 
