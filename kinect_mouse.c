@@ -408,7 +408,7 @@ int main(int argc, char **argv)
 		snstvty = 20000;
 	}
 
-	mousemask(ALL_MOUSE_EVENTS, NULL);
+	//mousemask(ALL_MOUSE_EVENTS, NULL);
 
 	display = XOpenDisplay(0);
 
