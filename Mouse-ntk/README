@@ -1,3 +1,6 @@
+For compilation...
+        cd build
+
 To compile project with dependencies
 	make 
 	
@@ -6,3 +9,8 @@ To compile project
 	
 To compile demo.cpp
 	make demo/fast
+
+
+For execution...
+        cd build/bin
+        ./demo
