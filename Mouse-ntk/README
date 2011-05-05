@@ -1,0 +1,8 @@
+To compile project with dependencies
+	make 
+	
+To compile project 
+	make demo
+	
+To compile demo.cpp
+	make demo/fast
