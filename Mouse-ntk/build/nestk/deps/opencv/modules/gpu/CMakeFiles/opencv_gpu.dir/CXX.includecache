@@ -1,0 +1,244 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../nestk/deps/opencv/modules/gpu/../core/include/opencv2/core/core.hpp
+opencv2/core/types_c.h
+../nestk/deps/opencv/modules/gpu/../core/include/opencv2/core/opencv2/core/types_c.h
+opencv2/core/version.hpp
+../nestk/deps/opencv/modules/gpu/../core/include/opencv2/core/opencv2/core/version.hpp
+limits.h
+-
+algorithm
+-
+cmath
+-
+complex
+-
+map
+-
+new
+-
+string
+-
+vector
+-
+opencv2/core/operations.hpp
+../nestk/deps/opencv/modules/gpu/../core/include/opencv2/core/opencv2/core/operations.hpp
+opencv2/core/mat.hpp
+../nestk/deps/opencv/modules/gpu/../core/include/opencv2/core/opencv2/core/mat.hpp
+
+../nestk/deps/opencv/modules/gpu/../core/include/opencv2/core/core_c.h
+opencv2/core/types_c.h
+../nestk/deps/opencv/modules/gpu/../core/include/opencv2/core/opencv2/core/types_c.h
+
+../nestk/deps/opencv/modules/gpu/../core/include/opencv2/core/mat.hpp
+limits.h
+-
+string.h
+-
+
+../nestk/deps/opencv/modules/gpu/../core/include/opencv2/core/operations.hpp
+string.h
+-
+limits.h
+-
+ext/atomicity.h
+-
+bits/atomicity.h
+-
+windows.h
+../nestk/deps/opencv/modules/gpu/../core/include/opencv2/core/windows.h
+limits
+-
+
+../nestk/deps/opencv/modules/gpu/../core/include/opencv2/core/types_c.h
+assert.h
+-
+stdlib.h
+-
+string.h
+-
+float.h
+-
+stdint.h
+-
+intrin.h
+-
+emmintrin.h
+-
+fastmath.h
+-
+math.h
+-
+ipl.h
+-
+ipl/ipl.h
+-
+
+../nestk/deps/opencv/modules/gpu/../core/include/opencv2/core/version.hpp
+
+../nestk/deps/opencv/modules/gpu/../imgproc/include/opencv2/imgproc/imgproc.hpp
+opencv2/core/core.hpp
+../nestk/deps/opencv/modules/gpu/../imgproc/include/opencv2/imgproc/opencv2/core/core.hpp
+opencv2/imgproc/types_c.h
+../nestk/deps/opencv/modules/gpu/../imgproc/include/opencv2/imgproc/opencv2/imgproc/types_c.h
+
+../nestk/deps/opencv/modules/gpu/../imgproc/include/opencv2/imgproc/types_c.h
+opencv2/core/core_c.h
+../nestk/deps/opencv/modules/gpu/../imgproc/include/opencv2/imgproc/opencv2/core/core_c.h
+opencv2/imgproc/types_c.h
+../nestk/deps/opencv/modules/gpu/../imgproc/include/opencv2/imgproc/opencv2/imgproc/types_c.h
+
+../nestk/deps/opencv/modules/gpu/../objdetect/include/opencv2/objdetect/objdetect.hpp
+opencv2/core/core.hpp
+../nestk/deps/opencv/modules/gpu/../objdetect/include/opencv2/objdetect/opencv2/core/core.hpp
+
+../nestk/deps/opencv/modules/gpu/include/opencv2/gpu/devmem2d.hpp
+
+../nestk/deps/opencv/modules/gpu/include/opencv2/gpu/gpu.hpp
+vector
+-
+opencv2/core/core.hpp
+../nestk/deps/opencv/modules/gpu/include/opencv2/gpu/opencv2/core/core.hpp
+opencv2/imgproc/imgproc.hpp
+../nestk/deps/opencv/modules/gpu/include/opencv2/gpu/opencv2/imgproc/imgproc.hpp
+opencv2/objdetect/objdetect.hpp
+../nestk/deps/opencv/modules/gpu/include/opencv2/gpu/opencv2/objdetect/objdetect.hpp
+opencv2/gpu/devmem2d.hpp
+../nestk/deps/opencv/modules/gpu/include/opencv2/gpu/opencv2/gpu/devmem2d.hpp
+GpuMat_BetaDeprecated.hpp
+../nestk/deps/opencv/modules/gpu/include/opencv2/gpu/GpuMat_BetaDeprecated.hpp
+opencv2/gpu/matrix_operations.hpp
+../nestk/deps/opencv/modules/gpu/include/opencv2/gpu/opencv2/gpu/matrix_operations.hpp
+
+../nestk/deps/opencv/modules/gpu/include/opencv2/gpu/matrix_operations.hpp
+
+../nestk/deps/opencv/modules/gpu/include/opencv2/gpu/stream_accessor.hpp
+opencv2/gpu/gpu.hpp
+../nestk/deps/opencv/modules/gpu/include/opencv2/gpu/opencv2/gpu/gpu.hpp
+cuda_runtime_api.h
+../nestk/deps/opencv/modules/gpu/include/opencv2/gpu/cuda_runtime_api.h
+
+../nestk/deps/opencv/modules/gpu/src/cuda/cuda_shared.hpp
+opencv2/gpu/devmem2d.hpp
+../nestk/deps/opencv/modules/gpu/src/cuda/opencv2/gpu/devmem2d.hpp
+safe_call.hpp
+../nestk/deps/opencv/modules/gpu/src/cuda/safe_call.hpp
+cuda_runtime.h
+../nestk/deps/opencv/modules/gpu/src/cuda/cuda_runtime.h
+
+../nestk/deps/opencv/modules/gpu/src/cuda/safe_call.hpp
+cuda_runtime_api.h
+../nestk/deps/opencv/modules/gpu/src/cuda/cuda_runtime_api.h
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/arithm.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/precomp.hpp
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/beliefpropagation_gpu.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/precomp.hpp
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/bilateral_filter.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/precomp.hpp
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/color.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/precomp.hpp
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/constantspacebp_gpu.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/precomp.hpp
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/cudastream.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/precomp.hpp
+opencv2/gpu/stream_accessor.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/opencv2/gpu/stream_accessor.hpp
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/error.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/precomp.hpp
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/filtering.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/precomp.hpp
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/graphcuts.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/precomp.hpp
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/hog.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/precomp.hpp
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/imgproc_gpu.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/precomp.hpp
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/initialization.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/precomp.hpp
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/matrix_operations.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/precomp.hpp
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/mssegmentation.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/precomp.hpp
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/precomp.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/precomp.hpp
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/precomp.hpp
+cvconfig.h
+-
+iostream
+-
+limits
+-
+vector
+-
+algorithm
+-
+sstream
+-
+exception
+-
+opencv2/gpu/gpu.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/opencv2/gpu/gpu.hpp
+opencv2/imgproc/imgproc.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/opencv2/imgproc/imgproc.hpp
+cuda_shared.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/cuda_shared.hpp
+cuda_runtime_api.h
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/cuda_runtime_api.h
+opencv2/gpu/stream_accessor.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/opencv2/gpu/stream_accessor.hpp
+npp.h
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/npp.h
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/speckle_filtering.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/precomp.hpp
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/split_merge.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/precomp.hpp
+vector
+-
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/stereobm_gpu.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/precomp.hpp
+
+cvconfig.h
+

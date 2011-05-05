@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/haartraining/cvhaartraining.h
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/haartraining/haartraining.cpp
+cstdio
+-
+cstring
+-
+cstdlib
+-
+cvhaartraining.h
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/haartraining/cvhaartraining.h
+

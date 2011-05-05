@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../nestk/deps/libfreenect/include/libfreenect.h
+stdint.h
+-
+libusb-1.0/libusb.h
+-
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/libfreenect/fakenect/fakenect.c
+libfreenect.h
+-
+stdio.h
+-
+string.h
+-
+stdlib.h
+-
+math.h
+-
+unistd.h
+-
+time.h
+-
+assert.h
+-
+

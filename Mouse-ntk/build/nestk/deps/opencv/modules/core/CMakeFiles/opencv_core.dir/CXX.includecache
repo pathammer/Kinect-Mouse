@@ -1,0 +1,302 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../nestk/deps/opencv/include/opencv/cxcore.h
+opencv2/core/core_c.h
+../nestk/deps/opencv/include/opencv/opencv2/core/core_c.h
+opencv2/core/core.hpp
+../nestk/deps/opencv/include/opencv/opencv2/core/core.hpp
+
+../nestk/deps/opencv/modules/core/../../3rdparty/include/cblas.h
+f2c.h
+../nestk/deps/opencv/modules/core/../../3rdparty/include/f2c.h
+
+../nestk/deps/opencv/modules/core/../../3rdparty/include/clapack.h
+f2c.h
+../nestk/deps/opencv/modules/core/../../3rdparty/include/f2c.h
+cblas.h
+../nestk/deps/opencv/modules/core/../../3rdparty/include/cblas.h
+
+../nestk/deps/opencv/modules/core/../../3rdparty/include/f2c.h
+assert.h
+-
+math.h
+-
+ctype.h
+-
+stdlib.h
+-
+string.h
+-
+stdio.h
+-
+emmintrin.h
+../nestk/deps/opencv/modules/core/../../3rdparty/include/emmintrin.h
+
+../nestk/deps/opencv/modules/core/../../3rdparty/include/zconf.h
+windows.h
+-
+sys/types.h
+-
+unistd.h
+-
+unixio.h
+-
+
+../nestk/deps/opencv/modules/core/../../3rdparty/include/zlib.h
+zconf.h
+../nestk/deps/opencv/modules/core/../../3rdparty/include/zconf.h
+
+../nestk/deps/opencv/modules/core/include/opencv2/core/core.hpp
+opencv2/core/types_c.h
+../nestk/deps/opencv/modules/core/include/opencv2/core/opencv2/core/types_c.h
+opencv2/core/version.hpp
+../nestk/deps/opencv/modules/core/include/opencv2/core/opencv2/core/version.hpp
+limits.h
+-
+algorithm
+-
+cmath
+-
+complex
+-
+map
+-
+new
+-
+string
+-
+vector
+-
+opencv2/core/operations.hpp
+../nestk/deps/opencv/modules/core/include/opencv2/core/opencv2/core/operations.hpp
+opencv2/core/mat.hpp
+../nestk/deps/opencv/modules/core/include/opencv2/core/opencv2/core/mat.hpp
+
+../nestk/deps/opencv/modules/core/include/opencv2/core/core_c.h
+opencv2/core/types_c.h
+../nestk/deps/opencv/modules/core/include/opencv2/core/opencv2/core/types_c.h
+
+../nestk/deps/opencv/modules/core/include/opencv2/core/eigen.hpp
+cxcore.h
+../nestk/deps/opencv/modules/core/include/opencv2/core/cxcore.h
+
+../nestk/deps/opencv/modules/core/include/opencv2/core/internal.hpp
+vector
+-
+windows.h
+-
+pthread.h
+-
+sys/mman.h
+-
+ipp.h
+../nestk/deps/opencv/modules/core/include/opencv2/core/ipp.h
+emmintrin.h
+../nestk/deps/opencv/modules/core/include/opencv2/core/emmintrin.h
+pmmintrin.h
+../nestk/deps/opencv/modules/core/include/opencv2/core/pmmintrin.h
+tbb/tbb_stddef.h
+../nestk/deps/opencv/modules/core/include/opencv2/core/tbb/tbb_stddef.h
+tbb/tbb.h
+../nestk/deps/opencv/modules/core/include/opencv2/core/tbb/tbb.h
+Eigen/Core
+-
+opencv2/core/eigen.hpp
+../nestk/deps/opencv/modules/core/include/opencv2/core/opencv2/core/eigen.hpp
+malloc.h
+-
+alloca.h
+-
+stdlib.h
+-
+
+../nestk/deps/opencv/modules/core/include/opencv2/core/mat.hpp
+limits.h
+-
+string.h
+-
+
+../nestk/deps/opencv/modules/core/include/opencv2/core/operations.hpp
+string.h
+-
+limits.h
+-
+ext/atomicity.h
+-
+bits/atomicity.h
+-
+windows.h
+../nestk/deps/opencv/modules/core/include/opencv2/core/windows.h
+limits
+-
+
+../nestk/deps/opencv/modules/core/include/opencv2/core/types_c.h
+assert.h
+-
+stdlib.h
+-
+string.h
+-
+float.h
+-
+stdint.h
+-
+intrin.h
+-
+emmintrin.h
+-
+fastmath.h
+-
+math.h
+-
+ipl.h
+-
+ipl/ipl.h
+-
+
+../nestk/deps/opencv/modules/core/include/opencv2/core/version.hpp
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/alloc.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/precomp.hpp
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/arithm.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/precomp.hpp
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/array.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/precomp.hpp
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/convert.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/precomp.hpp
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/copy.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/precomp.hpp
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/datastructs.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/precomp.hpp
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/drawing.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/precomp.hpp
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/dxt.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/precomp.hpp
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/lapack.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/precomp.hpp
+vecLib/clapack.h
+-
+clapack.h
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/clapack.h
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/mathfuncs.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/precomp.hpp
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/matmul.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/precomp.hpp
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/matop.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/precomp.hpp
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/matrix.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/precomp.hpp
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/out.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/precomp.hpp
+iterator
+-
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/persistence.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/precomp.hpp
+ctype.h
+-
+wchar.h
+-
+zlib.h
+-
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/precomp.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/precomp.hpp
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/precomp.hpp
+cvconfig.h
+-
+opencv2/core/core.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/opencv2/core/core.hpp
+opencv2/core/core_c.h
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/opencv2/core/core_c.h
+opencv2/core/internal.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/opencv2/core/internal.hpp
+assert.h
+-
+ctype.h
+-
+float.h
+-
+limits.h
+-
+math.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/rand.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/precomp.hpp
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/stat.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/precomp.hpp
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/system.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/precomp.hpp
+tchar.h
+-
+intrin.h
+-
+pthread.h
+-
+sys/time.h
+-
+time.h
+-
+mach/mach.h
+-
+mach/mach_time.h
+-
+omp.h
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/omp.h
+stdarg.h
+-
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/tables.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/precomp.hpp
+
+cvconfig.h
+

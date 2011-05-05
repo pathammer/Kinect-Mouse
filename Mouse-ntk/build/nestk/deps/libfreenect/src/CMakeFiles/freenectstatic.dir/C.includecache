@@ -1,0 +1,84 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../nestk/deps/libfreenect/include/libfreenect.h
+stdint.h
+-
+libusb-1.0/libusb.h
+-
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/libfreenect/src/cameras.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+unistd.h
+-
+freenect_internal.h
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/libfreenect/src/freenect_internal.h
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/libfreenect/src/core.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+stdarg.h
+-
+unistd.h
+-
+freenect_internal.h
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/libfreenect/src/freenect_internal.h
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/libfreenect/src/freenect_internal.h
+stdint.h
+-
+libfreenect.h
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/libfreenect/src/libfreenect.h
+usb_libusb10.h
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/libfreenect/src/usb_libusb10.h
+stdarg.h
+-
+stdio.h
+-
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/libfreenect/src/tilt.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+unistd.h
+-
+math.h
+-
+freenect_internal.h
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/libfreenect/src/freenect_internal.h
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/libfreenect/src/usb_libusb10.c
+stdio.h
+-
+stdbool.h
+-
+stdlib.h
+-
+string.h
+-
+libusb-1.0/libusb.h
+-
+freenect_internal.h
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/libfreenect/src/freenect_internal.h
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/libfreenect/src/usb_libusb10.h
+libusb-1.0/libusb.h
+-
+

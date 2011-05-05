@@ -1,0 +1,180 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../nestk/deps/opencv/3rdparty/zlib/../include/zconf.h
+windows.h
+-
+sys/types.h
+-
+unistd.h
+-
+unixio.h
+-
+
+../nestk/deps/opencv/3rdparty/zlib/../include/zlib.h
+zconf.h
+../nestk/deps/opencv/3rdparty/zlib/../include/zconf.h
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/3rdparty/zlib/adler32.c
+zutil.h
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/3rdparty/zlib/zutil.h
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/3rdparty/zlib/compress.c
+zlib.h
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/3rdparty/zlib/zlib.h
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/3rdparty/zlib/crc32.c
+stdio.h
+-
+zutil.h
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/3rdparty/zlib/zutil.h
+limits.h
+-
+crc32.h
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/3rdparty/zlib/crc32.h
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/3rdparty/zlib/crc32.h
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/3rdparty/zlib/deflate.c
+deflate.h
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/3rdparty/zlib/deflate.h
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/3rdparty/zlib/deflate.h
+zutil.h
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/3rdparty/zlib/zutil.h
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/3rdparty/zlib/gzclose.c
+gzguts.h
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/3rdparty/zlib/gzguts.h
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/3rdparty/zlib/gzguts.h
+stdio.h
+-
+zutil.h
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/3rdparty/zlib/zutil.h
+string.h
+-
+stdlib.h
+-
+limits.h
+-
+fcntl.h
+-
+io.h
+-
+unistd.h
+-
+windows.h
+-
+errno.h
+-
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/3rdparty/zlib/gzlib.c
+gzguts.h
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/3rdparty/zlib/gzguts.h
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/3rdparty/zlib/gzread.c
+gzguts.h
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/3rdparty/zlib/gzguts.h
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/3rdparty/zlib/gzwrite.c
+gzguts.h
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/3rdparty/zlib/gzguts.h
+stdarg.h
+-
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/3rdparty/zlib/infback.c
+zutil.h
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/3rdparty/zlib/zutil.h
+inftrees.h
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/3rdparty/zlib/inftrees.h
+inflate.h
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/3rdparty/zlib/inflate.h
+inffast.h
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/3rdparty/zlib/inffast.h
+inffixed.h
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/3rdparty/zlib/inffixed.h
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/3rdparty/zlib/inffast.c
+zutil.h
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/3rdparty/zlib/zutil.h
+inftrees.h
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/3rdparty/zlib/inftrees.h
+inflate.h
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/3rdparty/zlib/inflate.h
+inffast.h
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/3rdparty/zlib/inffast.h
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/3rdparty/zlib/inffast.h
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/3rdparty/zlib/inffixed.h
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/3rdparty/zlib/inflate.c
+zutil.h
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/3rdparty/zlib/zutil.h
+inftrees.h
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/3rdparty/zlib/inftrees.h
+inflate.h
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/3rdparty/zlib/inflate.h
+inffast.h
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/3rdparty/zlib/inffast.h
+inffixed.h
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/3rdparty/zlib/inffixed.h
+stdio.h
+-
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/3rdparty/zlib/inflate.h
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/3rdparty/zlib/inftrees.c
+zutil.h
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/3rdparty/zlib/zutil.h
+inftrees.h
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/3rdparty/zlib/inftrees.h
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/3rdparty/zlib/inftrees.h
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/3rdparty/zlib/trees.c
+deflate.h
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/3rdparty/zlib/deflate.h
+ctype.h
+-
+trees.h
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/3rdparty/zlib/trees.h
+stdio.h
+-
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/3rdparty/zlib/trees.h
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/3rdparty/zlib/uncompr.c
+zlib.h
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/3rdparty/zlib/zlib.h
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/3rdparty/zlib/zutil.c
+zutil.h
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/3rdparty/zlib/zutil.h
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/3rdparty/zlib/zutil.h
+zlib.h
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/3rdparty/zlib/zlib.h
+stddef.h
+-
+string.h
+-
+stdlib.h
+-
+alloc.h
+-
+malloc.h
+-
+malloc.h
+-
+unix.h
+-
+stdio.h
+-
+

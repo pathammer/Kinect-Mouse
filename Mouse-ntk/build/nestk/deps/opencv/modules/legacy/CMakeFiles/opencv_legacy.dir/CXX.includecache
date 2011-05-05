@@ -1,0 +1,832 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../nestk/deps/opencv/include/opencv/cxcore.h
+opencv2/core/core_c.h
+../nestk/deps/opencv/include/opencv/opencv2/core/core_c.h
+opencv2/core/core.hpp
+../nestk/deps/opencv/include/opencv/opencv2/core/core.hpp
+
+../nestk/deps/opencv/modules/legacy/../calib3d/include/opencv2/calib3d/calib3d.hpp
+opencv2/core/core.hpp
+../nestk/deps/opencv/modules/legacy/../calib3d/include/opencv2/calib3d/opencv2/core/core.hpp
+
+../nestk/deps/opencv/modules/legacy/../core/include/opencv2/core/core.hpp
+opencv2/core/types_c.h
+../nestk/deps/opencv/modules/legacy/../core/include/opencv2/core/opencv2/core/types_c.h
+opencv2/core/version.hpp
+../nestk/deps/opencv/modules/legacy/../core/include/opencv2/core/opencv2/core/version.hpp
+limits.h
+-
+algorithm
+-
+cmath
+-
+complex
+-
+map
+-
+new
+-
+string
+-
+vector
+-
+opencv2/core/operations.hpp
+../nestk/deps/opencv/modules/legacy/../core/include/opencv2/core/opencv2/core/operations.hpp
+opencv2/core/mat.hpp
+../nestk/deps/opencv/modules/legacy/../core/include/opencv2/core/opencv2/core/mat.hpp
+
+../nestk/deps/opencv/modules/legacy/../core/include/opencv2/core/core_c.h
+opencv2/core/types_c.h
+../nestk/deps/opencv/modules/legacy/../core/include/opencv2/core/opencv2/core/types_c.h
+
+../nestk/deps/opencv/modules/legacy/../core/include/opencv2/core/eigen.hpp
+cxcore.h
+../nestk/deps/opencv/modules/legacy/../core/include/opencv2/core/cxcore.h
+
+../nestk/deps/opencv/modules/legacy/../core/include/opencv2/core/internal.hpp
+vector
+-
+windows.h
+-
+pthread.h
+-
+sys/mman.h
+-
+ipp.h
+../nestk/deps/opencv/modules/legacy/../core/include/opencv2/core/ipp.h
+emmintrin.h
+../nestk/deps/opencv/modules/legacy/../core/include/opencv2/core/emmintrin.h
+pmmintrin.h
+../nestk/deps/opencv/modules/legacy/../core/include/opencv2/core/pmmintrin.h
+tbb/tbb_stddef.h
+../nestk/deps/opencv/modules/legacy/../core/include/opencv2/core/tbb/tbb_stddef.h
+tbb/tbb.h
+../nestk/deps/opencv/modules/legacy/../core/include/opencv2/core/tbb/tbb.h
+Eigen/Core
+-
+opencv2/core/eigen.hpp
+../nestk/deps/opencv/modules/legacy/../core/include/opencv2/core/opencv2/core/eigen.hpp
+malloc.h
+-
+alloca.h
+-
+stdlib.h
+-
+
+../nestk/deps/opencv/modules/legacy/../core/include/opencv2/core/mat.hpp
+limits.h
+-
+string.h
+-
+
+../nestk/deps/opencv/modules/legacy/../core/include/opencv2/core/operations.hpp
+string.h
+-
+limits.h
+-
+ext/atomicity.h
+-
+bits/atomicity.h
+-
+windows.h
+../nestk/deps/opencv/modules/legacy/../core/include/opencv2/core/windows.h
+limits
+-
+
+../nestk/deps/opencv/modules/legacy/../core/include/opencv2/core/types_c.h
+assert.h
+-
+stdlib.h
+-
+string.h
+-
+float.h
+-
+stdint.h
+-
+intrin.h
+-
+emmintrin.h
+-
+fastmath.h
+-
+math.h
+-
+ipl.h
+-
+ipl/ipl.h
+-
+
+../nestk/deps/opencv/modules/legacy/../core/include/opencv2/core/version.hpp
+
+../nestk/deps/opencv/modules/legacy/../features2d/include/opencv2/features2d/features2d.hpp
+opencv2/core/core.hpp
+../nestk/deps/opencv/modules/legacy/../features2d/include/opencv2/features2d/opencv2/core/core.hpp
+opencv2/flann/flann.hpp
+../nestk/deps/opencv/modules/legacy/../features2d/include/opencv2/features2d/opencv2/flann/flann.hpp
+limits
+-
+
+../nestk/deps/opencv/modules/legacy/../flann/include/opencv2/flann/all_indices.h
+opencv2/flann/general.h
+../nestk/deps/opencv/modules/legacy/../flann/include/opencv2/flann/opencv2/flann/general.h
+opencv2/flann/nn_index.h
+../nestk/deps/opencv/modules/legacy/../flann/include/opencv2/flann/opencv2/flann/nn_index.h
+opencv2/flann/kdtree_index.h
+../nestk/deps/opencv/modules/legacy/../flann/include/opencv2/flann/opencv2/flann/kdtree_index.h
+opencv2/flann/kmeans_index.h
+../nestk/deps/opencv/modules/legacy/../flann/include/opencv2/flann/opencv2/flann/kmeans_index.h
+opencv2/flann/composite_index.h
+../nestk/deps/opencv/modules/legacy/../flann/include/opencv2/flann/opencv2/flann/composite_index.h
+opencv2/flann/linear_index.h
+../nestk/deps/opencv/modules/legacy/../flann/include/opencv2/flann/opencv2/flann/linear_index.h
+opencv2/flann/autotuned_index.h
+../nestk/deps/opencv/modules/legacy/../flann/include/opencv2/flann/opencv2/flann/autotuned_index.h
+
+../nestk/deps/opencv/modules/legacy/../flann/include/opencv2/flann/allocator.h
+stdlib.h
+-
+stdio.h
+-
+
+../nestk/deps/opencv/modules/legacy/../flann/include/opencv2/flann/autotuned_index.h
+opencv2/flann/general.h
+../nestk/deps/opencv/modules/legacy/../flann/include/opencv2/flann/opencv2/flann/general.h
+opencv2/flann/nn_index.h
+../nestk/deps/opencv/modules/legacy/../flann/include/opencv2/flann/opencv2/flann/nn_index.h
+opencv2/flann/ground_truth.h
+../nestk/deps/opencv/modules/legacy/../flann/include/opencv2/flann/opencv2/flann/ground_truth.h
+opencv2/flann/index_testing.h
+../nestk/deps/opencv/modules/legacy/../flann/include/opencv2/flann/opencv2/flann/index_testing.h
+opencv2/flann/sampling.h
+../nestk/deps/opencv/modules/legacy/../flann/include/opencv2/flann/opencv2/flann/sampling.h
+opencv2/flann/all_indices.h
+../nestk/deps/opencv/modules/legacy/../flann/include/opencv2/flann/opencv2/flann/all_indices.h
+
+../nestk/deps/opencv/modules/legacy/../flann/include/opencv2/flann/composite_index.h
+opencv2/flann/general.h
+../nestk/deps/opencv/modules/legacy/../flann/include/opencv2/flann/opencv2/flann/general.h
+opencv2/flann/nn_index.h
+../nestk/deps/opencv/modules/legacy/../flann/include/opencv2/flann/opencv2/flann/nn_index.h
+
+../nestk/deps/opencv/modules/legacy/../flann/include/opencv2/flann/dist.h
+cmath
+-
+opencv2/flann/general.h
+../nestk/deps/opencv/modules/legacy/../flann/include/opencv2/flann/opencv2/flann/general.h
+
+../nestk/deps/opencv/modules/legacy/../flann/include/opencv2/flann/flann.hpp
+opencv2/flann/flann_base.hpp
+../nestk/deps/opencv/modules/legacy/../flann/include/opencv2/flann/opencv2/flann/flann_base.hpp
+
+../nestk/deps/opencv/modules/legacy/../flann/include/opencv2/flann/flann_base.hpp
+vector
+-
+string
+-
+cassert
+-
+cstdio
+-
+opencv2/flann/general.h
+../nestk/deps/opencv/modules/legacy/../flann/include/opencv2/flann/opencv2/flann/general.h
+opencv2/flann/matrix.h
+../nestk/deps/opencv/modules/legacy/../flann/include/opencv2/flann/opencv2/flann/matrix.h
+opencv2/flann/result_set.h
+../nestk/deps/opencv/modules/legacy/../flann/include/opencv2/flann/opencv2/flann/result_set.h
+opencv2/flann/index_testing.h
+../nestk/deps/opencv/modules/legacy/../flann/include/opencv2/flann/opencv2/flann/index_testing.h
+opencv2/flann/object_factory.h
+../nestk/deps/opencv/modules/legacy/../flann/include/opencv2/flann/opencv2/flann/object_factory.h
+opencv2/flann/saving.h
+../nestk/deps/opencv/modules/legacy/../flann/include/opencv2/flann/opencv2/flann/saving.h
+opencv2/flann/all_indices.h
+../nestk/deps/opencv/modules/legacy/../flann/include/opencv2/flann/opencv2/flann/all_indices.h
+
+../nestk/deps/opencv/modules/legacy/../flann/include/opencv2/flann/general.h
+stdexcept
+-
+cassert
+-
+opencv2/flann/object_factory.h
+../nestk/deps/opencv/modules/legacy/../flann/include/opencv2/flann/opencv2/flann/object_factory.h
+
+../nestk/deps/opencv/modules/legacy/../flann/include/opencv2/flann/ground_truth.h
+opencv2/flann/dist.h
+../nestk/deps/opencv/modules/legacy/../flann/include/opencv2/flann/opencv2/flann/dist.h
+opencv2/flann/matrix.h
+../nestk/deps/opencv/modules/legacy/../flann/include/opencv2/flann/opencv2/flann/matrix.h
+
+../nestk/deps/opencv/modules/legacy/../flann/include/opencv2/flann/heap.h
+algorithm
+-
+
+../nestk/deps/opencv/modules/legacy/../flann/include/opencv2/flann/index_testing.h
+cstring
+-
+cassert
+-
+opencv2/flann/matrix.h
+../nestk/deps/opencv/modules/legacy/../flann/include/opencv2/flann/opencv2/flann/matrix.h
+opencv2/flann/nn_index.h
+../nestk/deps/opencv/modules/legacy/../flann/include/opencv2/flann/opencv2/flann/nn_index.h
+opencv2/flann/result_set.h
+../nestk/deps/opencv/modules/legacy/../flann/include/opencv2/flann/opencv2/flann/result_set.h
+opencv2/flann/logger.h
+../nestk/deps/opencv/modules/legacy/../flann/include/opencv2/flann/opencv2/flann/logger.h
+opencv2/flann/timer.h
+../nestk/deps/opencv/modules/legacy/../flann/include/opencv2/flann/opencv2/flann/timer.h
+
+../nestk/deps/opencv/modules/legacy/../flann/include/opencv2/flann/kdtree_index.h
+algorithm
+-
+map
+-
+cassert
+-
+cstring
+-
+opencv2/flann/general.h
+../nestk/deps/opencv/modules/legacy/../flann/include/opencv2/flann/opencv2/flann/general.h
+opencv2/flann/nn_index.h
+../nestk/deps/opencv/modules/legacy/../flann/include/opencv2/flann/opencv2/flann/nn_index.h
+opencv2/flann/matrix.h
+../nestk/deps/opencv/modules/legacy/../flann/include/opencv2/flann/opencv2/flann/matrix.h
+opencv2/flann/result_set.h
+../nestk/deps/opencv/modules/legacy/../flann/include/opencv2/flann/opencv2/flann/result_set.h
+opencv2/flann/heap.h
+../nestk/deps/opencv/modules/legacy/../flann/include/opencv2/flann/opencv2/flann/heap.h
+opencv2/flann/allocator.h
+../nestk/deps/opencv/modules/legacy/../flann/include/opencv2/flann/opencv2/flann/allocator.h
+opencv2/flann/random.h
+../nestk/deps/opencv/modules/legacy/../flann/include/opencv2/flann/opencv2/flann/random.h
+opencv2/flann/saving.h
+../nestk/deps/opencv/modules/legacy/../flann/include/opencv2/flann/opencv2/flann/saving.h
+
+../nestk/deps/opencv/modules/legacy/../flann/include/opencv2/flann/kmeans_index.h
+algorithm
+-
+string
+-
+map
+-
+cassert
+-
+limits
+-
+cmath
+-
+opencv2/flann/general.h
+../nestk/deps/opencv/modules/legacy/../flann/include/opencv2/flann/opencv2/flann/general.h
+opencv2/flann/nn_index.h
+../nestk/deps/opencv/modules/legacy/../flann/include/opencv2/flann/opencv2/flann/nn_index.h
+opencv2/flann/matrix.h
+../nestk/deps/opencv/modules/legacy/../flann/include/opencv2/flann/opencv2/flann/matrix.h
+opencv2/flann/result_set.h
+../nestk/deps/opencv/modules/legacy/../flann/include/opencv2/flann/opencv2/flann/result_set.h
+opencv2/flann/heap.h
+../nestk/deps/opencv/modules/legacy/../flann/include/opencv2/flann/opencv2/flann/heap.h
+opencv2/flann/allocator.h
+../nestk/deps/opencv/modules/legacy/../flann/include/opencv2/flann/opencv2/flann/allocator.h
+opencv2/flann/random.h
+../nestk/deps/opencv/modules/legacy/../flann/include/opencv2/flann/opencv2/flann/random.h
+
+../nestk/deps/opencv/modules/legacy/../flann/include/opencv2/flann/linear_index.h
+opencv2/flann/general.h
+../nestk/deps/opencv/modules/legacy/../flann/include/opencv2/flann/opencv2/flann/general.h
+opencv2/flann/nn_index.h
+../nestk/deps/opencv/modules/legacy/../flann/include/opencv2/flann/opencv2/flann/nn_index.h
+
+../nestk/deps/opencv/modules/legacy/../flann/include/opencv2/flann/logger.h
+cstdio
+-
+stdarg.h
+-
+opencv2/flann/general.h
+../nestk/deps/opencv/modules/legacy/../flann/include/opencv2/flann/opencv2/flann/general.h
+
+../nestk/deps/opencv/modules/legacy/../flann/include/opencv2/flann/matrix.h
+stdio.h
+-
+opencv2/flann/general.h
+../nestk/deps/opencv/modules/legacy/../flann/include/opencv2/flann/opencv2/flann/general.h
+
+../nestk/deps/opencv/modules/legacy/../flann/include/opencv2/flann/nn_index.h
+string
+-
+opencv2/flann/general.h
+../nestk/deps/opencv/modules/legacy/../flann/include/opencv2/flann/opencv2/flann/general.h
+opencv2/flann/matrix.h
+../nestk/deps/opencv/modules/legacy/../flann/include/opencv2/flann/opencv2/flann/matrix.h
+
+../nestk/deps/opencv/modules/legacy/../flann/include/opencv2/flann/object_factory.h
+opencv2/core/types_c.h
+../nestk/deps/opencv/modules/legacy/../flann/include/opencv2/flann/opencv2/core/types_c.h
+map
+-
+
+../nestk/deps/opencv/modules/legacy/../flann/include/opencv2/flann/random.h
+algorithm
+-
+cstdlib
+-
+cassert
+-
+
+../nestk/deps/opencv/modules/legacy/../flann/include/opencv2/flann/result_set.h
+algorithm
+-
+limits
+-
+vector
+-
+opencv2/flann/dist.h
+../nestk/deps/opencv/modules/legacy/../flann/include/opencv2/flann/opencv2/flann/dist.h
+
+../nestk/deps/opencv/modules/legacy/../flann/include/opencv2/flann/sampling.h
+opencv2/flann/matrix.h
+../nestk/deps/opencv/modules/legacy/../flann/include/opencv2/flann/opencv2/flann/matrix.h
+opencv2/flann/random.h
+../nestk/deps/opencv/modules/legacy/../flann/include/opencv2/flann/opencv2/flann/random.h
+
+../nestk/deps/opencv/modules/legacy/../flann/include/opencv2/flann/saving.h
+opencv2/flann/general.h
+../nestk/deps/opencv/modules/legacy/../flann/include/opencv2/flann/opencv2/flann/general.h
+opencv2/flann/nn_index.h
+../nestk/deps/opencv/modules/legacy/../flann/include/opencv2/flann/opencv2/flann/nn_index.h
+cstdio
+-
+cstring
+-
+
+../nestk/deps/opencv/modules/legacy/../flann/include/opencv2/flann/timer.h
+time.h
+-
+
+../nestk/deps/opencv/modules/legacy/../highgui/include/opencv2/highgui/highgui_c.h
+opencv2/core/core_c.h
+../nestk/deps/opencv/modules/legacy/../highgui/include/opencv2/highgui/opencv2/core/core_c.h
+windows.h
+-
+
+../nestk/deps/opencv/modules/legacy/../imgproc/include/opencv2/imgproc/imgproc.hpp
+opencv2/core/core.hpp
+../nestk/deps/opencv/modules/legacy/../imgproc/include/opencv2/imgproc/opencv2/core/core.hpp
+opencv2/imgproc/types_c.h
+../nestk/deps/opencv/modules/legacy/../imgproc/include/opencv2/imgproc/opencv2/imgproc/types_c.h
+
+../nestk/deps/opencv/modules/legacy/../imgproc/include/opencv2/imgproc/imgproc_c.h
+opencv2/core/core_c.h
+../nestk/deps/opencv/modules/legacy/../imgproc/include/opencv2/imgproc/opencv2/core/core_c.h
+opencv2/imgproc/types_c.h
+../nestk/deps/opencv/modules/legacy/../imgproc/include/opencv2/imgproc/opencv2/imgproc/types_c.h
+
+../nestk/deps/opencv/modules/legacy/../imgproc/include/opencv2/imgproc/types_c.h
+opencv2/core/core_c.h
+../nestk/deps/opencv/modules/legacy/../imgproc/include/opencv2/imgproc/opencv2/core/core_c.h
+opencv2/imgproc/types_c.h
+../nestk/deps/opencv/modules/legacy/../imgproc/include/opencv2/imgproc/opencv2/imgproc/types_c.h
+
+../nestk/deps/opencv/modules/legacy/../video/include/opencv2/video/background_segm.hpp
+opencv2/core/core.hpp
+../nestk/deps/opencv/modules/legacy/../video/include/opencv2/video/opencv2/core/core.hpp
+
+../nestk/deps/opencv/modules/legacy/../video/include/opencv2/video/tracking.hpp
+opencv2/core/core.hpp
+../nestk/deps/opencv/modules/legacy/../video/include/opencv2/video/opencv2/core/core.hpp
+opencv2/imgproc/imgproc_c.h
+../nestk/deps/opencv/modules/legacy/../video/include/opencv2/video/opencv2/imgproc/imgproc_c.h
+
+../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/blobtrack.hpp
+opencv2/core/core_c.h
+../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/opencv2/core/core_c.h
+stdio.h
+-
+
+../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/compat.hpp
+opencv2/core/core_c.h
+../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/opencv2/core/core_c.h
+opencv2/imgproc/types_c.h
+../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/opencv2/imgproc/types_c.h
+math.h
+-
+string.h
+-
+
+../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/legacy.hpp
+opencv2/imgproc/imgproc.hpp
+../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/opencv2/imgproc/imgproc.hpp
+opencv2/imgproc/imgproc_c.h
+../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/opencv2/imgproc/imgproc_c.h
+opencv2/features2d/features2d.hpp
+../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/opencv2/features2d/features2d.hpp
+opencv2/calib3d/calib3d.hpp
+../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/opencv2/calib3d/calib3d.hpp
+iosfwd
+-
+limits
+-
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/3dtracker.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+stdio.h
+-
+map
+-
+algorithm
+-
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/_facedetection.h
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/_matrix.h
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/_vectrack.h
+string.h
+-
+math.h
+-
+time.h
+-
+stdio.h
+-
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/_vm.h
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/auxutils.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/bgfg_estimation.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/blobtrack.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/blobtrackanalysis.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/blobtrackanalysishist.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/blobtrackanalysisior.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/blobtrackanalysistrackdist.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/blobtrackgen1.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/blobtrackgenyml.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/blobtrackingauto.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+time.h
+-
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/blobtrackingcc.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/blobtrackingccwithcr.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/blobtrackingkalman.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/blobtrackinglist.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/blobtrackingmsfg.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+omp.h
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/omp.h
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/blobtrackingmsfgs.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/blobtrackpostprockalman.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/blobtrackpostproclinear.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/blobtrackpostproclist.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/calcimagehomography.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/calibfilter.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+stdio.h
+-
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/camshift.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/clique.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+float.h
+-
+limits.h
+-
+stdio.h
+-
+_cvutils.h
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/_cvutils.h
+_cvwrap.h
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/_cvwrap.h
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/compat.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/condens.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/contourtree.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/correspond.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+_vm.h
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/_vm.h
+stdlib.h
+-
+assert.h
+-
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/corrimages.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+stdio.h
+-
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/createhandmask.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/decomppoly.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+malloc.h
+-
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/dominants.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/dpstereo.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/eigenobjects.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/enmin.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/enteringblobdetection.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/enteringblobdetectionreal.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/epilines.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+float.h
+-
+limits.h
+-
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/extendededges.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/face.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+_facedetection.h
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/_facedetection.h
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/facedetection.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+_facedetection.h
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/_facedetection.h
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/facetemplate.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+_facedetection.h
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/_facedetection.h
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/findface.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+_facedetection.h
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/_facedetection.h
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/findhandregion.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/hmm.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/hmm1d.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/hmmobs.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/image.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+opencv2/highgui/highgui_c.h
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/opencv2/highgui/highgui_c.h
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/lcm.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/lee.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+time.h
+-
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/levmar.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+float.h
+-
+limits.h
+-
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/levmarprojbandle.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+float.h
+-
+limits.h
+-
+stdio.h
+-
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/levmartrif.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+float.h
+-
+limits.h
+-
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/lines.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/lmeds.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+_vm.h
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/_vm.h
+stdlib.h
+-
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/morphcontours.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/morphing.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+assert.h
+-
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/pgh.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+cvconfig.h
+-
+opencv2/legacy/legacy.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/opencv2/legacy/legacy.hpp
+opencv2/core/internal.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/opencv2/core/internal.hpp
+opencv2/video/tracking.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/opencv2/video/tracking.hpp
+opencv2/video/background_segm.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/opencv2/video/background_segm.hpp
+opencv2/legacy/blobtrack.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/opencv2/legacy/blobtrack.hpp
+opencv2/legacy/compat.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/opencv2/legacy/compat.hpp
+_matrix.h
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/_matrix.h
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/prewarp.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+_vm.h
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/_vm.h
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/scanlines.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+_vm.h
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/_vm.h
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/segment.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/snakes.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/subdiv2.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/testseq.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/texture.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+math.h
+-
+assert.h
+-
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/trifocal.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+float.h
+-
+limits.h
+-
+stdio.h
+-
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/vecfacetracking.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+_vectrack.h
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/_vectrack.h
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/video.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+
+cvconfig.h
+

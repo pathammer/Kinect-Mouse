@@ -1,0 +1,270 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../nestk/deps/opencv/include/opencv/..//..//include/opencv/highgui.h
+opencv2/core/core_c.h
+../nestk/deps/opencv/include/opencv/../../include/opencv/opencv2/core/core_c.h
+opencv2/core/core.hpp
+../nestk/deps/opencv/include/opencv/../../include/opencv/opencv2/core/core.hpp
+opencv2/highgui/highgui_c.h
+../nestk/deps/opencv/include/opencv/../../include/opencv/opencv2/highgui/highgui_c.h
+opencv2/highgui/highgui.hpp
+../nestk/deps/opencv/include/opencv/../../include/opencv/opencv2/highgui/highgui.hpp
+
+../nestk/deps/opencv/include/opencv/cxcore.h
+opencv2/core/core_c.h
+../nestk/deps/opencv/include/opencv/opencv2/core/core_c.h
+opencv2/core/core.hpp
+../nestk/deps/opencv/include/opencv/opencv2/core/core.hpp
+
+../nestk/deps/opencv/include/opencv/highgui.h
+opencv2/core/core_c.h
+../nestk/deps/opencv/include/opencv/opencv2/core/core_c.h
+opencv2/core/core.hpp
+../nestk/deps/opencv/include/opencv/opencv2/core/core.hpp
+opencv2/highgui/highgui_c.h
+../nestk/deps/opencv/include/opencv/opencv2/highgui/highgui_c.h
+opencv2/highgui/highgui.hpp
+../nestk/deps/opencv/include/opencv/opencv2/highgui/highgui.hpp
+
+../nestk/deps/opencv/modules/calib3d/../core/include/opencv2/core/core.hpp
+opencv2/core/types_c.h
+../nestk/deps/opencv/modules/calib3d/../core/include/opencv2/core/opencv2/core/types_c.h
+opencv2/core/version.hpp
+../nestk/deps/opencv/modules/calib3d/../core/include/opencv2/core/opencv2/core/version.hpp
+limits.h
+-
+algorithm
+-
+cmath
+-
+complex
+-
+map
+-
+new
+-
+string
+-
+vector
+-
+opencv2/core/operations.hpp
+../nestk/deps/opencv/modules/calib3d/../core/include/opencv2/core/opencv2/core/operations.hpp
+opencv2/core/mat.hpp
+../nestk/deps/opencv/modules/calib3d/../core/include/opencv2/core/opencv2/core/mat.hpp
+
+../nestk/deps/opencv/modules/calib3d/../core/include/opencv2/core/core_c.h
+opencv2/core/types_c.h
+../nestk/deps/opencv/modules/calib3d/../core/include/opencv2/core/opencv2/core/types_c.h
+
+../nestk/deps/opencv/modules/calib3d/../core/include/opencv2/core/eigen.hpp
+cxcore.h
+../nestk/deps/opencv/modules/calib3d/../core/include/opencv2/core/cxcore.h
+
+../nestk/deps/opencv/modules/calib3d/../core/include/opencv2/core/internal.hpp
+vector
+-
+windows.h
+-
+pthread.h
+-
+sys/mman.h
+-
+ipp.h
+../nestk/deps/opencv/modules/calib3d/../core/include/opencv2/core/ipp.h
+emmintrin.h
+../nestk/deps/opencv/modules/calib3d/../core/include/opencv2/core/emmintrin.h
+pmmintrin.h
+../nestk/deps/opencv/modules/calib3d/../core/include/opencv2/core/pmmintrin.h
+tbb/tbb_stddef.h
+../nestk/deps/opencv/modules/calib3d/../core/include/opencv2/core/tbb/tbb_stddef.h
+tbb/tbb.h
+../nestk/deps/opencv/modules/calib3d/../core/include/opencv2/core/tbb/tbb.h
+Eigen/Core
+-
+opencv2/core/eigen.hpp
+../nestk/deps/opencv/modules/calib3d/../core/include/opencv2/core/opencv2/core/eigen.hpp
+malloc.h
+-
+alloca.h
+-
+stdlib.h
+-
+
+../nestk/deps/opencv/modules/calib3d/../core/include/opencv2/core/mat.hpp
+limits.h
+-
+string.h
+-
+
+../nestk/deps/opencv/modules/calib3d/../core/include/opencv2/core/operations.hpp
+string.h
+-
+limits.h
+-
+ext/atomicity.h
+-
+bits/atomicity.h
+-
+windows.h
+../nestk/deps/opencv/modules/calib3d/../core/include/opencv2/core/windows.h
+limits
+-
+
+../nestk/deps/opencv/modules/calib3d/../core/include/opencv2/core/types_c.h
+assert.h
+-
+stdlib.h
+-
+string.h
+-
+float.h
+-
+stdint.h
+-
+intrin.h
+-
+emmintrin.h
+-
+fastmath.h
+-
+math.h
+-
+ipl.h
+-
+ipl/ipl.h
+-
+
+../nestk/deps/opencv/modules/calib3d/../core/include/opencv2/core/version.hpp
+
+../nestk/deps/opencv/modules/calib3d/../highgui/include/opencv2/highgui/highgui.hpp
+opencv2/core/core.hpp
+../nestk/deps/opencv/modules/calib3d/../highgui/include/opencv2/highgui/opencv2/core/core.hpp
+opencv2/highgui/highgui_c.h
+../nestk/deps/opencv/modules/calib3d/../highgui/include/opencv2/highgui/opencv2/highgui/highgui_c.h
+
+../nestk/deps/opencv/modules/calib3d/../highgui/include/opencv2/highgui/highgui_c.h
+opencv2/core/core_c.h
+../nestk/deps/opencv/modules/calib3d/../highgui/include/opencv2/highgui/opencv2/core/core_c.h
+windows.h
+-
+
+../nestk/deps/opencv/modules/calib3d/../imgproc/include/opencv2/imgproc/imgproc.hpp
+opencv2/core/core.hpp
+../nestk/deps/opencv/modules/calib3d/../imgproc/include/opencv2/imgproc/opencv2/core/core.hpp
+opencv2/imgproc/types_c.h
+../nestk/deps/opencv/modules/calib3d/../imgproc/include/opencv2/imgproc/opencv2/imgproc/types_c.h
+
+../nestk/deps/opencv/modules/calib3d/../imgproc/include/opencv2/imgproc/imgproc_c.h
+opencv2/core/core_c.h
+../nestk/deps/opencv/modules/calib3d/../imgproc/include/opencv2/imgproc/opencv2/core/core_c.h
+opencv2/imgproc/types_c.h
+../nestk/deps/opencv/modules/calib3d/../imgproc/include/opencv2/imgproc/opencv2/imgproc/types_c.h
+
+../nestk/deps/opencv/modules/calib3d/../imgproc/include/opencv2/imgproc/types_c.h
+opencv2/core/core_c.h
+../nestk/deps/opencv/modules/calib3d/../imgproc/include/opencv2/imgproc/opencv2/core/core_c.h
+opencv2/imgproc/types_c.h
+../nestk/deps/opencv/modules/calib3d/../imgproc/include/opencv2/imgproc/opencv2/imgproc/types_c.h
+
+../nestk/deps/opencv/modules/calib3d/include/opencv2/calib3d/calib3d.hpp
+opencv2/core/core.hpp
+../nestk/deps/opencv/modules/calib3d/include/opencv2/calib3d/opencv2/core/core.hpp
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/calib3d/src/_modelest.h
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/calib3d/src/precomp.hpp
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/calib3d/src/calibinit.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/calib3d/src/precomp.hpp
+stdarg.h
+-
+..//..//include/opencv/highgui.h
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/calib3d/src/..//..//include/opencv/highgui.h
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/calib3d/src/calibration.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/calib3d/src/precomp.hpp
+stdio.h
+-
+iterator
+-
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/calib3d/src/checkchessboard.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/calib3d/src/precomp.hpp
+vector
+-
+algorithm
+-
+highgui.h
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/calib3d/src/highgui.h
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/calib3d/src/fundam.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/calib3d/src/precomp.hpp
+_modelest.h
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/calib3d/src/_modelest.h
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/calib3d/src/modelest.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/calib3d/src/precomp.hpp
+_modelest.h
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/calib3d/src/_modelest.h
+algorithm
+-
+iterator
+-
+limits
+-
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/calib3d/src/posit.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/calib3d/src/precomp.hpp
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/calib3d/src/precomp.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/calib3d/src/precomp.hpp
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/calib3d/src/precomp.hpp
+cvconfig.h
+-
+opencv2/calib3d/calib3d.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/calib3d/src/opencv2/calib3d/calib3d.hpp
+opencv2/imgproc/imgproc.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/calib3d/src/opencv2/imgproc/imgproc.hpp
+opencv2/imgproc/imgproc_c.h
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/calib3d/src/opencv2/imgproc/imgproc_c.h
+opencv2/core/internal.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/calib3d/src/opencv2/core/internal.hpp
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/calib3d/src/stereobm.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/calib3d/src/precomp.hpp
+stdio.h
+-
+limits
+-
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/calib3d/src/stereogc.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/calib3d/src/precomp.hpp
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/calib3d/src/stereosgbm.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/calib3d/src/precomp.hpp
+limits.h
+-
+
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/calib3d/src/triangulate.cpp
+precomp.hpp
+/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/calib3d/src/precomp.hpp
+
+cvconfig.h
+
