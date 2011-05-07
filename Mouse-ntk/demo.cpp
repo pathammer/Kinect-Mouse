@@ -103,7 +103,7 @@ int main(int argc, char** argv) {
 		
 		
 		// Display the color image
-		imshow("color", current_frame.rgb());
+		//imshow("color", current_frame.rgb());
 
 		// Show the depth image as normalized gray scale
 		//imshow_normalized("depth", current_frame.depth());
@@ -121,7 +121,7 @@ int main(int argc, char** argv) {
 		// normalize the depth channel and show it
 		Mat1b depth_normalized;
   		normalize(depth, depth_normalized, 0, 255, NORM_MINMAX, 0);
-    		imshow("depth_normalized", depth_normalized);
+    		//imshow("depth_normalized", depth_normalized);
 
 		// failed attempt at thresholding
 		Mat1f thresh;
