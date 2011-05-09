@@ -39,6 +39,7 @@ namespace opt {
   ntk::arg<int> camera_id("--camera-id", "Camera id for opencv", 0);
   ntk::arg<bool> sync("--sync", "Synchronization mode", 0);
 }
+
 class hand {
 public:
   hand() {}
@@ -49,61 +50,141 @@ public:
   hand (cv::Point c) {
      center = c;
   }
+
   int checkDistance(Point n) {
     int dx = n.x - center.x;
     int dy = n.y - center.y;
-    return math::sqrt(dx*dx+dy*dy);
+    return sqrt(dx*dx+dy*dy);
+  }
+  void update (Point n) {
+    //IDEA: Add smoothing function here!
+    center = n;
+    //cout << "Updated center to " << center.x <<", "<< center.y<<endl;
   }
 };
 
-std::vector<cv::Point2i> detectFingertips(cv::Mat1f z, float zMin, float zMax, cv::Mat1f debugFrame, hand hand1, hand hand2) {
+hand hand1, hand2;
+
+int whichHand (Point centerPoint, int deltaThreshold, Point previous) {
+  int d1, d2;
+  if (hand1.isOn) d1 = hand1.checkDistance(centerPoint);
+  else {
+    d1 = 9999;
+  }
+  if (hand2.isOn) d2 = hand2.checkDistance(centerPoint);
+  else {
+    d2 = 9999;
+  }
+  if (d1<d2 && d1<deltaThreshold) {
+    hand1.update(centerPoint);
+    hand2.update(previous);
+    return 1;
+  }
+  else if (d2<d1 && d2<deltaThreshold) {
+    hand2.update(centerPoint);
+    hand1.update(previous);
+    return 2;
+  }
+  else return 0;
+}
+int whichHand (Point centerPoint, int deltaThreshold) {
+  int d1, d2;
+  if (hand1.isOn) d1 = hand1.checkDistance(centerPoint);
+  else {
+    d1 = 9999;
+  }
+  if (hand2.isOn) d2 = hand2.checkDistance(centerPoint);
+  else {
+    d2 = 9999;
+  }
+  if (d1<d2 && d1<deltaThreshold) {
+    hand1.update(centerPoint);
+    return 1;
+  }
+  else if (d2<d1 && d2<deltaThreshold) {
+    hand2.update(centerPoint);
+    return 2;
+  }
+  else return 0;
+}
+
+std::vector<cv::Point2i> detectFingertips(cv::Mat1f z, float zMin, float zMax, cv::Mat1f debugFrame) {
   
   vector<Point2i> fingerTips;
 
-  Mat handMask = z < zMax & z > zMin;
+  Mat handMask = (z < zMax) & (z > zMin);
+  //debugFrame=debugFrame*0;
   debugFrame=handMask;
   std::vector<std::vector<cv::Point> > contours;
-
+  Point previous;
   cv::findContours(handMask, contours, CV_RETR_LIST, CV_CHAIN_APPROX_SIMPLE);
-  
-  hand1.isOn = 1;
-  int numHands = 0;
-
+  int deltaThreshold = 50;
+  int numHands=0;
   if (contours.size()) {
-    cout << contours.size() << endl;
+    //cout << contours.size() << endl;
     for (int i=0; i<contours.size(); i++) {
       vector<Point> contour = contours[i];
       Mat contourMat = Mat(contour);
       double area = cv::contourArea(contourMat);
-
       if (area > 3000)  { // possible hand
 	Scalar center = mean(contourMat);
 	Point centerPoint = Point(center.val[0], center.val[1]);
-	numHands++;
 	if ( i != contours.size()-1) { // if second hand
-	  if (!hand2.isOn) {
-	    //declare new hand called hand 2
-	      hand2.isOn = 1;
+	  numHands = 2;
+	  hand1.isOn=hand2.isOn=1;
+	  //cout << "two"<<endl;
+	  previous = centerPoint;
 	  }
-	  hand2.center=centerPoint;
+      	else if (numHands!=2) {
+	  numHands = 1;
+	  while (!whichHand(centerPoint, deltaThreshold,previous)){
+	    deltaThreshold=deltaThreshold+50;
+	    switch (whichHand(centerPoint, deltaThreshold,previous)) {
+	    case 1:
+	      hand2.isOn=0;
+	      cout<<"tow is off"<<endl;
+	    case 2:
+	      hand1.isOn=0;
+	      cout<<"one is off"<<endl;
+	      case 0:
+	      hand1.isOn=hand2.isOn=1;
+	    }
+	    if (deltaThreshold >= 9999) break;
+	  }
 	}
-	else {
-	  hand1.center=centerPoint;
-	  if (numHands == 1)
-	    hand2.isOn=0; //turn off hand to
+	//cout << i<< " # "<< centerPoint.x << "," << centerPoint.y << endl;
+	//which hand do we have centerPoint for?
+	//sees if the current point is closer to where hand1 was or hand2 was
+	if ((i == contours.size()-1) && (numHands==2)) {
+	  while (!whichHand(centerPoint, deltaThreshold,previous)){
+	    deltaThreshold=deltaThreshold+50;
+	    if (deltaThreshold >= 9999) {
+	      if (hand1.isOn) {
+		//hand 2 must have appeared
+		hand2.isOn = 1;
+		cout<<"two on"<<endl;
+		hand2.update(centerPoint);
+		hand1.update(previous);
+		circle (debugFrame, hand1.center, 10, CV_RGB(250,0,0), 4);
+	      }
+	      else if (hand2.isOn) {
+		//hand 1 must have appeared
+		hand1.isOn=1;
+		cout<<"one on"<<endl;
+		hand1.update(centerPoint);
+		hand2.update(previous);
+		circle (debugFrame, hand2.center, 10, CV_RGB(250,0,0), 10); //the big circle is the one that is hand 1
+	      }
+	      else {
+		cout<<"no hands?"<<endl;
+	      }
+	      //break;
+	    }
+	  }
+	  deltaThreshold=50;
 	}
-	cout << i<< " # "<< centerPoint.x << "," << centerPoint.y << endl;
-
-	if (numHands ==2) {
-	  circle (debugFrame, hand2.center, 10, CV_RGB(0,255,0), 10);
-	}
-	circle (debugFrame, hand1.center, 10, CV_RGB(255,0,0), 4);
-
-
-
-
-
-	vector<Point> approxCurve;
+	
+       	vector<Point> approxCurve;
 	cv::approxPolyDP(contourMat, approxCurve, 20, true);
 
 	vector<int> hull;
@@ -169,7 +250,9 @@ std::vector<cv::Point2i> detectFingertips(cv::Mat1f z, float zMin, float zMax, c
       }
     }
   }
-
+  if (numHands==0) {
+    hand1.isOn=hand2.isOn=0;
+  }
   return fingerTips;
 }
 
@@ -187,25 +270,25 @@ int main(int argc, char** argv) {
 	
   ntk::RGBDCalibration* calib_data = 0;
   if (opt::calibration_file()) {
+	cout << "calibrated" << endl;
     calib_data = new RGBDCalibration();
     calib_data->loadFromFile(opt::calibration_file());
   }
   else if (QDir::current().exists("kinect_calibration.yml")) {
-	
+	cout << "calibration does not exist" << endl;
     ntk_dbg(0) << "[WARNING] Using kinect_calibration.yml in current directory";
     ntk_dbg(0) << "[WARNING] use --calibration to specify a different file.";
 	
     calib_data = new RGBDCalibration();
     calib_data->loadFromFile("kinect_calibration.yml");
   }
-
   if (calib_data) {
     cout << "calibrating" << endl;
     grabber->setCalibrationData(*calib_data);
   }
   
   // Set camera tilt.
-  grabber->setTiltAngle(15);
+  grabber->setTiltAngle(10);
   grabber->start();
 
   // Postprocess raw kinect data.
@@ -214,7 +297,7 @@ int main(int argc, char** argv) {
   processor.setFilterFlag(RGBDProcessor::ComputeKinectDepthBaseline, true);
 
   // OpenCV windows.
-  //namedWindow("color");
+  namedWindow("color");
   //namedWindow("depth_as_color");
   //namedWindow("depth");
   namedWindow("depth_normalized");
@@ -224,9 +307,10 @@ int main(int argc, char** argv) {
   cv::Mat z(480, 640, CV_32FC1); //our matrix to mask with
   Mat1f debugFrame(480, 640); //our frame to paint fingers and circles and lines
   debugFrame = z * 0.1;//??
-  hand hand1, hand2;
+  hand1.center.x=300;
+  hand1.center.y=200;
 
-
+  int counter;
   // Current image. An RGBDImage stores rgb and depth data.
   RGBDImage current_frame;
   while (true) {
@@ -239,15 +323,16 @@ int main(int argc, char** argv) {
      */
     processor.processImage(current_frame);
 		
-    // Show the frames per second of the grabber
-    //int fps = grabber->frameRate();
-    //cv::putText(current_frame.rgbRef(),
-    //		cv::format("%d fps", fps),
-    //		Point(10,20), 0, 0.5, Scalar(255,0,0,255));
-		
+    //Show the frames per second of the grabber
+    int fps = grabber->frameRate();
+    cv::putText(current_frame.rgbRef(),
+    		cv::format("%d fps", fps),
+    		Point(10,20), 0, 0.5, Scalar(255,0,0,255));
+    if(hand1.isOn) circle (current_frame.rgbRef(), hand1.center, 10, CV_RGB(255,0,0), 10);
+    if(hand2.isOn) circle (current_frame.rgbRef(), hand2.center, 10, CV_RGB(0,255,0), 10);
 		
     // Display the color image
-    //imshow("color", current_frame.rgb());
+    imshow("color", current_frame.rgb());
 
     // Show the depth image as normalized gray scale
     //imshow_normalized("depth", current_frame.depth());
@@ -286,7 +371,7 @@ int main(int argc, char** argv) {
 
     // OpenCV Magic
     std::vector<cv::Point2i> fingerTips; //our fingertips output info
-    fingerTips = detectFingertips(depth_normalized, 1, 35, debugFrame, hand1, hand2);
+    fingerTips = detectFingertips(depth_normalized, 1, 35, debugFrame);
     // draw fingetips
     for(vector<Point2i>::iterator it = fingerTips.begin(); it != fingerTips.end(); it++) {
       circle(debugFrame, (*it), 10, Scalar(1.0f), -1);
