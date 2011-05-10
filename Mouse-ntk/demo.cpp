@@ -99,10 +99,10 @@ public:
 		// push the current number of fingers detected
 		avg.push_back(numFingers);
 		
-		cout << "\tpushed: " << numFingers << endl;
+		//cout << "\tpushed: " << numFingers << endl;
 	
 		// check the size of the queue
-		cout << "\tsize: " << avg.size() << endl;
+		//cout << "\tsize: " << avg.size() << endl;
 		if (avg.size() == 5) {
 			avg.pop_front();
 		}	
@@ -111,8 +111,8 @@ public:
 		for (int i = 0; i < avg.size(); i++) {
 			sum += avg[i];		
 		}
-		cout << "\tsum: " << sum << endl;
-		cout << "\tavg: " << (sum / avg.size()) << endl;
+		//cout << "\tsum: " << sum << endl;
+		//cout << "\tavg: " << (sum / avg.size()) << endl;
 		return floor(sum / avg.size());	
 	}  
 };
@@ -444,9 +444,9 @@ int main(int argc, char** argv) {
     if(hand2.isOn) circle (current_frame.rgbRef(), hand2.center, 10, CV_RGB(0,255,0), 10);
     
     // post smoothing
-    cout << "for hand 1... " << endl;
+    //cout << "for hand 1... " << endl;
     hand1.smoothData();
-    cout << "for hand 2... " << endl;
+    //cout << "for hand 2... " << endl;
     hand2.smoothData();
     
     // draw fingertips
@@ -472,10 +472,15 @@ int main(int argc, char** argv) {
       px = hand1.center.x; py = hand1.center.y;
       isMouse=1;
     }
-      else if(hand2.isOn&&!hand1.isOn&&(hand2.center.x!=0 && hand2.center.y!=0)){
+    else if((hand2.isOn&&!hand1.isOn&&(hand2.center.x!=0 && hand2.center.y!=0))||
+	    (hand2.isOn&&(hand1.center.x!=0 && hand1.center.y!=0))){
+	cout << "made it here" << endl;
       px = hand2.center.x; py = hand2.center.y;
       isMouse=1;
     }
+    //cout << "x= " << hand1.center.x << "y = " hand1.center.y << endl;
+
+
       if(isMouse&&allowMouse){
 	    pointerx = ((px-640.0f) / -1);
 	    pointery = (py);
