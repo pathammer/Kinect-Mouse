@@ -16,8 +16,8 @@ nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/bgfg_acmmm2003.o
  ../nestk/deps/opencv/modules/video/../imgproc/include/opencv2/imgproc/types_c.h
  ../nestk/deps/opencv/modules/video/include/opencv2/video/background_segm.hpp
  ../nestk/deps/opencv/modules/video/include/opencv2/video/tracking.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/video/src/bgfg_acmmm2003.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/video/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/video/src/bgfg_acmmm2003.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/video/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/bgfg_codebook.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -34,8 +34,8 @@ nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/bgfg_codebook.o
  ../nestk/deps/opencv/modules/video/../imgproc/include/opencv2/imgproc/types_c.h
  ../nestk/deps/opencv/modules/video/include/opencv2/video/background_segm.hpp
  ../nestk/deps/opencv/modules/video/include/opencv2/video/tracking.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/video/src/bgfg_codebook.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/video/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/video/src/bgfg_codebook.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/video/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/bgfg_common.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -52,8 +52,8 @@ nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/bgfg_common.o
  ../nestk/deps/opencv/modules/video/../imgproc/include/opencv2/imgproc/types_c.h
  ../nestk/deps/opencv/modules/video/include/opencv2/video/background_segm.hpp
  ../nestk/deps/opencv/modules/video/include/opencv2/video/tracking.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/video/src/bgfg_common.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/video/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/video/src/bgfg_common.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/video/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/bgfg_gaussmix.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -70,8 +70,8 @@ nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/bgfg_gaussmix.o
  ../nestk/deps/opencv/modules/video/../imgproc/include/opencv2/imgproc/types_c.h
  ../nestk/deps/opencv/modules/video/include/opencv2/video/background_segm.hpp
  ../nestk/deps/opencv/modules/video/include/opencv2/video/tracking.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/video/src/bgfg_gaussmix.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/video/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/video/src/bgfg_gaussmix.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/video/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/camshift.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -88,8 +88,8 @@ nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/camshift.o
  ../nestk/deps/opencv/modules/video/../imgproc/include/opencv2/imgproc/types_c.h
  ../nestk/deps/opencv/modules/video/include/opencv2/video/background_segm.hpp
  ../nestk/deps/opencv/modules/video/include/opencv2/video/tracking.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/video/src/camshift.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/video/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/video/src/camshift.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/video/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/kalman.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -106,8 +106,8 @@ nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/kalman.o
  ../nestk/deps/opencv/modules/video/../imgproc/include/opencv2/imgproc/types_c.h
  ../nestk/deps/opencv/modules/video/include/opencv2/video/background_segm.hpp
  ../nestk/deps/opencv/modules/video/include/opencv2/video/tracking.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/video/src/kalman.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/video/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/video/src/kalman.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/video/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/lkpyramid.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -124,8 +124,8 @@ nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/lkpyramid.o
  ../nestk/deps/opencv/modules/video/../imgproc/include/opencv2/imgproc/types_c.h
  ../nestk/deps/opencv/modules/video/include/opencv2/video/background_segm.hpp
  ../nestk/deps/opencv/modules/video/include/opencv2/video/tracking.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/video/src/lkpyramid.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/video/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/video/src/lkpyramid.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/video/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/motempl.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -142,8 +142,8 @@ nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/motempl.o
  ../nestk/deps/opencv/modules/video/../imgproc/include/opencv2/imgproc/types_c.h
  ../nestk/deps/opencv/modules/video/include/opencv2/video/background_segm.hpp
  ../nestk/deps/opencv/modules/video/include/opencv2/video/tracking.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/video/src/motempl.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/video/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/video/src/motempl.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/video/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowbm.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -160,8 +160,8 @@ nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowbm.o
  ../nestk/deps/opencv/modules/video/../imgproc/include/opencv2/imgproc/types_c.h
  ../nestk/deps/opencv/modules/video/include/opencv2/video/background_segm.hpp
  ../nestk/deps/opencv/modules/video/include/opencv2/video/tracking.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/video/src/optflowbm.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/video/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/video/src/optflowbm.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/video/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowgf.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -178,8 +178,8 @@ nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowgf.o
  ../nestk/deps/opencv/modules/video/../imgproc/include/opencv2/imgproc/types_c.h
  ../nestk/deps/opencv/modules/video/include/opencv2/video/background_segm.hpp
  ../nestk/deps/opencv/modules/video/include/opencv2/video/tracking.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/video/src/optflowgf.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/video/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/video/src/optflowgf.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/video/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowhs.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -196,8 +196,8 @@ nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowhs.o
  ../nestk/deps/opencv/modules/video/../imgproc/include/opencv2/imgproc/types_c.h
  ../nestk/deps/opencv/modules/video/include/opencv2/video/background_segm.hpp
  ../nestk/deps/opencv/modules/video/include/opencv2/video/tracking.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/video/src/optflowhs.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/video/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/video/src/optflowhs.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/video/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowlk.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -214,8 +214,8 @@ nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowlk.o
  ../nestk/deps/opencv/modules/video/../imgproc/include/opencv2/imgproc/types_c.h
  ../nestk/deps/opencv/modules/video/include/opencv2/video/background_segm.hpp
  ../nestk/deps/opencv/modules/video/include/opencv2/video/tracking.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/video/src/optflowlk.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/video/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/video/src/optflowlk.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/video/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/precomp.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -232,6 +232,6 @@ nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/precomp.o
  ../nestk/deps/opencv/modules/video/../imgproc/include/opencv2/imgproc/types_c.h
  ../nestk/deps/opencv/modules/video/include/opencv2/video/background_segm.hpp
  ../nestk/deps/opencv/modules/video/include/opencv2/video/tracking.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/video/src/precomp.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/video/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/video/src/precomp.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/video/src/precomp.hpp
  cvconfig.h

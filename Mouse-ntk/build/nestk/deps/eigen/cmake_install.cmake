@@ -1,4 +1,4 @@
-# Install script for directory: /home/louis/Documents/Motion Capture/Mouse/nestk/deps/eigen
+# Install script for directory: /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/eigen
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,13 +33,13 @@ IF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Devel")
-  FILE(INSTALL DESTINATION "/usr/local/include/eigen3" TYPE FILE FILES "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/eigen/signature_of_eigen3_matrix_library")
+  FILE(INSTALL DESTINATION "/usr/local/include/eigen3" TYPE FILE FILES "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/eigen/signature_of_eigen3_matrix_library")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Devel")
 
 IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  INCLUDE("/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/eigen/Eigen/cmake_install.cmake")
-  INCLUDE("/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/eigen/unsupported/cmake_install.cmake")
+  INCLUDE("/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/eigen/Eigen/cmake_install.cmake")
+  INCLUDE("/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/eigen/unsupported/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 

@@ -136,69 +136,69 @@ string
 iostream
 -
 
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/ml/src/ann_mlp.cpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/ml/src/ann_mlp.cpp
 precomp.hpp
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/ml/src/precomp.hpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/ml/src/precomp.hpp
 
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/ml/src/boost.cpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/ml/src/boost.cpp
 precomp.hpp
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/ml/src/precomp.hpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/ml/src/precomp.hpp
 
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/ml/src/cnn.cpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/ml/src/cnn.cpp
 precomp.hpp
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/ml/src/precomp.hpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/ml/src/precomp.hpp
 
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/ml/src/data.cpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/ml/src/data.cpp
 precomp.hpp
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/ml/src/precomp.hpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/ml/src/precomp.hpp
 ctype.h
 -
 
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/ml/src/em.cpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/ml/src/em.cpp
 precomp.hpp
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/ml/src/precomp.hpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/ml/src/precomp.hpp
 
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/ml/src/ertrees.cpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/ml/src/ertrees.cpp
 precomp.hpp
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/ml/src/precomp.hpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/ml/src/precomp.hpp
 
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/ml/src/estimate.cpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/ml/src/estimate.cpp
 precomp.hpp
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/ml/src/precomp.hpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/ml/src/precomp.hpp
 
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/ml/src/gbt.cpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/ml/src/gbt.cpp
 precomp.hpp
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/ml/src/precomp.hpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/ml/src/precomp.hpp
 string
 -
 time.h
 -
 
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/ml/src/inner_functions.cpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/ml/src/inner_functions.cpp
 precomp.hpp
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/ml/src/precomp.hpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/ml/src/precomp.hpp
 
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/ml/src/knearest.cpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/ml/src/knearest.cpp
 precomp.hpp
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/ml/src/precomp.hpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/ml/src/precomp.hpp
 
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/ml/src/nbayes.cpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/ml/src/nbayes.cpp
 precomp.hpp
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/ml/src/precomp.hpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/ml/src/precomp.hpp
 
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/ml/src/precomp.cpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/ml/src/precomp.cpp
 precomp.hpp
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/ml/src/precomp.hpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/ml/src/precomp.hpp
 
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/ml/src/precomp.hpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/ml/src/precomp.hpp
 cvconfig.h
 -
 opencv2/ml/ml.hpp
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/ml/src/opencv2/ml/ml.hpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/ml/src/opencv2/ml/ml.hpp
 opencv2/core/core_c.h
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/ml/src/opencv2/core/core_c.h
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/ml/src/opencv2/core/core_c.h
 opencv2/core/internal.hpp
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/ml/src/opencv2/core/internal.hpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/ml/src/opencv2/core/internal.hpp
 assert.h
 -
 float.h
@@ -216,25 +216,25 @@ string.h
 time.h
 -
 
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/ml/src/rtrees.cpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/ml/src/rtrees.cpp
 precomp.hpp
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/ml/src/precomp.hpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/ml/src/precomp.hpp
 
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/ml/src/svm.cpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/ml/src/svm.cpp
 precomp.hpp
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/ml/src/precomp.hpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/ml/src/precomp.hpp
 stdarg.h
 -
 ctype.h
 -
 
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/ml/src/testset.cpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/ml/src/testset.cpp
 precomp.hpp
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/ml/src/precomp.hpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/ml/src/precomp.hpp
 
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/ml/src/tree.cpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/ml/src/tree.cpp
 precomp.hpp
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/ml/src/precomp.hpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/ml/src/precomp.hpp
 ctype.h
 -
 

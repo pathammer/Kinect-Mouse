@@ -1,1 +1,1 @@
-/usr/bin/gcc  -O2 -g   CMakeFiles/record.dir/record.c.o  -o ../../../../utils/record -rdynamic ../../../../lib/libfreenect.so.0.0.1 -lm -lusb-1.0 -Wl,-rpath,"/home/louis/Documents/Motion Capture/Mouse/build/lib" 
+/usr/bin/gcc  -O2   CMakeFiles/record.dir/record.c.o  -o ../../../../utils/record -rdynamic ../../../../lib/libfreenect.so.0.0.1 -lm -lusb-1.0 -Wl,-rpath,/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/lib 

@@ -11,8 +11,8 @@ nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/alloc.o
  ../nestk/deps/opencv/modules/core/include/opencv2/core/operations.hpp
  ../nestk/deps/opencv/modules/core/include/opencv2/core/types_c.h
  ../nestk/deps/opencv/modules/core/include/opencv2/core/version.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/alloc.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core/src/alloc.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/arithm.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -24,8 +24,8 @@ nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/arithm.o
  ../nestk/deps/opencv/modules/core/include/opencv2/core/operations.hpp
  ../nestk/deps/opencv/modules/core/include/opencv2/core/types_c.h
  ../nestk/deps/opencv/modules/core/include/opencv2/core/version.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/arithm.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core/src/arithm.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/array.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -37,8 +37,8 @@ nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/array.o
  ../nestk/deps/opencv/modules/core/include/opencv2/core/operations.hpp
  ../nestk/deps/opencv/modules/core/include/opencv2/core/types_c.h
  ../nestk/deps/opencv/modules/core/include/opencv2/core/version.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/array.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core/src/array.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/convert.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -50,8 +50,8 @@ nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/convert.o
  ../nestk/deps/opencv/modules/core/include/opencv2/core/operations.hpp
  ../nestk/deps/opencv/modules/core/include/opencv2/core/types_c.h
  ../nestk/deps/opencv/modules/core/include/opencv2/core/version.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/convert.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core/src/convert.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/copy.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -63,8 +63,8 @@ nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/copy.o
  ../nestk/deps/opencv/modules/core/include/opencv2/core/operations.hpp
  ../nestk/deps/opencv/modules/core/include/opencv2/core/types_c.h
  ../nestk/deps/opencv/modules/core/include/opencv2/core/version.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/copy.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core/src/copy.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/datastructs.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -76,8 +76,8 @@ nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/datastructs.o
  ../nestk/deps/opencv/modules/core/include/opencv2/core/operations.hpp
  ../nestk/deps/opencv/modules/core/include/opencv2/core/types_c.h
  ../nestk/deps/opencv/modules/core/include/opencv2/core/version.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/datastructs.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core/src/datastructs.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/drawing.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -89,8 +89,8 @@ nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/drawing.o
  ../nestk/deps/opencv/modules/core/include/opencv2/core/operations.hpp
  ../nestk/deps/opencv/modules/core/include/opencv2/core/types_c.h
  ../nestk/deps/opencv/modules/core/include/opencv2/core/version.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/drawing.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core/src/drawing.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/dxt.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -102,8 +102,8 @@ nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/dxt.o
  ../nestk/deps/opencv/modules/core/include/opencv2/core/operations.hpp
  ../nestk/deps/opencv/modules/core/include/opencv2/core/types_c.h
  ../nestk/deps/opencv/modules/core/include/opencv2/core/version.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/dxt.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core/src/dxt.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/lapack.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -118,8 +118,8 @@ nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/lapack.o
  ../nestk/deps/opencv/modules/core/include/opencv2/core/operations.hpp
  ../nestk/deps/opencv/modules/core/include/opencv2/core/types_c.h
  ../nestk/deps/opencv/modules/core/include/opencv2/core/version.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/lapack.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core/src/lapack.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/mathfuncs.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -131,8 +131,8 @@ nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/mathfuncs.o
  ../nestk/deps/opencv/modules/core/include/opencv2/core/operations.hpp
  ../nestk/deps/opencv/modules/core/include/opencv2/core/types_c.h
  ../nestk/deps/opencv/modules/core/include/opencv2/core/version.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/mathfuncs.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core/src/mathfuncs.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/matmul.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -144,8 +144,8 @@ nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/matmul.o
  ../nestk/deps/opencv/modules/core/include/opencv2/core/operations.hpp
  ../nestk/deps/opencv/modules/core/include/opencv2/core/types_c.h
  ../nestk/deps/opencv/modules/core/include/opencv2/core/version.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/matmul.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core/src/matmul.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/matop.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -157,8 +157,8 @@ nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/matop.o
  ../nestk/deps/opencv/modules/core/include/opencv2/core/operations.hpp
  ../nestk/deps/opencv/modules/core/include/opencv2/core/types_c.h
  ../nestk/deps/opencv/modules/core/include/opencv2/core/version.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/matop.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core/src/matop.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/matrix.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -170,8 +170,8 @@ nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/matrix.o
  ../nestk/deps/opencv/modules/core/include/opencv2/core/operations.hpp
  ../nestk/deps/opencv/modules/core/include/opencv2/core/types_c.h
  ../nestk/deps/opencv/modules/core/include/opencv2/core/version.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/matrix.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core/src/matrix.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/out.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -183,8 +183,8 @@ nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/out.o
  ../nestk/deps/opencv/modules/core/include/opencv2/core/operations.hpp
  ../nestk/deps/opencv/modules/core/include/opencv2/core/types_c.h
  ../nestk/deps/opencv/modules/core/include/opencv2/core/version.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/out.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core/src/out.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/persistence.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -198,8 +198,8 @@ nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/persistence.o
  ../nestk/deps/opencv/modules/core/include/opencv2/core/operations.hpp
  ../nestk/deps/opencv/modules/core/include/opencv2/core/types_c.h
  ../nestk/deps/opencv/modules/core/include/opencv2/core/version.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/persistence.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core/src/persistence.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/precomp.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -211,8 +211,8 @@ nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/precomp.o
  ../nestk/deps/opencv/modules/core/include/opencv2/core/operations.hpp
  ../nestk/deps/opencv/modules/core/include/opencv2/core/types_c.h
  ../nestk/deps/opencv/modules/core/include/opencv2/core/version.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/precomp.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core/src/precomp.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/rand.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -224,8 +224,8 @@ nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/rand.o
  ../nestk/deps/opencv/modules/core/include/opencv2/core/operations.hpp
  ../nestk/deps/opencv/modules/core/include/opencv2/core/types_c.h
  ../nestk/deps/opencv/modules/core/include/opencv2/core/version.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/precomp.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/rand.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core/src/rand.cpp
  cvconfig.h
 nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/stat.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -237,8 +237,8 @@ nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/stat.o
  ../nestk/deps/opencv/modules/core/include/opencv2/core/operations.hpp
  ../nestk/deps/opencv/modules/core/include/opencv2/core/types_c.h
  ../nestk/deps/opencv/modules/core/include/opencv2/core/version.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/precomp.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/stat.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core/src/stat.cpp
  cvconfig.h
 nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/system.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -250,8 +250,8 @@ nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/system.o
  ../nestk/deps/opencv/modules/core/include/opencv2/core/operations.hpp
  ../nestk/deps/opencv/modules/core/include/opencv2/core/types_c.h
  ../nestk/deps/opencv/modules/core/include/opencv2/core/version.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/precomp.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/system.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core/src/system.cpp
  cvconfig.h
 nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/tables.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -263,6 +263,6 @@ nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/tables.o
  ../nestk/deps/opencv/modules/core/include/opencv2/core/operations.hpp
  ../nestk/deps/opencv/modules/core/include/opencv2/core/types_c.h
  ../nestk/deps/opencv/modules/core/include/opencv2/core/version.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/precomp.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/tables.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core/src/tables.cpp
  cvconfig.h

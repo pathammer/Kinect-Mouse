@@ -44,9 +44,9 @@ nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/3dtracker.o
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/blobtrack.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/compat.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/legacy.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/3dtracker.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/_matrix.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/3dtracker.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/_matrix.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/auxutils.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -91,9 +91,9 @@ nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/auxutils.o
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/blobtrack.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/compat.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/legacy.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/_matrix.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/auxutils.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/_matrix.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/auxutils.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/bgfg_estimation.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -138,9 +138,9 @@ nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/bgfg_estimatio
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/blobtrack.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/compat.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/legacy.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/_matrix.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/bgfg_estimation.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/_matrix.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/bgfg_estimation.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrack.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -185,9 +185,9 @@ nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrack.o
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/blobtrack.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/compat.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/legacy.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/_matrix.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/blobtrack.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/_matrix.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/blobtrack.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysis.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -232,9 +232,9 @@ nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanaly
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/blobtrack.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/compat.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/legacy.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/_matrix.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/blobtrackanalysis.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/_matrix.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/blobtrackanalysis.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysishist.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -279,9 +279,9 @@ nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanaly
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/blobtrack.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/compat.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/legacy.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/_matrix.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/blobtrackanalysishist.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/_matrix.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/blobtrackanalysishist.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysisior.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -326,9 +326,9 @@ nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanaly
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/blobtrack.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/compat.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/legacy.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/_matrix.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/blobtrackanalysisior.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/_matrix.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/blobtrackanalysisior.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysistrackdist.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -373,9 +373,9 @@ nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanaly
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/blobtrack.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/compat.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/legacy.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/_matrix.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/blobtrackanalysistrackdist.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/_matrix.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/blobtrackanalysistrackdist.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackgen1.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -420,9 +420,9 @@ nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackgen1.
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/blobtrack.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/compat.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/legacy.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/_matrix.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/blobtrackgen1.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/_matrix.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/blobtrackgen1.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackgenyml.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -467,9 +467,9 @@ nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackgenym
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/blobtrack.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/compat.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/legacy.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/_matrix.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/blobtrackgenyml.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/_matrix.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/blobtrackgenyml.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingauto.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -514,9 +514,9 @@ nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingau
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/blobtrack.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/compat.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/legacy.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/_matrix.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/blobtrackingauto.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/_matrix.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/blobtrackingauto.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingcc.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -561,9 +561,9 @@ nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingcc
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/blobtrack.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/compat.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/legacy.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/_matrix.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/blobtrackingcc.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/_matrix.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/blobtrackingcc.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingccwithcr.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -608,9 +608,9 @@ nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingcc
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/blobtrack.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/compat.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/legacy.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/_matrix.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/blobtrackingccwithcr.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/_matrix.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/blobtrackingccwithcr.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingkalman.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -655,9 +655,9 @@ nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingka
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/blobtrack.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/compat.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/legacy.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/_matrix.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/blobtrackingkalman.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/_matrix.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/blobtrackingkalman.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackinglist.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -702,9 +702,9 @@ nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingli
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/blobtrack.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/compat.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/legacy.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/_matrix.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/blobtrackinglist.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/_matrix.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/blobtrackinglist.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingmsfg.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -749,9 +749,9 @@ nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingms
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/blobtrack.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/compat.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/legacy.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/_matrix.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/blobtrackingmsfg.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/_matrix.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/blobtrackingmsfg.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingmsfgs.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -796,9 +796,9 @@ nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingms
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/blobtrack.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/compat.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/legacy.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/_matrix.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/blobtrackingmsfgs.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/_matrix.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/blobtrackingmsfgs.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackpostprockalman.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -843,9 +843,9 @@ nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackpostp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/blobtrack.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/compat.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/legacy.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/_matrix.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/blobtrackpostprockalman.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/_matrix.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/blobtrackpostprockalman.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackpostproclinear.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -890,9 +890,9 @@ nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackpostp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/blobtrack.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/compat.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/legacy.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/_matrix.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/blobtrackpostproclinear.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/_matrix.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/blobtrackpostproclinear.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackpostproclist.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -937,9 +937,9 @@ nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackpostp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/blobtrack.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/compat.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/legacy.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/_matrix.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/blobtrackpostproclist.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/_matrix.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/blobtrackpostproclist.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/calcimagehomography.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -984,9 +984,9 @@ nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/calcimagehomog
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/blobtrack.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/compat.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/legacy.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/_matrix.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/calcimagehomography.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/_matrix.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/calcimagehomography.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/calibfilter.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -1031,9 +1031,9 @@ nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/calibfilter.o
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/blobtrack.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/compat.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/legacy.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/_matrix.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/calibfilter.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/_matrix.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/calibfilter.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/camshift.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -1078,9 +1078,9 @@ nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/camshift.o
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/blobtrack.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/compat.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/legacy.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/_matrix.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/camshift.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/_matrix.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/camshift.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/clique.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -1125,9 +1125,9 @@ nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/clique.o
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/blobtrack.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/compat.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/legacy.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/_matrix.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/clique.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/_matrix.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/clique.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/compat.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -1172,9 +1172,9 @@ nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/compat.o
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/blobtrack.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/compat.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/legacy.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/_matrix.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/compat.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/_matrix.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/compat.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/condens.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -1219,9 +1219,9 @@ nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/condens.o
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/blobtrack.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/compat.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/legacy.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/_matrix.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/condens.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/_matrix.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/condens.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/contourtree.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -1266,9 +1266,9 @@ nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/contourtree.o
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/blobtrack.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/compat.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/legacy.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/_matrix.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/contourtree.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/_matrix.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/contourtree.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/correspond.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -1313,10 +1313,10 @@ nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/correspond.o
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/blobtrack.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/compat.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/legacy.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/_matrix.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/_vm.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/correspond.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/_matrix.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/_vm.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/correspond.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/corrimages.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -1361,9 +1361,9 @@ nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/corrimages.o
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/blobtrack.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/compat.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/legacy.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/_matrix.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/corrimages.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/_matrix.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/corrimages.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/createhandmask.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -1408,9 +1408,9 @@ nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/createhandmask
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/blobtrack.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/compat.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/legacy.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/_matrix.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/createhandmask.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/_matrix.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/createhandmask.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/decomppoly.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -1455,9 +1455,9 @@ nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/decomppoly.o
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/blobtrack.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/compat.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/legacy.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/_matrix.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/decomppoly.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/_matrix.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/decomppoly.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/dominants.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -1502,9 +1502,9 @@ nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/dominants.o
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/blobtrack.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/compat.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/legacy.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/_matrix.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/dominants.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/_matrix.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/dominants.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/dpstereo.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -1549,9 +1549,9 @@ nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/dpstereo.o
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/blobtrack.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/compat.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/legacy.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/_matrix.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/dpstereo.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/_matrix.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/dpstereo.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/eigenobjects.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -1596,9 +1596,9 @@ nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/eigenobjects.o
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/blobtrack.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/compat.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/legacy.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/_matrix.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/eigenobjects.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/_matrix.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/eigenobjects.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/enmin.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -1643,9 +1643,9 @@ nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/enmin.o
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/blobtrack.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/compat.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/legacy.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/_matrix.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/enmin.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/_matrix.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/enmin.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/enteringblobdetection.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -1690,9 +1690,9 @@ nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/enteringblobde
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/blobtrack.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/compat.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/legacy.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/_matrix.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/enteringblobdetection.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/_matrix.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/enteringblobdetection.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/enteringblobdetectionreal.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -1737,9 +1737,9 @@ nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/enteringblobde
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/blobtrack.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/compat.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/legacy.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/_matrix.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/enteringblobdetectionreal.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/_matrix.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/enteringblobdetectionreal.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/epilines.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -1784,9 +1784,9 @@ nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/epilines.o
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/blobtrack.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/compat.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/legacy.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/_matrix.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/epilines.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/_matrix.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/epilines.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/extendededges.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -1831,9 +1831,9 @@ nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/extendededges.
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/blobtrack.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/compat.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/legacy.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/_matrix.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/extendededges.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/_matrix.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/extendededges.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/face.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -1878,10 +1878,10 @@ nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/face.o
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/blobtrack.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/compat.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/legacy.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/_facedetection.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/_matrix.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/face.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/_facedetection.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/_matrix.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/face.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/facedetection.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -1926,10 +1926,10 @@ nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/facedetection.
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/blobtrack.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/compat.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/legacy.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/_facedetection.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/_matrix.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/facedetection.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/_facedetection.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/_matrix.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/facedetection.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/facetemplate.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -1974,10 +1974,10 @@ nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/facetemplate.o
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/blobtrack.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/compat.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/legacy.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/_facedetection.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/_matrix.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/facetemplate.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/_facedetection.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/_matrix.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/facetemplate.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/findface.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -2022,10 +2022,10 @@ nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/findface.o
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/blobtrack.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/compat.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/legacy.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/_facedetection.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/_matrix.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/findface.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/_facedetection.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/_matrix.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/findface.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/findhandregion.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -2070,9 +2070,9 @@ nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/findhandregion
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/blobtrack.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/compat.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/legacy.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/_matrix.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/findhandregion.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/_matrix.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/findhandregion.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/hmm.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -2117,9 +2117,9 @@ nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/hmm.o
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/blobtrack.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/compat.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/legacy.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/_matrix.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/hmm.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/_matrix.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/hmm.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/hmm1d.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -2164,9 +2164,9 @@ nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/hmm1d.o
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/blobtrack.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/compat.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/legacy.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/_matrix.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/hmm1d.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/_matrix.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/hmm1d.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/hmmobs.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -2211,9 +2211,9 @@ nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/hmmobs.o
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/blobtrack.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/compat.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/legacy.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/_matrix.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/hmmobs.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/_matrix.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/hmmobs.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/image.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -2259,9 +2259,9 @@ nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/image.o
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/blobtrack.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/compat.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/legacy.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/_matrix.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/image.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/_matrix.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/image.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lcm.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -2306,9 +2306,9 @@ nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lcm.o
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/blobtrack.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/compat.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/legacy.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/_matrix.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/lcm.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/_matrix.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/lcm.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lee.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -2353,9 +2353,9 @@ nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lee.o
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/blobtrack.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/compat.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/legacy.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/_matrix.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/lee.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/_matrix.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/lee.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/levmar.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -2400,9 +2400,9 @@ nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/levmar.o
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/blobtrack.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/compat.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/legacy.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/_matrix.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/levmar.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/_matrix.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/levmar.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/levmarprojbandle.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -2447,9 +2447,9 @@ nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/levmarprojband
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/blobtrack.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/compat.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/legacy.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/_matrix.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/levmarprojbandle.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/_matrix.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/levmarprojbandle.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/levmartrif.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -2494,9 +2494,9 @@ nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/levmartrif.o
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/blobtrack.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/compat.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/legacy.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/_matrix.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/levmartrif.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/_matrix.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/levmartrif.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lines.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -2541,9 +2541,9 @@ nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lines.o
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/blobtrack.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/compat.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/legacy.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/_matrix.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/lines.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/_matrix.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/lines.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lmeds.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -2588,10 +2588,10 @@ nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lmeds.o
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/blobtrack.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/compat.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/legacy.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/_matrix.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/_vm.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/lmeds.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/_matrix.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/_vm.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/lmeds.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/morphcontours.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -2636,9 +2636,9 @@ nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/morphcontours.
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/blobtrack.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/compat.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/legacy.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/_matrix.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/morphcontours.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/_matrix.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/morphcontours.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/morphing.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -2683,9 +2683,9 @@ nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/morphing.o
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/blobtrack.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/compat.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/legacy.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/_matrix.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/morphing.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/_matrix.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/morphing.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/pgh.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -2730,9 +2730,9 @@ nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/pgh.o
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/blobtrack.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/compat.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/legacy.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/_matrix.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/pgh.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/_matrix.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/pgh.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/precomp.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -2777,9 +2777,9 @@ nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/precomp.o
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/blobtrack.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/compat.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/legacy.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/_matrix.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/_matrix.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/precomp.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/prewarp.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -2824,10 +2824,10 @@ nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/prewarp.o
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/blobtrack.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/compat.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/legacy.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/_matrix.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/_vm.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/prewarp.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/_matrix.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/_vm.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/prewarp.cpp
  cvconfig.h
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/scanlines.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -2872,10 +2872,10 @@ nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/scanlines.o
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/blobtrack.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/compat.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/legacy.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/_matrix.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/_vm.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/scanlines.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/_matrix.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/_vm.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/scanlines.cpp
  cvconfig.h
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/segment.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -2920,9 +2920,9 @@ nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/segment.o
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/blobtrack.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/compat.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/legacy.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/_matrix.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/segment.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/_matrix.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/segment.cpp
  cvconfig.h
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/snakes.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -2967,9 +2967,9 @@ nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/snakes.o
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/blobtrack.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/compat.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/legacy.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/_matrix.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/snakes.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/_matrix.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/snakes.cpp
  cvconfig.h
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/subdiv2.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -3014,9 +3014,9 @@ nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/subdiv2.o
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/blobtrack.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/compat.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/legacy.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/_matrix.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/subdiv2.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/_matrix.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/subdiv2.cpp
  cvconfig.h
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/testseq.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -3061,9 +3061,9 @@ nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/testseq.o
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/blobtrack.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/compat.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/legacy.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/_matrix.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/testseq.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/_matrix.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/testseq.cpp
  cvconfig.h
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/texture.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -3108,9 +3108,9 @@ nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/texture.o
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/blobtrack.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/compat.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/legacy.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/_matrix.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/texture.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/_matrix.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/texture.cpp
  cvconfig.h
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/trifocal.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -3155,9 +3155,9 @@ nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/trifocal.o
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/blobtrack.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/compat.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/legacy.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/_matrix.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/trifocal.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/_matrix.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/trifocal.cpp
  cvconfig.h
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/vecfacetracking.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -3202,10 +3202,10 @@ nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/vecfacetrackin
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/blobtrack.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/compat.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/legacy.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/_matrix.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/_vectrack.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/vecfacetracking.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/_matrix.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/_vectrack.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/vecfacetracking.cpp
  cvconfig.h
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/video.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -3250,7 +3250,7 @@ nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/video.o
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/blobtrack.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/compat.hpp
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/legacy.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/_matrix.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/video.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/_matrix.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/video.cpp
  cvconfig.h

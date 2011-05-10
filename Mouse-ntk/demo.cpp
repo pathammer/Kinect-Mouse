@@ -8,6 +8,7 @@
 
 #include <iostream>
 #include <math.h>
+#include <deque>
 #include <stdio.h>
 #include <stdlib.h>
 #include <cstdlib>
@@ -21,6 +22,24 @@
 
 #include <ntk/camera/rgbd_processor.h>
 #include <ntk/utils/opencv_utils.h>
+
+//X11 Includes (MUST link these libraries in compilation  -lX11 -lXtst) 
+#include <assert.h>
+#include <X11/Xlib.h>
+#include <X11/Xatom.h>
+#include <X11/extensions/XTest.h>
+
+//X11 Declares
+#define SCREEN (DefaultScreen(display))
+Display *display;
+Window root_window;
+int screenw=0, screenh=0;
+float pointerx = 0, pointery = 0;
+float mousex = 0, mousey = 0;
+float tmousex = 0, tmousey = 0;
+int snstvty;
+int pauseTime = 0;
+int pusx = 0, pusy = 0;
 
 // use viewer for GUI and object detection
 
@@ -43,12 +62,18 @@ namespace opt {
 class hand {
 public:
   hand() {}
-  cv::Point center;
-  int numFingers;
+  Point center;
   int isClicked;
   int isOn;
+  vector<Point2i> fingerTips; // our fingertips output info
+  deque<int> avg;			// used for smoothing hand data
+
   hand (cv::Point c) {
      center = c;
+  }
+
+  int numFingers () {
+    return fingerTips.size();
   }
 
   int checkDistance(Point n) {
@@ -61,6 +86,34 @@ public:
     center = n;
     //cout << "Updated center to " << center.x <<", "<< center.y<<endl;
   }
+  
+	/**
+	 * Here we average the number of fingers detection for every 5 frames
+	 * Should yield smoother results
+	 */
+	int smoothData() {
+		int numFingers = fingerTips.size();
+		int sum = 0;
+	
+		// push the current number of fingers detected
+		avg.push_back(numFingers);
+		
+		cout << "\tpushed: " << numFingers << endl;
+	
+		// check the size of the queue
+		cout << "\tsize: " << avg.size() << endl;
+		if (avg.size() == 5) {
+			avg.pop_front();
+		}	
+	
+		// compute running average of fingers detected
+		for (int i = 0; i < avg.size(); i++) {
+			sum += avg[i];		
+		}
+		cout << "\tsum: " << sum << endl;
+		cout << "\tavg: " << (sum / avg.size()) << endl;
+		return floor(sum / avg.size());	
+	}  
 };
 
 hand hand1, hand2;
@@ -108,18 +161,18 @@ int whichHand (Point centerPoint, int deltaThreshold) {
   else return 0;
 }
 
-std::vector<cv::Point2i> detectFingertips(cv::Mat1f z, float zMin, float zMax, cv::Mat1f debugFrame) {
-  
-  vector<Point2i> fingerTips;
-
+void detectFingertips(cv::Mat1f z, float zMin, float zMax, cv::Mat1f debugFrame) {
   Mat handMask = (z < zMax) & (z > zMin);
   //debugFrame=debugFrame*0;
   debugFrame=handMask;
   std::vector<std::vector<cv::Point> > contours;
   Point previous;
+  vector<Point2i> previousFingerTips;
   cv::findContours(handMask, contours, CV_RETR_LIST, CV_CHAIN_APPROX_SIMPLE);
   int deltaThreshold = 50;
-  int numHands=0;
+  int delta = 20;//the looped deltathreshold increase factor IDEA: make this exponential
+  int numHands=0;//the number hands we have contours for
+  int handNumber=0;//either 0 1 or 2 depending on which hand we have the contour for
   if (contours.size()) {
     //cout << contours.size() << endl;
     for (int i=0; i<contours.size(); i++) {
@@ -128,41 +181,42 @@ std::vector<cv::Point2i> detectFingertips(cv::Mat1f z, float zMin, float zMax, c
       double area = cv::contourArea(contourMat);
       if (area > 3000)  { // possible hand
 	Scalar center = mean(contourMat);
+	
+	// here we compute the new center of the hand
 	Point centerPoint = Point(center.val[0], center.val[1]);
 	if ( i != contours.size()-1) { // if second hand
 	  numHands = 2;
 	  hand1.isOn=hand2.isOn=1;
-	  //cout << "two"<<endl;
 	  previous = centerPoint;
 	  }
-      	else if (numHands!=2) {
+      	else if (numHands!=2) { // if only one hand
 	  numHands = 1;
-	  while (!whichHand(centerPoint, deltaThreshold,previous)){
-	    deltaThreshold=deltaThreshold+50;
+	  do {
+	    handNumber = whichHand(centerPoint, deltaThreshold);
+	    deltaThreshold+=delta;
 	    switch (whichHand(centerPoint, deltaThreshold,previous)) {
 	    case 1:
 	      hand2.isOn=0;
-	      cout<<"tow is off"<<endl;
 	    case 2:
 	      hand1.isOn=0;
-	      cout<<"one is off"<<endl;
-	      case 0:
-	      hand1.isOn=hand2.isOn=1;
+	    case 0:
+	      hand1.isOn=hand2.isOn=1; //fix corner case
 	    }
 	    if (deltaThreshold >= 9999) break;
-	  }
+	  } while (!handNumber);
 	}
 	//cout << i<< " # "<< centerPoint.x << "," << centerPoint.y << endl;
 	//which hand do we have centerPoint for?
 	//sees if the current point is closer to where hand1 was or hand2 was
 	if ((i == contours.size()-1) && (numHands==2)) {
-	  while (!whichHand(centerPoint, deltaThreshold,previous)){
-	    deltaThreshold=deltaThreshold+50;
+	  do {
+	    handNumber = whichHand(centerPoint, deltaThreshold,previous);
+	    deltaThreshold+=delta;
 	    if (deltaThreshold >= 9999) {
 	      if (hand1.isOn) {
 		//hand 2 must have appeared
 		hand2.isOn = 1;
-		cout<<"two on"<<endl;
+		//cout<<"two on"<<endl;
 		hand2.update(centerPoint);
 		hand1.update(previous);
 		circle (debugFrame, hand1.center, 10, CV_RGB(250,0,0), 4);
@@ -170,18 +224,17 @@ std::vector<cv::Point2i> detectFingertips(cv::Mat1f z, float zMin, float zMax, c
 	      else if (hand2.isOn) {
 		//hand 1 must have appeared
 		hand1.isOn=1;
-		cout<<"one on"<<endl;
+		//cout<<"one on"<<endl;
 		hand1.update(centerPoint);
 		hand2.update(previous);
 		circle (debugFrame, hand2.center, 10, CV_RGB(250,0,0), 10); //the big circle is the one that is hand 1
 	      }
 	      else {
-		cout<<"no hands?"<<endl;
+		//cout<<"no hands?"<<endl;
 	      }
 	      //break;
 	    }
-	  }
-	  deltaThreshold=50;
+	  } while (!handNumber);
 	}
 	
        	vector<Point> approxCurve;
@@ -215,8 +268,19 @@ std::vector<cv::Point2i> detectFingertips(cv::Mat1f z, float zMin, float zMax, c
 	    int u = approxCurve[idx].x;
 	    int v = approxCurve[idx].y;
 
-	    fingerTips.push_back(Point2i(u,v));
-						
+	    //cout<<"ABOUT TO ADD A FINGER TO HAND " << handNumber<<endl;
+	    if (handNumber == 1) {
+	      hand1.fingerTips.push_back(Point2i(u,v));
+	      if (numHands == 2) hand2.fingerTips=previousFingerTips;
+	    }
+	    else if (handNumber == 2) {
+	      hand2.fingerTips.push_back(Point2i(u,v));
+	      if (numHands == 2) hand1.fingerTips=previousFingerTips;
+	    }
+	    else {
+	      previousFingerTips.push_back(Point2i(u,v));
+	    }
+	    	    
 	    if (debug) {
 	      cv::circle(debugFrame, approxCurve[idx], 10, Scalar(1), -1);
 	    }
@@ -253,9 +317,7 @@ std::vector<cv::Point2i> detectFingertips(cv::Mat1f z, float zMin, float zMax, c
   if (numHands==0) {
     hand1.isOn=hand2.isOn=0;
   }
-  return fingerTips;
 }
-
 
 int main(int argc, char** argv) {
   arg_base::set_help_option("-h");
@@ -265,17 +327,26 @@ int main(int argc, char** argv) {
   KinectGrabber * grabber = new KinectGrabber();
   grabber->initialize(); 
 
-  // calibration
-  cout << "got here" << endl;
-	
+  //Initialize X11 Stuff
+	display = XOpenDisplay(0);
+	root_window = DefaultRootWindow(display);
+
+	screenw = XDisplayWidth(display, SCREEN);
+	screenh = XDisplayHeight(display, SCREEN);
+       
+	printf("\nDefault Display Found\n");
+	printf("\nSize: %dx%d\n", screenw, screenh);
+
+	screenw += 200;
+	screenh += 200; 
+
   ntk::RGBDCalibration* calib_data = 0;
   if (opt::calibration_file()) {
-	cout << "calibrated" << endl;
+	//cout << "calibrated" << endl;
     calib_data = new RGBDCalibration();
     calib_data->loadFromFile(opt::calibration_file());
   }
   else if (QDir::current().exists("kinect_calibration.yml")) {
-	cout << "calibration does not exist" << endl;
     ntk_dbg(0) << "[WARNING] Using kinect_calibration.yml in current directory";
     ntk_dbg(0) << "[WARNING] use --calibration to specify a different file.";
 	
@@ -283,12 +354,11 @@ int main(int argc, char** argv) {
     calib_data->loadFromFile("kinect_calibration.yml");
   }
   if (calib_data) {
-    cout << "calibrating" << endl;
     grabber->setCalibrationData(*calib_data);
   }
   
   // Set camera tilt.
-  grabber->setTiltAngle(10);
+  grabber->setTiltAngle(25);
   grabber->start();
 
   // Postprocess raw kinect data.
@@ -300,7 +370,7 @@ int main(int argc, char** argv) {
   namedWindow("color");
   //namedWindow("depth_as_color");
   //namedWindow("depth");
-  namedWindow("depth_normalized");
+  //namedWindow("depth_normalized");
   namedWindow("fingers");
 
   // OpenCV variables
@@ -328,12 +398,7 @@ int main(int argc, char** argv) {
     cv::putText(current_frame.rgbRef(),
     		cv::format("%d fps", fps),
     		Point(10,20), 0, 0.5, Scalar(255,0,0,255));
-    if(hand1.isOn) circle (current_frame.rgbRef(), hand1.center, 10, CV_RGB(255,0,0), 10);
-    if(hand2.isOn) circle (current_frame.rgbRef(), hand2.center, 10, CV_RGB(0,255,0), 10);
 		
-    // Display the color image
-    imshow("color", current_frame.rgb());
-
     // Show the depth image as normalized gray scale
     //imshow_normalized("depth", current_frame.depth());
 
@@ -350,7 +415,7 @@ int main(int argc, char** argv) {
     // normalize the depth channel and show it
     Mat1b depth_normalized;
     normalize(depth, depth_normalized, 0, 255, NORM_MINMAX, 0);
-    imshow("depth_normalized", depth_normalized);
+    //imshow("depth_normalized", depth_normalized);
 
     // failed attempt at thresholding
     //Mat1f thresh;
@@ -371,16 +436,79 @@ int main(int argc, char** argv) {
 
     // OpenCV Magic
     std::vector<cv::Point2i> fingerTips; //our fingertips output info
-    fingerTips = detectFingertips(depth_normalized, 1, 35, debugFrame);
-    // draw fingetips
-    for(vector<Point2i>::iterator it = fingerTips.begin(); it != fingerTips.end(); it++) {
+    detectFingertips(depth_normalized, 1, 45, debugFrame);
+    
+    // update hand centers
+    if(hand1.isOn) circle (current_frame.rgbRef(), hand1.center, 10, CV_RGB(255,0,0), 10);
+    if(hand2.isOn) circle (current_frame.rgbRef(), hand2.center, 10, CV_RGB(0,255,0), 10);
+    
+    // post smoothing
+    cout << "for hand 1... " << endl;
+    hand1.smoothData();
+    cout << "for hand 2... " << endl;
+    hand2.smoothData();
+    
+    // draw fingertips
+    for(vector<Point2i>::iterator it = hand1.fingerTips.begin(); it != hand1.fingerTips.end(); it++) {
       circle(debugFrame, (*it), 10, Scalar(1.0f), -1);
+      circle (current_frame.rgbRef(), (*it), 5, CV_RGB(255,0,0), 5);
+    }
+    for(vector<Point2i>::iterator it = hand2.fingerTips.begin(); it != hand2.fingerTips.end(); it++) {
+      circle(debugFrame, (*it), 10, Scalar(1.0f), -1);
+      circle (current_frame.rgbRef(), (*it), 5, CV_RGB(0,255,0), 5);
     }
     imshow("fingers", debugFrame);
-    //debugFrame=cv::Mat::zeros(480,640,CV_32F);
-    //NOTE THAT DEBUG FRAME IS NEVER SHOWN
+    
+    // Display the color image
+    imshow("color", current_frame.rgb());
+    hand2.fingerTips.clear();
+    hand1.fingerTips.clear();
 
-    // Enable switching to InfraRead mode.
+   //X11 Mouse Control Code
+    //Right now giving priority to hand 1
+    int px, py;
+    if(hand1.isOn){
+      px = hand1.center.x; py = hand1.center.y;
+    }
+    else if(hand2.isOn){
+      px = hand2.center.x; py = hand2.center.y;
+    }
+	    pointerx = ((px-640.0f) / -1);
+	    pointery = (py);
+	    mousex = ((pointerx / 630.0f) * screenw);
+	    mousey = ((pointery / 470.0f) * screenh);
+	    int mx , my;
+	    mx = mousex;
+	    my = mousey;
+
+		if(mx > tmousex) tmousex+= (mx - tmousex) / 7;
+		if(mx < tmousex) tmousex-= (tmousex - mx) / 7;
+		if(my > tmousey) tmousey+= (my - tmousey) / 7;
+		if(my < tmousey) tmousey-= (tmousey - my) / 7;			
+
+		if((pusx <= (mx + 15))  && (pusx >= (mx - 15)) && (pusy <= (my + 15))  && (pusy >= (my - 15))) {
+			pauseTime++;
+			printf("\n%d\n", pauseTime);
+		} else {
+			pusx = mx;
+			pusy = my;
+			pauseTime = 0;
+		}		
+
+		    if(pauseTime > 15) {
+				pauseTime = -30;
+				XTestFakeButtonEvent(display, 1, TRUE, CurrentTime);
+				XTestFakeButtonEvent(display, 1, FALSE, CurrentTime);
+			}
+
+			//printf("-- %d x %d -- \n", mx, my);
+
+			XTestFakeMotionEvent(display, -1, tmousex-200, tmousey-200, CurrentTime);
+			XSync(display, 0);
+
+			//printf("\n\n %d  -  %d \n\n", mx, my);
+ 
+    
     unsigned char c = cv::waitKey(10) & 0xff;
     if (c == 'q' || c == 27)
       exit(0);

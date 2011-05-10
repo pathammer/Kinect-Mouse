@@ -1,4 +1,4 @@
-# Install script for directory: /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv
+# Install script for directory: /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,20 +33,20 @@ IF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "/usr/local/share/opencv" TYPE FILE FILES "/home/louis/Documents/Motion Capture/Mouse/build/unix-install/OpenCVConfig.cmake")
+  FILE(INSTALL DESTINATION "/usr/local/share/opencv" TYPE FILE FILES "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/unix-install/OpenCVConfig.cmake")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/louis/Documents/Motion Capture/Mouse/build/unix-install/opencv.pc")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/unix-install/opencv.pc")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  INCLUDE("/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/include/cmake_install.cmake")
-  INCLUDE("/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/cmake_install.cmake")
-  INCLUDE("/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/doc/cmake_install.cmake")
-  INCLUDE("/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/data/cmake_install.cmake")
-  INCLUDE("/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/3rdparty/cmake_install.cmake")
+  INCLUDE("/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/include/cmake_install.cmake")
+  INCLUDE("/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/cmake_install.cmake")
+  INCLUDE("/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/doc/cmake_install.cmake")
+  INCLUDE("/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/data/cmake_install.cmake")
+  INCLUDE("/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/3rdparty/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 

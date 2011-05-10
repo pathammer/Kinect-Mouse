@@ -171,8 +171,8 @@ nestk/ntk/CMakeFiles/nestk.dir/camera/calibration.o
  ../nestk/ntk/utils/time.h
  ../nestk/ntk/utils/xml_parser.h
  ../nestk/ntk/utils/xml_serializable.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/camera/calibration.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/camera/calibration.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/camera/calibration.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/camera/calibration.h
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QDataStream
@@ -424,9 +424,9 @@ nestk/ntk/CMakeFiles/nestk.dir/camera/file_grabber.o
  ../nestk/ntk/utils/common.h
  ../nestk/ntk/utils/debug.h
  ../nestk/ntk/utils/time.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/camera/file_grabber.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/camera/file_grabber.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/camera/rgbd_grabber.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/camera/file_grabber.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/camera/file_grabber.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/camera/rgbd_grabber.h
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QDebug
@@ -666,9 +666,9 @@ nestk/ntk/CMakeFiles/nestk.dir/camera/kinect_grabber.o
  ../nestk/ntk/utils/qt_utils.h
  ../nestk/ntk/utils/serializable.h
  ../nestk/ntk/utils/time.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/camera/kinect_grabber.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/camera/kinect_grabber.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/camera/rgbd_grabber.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/camera/kinect_grabber.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/camera/kinect_grabber.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/camera/rgbd_grabber.h
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QDataStream
@@ -932,8 +932,8 @@ nestk/ntk/CMakeFiles/nestk.dir/camera/opencv_grabber.o
  ../nestk/ntk/utils/time.h
  ../nestk/ntk/utils/xml_parser.h
  ../nestk/ntk/utils/xml_serializable.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/camera/opencv_grabber.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/camera/opencv_grabber.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/camera/opencv_grabber.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/camera/opencv_grabber.h
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QDataStream
@@ -1201,8 +1201,8 @@ nestk/ntk/CMakeFiles/nestk.dir/camera/rgbd_frame_recorder.o
  ../nestk/ntk/utils/time.h
  ../nestk/ntk/utils/xml_parser.h
  ../nestk/ntk/utils/xml_serializable.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/camera/rgbd_frame_recorder.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/camera/rgbd_frame_recorder.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/camera/rgbd_frame_recorder.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/camera/rgbd_frame_recorder.h
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QDataStream
@@ -1457,8 +1457,8 @@ nestk/ntk/CMakeFiles/nestk.dir/camera/rgbd_grabber.o
  ../nestk/ntk/utils/common.h
  ../nestk/ntk/utils/debug.h
  ../nestk/ntk/utils/time.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/camera/rgbd_grabber.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/camera/rgbd_grabber.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/camera/rgbd_grabber.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/camera/rgbd_grabber.h
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/QtCore/QDebug
  /usr/include/qt4/QtCore/QMutex
@@ -1685,8 +1685,8 @@ nestk/ntk/CMakeFiles/nestk.dir/camera/rgbd_image.o
  ../nestk/ntk/utils/opencv_utils.h
  ../nestk/ntk/utils/serializable.h
  ../nestk/ntk/utils/stl.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/camera/rgbd_image.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/camera/rgbd_image.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/camera/rgbd_image.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/camera/rgbd_image.h
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QDataStream
@@ -1926,8 +1926,8 @@ nestk/ntk/CMakeFiles/nestk.dir/camera/rgbd_processor.o
  ../nestk/ntk/utils/time.h
  ../nestk/ntk/utils/xml_parser.h
  ../nestk/ntk/utils/xml_serializable.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/camera/rgbd_processor.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/camera/rgbd_processor.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/camera/rgbd_processor.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/camera/rgbd_processor.h
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QDataStream
@@ -2181,8 +2181,8 @@ nestk/ntk/CMakeFiles/nestk.dir/geometry/affine_transform.o
  ../nestk/ntk/utils/serializable.h
  ../nestk/ntk/utils/xml_parser.h
  ../nestk/ntk/utils/xml_serializable.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/geometry/affine_transform.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/geometry/affine_transform.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/geometry/affine_transform.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/geometry/affine_transform.h
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QDataStream
@@ -2489,8 +2489,8 @@ nestk/ntk/CMakeFiles/nestk.dir/geometry/plane.o
  ../nestk/ntk/utils/debug.h
  ../nestk/ntk/utils/opencv_utils.h
  ../nestk/ntk/utils/serializable.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/geometry/plane.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/geometry/plane.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/geometry/plane.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/geometry/plane.h
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QDataStream
@@ -2724,8 +2724,8 @@ nestk/ntk/CMakeFiles/nestk.dir/geometry/polygon.o
  ../nestk/ntk/utils/serializable.h
  ../nestk/ntk/utils/xml_parser.h
  ../nestk/ntk/utils/xml_serializable.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/geometry/polygon.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/geometry/polygon.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/geometry/polygon.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/geometry/polygon.h
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QDataStream
@@ -3036,8 +3036,8 @@ nestk/ntk/CMakeFiles/nestk.dir/geometry/pose_3d.o
  ../nestk/ntk/utils/serializable.h
  ../nestk/ntk/utils/xml_parser.h
  ../nestk/ntk/utils/xml_serializable.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/geometry/pose_3d.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/geometry/pose_3d.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/geometry/pose_3d.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/geometry/pose_3d.h
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QDataStream
@@ -3302,8 +3302,8 @@ nestk/ntk/CMakeFiles/nestk.dir/geometry/relative_pose_estimator.o
  ../nestk/ntk/utils/time.h
  ../nestk/ntk/utils/xml_parser.h
  ../nestk/ntk/utils/xml_serializable.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/geometry/relative_pose_estimator.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/geometry/relative_pose_estimator.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/geometry/relative_pose_estimator.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/geometry/relative_pose_estimator.h
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QDataStream
@@ -3560,8 +3560,8 @@ nestk/ntk/CMakeFiles/nestk.dir/geometry/similarity_transform.o
  ../nestk/ntk/utils/serializable.h
  ../nestk/ntk/utils/xml_parser.h
  ../nestk/ntk/utils/xml_serializable.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/geometry/similarity_transform.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/geometry/similarity_transform.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/geometry/similarity_transform.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/geometry/similarity_transform.h
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QDataStream
@@ -3824,8 +3824,8 @@ nestk/ntk/CMakeFiles/nestk.dir/gui/image_widget.o
  ../nestk/ntk/utils/time.h
  ../nestk/ntk/utils/xml_parser.h
  ../nestk/ntk/utils/xml_serializable.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/gui/image_widget.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/gui/image_widget.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/gui/image_widget.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/gui/image_widget.h
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QDataStream
@@ -4105,8 +4105,8 @@ nestk/ntk/CMakeFiles/nestk.dir/gui/moc_image_widget.o
  ../nestk/deps/opencv/modules/video/include/opencv2/video/tracking.hpp
  ../nestk/ntk/core.h
  ../nestk/ntk/utils/common.h
- /home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk/gui/../../../../nestk/ntk/gui/image_widget.h
- /home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk/gui/moc_image_widget.cxx
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk/gui/../../../../nestk/ntk/gui/image_widget.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk/gui/moc_image_widget.cxx
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -4351,8 +4351,8 @@ nestk/ntk/CMakeFiles/nestk.dir/gui/screen_grabber.o
  ../nestk/deps/opencv/modules/video/include/opencv2/video/tracking.hpp
  ../nestk/ntk/core.h
  ../nestk/ntk/utils/common.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/gui/screen_grabber.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/gui/screen_grabber.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/gui/screen_grabber.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/gui/screen_grabber.h
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QDir
@@ -4582,8 +4582,8 @@ nestk/ntk/CMakeFiles/nestk.dir/image/color_model.o
  ../nestk/ntk/core.h
  ../nestk/ntk/utils/common.h
  ../nestk/ntk/utils/debug.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/color_model.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/color_model.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/color_model.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/color_model.h
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/QtCore/QDebug
  /usr/include/qt4/QtCore/QPoint
@@ -4807,8 +4807,8 @@ nestk/ntk/CMakeFiles/nestk.dir/image/feature.o
  ../nestk/ntk/utils/serializable.h
  ../nestk/ntk/utils/xml_parser.h
  ../nestk/ntk/utils/xml_serializable.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/feature.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/feature.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/feature.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/feature.h
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QDataStream
@@ -5056,8 +5056,8 @@ nestk/ntk/CMakeFiles/nestk.dir/image/sift.o
  ../nestk/deps/opencv/modules/video/include/opencv2/video/tracking.hpp
  ../nestk/ntk/core.h
  ../nestk/ntk/utils/common.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/sift.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/sift.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/sift.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/sift.h
 nestk/ntk/CMakeFiles/nestk.dir/image/sift_gpu.o
  ../nestk/deps/eigen/Eigen/Core
  ../nestk/deps/eigen/Eigen/Eigen2Support
@@ -5210,9 +5210,9 @@ nestk/ntk/CMakeFiles/nestk.dir/image/sift_gpu.o
  ../nestk/ntk/utils/common.h
  ../nestk/ntk/utils/debug.h
  ../nestk/ntk/utils/qt_utils.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/sift_gpu.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/sift_gpu.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/siftgpu/SiftGPU.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/sift_gpu.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/sift_gpu.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/siftgpu/SiftGPU.h
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/QtCore/QDataStream
  /usr/include/qt4/QtCore/QDebug
@@ -5296,9 +5296,9 @@ nestk/ntk/CMakeFiles/nestk.dir/image/sift_gpu.o
  /usr/include/qt4/QtNetwork/qlocalsocket.h
 nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/FrameBufferObject.o
  ../nestk/deps/glew/include/GL/glew.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/siftgpu/FrameBufferObject.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/siftgpu/FrameBufferObject.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/siftgpu/GlobalUtil.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/siftgpu/FrameBufferObject.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/siftgpu/FrameBufferObject.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/siftgpu/GlobalUtil.h
 nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/GLTexImage.o
  ../nestk/deps/eigen/Eigen/Core
  ../nestk/deps/eigen/Eigen/Eigen2Support
@@ -5467,12 +5467,12 @@ nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/GLTexImage.o
  ../nestk/ntk/utils/time.h
  ../nestk/ntk/utils/xml_parser.h
  ../nestk/ntk/utils/xml_serializable.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/siftgpu/FrameBufferObject.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/siftgpu/GLTexImage.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/siftgpu/GLTexImage.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/siftgpu/GlobalUtil.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/siftgpu/ProgramGPU.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/siftgpu/ShaderMan.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/siftgpu/FrameBufferObject.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/siftgpu/GLTexImage.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/siftgpu/GLTexImage.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/siftgpu/GlobalUtil.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/siftgpu/ProgramGPU.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/siftgpu/ShaderMan.h
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QDataStream
@@ -5570,9 +5570,9 @@ nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/GLTexImage.o
  /usr/include/qt4/QtNetwork/qlocalsocket.h
 nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/GlobalUtil.o
  ../nestk/deps/glew/include/GL/glew.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/siftgpu/GlobalUtil.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/siftgpu/GlobalUtil.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/siftgpu/LiteWindow.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/siftgpu/GlobalUtil.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/siftgpu/GlobalUtil.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/siftgpu/LiteWindow.h
 nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/ProgramGLSL.o
  ../nestk/deps/eigen/Eigen/Core
  ../nestk/deps/eigen/Eigen/Eigen2Support
@@ -5724,13 +5724,13 @@ nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/ProgramGLSL.o
  ../nestk/deps/opencv/modules/video/include/opencv2/video/tracking.hpp
  ../nestk/ntk/core.h
  ../nestk/ntk/utils/common.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/siftgpu/FrameBufferObject.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/siftgpu/GLTexImage.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/siftgpu/GlobalUtil.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/siftgpu/ProgramGLSL.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/siftgpu/ProgramGLSL.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/siftgpu/ProgramGPU.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/siftgpu/ShaderMan.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/siftgpu/FrameBufferObject.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/siftgpu/GLTexImage.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/siftgpu/GlobalUtil.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/siftgpu/ProgramGLSL.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/siftgpu/ProgramGLSL.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/siftgpu/ProgramGPU.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/siftgpu/ShaderMan.h
 nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/ProgramGPU.o
  ../nestk/deps/eigen/Eigen/Core
  ../nestk/deps/eigen/Eigen/Eigen2Support
@@ -5882,11 +5882,11 @@ nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/ProgramGPU.o
  ../nestk/deps/opencv/modules/video/include/opencv2/video/tracking.hpp
  ../nestk/ntk/core.h
  ../nestk/ntk/utils/common.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/siftgpu/GLTexImage.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/siftgpu/GlobalUtil.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/siftgpu/ProgramGPU.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/siftgpu/ProgramGPU.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/siftgpu/ShaderMan.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/siftgpu/GLTexImage.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/siftgpu/GlobalUtil.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/siftgpu/ProgramGPU.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/siftgpu/ProgramGPU.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/siftgpu/ShaderMan.h
 nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/PyramidGL.o
  ../nestk/deps/eigen/Eigen/Core
  ../nestk/deps/eigen/Eigen/Eigen2Support
@@ -6038,15 +6038,15 @@ nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/PyramidGL.o
  ../nestk/deps/opencv/modules/video/include/opencv2/video/tracking.hpp
  ../nestk/ntk/core.h
  ../nestk/ntk/utils/common.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/siftgpu/FrameBufferObject.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/siftgpu/GLTexImage.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/siftgpu/GlobalUtil.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/siftgpu/ProgramGPU.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/siftgpu/PyramidGL.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/siftgpu/PyramidGL.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/siftgpu/ShaderMan.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/siftgpu/SiftGPU.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/siftgpu/SiftPyramid.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/siftgpu/FrameBufferObject.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/siftgpu/GLTexImage.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/siftgpu/GlobalUtil.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/siftgpu/ProgramGPU.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/siftgpu/PyramidGL.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/siftgpu/PyramidGL.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/siftgpu/ShaderMan.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/siftgpu/SiftGPU.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/siftgpu/SiftPyramid.h
 nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/ShaderMan.o
  ../nestk/deps/eigen/Eigen/Core
  ../nestk/deps/eigen/Eigen/Eigen2Support
@@ -6198,14 +6198,14 @@ nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/ShaderMan.o
  ../nestk/deps/opencv/modules/video/include/opencv2/video/tracking.hpp
  ../nestk/ntk/core.h
  ../nestk/ntk/utils/common.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/siftgpu/FrameBufferObject.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/siftgpu/GLTexImage.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/siftgpu/GlobalUtil.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/siftgpu/ProgramGLSL.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/siftgpu/ProgramGPU.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/siftgpu/ShaderMan.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/siftgpu/ShaderMan.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/siftgpu/SiftGPU.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/siftgpu/FrameBufferObject.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/siftgpu/GLTexImage.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/siftgpu/GlobalUtil.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/siftgpu/ProgramGLSL.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/siftgpu/ProgramGPU.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/siftgpu/ShaderMan.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/siftgpu/ShaderMan.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/siftgpu/SiftGPU.h
 nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/SiftGPU.o
  ../nestk/deps/eigen/Eigen/Core
  ../nestk/deps/eigen/Eigen/Eigen2Support
@@ -6374,15 +6374,15 @@ nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/SiftGPU.o
  ../nestk/ntk/utils/time.h
  ../nestk/ntk/utils/xml_parser.h
  ../nestk/ntk/utils/xml_serializable.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/siftgpu/FrameBufferObject.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/siftgpu/GLTexImage.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/siftgpu/GlobalUtil.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/siftgpu/ProgramGPU.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/siftgpu/PyramidGL.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/siftgpu/ShaderMan.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/siftgpu/SiftGPU.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/siftgpu/SiftGPU.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/siftgpu/SiftPyramid.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/siftgpu/FrameBufferObject.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/siftgpu/GLTexImage.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/siftgpu/GlobalUtil.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/siftgpu/ProgramGPU.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/siftgpu/PyramidGL.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/siftgpu/ShaderMan.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/siftgpu/SiftGPU.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/siftgpu/SiftGPU.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/siftgpu/SiftPyramid.h
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QDataStream
@@ -6629,10 +6629,10 @@ nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/SiftPyramid.o
  ../nestk/deps/opencv/modules/video/include/opencv2/video/tracking.hpp
  ../nestk/ntk/core.h
  ../nestk/ntk/utils/common.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/siftgpu/GlobalUtil.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/siftgpu/SiftGPU.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/siftgpu/SiftPyramid.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/siftgpu/SiftPyramid.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/siftgpu/GlobalUtil.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/siftgpu/SiftGPU.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/siftgpu/SiftPyramid.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/siftgpu/SiftPyramid.h
 nestk/ntk/CMakeFiles/nestk.dir/mesh/mesh.o
  ../nestk/deps/eigen/Eigen/Core
  ../nestk/deps/eigen/Eigen/Eigen2Support
@@ -6796,9 +6796,9 @@ nestk/ntk/CMakeFiles/nestk.dir/mesh/mesh.o
  ../nestk/ntk/utils/time.h
  ../nestk/ntk/utils/xml_parser.h
  ../nestk/ntk/utils/xml_serializable.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/mesh/mesh.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/mesh/mesh.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/mesh/ply.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/mesh/mesh.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/mesh/mesh.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/mesh/ply.h
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QDataStream
@@ -7064,8 +7064,8 @@ nestk/ntk/CMakeFiles/nestk.dir/mesh/mesh_generator.o
  ../nestk/ntk/utils/time.h
  ../nestk/ntk/utils/xml_parser.h
  ../nestk/ntk/utils/xml_serializable.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/mesh/mesh_generator.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/mesh/mesh_generator.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/mesh/mesh_generator.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/mesh/mesh_generator.h
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QDataStream
@@ -7323,9 +7323,9 @@ nestk/ntk/CMakeFiles/nestk.dir/mesh/mesh_renderer.o
  ../nestk/ntk/utils/serializable.h
  ../nestk/ntk/utils/xml_parser.h
  ../nestk/ntk/utils/xml_serializable.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/mesh/mesh.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/mesh/mesh_renderer.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/mesh/mesh_renderer.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/mesh/mesh.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/mesh/mesh_renderer.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/mesh/mesh_renderer.h
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QDataStream
@@ -7628,8 +7628,8 @@ nestk/ntk/CMakeFiles/nestk.dir/mesh/mesh_viewer.o
  ../nestk/ntk/utils/time.h
  ../nestk/ntk/utils/xml_parser.h
  ../nestk/ntk/utils/xml_serializable.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/mesh/mesh_viewer.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/mesh/mesh_viewer.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/mesh/mesh_viewer.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/mesh/mesh_viewer.h
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QDataStream
@@ -7923,8 +7923,8 @@ nestk/ntk/CMakeFiles/nestk.dir/mesh/moc_mesh_viewer.o
  ../nestk/ntk/utils/serializable.h
  ../nestk/ntk/utils/xml_parser.h
  ../nestk/ntk/utils/xml_serializable.h
- /home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk/mesh/../../../../nestk/ntk/mesh/mesh_viewer.h
- /home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk/mesh/moc_mesh_viewer.cxx
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk/mesh/../../../../nestk/ntk/mesh/mesh_viewer.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk/mesh/moc_mesh_viewer.cxx
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QDataStream
@@ -8205,9 +8205,9 @@ nestk/ntk/CMakeFiles/nestk.dir/mesh/ply.o
  ../nestk/deps/opencv/modules/video/include/opencv2/video/tracking.hpp
  ../nestk/ntk/core.h
  ../nestk/ntk/utils/common.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/mesh/../utils/debug.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/mesh/ply.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/mesh/ply.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/mesh/../utils/debug.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/mesh/ply.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/mesh/ply.h
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/QtCore/QDebug
  /usr/include/qt4/QtCore/QPoint
@@ -8433,8 +8433,8 @@ nestk/ntk/CMakeFiles/nestk.dir/mesh/rgbd_modeler.o
  ../nestk/ntk/utils/time.h
  ../nestk/ntk/utils/xml_parser.h
  ../nestk/ntk/utils/xml_serializable.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/mesh/rgbd_modeler.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/mesh/rgbd_modeler.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/mesh/rgbd_modeler.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/mesh/rgbd_modeler.h
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QDataStream
@@ -8697,8 +8697,8 @@ nestk/ntk/CMakeFiles/nestk.dir/mesh/surfels_rgbd_modeler.o
  ../nestk/ntk/utils/time.h
  ../nestk/ntk/utils/xml_parser.h
  ../nestk/ntk/utils/xml_serializable.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/mesh/surfels_rgbd_modeler.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/mesh/surfels_rgbd_modeler.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/mesh/surfels_rgbd_modeler.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/mesh/surfels_rgbd_modeler.h
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QDataStream
@@ -8944,8 +8944,8 @@ nestk/ntk/CMakeFiles/nestk.dir/numeric/cost_function.o
  ../nestk/deps/opencv/modules/video/include/opencv2/video/tracking.hpp
  ../nestk/ntk/core.h
  ../nestk/ntk/utils/common.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/numeric/cost_function.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/numeric/cost_function.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/numeric/cost_function.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/numeric/cost_function.h
 nestk/ntk/CMakeFiles/nestk.dir/numeric/differential_evolution_minimizer.o
  ../nestk/deps/eigen/Eigen/Cholesky
  ../nestk/deps/eigen/Eigen/Core
@@ -9150,9 +9150,9 @@ nestk/ntk/CMakeFiles/nestk.dir/numeric/differential_evolution_minimizer.o
  ../nestk/ntk/numeric/utils.h
  ../nestk/ntk/utils/common.h
  ../nestk/ntk/utils/debug.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/numeric/differential_evolution_minimizer.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/numeric/differential_evolution_minimizer.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/numeric/differential_evolution_solver.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/numeric/differential_evolution_minimizer.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/numeric/differential_evolution_minimizer.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/numeric/differential_evolution_solver.h
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/QtCore/QDebug
  /usr/include/qt4/QtCore/QPoint
@@ -9362,8 +9362,8 @@ nestk/ntk/CMakeFiles/nestk.dir/numeric/differential_evolution_solver.o
  ../nestk/deps/opencv/modules/video/include/opencv2/video/tracking.hpp
  ../nestk/ntk/core.h
  ../nestk/ntk/utils/common.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/numeric/differential_evolution_solver.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/numeric/differential_evolution_solver.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/numeric/differential_evolution_solver.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/numeric/differential_evolution_solver.h
 nestk/ntk/CMakeFiles/nestk.dir/numeric/levenberg_marquart_minimizer.o
  ../nestk/deps/eigen/Eigen/Cholesky
  ../nestk/deps/eigen/Eigen/Core
@@ -9567,8 +9567,8 @@ nestk/ntk/CMakeFiles/nestk.dir/numeric/levenberg_marquart_minimizer.o
  ../nestk/ntk/numeric/cost_function.h
  ../nestk/ntk/utils/common.h
  ../nestk/ntk/utils/debug.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/numeric/levenberg_marquart_minimizer.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/numeric/levenberg_marquart_minimizer.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/numeric/levenberg_marquart_minimizer.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/numeric/levenberg_marquart_minimizer.h
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/QtCore/QDebug
  /usr/include/qt4/QtCore/QPoint
@@ -9779,8 +9779,8 @@ nestk/ntk/CMakeFiles/nestk.dir/numeric/utils.o
  ../nestk/ntk/core.h
  ../nestk/ntk/utils/common.h
  ../nestk/ntk/utils/debug.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/numeric/utils.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/numeric/utils.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/numeric/utils.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/numeric/utils.h
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/QtCore/QDebug
  /usr/include/qt4/QtCore/QPoint
@@ -10000,11 +10000,11 @@ nestk/ntk/CMakeFiles/nestk.dir/stats/distributions.o
  ../nestk/ntk/utils/serializable.h
  ../nestk/ntk/utils/xml_parser.h
  ../nestk/ntk/utils/xml_serializable.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/stats/distributions.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/stats/distributions.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/stats/estimation.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/stats/moments.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/stats/moments.hxx
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/stats/distributions.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/stats/distributions.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/stats/estimation.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/stats/moments.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/stats/moments.hxx
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QDataStream
@@ -10262,7 +10262,7 @@ nestk/ntk/CMakeFiles/nestk.dir/stats/estimation.o
  ../nestk/ntk/utils/stl.h
  ../nestk/ntk/utils/xml_parser.h
  ../nestk/ntk/utils/xml_serializable.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/stats/estimation.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/stats/estimation.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QDataStream
@@ -10515,10 +10515,10 @@ nestk/ntk/CMakeFiles/nestk.dir/stats/histogram.o
  ../nestk/ntk/utils/serializable.h
  ../nestk/ntk/utils/xml_parser.h
  ../nestk/ntk/utils/xml_serializable.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/stats/histogram.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/stats/histogram.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/stats/moments.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/stats/moments.hxx
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/stats/histogram.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/stats/histogram.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/stats/moments.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/stats/moments.hxx
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QDataStream
@@ -10772,9 +10772,9 @@ nestk/ntk/CMakeFiles/nestk.dir/stats/hypothesis_testing.o
  ../nestk/ntk/utils/serializable.h
  ../nestk/ntk/utils/xml_parser.h
  ../nestk/ntk/utils/xml_serializable.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/stats/hypothesis_testing.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/stats/hypothesis_testing.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/stats/hypothesis_testing.hxx
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/stats/hypothesis_testing.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/stats/hypothesis_testing.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/stats/hypothesis_testing.hxx
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QDataStream
@@ -11022,9 +11022,9 @@ nestk/ntk/CMakeFiles/nestk.dir/stats/moments.o
  ../nestk/ntk/numeric/utils.h
  ../nestk/ntk/utils/common.h
  ../nestk/ntk/utils/debug.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/stats/moments.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/stats/moments.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/stats/moments.hxx
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/stats/moments.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/stats/moments.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/stats/moments.hxx
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/QtCore/QDebug
  /usr/include/qt4/QtCore/QPoint
@@ -11236,8 +11236,8 @@ nestk/ntk/CMakeFiles/nestk.dir/thread/event.o
  ../nestk/ntk/thread/utils.h
  ../nestk/ntk/utils/common.h
  ../nestk/ntk/utils/debug.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/thread/event.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/thread/event.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/thread/event.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/thread/event.h
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QDebug
@@ -11507,8 +11507,8 @@ nestk/ntk/CMakeFiles/nestk.dir/thread/moc_event.o
  ../nestk/ntk/thread/utils.h
  ../nestk/ntk/utils/common.h
  ../nestk/ntk/utils/debug.h
- /home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk/thread/../../../../nestk/ntk/thread/event.h
- /home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk/thread/moc_event.cxx
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk/thread/../../../../nestk/ntk/thread/event.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk/thread/moc_event.cxx
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/QtCore/QDebug
  /usr/include/qt4/QtCore/QMutex
@@ -11727,8 +11727,8 @@ nestk/ntk/CMakeFiles/nestk.dir/thread/utils.o
  ../nestk/deps/opencv/modules/video/include/opencv2/video/tracking.hpp
  ../nestk/ntk/core.h
  ../nestk/ntk/utils/common.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/thread/utils.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/thread/utils.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/thread/utils.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/thread/utils.h
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/QtCore/QMutex
  /usr/include/qt4/QtCore/QReadWriteLock
@@ -11780,8 +11780,8 @@ nestk/ntk/CMakeFiles/nestk.dir/thread/utils.o
  /usr/include/qt4/QtCore/qthread.h
  /usr/include/qt4/QtCore/qwaitcondition.h
 nestk/ntk/CMakeFiles/nestk.dir/utils/arg.o
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/utils/arg.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/utils/arg.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/utils/arg.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/utils/arg.h
 nestk/ntk/CMakeFiles/nestk.dir/utils/debug.o
  ../nestk/deps/eigen/Eigen/Core
  ../nestk/deps/eigen/Eigen/Eigen2Support
@@ -11937,9 +11937,9 @@ nestk/ntk/CMakeFiles/nestk.dir/utils/debug.o
  ../nestk/ntk/utils/qt_utils.h
  ../nestk/ntk/utils/serializable.h
  ../nestk/ntk/utils/xml_parser.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/utils/debug.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/utils/debug.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/utils/xml_serializable.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/utils/debug.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/utils/debug.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/utils/xml_serializable.h
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QDataStream
@@ -12188,8 +12188,8 @@ nestk/ntk/CMakeFiles/nestk.dir/utils/opencv_utils.o
  ../nestk/ntk/utils/common.h
  ../nestk/ntk/utils/debug.h
  ../nestk/ntk/utils/serializable.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/utils/opencv_utils.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/utils/opencv_utils.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/utils/opencv_utils.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/utils/opencv_utils.h
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QDataStream
@@ -12437,8 +12437,8 @@ nestk/ntk/CMakeFiles/nestk.dir/utils/qt_utils.o
  ../nestk/ntk/core.h
  ../nestk/ntk/utils/common.h
  ../nestk/ntk/utils/debug.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/utils/qt_utils.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/utils/qt_utils.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/utils/qt_utils.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/utils/qt_utils.h
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QDataStream
@@ -12530,8 +12530,8 @@ nestk/ntk/CMakeFiles/nestk.dir/utils/qt_utils.o
  /usr/include/qt4/QtNetwork/qabstractsocket.h
  /usr/include/qt4/QtNetwork/qlocalsocket.h
 nestk/ntk/CMakeFiles/nestk.dir/utils/xml_parser.o
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/utils/xml_parser.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/utils/xml_parser.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/utils/xml_parser.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/utils/xml_parser.h
 nestk/ntk/CMakeFiles/nestk.dir/utils/xml_serializable.o
  ../nestk/deps/eigen/Eigen/Core
  ../nestk/deps/eigen/Eigen/Eigen2Support
@@ -12699,8 +12699,8 @@ nestk/ntk/CMakeFiles/nestk.dir/utils/xml_serializable.o
  ../nestk/ntk/utils/time.h
  ../nestk/ntk/utils/xml_parser.h
  ../nestk/ntk/utils/xml_serializable.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/utils/xml_serializable.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/ntk/utils/xml_serializable.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/utils/xml_serializable.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/utils/xml_serializable.h
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QDataStream

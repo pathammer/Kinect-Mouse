@@ -238,15 +238,15 @@ cstring
 time.h
 -
 
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/flann/src/flann.cpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/flann/src/flann.cpp
 precomp.hpp
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/flann/src/precomp.hpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/flann/src/precomp.hpp
 
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/flann/src/precomp.cpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/flann/src/precomp.cpp
 precomp.hpp
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/flann/src/precomp.hpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/flann/src/precomp.hpp
 
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/flann/src/precomp.hpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/flann/src/precomp.hpp
 cstdio
 -
 cstdarg
@@ -254,15 +254,15 @@ cstdarg
 sstream
 -
 opencv2/flann/dist.h
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/flann/src/opencv2/flann/dist.h
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/flann/src/opencv2/flann/dist.h
 opencv2/flann/index_testing.h
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/flann/src/opencv2/flann/index_testing.h
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/flann/src/opencv2/flann/index_testing.h
 opencv2/flann/logger.h
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/flann/src/opencv2/flann/logger.h
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/flann/src/opencv2/flann/logger.h
 opencv2/flann/saving.h
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/flann/src/opencv2/flann/saving.h
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/flann/src/opencv2/flann/saving.h
 opencv2/flann/general.h
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/flann/src/opencv2/flann/general.h
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/flann/src/opencv2/flann/general.h
 opencv2/flann/all_indices.h
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/flann/src/opencv2/flann/all_indices.h
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/flann/src/opencv2/flann/all_indices.h
 

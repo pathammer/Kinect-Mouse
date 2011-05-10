@@ -1,4 +1,4 @@
-# Install script for directory: /home/louis/Documents/Motion Capture/Mouse/nestk/deps/libfreenect/fakenect
+# Install script for directory: /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/libfreenect/fakenect
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,38 +34,66 @@ ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   IF("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    IF(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/fakenect/libfreenect.so.0.0.1")
-      FILE(RPATH_CHECK
-           FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/fakenect/libfreenect.so.0.0.1"
-           RPATH "")
-    ENDIF(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/fakenect/libfreenect.so.0.0.1")
+    FOREACH(file
+        "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/fakenect/libfreenect.so.0.0.1"
+        "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/fakenect/libfreenect.so.0.0"
+        "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/fakenect/libfreenect.so"
+        )
+      IF(EXISTS "${file}" AND
+         NOT IS_SYMLINK "${file}")
+        FILE(RPATH_CHECK
+             FILE "${file}"
+             RPATH "")
+      ENDIF()
+    ENDFOREACH()
     FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/fakenect" TYPE SHARED_LIBRARY FILES
-      "/home/louis/Documents/Motion Capture/Mouse/build/lib/fakenect/libfreenect.so.0.0.1"
-      "/home/louis/Documents/Motion Capture/Mouse/build/lib/fakenect/libfreenect.so.0.0"
-      "/home/louis/Documents/Motion Capture/Mouse/build/lib/fakenect/libfreenect.so"
+      "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/lib/fakenect/libfreenect.so.0.0.1"
+      "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/lib/fakenect/libfreenect.so.0.0"
+      "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/lib/fakenect/libfreenect.so"
       )
-    IF(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/fakenect/libfreenect.so.0.0.1")
-      IF(CMAKE_INSTALL_DO_STRIP)
-        EXECUTE_PROCESS(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/fakenect/libfreenect.so.0.0.1")
-      ENDIF(CMAKE_INSTALL_DO_STRIP)
-    ENDIF(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/fakenect/libfreenect.so.0.0.1")
+    FOREACH(file
+        "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/fakenect/libfreenect.so.0.0.1"
+        "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/fakenect/libfreenect.so.0.0"
+        "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/fakenect/libfreenect.so"
+        )
+      IF(EXISTS "${file}" AND
+         NOT IS_SYMLINK "${file}")
+        IF(CMAKE_INSTALL_DO_STRIP)
+          EXECUTE_PROCESS(COMMAND "/usr/bin/strip" "${file}")
+        ENDIF(CMAKE_INSTALL_DO_STRIP)
+      ENDIF()
+    ENDFOREACH()
   ENDIF("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
   IF("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee],[Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
-    IF(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/fakenect/libfreenect.so.0.0.1")
-      FILE(RPATH_CHECK
-           FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/fakenect/libfreenect.so.0.0.1"
-           RPATH "")
-    ENDIF(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/fakenect/libfreenect.so.0.0.1")
+    FOREACH(file
+        "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/fakenect/libfreenect.so.0.0.1"
+        "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/fakenect/libfreenect.so.0.0"
+        "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/fakenect/libfreenect.so"
+        )
+      IF(EXISTS "${file}" AND
+         NOT IS_SYMLINK "${file}")
+        FILE(RPATH_CHECK
+             FILE "${file}"
+             RPATH "")
+      ENDIF()
+    ENDFOREACH()
     FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/fakenect" TYPE SHARED_LIBRARY FILES
-      "/home/louis/Documents/Motion Capture/Mouse/build/lib/fakenect/libfreenect.so.0.0.1"
-      "/home/louis/Documents/Motion Capture/Mouse/build/lib/fakenect/libfreenect.so.0.0"
-      "/home/louis/Documents/Motion Capture/Mouse/build/lib/fakenect/libfreenect.so"
+      "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/lib/fakenect/libfreenect.so.0.0.1"
+      "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/lib/fakenect/libfreenect.so.0.0"
+      "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/lib/fakenect/libfreenect.so"
       )
-    IF(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/fakenect/libfreenect.so.0.0.1")
-      IF(CMAKE_INSTALL_DO_STRIP)
-        EXECUTE_PROCESS(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/fakenect/libfreenect.so.0.0.1")
-      ENDIF(CMAKE_INSTALL_DO_STRIP)
-    ENDIF(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/fakenect/libfreenect.so.0.0.1")
+    FOREACH(file
+        "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/fakenect/libfreenect.so.0.0.1"
+        "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/fakenect/libfreenect.so.0.0"
+        "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/fakenect/libfreenect.so"
+        )
+      IF(EXISTS "${file}" AND
+         NOT IS_SYMLINK "${file}")
+        IF(CMAKE_INSTALL_DO_STRIP)
+          EXECUTE_PROCESS(COMMAND "/usr/bin/strip" "${file}")
+        ENDIF(CMAKE_INSTALL_DO_STRIP)
+      ENDIF()
+    ENDFOREACH()
   ENDIF("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee],[Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

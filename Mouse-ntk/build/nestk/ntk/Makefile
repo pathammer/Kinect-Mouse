@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/louis/Documents/Motion Capture/Mouse"
+CMAKE_SOURCE_DIR = /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/louis/Documents/Motion Capture/Mouse/build"
+CMAKE_BINARY_DIR = /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -110,14 +110,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk/CMakeFiles/progress.marks"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f CMakeFiles/Makefile2 nestk/ntk/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 0
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk/CMakeFiles/progress.marks
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f CMakeFiles/Makefile2 nestk/ntk/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f CMakeFiles/Makefile2 nestk/ntk/clean
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f CMakeFiles/Makefile2 nestk/ntk/clean
 .PHONY : clean
 
 # The main clean target
@@ -126,22 +126,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f CMakeFiles/Makefile2 nestk/ntk/preinstall
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f CMakeFiles/Makefile2 nestk/ntk/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f CMakeFiles/Makefile2 nestk/ntk/preinstall
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f CMakeFiles/Makefile2 nestk/ntk/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 nestk/ntk/CMakeFiles/nestk.dir/rule:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f CMakeFiles/Makefile2 nestk/ntk/CMakeFiles/nestk.dir/rule
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f CMakeFiles/Makefile2 nestk/ntk/CMakeFiles/nestk.dir/rule
 .PHONY : nestk/ntk/CMakeFiles/nestk.dir/rule
 
 # Convenience name for target.
@@ -150,862 +150,862 @@ nestk: nestk/ntk/CMakeFiles/nestk.dir/rule
 
 # fast build rule for target.
 nestk/fast:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/build
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/build
 .PHONY : nestk/fast
 
 # target to build an object file
 camera/calibration.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/camera/calibration.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/camera/calibration.o
 .PHONY : camera/calibration.o
 
 # target to preprocess a source file
 camera/calibration.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/camera/calibration.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/camera/calibration.i
 .PHONY : camera/calibration.i
 
 # target to generate assembly for a file
 camera/calibration.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/camera/calibration.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/camera/calibration.s
 .PHONY : camera/calibration.s
 
 # target to build an object file
 camera/file_grabber.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/camera/file_grabber.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/camera/file_grabber.o
 .PHONY : camera/file_grabber.o
 
 # target to preprocess a source file
 camera/file_grabber.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/camera/file_grabber.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/camera/file_grabber.i
 .PHONY : camera/file_grabber.i
 
 # target to generate assembly for a file
 camera/file_grabber.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/camera/file_grabber.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/camera/file_grabber.s
 .PHONY : camera/file_grabber.s
 
 # target to build an object file
 camera/kinect_grabber.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/camera/kinect_grabber.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/camera/kinect_grabber.o
 .PHONY : camera/kinect_grabber.o
 
 # target to preprocess a source file
 camera/kinect_grabber.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/camera/kinect_grabber.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/camera/kinect_grabber.i
 .PHONY : camera/kinect_grabber.i
 
 # target to generate assembly for a file
 camera/kinect_grabber.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/camera/kinect_grabber.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/camera/kinect_grabber.s
 .PHONY : camera/kinect_grabber.s
 
 # target to build an object file
 camera/opencv_grabber.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/camera/opencv_grabber.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/camera/opencv_grabber.o
 .PHONY : camera/opencv_grabber.o
 
 # target to preprocess a source file
 camera/opencv_grabber.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/camera/opencv_grabber.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/camera/opencv_grabber.i
 .PHONY : camera/opencv_grabber.i
 
 # target to generate assembly for a file
 camera/opencv_grabber.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/camera/opencv_grabber.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/camera/opencv_grabber.s
 .PHONY : camera/opencv_grabber.s
 
 # target to build an object file
 camera/rgbd_frame_recorder.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/camera/rgbd_frame_recorder.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/camera/rgbd_frame_recorder.o
 .PHONY : camera/rgbd_frame_recorder.o
 
 # target to preprocess a source file
 camera/rgbd_frame_recorder.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/camera/rgbd_frame_recorder.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/camera/rgbd_frame_recorder.i
 .PHONY : camera/rgbd_frame_recorder.i
 
 # target to generate assembly for a file
 camera/rgbd_frame_recorder.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/camera/rgbd_frame_recorder.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/camera/rgbd_frame_recorder.s
 .PHONY : camera/rgbd_frame_recorder.s
 
 # target to build an object file
 camera/rgbd_grabber.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/camera/rgbd_grabber.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/camera/rgbd_grabber.o
 .PHONY : camera/rgbd_grabber.o
 
 # target to preprocess a source file
 camera/rgbd_grabber.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/camera/rgbd_grabber.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/camera/rgbd_grabber.i
 .PHONY : camera/rgbd_grabber.i
 
 # target to generate assembly for a file
 camera/rgbd_grabber.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/camera/rgbd_grabber.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/camera/rgbd_grabber.s
 .PHONY : camera/rgbd_grabber.s
 
 # target to build an object file
 camera/rgbd_image.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/camera/rgbd_image.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/camera/rgbd_image.o
 .PHONY : camera/rgbd_image.o
 
 # target to preprocess a source file
 camera/rgbd_image.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/camera/rgbd_image.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/camera/rgbd_image.i
 .PHONY : camera/rgbd_image.i
 
 # target to generate assembly for a file
 camera/rgbd_image.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/camera/rgbd_image.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/camera/rgbd_image.s
 .PHONY : camera/rgbd_image.s
 
 # target to build an object file
 camera/rgbd_processor.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/camera/rgbd_processor.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/camera/rgbd_processor.o
 .PHONY : camera/rgbd_processor.o
 
 # target to preprocess a source file
 camera/rgbd_processor.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/camera/rgbd_processor.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/camera/rgbd_processor.i
 .PHONY : camera/rgbd_processor.i
 
 # target to generate assembly for a file
 camera/rgbd_processor.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/camera/rgbd_processor.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/camera/rgbd_processor.s
 .PHONY : camera/rgbd_processor.s
 
 # target to build an object file
 geometry/affine_transform.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/geometry/affine_transform.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/geometry/affine_transform.o
 .PHONY : geometry/affine_transform.o
 
 # target to preprocess a source file
 geometry/affine_transform.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/geometry/affine_transform.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/geometry/affine_transform.i
 .PHONY : geometry/affine_transform.i
 
 # target to generate assembly for a file
 geometry/affine_transform.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/geometry/affine_transform.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/geometry/affine_transform.s
 .PHONY : geometry/affine_transform.s
 
 # target to build an object file
 geometry/plane.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/geometry/plane.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/geometry/plane.o
 .PHONY : geometry/plane.o
 
 # target to preprocess a source file
 geometry/plane.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/geometry/plane.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/geometry/plane.i
 .PHONY : geometry/plane.i
 
 # target to generate assembly for a file
 geometry/plane.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/geometry/plane.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/geometry/plane.s
 .PHONY : geometry/plane.s
 
 # target to build an object file
 geometry/polygon.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/geometry/polygon.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/geometry/polygon.o
 .PHONY : geometry/polygon.o
 
 # target to preprocess a source file
 geometry/polygon.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/geometry/polygon.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/geometry/polygon.i
 .PHONY : geometry/polygon.i
 
 # target to generate assembly for a file
 geometry/polygon.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/geometry/polygon.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/geometry/polygon.s
 .PHONY : geometry/polygon.s
 
 # target to build an object file
 geometry/pose_3d.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/geometry/pose_3d.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/geometry/pose_3d.o
 .PHONY : geometry/pose_3d.o
 
 # target to preprocess a source file
 geometry/pose_3d.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/geometry/pose_3d.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/geometry/pose_3d.i
 .PHONY : geometry/pose_3d.i
 
 # target to generate assembly for a file
 geometry/pose_3d.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/geometry/pose_3d.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/geometry/pose_3d.s
 .PHONY : geometry/pose_3d.s
 
 # target to build an object file
 geometry/relative_pose_estimator.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/geometry/relative_pose_estimator.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/geometry/relative_pose_estimator.o
 .PHONY : geometry/relative_pose_estimator.o
 
 # target to preprocess a source file
 geometry/relative_pose_estimator.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/geometry/relative_pose_estimator.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/geometry/relative_pose_estimator.i
 .PHONY : geometry/relative_pose_estimator.i
 
 # target to generate assembly for a file
 geometry/relative_pose_estimator.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/geometry/relative_pose_estimator.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/geometry/relative_pose_estimator.s
 .PHONY : geometry/relative_pose_estimator.s
 
 # target to build an object file
 geometry/similarity_transform.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/geometry/similarity_transform.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/geometry/similarity_transform.o
 .PHONY : geometry/similarity_transform.o
 
 # target to preprocess a source file
 geometry/similarity_transform.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/geometry/similarity_transform.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/geometry/similarity_transform.i
 .PHONY : geometry/similarity_transform.i
 
 # target to generate assembly for a file
 geometry/similarity_transform.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/geometry/similarity_transform.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/geometry/similarity_transform.s
 .PHONY : geometry/similarity_transform.s
 
 # target to build an object file
 gui/image_widget.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/gui/image_widget.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/gui/image_widget.o
 .PHONY : gui/image_widget.o
 
 # target to preprocess a source file
 gui/image_widget.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/gui/image_widget.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/gui/image_widget.i
 .PHONY : gui/image_widget.i
 
 # target to generate assembly for a file
 gui/image_widget.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/gui/image_widget.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/gui/image_widget.s
 .PHONY : gui/image_widget.s
 
 # target to build an object file
 gui/moc_image_widget.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/gui/moc_image_widget.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/gui/moc_image_widget.o
 .PHONY : gui/moc_image_widget.o
 
 # target to preprocess a source file
 gui/moc_image_widget.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/gui/moc_image_widget.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/gui/moc_image_widget.i
 .PHONY : gui/moc_image_widget.i
 
 # target to generate assembly for a file
 gui/moc_image_widget.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/gui/moc_image_widget.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/gui/moc_image_widget.s
 .PHONY : gui/moc_image_widget.s
 
 # target to build an object file
 gui/screen_grabber.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/gui/screen_grabber.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/gui/screen_grabber.o
 .PHONY : gui/screen_grabber.o
 
 # target to preprocess a source file
 gui/screen_grabber.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/gui/screen_grabber.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/gui/screen_grabber.i
 .PHONY : gui/screen_grabber.i
 
 # target to generate assembly for a file
 gui/screen_grabber.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/gui/screen_grabber.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/gui/screen_grabber.s
 .PHONY : gui/screen_grabber.s
 
 # target to build an object file
 image/color_model.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/image/color_model.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/image/color_model.o
 .PHONY : image/color_model.o
 
 # target to preprocess a source file
 image/color_model.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/image/color_model.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/image/color_model.i
 .PHONY : image/color_model.i
 
 # target to generate assembly for a file
 image/color_model.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/image/color_model.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/image/color_model.s
 .PHONY : image/color_model.s
 
 # target to build an object file
 image/feature.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/image/feature.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/image/feature.o
 .PHONY : image/feature.o
 
 # target to preprocess a source file
 image/feature.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/image/feature.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/image/feature.i
 .PHONY : image/feature.i
 
 # target to generate assembly for a file
 image/feature.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/image/feature.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/image/feature.s
 .PHONY : image/feature.s
 
 # target to build an object file
 image/sift.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/image/sift.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/image/sift.o
 .PHONY : image/sift.o
 
 # target to preprocess a source file
 image/sift.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/image/sift.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/image/sift.i
 .PHONY : image/sift.i
 
 # target to generate assembly for a file
 image/sift.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/image/sift.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/image/sift.s
 .PHONY : image/sift.s
 
 # target to build an object file
 image/sift_gpu.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/image/sift_gpu.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/image/sift_gpu.o
 .PHONY : image/sift_gpu.o
 
 # target to preprocess a source file
 image/sift_gpu.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/image/sift_gpu.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/image/sift_gpu.i
 .PHONY : image/sift_gpu.i
 
 # target to generate assembly for a file
 image/sift_gpu.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/image/sift_gpu.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/image/sift_gpu.s
 .PHONY : image/sift_gpu.s
 
 # target to build an object file
 image/siftgpu/FrameBufferObject.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/FrameBufferObject.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/FrameBufferObject.o
 .PHONY : image/siftgpu/FrameBufferObject.o
 
 # target to preprocess a source file
 image/siftgpu/FrameBufferObject.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/FrameBufferObject.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/FrameBufferObject.i
 .PHONY : image/siftgpu/FrameBufferObject.i
 
 # target to generate assembly for a file
 image/siftgpu/FrameBufferObject.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/FrameBufferObject.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/FrameBufferObject.s
 .PHONY : image/siftgpu/FrameBufferObject.s
 
 # target to build an object file
 image/siftgpu/GLTexImage.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/GLTexImage.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/GLTexImage.o
 .PHONY : image/siftgpu/GLTexImage.o
 
 # target to preprocess a source file
 image/siftgpu/GLTexImage.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/GLTexImage.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/GLTexImage.i
 .PHONY : image/siftgpu/GLTexImage.i
 
 # target to generate assembly for a file
 image/siftgpu/GLTexImage.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/GLTexImage.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/GLTexImage.s
 .PHONY : image/siftgpu/GLTexImage.s
 
 # target to build an object file
 image/siftgpu/GlobalUtil.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/GlobalUtil.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/GlobalUtil.o
 .PHONY : image/siftgpu/GlobalUtil.o
 
 # target to preprocess a source file
 image/siftgpu/GlobalUtil.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/GlobalUtil.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/GlobalUtil.i
 .PHONY : image/siftgpu/GlobalUtil.i
 
 # target to generate assembly for a file
 image/siftgpu/GlobalUtil.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/GlobalUtil.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/GlobalUtil.s
 .PHONY : image/siftgpu/GlobalUtil.s
 
 # target to build an object file
 image/siftgpu/ProgramGLSL.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/ProgramGLSL.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/ProgramGLSL.o
 .PHONY : image/siftgpu/ProgramGLSL.o
 
 # target to preprocess a source file
 image/siftgpu/ProgramGLSL.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/ProgramGLSL.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/ProgramGLSL.i
 .PHONY : image/siftgpu/ProgramGLSL.i
 
 # target to generate assembly for a file
 image/siftgpu/ProgramGLSL.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/ProgramGLSL.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/ProgramGLSL.s
 .PHONY : image/siftgpu/ProgramGLSL.s
 
 # target to build an object file
 image/siftgpu/ProgramGPU.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/ProgramGPU.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/ProgramGPU.o
 .PHONY : image/siftgpu/ProgramGPU.o
 
 # target to preprocess a source file
 image/siftgpu/ProgramGPU.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/ProgramGPU.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/ProgramGPU.i
 .PHONY : image/siftgpu/ProgramGPU.i
 
 # target to generate assembly for a file
 image/siftgpu/ProgramGPU.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/ProgramGPU.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/ProgramGPU.s
 .PHONY : image/siftgpu/ProgramGPU.s
 
 # target to build an object file
 image/siftgpu/PyramidGL.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/PyramidGL.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/PyramidGL.o
 .PHONY : image/siftgpu/PyramidGL.o
 
 # target to preprocess a source file
 image/siftgpu/PyramidGL.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/PyramidGL.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/PyramidGL.i
 .PHONY : image/siftgpu/PyramidGL.i
 
 # target to generate assembly for a file
 image/siftgpu/PyramidGL.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/PyramidGL.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/PyramidGL.s
 .PHONY : image/siftgpu/PyramidGL.s
 
 # target to build an object file
 image/siftgpu/ShaderMan.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/ShaderMan.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/ShaderMan.o
 .PHONY : image/siftgpu/ShaderMan.o
 
 # target to preprocess a source file
 image/siftgpu/ShaderMan.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/ShaderMan.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/ShaderMan.i
 .PHONY : image/siftgpu/ShaderMan.i
 
 # target to generate assembly for a file
 image/siftgpu/ShaderMan.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/ShaderMan.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/ShaderMan.s
 .PHONY : image/siftgpu/ShaderMan.s
 
 # target to build an object file
 image/siftgpu/SiftGPU.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/SiftGPU.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/SiftGPU.o
 .PHONY : image/siftgpu/SiftGPU.o
 
 # target to preprocess a source file
 image/siftgpu/SiftGPU.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/SiftGPU.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/SiftGPU.i
 .PHONY : image/siftgpu/SiftGPU.i
 
 # target to generate assembly for a file
 image/siftgpu/SiftGPU.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/SiftGPU.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/SiftGPU.s
 .PHONY : image/siftgpu/SiftGPU.s
 
 # target to build an object file
 image/siftgpu/SiftPyramid.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/SiftPyramid.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/SiftPyramid.o
 .PHONY : image/siftgpu/SiftPyramid.o
 
 # target to preprocess a source file
 image/siftgpu/SiftPyramid.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/SiftPyramid.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/SiftPyramid.i
 .PHONY : image/siftgpu/SiftPyramid.i
 
 # target to generate assembly for a file
 image/siftgpu/SiftPyramid.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/SiftPyramid.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/SiftPyramid.s
 .PHONY : image/siftgpu/SiftPyramid.s
 
 # target to build an object file
 mesh/mesh.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/mesh/mesh.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/mesh/mesh.o
 .PHONY : mesh/mesh.o
 
 # target to preprocess a source file
 mesh/mesh.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/mesh/mesh.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/mesh/mesh.i
 .PHONY : mesh/mesh.i
 
 # target to generate assembly for a file
 mesh/mesh.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/mesh/mesh.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/mesh/mesh.s
 .PHONY : mesh/mesh.s
 
 # target to build an object file
 mesh/mesh_generator.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/mesh/mesh_generator.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/mesh/mesh_generator.o
 .PHONY : mesh/mesh_generator.o
 
 # target to preprocess a source file
 mesh/mesh_generator.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/mesh/mesh_generator.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/mesh/mesh_generator.i
 .PHONY : mesh/mesh_generator.i
 
 # target to generate assembly for a file
 mesh/mesh_generator.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/mesh/mesh_generator.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/mesh/mesh_generator.s
 .PHONY : mesh/mesh_generator.s
 
 # target to build an object file
 mesh/mesh_renderer.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/mesh/mesh_renderer.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/mesh/mesh_renderer.o
 .PHONY : mesh/mesh_renderer.o
 
 # target to preprocess a source file
 mesh/mesh_renderer.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/mesh/mesh_renderer.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/mesh/mesh_renderer.i
 .PHONY : mesh/mesh_renderer.i
 
 # target to generate assembly for a file
 mesh/mesh_renderer.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/mesh/mesh_renderer.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/mesh/mesh_renderer.s
 .PHONY : mesh/mesh_renderer.s
 
 # target to build an object file
 mesh/mesh_viewer.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/mesh/mesh_viewer.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/mesh/mesh_viewer.o
 .PHONY : mesh/mesh_viewer.o
 
 # target to preprocess a source file
 mesh/mesh_viewer.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/mesh/mesh_viewer.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/mesh/mesh_viewer.i
 .PHONY : mesh/mesh_viewer.i
 
 # target to generate assembly for a file
 mesh/mesh_viewer.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/mesh/mesh_viewer.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/mesh/mesh_viewer.s
 .PHONY : mesh/mesh_viewer.s
 
 # target to build an object file
 mesh/moc_mesh_viewer.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/mesh/moc_mesh_viewer.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/mesh/moc_mesh_viewer.o
 .PHONY : mesh/moc_mesh_viewer.o
 
 # target to preprocess a source file
 mesh/moc_mesh_viewer.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/mesh/moc_mesh_viewer.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/mesh/moc_mesh_viewer.i
 .PHONY : mesh/moc_mesh_viewer.i
 
 # target to generate assembly for a file
 mesh/moc_mesh_viewer.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/mesh/moc_mesh_viewer.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/mesh/moc_mesh_viewer.s
 .PHONY : mesh/moc_mesh_viewer.s
 
 # target to build an object file
 mesh/ply.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/mesh/ply.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/mesh/ply.o
 .PHONY : mesh/ply.o
 
 # target to preprocess a source file
 mesh/ply.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/mesh/ply.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/mesh/ply.i
 .PHONY : mesh/ply.i
 
 # target to generate assembly for a file
 mesh/ply.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/mesh/ply.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/mesh/ply.s
 .PHONY : mesh/ply.s
 
 # target to build an object file
 mesh/rgbd_modeler.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/mesh/rgbd_modeler.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/mesh/rgbd_modeler.o
 .PHONY : mesh/rgbd_modeler.o
 
 # target to preprocess a source file
 mesh/rgbd_modeler.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/mesh/rgbd_modeler.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/mesh/rgbd_modeler.i
 .PHONY : mesh/rgbd_modeler.i
 
 # target to generate assembly for a file
 mesh/rgbd_modeler.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/mesh/rgbd_modeler.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/mesh/rgbd_modeler.s
 .PHONY : mesh/rgbd_modeler.s
 
 # target to build an object file
 mesh/surfels_rgbd_modeler.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/mesh/surfels_rgbd_modeler.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/mesh/surfels_rgbd_modeler.o
 .PHONY : mesh/surfels_rgbd_modeler.o
 
 # target to preprocess a source file
 mesh/surfels_rgbd_modeler.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/mesh/surfels_rgbd_modeler.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/mesh/surfels_rgbd_modeler.i
 .PHONY : mesh/surfels_rgbd_modeler.i
 
 # target to generate assembly for a file
 mesh/surfels_rgbd_modeler.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/mesh/surfels_rgbd_modeler.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/mesh/surfels_rgbd_modeler.s
 .PHONY : mesh/surfels_rgbd_modeler.s
 
 # target to build an object file
 numeric/cost_function.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/numeric/cost_function.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/numeric/cost_function.o
 .PHONY : numeric/cost_function.o
 
 # target to preprocess a source file
 numeric/cost_function.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/numeric/cost_function.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/numeric/cost_function.i
 .PHONY : numeric/cost_function.i
 
 # target to generate assembly for a file
 numeric/cost_function.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/numeric/cost_function.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/numeric/cost_function.s
 .PHONY : numeric/cost_function.s
 
 # target to build an object file
 numeric/differential_evolution_minimizer.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/numeric/differential_evolution_minimizer.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/numeric/differential_evolution_minimizer.o
 .PHONY : numeric/differential_evolution_minimizer.o
 
 # target to preprocess a source file
 numeric/differential_evolution_minimizer.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/numeric/differential_evolution_minimizer.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/numeric/differential_evolution_minimizer.i
 .PHONY : numeric/differential_evolution_minimizer.i
 
 # target to generate assembly for a file
 numeric/differential_evolution_minimizer.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/numeric/differential_evolution_minimizer.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/numeric/differential_evolution_minimizer.s
 .PHONY : numeric/differential_evolution_minimizer.s
 
 # target to build an object file
 numeric/differential_evolution_solver.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/numeric/differential_evolution_solver.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/numeric/differential_evolution_solver.o
 .PHONY : numeric/differential_evolution_solver.o
 
 # target to preprocess a source file
 numeric/differential_evolution_solver.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/numeric/differential_evolution_solver.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/numeric/differential_evolution_solver.i
 .PHONY : numeric/differential_evolution_solver.i
 
 # target to generate assembly for a file
 numeric/differential_evolution_solver.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/numeric/differential_evolution_solver.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/numeric/differential_evolution_solver.s
 .PHONY : numeric/differential_evolution_solver.s
 
 # target to build an object file
 numeric/levenberg_marquart_minimizer.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/numeric/levenberg_marquart_minimizer.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/numeric/levenberg_marquart_minimizer.o
 .PHONY : numeric/levenberg_marquart_minimizer.o
 
 # target to preprocess a source file
 numeric/levenberg_marquart_minimizer.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/numeric/levenberg_marquart_minimizer.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/numeric/levenberg_marquart_minimizer.i
 .PHONY : numeric/levenberg_marquart_minimizer.i
 
 # target to generate assembly for a file
 numeric/levenberg_marquart_minimizer.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/numeric/levenberg_marquart_minimizer.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/numeric/levenberg_marquart_minimizer.s
 .PHONY : numeric/levenberg_marquart_minimizer.s
 
 # target to build an object file
 numeric/utils.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/numeric/utils.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/numeric/utils.o
 .PHONY : numeric/utils.o
 
 # target to preprocess a source file
 numeric/utils.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/numeric/utils.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/numeric/utils.i
 .PHONY : numeric/utils.i
 
 # target to generate assembly for a file
 numeric/utils.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/numeric/utils.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/numeric/utils.s
 .PHONY : numeric/utils.s
 
 # target to build an object file
 stats/distributions.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/stats/distributions.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/stats/distributions.o
 .PHONY : stats/distributions.o
 
 # target to preprocess a source file
 stats/distributions.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/stats/distributions.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/stats/distributions.i
 .PHONY : stats/distributions.i
 
 # target to generate assembly for a file
 stats/distributions.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/stats/distributions.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/stats/distributions.s
 .PHONY : stats/distributions.s
 
 # target to build an object file
 stats/estimation.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/stats/estimation.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/stats/estimation.o
 .PHONY : stats/estimation.o
 
 # target to preprocess a source file
 stats/estimation.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/stats/estimation.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/stats/estimation.i
 .PHONY : stats/estimation.i
 
 # target to generate assembly for a file
 stats/estimation.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/stats/estimation.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/stats/estimation.s
 .PHONY : stats/estimation.s
 
 # target to build an object file
 stats/histogram.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/stats/histogram.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/stats/histogram.o
 .PHONY : stats/histogram.o
 
 # target to preprocess a source file
 stats/histogram.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/stats/histogram.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/stats/histogram.i
 .PHONY : stats/histogram.i
 
 # target to generate assembly for a file
 stats/histogram.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/stats/histogram.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/stats/histogram.s
 .PHONY : stats/histogram.s
 
 # target to build an object file
 stats/hypothesis_testing.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/stats/hypothesis_testing.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/stats/hypothesis_testing.o
 .PHONY : stats/hypothesis_testing.o
 
 # target to preprocess a source file
 stats/hypothesis_testing.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/stats/hypothesis_testing.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/stats/hypothesis_testing.i
 .PHONY : stats/hypothesis_testing.i
 
 # target to generate assembly for a file
 stats/hypothesis_testing.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/stats/hypothesis_testing.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/stats/hypothesis_testing.s
 .PHONY : stats/hypothesis_testing.s
 
 # target to build an object file
 stats/moments.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/stats/moments.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/stats/moments.o
 .PHONY : stats/moments.o
 
 # target to preprocess a source file
 stats/moments.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/stats/moments.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/stats/moments.i
 .PHONY : stats/moments.i
 
 # target to generate assembly for a file
 stats/moments.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/stats/moments.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/stats/moments.s
 .PHONY : stats/moments.s
 
 # target to build an object file
 thread/event.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/thread/event.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/thread/event.o
 .PHONY : thread/event.o
 
 # target to preprocess a source file
 thread/event.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/thread/event.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/thread/event.i
 .PHONY : thread/event.i
 
 # target to generate assembly for a file
 thread/event.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/thread/event.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/thread/event.s
 .PHONY : thread/event.s
 
 # target to build an object file
 thread/moc_event.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/thread/moc_event.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/thread/moc_event.o
 .PHONY : thread/moc_event.o
 
 # target to preprocess a source file
 thread/moc_event.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/thread/moc_event.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/thread/moc_event.i
 .PHONY : thread/moc_event.i
 
 # target to generate assembly for a file
 thread/moc_event.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/thread/moc_event.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/thread/moc_event.s
 .PHONY : thread/moc_event.s
 
 # target to build an object file
 thread/utils.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/thread/utils.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/thread/utils.o
 .PHONY : thread/utils.o
 
 # target to preprocess a source file
 thread/utils.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/thread/utils.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/thread/utils.i
 .PHONY : thread/utils.i
 
 # target to generate assembly for a file
 thread/utils.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/thread/utils.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/thread/utils.s
 .PHONY : thread/utils.s
 
 # target to build an object file
 utils/arg.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/utils/arg.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/utils/arg.o
 .PHONY : utils/arg.o
 
 # target to preprocess a source file
 utils/arg.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/utils/arg.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/utils/arg.i
 .PHONY : utils/arg.i
 
 # target to generate assembly for a file
 utils/arg.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/utils/arg.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/utils/arg.s
 .PHONY : utils/arg.s
 
 # target to build an object file
 utils/debug.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/utils/debug.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/utils/debug.o
 .PHONY : utils/debug.o
 
 # target to preprocess a source file
 utils/debug.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/utils/debug.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/utils/debug.i
 .PHONY : utils/debug.i
 
 # target to generate assembly for a file
 utils/debug.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/utils/debug.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/utils/debug.s
 .PHONY : utils/debug.s
 
 # target to build an object file
 utils/opencv_utils.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/utils/opencv_utils.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/utils/opencv_utils.o
 .PHONY : utils/opencv_utils.o
 
 # target to preprocess a source file
 utils/opencv_utils.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/utils/opencv_utils.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/utils/opencv_utils.i
 .PHONY : utils/opencv_utils.i
 
 # target to generate assembly for a file
 utils/opencv_utils.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/utils/opencv_utils.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/utils/opencv_utils.s
 .PHONY : utils/opencv_utils.s
 
 # target to build an object file
 utils/qt_utils.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/utils/qt_utils.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/utils/qt_utils.o
 .PHONY : utils/qt_utils.o
 
 # target to preprocess a source file
 utils/qt_utils.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/utils/qt_utils.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/utils/qt_utils.i
 .PHONY : utils/qt_utils.i
 
 # target to generate assembly for a file
 utils/qt_utils.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/utils/qt_utils.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/utils/qt_utils.s
 .PHONY : utils/qt_utils.s
 
 # target to build an object file
 utils/xml_parser.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/utils/xml_parser.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/utils/xml_parser.o
 .PHONY : utils/xml_parser.o
 
 # target to preprocess a source file
 utils/xml_parser.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/utils/xml_parser.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/utils/xml_parser.i
 .PHONY : utils/xml_parser.i
 
 # target to generate assembly for a file
 utils/xml_parser.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/utils/xml_parser.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/utils/xml_parser.s
 .PHONY : utils/xml_parser.s
 
 # target to build an object file
 utils/xml_serializable.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/utils/xml_serializable.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/utils/xml_serializable.o
 .PHONY : utils/xml_serializable.o
 
 # target to preprocess a source file
 utils/xml_serializable.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/utils/xml_serializable.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/utils/xml_serializable.i
 .PHONY : utils/xml_serializable.i
 
 # target to generate assembly for a file
 utils/xml_serializable.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/utils/xml_serializable.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/utils/xml_serializable.s
 .PHONY : utils/xml_serializable.s
 
 # Help Target
@@ -1203,6 +1203,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

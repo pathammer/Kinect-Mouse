@@ -37,7 +37,7 @@ get_filename_component(THIS_OPENCV_CONFIG_PATH "${CMAKE_CURRENT_LIST_FILE}" PATH
 # ======================================================
 
 # Provide the include directories to the caller
-SET(OpenCV_INCLUDE_DIRS "/home/louis/Documents/Motion Capture/Mouse/build" "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/include" "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/include/opencv")
+SET(OpenCV_INCLUDE_DIRS "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build" "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/include" "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/include/opencv")
 
 INCLUDE_DIRECTORIES(${OpenCV_INCLUDE_DIRS})
 
@@ -46,7 +46,7 @@ INCLUDE_DIRECTORIES(${OpenCV_INCLUDE_DIRS})
 # ======================================================
 
 # Provide the libs directory anyway, it may be needed in some cases.
-SET(OpenCV_LIB_DIR /home/louis/Documents/Motion Capture/Mouse/build/lib)
+SET(OpenCV_LIB_DIR /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/lib)
 
 LINK_DIRECTORIES(${OpenCV_LIB_DIR})
 
@@ -69,29 +69,29 @@ endforeach(__CVLIB)
 # ==============================================================
 #  Extra include directories, needed by OpenCV 2 new structure
 # ==============================================================
-if(NOT "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv" STREQUAL  "")
-	SET(BASEDIR "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv")
+if(NOT "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv" STREQUAL  "")
+	SET(BASEDIR "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv")
 	foreach(__CVLIB ${OPENCV_LIB_COMPONENTS})
 		# We only need the "core",... part here: "opencv_core" -> "core"
 		STRING(REGEX REPLACE "opencv_(.*)" "\\1" MODNAME ${__CVLIB})
 		INCLUDE_DIRECTORIES("${BASEDIR}/modules/${MODNAME}/include")
 	endforeach(__CVLIB)
-endif(NOT "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv" STREQUAL  "")
+endif(NOT "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv" STREQUAL  "")
 
 # For OpenCV built as static libs, we need the user to link against
 #  many more dependencies:
 IF (NOT 1)
 	# Under static libs, the user of OpenCV needs access to the 3rdparty libs as well:
-    LINK_DIRECTORIES(/home/louis/Documents/Motion Capture/Mouse/build/lib/../3rdparty/lib)
+    LINK_DIRECTORIES(/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/lib/../3rdparty/lib)
     if(WIN32)
-        LINK_DIRECTORIES("/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv"/3rdparty/lib)
+        LINK_DIRECTORIES("/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv"/3rdparty/lib)
     else()
-        LINK_DIRECTORIES(/home/louis/Documents/Motion Capture/Mouse/build/lib/../share/opencv/3rdparty/lib)
+        LINK_DIRECTORIES(/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/lib/../share/opencv/3rdparty/lib)
     endif()    
 
-	set(OpenCV_LIBS dl;m;pthread;rt  gtk-x11-2.0;gdk-x11-2.0;atk-1.0;gio-2.0;pangoft2-1.0;gdk_pixbuf-2.0;m;pangocairo-1.0;cairo;pango-1.0;freetype;fontconfig;gobject-2.0;gmodule-2.0;gthread-2.0;rt;glib-2.0;gthread-2.0;rt;glib-2.0;gstbase-0.10;gstreamer-0.10;gobject-2.0;gmodule-2.0;xml2;gthread-2.0;rt;glib-2.0;gstapp-0.10;gstbase-0.10;gstreamer-0.10;gobject-2.0;gmodule-2.0;xml2;gthread-2.0;rt;glib-2.0;gstvideo-0.10;gstbase-0.10;gstreamer-0.10;gobject-2.0;gmodule-2.0;xml2;gthread-2.0;rt;glib-2.0;avcodec;avformat;avutil;swscale;dc1394;v4l1 ${OpenCV_LIBS})
+	set(OpenCV_LIBS dl;m;pthread;rt  gtk-x11-2.0;gdk-x11-2.0;atk-1.0;gio-2.0;pangoft2-1.0;pangocairo-1.0;gdk_pixbuf-2.0;m;cairo;png12;pango-1.0;freetype;fontconfig;gobject-2.0;gmodule-2.0;gthread-2.0;rt;glib-2.0;gthread-2.0;rt;glib-2.0 ${OpenCV_LIBS})
 
-    set(OPENCV_EXTRA_COMPONENTS /usr/lib/libjpeg.so /usr/lib/libpng.so;/usr/lib/libz.so /usr/lib/libtiff.so /usr/lib/libjasper.so;/usr/lib/libjpeg.so zlib opencv_lapack)
+    set(OPENCV_EXTRA_COMPONENTS libjpeg /usr/lib/libpng.so;/usr/lib/libz.so libtiff libjasper zlib opencv_lapack)
 
     if (CMAKE_MAJOR_VERSION GREATER 2  OR  CMAKE_MINOR_VERSION GREATER 4)
         foreach(__EXTRA_LIB ${OPENCV_EXTRA_COMPONENTS})

@@ -458,7 +458,7 @@ opencv2/core/core.hpp
 opencv2/imgproc/imgproc_c.h
 ../nestk/deps/opencv/modules/video/include/opencv2/video/opencv2/imgproc/imgproc_c.h
 
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/haartraining/_cvcommon.h
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/haartraining/_cvcommon.h
 cxcore.h
 -
 cv.h
@@ -466,19 +466,19 @@ cv.h
 cxmisc.h
 -
 
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/haartraining/_cvhaartraining.h
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/haartraining/_cvhaartraining.h
 _cvcommon.h
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/haartraining/_cvcommon.h
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/haartraining/_cvcommon.h
 cvclassifier.h
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/haartraining/cvclassifier.h
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/haartraining/cvclassifier.h
 cstring
 -
 cstdio
 -
 
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/haartraining/cvboost.cpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/haartraining/cvboost.cpp
 cvconfig.h
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/haartraining/cvconfig.h
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/haartraining/cvconfig.h
 malloc.h
 -
 memory.h
@@ -496,21 +496,21 @@ ctime
 climits
 -
 _cvcommon.h
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/haartraining/_cvcommon.h
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/haartraining/_cvcommon.h
 cvclassifier.h
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/haartraining/cvclassifier.h
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/haartraining/cvclassifier.h
 omp.h
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/haartraining/omp.h
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/haartraining/omp.h
 
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/haartraining/cvclassifier.h
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/haartraining/cvclassifier.h
 cmath
 -
 cxcore.h
 -
 
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/haartraining/cvcommon.cpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/haartraining/cvcommon.cpp
 _cvcommon.h
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/haartraining/_cvcommon.h
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/haartraining/_cvcommon.h
 cstring
 -
 ctime
@@ -522,15 +522,15 @@ sys/types.h
 direct.h
 -
 
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/haartraining/cvhaarclassifier.cpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/haartraining/cvhaarclassifier.cpp
 _cvhaartraining.h
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/haartraining/_cvhaartraining.h
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/haartraining/_cvhaartraining.h
 
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/haartraining/cvhaartraining.cpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/haartraining/cvhaartraining.cpp
 cvhaartraining.h
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/haartraining/cvhaartraining.h
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/haartraining/cvhaartraining.h
 _cvhaartraining.h
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/haartraining/_cvhaartraining.h
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/haartraining/_cvhaartraining.h
 cstdio
 -
 cstdlib
@@ -544,13 +544,13 @@ highgui.h
 ctime
 -
 
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/haartraining/cvhaartraining.h
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/haartraining/cvhaartraining.h
 
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/haartraining/cvsamples.cpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/haartraining/cvsamples.cpp
 cvhaartraining.h
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/haartraining/cvhaartraining.h
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/haartraining/cvhaartraining.h
 _cvhaartraining.h
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/haartraining/_cvhaartraining.h
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/haartraining/_cvhaartraining.h
 cv.h
 -
 highgui.h

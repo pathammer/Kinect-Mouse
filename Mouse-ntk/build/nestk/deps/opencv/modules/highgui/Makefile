@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/louis/Documents/Motion Capture/Mouse"
+CMAKE_SOURCE_DIR = /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/louis/Documents/Motion Capture/Mouse/build"
+CMAKE_BINARY_DIR = /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -110,14 +110,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/highgui/CMakeFiles/progress.marks"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f CMakeFiles/Makefile2 nestk/deps/opencv/modules/highgui/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 0
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/highgui/CMakeFiles/progress.marks
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f CMakeFiles/Makefile2 nestk/deps/opencv/modules/highgui/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f CMakeFiles/Makefile2 nestk/deps/opencv/modules/highgui/clean
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f CMakeFiles/Makefile2 nestk/deps/opencv/modules/highgui/clean
 .PHONY : clean
 
 # The main clean target
@@ -126,22 +126,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f CMakeFiles/Makefile2 nestk/deps/opencv/modules/highgui/preinstall
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f CMakeFiles/Makefile2 nestk/deps/opencv/modules/highgui/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f CMakeFiles/Makefile2 nestk/deps/opencv/modules/highgui/preinstall
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f CMakeFiles/Makefile2 nestk/deps/opencv/modules/highgui/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/rule:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f CMakeFiles/Makefile2 nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/rule
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f CMakeFiles/Makefile2 nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/rule
 .PHONY : nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/rule
 
 # Convenience name for target.
@@ -150,337 +150,292 @@ opencv_highgui: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/
 
 # fast build rule for target.
 opencv_highgui/fast:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build
 .PHONY : opencv_highgui/fast
 
 # target to build an object file
 src/bitstrm.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/bitstrm.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/bitstrm.o
 .PHONY : src/bitstrm.o
 
 # target to preprocess a source file
 src/bitstrm.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/bitstrm.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/bitstrm.i
 .PHONY : src/bitstrm.i
 
 # target to generate assembly for a file
 src/bitstrm.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/bitstrm.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/bitstrm.s
 .PHONY : src/bitstrm.s
 
 # target to build an object file
 src/cap.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap.o
 .PHONY : src/cap.o
 
 # target to preprocess a source file
 src/cap.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap.i
 .PHONY : src/cap.i
 
 # target to generate assembly for a file
 src/cap.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap.s
 .PHONY : src/cap.s
 
 # target to build an object file
-src/cap_dc1394_v2.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_dc1394_v2.o
-.PHONY : src/cap_dc1394_v2.o
-
-# target to preprocess a source file
-src/cap_dc1394_v2.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_dc1394_v2.i
-.PHONY : src/cap_dc1394_v2.i
-
-# target to generate assembly for a file
-src/cap_dc1394_v2.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_dc1394_v2.s
-.PHONY : src/cap_dc1394_v2.s
-
-# target to build an object file
-src/cap_ffmpeg.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_ffmpeg.o
-.PHONY : src/cap_ffmpeg.o
-
-# target to preprocess a source file
-src/cap_ffmpeg.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_ffmpeg.i
-.PHONY : src/cap_ffmpeg.i
-
-# target to generate assembly for a file
-src/cap_ffmpeg.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_ffmpeg.s
-.PHONY : src/cap_ffmpeg.s
-
-# target to build an object file
-src/cap_gstreamer.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_gstreamer.o
-.PHONY : src/cap_gstreamer.o
-
-# target to preprocess a source file
-src/cap_gstreamer.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_gstreamer.i
-.PHONY : src/cap_gstreamer.i
-
-# target to generate assembly for a file
-src/cap_gstreamer.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_gstreamer.s
-.PHONY : src/cap_gstreamer.s
-
-# target to build an object file
 src/cap_images.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_images.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_images.o
 .PHONY : src/cap_images.o
 
 # target to preprocess a source file
 src/cap_images.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_images.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_images.i
 .PHONY : src/cap_images.i
 
 # target to generate assembly for a file
 src/cap_images.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_images.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_images.s
 .PHONY : src/cap_images.s
 
 # target to build an object file
-src/cap_libv4l.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_libv4l.o
-.PHONY : src/cap_libv4l.o
+src/cap_v4l.o:
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_v4l.o
+.PHONY : src/cap_v4l.o
 
 # target to preprocess a source file
-src/cap_libv4l.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_libv4l.i
-.PHONY : src/cap_libv4l.i
+src/cap_v4l.i:
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_v4l.i
+.PHONY : src/cap_v4l.i
 
 # target to generate assembly for a file
-src/cap_libv4l.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_libv4l.s
-.PHONY : src/cap_libv4l.s
+src/cap_v4l.s:
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_v4l.s
+.PHONY : src/cap_v4l.s
 
 # target to build an object file
 src/grfmt_base.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_base.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_base.o
 .PHONY : src/grfmt_base.o
 
 # target to preprocess a source file
 src/grfmt_base.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_base.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_base.i
 .PHONY : src/grfmt_base.i
 
 # target to generate assembly for a file
 src/grfmt_base.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_base.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_base.s
 .PHONY : src/grfmt_base.s
 
 # target to build an object file
 src/grfmt_bmp.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_bmp.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_bmp.o
 .PHONY : src/grfmt_bmp.o
 
 # target to preprocess a source file
 src/grfmt_bmp.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_bmp.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_bmp.i
 .PHONY : src/grfmt_bmp.i
 
 # target to generate assembly for a file
 src/grfmt_bmp.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_bmp.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_bmp.s
 .PHONY : src/grfmt_bmp.s
 
 # target to build an object file
 src/grfmt_exr.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_exr.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_exr.o
 .PHONY : src/grfmt_exr.o
 
 # target to preprocess a source file
 src/grfmt_exr.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_exr.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_exr.i
 .PHONY : src/grfmt_exr.i
 
 # target to generate assembly for a file
 src/grfmt_exr.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_exr.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_exr.s
 .PHONY : src/grfmt_exr.s
 
 # target to build an object file
 src/grfmt_imageio.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_imageio.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_imageio.o
 .PHONY : src/grfmt_imageio.o
 
 # target to preprocess a source file
 src/grfmt_imageio.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_imageio.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_imageio.i
 .PHONY : src/grfmt_imageio.i
 
 # target to generate assembly for a file
 src/grfmt_imageio.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_imageio.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_imageio.s
 .PHONY : src/grfmt_imageio.s
 
 # target to build an object file
 src/grfmt_jpeg.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_jpeg.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_jpeg.o
 .PHONY : src/grfmt_jpeg.o
 
 # target to preprocess a source file
 src/grfmt_jpeg.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_jpeg.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_jpeg.i
 .PHONY : src/grfmt_jpeg.i
 
 # target to generate assembly for a file
 src/grfmt_jpeg.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_jpeg.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_jpeg.s
 .PHONY : src/grfmt_jpeg.s
 
 # target to build an object file
 src/grfmt_jpeg2000.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_jpeg2000.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_jpeg2000.o
 .PHONY : src/grfmt_jpeg2000.o
 
 # target to preprocess a source file
 src/grfmt_jpeg2000.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_jpeg2000.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_jpeg2000.i
 .PHONY : src/grfmt_jpeg2000.i
 
 # target to generate assembly for a file
 src/grfmt_jpeg2000.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_jpeg2000.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_jpeg2000.s
 .PHONY : src/grfmt_jpeg2000.s
 
 # target to build an object file
 src/grfmt_png.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_png.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_png.o
 .PHONY : src/grfmt_png.o
 
 # target to preprocess a source file
 src/grfmt_png.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_png.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_png.i
 .PHONY : src/grfmt_png.i
 
 # target to generate assembly for a file
 src/grfmt_png.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_png.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_png.s
 .PHONY : src/grfmt_png.s
 
 # target to build an object file
 src/grfmt_pxm.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_pxm.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_pxm.o
 .PHONY : src/grfmt_pxm.o
 
 # target to preprocess a source file
 src/grfmt_pxm.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_pxm.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_pxm.i
 .PHONY : src/grfmt_pxm.i
 
 # target to generate assembly for a file
 src/grfmt_pxm.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_pxm.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_pxm.s
 .PHONY : src/grfmt_pxm.s
 
 # target to build an object file
 src/grfmt_sunras.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_sunras.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_sunras.o
 .PHONY : src/grfmt_sunras.o
 
 # target to preprocess a source file
 src/grfmt_sunras.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_sunras.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_sunras.i
 .PHONY : src/grfmt_sunras.i
 
 # target to generate assembly for a file
 src/grfmt_sunras.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_sunras.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_sunras.s
 .PHONY : src/grfmt_sunras.s
 
 # target to build an object file
 src/grfmt_tiff.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_tiff.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_tiff.o
 .PHONY : src/grfmt_tiff.o
 
 # target to preprocess a source file
 src/grfmt_tiff.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_tiff.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_tiff.i
 .PHONY : src/grfmt_tiff.i
 
 # target to generate assembly for a file
 src/grfmt_tiff.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_tiff.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_tiff.s
 .PHONY : src/grfmt_tiff.s
 
 # target to build an object file
 src/loadsave.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/loadsave.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/loadsave.o
 .PHONY : src/loadsave.o
 
 # target to preprocess a source file
 src/loadsave.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/loadsave.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/loadsave.i
 .PHONY : src/loadsave.i
 
 # target to generate assembly for a file
 src/loadsave.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/loadsave.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/loadsave.s
 .PHONY : src/loadsave.s
 
 # target to build an object file
 src/precomp.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/precomp.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/precomp.o
 .PHONY : src/precomp.o
 
 # target to preprocess a source file
 src/precomp.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/precomp.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/precomp.i
 .PHONY : src/precomp.i
 
 # target to generate assembly for a file
 src/precomp.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/precomp.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/precomp.s
 .PHONY : src/precomp.s
 
 # target to build an object file
 src/utils.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/utils.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/utils.o
 .PHONY : src/utils.o
 
 # target to preprocess a source file
 src/utils.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/utils.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/utils.i
 .PHONY : src/utils.i
 
 # target to generate assembly for a file
 src/utils.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/utils.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/utils.s
 .PHONY : src/utils.s
 
 # target to build an object file
 src/window.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/window.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/window.o
 .PHONY : src/window.o
 
 # target to preprocess a source file
 src/window.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/window.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/window.i
 .PHONY : src/window.i
 
 # target to generate assembly for a file
 src/window.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/window.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/window.s
 .PHONY : src/window.s
 
 # target to build an object file
 src/window_gtk.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/window_gtk.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/window_gtk.o
 .PHONY : src/window_gtk.o
 
 # target to preprocess a source file
 src/window_gtk.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/window_gtk.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/window_gtk.i
 .PHONY : src/window_gtk.i
 
 # target to generate assembly for a file
 src/window_gtk.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/window_gtk.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/window_gtk.s
 .PHONY : src/window_gtk.s
 
 # Help Target
@@ -502,21 +457,12 @@ help:
 	@echo "... src/cap.o"
 	@echo "... src/cap.i"
 	@echo "... src/cap.s"
-	@echo "... src/cap_dc1394_v2.o"
-	@echo "... src/cap_dc1394_v2.i"
-	@echo "... src/cap_dc1394_v2.s"
-	@echo "... src/cap_ffmpeg.o"
-	@echo "... src/cap_ffmpeg.i"
-	@echo "... src/cap_ffmpeg.s"
-	@echo "... src/cap_gstreamer.o"
-	@echo "... src/cap_gstreamer.i"
-	@echo "... src/cap_gstreamer.s"
 	@echo "... src/cap_images.o"
 	@echo "... src/cap_images.i"
 	@echo "... src/cap_images.s"
-	@echo "... src/cap_libv4l.o"
-	@echo "... src/cap_libv4l.i"
-	@echo "... src/cap_libv4l.s"
+	@echo "... src/cap_v4l.o"
+	@echo "... src/cap_v4l.i"
+	@echo "... src/cap_v4l.s"
 	@echo "... src/grfmt_base.o"
 	@echo "... src/grfmt_base.i"
 	@echo "... src/grfmt_base.s"
@@ -573,6 +519,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

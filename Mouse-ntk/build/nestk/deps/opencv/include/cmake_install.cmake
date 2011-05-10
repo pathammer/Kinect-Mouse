@@ -1,4 +1,4 @@
-# Install script for directory: /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/include
+# Install script for directory: /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/include
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,21 +34,21 @@ ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "main")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv" TYPE FILE FILES
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/include/opencv/cvaux.hpp"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/include/opencv/cxcore.hpp"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/include/opencv/cxcore.h"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/include/opencv/ml.h"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/include/opencv/cv.h"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/include/opencv/cxmisc.h"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/include/opencv/cxeigen.hpp"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/include/opencv/highgui.h"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/include/opencv/cvaux.h"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/include/opencv/cvwimage.h"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/include/opencv/cv.hpp"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/include/opencv/cv.h"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/include/opencv/cxcore.hpp"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/include/opencv/highgui.h"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/include/opencv/cv.hpp"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/include/opencv/cxeigen.hpp"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/include/opencv/cvaux.hpp"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/include/opencv/cvaux.h"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/include/opencv/cxcore.h"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/include/opencv/cvwimage.h"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/include/opencv/ml.h"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/include/opencv/cxmisc.h"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "main")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "main")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv2" TYPE FILE FILES "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/include/opencv2/opencv.hpp")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv2" TYPE FILE FILES "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/include/opencv2/opencv.hpp")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "main")
 

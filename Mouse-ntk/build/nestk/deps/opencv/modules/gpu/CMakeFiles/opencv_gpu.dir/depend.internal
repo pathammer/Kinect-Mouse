@@ -17,8 +17,8 @@ nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/arithm.o
  ../nestk/deps/opencv/modules/gpu/include/opencv2/gpu/stream_accessor.hpp
  ../nestk/deps/opencv/modules/gpu/src/cuda/cuda_shared.hpp
  ../nestk/deps/opencv/modules/gpu/src/cuda/safe_call.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/arithm.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/gpu/src/arithm.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/gpu/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/beliefpropagation_gpu.o
  ../nestk/deps/opencv/modules/gpu/../core/include/opencv2/core/core.hpp
@@ -36,8 +36,8 @@ nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/beliefpropagation_gp
  ../nestk/deps/opencv/modules/gpu/include/opencv2/gpu/stream_accessor.hpp
  ../nestk/deps/opencv/modules/gpu/src/cuda/cuda_shared.hpp
  ../nestk/deps/opencv/modules/gpu/src/cuda/safe_call.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/beliefpropagation_gpu.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/gpu/src/beliefpropagation_gpu.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/gpu/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/bilateral_filter.o
  ../nestk/deps/opencv/modules/gpu/../core/include/opencv2/core/core.hpp
@@ -55,8 +55,8 @@ nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/bilateral_filter.o
  ../nestk/deps/opencv/modules/gpu/include/opencv2/gpu/stream_accessor.hpp
  ../nestk/deps/opencv/modules/gpu/src/cuda/cuda_shared.hpp
  ../nestk/deps/opencv/modules/gpu/src/cuda/safe_call.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/bilateral_filter.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/gpu/src/bilateral_filter.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/gpu/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/color.o
  ../nestk/deps/opencv/modules/gpu/../core/include/opencv2/core/core.hpp
@@ -74,8 +74,8 @@ nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/color.o
  ../nestk/deps/opencv/modules/gpu/include/opencv2/gpu/stream_accessor.hpp
  ../nestk/deps/opencv/modules/gpu/src/cuda/cuda_shared.hpp
  ../nestk/deps/opencv/modules/gpu/src/cuda/safe_call.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/color.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/gpu/src/color.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/gpu/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/constantspacebp_gpu.o
  ../nestk/deps/opencv/modules/gpu/../core/include/opencv2/core/core.hpp
@@ -93,8 +93,8 @@ nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/constantspacebp_gpu.
  ../nestk/deps/opencv/modules/gpu/include/opencv2/gpu/stream_accessor.hpp
  ../nestk/deps/opencv/modules/gpu/src/cuda/cuda_shared.hpp
  ../nestk/deps/opencv/modules/gpu/src/cuda/safe_call.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/constantspacebp_gpu.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/gpu/src/constantspacebp_gpu.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/gpu/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/cudastream.o
  ../nestk/deps/opencv/modules/gpu/../core/include/opencv2/core/core.hpp
@@ -112,8 +112,8 @@ nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/cudastream.o
  ../nestk/deps/opencv/modules/gpu/include/opencv2/gpu/stream_accessor.hpp
  ../nestk/deps/opencv/modules/gpu/src/cuda/cuda_shared.hpp
  ../nestk/deps/opencv/modules/gpu/src/cuda/safe_call.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/cudastream.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/gpu/src/cudastream.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/gpu/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/error.o
  ../nestk/deps/opencv/modules/gpu/../core/include/opencv2/core/core.hpp
@@ -131,8 +131,8 @@ nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/error.o
  ../nestk/deps/opencv/modules/gpu/include/opencv2/gpu/stream_accessor.hpp
  ../nestk/deps/opencv/modules/gpu/src/cuda/cuda_shared.hpp
  ../nestk/deps/opencv/modules/gpu/src/cuda/safe_call.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/error.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/gpu/src/error.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/gpu/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/filtering.o
  ../nestk/deps/opencv/modules/gpu/../core/include/opencv2/core/core.hpp
@@ -150,8 +150,8 @@ nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/filtering.o
  ../nestk/deps/opencv/modules/gpu/include/opencv2/gpu/stream_accessor.hpp
  ../nestk/deps/opencv/modules/gpu/src/cuda/cuda_shared.hpp
  ../nestk/deps/opencv/modules/gpu/src/cuda/safe_call.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/filtering.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/gpu/src/filtering.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/gpu/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/graphcuts.o
  ../nestk/deps/opencv/modules/gpu/../core/include/opencv2/core/core.hpp
@@ -169,8 +169,8 @@ nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/graphcuts.o
  ../nestk/deps/opencv/modules/gpu/include/opencv2/gpu/stream_accessor.hpp
  ../nestk/deps/opencv/modules/gpu/src/cuda/cuda_shared.hpp
  ../nestk/deps/opencv/modules/gpu/src/cuda/safe_call.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/graphcuts.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/gpu/src/graphcuts.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/gpu/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/hog.o
  ../nestk/deps/opencv/modules/gpu/../core/include/opencv2/core/core.hpp
@@ -188,8 +188,8 @@ nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/hog.o
  ../nestk/deps/opencv/modules/gpu/include/opencv2/gpu/stream_accessor.hpp
  ../nestk/deps/opencv/modules/gpu/src/cuda/cuda_shared.hpp
  ../nestk/deps/opencv/modules/gpu/src/cuda/safe_call.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/hog.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/gpu/src/hog.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/gpu/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/imgproc_gpu.o
  ../nestk/deps/opencv/modules/gpu/../core/include/opencv2/core/core.hpp
@@ -207,8 +207,8 @@ nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/imgproc_gpu.o
  ../nestk/deps/opencv/modules/gpu/include/opencv2/gpu/stream_accessor.hpp
  ../nestk/deps/opencv/modules/gpu/src/cuda/cuda_shared.hpp
  ../nestk/deps/opencv/modules/gpu/src/cuda/safe_call.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/imgproc_gpu.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/gpu/src/imgproc_gpu.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/gpu/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/initialization.o
  ../nestk/deps/opencv/modules/gpu/../core/include/opencv2/core/core.hpp
@@ -226,8 +226,8 @@ nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/initialization.o
  ../nestk/deps/opencv/modules/gpu/include/opencv2/gpu/stream_accessor.hpp
  ../nestk/deps/opencv/modules/gpu/src/cuda/cuda_shared.hpp
  ../nestk/deps/opencv/modules/gpu/src/cuda/safe_call.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/initialization.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/gpu/src/initialization.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/gpu/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/matrix_operations.o
  ../nestk/deps/opencv/modules/gpu/../core/include/opencv2/core/core.hpp
@@ -245,8 +245,8 @@ nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/matrix_operations.o
  ../nestk/deps/opencv/modules/gpu/include/opencv2/gpu/stream_accessor.hpp
  ../nestk/deps/opencv/modules/gpu/src/cuda/cuda_shared.hpp
  ../nestk/deps/opencv/modules/gpu/src/cuda/safe_call.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/matrix_operations.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/gpu/src/matrix_operations.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/gpu/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/mssegmentation.o
  ../nestk/deps/opencv/modules/gpu/../core/include/opencv2/core/core.hpp
@@ -264,8 +264,8 @@ nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/mssegmentation.o
  ../nestk/deps/opencv/modules/gpu/include/opencv2/gpu/stream_accessor.hpp
  ../nestk/deps/opencv/modules/gpu/src/cuda/cuda_shared.hpp
  ../nestk/deps/opencv/modules/gpu/src/cuda/safe_call.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/mssegmentation.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/gpu/src/mssegmentation.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/gpu/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/precomp.o
  ../nestk/deps/opencv/modules/gpu/../core/include/opencv2/core/core.hpp
@@ -283,8 +283,8 @@ nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/precomp.o
  ../nestk/deps/opencv/modules/gpu/include/opencv2/gpu/stream_accessor.hpp
  ../nestk/deps/opencv/modules/gpu/src/cuda/cuda_shared.hpp
  ../nestk/deps/opencv/modules/gpu/src/cuda/safe_call.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/precomp.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/gpu/src/precomp.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/gpu/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/speckle_filtering.o
  ../nestk/deps/opencv/modules/gpu/../core/include/opencv2/core/core.hpp
@@ -302,8 +302,8 @@ nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/speckle_filtering.o
  ../nestk/deps/opencv/modules/gpu/include/opencv2/gpu/stream_accessor.hpp
  ../nestk/deps/opencv/modules/gpu/src/cuda/cuda_shared.hpp
  ../nestk/deps/opencv/modules/gpu/src/cuda/safe_call.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/precomp.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/speckle_filtering.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/gpu/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/gpu/src/speckle_filtering.cpp
  cvconfig.h
 nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/split_merge.o
  ../nestk/deps/opencv/modules/gpu/../core/include/opencv2/core/core.hpp
@@ -321,8 +321,8 @@ nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/split_merge.o
  ../nestk/deps/opencv/modules/gpu/include/opencv2/gpu/stream_accessor.hpp
  ../nestk/deps/opencv/modules/gpu/src/cuda/cuda_shared.hpp
  ../nestk/deps/opencv/modules/gpu/src/cuda/safe_call.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/precomp.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/split_merge.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/gpu/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/gpu/src/split_merge.cpp
  cvconfig.h
 nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/stereobm_gpu.o
  ../nestk/deps/opencv/modules/gpu/../core/include/opencv2/core/core.hpp
@@ -340,6 +340,6 @@ nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/stereobm_gpu.o
  ../nestk/deps/opencv/modules/gpu/include/opencv2/gpu/stream_accessor.hpp
  ../nestk/deps/opencv/modules/gpu/src/cuda/cuda_shared.hpp
  ../nestk/deps/opencv/modules/gpu/src/cuda/safe_call.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/precomp.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/stereobm_gpu.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/gpu/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/gpu/src/stereobm_gpu.cpp
  cvconfig.h

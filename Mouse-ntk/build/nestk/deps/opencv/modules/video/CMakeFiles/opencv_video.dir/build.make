@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/louis/Documents/Motion Capture/Mouse"
+CMAKE_SOURCE_DIR = /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/louis/Documents/Motion Capture/Mouse/build"
+CMAKE_BINARY_DIR = /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build
 
 # Include any dependencies generated for this target.
 include nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/depend.make
@@ -49,67 +49,19 @@ include nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/progress.mak
 # Include the compile flags for this target's objects.
 include nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/flags.make
 
-nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowlk.o: nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/flags.make
-nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowlk.o: ../nestk/deps/opencv/modules/video/src/optflowlk.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_1)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowlk.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/video" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_video.dir/src/optflowlk.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/video/src/optflowlk.cpp"
-
-nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowlk.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_video.dir/src/optflowlk.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/video" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/video/src/optflowlk.cpp" > CMakeFiles/opencv_video.dir/src/optflowlk.i
-
-nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowlk.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_video.dir/src/optflowlk.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/video" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/video/src/optflowlk.cpp" -o CMakeFiles/opencv_video.dir/src/optflowlk.s
-
-nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowlk.o.requires:
-.PHONY : nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowlk.o.requires
-
-nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowlk.o.provides: nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowlk.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/build.make nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowlk.o.provides.build
-.PHONY : nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowlk.o.provides
-
-nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowlk.o.provides.build: nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowlk.o
-.PHONY : nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowlk.o.provides.build
-
-nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowhs.o: nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/flags.make
-nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowhs.o: ../nestk/deps/opencv/modules/video/src/optflowhs.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_2)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowhs.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/video" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_video.dir/src/optflowhs.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/video/src/optflowhs.cpp"
-
-nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowhs.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_video.dir/src/optflowhs.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/video" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/video/src/optflowhs.cpp" > CMakeFiles/opencv_video.dir/src/optflowhs.i
-
-nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowhs.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_video.dir/src/optflowhs.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/video" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/video/src/optflowhs.cpp" -o CMakeFiles/opencv_video.dir/src/optflowhs.s
-
-nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowhs.o.requires:
-.PHONY : nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowhs.o.requires
-
-nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowhs.o.provides: nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowhs.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/build.make nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowhs.o.provides.build
-.PHONY : nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowhs.o.provides
-
-nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowhs.o.provides.build: nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowhs.o
-.PHONY : nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowhs.o.provides.build
-
 nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/bgfg_common.o: nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/flags.make
 nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/bgfg_common.o: ../nestk/deps/opencv/modules/video/src/bgfg_common.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/bgfg_common.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/video" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_video.dir/src/bgfg_common.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/video/src/bgfg_common.cpp"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/video && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_video.dir/src/bgfg_common.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/video/src/bgfg_common.cpp
 
 nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/bgfg_common.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_video.dir/src/bgfg_common.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/video" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/video/src/bgfg_common.cpp" > CMakeFiles/opencv_video.dir/src/bgfg_common.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/video && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/video/src/bgfg_common.cpp > CMakeFiles/opencv_video.dir/src/bgfg_common.i
 
 nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/bgfg_common.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_video.dir/src/bgfg_common.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/video" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/video/src/bgfg_common.cpp" -o CMakeFiles/opencv_video.dir/src/bgfg_common.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/video && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/video/src/bgfg_common.cpp -o CMakeFiles/opencv_video.dir/src/bgfg_common.s
 
 nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/bgfg_common.o.requires:
 .PHONY : nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/bgfg_common.o.requires
@@ -121,139 +73,43 @@ nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/bgfg_common.o.pr
 nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/bgfg_common.o.provides.build: nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/bgfg_common.o
 .PHONY : nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/bgfg_common.o.provides.build
 
-nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowgf.o: nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/flags.make
-nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowgf.o: ../nestk/deps/opencv/modules/video/src/optflowgf.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_4)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowgf.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/video" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_video.dir/src/optflowgf.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/video/src/optflowgf.cpp"
+nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/camshift.o: nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/flags.make
+nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/camshift.o: ../nestk/deps/opencv/modules/video/src/camshift.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/camshift.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/video && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_video.dir/src/camshift.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/video/src/camshift.cpp
 
-nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowgf.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_video.dir/src/optflowgf.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/video" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/video/src/optflowgf.cpp" > CMakeFiles/opencv_video.dir/src/optflowgf.i
+nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/camshift.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_video.dir/src/camshift.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/video && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/video/src/camshift.cpp > CMakeFiles/opencv_video.dir/src/camshift.i
 
-nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowgf.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_video.dir/src/optflowgf.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/video" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/video/src/optflowgf.cpp" -o CMakeFiles/opencv_video.dir/src/optflowgf.s
+nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/camshift.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_video.dir/src/camshift.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/video && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/video/src/camshift.cpp -o CMakeFiles/opencv_video.dir/src/camshift.s
 
-nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowgf.o.requires:
-.PHONY : nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowgf.o.requires
+nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/camshift.o.requires:
+.PHONY : nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/camshift.o.requires
 
-nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowgf.o.provides: nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowgf.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/build.make nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowgf.o.provides.build
-.PHONY : nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowgf.o.provides
+nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/camshift.o.provides: nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/camshift.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/build.make nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/camshift.o.provides.build
+.PHONY : nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/camshift.o.provides
 
-nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowgf.o.provides.build: nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowgf.o
-.PHONY : nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowgf.o.provides.build
-
-nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowbm.o: nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/flags.make
-nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowbm.o: ../nestk/deps/opencv/modules/video/src/optflowbm.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_5)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowbm.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/video" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_video.dir/src/optflowbm.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/video/src/optflowbm.cpp"
-
-nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowbm.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_video.dir/src/optflowbm.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/video" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/video/src/optflowbm.cpp" > CMakeFiles/opencv_video.dir/src/optflowbm.i
-
-nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowbm.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_video.dir/src/optflowbm.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/video" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/video/src/optflowbm.cpp" -o CMakeFiles/opencv_video.dir/src/optflowbm.s
-
-nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowbm.o.requires:
-.PHONY : nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowbm.o.requires
-
-nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowbm.o.provides: nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowbm.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/build.make nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowbm.o.provides.build
-.PHONY : nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowbm.o.provides
-
-nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowbm.o.provides.build: nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowbm.o
-.PHONY : nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowbm.o.provides.build
-
-nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/kalman.o: nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/flags.make
-nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/kalman.o: ../nestk/deps/opencv/modules/video/src/kalman.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_6)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/kalman.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/video" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_video.dir/src/kalman.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/video/src/kalman.cpp"
-
-nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/kalman.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_video.dir/src/kalman.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/video" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/video/src/kalman.cpp" > CMakeFiles/opencv_video.dir/src/kalman.i
-
-nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/kalman.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_video.dir/src/kalman.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/video" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/video/src/kalman.cpp" -o CMakeFiles/opencv_video.dir/src/kalman.s
-
-nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/kalman.o.requires:
-.PHONY : nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/kalman.o.requires
-
-nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/kalman.o.provides: nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/kalman.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/build.make nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/kalman.o.provides.build
-.PHONY : nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/kalman.o.provides
-
-nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/kalman.o.provides.build: nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/kalman.o
-.PHONY : nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/kalman.o.provides.build
-
-nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/bgfg_acmmm2003.o: nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/flags.make
-nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/bgfg_acmmm2003.o: ../nestk/deps/opencv/modules/video/src/bgfg_acmmm2003.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_7)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/bgfg_acmmm2003.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/video" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_video.dir/src/bgfg_acmmm2003.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/video/src/bgfg_acmmm2003.cpp"
-
-nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/bgfg_acmmm2003.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_video.dir/src/bgfg_acmmm2003.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/video" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/video/src/bgfg_acmmm2003.cpp" > CMakeFiles/opencv_video.dir/src/bgfg_acmmm2003.i
-
-nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/bgfg_acmmm2003.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_video.dir/src/bgfg_acmmm2003.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/video" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/video/src/bgfg_acmmm2003.cpp" -o CMakeFiles/opencv_video.dir/src/bgfg_acmmm2003.s
-
-nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/bgfg_acmmm2003.o.requires:
-.PHONY : nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/bgfg_acmmm2003.o.requires
-
-nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/bgfg_acmmm2003.o.provides: nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/bgfg_acmmm2003.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/build.make nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/bgfg_acmmm2003.o.provides.build
-.PHONY : nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/bgfg_acmmm2003.o.provides
-
-nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/bgfg_acmmm2003.o.provides.build: nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/bgfg_acmmm2003.o
-.PHONY : nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/bgfg_acmmm2003.o.provides.build
-
-nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/motempl.o: nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/flags.make
-nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/motempl.o: ../nestk/deps/opencv/modules/video/src/motempl.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_8)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/motempl.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/video" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_video.dir/src/motempl.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/video/src/motempl.cpp"
-
-nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/motempl.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_video.dir/src/motempl.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/video" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/video/src/motempl.cpp" > CMakeFiles/opencv_video.dir/src/motempl.i
-
-nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/motempl.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_video.dir/src/motempl.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/video" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/video/src/motempl.cpp" -o CMakeFiles/opencv_video.dir/src/motempl.s
-
-nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/motempl.o.requires:
-.PHONY : nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/motempl.o.requires
-
-nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/motempl.o.provides: nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/motempl.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/build.make nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/motempl.o.provides.build
-.PHONY : nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/motempl.o.provides
-
-nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/motempl.o.provides.build: nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/motempl.o
-.PHONY : nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/motempl.o.provides.build
+nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/camshift.o.provides.build: nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/camshift.o
+.PHONY : nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/camshift.o.provides.build
 
 nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/lkpyramid.o: nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/flags.make
 nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/lkpyramid.o: ../nestk/deps/opencv/modules/video/src/lkpyramid.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/lkpyramid.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/video" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_video.dir/src/lkpyramid.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/video/src/lkpyramid.cpp"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/video && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_video.dir/src/lkpyramid.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/video/src/lkpyramid.cpp
 
 nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/lkpyramid.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_video.dir/src/lkpyramid.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/video" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/video/src/lkpyramid.cpp" > CMakeFiles/opencv_video.dir/src/lkpyramid.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/video && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/video/src/lkpyramid.cpp > CMakeFiles/opencv_video.dir/src/lkpyramid.i
 
 nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/lkpyramid.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_video.dir/src/lkpyramid.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/video" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/video/src/lkpyramid.cpp" -o CMakeFiles/opencv_video.dir/src/lkpyramid.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/video && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/video/src/lkpyramid.cpp -o CMakeFiles/opencv_video.dir/src/lkpyramid.s
 
 nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/lkpyramid.o.requires:
 .PHONY : nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/lkpyramid.o.requires
@@ -267,17 +123,17 @@ nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/lkpyramid.o.prov
 
 nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/precomp.o: nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/flags.make
 nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/precomp.o: ../nestk/deps/opencv/modules/video/src/precomp.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_10)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/precomp.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/video" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_video.dir/src/precomp.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/video/src/precomp.cpp"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/video && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_video.dir/src/precomp.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/video/src/precomp.cpp
 
 nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/precomp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_video.dir/src/precomp.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/video" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/video/src/precomp.cpp" > CMakeFiles/opencv_video.dir/src/precomp.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/video && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/video/src/precomp.cpp > CMakeFiles/opencv_video.dir/src/precomp.i
 
 nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/precomp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_video.dir/src/precomp.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/video" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/video/src/precomp.cpp" -o CMakeFiles/opencv_video.dir/src/precomp.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/video && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/video/src/precomp.cpp -o CMakeFiles/opencv_video.dir/src/precomp.s
 
 nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/precomp.o.requires:
 .PHONY : nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/precomp.o.requires
@@ -291,17 +147,17 @@ nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/precomp.o.provid
 
 nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/bgfg_gaussmix.o: nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/flags.make
 nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/bgfg_gaussmix.o: ../nestk/deps/opencv/modules/video/src/bgfg_gaussmix.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_11)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/bgfg_gaussmix.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/video" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_video.dir/src/bgfg_gaussmix.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/video/src/bgfg_gaussmix.cpp"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/video && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_video.dir/src/bgfg_gaussmix.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/video/src/bgfg_gaussmix.cpp
 
 nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/bgfg_gaussmix.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_video.dir/src/bgfg_gaussmix.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/video" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/video/src/bgfg_gaussmix.cpp" > CMakeFiles/opencv_video.dir/src/bgfg_gaussmix.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/video && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/video/src/bgfg_gaussmix.cpp > CMakeFiles/opencv_video.dir/src/bgfg_gaussmix.i
 
 nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/bgfg_gaussmix.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_video.dir/src/bgfg_gaussmix.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/video" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/video/src/bgfg_gaussmix.cpp" -o CMakeFiles/opencv_video.dir/src/bgfg_gaussmix.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/video && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/video/src/bgfg_gaussmix.cpp -o CMakeFiles/opencv_video.dir/src/bgfg_gaussmix.s
 
 nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/bgfg_gaussmix.o.requires:
 .PHONY : nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/bgfg_gaussmix.o.requires
@@ -313,43 +169,187 @@ nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/bgfg_gaussmix.o.
 nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/bgfg_gaussmix.o.provides.build: nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/bgfg_gaussmix.o
 .PHONY : nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/bgfg_gaussmix.o.provides.build
 
-nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/camshift.o: nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/flags.make
-nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/camshift.o: ../nestk/deps/opencv/modules/video/src/camshift.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_12)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/camshift.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/video" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_video.dir/src/camshift.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/video/src/camshift.cpp"
+nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/bgfg_acmmm2003.o: nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/flags.make
+nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/bgfg_acmmm2003.o: ../nestk/deps/opencv/modules/video/src/bgfg_acmmm2003.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_6)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/bgfg_acmmm2003.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/video && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_video.dir/src/bgfg_acmmm2003.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/video/src/bgfg_acmmm2003.cpp
 
-nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/camshift.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_video.dir/src/camshift.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/video" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/video/src/camshift.cpp" > CMakeFiles/opencv_video.dir/src/camshift.i
+nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/bgfg_acmmm2003.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_video.dir/src/bgfg_acmmm2003.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/video && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/video/src/bgfg_acmmm2003.cpp > CMakeFiles/opencv_video.dir/src/bgfg_acmmm2003.i
 
-nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/camshift.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_video.dir/src/camshift.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/video" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/video/src/camshift.cpp" -o CMakeFiles/opencv_video.dir/src/camshift.s
+nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/bgfg_acmmm2003.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_video.dir/src/bgfg_acmmm2003.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/video && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/video/src/bgfg_acmmm2003.cpp -o CMakeFiles/opencv_video.dir/src/bgfg_acmmm2003.s
 
-nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/camshift.o.requires:
-.PHONY : nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/camshift.o.requires
+nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/bgfg_acmmm2003.o.requires:
+.PHONY : nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/bgfg_acmmm2003.o.requires
 
-nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/camshift.o.provides: nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/camshift.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/build.make nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/camshift.o.provides.build
-.PHONY : nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/camshift.o.provides
+nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/bgfg_acmmm2003.o.provides: nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/bgfg_acmmm2003.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/build.make nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/bgfg_acmmm2003.o.provides.build
+.PHONY : nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/bgfg_acmmm2003.o.provides
 
-nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/camshift.o.provides.build: nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/camshift.o
-.PHONY : nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/camshift.o.provides.build
+nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/bgfg_acmmm2003.o.provides.build: nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/bgfg_acmmm2003.o
+.PHONY : nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/bgfg_acmmm2003.o.provides.build
+
+nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowhs.o: nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/flags.make
+nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowhs.o: ../nestk/deps/opencv/modules/video/src/optflowhs.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_7)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowhs.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/video && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_video.dir/src/optflowhs.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/video/src/optflowhs.cpp
+
+nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowhs.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_video.dir/src/optflowhs.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/video && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/video/src/optflowhs.cpp > CMakeFiles/opencv_video.dir/src/optflowhs.i
+
+nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowhs.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_video.dir/src/optflowhs.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/video && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/video/src/optflowhs.cpp -o CMakeFiles/opencv_video.dir/src/optflowhs.s
+
+nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowhs.o.requires:
+.PHONY : nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowhs.o.requires
+
+nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowhs.o.provides: nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowhs.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/build.make nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowhs.o.provides.build
+.PHONY : nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowhs.o.provides
+
+nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowhs.o.provides.build: nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowhs.o
+.PHONY : nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowhs.o.provides.build
+
+nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowgf.o: nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/flags.make
+nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowgf.o: ../nestk/deps/opencv/modules/video/src/optflowgf.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_8)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowgf.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/video && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_video.dir/src/optflowgf.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/video/src/optflowgf.cpp
+
+nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowgf.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_video.dir/src/optflowgf.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/video && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/video/src/optflowgf.cpp > CMakeFiles/opencv_video.dir/src/optflowgf.i
+
+nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowgf.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_video.dir/src/optflowgf.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/video && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/video/src/optflowgf.cpp -o CMakeFiles/opencv_video.dir/src/optflowgf.s
+
+nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowgf.o.requires:
+.PHONY : nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowgf.o.requires
+
+nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowgf.o.provides: nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowgf.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/build.make nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowgf.o.provides.build
+.PHONY : nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowgf.o.provides
+
+nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowgf.o.provides.build: nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowgf.o
+.PHONY : nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowgf.o.provides.build
+
+nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/motempl.o: nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/flags.make
+nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/motempl.o: ../nestk/deps/opencv/modules/video/src/motempl.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_9)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/motempl.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/video && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_video.dir/src/motempl.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/video/src/motempl.cpp
+
+nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/motempl.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_video.dir/src/motempl.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/video && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/video/src/motempl.cpp > CMakeFiles/opencv_video.dir/src/motempl.i
+
+nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/motempl.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_video.dir/src/motempl.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/video && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/video/src/motempl.cpp -o CMakeFiles/opencv_video.dir/src/motempl.s
+
+nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/motempl.o.requires:
+.PHONY : nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/motempl.o.requires
+
+nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/motempl.o.provides: nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/motempl.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/build.make nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/motempl.o.provides.build
+.PHONY : nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/motempl.o.provides
+
+nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/motempl.o.provides.build: nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/motempl.o
+.PHONY : nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/motempl.o.provides.build
+
+nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowlk.o: nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/flags.make
+nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowlk.o: ../nestk/deps/opencv/modules/video/src/optflowlk.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_10)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowlk.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/video && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_video.dir/src/optflowlk.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/video/src/optflowlk.cpp
+
+nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowlk.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_video.dir/src/optflowlk.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/video && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/video/src/optflowlk.cpp > CMakeFiles/opencv_video.dir/src/optflowlk.i
+
+nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowlk.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_video.dir/src/optflowlk.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/video && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/video/src/optflowlk.cpp -o CMakeFiles/opencv_video.dir/src/optflowlk.s
+
+nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowlk.o.requires:
+.PHONY : nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowlk.o.requires
+
+nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowlk.o.provides: nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowlk.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/build.make nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowlk.o.provides.build
+.PHONY : nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowlk.o.provides
+
+nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowlk.o.provides.build: nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowlk.o
+.PHONY : nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowlk.o.provides.build
+
+nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowbm.o: nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/flags.make
+nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowbm.o: ../nestk/deps/opencv/modules/video/src/optflowbm.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_11)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowbm.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/video && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_video.dir/src/optflowbm.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/video/src/optflowbm.cpp
+
+nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowbm.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_video.dir/src/optflowbm.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/video && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/video/src/optflowbm.cpp > CMakeFiles/opencv_video.dir/src/optflowbm.i
+
+nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowbm.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_video.dir/src/optflowbm.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/video && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/video/src/optflowbm.cpp -o CMakeFiles/opencv_video.dir/src/optflowbm.s
+
+nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowbm.o.requires:
+.PHONY : nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowbm.o.requires
+
+nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowbm.o.provides: nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowbm.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/build.make nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowbm.o.provides.build
+.PHONY : nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowbm.o.provides
+
+nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowbm.o.provides.build: nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowbm.o
+.PHONY : nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowbm.o.provides.build
+
+nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/kalman.o: nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/flags.make
+nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/kalman.o: ../nestk/deps/opencv/modules/video/src/kalman.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_12)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/kalman.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/video && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_video.dir/src/kalman.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/video/src/kalman.cpp
+
+nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/kalman.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_video.dir/src/kalman.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/video && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/video/src/kalman.cpp > CMakeFiles/opencv_video.dir/src/kalman.i
+
+nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/kalman.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_video.dir/src/kalman.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/video && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/video/src/kalman.cpp -o CMakeFiles/opencv_video.dir/src/kalman.s
+
+nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/kalman.o.requires:
+.PHONY : nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/kalman.o.requires
+
+nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/kalman.o.provides: nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/kalman.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/build.make nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/kalman.o.provides.build
+.PHONY : nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/kalman.o.provides
+
+nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/kalman.o.provides.build: nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/kalman.o
+.PHONY : nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/kalman.o.provides.build
 
 nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/bgfg_codebook.o: nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/flags.make
 nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/bgfg_codebook.o: ../nestk/deps/opencv/modules/video/src/bgfg_codebook.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_13)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_13)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/bgfg_codebook.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/video" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_video.dir/src/bgfg_codebook.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/video/src/bgfg_codebook.cpp"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/video && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_video.dir/src/bgfg_codebook.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/video/src/bgfg_codebook.cpp
 
 nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/bgfg_codebook.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_video.dir/src/bgfg_codebook.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/video" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/video/src/bgfg_codebook.cpp" > CMakeFiles/opencv_video.dir/src/bgfg_codebook.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/video && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/video/src/bgfg_codebook.cpp > CMakeFiles/opencv_video.dir/src/bgfg_codebook.i
 
 nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/bgfg_codebook.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_video.dir/src/bgfg_codebook.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/video" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/video/src/bgfg_codebook.cpp" -o CMakeFiles/opencv_video.dir/src/bgfg_codebook.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/video && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/video/src/bgfg_codebook.cpp -o CMakeFiles/opencv_video.dir/src/bgfg_codebook.s
 
 nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/bgfg_codebook.o.requires:
 .PHONY : nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/bgfg_codebook.o.requires
@@ -363,35 +363,35 @@ nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/bgfg_codebook.o.
 
 # Object files for target opencv_video
 opencv_video_OBJECTS = \
-"CMakeFiles/opencv_video.dir/src/optflowlk.o" \
-"CMakeFiles/opencv_video.dir/src/optflowhs.o" \
 "CMakeFiles/opencv_video.dir/src/bgfg_common.o" \
-"CMakeFiles/opencv_video.dir/src/optflowgf.o" \
-"CMakeFiles/opencv_video.dir/src/optflowbm.o" \
-"CMakeFiles/opencv_video.dir/src/kalman.o" \
-"CMakeFiles/opencv_video.dir/src/bgfg_acmmm2003.o" \
-"CMakeFiles/opencv_video.dir/src/motempl.o" \
+"CMakeFiles/opencv_video.dir/src/camshift.o" \
 "CMakeFiles/opencv_video.dir/src/lkpyramid.o" \
 "CMakeFiles/opencv_video.dir/src/precomp.o" \
 "CMakeFiles/opencv_video.dir/src/bgfg_gaussmix.o" \
-"CMakeFiles/opencv_video.dir/src/camshift.o" \
+"CMakeFiles/opencv_video.dir/src/bgfg_acmmm2003.o" \
+"CMakeFiles/opencv_video.dir/src/optflowhs.o" \
+"CMakeFiles/opencv_video.dir/src/optflowgf.o" \
+"CMakeFiles/opencv_video.dir/src/motempl.o" \
+"CMakeFiles/opencv_video.dir/src/optflowlk.o" \
+"CMakeFiles/opencv_video.dir/src/optflowbm.o" \
+"CMakeFiles/opencv_video.dir/src/kalman.o" \
 "CMakeFiles/opencv_video.dir/src/bgfg_codebook.o"
 
 # External object files for target opencv_video
 opencv_video_EXTERNAL_OBJECTS =
 
-lib/libopencv_video.so.2.2.0: nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowlk.o
-lib/libopencv_video.so.2.2.0: nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowhs.o
 lib/libopencv_video.so.2.2.0: nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/bgfg_common.o
-lib/libopencv_video.so.2.2.0: nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowgf.o
-lib/libopencv_video.so.2.2.0: nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowbm.o
-lib/libopencv_video.so.2.2.0: nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/kalman.o
-lib/libopencv_video.so.2.2.0: nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/bgfg_acmmm2003.o
-lib/libopencv_video.so.2.2.0: nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/motempl.o
+lib/libopencv_video.so.2.2.0: nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/camshift.o
 lib/libopencv_video.so.2.2.0: nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/lkpyramid.o
 lib/libopencv_video.so.2.2.0: nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/precomp.o
 lib/libopencv_video.so.2.2.0: nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/bgfg_gaussmix.o
-lib/libopencv_video.so.2.2.0: nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/camshift.o
+lib/libopencv_video.so.2.2.0: nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/bgfg_acmmm2003.o
+lib/libopencv_video.so.2.2.0: nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowhs.o
+lib/libopencv_video.so.2.2.0: nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowgf.o
+lib/libopencv_video.so.2.2.0: nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/motempl.o
+lib/libopencv_video.so.2.2.0: nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowlk.o
+lib/libopencv_video.so.2.2.0: nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowbm.o
+lib/libopencv_video.so.2.2.0: nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/kalman.o
 lib/libopencv_video.so.2.2.0: nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/bgfg_codebook.o
 lib/libopencv_video.so.2.2.0: lib/libopencv_core.so.2.2.0
 lib/libopencv_video.so.2.2.0: lib/libopencv_imgproc.so.2.2.0
@@ -401,8 +401,8 @@ lib/libopencv_video.so.2.2.0: 3rdparty/lib/libzlib.a
 lib/libopencv_video.so.2.2.0: nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/build.make
 lib/libopencv_video.so.2.2.0: nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library ../../../../../lib/libopencv_video.so"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/video" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/opencv_video.dir/link.txt --verbose=$(VERBOSE)
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/video" && $(CMAKE_COMMAND) -E cmake_symlink_library ../../../../../lib/libopencv_video.so.2.2.0 ../../../../../lib/libopencv_video.so.2.2 ../../../../../lib/libopencv_video.so
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/video && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/opencv_video.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/video && $(CMAKE_COMMAND) -E cmake_symlink_library ../../../../../lib/libopencv_video.so.2.2.0 ../../../../../lib/libopencv_video.so.2.2 ../../../../../lib/libopencv_video.so
 
 lib/libopencv_video.so.2.2: lib/libopencv_video.so.2.2.0
 
@@ -412,26 +412,26 @@ lib/libopencv_video.so: lib/libopencv_video.so.2.2.0
 nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/build: lib/libopencv_video.so
 .PHONY : nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/build
 
-nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/requires: nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowlk.o.requires
-nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/requires: nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowhs.o.requires
 nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/requires: nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/bgfg_common.o.requires
-nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/requires: nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowgf.o.requires
-nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/requires: nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowbm.o.requires
-nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/requires: nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/kalman.o.requires
-nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/requires: nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/bgfg_acmmm2003.o.requires
-nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/requires: nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/motempl.o.requires
+nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/requires: nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/camshift.o.requires
 nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/requires: nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/lkpyramid.o.requires
 nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/requires: nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/precomp.o.requires
 nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/requires: nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/bgfg_gaussmix.o.requires
-nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/requires: nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/camshift.o.requires
+nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/requires: nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/bgfg_acmmm2003.o.requires
+nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/requires: nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowhs.o.requires
+nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/requires: nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowgf.o.requires
+nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/requires: nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/motempl.o.requires
+nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/requires: nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowlk.o.requires
+nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/requires: nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowbm.o.requires
+nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/requires: nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/kalman.o.requires
 nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/requires: nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/bgfg_codebook.o.requires
 .PHONY : nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/requires
 
 nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/clean:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/video" && $(CMAKE_COMMAND) -P CMakeFiles/opencv_video.dir/cmake_clean.cmake
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/video && $(CMAKE_COMMAND) -P CMakeFiles/opencv_video.dir/cmake_clean.cmake
 .PHONY : nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/clean
 
 nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/depend:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/louis/Documents/Motion Capture/Mouse" "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/video" "/home/louis/Documents/Motion Capture/Mouse/build" "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/video" "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/DependInfo.cmake" --color=$(COLOR)
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/video /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/video /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/depend
 

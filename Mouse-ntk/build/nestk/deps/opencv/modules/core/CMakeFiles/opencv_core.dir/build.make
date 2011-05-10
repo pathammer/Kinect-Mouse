@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/louis/Documents/Motion Capture/Mouse"
+CMAKE_SOURCE_DIR = /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/louis/Documents/Motion Capture/Mouse/build"
+CMAKE_BINARY_DIR = /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build
 
 # Include any dependencies generated for this target.
 include nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/depend.make
@@ -49,43 +49,91 @@ include nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/progress.make
 # Include the compile flags for this target's objects.
 include nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/flags.make
 
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/alloc.o: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/flags.make
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/alloc.o: ../nestk/deps/opencv/modules/core/src/alloc.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_1)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/alloc.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/core" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_core.dir/src/alloc.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/alloc.cpp"
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/convert.o: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/flags.make
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/convert.o: ../nestk/deps/opencv/modules/core/src/convert.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/convert.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_core.dir/src/convert.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core/src/convert.cpp
 
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/alloc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_core.dir/src/alloc.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/core" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/alloc.cpp" > CMakeFiles/opencv_core.dir/src/alloc.i
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/convert.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_core.dir/src/convert.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core/src/convert.cpp > CMakeFiles/opencv_core.dir/src/convert.i
 
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/alloc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_core.dir/src/alloc.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/core" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/alloc.cpp" -o CMakeFiles/opencv_core.dir/src/alloc.s
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/convert.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_core.dir/src/convert.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core/src/convert.cpp -o CMakeFiles/opencv_core.dir/src/convert.s
 
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/alloc.o.requires:
-.PHONY : nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/alloc.o.requires
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/convert.o.requires:
+.PHONY : nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/convert.o.requires
 
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/alloc.o.provides: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/alloc.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/build.make nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/alloc.o.provides.build
-.PHONY : nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/alloc.o.provides
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/convert.o.provides: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/convert.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/build.make nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/convert.o.provides.build
+.PHONY : nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/convert.o.provides
 
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/alloc.o.provides.build: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/alloc.o
-.PHONY : nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/alloc.o.provides.build
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/convert.o.provides.build: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/convert.o
+.PHONY : nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/convert.o.provides.build
+
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/array.o: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/flags.make
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/array.o: ../nestk/deps/opencv/modules/core/src/array.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/array.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_core.dir/src/array.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core/src/array.cpp
+
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/array.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_core.dir/src/array.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core/src/array.cpp > CMakeFiles/opencv_core.dir/src/array.i
+
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/array.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_core.dir/src/array.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core/src/array.cpp -o CMakeFiles/opencv_core.dir/src/array.s
+
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/array.o.requires:
+.PHONY : nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/array.o.requires
+
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/array.o.provides: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/array.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/build.make nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/array.o.provides.build
+.PHONY : nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/array.o.provides
+
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/array.o.provides.build: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/array.o
+.PHONY : nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/array.o.provides.build
+
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/mathfuncs.o: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/flags.make
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/mathfuncs.o: ../nestk/deps/opencv/modules/core/src/mathfuncs.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/mathfuncs.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_core.dir/src/mathfuncs.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core/src/mathfuncs.cpp
+
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/mathfuncs.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_core.dir/src/mathfuncs.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core/src/mathfuncs.cpp > CMakeFiles/opencv_core.dir/src/mathfuncs.i
+
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/mathfuncs.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_core.dir/src/mathfuncs.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core/src/mathfuncs.cpp -o CMakeFiles/opencv_core.dir/src/mathfuncs.s
+
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/mathfuncs.o.requires:
+.PHONY : nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/mathfuncs.o.requires
+
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/mathfuncs.o.provides: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/mathfuncs.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/build.make nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/mathfuncs.o.provides.build
+.PHONY : nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/mathfuncs.o.provides
+
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/mathfuncs.o.provides.build: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/mathfuncs.o
+.PHONY : nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/mathfuncs.o.provides.build
 
 nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/out.o: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/flags.make
 nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/out.o: ../nestk/deps/opencv/modules/core/src/out.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/out.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/core" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_core.dir/src/out.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/out.cpp"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_core.dir/src/out.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core/src/out.cpp
 
 nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/out.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_core.dir/src/out.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/core" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/out.cpp" > CMakeFiles/opencv_core.dir/src/out.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core/src/out.cpp > CMakeFiles/opencv_core.dir/src/out.i
 
 nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/out.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_core.dir/src/out.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/core" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/out.cpp" -o CMakeFiles/opencv_core.dir/src/out.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core/src/out.cpp -o CMakeFiles/opencv_core.dir/src/out.s
 
 nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/out.o.requires:
 .PHONY : nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/out.o.requires
@@ -97,43 +145,115 @@ nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/out.o.provides: ne
 nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/out.o.provides.build: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/out.o
 .PHONY : nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/out.o.provides.build
 
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/persistence.o: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/flags.make
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/persistence.o: ../nestk/deps/opencv/modules/core/src/persistence.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_3)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/persistence.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/core" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_core.dir/src/persistence.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/persistence.cpp"
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/precomp.o: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/flags.make
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/precomp.o: ../nestk/deps/opencv/modules/core/src/precomp.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_5)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/precomp.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_core.dir/src/precomp.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core/src/precomp.cpp
 
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/persistence.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_core.dir/src/persistence.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/core" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/persistence.cpp" > CMakeFiles/opencv_core.dir/src/persistence.i
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/precomp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_core.dir/src/precomp.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core/src/precomp.cpp > CMakeFiles/opencv_core.dir/src/precomp.i
 
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/persistence.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_core.dir/src/persistence.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/core" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/persistence.cpp" -o CMakeFiles/opencv_core.dir/src/persistence.s
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/precomp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_core.dir/src/precomp.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core/src/precomp.cpp -o CMakeFiles/opencv_core.dir/src/precomp.s
 
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/persistence.o.requires:
-.PHONY : nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/persistence.o.requires
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/precomp.o.requires:
+.PHONY : nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/precomp.o.requires
 
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/persistence.o.provides: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/persistence.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/build.make nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/persistence.o.provides.build
-.PHONY : nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/persistence.o.provides
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/precomp.o.provides: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/precomp.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/build.make nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/precomp.o.provides.build
+.PHONY : nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/precomp.o.provides
 
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/persistence.o.provides.build: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/persistence.o
-.PHONY : nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/persistence.o.provides.build
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/precomp.o.provides.build: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/precomp.o
+.PHONY : nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/precomp.o.provides.build
+
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/stat.o: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/flags.make
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/stat.o: ../nestk/deps/opencv/modules/core/src/stat.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_6)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/stat.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_core.dir/src/stat.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core/src/stat.cpp
+
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/stat.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_core.dir/src/stat.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core/src/stat.cpp > CMakeFiles/opencv_core.dir/src/stat.i
+
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/stat.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_core.dir/src/stat.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core/src/stat.cpp -o CMakeFiles/opencv_core.dir/src/stat.s
+
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/stat.o.requires:
+.PHONY : nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/stat.o.requires
+
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/stat.o.provides: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/stat.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/build.make nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/stat.o.provides.build
+.PHONY : nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/stat.o.provides
+
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/stat.o.provides.build: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/stat.o
+.PHONY : nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/stat.o.provides.build
+
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/alloc.o: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/flags.make
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/alloc.o: ../nestk/deps/opencv/modules/core/src/alloc.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_7)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/alloc.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_core.dir/src/alloc.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core/src/alloc.cpp
+
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/alloc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_core.dir/src/alloc.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core/src/alloc.cpp > CMakeFiles/opencv_core.dir/src/alloc.i
+
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/alloc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_core.dir/src/alloc.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core/src/alloc.cpp -o CMakeFiles/opencv_core.dir/src/alloc.s
+
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/alloc.o.requires:
+.PHONY : nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/alloc.o.requires
+
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/alloc.o.provides: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/alloc.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/build.make nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/alloc.o.provides.build
+.PHONY : nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/alloc.o.provides
+
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/alloc.o.provides.build: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/alloc.o
+.PHONY : nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/alloc.o.provides.build
+
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/arithm.o: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/flags.make
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/arithm.o: ../nestk/deps/opencv/modules/core/src/arithm.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_8)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/arithm.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_core.dir/src/arithm.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core/src/arithm.cpp
+
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/arithm.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_core.dir/src/arithm.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core/src/arithm.cpp > CMakeFiles/opencv_core.dir/src/arithm.i
+
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/arithm.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_core.dir/src/arithm.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core/src/arithm.cpp -o CMakeFiles/opencv_core.dir/src/arithm.s
+
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/arithm.o.requires:
+.PHONY : nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/arithm.o.requires
+
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/arithm.o.provides: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/arithm.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/build.make nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/arithm.o.provides.build
+.PHONY : nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/arithm.o.provides
+
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/arithm.o.provides.build: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/arithm.o
+.PHONY : nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/arithm.o.provides.build
 
 nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/rand.o: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/flags.make
 nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/rand.o: ../nestk/deps/opencv/modules/core/src/rand.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/rand.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/core" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_core.dir/src/rand.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/rand.cpp"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_core.dir/src/rand.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core/src/rand.cpp
 
 nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/rand.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_core.dir/src/rand.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/core" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/rand.cpp" > CMakeFiles/opencv_core.dir/src/rand.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core/src/rand.cpp > CMakeFiles/opencv_core.dir/src/rand.i
 
 nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/rand.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_core.dir/src/rand.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/core" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/rand.cpp" -o CMakeFiles/opencv_core.dir/src/rand.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core/src/rand.cpp -o CMakeFiles/opencv_core.dir/src/rand.s
 
 nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/rand.o.requires:
 .PHONY : nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/rand.o.requires
@@ -147,17 +267,17 @@ nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/rand.o.provides.bu
 
 nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/tables.o: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/flags.make
 nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/tables.o: ../nestk/deps/opencv/modules/core/src/tables.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/tables.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/core" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_core.dir/src/tables.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/tables.cpp"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_core.dir/src/tables.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core/src/tables.cpp
 
 nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/tables.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_core.dir/src/tables.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/core" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/tables.cpp" > CMakeFiles/opencv_core.dir/src/tables.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core/src/tables.cpp > CMakeFiles/opencv_core.dir/src/tables.i
 
 nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/tables.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_core.dir/src/tables.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/core" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/tables.cpp" -o CMakeFiles/opencv_core.dir/src/tables.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core/src/tables.cpp -o CMakeFiles/opencv_core.dir/src/tables.s
 
 nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/tables.o.requires:
 .PHONY : nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/tables.o.requires
@@ -169,163 +289,19 @@ nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/tables.o.provides:
 nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/tables.o.provides.build: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/tables.o
 .PHONY : nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/tables.o.provides.build
 
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/array.o: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/flags.make
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/array.o: ../nestk/deps/opencv/modules/core/src/array.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_6)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/array.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/core" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_core.dir/src/array.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/array.cpp"
-
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/array.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_core.dir/src/array.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/core" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/array.cpp" > CMakeFiles/opencv_core.dir/src/array.i
-
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/array.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_core.dir/src/array.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/core" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/array.cpp" -o CMakeFiles/opencv_core.dir/src/array.s
-
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/array.o.requires:
-.PHONY : nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/array.o.requires
-
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/array.o.provides: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/array.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/build.make nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/array.o.provides.build
-.PHONY : nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/array.o.provides
-
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/array.o.provides.build: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/array.o
-.PHONY : nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/array.o.provides.build
-
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/matmul.o: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/flags.make
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/matmul.o: ../nestk/deps/opencv/modules/core/src/matmul.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_7)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/matmul.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/core" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_core.dir/src/matmul.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/matmul.cpp"
-
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/matmul.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_core.dir/src/matmul.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/core" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/matmul.cpp" > CMakeFiles/opencv_core.dir/src/matmul.i
-
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/matmul.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_core.dir/src/matmul.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/core" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/matmul.cpp" -o CMakeFiles/opencv_core.dir/src/matmul.s
-
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/matmul.o.requires:
-.PHONY : nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/matmul.o.requires
-
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/matmul.o.provides: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/matmul.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/build.make nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/matmul.o.provides.build
-.PHONY : nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/matmul.o.provides
-
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/matmul.o.provides.build: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/matmul.o
-.PHONY : nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/matmul.o.provides.build
-
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/lapack.o: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/flags.make
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/lapack.o: ../nestk/deps/opencv/modules/core/src/lapack.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_8)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/lapack.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/core" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_core.dir/src/lapack.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/lapack.cpp"
-
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/lapack.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_core.dir/src/lapack.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/core" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/lapack.cpp" > CMakeFiles/opencv_core.dir/src/lapack.i
-
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/lapack.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_core.dir/src/lapack.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/core" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/lapack.cpp" -o CMakeFiles/opencv_core.dir/src/lapack.s
-
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/lapack.o.requires:
-.PHONY : nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/lapack.o.requires
-
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/lapack.o.provides: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/lapack.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/build.make nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/lapack.o.provides.build
-.PHONY : nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/lapack.o.provides
-
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/lapack.o.provides.build: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/lapack.o
-.PHONY : nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/lapack.o.provides.build
-
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/matop.o: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/flags.make
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/matop.o: ../nestk/deps/opencv/modules/core/src/matop.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_9)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/matop.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/core" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_core.dir/src/matop.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/matop.cpp"
-
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/matop.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_core.dir/src/matop.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/core" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/matop.cpp" > CMakeFiles/opencv_core.dir/src/matop.i
-
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/matop.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_core.dir/src/matop.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/core" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/matop.cpp" -o CMakeFiles/opencv_core.dir/src/matop.s
-
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/matop.o.requires:
-.PHONY : nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/matop.o.requires
-
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/matop.o.provides: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/matop.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/build.make nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/matop.o.provides.build
-.PHONY : nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/matop.o.provides
-
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/matop.o.provides.build: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/matop.o
-.PHONY : nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/matop.o.provides.build
-
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/convert.o: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/flags.make
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/convert.o: ../nestk/deps/opencv/modules/core/src/convert.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_10)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/convert.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/core" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_core.dir/src/convert.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/convert.cpp"
-
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/convert.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_core.dir/src/convert.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/core" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/convert.cpp" > CMakeFiles/opencv_core.dir/src/convert.i
-
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/convert.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_core.dir/src/convert.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/core" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/convert.cpp" -o CMakeFiles/opencv_core.dir/src/convert.s
-
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/convert.o.requires:
-.PHONY : nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/convert.o.requires
-
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/convert.o.provides: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/convert.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/build.make nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/convert.o.provides.build
-.PHONY : nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/convert.o.provides
-
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/convert.o.provides.build: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/convert.o
-.PHONY : nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/convert.o.provides.build
-
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/stat.o: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/flags.make
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/stat.o: ../nestk/deps/opencv/modules/core/src/stat.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_11)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/stat.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/core" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_core.dir/src/stat.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/stat.cpp"
-
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/stat.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_core.dir/src/stat.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/core" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/stat.cpp" > CMakeFiles/opencv_core.dir/src/stat.i
-
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/stat.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_core.dir/src/stat.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/core" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/stat.cpp" -o CMakeFiles/opencv_core.dir/src/stat.s
-
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/stat.o.requires:
-.PHONY : nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/stat.o.requires
-
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/stat.o.provides: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/stat.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/build.make nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/stat.o.provides.build
-.PHONY : nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/stat.o.provides
-
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/stat.o.provides.build: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/stat.o
-.PHONY : nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/stat.o.provides.build
-
 nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/copy.o: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/flags.make
 nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/copy.o: ../nestk/deps/opencv/modules/core/src/copy.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_12)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/copy.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/core" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_core.dir/src/copy.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/copy.cpp"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_core.dir/src/copy.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core/src/copy.cpp
 
 nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/copy.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_core.dir/src/copy.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/core" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/copy.cpp" > CMakeFiles/opencv_core.dir/src/copy.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core/src/copy.cpp > CMakeFiles/opencv_core.dir/src/copy.i
 
 nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/copy.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_core.dir/src/copy.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/core" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/copy.cpp" -o CMakeFiles/opencv_core.dir/src/copy.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core/src/copy.cpp -o CMakeFiles/opencv_core.dir/src/copy.s
 
 nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/copy.o.requires:
 .PHONY : nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/copy.o.requires
@@ -337,163 +313,19 @@ nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/copy.o.provides: n
 nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/copy.o.provides.build: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/copy.o
 .PHONY : nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/copy.o.provides.build
 
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/datastructs.o: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/flags.make
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/datastructs.o: ../nestk/deps/opencv/modules/core/src/datastructs.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_13)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/datastructs.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/core" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_core.dir/src/datastructs.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/datastructs.cpp"
-
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/datastructs.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_core.dir/src/datastructs.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/core" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/datastructs.cpp" > CMakeFiles/opencv_core.dir/src/datastructs.i
-
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/datastructs.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_core.dir/src/datastructs.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/core" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/datastructs.cpp" -o CMakeFiles/opencv_core.dir/src/datastructs.s
-
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/datastructs.o.requires:
-.PHONY : nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/datastructs.o.requires
-
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/datastructs.o.provides: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/datastructs.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/build.make nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/datastructs.o.provides.build
-.PHONY : nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/datastructs.o.provides
-
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/datastructs.o.provides.build: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/datastructs.o
-.PHONY : nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/datastructs.o.provides.build
-
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/drawing.o: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/flags.make
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/drawing.o: ../nestk/deps/opencv/modules/core/src/drawing.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_14)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/drawing.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/core" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_core.dir/src/drawing.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/drawing.cpp"
-
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/drawing.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_core.dir/src/drawing.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/core" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/drawing.cpp" > CMakeFiles/opencv_core.dir/src/drawing.i
-
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/drawing.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_core.dir/src/drawing.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/core" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/drawing.cpp" -o CMakeFiles/opencv_core.dir/src/drawing.s
-
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/drawing.o.requires:
-.PHONY : nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/drawing.o.requires
-
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/drawing.o.provides: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/drawing.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/build.make nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/drawing.o.provides.build
-.PHONY : nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/drawing.o.provides
-
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/drawing.o.provides.build: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/drawing.o
-.PHONY : nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/drawing.o.provides.build
-
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/precomp.o: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/flags.make
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/precomp.o: ../nestk/deps/opencv/modules/core/src/precomp.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_15)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/precomp.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/core" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_core.dir/src/precomp.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/precomp.cpp"
-
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/precomp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_core.dir/src/precomp.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/core" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/precomp.cpp" > CMakeFiles/opencv_core.dir/src/precomp.i
-
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/precomp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_core.dir/src/precomp.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/core" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/precomp.cpp" -o CMakeFiles/opencv_core.dir/src/precomp.s
-
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/precomp.o.requires:
-.PHONY : nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/precomp.o.requires
-
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/precomp.o.provides: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/precomp.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/build.make nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/precomp.o.provides.build
-.PHONY : nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/precomp.o.provides
-
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/precomp.o.provides.build: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/precomp.o
-.PHONY : nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/precomp.o.provides.build
-
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/dxt.o: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/flags.make
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/dxt.o: ../nestk/deps/opencv/modules/core/src/dxt.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_16)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/dxt.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/core" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_core.dir/src/dxt.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/dxt.cpp"
-
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/dxt.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_core.dir/src/dxt.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/core" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/dxt.cpp" > CMakeFiles/opencv_core.dir/src/dxt.i
-
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/dxt.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_core.dir/src/dxt.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/core" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/dxt.cpp" -o CMakeFiles/opencv_core.dir/src/dxt.s
-
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/dxt.o.requires:
-.PHONY : nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/dxt.o.requires
-
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/dxt.o.provides: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/dxt.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/build.make nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/dxt.o.provides.build
-.PHONY : nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/dxt.o.provides
-
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/dxt.o.provides.build: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/dxt.o
-.PHONY : nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/dxt.o.provides.build
-
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/mathfuncs.o: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/flags.make
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/mathfuncs.o: ../nestk/deps/opencv/modules/core/src/mathfuncs.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_17)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/mathfuncs.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/core" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_core.dir/src/mathfuncs.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/mathfuncs.cpp"
-
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/mathfuncs.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_core.dir/src/mathfuncs.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/core" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/mathfuncs.cpp" > CMakeFiles/opencv_core.dir/src/mathfuncs.i
-
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/mathfuncs.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_core.dir/src/mathfuncs.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/core" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/mathfuncs.cpp" -o CMakeFiles/opencv_core.dir/src/mathfuncs.s
-
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/mathfuncs.o.requires:
-.PHONY : nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/mathfuncs.o.requires
-
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/mathfuncs.o.provides: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/mathfuncs.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/build.make nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/mathfuncs.o.provides.build
-.PHONY : nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/mathfuncs.o.provides
-
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/mathfuncs.o.provides.build: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/mathfuncs.o
-.PHONY : nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/mathfuncs.o.provides.build
-
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/arithm.o: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/flags.make
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/arithm.o: ../nestk/deps/opencv/modules/core/src/arithm.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_18)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/arithm.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/core" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_core.dir/src/arithm.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/arithm.cpp"
-
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/arithm.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_core.dir/src/arithm.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/core" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/arithm.cpp" > CMakeFiles/opencv_core.dir/src/arithm.i
-
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/arithm.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_core.dir/src/arithm.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/core" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/arithm.cpp" -o CMakeFiles/opencv_core.dir/src/arithm.s
-
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/arithm.o.requires:
-.PHONY : nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/arithm.o.requires
-
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/arithm.o.provides: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/arithm.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/build.make nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/arithm.o.provides.build
-.PHONY : nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/arithm.o.provides
-
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/arithm.o.provides.build: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/arithm.o
-.PHONY : nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/arithm.o.provides.build
-
 nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/system.o: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/flags.make
 nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/system.o: ../nestk/deps/opencv/modules/core/src/system.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_19)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/system.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/core" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_core.dir/src/system.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/system.cpp"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_core.dir/src/system.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core/src/system.cpp
 
 nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/system.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_core.dir/src/system.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/core" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/system.cpp" > CMakeFiles/opencv_core.dir/src/system.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core/src/system.cpp > CMakeFiles/opencv_core.dir/src/system.i
 
 nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/system.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_core.dir/src/system.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/core" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/system.cpp" -o CMakeFiles/opencv_core.dir/src/system.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core/src/system.cpp -o CMakeFiles/opencv_core.dir/src/system.s
 
 nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/system.o.requires:
 .PHONY : nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/system.o.requires
@@ -507,17 +339,17 @@ nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/system.o.provides.
 
 nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/matrix.o: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/flags.make
 nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/matrix.o: ../nestk/deps/opencv/modules/core/src/matrix.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_20)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_13)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/matrix.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/core" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_core.dir/src/matrix.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/matrix.cpp"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_core.dir/src/matrix.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core/src/matrix.cpp
 
 nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/matrix.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_core.dir/src/matrix.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/core" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/matrix.cpp" > CMakeFiles/opencv_core.dir/src/matrix.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core/src/matrix.cpp > CMakeFiles/opencv_core.dir/src/matrix.i
 
 nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/matrix.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_core.dir/src/matrix.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/core" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core/src/matrix.cpp" -o CMakeFiles/opencv_core.dir/src/matrix.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core/src/matrix.cpp -o CMakeFiles/opencv_core.dir/src/matrix.s
 
 nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/matrix.o.requires:
 .PHONY : nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/matrix.o.requires
@@ -529,59 +361,227 @@ nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/matrix.o.provides:
 nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/matrix.o.provides.build: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/matrix.o
 .PHONY : nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/matrix.o.provides.build
 
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/lapack.o: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/flags.make
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/lapack.o: ../nestk/deps/opencv/modules/core/src/lapack.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_14)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/lapack.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_core.dir/src/lapack.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core/src/lapack.cpp
+
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/lapack.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_core.dir/src/lapack.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core/src/lapack.cpp > CMakeFiles/opencv_core.dir/src/lapack.i
+
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/lapack.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_core.dir/src/lapack.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core/src/lapack.cpp -o CMakeFiles/opencv_core.dir/src/lapack.s
+
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/lapack.o.requires:
+.PHONY : nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/lapack.o.requires
+
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/lapack.o.provides: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/lapack.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/build.make nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/lapack.o.provides.build
+.PHONY : nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/lapack.o.provides
+
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/lapack.o.provides.build: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/lapack.o
+.PHONY : nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/lapack.o.provides.build
+
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/matop.o: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/flags.make
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/matop.o: ../nestk/deps/opencv/modules/core/src/matop.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_15)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/matop.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_core.dir/src/matop.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core/src/matop.cpp
+
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/matop.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_core.dir/src/matop.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core/src/matop.cpp > CMakeFiles/opencv_core.dir/src/matop.i
+
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/matop.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_core.dir/src/matop.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core/src/matop.cpp -o CMakeFiles/opencv_core.dir/src/matop.s
+
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/matop.o.requires:
+.PHONY : nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/matop.o.requires
+
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/matop.o.provides: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/matop.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/build.make nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/matop.o.provides.build
+.PHONY : nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/matop.o.provides
+
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/matop.o.provides.build: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/matop.o
+.PHONY : nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/matop.o.provides.build
+
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/datastructs.o: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/flags.make
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/datastructs.o: ../nestk/deps/opencv/modules/core/src/datastructs.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_16)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/datastructs.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_core.dir/src/datastructs.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core/src/datastructs.cpp
+
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/datastructs.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_core.dir/src/datastructs.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core/src/datastructs.cpp > CMakeFiles/opencv_core.dir/src/datastructs.i
+
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/datastructs.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_core.dir/src/datastructs.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core/src/datastructs.cpp -o CMakeFiles/opencv_core.dir/src/datastructs.s
+
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/datastructs.o.requires:
+.PHONY : nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/datastructs.o.requires
+
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/datastructs.o.provides: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/datastructs.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/build.make nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/datastructs.o.provides.build
+.PHONY : nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/datastructs.o.provides
+
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/datastructs.o.provides.build: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/datastructs.o
+.PHONY : nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/datastructs.o.provides.build
+
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/matmul.o: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/flags.make
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/matmul.o: ../nestk/deps/opencv/modules/core/src/matmul.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_17)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/matmul.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_core.dir/src/matmul.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core/src/matmul.cpp
+
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/matmul.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_core.dir/src/matmul.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core/src/matmul.cpp > CMakeFiles/opencv_core.dir/src/matmul.i
+
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/matmul.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_core.dir/src/matmul.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core/src/matmul.cpp -o CMakeFiles/opencv_core.dir/src/matmul.s
+
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/matmul.o.requires:
+.PHONY : nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/matmul.o.requires
+
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/matmul.o.provides: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/matmul.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/build.make nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/matmul.o.provides.build
+.PHONY : nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/matmul.o.provides
+
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/matmul.o.provides.build: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/matmul.o
+.PHONY : nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/matmul.o.provides.build
+
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/dxt.o: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/flags.make
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/dxt.o: ../nestk/deps/opencv/modules/core/src/dxt.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_18)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/dxt.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_core.dir/src/dxt.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core/src/dxt.cpp
+
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/dxt.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_core.dir/src/dxt.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core/src/dxt.cpp > CMakeFiles/opencv_core.dir/src/dxt.i
+
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/dxt.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_core.dir/src/dxt.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core/src/dxt.cpp -o CMakeFiles/opencv_core.dir/src/dxt.s
+
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/dxt.o.requires:
+.PHONY : nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/dxt.o.requires
+
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/dxt.o.provides: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/dxt.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/build.make nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/dxt.o.provides.build
+.PHONY : nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/dxt.o.provides
+
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/dxt.o.provides.build: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/dxt.o
+.PHONY : nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/dxt.o.provides.build
+
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/drawing.o: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/flags.make
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/drawing.o: ../nestk/deps/opencv/modules/core/src/drawing.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_19)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/drawing.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_core.dir/src/drawing.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core/src/drawing.cpp
+
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/drawing.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_core.dir/src/drawing.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core/src/drawing.cpp > CMakeFiles/opencv_core.dir/src/drawing.i
+
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/drawing.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_core.dir/src/drawing.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core/src/drawing.cpp -o CMakeFiles/opencv_core.dir/src/drawing.s
+
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/drawing.o.requires:
+.PHONY : nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/drawing.o.requires
+
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/drawing.o.provides: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/drawing.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/build.make nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/drawing.o.provides.build
+.PHONY : nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/drawing.o.provides
+
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/drawing.o.provides.build: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/drawing.o
+.PHONY : nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/drawing.o.provides.build
+
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/persistence.o: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/flags.make
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/persistence.o: ../nestk/deps/opencv/modules/core/src/persistence.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_20)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/persistence.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_core.dir/src/persistence.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core/src/persistence.cpp
+
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/persistence.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_core.dir/src/persistence.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core/src/persistence.cpp > CMakeFiles/opencv_core.dir/src/persistence.i
+
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/persistence.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_core.dir/src/persistence.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core/src/persistence.cpp -o CMakeFiles/opencv_core.dir/src/persistence.s
+
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/persistence.o.requires:
+.PHONY : nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/persistence.o.requires
+
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/persistence.o.provides: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/persistence.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/build.make nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/persistence.o.provides.build
+.PHONY : nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/persistence.o.provides
+
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/persistence.o.provides.build: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/persistence.o
+.PHONY : nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/persistence.o.provides.build
+
 # Object files for target opencv_core
 opencv_core_OBJECTS = \
-"CMakeFiles/opencv_core.dir/src/alloc.o" \
+"CMakeFiles/opencv_core.dir/src/convert.o" \
+"CMakeFiles/opencv_core.dir/src/array.o" \
+"CMakeFiles/opencv_core.dir/src/mathfuncs.o" \
 "CMakeFiles/opencv_core.dir/src/out.o" \
-"CMakeFiles/opencv_core.dir/src/persistence.o" \
+"CMakeFiles/opencv_core.dir/src/precomp.o" \
+"CMakeFiles/opencv_core.dir/src/stat.o" \
+"CMakeFiles/opencv_core.dir/src/alloc.o" \
+"CMakeFiles/opencv_core.dir/src/arithm.o" \
 "CMakeFiles/opencv_core.dir/src/rand.o" \
 "CMakeFiles/opencv_core.dir/src/tables.o" \
-"CMakeFiles/opencv_core.dir/src/array.o" \
-"CMakeFiles/opencv_core.dir/src/matmul.o" \
+"CMakeFiles/opencv_core.dir/src/copy.o" \
+"CMakeFiles/opencv_core.dir/src/system.o" \
+"CMakeFiles/opencv_core.dir/src/matrix.o" \
 "CMakeFiles/opencv_core.dir/src/lapack.o" \
 "CMakeFiles/opencv_core.dir/src/matop.o" \
-"CMakeFiles/opencv_core.dir/src/convert.o" \
-"CMakeFiles/opencv_core.dir/src/stat.o" \
-"CMakeFiles/opencv_core.dir/src/copy.o" \
 "CMakeFiles/opencv_core.dir/src/datastructs.o" \
-"CMakeFiles/opencv_core.dir/src/drawing.o" \
-"CMakeFiles/opencv_core.dir/src/precomp.o" \
+"CMakeFiles/opencv_core.dir/src/matmul.o" \
 "CMakeFiles/opencv_core.dir/src/dxt.o" \
-"CMakeFiles/opencv_core.dir/src/mathfuncs.o" \
-"CMakeFiles/opencv_core.dir/src/arithm.o" \
-"CMakeFiles/opencv_core.dir/src/system.o" \
-"CMakeFiles/opencv_core.dir/src/matrix.o"
+"CMakeFiles/opencv_core.dir/src/drawing.o" \
+"CMakeFiles/opencv_core.dir/src/persistence.o"
 
 # External object files for target opencv_core
 opencv_core_EXTERNAL_OBJECTS =
 
-lib/libopencv_core.so.2.2.0: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/alloc.o
+lib/libopencv_core.so.2.2.0: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/convert.o
+lib/libopencv_core.so.2.2.0: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/array.o
+lib/libopencv_core.so.2.2.0: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/mathfuncs.o
 lib/libopencv_core.so.2.2.0: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/out.o
-lib/libopencv_core.so.2.2.0: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/persistence.o
+lib/libopencv_core.so.2.2.0: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/precomp.o
+lib/libopencv_core.so.2.2.0: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/stat.o
+lib/libopencv_core.so.2.2.0: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/alloc.o
+lib/libopencv_core.so.2.2.0: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/arithm.o
 lib/libopencv_core.so.2.2.0: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/rand.o
 lib/libopencv_core.so.2.2.0: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/tables.o
-lib/libopencv_core.so.2.2.0: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/array.o
-lib/libopencv_core.so.2.2.0: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/matmul.o
-lib/libopencv_core.so.2.2.0: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/lapack.o
-lib/libopencv_core.so.2.2.0: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/matop.o
-lib/libopencv_core.so.2.2.0: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/convert.o
-lib/libopencv_core.so.2.2.0: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/stat.o
 lib/libopencv_core.so.2.2.0: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/copy.o
-lib/libopencv_core.so.2.2.0: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/datastructs.o
-lib/libopencv_core.so.2.2.0: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/drawing.o
-lib/libopencv_core.so.2.2.0: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/precomp.o
-lib/libopencv_core.so.2.2.0: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/dxt.o
-lib/libopencv_core.so.2.2.0: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/mathfuncs.o
-lib/libopencv_core.so.2.2.0: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/arithm.o
 lib/libopencv_core.so.2.2.0: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/system.o
 lib/libopencv_core.so.2.2.0: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/matrix.o
+lib/libopencv_core.so.2.2.0: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/lapack.o
+lib/libopencv_core.so.2.2.0: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/matop.o
+lib/libopencv_core.so.2.2.0: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/datastructs.o
+lib/libopencv_core.so.2.2.0: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/matmul.o
+lib/libopencv_core.so.2.2.0: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/dxt.o
+lib/libopencv_core.so.2.2.0: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/drawing.o
+lib/libopencv_core.so.2.2.0: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/persistence.o
 lib/libopencv_core.so.2.2.0: 3rdparty/lib/libopencv_lapack.a
 lib/libopencv_core.so.2.2.0: 3rdparty/lib/libzlib.a
 lib/libopencv_core.so.2.2.0: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/build.make
 lib/libopencv_core.so.2.2.0: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library ../../../../../lib/libopencv_core.so"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/core" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/opencv_core.dir/link.txt --verbose=$(VERBOSE)
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/core" && $(CMAKE_COMMAND) -E cmake_symlink_library ../../../../../lib/libopencv_core.so.2.2.0 ../../../../../lib/libopencv_core.so.2.2 ../../../../../lib/libopencv_core.so
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/core && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/opencv_core.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/core && $(CMAKE_COMMAND) -E cmake_symlink_library ../../../../../lib/libopencv_core.so.2.2.0 ../../../../../lib/libopencv_core.so.2.2 ../../../../../lib/libopencv_core.so
 
 lib/libopencv_core.so.2.2: lib/libopencv_core.so.2.2.0
 
@@ -591,33 +591,33 @@ lib/libopencv_core.so: lib/libopencv_core.so.2.2.0
 nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/build: lib/libopencv_core.so
 .PHONY : nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/build
 
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/requires: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/alloc.o.requires
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/requires: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/convert.o.requires
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/requires: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/array.o.requires
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/requires: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/mathfuncs.o.requires
 nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/requires: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/out.o.requires
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/requires: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/persistence.o.requires
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/requires: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/precomp.o.requires
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/requires: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/stat.o.requires
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/requires: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/alloc.o.requires
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/requires: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/arithm.o.requires
 nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/requires: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/rand.o.requires
 nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/requires: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/tables.o.requires
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/requires: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/array.o.requires
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/requires: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/matmul.o.requires
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/requires: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/lapack.o.requires
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/requires: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/matop.o.requires
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/requires: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/convert.o.requires
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/requires: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/stat.o.requires
 nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/requires: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/copy.o.requires
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/requires: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/datastructs.o.requires
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/requires: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/drawing.o.requires
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/requires: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/precomp.o.requires
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/requires: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/dxt.o.requires
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/requires: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/mathfuncs.o.requires
-nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/requires: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/arithm.o.requires
 nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/requires: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/system.o.requires
 nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/requires: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/matrix.o.requires
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/requires: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/lapack.o.requires
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/requires: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/matop.o.requires
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/requires: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/datastructs.o.requires
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/requires: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/matmul.o.requires
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/requires: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/dxt.o.requires
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/requires: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/drawing.o.requires
+nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/requires: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/src/persistence.o.requires
 .PHONY : nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/requires
 
 nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/clean:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/core" && $(CMAKE_COMMAND) -P CMakeFiles/opencv_core.dir/cmake_clean.cmake
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/core && $(CMAKE_COMMAND) -P CMakeFiles/opencv_core.dir/cmake_clean.cmake
 .PHONY : nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/clean
 
 nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/depend:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/louis/Documents/Motion Capture/Mouse" "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/core" "/home/louis/Documents/Motion Capture/Mouse/build" "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/core" "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/DependInfo.cmake" --color=$(COLOR)
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/core /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/depend
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/louis/Documents/Motion Capture/Mouse/nestk/deps/eigen/Eigen/src/misc
+# Install script for directory: /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/eigen/Eigen/src/misc
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,9 +34,9 @@ ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Devel")
   FILE(INSTALL DESTINATION "/usr/local/include/eigen3/Eigen/src/misc" TYPE FILE FILES
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/eigen/Eigen/src/misc/Image.h"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/eigen/Eigen/src/misc/Kernel.h"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/eigen/Eigen/src/misc/Solve.h"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/eigen/Eigen/src/misc/Solve.h"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/eigen/Eigen/src/misc/Image.h"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/eigen/Eigen/src/misc/Kernel.h"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Devel")
 

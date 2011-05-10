@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/louis/Documents/Motion Capture/Mouse"
+CMAKE_SOURCE_DIR = /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/louis/Documents/Motion Capture/Mouse/build"
+CMAKE_BINARY_DIR = /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build
 
 # Include any dependencies generated for this target.
 include nestk/ntk/CMakeFiles/nestk.dir/depend.make
@@ -51,17 +51,17 @@ include nestk/ntk/CMakeFiles/nestk.dir/flags.make
 
 nestk/ntk/CMakeFiles/nestk.dir/camera/calibration.o: nestk/ntk/CMakeFiles/nestk.dir/flags.make
 nestk/ntk/CMakeFiles/nestk.dir/camera/calibration.o: ../nestk/ntk/camera/calibration.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/ntk/CMakeFiles/nestk.dir/camera/calibration.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/camera/calibration.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/camera/calibration.cpp"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/camera/calibration.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/camera/calibration.cpp
 
 nestk/ntk/CMakeFiles/nestk.dir/camera/calibration.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nestk.dir/camera/calibration.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/camera/calibration.cpp" > CMakeFiles/nestk.dir/camera/calibration.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/camera/calibration.cpp > CMakeFiles/nestk.dir/camera/calibration.i
 
 nestk/ntk/CMakeFiles/nestk.dir/camera/calibration.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nestk.dir/camera/calibration.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/camera/calibration.cpp" -o CMakeFiles/nestk.dir/camera/calibration.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/camera/calibration.cpp -o CMakeFiles/nestk.dir/camera/calibration.s
 
 nestk/ntk/CMakeFiles/nestk.dir/camera/calibration.o.requires:
 .PHONY : nestk/ntk/CMakeFiles/nestk.dir/camera/calibration.o.requires
@@ -75,17 +75,17 @@ nestk/ntk/CMakeFiles/nestk.dir/camera/calibration.o.provides.build: nestk/ntk/CM
 
 nestk/ntk/CMakeFiles/nestk.dir/camera/file_grabber.o: nestk/ntk/CMakeFiles/nestk.dir/flags.make
 nestk/ntk/CMakeFiles/nestk.dir/camera/file_grabber.o: ../nestk/ntk/camera/file_grabber.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/ntk/CMakeFiles/nestk.dir/camera/file_grabber.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/camera/file_grabber.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/camera/file_grabber.cpp"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/camera/file_grabber.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/camera/file_grabber.cpp
 
 nestk/ntk/CMakeFiles/nestk.dir/camera/file_grabber.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nestk.dir/camera/file_grabber.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/camera/file_grabber.cpp" > CMakeFiles/nestk.dir/camera/file_grabber.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/camera/file_grabber.cpp > CMakeFiles/nestk.dir/camera/file_grabber.i
 
 nestk/ntk/CMakeFiles/nestk.dir/camera/file_grabber.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nestk.dir/camera/file_grabber.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/camera/file_grabber.cpp" -o CMakeFiles/nestk.dir/camera/file_grabber.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/camera/file_grabber.cpp -o CMakeFiles/nestk.dir/camera/file_grabber.s
 
 nestk/ntk/CMakeFiles/nestk.dir/camera/file_grabber.o.requires:
 .PHONY : nestk/ntk/CMakeFiles/nestk.dir/camera/file_grabber.o.requires
@@ -99,17 +99,17 @@ nestk/ntk/CMakeFiles/nestk.dir/camera/file_grabber.o.provides.build: nestk/ntk/C
 
 nestk/ntk/CMakeFiles/nestk.dir/camera/opencv_grabber.o: nestk/ntk/CMakeFiles/nestk.dir/flags.make
 nestk/ntk/CMakeFiles/nestk.dir/camera/opencv_grabber.o: ../nestk/ntk/camera/opencv_grabber.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/ntk/CMakeFiles/nestk.dir/camera/opencv_grabber.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/camera/opencv_grabber.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/camera/opencv_grabber.cpp"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/camera/opencv_grabber.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/camera/opencv_grabber.cpp
 
 nestk/ntk/CMakeFiles/nestk.dir/camera/opencv_grabber.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nestk.dir/camera/opencv_grabber.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/camera/opencv_grabber.cpp" > CMakeFiles/nestk.dir/camera/opencv_grabber.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/camera/opencv_grabber.cpp > CMakeFiles/nestk.dir/camera/opencv_grabber.i
 
 nestk/ntk/CMakeFiles/nestk.dir/camera/opencv_grabber.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nestk.dir/camera/opencv_grabber.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/camera/opencv_grabber.cpp" -o CMakeFiles/nestk.dir/camera/opencv_grabber.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/camera/opencv_grabber.cpp -o CMakeFiles/nestk.dir/camera/opencv_grabber.s
 
 nestk/ntk/CMakeFiles/nestk.dir/camera/opencv_grabber.o.requires:
 .PHONY : nestk/ntk/CMakeFiles/nestk.dir/camera/opencv_grabber.o.requires
@@ -123,17 +123,17 @@ nestk/ntk/CMakeFiles/nestk.dir/camera/opencv_grabber.o.provides.build: nestk/ntk
 
 nestk/ntk/CMakeFiles/nestk.dir/camera/rgbd_frame_recorder.o: nestk/ntk/CMakeFiles/nestk.dir/flags.make
 nestk/ntk/CMakeFiles/nestk.dir/camera/rgbd_frame_recorder.o: ../nestk/ntk/camera/rgbd_frame_recorder.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/ntk/CMakeFiles/nestk.dir/camera/rgbd_frame_recorder.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/camera/rgbd_frame_recorder.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/camera/rgbd_frame_recorder.cpp"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/camera/rgbd_frame_recorder.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/camera/rgbd_frame_recorder.cpp
 
 nestk/ntk/CMakeFiles/nestk.dir/camera/rgbd_frame_recorder.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nestk.dir/camera/rgbd_frame_recorder.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/camera/rgbd_frame_recorder.cpp" > CMakeFiles/nestk.dir/camera/rgbd_frame_recorder.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/camera/rgbd_frame_recorder.cpp > CMakeFiles/nestk.dir/camera/rgbd_frame_recorder.i
 
 nestk/ntk/CMakeFiles/nestk.dir/camera/rgbd_frame_recorder.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nestk.dir/camera/rgbd_frame_recorder.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/camera/rgbd_frame_recorder.cpp" -o CMakeFiles/nestk.dir/camera/rgbd_frame_recorder.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/camera/rgbd_frame_recorder.cpp -o CMakeFiles/nestk.dir/camera/rgbd_frame_recorder.s
 
 nestk/ntk/CMakeFiles/nestk.dir/camera/rgbd_frame_recorder.o.requires:
 .PHONY : nestk/ntk/CMakeFiles/nestk.dir/camera/rgbd_frame_recorder.o.requires
@@ -147,17 +147,17 @@ nestk/ntk/CMakeFiles/nestk.dir/camera/rgbd_frame_recorder.o.provides.build: nest
 
 nestk/ntk/CMakeFiles/nestk.dir/camera/rgbd_grabber.o: nestk/ntk/CMakeFiles/nestk.dir/flags.make
 nestk/ntk/CMakeFiles/nestk.dir/camera/rgbd_grabber.o: ../nestk/ntk/camera/rgbd_grabber.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/ntk/CMakeFiles/nestk.dir/camera/rgbd_grabber.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/camera/rgbd_grabber.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/camera/rgbd_grabber.cpp"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/camera/rgbd_grabber.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/camera/rgbd_grabber.cpp
 
 nestk/ntk/CMakeFiles/nestk.dir/camera/rgbd_grabber.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nestk.dir/camera/rgbd_grabber.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/camera/rgbd_grabber.cpp" > CMakeFiles/nestk.dir/camera/rgbd_grabber.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/camera/rgbd_grabber.cpp > CMakeFiles/nestk.dir/camera/rgbd_grabber.i
 
 nestk/ntk/CMakeFiles/nestk.dir/camera/rgbd_grabber.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nestk.dir/camera/rgbd_grabber.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/camera/rgbd_grabber.cpp" -o CMakeFiles/nestk.dir/camera/rgbd_grabber.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/camera/rgbd_grabber.cpp -o CMakeFiles/nestk.dir/camera/rgbd_grabber.s
 
 nestk/ntk/CMakeFiles/nestk.dir/camera/rgbd_grabber.o.requires:
 .PHONY : nestk/ntk/CMakeFiles/nestk.dir/camera/rgbd_grabber.o.requires
@@ -171,17 +171,17 @@ nestk/ntk/CMakeFiles/nestk.dir/camera/rgbd_grabber.o.provides.build: nestk/ntk/C
 
 nestk/ntk/CMakeFiles/nestk.dir/camera/rgbd_image.o: nestk/ntk/CMakeFiles/nestk.dir/flags.make
 nestk/ntk/CMakeFiles/nestk.dir/camera/rgbd_image.o: ../nestk/ntk/camera/rgbd_image.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/ntk/CMakeFiles/nestk.dir/camera/rgbd_image.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/camera/rgbd_image.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/camera/rgbd_image.cpp"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/camera/rgbd_image.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/camera/rgbd_image.cpp
 
 nestk/ntk/CMakeFiles/nestk.dir/camera/rgbd_image.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nestk.dir/camera/rgbd_image.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/camera/rgbd_image.cpp" > CMakeFiles/nestk.dir/camera/rgbd_image.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/camera/rgbd_image.cpp > CMakeFiles/nestk.dir/camera/rgbd_image.i
 
 nestk/ntk/CMakeFiles/nestk.dir/camera/rgbd_image.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nestk.dir/camera/rgbd_image.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/camera/rgbd_image.cpp" -o CMakeFiles/nestk.dir/camera/rgbd_image.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/camera/rgbd_image.cpp -o CMakeFiles/nestk.dir/camera/rgbd_image.s
 
 nestk/ntk/CMakeFiles/nestk.dir/camera/rgbd_image.o.requires:
 .PHONY : nestk/ntk/CMakeFiles/nestk.dir/camera/rgbd_image.o.requires
@@ -195,17 +195,17 @@ nestk/ntk/CMakeFiles/nestk.dir/camera/rgbd_image.o.provides.build: nestk/ntk/CMa
 
 nestk/ntk/CMakeFiles/nestk.dir/camera/rgbd_processor.o: nestk/ntk/CMakeFiles/nestk.dir/flags.make
 nestk/ntk/CMakeFiles/nestk.dir/camera/rgbd_processor.o: ../nestk/ntk/camera/rgbd_processor.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/ntk/CMakeFiles/nestk.dir/camera/rgbd_processor.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/camera/rgbd_processor.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/camera/rgbd_processor.cpp"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/camera/rgbd_processor.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/camera/rgbd_processor.cpp
 
 nestk/ntk/CMakeFiles/nestk.dir/camera/rgbd_processor.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nestk.dir/camera/rgbd_processor.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/camera/rgbd_processor.cpp" > CMakeFiles/nestk.dir/camera/rgbd_processor.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/camera/rgbd_processor.cpp > CMakeFiles/nestk.dir/camera/rgbd_processor.i
 
 nestk/ntk/CMakeFiles/nestk.dir/camera/rgbd_processor.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nestk.dir/camera/rgbd_processor.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/camera/rgbd_processor.cpp" -o CMakeFiles/nestk.dir/camera/rgbd_processor.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/camera/rgbd_processor.cpp -o CMakeFiles/nestk.dir/camera/rgbd_processor.s
 
 nestk/ntk/CMakeFiles/nestk.dir/camera/rgbd_processor.o.requires:
 .PHONY : nestk/ntk/CMakeFiles/nestk.dir/camera/rgbd_processor.o.requires
@@ -219,17 +219,17 @@ nestk/ntk/CMakeFiles/nestk.dir/camera/rgbd_processor.o.provides.build: nestk/ntk
 
 nestk/ntk/CMakeFiles/nestk.dir/camera/kinect_grabber.o: nestk/ntk/CMakeFiles/nestk.dir/flags.make
 nestk/ntk/CMakeFiles/nestk.dir/camera/kinect_grabber.o: ../nestk/ntk/camera/kinect_grabber.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/ntk/CMakeFiles/nestk.dir/camera/kinect_grabber.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/camera/kinect_grabber.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/camera/kinect_grabber.cpp"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/camera/kinect_grabber.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/camera/kinect_grabber.cpp
 
 nestk/ntk/CMakeFiles/nestk.dir/camera/kinect_grabber.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nestk.dir/camera/kinect_grabber.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/camera/kinect_grabber.cpp" > CMakeFiles/nestk.dir/camera/kinect_grabber.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/camera/kinect_grabber.cpp > CMakeFiles/nestk.dir/camera/kinect_grabber.i
 
 nestk/ntk/CMakeFiles/nestk.dir/camera/kinect_grabber.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nestk.dir/camera/kinect_grabber.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/camera/kinect_grabber.cpp" -o CMakeFiles/nestk.dir/camera/kinect_grabber.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/camera/kinect_grabber.cpp -o CMakeFiles/nestk.dir/camera/kinect_grabber.s
 
 nestk/ntk/CMakeFiles/nestk.dir/camera/kinect_grabber.o.requires:
 .PHONY : nestk/ntk/CMakeFiles/nestk.dir/camera/kinect_grabber.o.requires
@@ -243,17 +243,17 @@ nestk/ntk/CMakeFiles/nestk.dir/camera/kinect_grabber.o.provides.build: nestk/ntk
 
 nestk/ntk/CMakeFiles/nestk.dir/geometry/affine_transform.o: nestk/ntk/CMakeFiles/nestk.dir/flags.make
 nestk/ntk/CMakeFiles/nestk.dir/geometry/affine_transform.o: ../nestk/ntk/geometry/affine_transform.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/ntk/CMakeFiles/nestk.dir/geometry/affine_transform.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/geometry/affine_transform.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/geometry/affine_transform.cpp"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/geometry/affine_transform.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/geometry/affine_transform.cpp
 
 nestk/ntk/CMakeFiles/nestk.dir/geometry/affine_transform.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nestk.dir/geometry/affine_transform.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/geometry/affine_transform.cpp" > CMakeFiles/nestk.dir/geometry/affine_transform.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/geometry/affine_transform.cpp > CMakeFiles/nestk.dir/geometry/affine_transform.i
 
 nestk/ntk/CMakeFiles/nestk.dir/geometry/affine_transform.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nestk.dir/geometry/affine_transform.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/geometry/affine_transform.cpp" -o CMakeFiles/nestk.dir/geometry/affine_transform.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/geometry/affine_transform.cpp -o CMakeFiles/nestk.dir/geometry/affine_transform.s
 
 nestk/ntk/CMakeFiles/nestk.dir/geometry/affine_transform.o.requires:
 .PHONY : nestk/ntk/CMakeFiles/nestk.dir/geometry/affine_transform.o.requires
@@ -267,17 +267,17 @@ nestk/ntk/CMakeFiles/nestk.dir/geometry/affine_transform.o.provides.build: nestk
 
 nestk/ntk/CMakeFiles/nestk.dir/geometry/plane.o: nestk/ntk/CMakeFiles/nestk.dir/flags.make
 nestk/ntk/CMakeFiles/nestk.dir/geometry/plane.o: ../nestk/ntk/geometry/plane.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_10)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/ntk/CMakeFiles/nestk.dir/geometry/plane.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/geometry/plane.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/geometry/plane.cpp"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/geometry/plane.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/geometry/plane.cpp
 
 nestk/ntk/CMakeFiles/nestk.dir/geometry/plane.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nestk.dir/geometry/plane.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/geometry/plane.cpp" > CMakeFiles/nestk.dir/geometry/plane.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/geometry/plane.cpp > CMakeFiles/nestk.dir/geometry/plane.i
 
 nestk/ntk/CMakeFiles/nestk.dir/geometry/plane.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nestk.dir/geometry/plane.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/geometry/plane.cpp" -o CMakeFiles/nestk.dir/geometry/plane.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/geometry/plane.cpp -o CMakeFiles/nestk.dir/geometry/plane.s
 
 nestk/ntk/CMakeFiles/nestk.dir/geometry/plane.o.requires:
 .PHONY : nestk/ntk/CMakeFiles/nestk.dir/geometry/plane.o.requires
@@ -291,17 +291,17 @@ nestk/ntk/CMakeFiles/nestk.dir/geometry/plane.o.provides.build: nestk/ntk/CMakeF
 
 nestk/ntk/CMakeFiles/nestk.dir/geometry/polygon.o: nestk/ntk/CMakeFiles/nestk.dir/flags.make
 nestk/ntk/CMakeFiles/nestk.dir/geometry/polygon.o: ../nestk/ntk/geometry/polygon.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_11)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/ntk/CMakeFiles/nestk.dir/geometry/polygon.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/geometry/polygon.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/geometry/polygon.cpp"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/geometry/polygon.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/geometry/polygon.cpp
 
 nestk/ntk/CMakeFiles/nestk.dir/geometry/polygon.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nestk.dir/geometry/polygon.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/geometry/polygon.cpp" > CMakeFiles/nestk.dir/geometry/polygon.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/geometry/polygon.cpp > CMakeFiles/nestk.dir/geometry/polygon.i
 
 nestk/ntk/CMakeFiles/nestk.dir/geometry/polygon.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nestk.dir/geometry/polygon.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/geometry/polygon.cpp" -o CMakeFiles/nestk.dir/geometry/polygon.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/geometry/polygon.cpp -o CMakeFiles/nestk.dir/geometry/polygon.s
 
 nestk/ntk/CMakeFiles/nestk.dir/geometry/polygon.o.requires:
 .PHONY : nestk/ntk/CMakeFiles/nestk.dir/geometry/polygon.o.requires
@@ -315,17 +315,17 @@ nestk/ntk/CMakeFiles/nestk.dir/geometry/polygon.o.provides.build: nestk/ntk/CMak
 
 nestk/ntk/CMakeFiles/nestk.dir/geometry/pose_3d.o: nestk/ntk/CMakeFiles/nestk.dir/flags.make
 nestk/ntk/CMakeFiles/nestk.dir/geometry/pose_3d.o: ../nestk/ntk/geometry/pose_3d.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_12)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/ntk/CMakeFiles/nestk.dir/geometry/pose_3d.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/geometry/pose_3d.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/geometry/pose_3d.cpp"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/geometry/pose_3d.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/geometry/pose_3d.cpp
 
 nestk/ntk/CMakeFiles/nestk.dir/geometry/pose_3d.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nestk.dir/geometry/pose_3d.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/geometry/pose_3d.cpp" > CMakeFiles/nestk.dir/geometry/pose_3d.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/geometry/pose_3d.cpp > CMakeFiles/nestk.dir/geometry/pose_3d.i
 
 nestk/ntk/CMakeFiles/nestk.dir/geometry/pose_3d.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nestk.dir/geometry/pose_3d.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/geometry/pose_3d.cpp" -o CMakeFiles/nestk.dir/geometry/pose_3d.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/geometry/pose_3d.cpp -o CMakeFiles/nestk.dir/geometry/pose_3d.s
 
 nestk/ntk/CMakeFiles/nestk.dir/geometry/pose_3d.o.requires:
 .PHONY : nestk/ntk/CMakeFiles/nestk.dir/geometry/pose_3d.o.requires
@@ -339,17 +339,17 @@ nestk/ntk/CMakeFiles/nestk.dir/geometry/pose_3d.o.provides.build: nestk/ntk/CMak
 
 nestk/ntk/CMakeFiles/nestk.dir/geometry/relative_pose_estimator.o: nestk/ntk/CMakeFiles/nestk.dir/flags.make
 nestk/ntk/CMakeFiles/nestk.dir/geometry/relative_pose_estimator.o: ../nestk/ntk/geometry/relative_pose_estimator.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_13)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_13)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/ntk/CMakeFiles/nestk.dir/geometry/relative_pose_estimator.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/geometry/relative_pose_estimator.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/geometry/relative_pose_estimator.cpp"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/geometry/relative_pose_estimator.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/geometry/relative_pose_estimator.cpp
 
 nestk/ntk/CMakeFiles/nestk.dir/geometry/relative_pose_estimator.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nestk.dir/geometry/relative_pose_estimator.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/geometry/relative_pose_estimator.cpp" > CMakeFiles/nestk.dir/geometry/relative_pose_estimator.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/geometry/relative_pose_estimator.cpp > CMakeFiles/nestk.dir/geometry/relative_pose_estimator.i
 
 nestk/ntk/CMakeFiles/nestk.dir/geometry/relative_pose_estimator.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nestk.dir/geometry/relative_pose_estimator.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/geometry/relative_pose_estimator.cpp" -o CMakeFiles/nestk.dir/geometry/relative_pose_estimator.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/geometry/relative_pose_estimator.cpp -o CMakeFiles/nestk.dir/geometry/relative_pose_estimator.s
 
 nestk/ntk/CMakeFiles/nestk.dir/geometry/relative_pose_estimator.o.requires:
 .PHONY : nestk/ntk/CMakeFiles/nestk.dir/geometry/relative_pose_estimator.o.requires
@@ -363,17 +363,17 @@ nestk/ntk/CMakeFiles/nestk.dir/geometry/relative_pose_estimator.o.provides.build
 
 nestk/ntk/CMakeFiles/nestk.dir/geometry/similarity_transform.o: nestk/ntk/CMakeFiles/nestk.dir/flags.make
 nestk/ntk/CMakeFiles/nestk.dir/geometry/similarity_transform.o: ../nestk/ntk/geometry/similarity_transform.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_14)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_14)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/ntk/CMakeFiles/nestk.dir/geometry/similarity_transform.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/geometry/similarity_transform.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/geometry/similarity_transform.cpp"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/geometry/similarity_transform.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/geometry/similarity_transform.cpp
 
 nestk/ntk/CMakeFiles/nestk.dir/geometry/similarity_transform.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nestk.dir/geometry/similarity_transform.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/geometry/similarity_transform.cpp" > CMakeFiles/nestk.dir/geometry/similarity_transform.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/geometry/similarity_transform.cpp > CMakeFiles/nestk.dir/geometry/similarity_transform.i
 
 nestk/ntk/CMakeFiles/nestk.dir/geometry/similarity_transform.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nestk.dir/geometry/similarity_transform.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/geometry/similarity_transform.cpp" -o CMakeFiles/nestk.dir/geometry/similarity_transform.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/geometry/similarity_transform.cpp -o CMakeFiles/nestk.dir/geometry/similarity_transform.s
 
 nestk/ntk/CMakeFiles/nestk.dir/geometry/similarity_transform.o.requires:
 .PHONY : nestk/ntk/CMakeFiles/nestk.dir/geometry/similarity_transform.o.requires
@@ -387,17 +387,17 @@ nestk/ntk/CMakeFiles/nestk.dir/geometry/similarity_transform.o.provides.build: n
 
 nestk/ntk/CMakeFiles/nestk.dir/image/color_model.o: nestk/ntk/CMakeFiles/nestk.dir/flags.make
 nestk/ntk/CMakeFiles/nestk.dir/image/color_model.o: ../nestk/ntk/image/color_model.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_15)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_15)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/ntk/CMakeFiles/nestk.dir/image/color_model.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/image/color_model.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/color_model.cpp"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/image/color_model.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/color_model.cpp
 
 nestk/ntk/CMakeFiles/nestk.dir/image/color_model.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nestk.dir/image/color_model.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/color_model.cpp" > CMakeFiles/nestk.dir/image/color_model.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/color_model.cpp > CMakeFiles/nestk.dir/image/color_model.i
 
 nestk/ntk/CMakeFiles/nestk.dir/image/color_model.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nestk.dir/image/color_model.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/color_model.cpp" -o CMakeFiles/nestk.dir/image/color_model.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/color_model.cpp -o CMakeFiles/nestk.dir/image/color_model.s
 
 nestk/ntk/CMakeFiles/nestk.dir/image/color_model.o.requires:
 .PHONY : nestk/ntk/CMakeFiles/nestk.dir/image/color_model.o.requires
@@ -411,17 +411,17 @@ nestk/ntk/CMakeFiles/nestk.dir/image/color_model.o.provides.build: nestk/ntk/CMa
 
 nestk/ntk/CMakeFiles/nestk.dir/image/feature.o: nestk/ntk/CMakeFiles/nestk.dir/flags.make
 nestk/ntk/CMakeFiles/nestk.dir/image/feature.o: ../nestk/ntk/image/feature.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_16)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_16)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/ntk/CMakeFiles/nestk.dir/image/feature.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/image/feature.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/feature.cpp"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/image/feature.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/feature.cpp
 
 nestk/ntk/CMakeFiles/nestk.dir/image/feature.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nestk.dir/image/feature.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/feature.cpp" > CMakeFiles/nestk.dir/image/feature.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/feature.cpp > CMakeFiles/nestk.dir/image/feature.i
 
 nestk/ntk/CMakeFiles/nestk.dir/image/feature.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nestk.dir/image/feature.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/feature.cpp" -o CMakeFiles/nestk.dir/image/feature.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/feature.cpp -o CMakeFiles/nestk.dir/image/feature.s
 
 nestk/ntk/CMakeFiles/nestk.dir/image/feature.o.requires:
 .PHONY : nestk/ntk/CMakeFiles/nestk.dir/image/feature.o.requires
@@ -435,17 +435,17 @@ nestk/ntk/CMakeFiles/nestk.dir/image/feature.o.provides.build: nestk/ntk/CMakeFi
 
 nestk/ntk/CMakeFiles/nestk.dir/image/sift.o: nestk/ntk/CMakeFiles/nestk.dir/flags.make
 nestk/ntk/CMakeFiles/nestk.dir/image/sift.o: ../nestk/ntk/image/sift.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_17)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_17)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/ntk/CMakeFiles/nestk.dir/image/sift.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/image/sift.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/sift.cpp"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/image/sift.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/sift.cpp
 
 nestk/ntk/CMakeFiles/nestk.dir/image/sift.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nestk.dir/image/sift.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/sift.cpp" > CMakeFiles/nestk.dir/image/sift.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/sift.cpp > CMakeFiles/nestk.dir/image/sift.i
 
 nestk/ntk/CMakeFiles/nestk.dir/image/sift.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nestk.dir/image/sift.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/sift.cpp" -o CMakeFiles/nestk.dir/image/sift.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/sift.cpp -o CMakeFiles/nestk.dir/image/sift.s
 
 nestk/ntk/CMakeFiles/nestk.dir/image/sift.o.requires:
 .PHONY : nestk/ntk/CMakeFiles/nestk.dir/image/sift.o.requires
@@ -459,17 +459,17 @@ nestk/ntk/CMakeFiles/nestk.dir/image/sift.o.provides.build: nestk/ntk/CMakeFiles
 
 nestk/ntk/CMakeFiles/nestk.dir/image/sift_gpu.o: nestk/ntk/CMakeFiles/nestk.dir/flags.make
 nestk/ntk/CMakeFiles/nestk.dir/image/sift_gpu.o: ../nestk/ntk/image/sift_gpu.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_18)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_18)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/ntk/CMakeFiles/nestk.dir/image/sift_gpu.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/image/sift_gpu.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/sift_gpu.cpp"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/image/sift_gpu.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/sift_gpu.cpp
 
 nestk/ntk/CMakeFiles/nestk.dir/image/sift_gpu.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nestk.dir/image/sift_gpu.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/sift_gpu.cpp" > CMakeFiles/nestk.dir/image/sift_gpu.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/sift_gpu.cpp > CMakeFiles/nestk.dir/image/sift_gpu.i
 
 nestk/ntk/CMakeFiles/nestk.dir/image/sift_gpu.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nestk.dir/image/sift_gpu.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/sift_gpu.cpp" -o CMakeFiles/nestk.dir/image/sift_gpu.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/sift_gpu.cpp -o CMakeFiles/nestk.dir/image/sift_gpu.s
 
 nestk/ntk/CMakeFiles/nestk.dir/image/sift_gpu.o.requires:
 .PHONY : nestk/ntk/CMakeFiles/nestk.dir/image/sift_gpu.o.requires
@@ -483,17 +483,17 @@ nestk/ntk/CMakeFiles/nestk.dir/image/sift_gpu.o.provides.build: nestk/ntk/CMakeF
 
 nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/SiftGPU.o: nestk/ntk/CMakeFiles/nestk.dir/flags.make
 nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/SiftGPU.o: ../nestk/ntk/image/siftgpu/SiftGPU.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_19)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_19)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/SiftGPU.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/image/siftgpu/SiftGPU.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/siftgpu/SiftGPU.cpp"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/image/siftgpu/SiftGPU.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/siftgpu/SiftGPU.cpp
 
 nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/SiftGPU.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nestk.dir/image/siftgpu/SiftGPU.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/siftgpu/SiftGPU.cpp" > CMakeFiles/nestk.dir/image/siftgpu/SiftGPU.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/siftgpu/SiftGPU.cpp > CMakeFiles/nestk.dir/image/siftgpu/SiftGPU.i
 
 nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/SiftGPU.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nestk.dir/image/siftgpu/SiftGPU.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/siftgpu/SiftGPU.cpp" -o CMakeFiles/nestk.dir/image/siftgpu/SiftGPU.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/siftgpu/SiftGPU.cpp -o CMakeFiles/nestk.dir/image/siftgpu/SiftGPU.s
 
 nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/SiftGPU.o.requires:
 .PHONY : nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/SiftGPU.o.requires
@@ -507,17 +507,17 @@ nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/SiftGPU.o.provides.build: nestk/ntk
 
 nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/FrameBufferObject.o: nestk/ntk/CMakeFiles/nestk.dir/flags.make
 nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/FrameBufferObject.o: ../nestk/ntk/image/siftgpu/FrameBufferObject.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_20)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_20)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/FrameBufferObject.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/image/siftgpu/FrameBufferObject.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/siftgpu/FrameBufferObject.cpp"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/image/siftgpu/FrameBufferObject.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/siftgpu/FrameBufferObject.cpp
 
 nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/FrameBufferObject.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nestk.dir/image/siftgpu/FrameBufferObject.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/siftgpu/FrameBufferObject.cpp" > CMakeFiles/nestk.dir/image/siftgpu/FrameBufferObject.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/siftgpu/FrameBufferObject.cpp > CMakeFiles/nestk.dir/image/siftgpu/FrameBufferObject.i
 
 nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/FrameBufferObject.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nestk.dir/image/siftgpu/FrameBufferObject.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/siftgpu/FrameBufferObject.cpp" -o CMakeFiles/nestk.dir/image/siftgpu/FrameBufferObject.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/siftgpu/FrameBufferObject.cpp -o CMakeFiles/nestk.dir/image/siftgpu/FrameBufferObject.s
 
 nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/FrameBufferObject.o.requires:
 .PHONY : nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/FrameBufferObject.o.requires
@@ -531,17 +531,17 @@ nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/FrameBufferObject.o.provides.build:
 
 nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/GlobalUtil.o: nestk/ntk/CMakeFiles/nestk.dir/flags.make
 nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/GlobalUtil.o: ../nestk/ntk/image/siftgpu/GlobalUtil.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_21)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_21)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/GlobalUtil.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/image/siftgpu/GlobalUtil.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/siftgpu/GlobalUtil.cpp"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/image/siftgpu/GlobalUtil.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/siftgpu/GlobalUtil.cpp
 
 nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/GlobalUtil.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nestk.dir/image/siftgpu/GlobalUtil.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/siftgpu/GlobalUtil.cpp" > CMakeFiles/nestk.dir/image/siftgpu/GlobalUtil.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/siftgpu/GlobalUtil.cpp > CMakeFiles/nestk.dir/image/siftgpu/GlobalUtil.i
 
 nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/GlobalUtil.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nestk.dir/image/siftgpu/GlobalUtil.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/siftgpu/GlobalUtil.cpp" -o CMakeFiles/nestk.dir/image/siftgpu/GlobalUtil.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/siftgpu/GlobalUtil.cpp -o CMakeFiles/nestk.dir/image/siftgpu/GlobalUtil.s
 
 nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/GlobalUtil.o.requires:
 .PHONY : nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/GlobalUtil.o.requires
@@ -555,17 +555,17 @@ nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/GlobalUtil.o.provides.build: nestk/
 
 nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/GLTexImage.o: nestk/ntk/CMakeFiles/nestk.dir/flags.make
 nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/GLTexImage.o: ../nestk/ntk/image/siftgpu/GLTexImage.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_22)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_22)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/GLTexImage.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/image/siftgpu/GLTexImage.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/siftgpu/GLTexImage.cpp"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/image/siftgpu/GLTexImage.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/siftgpu/GLTexImage.cpp
 
 nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/GLTexImage.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nestk.dir/image/siftgpu/GLTexImage.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/siftgpu/GLTexImage.cpp" > CMakeFiles/nestk.dir/image/siftgpu/GLTexImage.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/siftgpu/GLTexImage.cpp > CMakeFiles/nestk.dir/image/siftgpu/GLTexImage.i
 
 nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/GLTexImage.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nestk.dir/image/siftgpu/GLTexImage.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/siftgpu/GLTexImage.cpp" -o CMakeFiles/nestk.dir/image/siftgpu/GLTexImage.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/siftgpu/GLTexImage.cpp -o CMakeFiles/nestk.dir/image/siftgpu/GLTexImage.s
 
 nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/GLTexImage.o.requires:
 .PHONY : nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/GLTexImage.o.requires
@@ -579,17 +579,17 @@ nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/GLTexImage.o.provides.build: nestk/
 
 nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/ProgramGLSL.o: nestk/ntk/CMakeFiles/nestk.dir/flags.make
 nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/ProgramGLSL.o: ../nestk/ntk/image/siftgpu/ProgramGLSL.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_23)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_23)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/ProgramGLSL.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/image/siftgpu/ProgramGLSL.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/siftgpu/ProgramGLSL.cpp"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/image/siftgpu/ProgramGLSL.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/siftgpu/ProgramGLSL.cpp
 
 nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/ProgramGLSL.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nestk.dir/image/siftgpu/ProgramGLSL.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/siftgpu/ProgramGLSL.cpp" > CMakeFiles/nestk.dir/image/siftgpu/ProgramGLSL.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/siftgpu/ProgramGLSL.cpp > CMakeFiles/nestk.dir/image/siftgpu/ProgramGLSL.i
 
 nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/ProgramGLSL.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nestk.dir/image/siftgpu/ProgramGLSL.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/siftgpu/ProgramGLSL.cpp" -o CMakeFiles/nestk.dir/image/siftgpu/ProgramGLSL.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/siftgpu/ProgramGLSL.cpp -o CMakeFiles/nestk.dir/image/siftgpu/ProgramGLSL.s
 
 nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/ProgramGLSL.o.requires:
 .PHONY : nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/ProgramGLSL.o.requires
@@ -603,17 +603,17 @@ nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/ProgramGLSL.o.provides.build: nestk
 
 nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/ProgramGPU.o: nestk/ntk/CMakeFiles/nestk.dir/flags.make
 nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/ProgramGPU.o: ../nestk/ntk/image/siftgpu/ProgramGPU.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_24)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_24)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/ProgramGPU.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/image/siftgpu/ProgramGPU.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/siftgpu/ProgramGPU.cpp"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/image/siftgpu/ProgramGPU.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/siftgpu/ProgramGPU.cpp
 
 nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/ProgramGPU.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nestk.dir/image/siftgpu/ProgramGPU.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/siftgpu/ProgramGPU.cpp" > CMakeFiles/nestk.dir/image/siftgpu/ProgramGPU.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/siftgpu/ProgramGPU.cpp > CMakeFiles/nestk.dir/image/siftgpu/ProgramGPU.i
 
 nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/ProgramGPU.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nestk.dir/image/siftgpu/ProgramGPU.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/siftgpu/ProgramGPU.cpp" -o CMakeFiles/nestk.dir/image/siftgpu/ProgramGPU.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/siftgpu/ProgramGPU.cpp -o CMakeFiles/nestk.dir/image/siftgpu/ProgramGPU.s
 
 nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/ProgramGPU.o.requires:
 .PHONY : nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/ProgramGPU.o.requires
@@ -627,17 +627,17 @@ nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/ProgramGPU.o.provides.build: nestk/
 
 nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/PyramidGL.o: nestk/ntk/CMakeFiles/nestk.dir/flags.make
 nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/PyramidGL.o: ../nestk/ntk/image/siftgpu/PyramidGL.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_25)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_25)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/PyramidGL.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/image/siftgpu/PyramidGL.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/siftgpu/PyramidGL.cpp"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/image/siftgpu/PyramidGL.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/siftgpu/PyramidGL.cpp
 
 nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/PyramidGL.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nestk.dir/image/siftgpu/PyramidGL.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/siftgpu/PyramidGL.cpp" > CMakeFiles/nestk.dir/image/siftgpu/PyramidGL.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/siftgpu/PyramidGL.cpp > CMakeFiles/nestk.dir/image/siftgpu/PyramidGL.i
 
 nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/PyramidGL.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nestk.dir/image/siftgpu/PyramidGL.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/siftgpu/PyramidGL.cpp" -o CMakeFiles/nestk.dir/image/siftgpu/PyramidGL.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/siftgpu/PyramidGL.cpp -o CMakeFiles/nestk.dir/image/siftgpu/PyramidGL.s
 
 nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/PyramidGL.o.requires:
 .PHONY : nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/PyramidGL.o.requires
@@ -651,17 +651,17 @@ nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/PyramidGL.o.provides.build: nestk/n
 
 nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/ShaderMan.o: nestk/ntk/CMakeFiles/nestk.dir/flags.make
 nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/ShaderMan.o: ../nestk/ntk/image/siftgpu/ShaderMan.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_26)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_26)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/ShaderMan.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/image/siftgpu/ShaderMan.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/siftgpu/ShaderMan.cpp"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/image/siftgpu/ShaderMan.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/siftgpu/ShaderMan.cpp
 
 nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/ShaderMan.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nestk.dir/image/siftgpu/ShaderMan.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/siftgpu/ShaderMan.cpp" > CMakeFiles/nestk.dir/image/siftgpu/ShaderMan.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/siftgpu/ShaderMan.cpp > CMakeFiles/nestk.dir/image/siftgpu/ShaderMan.i
 
 nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/ShaderMan.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nestk.dir/image/siftgpu/ShaderMan.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/siftgpu/ShaderMan.cpp" -o CMakeFiles/nestk.dir/image/siftgpu/ShaderMan.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/siftgpu/ShaderMan.cpp -o CMakeFiles/nestk.dir/image/siftgpu/ShaderMan.s
 
 nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/ShaderMan.o.requires:
 .PHONY : nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/ShaderMan.o.requires
@@ -675,17 +675,17 @@ nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/ShaderMan.o.provides.build: nestk/n
 
 nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/SiftPyramid.o: nestk/ntk/CMakeFiles/nestk.dir/flags.make
 nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/SiftPyramid.o: ../nestk/ntk/image/siftgpu/SiftPyramid.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_27)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_27)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/SiftPyramid.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/image/siftgpu/SiftPyramid.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/siftgpu/SiftPyramid.cpp"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/image/siftgpu/SiftPyramid.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/siftgpu/SiftPyramid.cpp
 
 nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/SiftPyramid.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nestk.dir/image/siftgpu/SiftPyramid.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/siftgpu/SiftPyramid.cpp" > CMakeFiles/nestk.dir/image/siftgpu/SiftPyramid.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/siftgpu/SiftPyramid.cpp > CMakeFiles/nestk.dir/image/siftgpu/SiftPyramid.i
 
 nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/SiftPyramid.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nestk.dir/image/siftgpu/SiftPyramid.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/siftgpu/SiftPyramid.cpp" -o CMakeFiles/nestk.dir/image/siftgpu/SiftPyramid.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/siftgpu/SiftPyramid.cpp -o CMakeFiles/nestk.dir/image/siftgpu/SiftPyramid.s
 
 nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/SiftPyramid.o.requires:
 .PHONY : nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/SiftPyramid.o.requires
@@ -699,17 +699,17 @@ nestk/ntk/CMakeFiles/nestk.dir/image/siftgpu/SiftPyramid.o.provides.build: nestk
 
 nestk/ntk/CMakeFiles/nestk.dir/mesh/ply.o: nestk/ntk/CMakeFiles/nestk.dir/flags.make
 nestk/ntk/CMakeFiles/nestk.dir/mesh/ply.o: ../nestk/ntk/mesh/ply.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_28)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_28)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/ntk/CMakeFiles/nestk.dir/mesh/ply.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/mesh/ply.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/mesh/ply.cpp"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/mesh/ply.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/mesh/ply.cpp
 
 nestk/ntk/CMakeFiles/nestk.dir/mesh/ply.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nestk.dir/mesh/ply.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/mesh/ply.cpp" > CMakeFiles/nestk.dir/mesh/ply.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/mesh/ply.cpp > CMakeFiles/nestk.dir/mesh/ply.i
 
 nestk/ntk/CMakeFiles/nestk.dir/mesh/ply.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nestk.dir/mesh/ply.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/mesh/ply.cpp" -o CMakeFiles/nestk.dir/mesh/ply.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/mesh/ply.cpp -o CMakeFiles/nestk.dir/mesh/ply.s
 
 nestk/ntk/CMakeFiles/nestk.dir/mesh/ply.o.requires:
 .PHONY : nestk/ntk/CMakeFiles/nestk.dir/mesh/ply.o.requires
@@ -723,17 +723,17 @@ nestk/ntk/CMakeFiles/nestk.dir/mesh/ply.o.provides.build: nestk/ntk/CMakeFiles/n
 
 nestk/ntk/CMakeFiles/nestk.dir/mesh/mesh.o: nestk/ntk/CMakeFiles/nestk.dir/flags.make
 nestk/ntk/CMakeFiles/nestk.dir/mesh/mesh.o: ../nestk/ntk/mesh/mesh.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_29)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_29)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/ntk/CMakeFiles/nestk.dir/mesh/mesh.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/mesh/mesh.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/mesh/mesh.cpp"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/mesh/mesh.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/mesh/mesh.cpp
 
 nestk/ntk/CMakeFiles/nestk.dir/mesh/mesh.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nestk.dir/mesh/mesh.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/mesh/mesh.cpp" > CMakeFiles/nestk.dir/mesh/mesh.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/mesh/mesh.cpp > CMakeFiles/nestk.dir/mesh/mesh.i
 
 nestk/ntk/CMakeFiles/nestk.dir/mesh/mesh.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nestk.dir/mesh/mesh.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/mesh/mesh.cpp" -o CMakeFiles/nestk.dir/mesh/mesh.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/mesh/mesh.cpp -o CMakeFiles/nestk.dir/mesh/mesh.s
 
 nestk/ntk/CMakeFiles/nestk.dir/mesh/mesh.o.requires:
 .PHONY : nestk/ntk/CMakeFiles/nestk.dir/mesh/mesh.o.requires
@@ -747,17 +747,17 @@ nestk/ntk/CMakeFiles/nestk.dir/mesh/mesh.o.provides.build: nestk/ntk/CMakeFiles/
 
 nestk/ntk/CMakeFiles/nestk.dir/mesh/mesh_generator.o: nestk/ntk/CMakeFiles/nestk.dir/flags.make
 nestk/ntk/CMakeFiles/nestk.dir/mesh/mesh_generator.o: ../nestk/ntk/mesh/mesh_generator.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_30)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_30)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/ntk/CMakeFiles/nestk.dir/mesh/mesh_generator.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/mesh/mesh_generator.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/mesh/mesh_generator.cpp"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/mesh/mesh_generator.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/mesh/mesh_generator.cpp
 
 nestk/ntk/CMakeFiles/nestk.dir/mesh/mesh_generator.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nestk.dir/mesh/mesh_generator.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/mesh/mesh_generator.cpp" > CMakeFiles/nestk.dir/mesh/mesh_generator.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/mesh/mesh_generator.cpp > CMakeFiles/nestk.dir/mesh/mesh_generator.i
 
 nestk/ntk/CMakeFiles/nestk.dir/mesh/mesh_generator.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nestk.dir/mesh/mesh_generator.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/mesh/mesh_generator.cpp" -o CMakeFiles/nestk.dir/mesh/mesh_generator.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/mesh/mesh_generator.cpp -o CMakeFiles/nestk.dir/mesh/mesh_generator.s
 
 nestk/ntk/CMakeFiles/nestk.dir/mesh/mesh_generator.o.requires:
 .PHONY : nestk/ntk/CMakeFiles/nestk.dir/mesh/mesh_generator.o.requires
@@ -771,17 +771,17 @@ nestk/ntk/CMakeFiles/nestk.dir/mesh/mesh_generator.o.provides.build: nestk/ntk/C
 
 nestk/ntk/CMakeFiles/nestk.dir/mesh/mesh_renderer.o: nestk/ntk/CMakeFiles/nestk.dir/flags.make
 nestk/ntk/CMakeFiles/nestk.dir/mesh/mesh_renderer.o: ../nestk/ntk/mesh/mesh_renderer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_31)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_31)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/ntk/CMakeFiles/nestk.dir/mesh/mesh_renderer.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/mesh/mesh_renderer.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/mesh/mesh_renderer.cpp"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/mesh/mesh_renderer.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/mesh/mesh_renderer.cpp
 
 nestk/ntk/CMakeFiles/nestk.dir/mesh/mesh_renderer.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nestk.dir/mesh/mesh_renderer.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/mesh/mesh_renderer.cpp" > CMakeFiles/nestk.dir/mesh/mesh_renderer.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/mesh/mesh_renderer.cpp > CMakeFiles/nestk.dir/mesh/mesh_renderer.i
 
 nestk/ntk/CMakeFiles/nestk.dir/mesh/mesh_renderer.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nestk.dir/mesh/mesh_renderer.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/mesh/mesh_renderer.cpp" -o CMakeFiles/nestk.dir/mesh/mesh_renderer.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/mesh/mesh_renderer.cpp -o CMakeFiles/nestk.dir/mesh/mesh_renderer.s
 
 nestk/ntk/CMakeFiles/nestk.dir/mesh/mesh_renderer.o.requires:
 .PHONY : nestk/ntk/CMakeFiles/nestk.dir/mesh/mesh_renderer.o.requires
@@ -795,17 +795,17 @@ nestk/ntk/CMakeFiles/nestk.dir/mesh/mesh_renderer.o.provides.build: nestk/ntk/CM
 
 nestk/ntk/CMakeFiles/nestk.dir/mesh/rgbd_modeler.o: nestk/ntk/CMakeFiles/nestk.dir/flags.make
 nestk/ntk/CMakeFiles/nestk.dir/mesh/rgbd_modeler.o: ../nestk/ntk/mesh/rgbd_modeler.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_32)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_32)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/ntk/CMakeFiles/nestk.dir/mesh/rgbd_modeler.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/mesh/rgbd_modeler.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/mesh/rgbd_modeler.cpp"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/mesh/rgbd_modeler.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/mesh/rgbd_modeler.cpp
 
 nestk/ntk/CMakeFiles/nestk.dir/mesh/rgbd_modeler.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nestk.dir/mesh/rgbd_modeler.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/mesh/rgbd_modeler.cpp" > CMakeFiles/nestk.dir/mesh/rgbd_modeler.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/mesh/rgbd_modeler.cpp > CMakeFiles/nestk.dir/mesh/rgbd_modeler.i
 
 nestk/ntk/CMakeFiles/nestk.dir/mesh/rgbd_modeler.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nestk.dir/mesh/rgbd_modeler.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/mesh/rgbd_modeler.cpp" -o CMakeFiles/nestk.dir/mesh/rgbd_modeler.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/mesh/rgbd_modeler.cpp -o CMakeFiles/nestk.dir/mesh/rgbd_modeler.s
 
 nestk/ntk/CMakeFiles/nestk.dir/mesh/rgbd_modeler.o.requires:
 .PHONY : nestk/ntk/CMakeFiles/nestk.dir/mesh/rgbd_modeler.o.requires
@@ -819,17 +819,17 @@ nestk/ntk/CMakeFiles/nestk.dir/mesh/rgbd_modeler.o.provides.build: nestk/ntk/CMa
 
 nestk/ntk/CMakeFiles/nestk.dir/mesh/surfels_rgbd_modeler.o: nestk/ntk/CMakeFiles/nestk.dir/flags.make
 nestk/ntk/CMakeFiles/nestk.dir/mesh/surfels_rgbd_modeler.o: ../nestk/ntk/mesh/surfels_rgbd_modeler.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_33)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_33)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/ntk/CMakeFiles/nestk.dir/mesh/surfels_rgbd_modeler.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/mesh/surfels_rgbd_modeler.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/mesh/surfels_rgbd_modeler.cpp"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/mesh/surfels_rgbd_modeler.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/mesh/surfels_rgbd_modeler.cpp
 
 nestk/ntk/CMakeFiles/nestk.dir/mesh/surfels_rgbd_modeler.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nestk.dir/mesh/surfels_rgbd_modeler.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/mesh/surfels_rgbd_modeler.cpp" > CMakeFiles/nestk.dir/mesh/surfels_rgbd_modeler.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/mesh/surfels_rgbd_modeler.cpp > CMakeFiles/nestk.dir/mesh/surfels_rgbd_modeler.i
 
 nestk/ntk/CMakeFiles/nestk.dir/mesh/surfels_rgbd_modeler.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nestk.dir/mesh/surfels_rgbd_modeler.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/mesh/surfels_rgbd_modeler.cpp" -o CMakeFiles/nestk.dir/mesh/surfels_rgbd_modeler.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/mesh/surfels_rgbd_modeler.cpp -o CMakeFiles/nestk.dir/mesh/surfels_rgbd_modeler.s
 
 nestk/ntk/CMakeFiles/nestk.dir/mesh/surfels_rgbd_modeler.o.requires:
 .PHONY : nestk/ntk/CMakeFiles/nestk.dir/mesh/surfels_rgbd_modeler.o.requires
@@ -843,17 +843,17 @@ nestk/ntk/CMakeFiles/nestk.dir/mesh/surfels_rgbd_modeler.o.provides.build: nestk
 
 nestk/ntk/CMakeFiles/nestk.dir/numeric/cost_function.o: nestk/ntk/CMakeFiles/nestk.dir/flags.make
 nestk/ntk/CMakeFiles/nestk.dir/numeric/cost_function.o: ../nestk/ntk/numeric/cost_function.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_34)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_34)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/ntk/CMakeFiles/nestk.dir/numeric/cost_function.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/numeric/cost_function.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/numeric/cost_function.cpp"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/numeric/cost_function.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/numeric/cost_function.cpp
 
 nestk/ntk/CMakeFiles/nestk.dir/numeric/cost_function.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nestk.dir/numeric/cost_function.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/numeric/cost_function.cpp" > CMakeFiles/nestk.dir/numeric/cost_function.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/numeric/cost_function.cpp > CMakeFiles/nestk.dir/numeric/cost_function.i
 
 nestk/ntk/CMakeFiles/nestk.dir/numeric/cost_function.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nestk.dir/numeric/cost_function.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/numeric/cost_function.cpp" -o CMakeFiles/nestk.dir/numeric/cost_function.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/numeric/cost_function.cpp -o CMakeFiles/nestk.dir/numeric/cost_function.s
 
 nestk/ntk/CMakeFiles/nestk.dir/numeric/cost_function.o.requires:
 .PHONY : nestk/ntk/CMakeFiles/nestk.dir/numeric/cost_function.o.requires
@@ -867,17 +867,17 @@ nestk/ntk/CMakeFiles/nestk.dir/numeric/cost_function.o.provides.build: nestk/ntk
 
 nestk/ntk/CMakeFiles/nestk.dir/numeric/levenberg_marquart_minimizer.o: nestk/ntk/CMakeFiles/nestk.dir/flags.make
 nestk/ntk/CMakeFiles/nestk.dir/numeric/levenberg_marquart_minimizer.o: ../nestk/ntk/numeric/levenberg_marquart_minimizer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_35)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_35)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/ntk/CMakeFiles/nestk.dir/numeric/levenberg_marquart_minimizer.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/numeric/levenberg_marquart_minimizer.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/numeric/levenberg_marquart_minimizer.cpp"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/numeric/levenberg_marquart_minimizer.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/numeric/levenberg_marquart_minimizer.cpp
 
 nestk/ntk/CMakeFiles/nestk.dir/numeric/levenberg_marquart_minimizer.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nestk.dir/numeric/levenberg_marquart_minimizer.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/numeric/levenberg_marquart_minimizer.cpp" > CMakeFiles/nestk.dir/numeric/levenberg_marquart_minimizer.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/numeric/levenberg_marquart_minimizer.cpp > CMakeFiles/nestk.dir/numeric/levenberg_marquart_minimizer.i
 
 nestk/ntk/CMakeFiles/nestk.dir/numeric/levenberg_marquart_minimizer.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nestk.dir/numeric/levenberg_marquart_minimizer.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/numeric/levenberg_marquart_minimizer.cpp" -o CMakeFiles/nestk.dir/numeric/levenberg_marquart_minimizer.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/numeric/levenberg_marquart_minimizer.cpp -o CMakeFiles/nestk.dir/numeric/levenberg_marquart_minimizer.s
 
 nestk/ntk/CMakeFiles/nestk.dir/numeric/levenberg_marquart_minimizer.o.requires:
 .PHONY : nestk/ntk/CMakeFiles/nestk.dir/numeric/levenberg_marquart_minimizer.o.requires
@@ -891,17 +891,17 @@ nestk/ntk/CMakeFiles/nestk.dir/numeric/levenberg_marquart_minimizer.o.provides.b
 
 nestk/ntk/CMakeFiles/nestk.dir/numeric/utils.o: nestk/ntk/CMakeFiles/nestk.dir/flags.make
 nestk/ntk/CMakeFiles/nestk.dir/numeric/utils.o: ../nestk/ntk/numeric/utils.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_36)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_36)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/ntk/CMakeFiles/nestk.dir/numeric/utils.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/numeric/utils.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/numeric/utils.cpp"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/numeric/utils.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/numeric/utils.cpp
 
 nestk/ntk/CMakeFiles/nestk.dir/numeric/utils.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nestk.dir/numeric/utils.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/numeric/utils.cpp" > CMakeFiles/nestk.dir/numeric/utils.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/numeric/utils.cpp > CMakeFiles/nestk.dir/numeric/utils.i
 
 nestk/ntk/CMakeFiles/nestk.dir/numeric/utils.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nestk.dir/numeric/utils.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/numeric/utils.cpp" -o CMakeFiles/nestk.dir/numeric/utils.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/numeric/utils.cpp -o CMakeFiles/nestk.dir/numeric/utils.s
 
 nestk/ntk/CMakeFiles/nestk.dir/numeric/utils.o.requires:
 .PHONY : nestk/ntk/CMakeFiles/nestk.dir/numeric/utils.o.requires
@@ -915,17 +915,17 @@ nestk/ntk/CMakeFiles/nestk.dir/numeric/utils.o.provides.build: nestk/ntk/CMakeFi
 
 nestk/ntk/CMakeFiles/nestk.dir/numeric/differential_evolution_solver.o: nestk/ntk/CMakeFiles/nestk.dir/flags.make
 nestk/ntk/CMakeFiles/nestk.dir/numeric/differential_evolution_solver.o: ../nestk/ntk/numeric/differential_evolution_solver.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_37)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_37)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/ntk/CMakeFiles/nestk.dir/numeric/differential_evolution_solver.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/numeric/differential_evolution_solver.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/numeric/differential_evolution_solver.cpp"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/numeric/differential_evolution_solver.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/numeric/differential_evolution_solver.cpp
 
 nestk/ntk/CMakeFiles/nestk.dir/numeric/differential_evolution_solver.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nestk.dir/numeric/differential_evolution_solver.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/numeric/differential_evolution_solver.cpp" > CMakeFiles/nestk.dir/numeric/differential_evolution_solver.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/numeric/differential_evolution_solver.cpp > CMakeFiles/nestk.dir/numeric/differential_evolution_solver.i
 
 nestk/ntk/CMakeFiles/nestk.dir/numeric/differential_evolution_solver.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nestk.dir/numeric/differential_evolution_solver.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/numeric/differential_evolution_solver.cpp" -o CMakeFiles/nestk.dir/numeric/differential_evolution_solver.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/numeric/differential_evolution_solver.cpp -o CMakeFiles/nestk.dir/numeric/differential_evolution_solver.s
 
 nestk/ntk/CMakeFiles/nestk.dir/numeric/differential_evolution_solver.o.requires:
 .PHONY : nestk/ntk/CMakeFiles/nestk.dir/numeric/differential_evolution_solver.o.requires
@@ -939,17 +939,17 @@ nestk/ntk/CMakeFiles/nestk.dir/numeric/differential_evolution_solver.o.provides.
 
 nestk/ntk/CMakeFiles/nestk.dir/numeric/differential_evolution_minimizer.o: nestk/ntk/CMakeFiles/nestk.dir/flags.make
 nestk/ntk/CMakeFiles/nestk.dir/numeric/differential_evolution_minimizer.o: ../nestk/ntk/numeric/differential_evolution_minimizer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_38)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_38)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/ntk/CMakeFiles/nestk.dir/numeric/differential_evolution_minimizer.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/numeric/differential_evolution_minimizer.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/numeric/differential_evolution_minimizer.cpp"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/numeric/differential_evolution_minimizer.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/numeric/differential_evolution_minimizer.cpp
 
 nestk/ntk/CMakeFiles/nestk.dir/numeric/differential_evolution_minimizer.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nestk.dir/numeric/differential_evolution_minimizer.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/numeric/differential_evolution_minimizer.cpp" > CMakeFiles/nestk.dir/numeric/differential_evolution_minimizer.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/numeric/differential_evolution_minimizer.cpp > CMakeFiles/nestk.dir/numeric/differential_evolution_minimizer.i
 
 nestk/ntk/CMakeFiles/nestk.dir/numeric/differential_evolution_minimizer.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nestk.dir/numeric/differential_evolution_minimizer.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/numeric/differential_evolution_minimizer.cpp" -o CMakeFiles/nestk.dir/numeric/differential_evolution_minimizer.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/numeric/differential_evolution_minimizer.cpp -o CMakeFiles/nestk.dir/numeric/differential_evolution_minimizer.s
 
 nestk/ntk/CMakeFiles/nestk.dir/numeric/differential_evolution_minimizer.o.requires:
 .PHONY : nestk/ntk/CMakeFiles/nestk.dir/numeric/differential_evolution_minimizer.o.requires
@@ -963,17 +963,17 @@ nestk/ntk/CMakeFiles/nestk.dir/numeric/differential_evolution_minimizer.o.provid
 
 nestk/ntk/CMakeFiles/nestk.dir/stats/distributions.o: nestk/ntk/CMakeFiles/nestk.dir/flags.make
 nestk/ntk/CMakeFiles/nestk.dir/stats/distributions.o: ../nestk/ntk/stats/distributions.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_39)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_39)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/ntk/CMakeFiles/nestk.dir/stats/distributions.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/stats/distributions.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/stats/distributions.cpp"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/stats/distributions.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/stats/distributions.cpp
 
 nestk/ntk/CMakeFiles/nestk.dir/stats/distributions.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nestk.dir/stats/distributions.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/stats/distributions.cpp" > CMakeFiles/nestk.dir/stats/distributions.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/stats/distributions.cpp > CMakeFiles/nestk.dir/stats/distributions.i
 
 nestk/ntk/CMakeFiles/nestk.dir/stats/distributions.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nestk.dir/stats/distributions.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/stats/distributions.cpp" -o CMakeFiles/nestk.dir/stats/distributions.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/stats/distributions.cpp -o CMakeFiles/nestk.dir/stats/distributions.s
 
 nestk/ntk/CMakeFiles/nestk.dir/stats/distributions.o.requires:
 .PHONY : nestk/ntk/CMakeFiles/nestk.dir/stats/distributions.o.requires
@@ -987,17 +987,17 @@ nestk/ntk/CMakeFiles/nestk.dir/stats/distributions.o.provides.build: nestk/ntk/C
 
 nestk/ntk/CMakeFiles/nestk.dir/stats/estimation.o: nestk/ntk/CMakeFiles/nestk.dir/flags.make
 nestk/ntk/CMakeFiles/nestk.dir/stats/estimation.o: ../nestk/ntk/stats/estimation.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_40)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_40)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/ntk/CMakeFiles/nestk.dir/stats/estimation.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/stats/estimation.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/stats/estimation.cpp"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/stats/estimation.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/stats/estimation.cpp
 
 nestk/ntk/CMakeFiles/nestk.dir/stats/estimation.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nestk.dir/stats/estimation.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/stats/estimation.cpp" > CMakeFiles/nestk.dir/stats/estimation.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/stats/estimation.cpp > CMakeFiles/nestk.dir/stats/estimation.i
 
 nestk/ntk/CMakeFiles/nestk.dir/stats/estimation.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nestk.dir/stats/estimation.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/stats/estimation.cpp" -o CMakeFiles/nestk.dir/stats/estimation.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/stats/estimation.cpp -o CMakeFiles/nestk.dir/stats/estimation.s
 
 nestk/ntk/CMakeFiles/nestk.dir/stats/estimation.o.requires:
 .PHONY : nestk/ntk/CMakeFiles/nestk.dir/stats/estimation.o.requires
@@ -1011,17 +1011,17 @@ nestk/ntk/CMakeFiles/nestk.dir/stats/estimation.o.provides.build: nestk/ntk/CMak
 
 nestk/ntk/CMakeFiles/nestk.dir/stats/histogram.o: nestk/ntk/CMakeFiles/nestk.dir/flags.make
 nestk/ntk/CMakeFiles/nestk.dir/stats/histogram.o: ../nestk/ntk/stats/histogram.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_41)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_41)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/ntk/CMakeFiles/nestk.dir/stats/histogram.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/stats/histogram.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/stats/histogram.cpp"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/stats/histogram.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/stats/histogram.cpp
 
 nestk/ntk/CMakeFiles/nestk.dir/stats/histogram.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nestk.dir/stats/histogram.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/stats/histogram.cpp" > CMakeFiles/nestk.dir/stats/histogram.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/stats/histogram.cpp > CMakeFiles/nestk.dir/stats/histogram.i
 
 nestk/ntk/CMakeFiles/nestk.dir/stats/histogram.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nestk.dir/stats/histogram.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/stats/histogram.cpp" -o CMakeFiles/nestk.dir/stats/histogram.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/stats/histogram.cpp -o CMakeFiles/nestk.dir/stats/histogram.s
 
 nestk/ntk/CMakeFiles/nestk.dir/stats/histogram.o.requires:
 .PHONY : nestk/ntk/CMakeFiles/nestk.dir/stats/histogram.o.requires
@@ -1035,17 +1035,17 @@ nestk/ntk/CMakeFiles/nestk.dir/stats/histogram.o.provides.build: nestk/ntk/CMake
 
 nestk/ntk/CMakeFiles/nestk.dir/stats/hypothesis_testing.o: nestk/ntk/CMakeFiles/nestk.dir/flags.make
 nestk/ntk/CMakeFiles/nestk.dir/stats/hypothesis_testing.o: ../nestk/ntk/stats/hypothesis_testing.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_42)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_42)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/ntk/CMakeFiles/nestk.dir/stats/hypothesis_testing.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/stats/hypothesis_testing.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/stats/hypothesis_testing.cpp"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/stats/hypothesis_testing.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/stats/hypothesis_testing.cpp
 
 nestk/ntk/CMakeFiles/nestk.dir/stats/hypothesis_testing.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nestk.dir/stats/hypothesis_testing.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/stats/hypothesis_testing.cpp" > CMakeFiles/nestk.dir/stats/hypothesis_testing.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/stats/hypothesis_testing.cpp > CMakeFiles/nestk.dir/stats/hypothesis_testing.i
 
 nestk/ntk/CMakeFiles/nestk.dir/stats/hypothesis_testing.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nestk.dir/stats/hypothesis_testing.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/stats/hypothesis_testing.cpp" -o CMakeFiles/nestk.dir/stats/hypothesis_testing.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/stats/hypothesis_testing.cpp -o CMakeFiles/nestk.dir/stats/hypothesis_testing.s
 
 nestk/ntk/CMakeFiles/nestk.dir/stats/hypothesis_testing.o.requires:
 .PHONY : nestk/ntk/CMakeFiles/nestk.dir/stats/hypothesis_testing.o.requires
@@ -1059,17 +1059,17 @@ nestk/ntk/CMakeFiles/nestk.dir/stats/hypothesis_testing.o.provides.build: nestk/
 
 nestk/ntk/CMakeFiles/nestk.dir/stats/moments.o: nestk/ntk/CMakeFiles/nestk.dir/flags.make
 nestk/ntk/CMakeFiles/nestk.dir/stats/moments.o: ../nestk/ntk/stats/moments.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_43)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_43)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/ntk/CMakeFiles/nestk.dir/stats/moments.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/stats/moments.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/stats/moments.cpp"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/stats/moments.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/stats/moments.cpp
 
 nestk/ntk/CMakeFiles/nestk.dir/stats/moments.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nestk.dir/stats/moments.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/stats/moments.cpp" > CMakeFiles/nestk.dir/stats/moments.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/stats/moments.cpp > CMakeFiles/nestk.dir/stats/moments.i
 
 nestk/ntk/CMakeFiles/nestk.dir/stats/moments.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nestk.dir/stats/moments.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/stats/moments.cpp" -o CMakeFiles/nestk.dir/stats/moments.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/stats/moments.cpp -o CMakeFiles/nestk.dir/stats/moments.s
 
 nestk/ntk/CMakeFiles/nestk.dir/stats/moments.o.requires:
 .PHONY : nestk/ntk/CMakeFiles/nestk.dir/stats/moments.o.requires
@@ -1083,17 +1083,17 @@ nestk/ntk/CMakeFiles/nestk.dir/stats/moments.o.provides.build: nestk/ntk/CMakeFi
 
 nestk/ntk/CMakeFiles/nestk.dir/thread/event.o: nestk/ntk/CMakeFiles/nestk.dir/flags.make
 nestk/ntk/CMakeFiles/nestk.dir/thread/event.o: ../nestk/ntk/thread/event.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_44)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_44)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/ntk/CMakeFiles/nestk.dir/thread/event.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/thread/event.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/thread/event.cpp"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/thread/event.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/thread/event.cpp
 
 nestk/ntk/CMakeFiles/nestk.dir/thread/event.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nestk.dir/thread/event.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/thread/event.cpp" > CMakeFiles/nestk.dir/thread/event.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/thread/event.cpp > CMakeFiles/nestk.dir/thread/event.i
 
 nestk/ntk/CMakeFiles/nestk.dir/thread/event.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nestk.dir/thread/event.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/thread/event.cpp" -o CMakeFiles/nestk.dir/thread/event.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/thread/event.cpp -o CMakeFiles/nestk.dir/thread/event.s
 
 nestk/ntk/CMakeFiles/nestk.dir/thread/event.o.requires:
 .PHONY : nestk/ntk/CMakeFiles/nestk.dir/thread/event.o.requires
@@ -1107,17 +1107,17 @@ nestk/ntk/CMakeFiles/nestk.dir/thread/event.o.provides.build: nestk/ntk/CMakeFil
 
 nestk/ntk/CMakeFiles/nestk.dir/thread/utils.o: nestk/ntk/CMakeFiles/nestk.dir/flags.make
 nestk/ntk/CMakeFiles/nestk.dir/thread/utils.o: ../nestk/ntk/thread/utils.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_45)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_45)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/ntk/CMakeFiles/nestk.dir/thread/utils.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/thread/utils.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/thread/utils.cpp"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/thread/utils.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/thread/utils.cpp
 
 nestk/ntk/CMakeFiles/nestk.dir/thread/utils.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nestk.dir/thread/utils.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/thread/utils.cpp" > CMakeFiles/nestk.dir/thread/utils.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/thread/utils.cpp > CMakeFiles/nestk.dir/thread/utils.i
 
 nestk/ntk/CMakeFiles/nestk.dir/thread/utils.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nestk.dir/thread/utils.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/thread/utils.cpp" -o CMakeFiles/nestk.dir/thread/utils.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/thread/utils.cpp -o CMakeFiles/nestk.dir/thread/utils.s
 
 nestk/ntk/CMakeFiles/nestk.dir/thread/utils.o.requires:
 .PHONY : nestk/ntk/CMakeFiles/nestk.dir/thread/utils.o.requires
@@ -1131,17 +1131,17 @@ nestk/ntk/CMakeFiles/nestk.dir/thread/utils.o.provides.build: nestk/ntk/CMakeFil
 
 nestk/ntk/CMakeFiles/nestk.dir/utils/arg.o: nestk/ntk/CMakeFiles/nestk.dir/flags.make
 nestk/ntk/CMakeFiles/nestk.dir/utils/arg.o: ../nestk/ntk/utils/arg.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_46)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_46)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/ntk/CMakeFiles/nestk.dir/utils/arg.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/utils/arg.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/utils/arg.cpp"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/utils/arg.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/utils/arg.cpp
 
 nestk/ntk/CMakeFiles/nestk.dir/utils/arg.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nestk.dir/utils/arg.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/utils/arg.cpp" > CMakeFiles/nestk.dir/utils/arg.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/utils/arg.cpp > CMakeFiles/nestk.dir/utils/arg.i
 
 nestk/ntk/CMakeFiles/nestk.dir/utils/arg.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nestk.dir/utils/arg.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/utils/arg.cpp" -o CMakeFiles/nestk.dir/utils/arg.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/utils/arg.cpp -o CMakeFiles/nestk.dir/utils/arg.s
 
 nestk/ntk/CMakeFiles/nestk.dir/utils/arg.o.requires:
 .PHONY : nestk/ntk/CMakeFiles/nestk.dir/utils/arg.o.requires
@@ -1155,17 +1155,17 @@ nestk/ntk/CMakeFiles/nestk.dir/utils/arg.o.provides.build: nestk/ntk/CMakeFiles/
 
 nestk/ntk/CMakeFiles/nestk.dir/utils/debug.o: nestk/ntk/CMakeFiles/nestk.dir/flags.make
 nestk/ntk/CMakeFiles/nestk.dir/utils/debug.o: ../nestk/ntk/utils/debug.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_47)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_47)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/ntk/CMakeFiles/nestk.dir/utils/debug.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/utils/debug.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/utils/debug.cpp"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/utils/debug.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/utils/debug.cpp
 
 nestk/ntk/CMakeFiles/nestk.dir/utils/debug.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nestk.dir/utils/debug.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/utils/debug.cpp" > CMakeFiles/nestk.dir/utils/debug.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/utils/debug.cpp > CMakeFiles/nestk.dir/utils/debug.i
 
 nestk/ntk/CMakeFiles/nestk.dir/utils/debug.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nestk.dir/utils/debug.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/utils/debug.cpp" -o CMakeFiles/nestk.dir/utils/debug.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/utils/debug.cpp -o CMakeFiles/nestk.dir/utils/debug.s
 
 nestk/ntk/CMakeFiles/nestk.dir/utils/debug.o.requires:
 .PHONY : nestk/ntk/CMakeFiles/nestk.dir/utils/debug.o.requires
@@ -1179,17 +1179,17 @@ nestk/ntk/CMakeFiles/nestk.dir/utils/debug.o.provides.build: nestk/ntk/CMakeFile
 
 nestk/ntk/CMakeFiles/nestk.dir/utils/opencv_utils.o: nestk/ntk/CMakeFiles/nestk.dir/flags.make
 nestk/ntk/CMakeFiles/nestk.dir/utils/opencv_utils.o: ../nestk/ntk/utils/opencv_utils.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_48)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_48)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/ntk/CMakeFiles/nestk.dir/utils/opencv_utils.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/utils/opencv_utils.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/utils/opencv_utils.cpp"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/utils/opencv_utils.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/utils/opencv_utils.cpp
 
 nestk/ntk/CMakeFiles/nestk.dir/utils/opencv_utils.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nestk.dir/utils/opencv_utils.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/utils/opencv_utils.cpp" > CMakeFiles/nestk.dir/utils/opencv_utils.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/utils/opencv_utils.cpp > CMakeFiles/nestk.dir/utils/opencv_utils.i
 
 nestk/ntk/CMakeFiles/nestk.dir/utils/opencv_utils.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nestk.dir/utils/opencv_utils.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/utils/opencv_utils.cpp" -o CMakeFiles/nestk.dir/utils/opencv_utils.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/utils/opencv_utils.cpp -o CMakeFiles/nestk.dir/utils/opencv_utils.s
 
 nestk/ntk/CMakeFiles/nestk.dir/utils/opencv_utils.o.requires:
 .PHONY : nestk/ntk/CMakeFiles/nestk.dir/utils/opencv_utils.o.requires
@@ -1203,17 +1203,17 @@ nestk/ntk/CMakeFiles/nestk.dir/utils/opencv_utils.o.provides.build: nestk/ntk/CM
 
 nestk/ntk/CMakeFiles/nestk.dir/utils/qt_utils.o: nestk/ntk/CMakeFiles/nestk.dir/flags.make
 nestk/ntk/CMakeFiles/nestk.dir/utils/qt_utils.o: ../nestk/ntk/utils/qt_utils.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_49)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_49)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/ntk/CMakeFiles/nestk.dir/utils/qt_utils.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/utils/qt_utils.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/utils/qt_utils.cpp"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/utils/qt_utils.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/utils/qt_utils.cpp
 
 nestk/ntk/CMakeFiles/nestk.dir/utils/qt_utils.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nestk.dir/utils/qt_utils.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/utils/qt_utils.cpp" > CMakeFiles/nestk.dir/utils/qt_utils.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/utils/qt_utils.cpp > CMakeFiles/nestk.dir/utils/qt_utils.i
 
 nestk/ntk/CMakeFiles/nestk.dir/utils/qt_utils.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nestk.dir/utils/qt_utils.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/utils/qt_utils.cpp" -o CMakeFiles/nestk.dir/utils/qt_utils.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/utils/qt_utils.cpp -o CMakeFiles/nestk.dir/utils/qt_utils.s
 
 nestk/ntk/CMakeFiles/nestk.dir/utils/qt_utils.o.requires:
 .PHONY : nestk/ntk/CMakeFiles/nestk.dir/utils/qt_utils.o.requires
@@ -1227,17 +1227,17 @@ nestk/ntk/CMakeFiles/nestk.dir/utils/qt_utils.o.provides.build: nestk/ntk/CMakeF
 
 nestk/ntk/CMakeFiles/nestk.dir/utils/xml_parser.o: nestk/ntk/CMakeFiles/nestk.dir/flags.make
 nestk/ntk/CMakeFiles/nestk.dir/utils/xml_parser.o: ../nestk/ntk/utils/xml_parser.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_50)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_50)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/ntk/CMakeFiles/nestk.dir/utils/xml_parser.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/utils/xml_parser.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/utils/xml_parser.cpp"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/utils/xml_parser.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/utils/xml_parser.cpp
 
 nestk/ntk/CMakeFiles/nestk.dir/utils/xml_parser.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nestk.dir/utils/xml_parser.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/utils/xml_parser.cpp" > CMakeFiles/nestk.dir/utils/xml_parser.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/utils/xml_parser.cpp > CMakeFiles/nestk.dir/utils/xml_parser.i
 
 nestk/ntk/CMakeFiles/nestk.dir/utils/xml_parser.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nestk.dir/utils/xml_parser.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/utils/xml_parser.cpp" -o CMakeFiles/nestk.dir/utils/xml_parser.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/utils/xml_parser.cpp -o CMakeFiles/nestk.dir/utils/xml_parser.s
 
 nestk/ntk/CMakeFiles/nestk.dir/utils/xml_parser.o.requires:
 .PHONY : nestk/ntk/CMakeFiles/nestk.dir/utils/xml_parser.o.requires
@@ -1251,17 +1251,17 @@ nestk/ntk/CMakeFiles/nestk.dir/utils/xml_parser.o.provides.build: nestk/ntk/CMak
 
 nestk/ntk/CMakeFiles/nestk.dir/utils/xml_serializable.o: nestk/ntk/CMakeFiles/nestk.dir/flags.make
 nestk/ntk/CMakeFiles/nestk.dir/utils/xml_serializable.o: ../nestk/ntk/utils/xml_serializable.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_51)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_51)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/ntk/CMakeFiles/nestk.dir/utils/xml_serializable.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/utils/xml_serializable.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/utils/xml_serializable.cpp"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/utils/xml_serializable.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/utils/xml_serializable.cpp
 
 nestk/ntk/CMakeFiles/nestk.dir/utils/xml_serializable.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nestk.dir/utils/xml_serializable.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/utils/xml_serializable.cpp" > CMakeFiles/nestk.dir/utils/xml_serializable.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/utils/xml_serializable.cpp > CMakeFiles/nestk.dir/utils/xml_serializable.i
 
 nestk/ntk/CMakeFiles/nestk.dir/utils/xml_serializable.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nestk.dir/utils/xml_serializable.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/utils/xml_serializable.cpp" -o CMakeFiles/nestk.dir/utils/xml_serializable.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/utils/xml_serializable.cpp -o CMakeFiles/nestk.dir/utils/xml_serializable.s
 
 nestk/ntk/CMakeFiles/nestk.dir/utils/xml_serializable.o.requires:
 .PHONY : nestk/ntk/CMakeFiles/nestk.dir/utils/xml_serializable.o.requires
@@ -1275,17 +1275,17 @@ nestk/ntk/CMakeFiles/nestk.dir/utils/xml_serializable.o.provides.build: nestk/nt
 
 nestk/ntk/CMakeFiles/nestk.dir/gui/image_widget.o: nestk/ntk/CMakeFiles/nestk.dir/flags.make
 nestk/ntk/CMakeFiles/nestk.dir/gui/image_widget.o: ../nestk/ntk/gui/image_widget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_52)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_52)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/ntk/CMakeFiles/nestk.dir/gui/image_widget.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/gui/image_widget.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/gui/image_widget.cpp"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/gui/image_widget.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/gui/image_widget.cpp
 
 nestk/ntk/CMakeFiles/nestk.dir/gui/image_widget.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nestk.dir/gui/image_widget.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/gui/image_widget.cpp" > CMakeFiles/nestk.dir/gui/image_widget.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/gui/image_widget.cpp > CMakeFiles/nestk.dir/gui/image_widget.i
 
 nestk/ntk/CMakeFiles/nestk.dir/gui/image_widget.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nestk.dir/gui/image_widget.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/gui/image_widget.cpp" -o CMakeFiles/nestk.dir/gui/image_widget.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/gui/image_widget.cpp -o CMakeFiles/nestk.dir/gui/image_widget.s
 
 nestk/ntk/CMakeFiles/nestk.dir/gui/image_widget.o.requires:
 .PHONY : nestk/ntk/CMakeFiles/nestk.dir/gui/image_widget.o.requires
@@ -1299,17 +1299,17 @@ nestk/ntk/CMakeFiles/nestk.dir/gui/image_widget.o.provides.build: nestk/ntk/CMak
 
 nestk/ntk/CMakeFiles/nestk.dir/gui/screen_grabber.o: nestk/ntk/CMakeFiles/nestk.dir/flags.make
 nestk/ntk/CMakeFiles/nestk.dir/gui/screen_grabber.o: ../nestk/ntk/gui/screen_grabber.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_53)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_53)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/ntk/CMakeFiles/nestk.dir/gui/screen_grabber.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/gui/screen_grabber.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/gui/screen_grabber.cpp"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/gui/screen_grabber.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/gui/screen_grabber.cpp
 
 nestk/ntk/CMakeFiles/nestk.dir/gui/screen_grabber.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nestk.dir/gui/screen_grabber.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/gui/screen_grabber.cpp" > CMakeFiles/nestk.dir/gui/screen_grabber.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/gui/screen_grabber.cpp > CMakeFiles/nestk.dir/gui/screen_grabber.i
 
 nestk/ntk/CMakeFiles/nestk.dir/gui/screen_grabber.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nestk.dir/gui/screen_grabber.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/gui/screen_grabber.cpp" -o CMakeFiles/nestk.dir/gui/screen_grabber.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/gui/screen_grabber.cpp -o CMakeFiles/nestk.dir/gui/screen_grabber.s
 
 nestk/ntk/CMakeFiles/nestk.dir/gui/screen_grabber.o.requires:
 .PHONY : nestk/ntk/CMakeFiles/nestk.dir/gui/screen_grabber.o.requires
@@ -1323,17 +1323,17 @@ nestk/ntk/CMakeFiles/nestk.dir/gui/screen_grabber.o.provides.build: nestk/ntk/CM
 
 nestk/ntk/CMakeFiles/nestk.dir/mesh/mesh_viewer.o: nestk/ntk/CMakeFiles/nestk.dir/flags.make
 nestk/ntk/CMakeFiles/nestk.dir/mesh/mesh_viewer.o: ../nestk/ntk/mesh/mesh_viewer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_54)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_54)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/ntk/CMakeFiles/nestk.dir/mesh/mesh_viewer.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/mesh/mesh_viewer.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/mesh/mesh_viewer.cpp"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/mesh/mesh_viewer.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/mesh/mesh_viewer.cpp
 
 nestk/ntk/CMakeFiles/nestk.dir/mesh/mesh_viewer.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nestk.dir/mesh/mesh_viewer.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/mesh/mesh_viewer.cpp" > CMakeFiles/nestk.dir/mesh/mesh_viewer.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/mesh/mesh_viewer.cpp > CMakeFiles/nestk.dir/mesh/mesh_viewer.i
 
 nestk/ntk/CMakeFiles/nestk.dir/mesh/mesh_viewer.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nestk.dir/mesh/mesh_viewer.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/mesh/mesh_viewer.cpp" -o CMakeFiles/nestk.dir/mesh/mesh_viewer.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/mesh/mesh_viewer.cpp -o CMakeFiles/nestk.dir/mesh/mesh_viewer.s
 
 nestk/ntk/CMakeFiles/nestk.dir/mesh/mesh_viewer.o.requires:
 .PHONY : nestk/ntk/CMakeFiles/nestk.dir/mesh/mesh_viewer.o.requires
@@ -1347,17 +1347,17 @@ nestk/ntk/CMakeFiles/nestk.dir/mesh/mesh_viewer.o.provides.build: nestk/ntk/CMak
 
 nestk/ntk/CMakeFiles/nestk.dir/gui/moc_image_widget.o: nestk/ntk/CMakeFiles/nestk.dir/flags.make
 nestk/ntk/CMakeFiles/nestk.dir/gui/moc_image_widget.o: nestk/ntk/gui/moc_image_widget.cxx
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_55)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_55)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/ntk/CMakeFiles/nestk.dir/gui/moc_image_widget.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/gui/moc_image_widget.o -c "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk/gui/moc_image_widget.cxx"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/gui/moc_image_widget.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk/gui/moc_image_widget.cxx
 
 nestk/ntk/CMakeFiles/nestk.dir/gui/moc_image_widget.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nestk.dir/gui/moc_image_widget.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk/gui/moc_image_widget.cxx" > CMakeFiles/nestk.dir/gui/moc_image_widget.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk/gui/moc_image_widget.cxx > CMakeFiles/nestk.dir/gui/moc_image_widget.i
 
 nestk/ntk/CMakeFiles/nestk.dir/gui/moc_image_widget.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nestk.dir/gui/moc_image_widget.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk/gui/moc_image_widget.cxx" -o CMakeFiles/nestk.dir/gui/moc_image_widget.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk/gui/moc_image_widget.cxx -o CMakeFiles/nestk.dir/gui/moc_image_widget.s
 
 nestk/ntk/CMakeFiles/nestk.dir/gui/moc_image_widget.o.requires:
 .PHONY : nestk/ntk/CMakeFiles/nestk.dir/gui/moc_image_widget.o.requires
@@ -1371,17 +1371,17 @@ nestk/ntk/CMakeFiles/nestk.dir/gui/moc_image_widget.o.provides.build: nestk/ntk/
 
 nestk/ntk/CMakeFiles/nestk.dir/mesh/moc_mesh_viewer.o: nestk/ntk/CMakeFiles/nestk.dir/flags.make
 nestk/ntk/CMakeFiles/nestk.dir/mesh/moc_mesh_viewer.o: nestk/ntk/mesh/moc_mesh_viewer.cxx
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_56)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_56)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/ntk/CMakeFiles/nestk.dir/mesh/moc_mesh_viewer.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/mesh/moc_mesh_viewer.o -c "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk/mesh/moc_mesh_viewer.cxx"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/mesh/moc_mesh_viewer.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk/mesh/moc_mesh_viewer.cxx
 
 nestk/ntk/CMakeFiles/nestk.dir/mesh/moc_mesh_viewer.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nestk.dir/mesh/moc_mesh_viewer.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk/mesh/moc_mesh_viewer.cxx" > CMakeFiles/nestk.dir/mesh/moc_mesh_viewer.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk/mesh/moc_mesh_viewer.cxx > CMakeFiles/nestk.dir/mesh/moc_mesh_viewer.i
 
 nestk/ntk/CMakeFiles/nestk.dir/mesh/moc_mesh_viewer.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nestk.dir/mesh/moc_mesh_viewer.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk/mesh/moc_mesh_viewer.cxx" -o CMakeFiles/nestk.dir/mesh/moc_mesh_viewer.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk/mesh/moc_mesh_viewer.cxx -o CMakeFiles/nestk.dir/mesh/moc_mesh_viewer.s
 
 nestk/ntk/CMakeFiles/nestk.dir/mesh/moc_mesh_viewer.o.requires:
 .PHONY : nestk/ntk/CMakeFiles/nestk.dir/mesh/moc_mesh_viewer.o.requires
@@ -1395,17 +1395,17 @@ nestk/ntk/CMakeFiles/nestk.dir/mesh/moc_mesh_viewer.o.provides.build: nestk/ntk/
 
 nestk/ntk/CMakeFiles/nestk.dir/thread/moc_event.o: nestk/ntk/CMakeFiles/nestk.dir/flags.make
 nestk/ntk/CMakeFiles/nestk.dir/thread/moc_event.o: nestk/ntk/thread/moc_event.cxx
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_57)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_57)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/ntk/CMakeFiles/nestk.dir/thread/moc_event.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/thread/moc_event.o -c "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk/thread/moc_event.cxx"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nestk.dir/thread/moc_event.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk/thread/moc_event.cxx
 
 nestk/ntk/CMakeFiles/nestk.dir/thread/moc_event.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nestk.dir/thread/moc_event.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk/thread/moc_event.cxx" > CMakeFiles/nestk.dir/thread/moc_event.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk/thread/moc_event.cxx > CMakeFiles/nestk.dir/thread/moc_event.i
 
 nestk/ntk/CMakeFiles/nestk.dir/thread/moc_event.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nestk.dir/thread/moc_event.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk/thread/moc_event.cxx" -o CMakeFiles/nestk.dir/thread/moc_event.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk/thread/moc_event.cxx -o CMakeFiles/nestk.dir/thread/moc_event.s
 
 nestk/ntk/CMakeFiles/nestk.dir/thread/moc_event.o.requires:
 .PHONY : nestk/ntk/CMakeFiles/nestk.dir/thread/moc_event.o.requires
@@ -1418,19 +1418,19 @@ nestk/ntk/CMakeFiles/nestk.dir/thread/moc_event.o.provides.build: nestk/ntk/CMak
 .PHONY : nestk/ntk/CMakeFiles/nestk.dir/thread/moc_event.o.provides.build
 
 nestk/ntk/gui/moc_image_widget.cxx: ../nestk/ntk/gui/image_widget.h
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_58)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_58)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating gui/moc_image_widget.cxx"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/moc-qt4 -I/home/louis/Documents/Motion\ Capture/Mouse/build/nestk/deps -I/home/louis/Documents/Motion\ Capture/Mouse/nestk/deps -I/home/louis/Documents/Motion\ Capture/Mouse/nestk/deps/include -I/home/louis/Documents/Motion\ Capture/Mouse/nestk/deps/eigen -I/home/louis/Documents/Motion\ Capture/Mouse/build -I/home/louis/Documents/Motion\ Capture/Mouse/nestk/deps/opencv/include -I/home/louis/Documents/Motion\ Capture/Mouse/nestk/deps/opencv/include/opencv -I/home/louis/Documents/Motion\ Capture/Mouse/nestk/deps/opencv/modules/core/include -I/home/louis/Documents/Motion\ Capture/Mouse/nestk/deps/opencv/modules/imgproc/include -I/home/louis/Documents/Motion\ Capture/Mouse/nestk/deps/opencv/modules/features2d/include -I/home/louis/Documents/Motion\ Capture/Mouse/nestk/deps/opencv/modules/gpu/include -I/home/louis/Documents/Motion\ Capture/Mouse/nestk/deps/opencv/modules/calib3d/include -I/home/louis/Documents/Motion\ Capture/Mouse/nestk/deps/opencv/modules/objdetect/include -I/home/louis/Documents/Motion\ Capture/Mouse/nestk/deps/opencv/modules/video/include -I/home/louis/Documents/Motion\ Capture/Mouse/nestk/deps/opencv/modules/highgui/include -I/home/louis/Documents/Motion\ Capture/Mouse/nestk/deps/opencv/modules/ml/include -I/home/louis/Documents/Motion\ Capture/Mouse/nestk/deps/opencv/modules/legacy/include -I/home/louis/Documents/Motion\ Capture/Mouse/nestk/deps/opencv/modules/contrib/include -I/home/louis/Documents/Motion\ Capture/Mouse/nestk/deps/opencv/modules/flann/include -I/usr/include/qt4 -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtSvg -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtXml -I/usr/include/qt4/QtNetwork -I/usr/include/qt4/QtCore -I/home/louis/Documents/Motion\ Capture/Mouse/nestk/deps/libfreenect/include -I/usr/include -I/home/louis/Documents/Motion\ Capture/Mouse/nestk/deps/glew/include -I/home/louis/Documents/Motion\ Capture/Mouse/nestk -I/home/louis/Documents/Motion\ Capture/Mouse/build/nestk -DUSE_QT -DQT_DLL -DQT_OPENGL_LIB -DQT_SVG_LIB -DQT_GUI_LIB -DQT_XML_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DUSE_FREENECT -DUSE_GLEW -o /home/louis/Documents/Motion\ Capture/Mouse/build/nestk/ntk/gui/moc_image_widget.cxx /home/louis/Documents/Motion\ Capture/Mouse/nestk/ntk/gui/image_widget.h
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/moc-qt4 -I/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps -I/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps -I/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/include -I/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/eigen -I/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build -I/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/include -I/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/include/opencv -I/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core/include -I/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/imgproc/include -I/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/features2d/include -I/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/gpu/include -I/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/calib3d/include -I/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/include -I/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/video/include -I/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/include -I/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/ml/include -I/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/include -I/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/contrib/include -I/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/flann/include -I/usr/include/qt4 -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtSvg -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtXml -I/usr/include/qt4/QtNetwork -I/usr/include/qt4/QtCore -I/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/libfreenect/include -I/usr/include -I/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/glew/include -I/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk -I/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk -DUSE_QT -DQT_OPENGL_LIB -DQT_SVG_LIB -DQT_GUI_LIB -DQT_XML_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DUSE_FREENECT -DUSE_GLEW -o /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk/gui/moc_image_widget.cxx /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/gui/image_widget.h
 
 nestk/ntk/mesh/moc_mesh_viewer.cxx: ../nestk/ntk/mesh/mesh_viewer.h
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_59)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_59)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating mesh/moc_mesh_viewer.cxx"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/moc-qt4 -I/home/louis/Documents/Motion\ Capture/Mouse/build/nestk/deps -I/home/louis/Documents/Motion\ Capture/Mouse/nestk/deps -I/home/louis/Documents/Motion\ Capture/Mouse/nestk/deps/include -I/home/louis/Documents/Motion\ Capture/Mouse/nestk/deps/eigen -I/home/louis/Documents/Motion\ Capture/Mouse/build -I/home/louis/Documents/Motion\ Capture/Mouse/nestk/deps/opencv/include -I/home/louis/Documents/Motion\ Capture/Mouse/nestk/deps/opencv/include/opencv -I/home/louis/Documents/Motion\ Capture/Mouse/nestk/deps/opencv/modules/core/include -I/home/louis/Documents/Motion\ Capture/Mouse/nestk/deps/opencv/modules/imgproc/include -I/home/louis/Documents/Motion\ Capture/Mouse/nestk/deps/opencv/modules/features2d/include -I/home/louis/Documents/Motion\ Capture/Mouse/nestk/deps/opencv/modules/gpu/include -I/home/louis/Documents/Motion\ Capture/Mouse/nestk/deps/opencv/modules/calib3d/include -I/home/louis/Documents/Motion\ Capture/Mouse/nestk/deps/opencv/modules/objdetect/include -I/home/louis/Documents/Motion\ Capture/Mouse/nestk/deps/opencv/modules/video/include -I/home/louis/Documents/Motion\ Capture/Mouse/nestk/deps/opencv/modules/highgui/include -I/home/louis/Documents/Motion\ Capture/Mouse/nestk/deps/opencv/modules/ml/include -I/home/louis/Documents/Motion\ Capture/Mouse/nestk/deps/opencv/modules/legacy/include -I/home/louis/Documents/Motion\ Capture/Mouse/nestk/deps/opencv/modules/contrib/include -I/home/louis/Documents/Motion\ Capture/Mouse/nestk/deps/opencv/modules/flann/include -I/usr/include/qt4 -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtSvg -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtXml -I/usr/include/qt4/QtNetwork -I/usr/include/qt4/QtCore -I/home/louis/Documents/Motion\ Capture/Mouse/nestk/deps/libfreenect/include -I/usr/include -I/home/louis/Documents/Motion\ Capture/Mouse/nestk/deps/glew/include -I/home/louis/Documents/Motion\ Capture/Mouse/nestk -I/home/louis/Documents/Motion\ Capture/Mouse/build/nestk -DUSE_QT -DQT_DLL -DQT_OPENGL_LIB -DQT_SVG_LIB -DQT_GUI_LIB -DQT_XML_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DUSE_FREENECT -DUSE_GLEW -o /home/louis/Documents/Motion\ Capture/Mouse/build/nestk/ntk/mesh/moc_mesh_viewer.cxx /home/louis/Documents/Motion\ Capture/Mouse/nestk/ntk/mesh/mesh_viewer.h
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/moc-qt4 -I/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps -I/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps -I/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/include -I/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/eigen -I/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build -I/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/include -I/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/include/opencv -I/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core/include -I/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/imgproc/include -I/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/features2d/include -I/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/gpu/include -I/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/calib3d/include -I/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/include -I/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/video/include -I/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/include -I/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/ml/include -I/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/include -I/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/contrib/include -I/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/flann/include -I/usr/include/qt4 -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtSvg -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtXml -I/usr/include/qt4/QtNetwork -I/usr/include/qt4/QtCore -I/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/libfreenect/include -I/usr/include -I/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/glew/include -I/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk -I/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk -DUSE_QT -DQT_OPENGL_LIB -DQT_SVG_LIB -DQT_GUI_LIB -DQT_XML_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DUSE_FREENECT -DUSE_GLEW -o /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk/mesh/moc_mesh_viewer.cxx /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/mesh/mesh_viewer.h
 
 nestk/ntk/thread/moc_event.cxx: ../nestk/ntk/thread/event.h
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_60)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_60)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating thread/moc_event.cxx"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && /usr/bin/moc-qt4 -I/home/louis/Documents/Motion\ Capture/Mouse/build/nestk/deps -I/home/louis/Documents/Motion\ Capture/Mouse/nestk/deps -I/home/louis/Documents/Motion\ Capture/Mouse/nestk/deps/include -I/home/louis/Documents/Motion\ Capture/Mouse/nestk/deps/eigen -I/home/louis/Documents/Motion\ Capture/Mouse/build -I/home/louis/Documents/Motion\ Capture/Mouse/nestk/deps/opencv/include -I/home/louis/Documents/Motion\ Capture/Mouse/nestk/deps/opencv/include/opencv -I/home/louis/Documents/Motion\ Capture/Mouse/nestk/deps/opencv/modules/core/include -I/home/louis/Documents/Motion\ Capture/Mouse/nestk/deps/opencv/modules/imgproc/include -I/home/louis/Documents/Motion\ Capture/Mouse/nestk/deps/opencv/modules/features2d/include -I/home/louis/Documents/Motion\ Capture/Mouse/nestk/deps/opencv/modules/gpu/include -I/home/louis/Documents/Motion\ Capture/Mouse/nestk/deps/opencv/modules/calib3d/include -I/home/louis/Documents/Motion\ Capture/Mouse/nestk/deps/opencv/modules/objdetect/include -I/home/louis/Documents/Motion\ Capture/Mouse/nestk/deps/opencv/modules/video/include -I/home/louis/Documents/Motion\ Capture/Mouse/nestk/deps/opencv/modules/highgui/include -I/home/louis/Documents/Motion\ Capture/Mouse/nestk/deps/opencv/modules/ml/include -I/home/louis/Documents/Motion\ Capture/Mouse/nestk/deps/opencv/modules/legacy/include -I/home/louis/Documents/Motion\ Capture/Mouse/nestk/deps/opencv/modules/contrib/include -I/home/louis/Documents/Motion\ Capture/Mouse/nestk/deps/opencv/modules/flann/include -I/usr/include/qt4 -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtSvg -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtXml -I/usr/include/qt4/QtNetwork -I/usr/include/qt4/QtCore -I/home/louis/Documents/Motion\ Capture/Mouse/nestk/deps/libfreenect/include -I/usr/include -I/home/louis/Documents/Motion\ Capture/Mouse/nestk/deps/glew/include -I/home/louis/Documents/Motion\ Capture/Mouse/nestk -I/home/louis/Documents/Motion\ Capture/Mouse/build/nestk -DUSE_QT -DQT_DLL -DQT_OPENGL_LIB -DQT_SVG_LIB -DQT_GUI_LIB -DQT_XML_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DUSE_FREENECT -DUSE_GLEW -o /home/louis/Documents/Motion\ Capture/Mouse/build/nestk/ntk/thread/moc_event.cxx /home/louis/Documents/Motion\ Capture/Mouse/nestk/ntk/thread/event.h
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && /usr/bin/moc-qt4 -I/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps -I/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps -I/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/include -I/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/eigen -I/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build -I/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/include -I/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/include/opencv -I/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/core/include -I/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/imgproc/include -I/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/features2d/include -I/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/gpu/include -I/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/calib3d/include -I/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/include -I/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/video/include -I/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/include -I/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/ml/include -I/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/include -I/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/contrib/include -I/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/flann/include -I/usr/include/qt4 -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtSvg -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtXml -I/usr/include/qt4/QtNetwork -I/usr/include/qt4/QtCore -I/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/libfreenect/include -I/usr/include -I/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/glew/include -I/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk -I/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk -DUSE_QT -DQT_OPENGL_LIB -DQT_SVG_LIB -DQT_GUI_LIB -DQT_XML_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DUSE_FREENECT -DUSE_GLEW -o /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk/thread/moc_event.cxx /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/thread/event.h
 
 # Object files for target nestk
 nestk_OBJECTS = \
@@ -1555,8 +1555,8 @@ lib/libnestk.a: nestk/ntk/CMakeFiles/nestk.dir/thread/moc_event.o
 lib/libnestk.a: nestk/ntk/CMakeFiles/nestk.dir/build.make
 lib/libnestk.a: nestk/ntk/CMakeFiles/nestk.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX static library ../../lib/libnestk.a"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && $(CMAKE_COMMAND) -P CMakeFiles/nestk.dir/cmake_clean_target.cmake
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/nestk.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && $(CMAKE_COMMAND) -P CMakeFiles/nestk.dir/cmake_clean_target.cmake
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/nestk.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 nestk/ntk/CMakeFiles/nestk.dir/build: lib/libnestk.a
@@ -1622,12 +1622,12 @@ nestk/ntk/CMakeFiles/nestk.dir/requires: nestk/ntk/CMakeFiles/nestk.dir/thread/m
 .PHONY : nestk/ntk/CMakeFiles/nestk.dir/requires
 
 nestk/ntk/CMakeFiles/nestk.dir/clean:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" && $(CMAKE_COMMAND) -P CMakeFiles/nestk.dir/cmake_clean.cmake
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk && $(CMAKE_COMMAND) -P CMakeFiles/nestk.dir/cmake_clean.cmake
 .PHONY : nestk/ntk/CMakeFiles/nestk.dir/clean
 
 nestk/ntk/CMakeFiles/nestk.dir/depend: nestk/ntk/gui/moc_image_widget.cxx
 nestk/ntk/CMakeFiles/nestk.dir/depend: nestk/ntk/mesh/moc_mesh_viewer.cxx
 nestk/ntk/CMakeFiles/nestk.dir/depend: nestk/ntk/thread/moc_event.cxx
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/louis/Documents/Motion Capture/Mouse" "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk" "/home/louis/Documents/Motion Capture/Mouse/build" "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk" "/home/louis/Documents/Motion Capture/Mouse/build/nestk/ntk/CMakeFiles/nestk.dir/DependInfo.cmake" --color=$(COLOR)
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/ntk/CMakeFiles/nestk.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : nestk/ntk/CMakeFiles/nestk.dir/depend
 

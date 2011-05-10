@@ -12,7 +12,7 @@ stdint.h
 libusb-1.0/libusb.h
 -
 
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/libfreenect/wrappers/c_sync/libfreenect_sync.c
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/libfreenect/wrappers/c_sync/libfreenect_sync.c
 stdio.h
 -
 pthread.h
@@ -24,9 +24,9 @@ stdlib.h
 assert.h
 -
 libfreenect_sync.h
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/libfreenect/wrappers/c_sync/libfreenect_sync.h
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/libfreenect/wrappers/c_sync/libfreenect_sync.h
 
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/libfreenect/wrappers/c_sync/libfreenect_sync.h
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/libfreenect/wrappers/c_sync/libfreenect_sync.h
 libfreenect.h
 -
 stdint.h

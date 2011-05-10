@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/louis/Documents/Motion Capture/Mouse"
+CMAKE_SOURCE_DIR = /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/louis/Documents/Motion Capture/Mouse/build"
+CMAKE_BINARY_DIR = /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build
 
 # Include any dependencies generated for this target.
 include nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/depend.make
@@ -49,43 +49,19 @@ include nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/progress.make
 # Include the compile flags for this target's objects.
 include nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/flags.make
 
-nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/initialization.o: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/flags.make
-nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/initialization.o: ../nestk/deps/opencv/modules/gpu/src/initialization.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_1)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/initialization.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/gpu" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_gpu.dir/src/initialization.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/initialization.cpp"
-
-nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/initialization.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_gpu.dir/src/initialization.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/gpu" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/initialization.cpp" > CMakeFiles/opencv_gpu.dir/src/initialization.i
-
-nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/initialization.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_gpu.dir/src/initialization.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/gpu" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/initialization.cpp" -o CMakeFiles/opencv_gpu.dir/src/initialization.s
-
-nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/initialization.o.requires:
-.PHONY : nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/initialization.o.requires
-
-nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/initialization.o.provides: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/initialization.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/build.make nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/initialization.o.provides.build
-.PHONY : nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/initialization.o.provides
-
-nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/initialization.o.provides.build: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/initialization.o
-.PHONY : nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/initialization.o.provides.build
-
 nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/filtering.o: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/flags.make
 nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/filtering.o: ../nestk/deps/opencv/modules/gpu/src/filtering.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/filtering.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/gpu" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_gpu.dir/src/filtering.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/filtering.cpp"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/gpu && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_gpu.dir/src/filtering.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/gpu/src/filtering.cpp
 
 nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/filtering.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_gpu.dir/src/filtering.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/gpu" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/filtering.cpp" > CMakeFiles/opencv_gpu.dir/src/filtering.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/gpu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/gpu/src/filtering.cpp > CMakeFiles/opencv_gpu.dir/src/filtering.i
 
 nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/filtering.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_gpu.dir/src/filtering.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/gpu" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/filtering.cpp" -o CMakeFiles/opencv_gpu.dir/src/filtering.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/gpu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/gpu/src/filtering.cpp -o CMakeFiles/opencv_gpu.dir/src/filtering.s
 
 nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/filtering.o.requires:
 .PHONY : nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/filtering.o.requires
@@ -97,43 +73,19 @@ nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/filtering.o.provides
 nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/filtering.o.provides.build: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/filtering.o
 .PHONY : nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/filtering.o.provides.build
 
-nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/hog.o: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/flags.make
-nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/hog.o: ../nestk/deps/opencv/modules/gpu/src/hog.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_3)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/hog.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/gpu" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_gpu.dir/src/hog.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/hog.cpp"
-
-nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/hog.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_gpu.dir/src/hog.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/gpu" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/hog.cpp" > CMakeFiles/opencv_gpu.dir/src/hog.i
-
-nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/hog.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_gpu.dir/src/hog.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/gpu" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/hog.cpp" -o CMakeFiles/opencv_gpu.dir/src/hog.s
-
-nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/hog.o.requires:
-.PHONY : nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/hog.o.requires
-
-nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/hog.o.provides: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/hog.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/build.make nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/hog.o.provides.build
-.PHONY : nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/hog.o.provides
-
-nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/hog.o.provides.build: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/hog.o
-.PHONY : nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/hog.o.provides.build
-
 nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/split_merge.o: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/flags.make
 nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/split_merge.o: ../nestk/deps/opencv/modules/gpu/src/split_merge.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/split_merge.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/gpu" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_gpu.dir/src/split_merge.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/split_merge.cpp"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/gpu && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_gpu.dir/src/split_merge.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/gpu/src/split_merge.cpp
 
 nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/split_merge.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_gpu.dir/src/split_merge.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/gpu" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/split_merge.cpp" > CMakeFiles/opencv_gpu.dir/src/split_merge.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/gpu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/gpu/src/split_merge.cpp > CMakeFiles/opencv_gpu.dir/src/split_merge.i
 
 nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/split_merge.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_gpu.dir/src/split_merge.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/gpu" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/split_merge.cpp" -o CMakeFiles/opencv_gpu.dir/src/split_merge.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/gpu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/gpu/src/split_merge.cpp -o CMakeFiles/opencv_gpu.dir/src/split_merge.s
 
 nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/split_merge.o.requires:
 .PHONY : nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/split_merge.o.requires
@@ -145,43 +97,43 @@ nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/split_merge.o.provid
 nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/split_merge.o.provides.build: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/split_merge.o
 .PHONY : nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/split_merge.o.provides.build
 
-nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/bilateral_filter.o: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/flags.make
-nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/bilateral_filter.o: ../nestk/deps/opencv/modules/gpu/src/bilateral_filter.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_5)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/bilateral_filter.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/gpu" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_gpu.dir/src/bilateral_filter.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/bilateral_filter.cpp"
+nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/hog.o: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/flags.make
+nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/hog.o: ../nestk/deps/opencv/modules/gpu/src/hog.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/hog.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/gpu && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_gpu.dir/src/hog.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/gpu/src/hog.cpp
 
-nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/bilateral_filter.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_gpu.dir/src/bilateral_filter.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/gpu" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/bilateral_filter.cpp" > CMakeFiles/opencv_gpu.dir/src/bilateral_filter.i
+nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/hog.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_gpu.dir/src/hog.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/gpu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/gpu/src/hog.cpp > CMakeFiles/opencv_gpu.dir/src/hog.i
 
-nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/bilateral_filter.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_gpu.dir/src/bilateral_filter.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/gpu" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/bilateral_filter.cpp" -o CMakeFiles/opencv_gpu.dir/src/bilateral_filter.s
+nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/hog.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_gpu.dir/src/hog.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/gpu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/gpu/src/hog.cpp -o CMakeFiles/opencv_gpu.dir/src/hog.s
 
-nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/bilateral_filter.o.requires:
-.PHONY : nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/bilateral_filter.o.requires
+nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/hog.o.requires:
+.PHONY : nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/hog.o.requires
 
-nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/bilateral_filter.o.provides: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/bilateral_filter.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/build.make nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/bilateral_filter.o.provides.build
-.PHONY : nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/bilateral_filter.o.provides
+nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/hog.o.provides: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/hog.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/build.make nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/hog.o.provides.build
+.PHONY : nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/hog.o.provides
 
-nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/bilateral_filter.o.provides.build: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/bilateral_filter.o
-.PHONY : nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/bilateral_filter.o.provides.build
+nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/hog.o.provides.build: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/hog.o
+.PHONY : nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/hog.o.provides.build
 
 nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/constantspacebp_gpu.o: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/flags.make
 nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/constantspacebp_gpu.o: ../nestk/deps/opencv/modules/gpu/src/constantspacebp_gpu.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/constantspacebp_gpu.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/gpu" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_gpu.dir/src/constantspacebp_gpu.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/constantspacebp_gpu.cpp"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/gpu && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_gpu.dir/src/constantspacebp_gpu.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/gpu/src/constantspacebp_gpu.cpp
 
 nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/constantspacebp_gpu.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_gpu.dir/src/constantspacebp_gpu.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/gpu" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/constantspacebp_gpu.cpp" > CMakeFiles/opencv_gpu.dir/src/constantspacebp_gpu.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/gpu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/gpu/src/constantspacebp_gpu.cpp > CMakeFiles/opencv_gpu.dir/src/constantspacebp_gpu.i
 
 nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/constantspacebp_gpu.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_gpu.dir/src/constantspacebp_gpu.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/gpu" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/constantspacebp_gpu.cpp" -o CMakeFiles/opencv_gpu.dir/src/constantspacebp_gpu.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/gpu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/gpu/src/constantspacebp_gpu.cpp -o CMakeFiles/opencv_gpu.dir/src/constantspacebp_gpu.s
 
 nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/constantspacebp_gpu.o.requires:
 .PHONY : nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/constantspacebp_gpu.o.requires
@@ -193,43 +145,163 @@ nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/constantspacebp_gpu.
 nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/constantspacebp_gpu.o.provides.build: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/constantspacebp_gpu.o
 .PHONY : nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/constantspacebp_gpu.o.provides.build
 
-nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/speckle_filtering.o: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/flags.make
-nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/speckle_filtering.o: ../nestk/deps/opencv/modules/gpu/src/speckle_filtering.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_7)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/speckle_filtering.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/gpu" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_gpu.dir/src/speckle_filtering.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/speckle_filtering.cpp"
+nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/bilateral_filter.o: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/flags.make
+nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/bilateral_filter.o: ../nestk/deps/opencv/modules/gpu/src/bilateral_filter.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_5)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/bilateral_filter.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/gpu && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_gpu.dir/src/bilateral_filter.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/gpu/src/bilateral_filter.cpp
 
-nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/speckle_filtering.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_gpu.dir/src/speckle_filtering.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/gpu" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/speckle_filtering.cpp" > CMakeFiles/opencv_gpu.dir/src/speckle_filtering.i
+nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/bilateral_filter.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_gpu.dir/src/bilateral_filter.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/gpu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/gpu/src/bilateral_filter.cpp > CMakeFiles/opencv_gpu.dir/src/bilateral_filter.i
 
-nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/speckle_filtering.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_gpu.dir/src/speckle_filtering.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/gpu" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/speckle_filtering.cpp" -o CMakeFiles/opencv_gpu.dir/src/speckle_filtering.s
+nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/bilateral_filter.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_gpu.dir/src/bilateral_filter.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/gpu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/gpu/src/bilateral_filter.cpp -o CMakeFiles/opencv_gpu.dir/src/bilateral_filter.s
 
-nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/speckle_filtering.o.requires:
-.PHONY : nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/speckle_filtering.o.requires
+nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/bilateral_filter.o.requires:
+.PHONY : nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/bilateral_filter.o.requires
 
-nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/speckle_filtering.o.provides: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/speckle_filtering.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/build.make nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/speckle_filtering.o.provides.build
-.PHONY : nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/speckle_filtering.o.provides
+nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/bilateral_filter.o.provides: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/bilateral_filter.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/build.make nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/bilateral_filter.o.provides.build
+.PHONY : nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/bilateral_filter.o.provides
 
-nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/speckle_filtering.o.provides.build: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/speckle_filtering.o
-.PHONY : nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/speckle_filtering.o.provides.build
+nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/bilateral_filter.o.provides.build: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/bilateral_filter.o
+.PHONY : nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/bilateral_filter.o.provides.build
+
+nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/initialization.o: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/flags.make
+nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/initialization.o: ../nestk/deps/opencv/modules/gpu/src/initialization.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_6)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/initialization.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/gpu && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_gpu.dir/src/initialization.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/gpu/src/initialization.cpp
+
+nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/initialization.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_gpu.dir/src/initialization.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/gpu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/gpu/src/initialization.cpp > CMakeFiles/opencv_gpu.dir/src/initialization.i
+
+nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/initialization.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_gpu.dir/src/initialization.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/gpu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/gpu/src/initialization.cpp -o CMakeFiles/opencv_gpu.dir/src/initialization.s
+
+nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/initialization.o.requires:
+.PHONY : nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/initialization.o.requires
+
+nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/initialization.o.provides: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/initialization.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/build.make nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/initialization.o.provides.build
+.PHONY : nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/initialization.o.provides
+
+nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/initialization.o.provides.build: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/initialization.o
+.PHONY : nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/initialization.o.provides.build
+
+nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/matrix_operations.o: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/flags.make
+nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/matrix_operations.o: ../nestk/deps/opencv/modules/gpu/src/matrix_operations.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_7)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/matrix_operations.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/gpu && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_gpu.dir/src/matrix_operations.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/gpu/src/matrix_operations.cpp
+
+nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/matrix_operations.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_gpu.dir/src/matrix_operations.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/gpu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/gpu/src/matrix_operations.cpp > CMakeFiles/opencv_gpu.dir/src/matrix_operations.i
+
+nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/matrix_operations.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_gpu.dir/src/matrix_operations.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/gpu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/gpu/src/matrix_operations.cpp -o CMakeFiles/opencv_gpu.dir/src/matrix_operations.s
+
+nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/matrix_operations.o.requires:
+.PHONY : nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/matrix_operations.o.requires
+
+nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/matrix_operations.o.provides: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/matrix_operations.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/build.make nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/matrix_operations.o.provides.build
+.PHONY : nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/matrix_operations.o.provides
+
+nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/matrix_operations.o.provides.build: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/matrix_operations.o
+.PHONY : nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/matrix_operations.o.provides.build
+
+nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/precomp.o: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/flags.make
+nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/precomp.o: ../nestk/deps/opencv/modules/gpu/src/precomp.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_8)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/precomp.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/gpu && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_gpu.dir/src/precomp.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/gpu/src/precomp.cpp
+
+nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/precomp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_gpu.dir/src/precomp.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/gpu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/gpu/src/precomp.cpp > CMakeFiles/opencv_gpu.dir/src/precomp.i
+
+nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/precomp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_gpu.dir/src/precomp.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/gpu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/gpu/src/precomp.cpp -o CMakeFiles/opencv_gpu.dir/src/precomp.s
+
+nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/precomp.o.requires:
+.PHONY : nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/precomp.o.requires
+
+nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/precomp.o.provides: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/precomp.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/build.make nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/precomp.o.provides.build
+.PHONY : nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/precomp.o.provides
+
+nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/precomp.o.provides.build: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/precomp.o
+.PHONY : nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/precomp.o.provides.build
+
+nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/cudastream.o: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/flags.make
+nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/cudastream.o: ../nestk/deps/opencv/modules/gpu/src/cudastream.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_9)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/cudastream.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/gpu && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_gpu.dir/src/cudastream.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/gpu/src/cudastream.cpp
+
+nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/cudastream.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_gpu.dir/src/cudastream.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/gpu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/gpu/src/cudastream.cpp > CMakeFiles/opencv_gpu.dir/src/cudastream.i
+
+nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/cudastream.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_gpu.dir/src/cudastream.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/gpu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/gpu/src/cudastream.cpp -o CMakeFiles/opencv_gpu.dir/src/cudastream.s
+
+nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/cudastream.o.requires:
+.PHONY : nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/cudastream.o.requires
+
+nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/cudastream.o.provides: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/cudastream.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/build.make nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/cudastream.o.provides.build
+.PHONY : nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/cudastream.o.provides
+
+nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/cudastream.o.provides.build: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/cudastream.o
+.PHONY : nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/cudastream.o.provides.build
+
+nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/arithm.o: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/flags.make
+nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/arithm.o: ../nestk/deps/opencv/modules/gpu/src/arithm.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_10)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/arithm.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/gpu && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_gpu.dir/src/arithm.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/gpu/src/arithm.cpp
+
+nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/arithm.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_gpu.dir/src/arithm.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/gpu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/gpu/src/arithm.cpp > CMakeFiles/opencv_gpu.dir/src/arithm.i
+
+nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/arithm.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_gpu.dir/src/arithm.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/gpu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/gpu/src/arithm.cpp -o CMakeFiles/opencv_gpu.dir/src/arithm.s
+
+nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/arithm.o.requires:
+.PHONY : nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/arithm.o.requires
+
+nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/arithm.o.provides: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/arithm.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/build.make nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/arithm.o.provides.build
+.PHONY : nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/arithm.o.provides
+
+nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/arithm.o.provides.build: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/arithm.o
+.PHONY : nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/arithm.o.provides.build
 
 nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/error.o: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/flags.make
 nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/error.o: ../nestk/deps/opencv/modules/gpu/src/error.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/error.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/gpu" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_gpu.dir/src/error.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/error.cpp"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/gpu && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_gpu.dir/src/error.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/gpu/src/error.cpp
 
 nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/error.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_gpu.dir/src/error.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/gpu" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/error.cpp" > CMakeFiles/opencv_gpu.dir/src/error.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/gpu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/gpu/src/error.cpp > CMakeFiles/opencv_gpu.dir/src/error.i
 
 nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/error.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_gpu.dir/src/error.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/gpu" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/error.cpp" -o CMakeFiles/opencv_gpu.dir/src/error.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/gpu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/gpu/src/error.cpp -o CMakeFiles/opencv_gpu.dir/src/error.s
 
 nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/error.o.requires:
 .PHONY : nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/error.o.requires
@@ -243,17 +315,17 @@ nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/error.o.provides.bui
 
 nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/imgproc_gpu.o: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/flags.make
 nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/imgproc_gpu.o: ../nestk/deps/opencv/modules/gpu/src/imgproc_gpu.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/imgproc_gpu.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/gpu" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_gpu.dir/src/imgproc_gpu.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/imgproc_gpu.cpp"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/gpu && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_gpu.dir/src/imgproc_gpu.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/gpu/src/imgproc_gpu.cpp
 
 nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/imgproc_gpu.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_gpu.dir/src/imgproc_gpu.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/gpu" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/imgproc_gpu.cpp" > CMakeFiles/opencv_gpu.dir/src/imgproc_gpu.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/gpu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/gpu/src/imgproc_gpu.cpp > CMakeFiles/opencv_gpu.dir/src/imgproc_gpu.i
 
 nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/imgproc_gpu.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_gpu.dir/src/imgproc_gpu.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/gpu" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/imgproc_gpu.cpp" -o CMakeFiles/opencv_gpu.dir/src/imgproc_gpu.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/gpu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/gpu/src/imgproc_gpu.cpp -o CMakeFiles/opencv_gpu.dir/src/imgproc_gpu.s
 
 nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/imgproc_gpu.o.requires:
 .PHONY : nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/imgproc_gpu.o.requires
@@ -265,91 +337,43 @@ nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/imgproc_gpu.o.provid
 nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/imgproc_gpu.o.provides.build: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/imgproc_gpu.o
 .PHONY : nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/imgproc_gpu.o.provides.build
 
-nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/cudastream.o: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/flags.make
-nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/cudastream.o: ../nestk/deps/opencv/modules/gpu/src/cudastream.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_10)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/cudastream.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/gpu" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_gpu.dir/src/cudastream.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/cudastream.cpp"
+nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/speckle_filtering.o: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/flags.make
+nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/speckle_filtering.o: ../nestk/deps/opencv/modules/gpu/src/speckle_filtering.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_13)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/speckle_filtering.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/gpu && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_gpu.dir/src/speckle_filtering.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/gpu/src/speckle_filtering.cpp
 
-nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/cudastream.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_gpu.dir/src/cudastream.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/gpu" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/cudastream.cpp" > CMakeFiles/opencv_gpu.dir/src/cudastream.i
+nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/speckle_filtering.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_gpu.dir/src/speckle_filtering.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/gpu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/gpu/src/speckle_filtering.cpp > CMakeFiles/opencv_gpu.dir/src/speckle_filtering.i
 
-nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/cudastream.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_gpu.dir/src/cudastream.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/gpu" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/cudastream.cpp" -o CMakeFiles/opencv_gpu.dir/src/cudastream.s
+nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/speckle_filtering.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_gpu.dir/src/speckle_filtering.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/gpu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/gpu/src/speckle_filtering.cpp -o CMakeFiles/opencv_gpu.dir/src/speckle_filtering.s
 
-nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/cudastream.o.requires:
-.PHONY : nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/cudastream.o.requires
+nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/speckle_filtering.o.requires:
+.PHONY : nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/speckle_filtering.o.requires
 
-nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/cudastream.o.provides: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/cudastream.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/build.make nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/cudastream.o.provides.build
-.PHONY : nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/cudastream.o.provides
+nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/speckle_filtering.o.provides: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/speckle_filtering.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/build.make nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/speckle_filtering.o.provides.build
+.PHONY : nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/speckle_filtering.o.provides
 
-nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/cudastream.o.provides.build: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/cudastream.o
-.PHONY : nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/cudastream.o.provides.build
-
-nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/matrix_operations.o: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/flags.make
-nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/matrix_operations.o: ../nestk/deps/opencv/modules/gpu/src/matrix_operations.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_11)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/matrix_operations.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/gpu" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_gpu.dir/src/matrix_operations.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/matrix_operations.cpp"
-
-nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/matrix_operations.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_gpu.dir/src/matrix_operations.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/gpu" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/matrix_operations.cpp" > CMakeFiles/opencv_gpu.dir/src/matrix_operations.i
-
-nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/matrix_operations.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_gpu.dir/src/matrix_operations.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/gpu" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/matrix_operations.cpp" -o CMakeFiles/opencv_gpu.dir/src/matrix_operations.s
-
-nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/matrix_operations.o.requires:
-.PHONY : nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/matrix_operations.o.requires
-
-nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/matrix_operations.o.provides: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/matrix_operations.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/build.make nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/matrix_operations.o.provides.build
-.PHONY : nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/matrix_operations.o.provides
-
-nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/matrix_operations.o.provides.build: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/matrix_operations.o
-.PHONY : nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/matrix_operations.o.provides.build
-
-nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/stereobm_gpu.o: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/flags.make
-nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/stereobm_gpu.o: ../nestk/deps/opencv/modules/gpu/src/stereobm_gpu.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_12)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/stereobm_gpu.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/gpu" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_gpu.dir/src/stereobm_gpu.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/stereobm_gpu.cpp"
-
-nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/stereobm_gpu.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_gpu.dir/src/stereobm_gpu.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/gpu" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/stereobm_gpu.cpp" > CMakeFiles/opencv_gpu.dir/src/stereobm_gpu.i
-
-nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/stereobm_gpu.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_gpu.dir/src/stereobm_gpu.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/gpu" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/stereobm_gpu.cpp" -o CMakeFiles/opencv_gpu.dir/src/stereobm_gpu.s
-
-nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/stereobm_gpu.o.requires:
-.PHONY : nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/stereobm_gpu.o.requires
-
-nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/stereobm_gpu.o.provides: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/stereobm_gpu.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/build.make nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/stereobm_gpu.o.provides.build
-.PHONY : nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/stereobm_gpu.o.provides
-
-nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/stereobm_gpu.o.provides.build: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/stereobm_gpu.o
-.PHONY : nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/stereobm_gpu.o.provides.build
+nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/speckle_filtering.o.provides.build: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/speckle_filtering.o
+.PHONY : nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/speckle_filtering.o.provides.build
 
 nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/color.o: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/flags.make
 nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/color.o: ../nestk/deps/opencv/modules/gpu/src/color.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_13)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_14)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/color.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/gpu" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_gpu.dir/src/color.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/color.cpp"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/gpu && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_gpu.dir/src/color.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/gpu/src/color.cpp
 
 nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/color.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_gpu.dir/src/color.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/gpu" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/color.cpp" > CMakeFiles/opencv_gpu.dir/src/color.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/gpu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/gpu/src/color.cpp > CMakeFiles/opencv_gpu.dir/src/color.i
 
 nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/color.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_gpu.dir/src/color.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/gpu" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/color.cpp" -o CMakeFiles/opencv_gpu.dir/src/color.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/gpu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/gpu/src/color.cpp -o CMakeFiles/opencv_gpu.dir/src/color.s
 
 nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/color.o.requires:
 .PHONY : nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/color.o.requires
@@ -363,17 +387,17 @@ nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/color.o.provides.bui
 
 nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/mssegmentation.o: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/flags.make
 nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/mssegmentation.o: ../nestk/deps/opencv/modules/gpu/src/mssegmentation.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_14)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_15)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/mssegmentation.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/gpu" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_gpu.dir/src/mssegmentation.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/mssegmentation.cpp"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/gpu && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_gpu.dir/src/mssegmentation.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/gpu/src/mssegmentation.cpp
 
 nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/mssegmentation.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_gpu.dir/src/mssegmentation.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/gpu" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/mssegmentation.cpp" > CMakeFiles/opencv_gpu.dir/src/mssegmentation.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/gpu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/gpu/src/mssegmentation.cpp > CMakeFiles/opencv_gpu.dir/src/mssegmentation.i
 
 nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/mssegmentation.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_gpu.dir/src/mssegmentation.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/gpu" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/mssegmentation.cpp" -o CMakeFiles/opencv_gpu.dir/src/mssegmentation.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/gpu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/gpu/src/mssegmentation.cpp -o CMakeFiles/opencv_gpu.dir/src/mssegmentation.s
 
 nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/mssegmentation.o.requires:
 .PHONY : nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/mssegmentation.o.requires
@@ -385,67 +409,43 @@ nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/mssegmentation.o.pro
 nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/mssegmentation.o.provides.build: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/mssegmentation.o
 .PHONY : nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/mssegmentation.o.provides.build
 
-nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/beliefpropagation_gpu.o: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/flags.make
-nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/beliefpropagation_gpu.o: ../nestk/deps/opencv/modules/gpu/src/beliefpropagation_gpu.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_15)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/beliefpropagation_gpu.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/gpu" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_gpu.dir/src/beliefpropagation_gpu.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/beliefpropagation_gpu.cpp"
+nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/stereobm_gpu.o: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/flags.make
+nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/stereobm_gpu.o: ../nestk/deps/opencv/modules/gpu/src/stereobm_gpu.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_16)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/stereobm_gpu.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/gpu && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_gpu.dir/src/stereobm_gpu.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/gpu/src/stereobm_gpu.cpp
 
-nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/beliefpropagation_gpu.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_gpu.dir/src/beliefpropagation_gpu.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/gpu" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/beliefpropagation_gpu.cpp" > CMakeFiles/opencv_gpu.dir/src/beliefpropagation_gpu.i
+nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/stereobm_gpu.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_gpu.dir/src/stereobm_gpu.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/gpu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/gpu/src/stereobm_gpu.cpp > CMakeFiles/opencv_gpu.dir/src/stereobm_gpu.i
 
-nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/beliefpropagation_gpu.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_gpu.dir/src/beliefpropagation_gpu.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/gpu" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/beliefpropagation_gpu.cpp" -o CMakeFiles/opencv_gpu.dir/src/beliefpropagation_gpu.s
+nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/stereobm_gpu.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_gpu.dir/src/stereobm_gpu.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/gpu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/gpu/src/stereobm_gpu.cpp -o CMakeFiles/opencv_gpu.dir/src/stereobm_gpu.s
 
-nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/beliefpropagation_gpu.o.requires:
-.PHONY : nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/beliefpropagation_gpu.o.requires
+nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/stereobm_gpu.o.requires:
+.PHONY : nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/stereobm_gpu.o.requires
 
-nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/beliefpropagation_gpu.o.provides: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/beliefpropagation_gpu.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/build.make nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/beliefpropagation_gpu.o.provides.build
-.PHONY : nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/beliefpropagation_gpu.o.provides
+nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/stereobm_gpu.o.provides: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/stereobm_gpu.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/build.make nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/stereobm_gpu.o.provides.build
+.PHONY : nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/stereobm_gpu.o.provides
 
-nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/beliefpropagation_gpu.o.provides.build: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/beliefpropagation_gpu.o
-.PHONY : nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/beliefpropagation_gpu.o.provides.build
-
-nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/precomp.o: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/flags.make
-nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/precomp.o: ../nestk/deps/opencv/modules/gpu/src/precomp.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_16)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/precomp.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/gpu" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_gpu.dir/src/precomp.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/precomp.cpp"
-
-nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/precomp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_gpu.dir/src/precomp.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/gpu" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/precomp.cpp" > CMakeFiles/opencv_gpu.dir/src/precomp.i
-
-nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/precomp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_gpu.dir/src/precomp.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/gpu" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/precomp.cpp" -o CMakeFiles/opencv_gpu.dir/src/precomp.s
-
-nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/precomp.o.requires:
-.PHONY : nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/precomp.o.requires
-
-nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/precomp.o.provides: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/precomp.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/build.make nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/precomp.o.provides.build
-.PHONY : nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/precomp.o.provides
-
-nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/precomp.o.provides.build: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/precomp.o
-.PHONY : nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/precomp.o.provides.build
+nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/stereobm_gpu.o.provides.build: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/stereobm_gpu.o
+.PHONY : nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/stereobm_gpu.o.provides.build
 
 nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/graphcuts.o: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/flags.make
 nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/graphcuts.o: ../nestk/deps/opencv/modules/gpu/src/graphcuts.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_17)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_17)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/graphcuts.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/gpu" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_gpu.dir/src/graphcuts.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/graphcuts.cpp"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/gpu && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_gpu.dir/src/graphcuts.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/gpu/src/graphcuts.cpp
 
 nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/graphcuts.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_gpu.dir/src/graphcuts.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/gpu" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/graphcuts.cpp" > CMakeFiles/opencv_gpu.dir/src/graphcuts.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/gpu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/gpu/src/graphcuts.cpp > CMakeFiles/opencv_gpu.dir/src/graphcuts.i
 
 nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/graphcuts.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_gpu.dir/src/graphcuts.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/gpu" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/graphcuts.cpp" -o CMakeFiles/opencv_gpu.dir/src/graphcuts.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/gpu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/gpu/src/graphcuts.cpp -o CMakeFiles/opencv_gpu.dir/src/graphcuts.s
 
 nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/graphcuts.o.requires:
 .PHONY : nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/graphcuts.o.requires
@@ -457,72 +457,72 @@ nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/graphcuts.o.provides
 nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/graphcuts.o.provides.build: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/graphcuts.o
 .PHONY : nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/graphcuts.o.provides.build
 
-nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/arithm.o: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/flags.make
-nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/arithm.o: ../nestk/deps/opencv/modules/gpu/src/arithm.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_18)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/arithm.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/gpu" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_gpu.dir/src/arithm.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/arithm.cpp"
+nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/beliefpropagation_gpu.o: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/flags.make
+nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/beliefpropagation_gpu.o: ../nestk/deps/opencv/modules/gpu/src/beliefpropagation_gpu.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_18)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/beliefpropagation_gpu.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/gpu && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_gpu.dir/src/beliefpropagation_gpu.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/gpu/src/beliefpropagation_gpu.cpp
 
-nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/arithm.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_gpu.dir/src/arithm.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/gpu" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/arithm.cpp" > CMakeFiles/opencv_gpu.dir/src/arithm.i
+nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/beliefpropagation_gpu.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_gpu.dir/src/beliefpropagation_gpu.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/gpu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/gpu/src/beliefpropagation_gpu.cpp > CMakeFiles/opencv_gpu.dir/src/beliefpropagation_gpu.i
 
-nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/arithm.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_gpu.dir/src/arithm.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/gpu" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu/src/arithm.cpp" -o CMakeFiles/opencv_gpu.dir/src/arithm.s
+nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/beliefpropagation_gpu.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_gpu.dir/src/beliefpropagation_gpu.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/gpu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/gpu/src/beliefpropagation_gpu.cpp -o CMakeFiles/opencv_gpu.dir/src/beliefpropagation_gpu.s
 
-nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/arithm.o.requires:
-.PHONY : nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/arithm.o.requires
+nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/beliefpropagation_gpu.o.requires:
+.PHONY : nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/beliefpropagation_gpu.o.requires
 
-nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/arithm.o.provides: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/arithm.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/build.make nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/arithm.o.provides.build
-.PHONY : nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/arithm.o.provides
+nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/beliefpropagation_gpu.o.provides: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/beliefpropagation_gpu.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/build.make nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/beliefpropagation_gpu.o.provides.build
+.PHONY : nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/beliefpropagation_gpu.o.provides
 
-nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/arithm.o.provides.build: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/arithm.o
-.PHONY : nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/arithm.o.provides.build
+nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/beliefpropagation_gpu.o.provides.build: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/beliefpropagation_gpu.o
+.PHONY : nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/beliefpropagation_gpu.o.provides.build
 
 # Object files for target opencv_gpu
 opencv_gpu_OBJECTS = \
-"CMakeFiles/opencv_gpu.dir/src/initialization.o" \
 "CMakeFiles/opencv_gpu.dir/src/filtering.o" \
-"CMakeFiles/opencv_gpu.dir/src/hog.o" \
 "CMakeFiles/opencv_gpu.dir/src/split_merge.o" \
-"CMakeFiles/opencv_gpu.dir/src/bilateral_filter.o" \
+"CMakeFiles/opencv_gpu.dir/src/hog.o" \
 "CMakeFiles/opencv_gpu.dir/src/constantspacebp_gpu.o" \
-"CMakeFiles/opencv_gpu.dir/src/speckle_filtering.o" \
+"CMakeFiles/opencv_gpu.dir/src/bilateral_filter.o" \
+"CMakeFiles/opencv_gpu.dir/src/initialization.o" \
+"CMakeFiles/opencv_gpu.dir/src/matrix_operations.o" \
+"CMakeFiles/opencv_gpu.dir/src/precomp.o" \
+"CMakeFiles/opencv_gpu.dir/src/cudastream.o" \
+"CMakeFiles/opencv_gpu.dir/src/arithm.o" \
 "CMakeFiles/opencv_gpu.dir/src/error.o" \
 "CMakeFiles/opencv_gpu.dir/src/imgproc_gpu.o" \
-"CMakeFiles/opencv_gpu.dir/src/cudastream.o" \
-"CMakeFiles/opencv_gpu.dir/src/matrix_operations.o" \
-"CMakeFiles/opencv_gpu.dir/src/stereobm_gpu.o" \
+"CMakeFiles/opencv_gpu.dir/src/speckle_filtering.o" \
 "CMakeFiles/opencv_gpu.dir/src/color.o" \
 "CMakeFiles/opencv_gpu.dir/src/mssegmentation.o" \
-"CMakeFiles/opencv_gpu.dir/src/beliefpropagation_gpu.o" \
-"CMakeFiles/opencv_gpu.dir/src/precomp.o" \
+"CMakeFiles/opencv_gpu.dir/src/stereobm_gpu.o" \
 "CMakeFiles/opencv_gpu.dir/src/graphcuts.o" \
-"CMakeFiles/opencv_gpu.dir/src/arithm.o"
+"CMakeFiles/opencv_gpu.dir/src/beliefpropagation_gpu.o"
 
 # External object files for target opencv_gpu
 opencv_gpu_EXTERNAL_OBJECTS =
 
-lib/libopencv_gpu.so.2.2.0: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/initialization.o
 lib/libopencv_gpu.so.2.2.0: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/filtering.o
-lib/libopencv_gpu.so.2.2.0: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/hog.o
 lib/libopencv_gpu.so.2.2.0: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/split_merge.o
-lib/libopencv_gpu.so.2.2.0: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/bilateral_filter.o
+lib/libopencv_gpu.so.2.2.0: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/hog.o
 lib/libopencv_gpu.so.2.2.0: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/constantspacebp_gpu.o
-lib/libopencv_gpu.so.2.2.0: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/speckle_filtering.o
+lib/libopencv_gpu.so.2.2.0: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/bilateral_filter.o
+lib/libopencv_gpu.so.2.2.0: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/initialization.o
+lib/libopencv_gpu.so.2.2.0: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/matrix_operations.o
+lib/libopencv_gpu.so.2.2.0: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/precomp.o
+lib/libopencv_gpu.so.2.2.0: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/cudastream.o
+lib/libopencv_gpu.so.2.2.0: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/arithm.o
 lib/libopencv_gpu.so.2.2.0: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/error.o
 lib/libopencv_gpu.so.2.2.0: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/imgproc_gpu.o
-lib/libopencv_gpu.so.2.2.0: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/cudastream.o
-lib/libopencv_gpu.so.2.2.0: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/matrix_operations.o
-lib/libopencv_gpu.so.2.2.0: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/stereobm_gpu.o
+lib/libopencv_gpu.so.2.2.0: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/speckle_filtering.o
 lib/libopencv_gpu.so.2.2.0: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/color.o
 lib/libopencv_gpu.so.2.2.0: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/mssegmentation.o
-lib/libopencv_gpu.so.2.2.0: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/beliefpropagation_gpu.o
-lib/libopencv_gpu.so.2.2.0: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/precomp.o
+lib/libopencv_gpu.so.2.2.0: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/stereobm_gpu.o
 lib/libopencv_gpu.so.2.2.0: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/graphcuts.o
-lib/libopencv_gpu.so.2.2.0: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/arithm.o
+lib/libopencv_gpu.so.2.2.0: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/beliefpropagation_gpu.o
 lib/libopencv_gpu.so.2.2.0: lib/libopencv_core.so.2.2.0
 lib/libopencv_gpu.so.2.2.0: lib/libopencv_imgproc.so.2.2.0
 lib/libopencv_gpu.so.2.2.0: lib/libopencv_objdetect.so.2.2.0
@@ -534,8 +534,8 @@ lib/libopencv_gpu.so.2.2.0: 3rdparty/lib/libzlib.a
 lib/libopencv_gpu.so.2.2.0: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/build.make
 lib/libopencv_gpu.so.2.2.0: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library ../../../../../lib/libopencv_gpu.so"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/gpu" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/opencv_gpu.dir/link.txt --verbose=$(VERBOSE)
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/gpu" && $(CMAKE_COMMAND) -E cmake_symlink_library ../../../../../lib/libopencv_gpu.so.2.2.0 ../../../../../lib/libopencv_gpu.so.2.2 ../../../../../lib/libopencv_gpu.so
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/gpu && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/opencv_gpu.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/gpu && $(CMAKE_COMMAND) -E cmake_symlink_library ../../../../../lib/libopencv_gpu.so.2.2.0 ../../../../../lib/libopencv_gpu.so.2.2 ../../../../../lib/libopencv_gpu.so
 
 lib/libopencv_gpu.so.2.2: lib/libopencv_gpu.so.2.2.0
 
@@ -545,31 +545,31 @@ lib/libopencv_gpu.so: lib/libopencv_gpu.so.2.2.0
 nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/build: lib/libopencv_gpu.so
 .PHONY : nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/build
 
-nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/requires: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/initialization.o.requires
 nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/requires: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/filtering.o.requires
-nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/requires: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/hog.o.requires
 nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/requires: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/split_merge.o.requires
-nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/requires: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/bilateral_filter.o.requires
+nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/requires: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/hog.o.requires
 nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/requires: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/constantspacebp_gpu.o.requires
-nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/requires: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/speckle_filtering.o.requires
+nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/requires: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/bilateral_filter.o.requires
+nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/requires: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/initialization.o.requires
+nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/requires: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/matrix_operations.o.requires
+nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/requires: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/precomp.o.requires
+nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/requires: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/cudastream.o.requires
+nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/requires: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/arithm.o.requires
 nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/requires: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/error.o.requires
 nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/requires: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/imgproc_gpu.o.requires
-nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/requires: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/cudastream.o.requires
-nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/requires: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/matrix_operations.o.requires
-nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/requires: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/stereobm_gpu.o.requires
+nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/requires: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/speckle_filtering.o.requires
 nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/requires: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/color.o.requires
 nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/requires: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/mssegmentation.o.requires
-nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/requires: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/beliefpropagation_gpu.o.requires
-nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/requires: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/precomp.o.requires
+nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/requires: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/stereobm_gpu.o.requires
 nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/requires: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/graphcuts.o.requires
-nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/requires: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/arithm.o.requires
+nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/requires: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/src/beliefpropagation_gpu.o.requires
 .PHONY : nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/requires
 
 nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/clean:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/gpu" && $(CMAKE_COMMAND) -P CMakeFiles/opencv_gpu.dir/cmake_clean.cmake
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/gpu && $(CMAKE_COMMAND) -P CMakeFiles/opencv_gpu.dir/cmake_clean.cmake
 .PHONY : nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/clean
 
 nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/depend:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/louis/Documents/Motion Capture/Mouse" "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/gpu" "/home/louis/Documents/Motion Capture/Mouse/build" "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/gpu" "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/DependInfo.cmake" --color=$(COLOR)
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/gpu /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/gpu /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/depend
 

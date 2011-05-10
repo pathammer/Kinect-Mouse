@@ -46,4 +46,4 @@ nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_performance.dir/perform
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/compat.hpp
  ../nestk/deps/opencv/modules/objdetect/include/opencv2/objdetect/objdetect.hpp
  ../nestk/deps/opencv/modules/video/include/opencv2/video/tracking.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/haartraining/performance.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/haartraining/performance.cpp

@@ -4,19 +4,19 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/video/src/bgfg_acmmm2003.cpp" "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/bgfg_acmmm2003.o"
-  "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/video/src/bgfg_codebook.cpp" "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/bgfg_codebook.o"
-  "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/video/src/bgfg_common.cpp" "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/bgfg_common.o"
-  "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/video/src/bgfg_gaussmix.cpp" "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/bgfg_gaussmix.o"
-  "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/video/src/camshift.cpp" "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/camshift.o"
-  "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/video/src/kalman.cpp" "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/kalman.o"
-  "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/video/src/lkpyramid.cpp" "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/lkpyramid.o"
-  "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/video/src/motempl.cpp" "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/motempl.o"
-  "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/video/src/optflowbm.cpp" "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowbm.o"
-  "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/video/src/optflowgf.cpp" "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowgf.o"
-  "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/video/src/optflowhs.cpp" "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowhs.o"
-  "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/video/src/optflowlk.cpp" "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowlk.o"
-  "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/video/src/precomp.cpp" "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/precomp.o"
+  "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/video/src/bgfg_acmmm2003.cpp" "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/bgfg_acmmm2003.o"
+  "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/video/src/bgfg_codebook.cpp" "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/bgfg_codebook.o"
+  "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/video/src/bgfg_common.cpp" "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/bgfg_common.o"
+  "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/video/src/bgfg_gaussmix.cpp" "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/bgfg_gaussmix.o"
+  "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/video/src/camshift.cpp" "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/camshift.o"
+  "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/video/src/kalman.cpp" "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/kalman.o"
+  "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/video/src/lkpyramid.cpp" "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/lkpyramid.o"
+  "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/video/src/motempl.cpp" "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/motempl.o"
+  "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/video/src/optflowbm.cpp" "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowbm.o"
+  "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/video/src/optflowgf.cpp" "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowgf.o"
+  "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/video/src/optflowhs.cpp" "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowhs.o"
+  "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/video/src/optflowlk.cpp" "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/optflowlk.o"
+  "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/video/src/precomp.cpp" "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/src/precomp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -28,15 +28,15 @@ SET(CMAKE_TARGET_DEFINITIONS
 
 # Pairs of files generated by the same build rule.
 SET(CMAKE_MULTIPLE_OUTPUT_PAIRS
-  "/home/louis/Documents/Motion Capture/Mouse/build/lib/libopencv_video.so" "/home/louis/Documents/Motion Capture/Mouse/build/lib/libopencv_video.so.2.2.0"
-  "/home/louis/Documents/Motion Capture/Mouse/build/lib/libopencv_video.so.2.2" "/home/louis/Documents/Motion Capture/Mouse/build/lib/libopencv_video.so.2.2.0"
+  "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/lib/libopencv_video.so" "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/lib/libopencv_video.so.2.2.0"
+  "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/lib/libopencv_video.so.2.2" "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/lib/libopencv_video.so.2.2.0"
   )
 
 
 # Targets to which this target links.
 SET(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/DependInfo.cmake"
-  "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/DependInfo.cmake"
-  "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/3rdparty/lapack/CMakeFiles/opencv_lapack.dir/DependInfo.cmake"
-  "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/DependInfo.cmake"
+  "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/DependInfo.cmake"
+  "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/DependInfo.cmake"
+  "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/3rdparty/lapack/CMakeFiles/opencv_lapack.dir/DependInfo.cmake"
+  "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/DependInfo.cmake"
   )

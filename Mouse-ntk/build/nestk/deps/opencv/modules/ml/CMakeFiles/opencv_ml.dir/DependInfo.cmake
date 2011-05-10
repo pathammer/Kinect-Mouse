@@ -4,22 +4,22 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/ml/src/ann_mlp.cpp" "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/ml/CMakeFiles/opencv_ml.dir/src/ann_mlp.o"
-  "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/ml/src/boost.cpp" "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/ml/CMakeFiles/opencv_ml.dir/src/boost.o"
-  "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/ml/src/cnn.cpp" "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/ml/CMakeFiles/opencv_ml.dir/src/cnn.o"
-  "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/ml/src/data.cpp" "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/ml/CMakeFiles/opencv_ml.dir/src/data.o"
-  "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/ml/src/em.cpp" "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/ml/CMakeFiles/opencv_ml.dir/src/em.o"
-  "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/ml/src/ertrees.cpp" "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/ml/CMakeFiles/opencv_ml.dir/src/ertrees.o"
-  "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/ml/src/estimate.cpp" "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/ml/CMakeFiles/opencv_ml.dir/src/estimate.o"
-  "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/ml/src/gbt.cpp" "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/ml/CMakeFiles/opencv_ml.dir/src/gbt.o"
-  "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/ml/src/inner_functions.cpp" "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/ml/CMakeFiles/opencv_ml.dir/src/inner_functions.o"
-  "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/ml/src/knearest.cpp" "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/ml/CMakeFiles/opencv_ml.dir/src/knearest.o"
-  "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/ml/src/nbayes.cpp" "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/ml/CMakeFiles/opencv_ml.dir/src/nbayes.o"
-  "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/ml/src/precomp.cpp" "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/ml/CMakeFiles/opencv_ml.dir/src/precomp.o"
-  "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/ml/src/rtrees.cpp" "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/ml/CMakeFiles/opencv_ml.dir/src/rtrees.o"
-  "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/ml/src/svm.cpp" "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/ml/CMakeFiles/opencv_ml.dir/src/svm.o"
-  "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/ml/src/testset.cpp" "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/ml/CMakeFiles/opencv_ml.dir/src/testset.o"
-  "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/ml/src/tree.cpp" "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/ml/CMakeFiles/opencv_ml.dir/src/tree.o"
+  "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/ml/src/ann_mlp.cpp" "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/ml/CMakeFiles/opencv_ml.dir/src/ann_mlp.o"
+  "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/ml/src/boost.cpp" "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/ml/CMakeFiles/opencv_ml.dir/src/boost.o"
+  "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/ml/src/cnn.cpp" "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/ml/CMakeFiles/opencv_ml.dir/src/cnn.o"
+  "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/ml/src/data.cpp" "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/ml/CMakeFiles/opencv_ml.dir/src/data.o"
+  "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/ml/src/em.cpp" "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/ml/CMakeFiles/opencv_ml.dir/src/em.o"
+  "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/ml/src/ertrees.cpp" "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/ml/CMakeFiles/opencv_ml.dir/src/ertrees.o"
+  "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/ml/src/estimate.cpp" "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/ml/CMakeFiles/opencv_ml.dir/src/estimate.o"
+  "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/ml/src/gbt.cpp" "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/ml/CMakeFiles/opencv_ml.dir/src/gbt.o"
+  "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/ml/src/inner_functions.cpp" "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/ml/CMakeFiles/opencv_ml.dir/src/inner_functions.o"
+  "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/ml/src/knearest.cpp" "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/ml/CMakeFiles/opencv_ml.dir/src/knearest.o"
+  "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/ml/src/nbayes.cpp" "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/ml/CMakeFiles/opencv_ml.dir/src/nbayes.o"
+  "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/ml/src/precomp.cpp" "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/ml/CMakeFiles/opencv_ml.dir/src/precomp.o"
+  "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/ml/src/rtrees.cpp" "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/ml/CMakeFiles/opencv_ml.dir/src/rtrees.o"
+  "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/ml/src/svm.cpp" "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/ml/CMakeFiles/opencv_ml.dir/src/svm.o"
+  "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/ml/src/testset.cpp" "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/ml/CMakeFiles/opencv_ml.dir/src/testset.o"
+  "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/ml/src/tree.cpp" "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/ml/CMakeFiles/opencv_ml.dir/src/tree.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -31,14 +31,14 @@ SET(CMAKE_TARGET_DEFINITIONS
 
 # Pairs of files generated by the same build rule.
 SET(CMAKE_MULTIPLE_OUTPUT_PAIRS
-  "/home/louis/Documents/Motion Capture/Mouse/build/lib/libopencv_ml.so" "/home/louis/Documents/Motion Capture/Mouse/build/lib/libopencv_ml.so.2.2.0"
-  "/home/louis/Documents/Motion Capture/Mouse/build/lib/libopencv_ml.so.2.2" "/home/louis/Documents/Motion Capture/Mouse/build/lib/libopencv_ml.so.2.2.0"
+  "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/lib/libopencv_ml.so" "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/lib/libopencv_ml.so.2.2.0"
+  "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/lib/libopencv_ml.so.2.2" "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/lib/libopencv_ml.so.2.2.0"
   )
 
 
 # Targets to which this target links.
 SET(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/DependInfo.cmake"
-  "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/3rdparty/lapack/CMakeFiles/opencv_lapack.dir/DependInfo.cmake"
-  "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/DependInfo.cmake"
+  "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/DependInfo.cmake"
+  "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/3rdparty/lapack/CMakeFiles/opencv_lapack.dir/DependInfo.cmake"
+  "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/DependInfo.cmake"
   )

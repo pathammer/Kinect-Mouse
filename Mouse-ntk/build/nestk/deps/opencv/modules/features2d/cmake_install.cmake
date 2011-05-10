@@ -1,4 +1,4 @@
-# Install script for directory: /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/features2d
+# Install script for directory: /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/features2d
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,50 +34,78 @@ ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "main")
   IF("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    IF(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libopencv_features2d.so.2.2.0")
-      FILE(RPATH_CHECK
-           FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libopencv_features2d.so.2.2.0"
-           RPATH "/usr/local/lib")
-    ENDIF(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libopencv_features2d.so.2.2.0")
+    FOREACH(file
+        "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libopencv_features2d.so.2.2.0"
+        "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libopencv_features2d.so.2.2"
+        "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libopencv_features2d.so"
+        )
+      IF(EXISTS "${file}" AND
+         NOT IS_SYMLINK "${file}")
+        FILE(RPATH_CHECK
+             FILE "${file}"
+             RPATH "/usr/local/lib")
+      ENDIF()
+    ENDFOREACH()
     FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES
-      "/home/louis/Documents/Motion Capture/Mouse/build/lib/libopencv_features2d.so.2.2.0"
-      "/home/louis/Documents/Motion Capture/Mouse/build/lib/libopencv_features2d.so.2.2"
-      "/home/louis/Documents/Motion Capture/Mouse/build/lib/libopencv_features2d.so"
+      "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/lib/libopencv_features2d.so.2.2.0"
+      "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/lib/libopencv_features2d.so.2.2"
+      "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/lib/libopencv_features2d.so"
       )
-    IF(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libopencv_features2d.so.2.2.0")
-      FILE(RPATH_CHANGE
-           FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libopencv_features2d.so.2.2.0"
-           OLD_RPATH "/home/louis/Documents/Motion Capture/Mouse/build/lib:"
-           NEW_RPATH "/usr/local/lib")
-      IF(CMAKE_INSTALL_DO_STRIP)
-        EXECUTE_PROCESS(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libopencv_features2d.so.2.2.0")
-      ENDIF(CMAKE_INSTALL_DO_STRIP)
-    ENDIF(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libopencv_features2d.so.2.2.0")
+    FOREACH(file
+        "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libopencv_features2d.so.2.2.0"
+        "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libopencv_features2d.so.2.2"
+        "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libopencv_features2d.so"
+        )
+      IF(EXISTS "${file}" AND
+         NOT IS_SYMLINK "${file}")
+        FILE(RPATH_CHANGE
+             FILE "${file}"
+             OLD_RPATH "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/lib:"
+             NEW_RPATH "/usr/local/lib")
+        IF(CMAKE_INSTALL_DO_STRIP)
+          EXECUTE_PROCESS(COMMAND "/usr/bin/strip" "${file}")
+        ENDIF(CMAKE_INSTALL_DO_STRIP)
+      ENDIF()
+    ENDFOREACH()
   ENDIF("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
   IF("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee],[Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
-    IF(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libopencv_features2d.so.2.2.0")
-      FILE(RPATH_CHECK
-           FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libopencv_features2d.so.2.2.0"
-           RPATH "/usr/local/lib")
-    ENDIF(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libopencv_features2d.so.2.2.0")
+    FOREACH(file
+        "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libopencv_features2d.so.2.2.0"
+        "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libopencv_features2d.so.2.2"
+        "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libopencv_features2d.so"
+        )
+      IF(EXISTS "${file}" AND
+         NOT IS_SYMLINK "${file}")
+        FILE(RPATH_CHECK
+             FILE "${file}"
+             RPATH "/usr/local/lib")
+      ENDIF()
+    ENDFOREACH()
     FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES
-      "/home/louis/Documents/Motion Capture/Mouse/build/lib/libopencv_features2d.so.2.2.0"
-      "/home/louis/Documents/Motion Capture/Mouse/build/lib/libopencv_features2d.so.2.2"
-      "/home/louis/Documents/Motion Capture/Mouse/build/lib/libopencv_features2d.so"
+      "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/lib/libopencv_features2d.so.2.2.0"
+      "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/lib/libopencv_features2d.so.2.2"
+      "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/lib/libopencv_features2d.so"
       )
-    IF(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libopencv_features2d.so.2.2.0")
-      FILE(RPATH_CHANGE
-           FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libopencv_features2d.so.2.2.0"
-           OLD_RPATH "/home/louis/Documents/Motion Capture/Mouse/build/lib:"
-           NEW_RPATH "/usr/local/lib")
-      IF(CMAKE_INSTALL_DO_STRIP)
-        EXECUTE_PROCESS(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libopencv_features2d.so.2.2.0")
-      ENDIF(CMAKE_INSTALL_DO_STRIP)
-    ENDIF(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libopencv_features2d.so.2.2.0")
+    FOREACH(file
+        "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libopencv_features2d.so.2.2.0"
+        "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libopencv_features2d.so.2.2"
+        "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libopencv_features2d.so"
+        )
+      IF(EXISTS "${file}" AND
+         NOT IS_SYMLINK "${file}")
+        FILE(RPATH_CHANGE
+             FILE "${file}"
+             OLD_RPATH "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/lib:"
+             NEW_RPATH "/usr/local/lib")
+        IF(CMAKE_INSTALL_DO_STRIP)
+          EXECUTE_PROCESS(COMMAND "/usr/bin/strip" "${file}")
+        ENDIF(CMAKE_INSTALL_DO_STRIP)
+      ENDIF()
+    ENDFOREACH()
   ENDIF("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee],[Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "main")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "main")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv2/features2d" TYPE FILE FILES "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/features2d/include/opencv2/features2d/features2d.hpp")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv2/features2d" TYPE FILE FILES "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/features2d/include/opencv2/features2d/features2d.hpp")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "main")
 

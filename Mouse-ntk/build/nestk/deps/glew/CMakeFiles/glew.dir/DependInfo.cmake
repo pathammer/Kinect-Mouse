@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_C
-  "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/glew/src/glew.c" "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/glew/CMakeFiles/glew.dir/src/glew.o"
+  "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/glew/src/glew.c" "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/glew/CMakeFiles/glew.dir/src/glew.o"
   )
 SET(CMAKE_C_COMPILER_ID "GNU")
 

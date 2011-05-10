@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/louis/Documents/Motion Capture/Mouse"
+CMAKE_SOURCE_DIR = /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/louis/Documents/Motion Capture/Mouse/build"
+CMAKE_BINARY_DIR = /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -110,14 +110,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/haartraining/CMakeFiles/progress.marks"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f CMakeFiles/Makefile2 nestk/deps/opencv/modules/haartraining/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 0
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/haartraining/CMakeFiles/progress.marks
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f CMakeFiles/Makefile2 nestk/deps/opencv/modules/haartraining/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f CMakeFiles/Makefile2 nestk/deps/opencv/modules/haartraining/clean
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f CMakeFiles/Makefile2 nestk/deps/opencv/modules/haartraining/clean
 .PHONY : clean
 
 # The main clean target
@@ -126,22 +126,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f CMakeFiles/Makefile2 nestk/deps/opencv/modules/haartraining/preinstall
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f CMakeFiles/Makefile2 nestk/deps/opencv/modules/haartraining/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f CMakeFiles/Makefile2 nestk/deps/opencv/modules/haartraining/preinstall
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f CMakeFiles/Makefile2 nestk/deps/opencv/modules/haartraining/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_createsamples.dir/rule:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f CMakeFiles/Makefile2 nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_createsamples.dir/rule
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f CMakeFiles/Makefile2 nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_createsamples.dir/rule
 .PHONY : nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_createsamples.dir/rule
 
 # Convenience name for target.
@@ -150,12 +150,12 @@ opencv_createsamples: nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_c
 
 # fast build rule for target.
 opencv_createsamples/fast:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_createsamples.dir/build.make nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_createsamples.dir/build
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_createsamples.dir/build.make nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_createsamples.dir/build
 .PHONY : opencv_createsamples/fast
 
 # Convenience name for target.
 nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining.dir/rule:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f CMakeFiles/Makefile2 nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining.dir/rule
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f CMakeFiles/Makefile2 nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining.dir/rule
 .PHONY : nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining.dir/rule
 
 # Convenience name for target.
@@ -164,12 +164,12 @@ opencv_haartraining: nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_ha
 
 # fast build rule for target.
 opencv_haartraining/fast:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining.dir/build.make nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining.dir/build
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining.dir/build.make nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining.dir/build
 .PHONY : opencv_haartraining/fast
 
 # Convenience name for target.
 nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining_engine.dir/rule:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f CMakeFiles/Makefile2 nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining_engine.dir/rule
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f CMakeFiles/Makefile2 nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining_engine.dir/rule
 .PHONY : nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining_engine.dir/rule
 
 # Convenience name for target.
@@ -178,12 +178,12 @@ opencv_haartraining_engine: nestk/deps/opencv/modules/haartraining/CMakeFiles/op
 
 # fast build rule for target.
 opencv_haartraining_engine/fast:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining_engine.dir/build.make nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining_engine.dir/build
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining_engine.dir/build.make nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining_engine.dir/build
 .PHONY : opencv_haartraining_engine/fast
 
 # Convenience name for target.
 nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_performance.dir/rule:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f CMakeFiles/Makefile2 nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_performance.dir/rule
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f CMakeFiles/Makefile2 nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_performance.dir/rule
 .PHONY : nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_performance.dir/rule
 
 # Convenience name for target.
@@ -192,127 +192,127 @@ opencv_performance: nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_per
 
 # fast build rule for target.
 opencv_performance/fast:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_performance.dir/build.make nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_performance.dir/build
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_performance.dir/build.make nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_performance.dir/build
 .PHONY : opencv_performance/fast
 
 # target to build an object file
 createsamples.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_createsamples.dir/build.make nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_createsamples.dir/createsamples.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_createsamples.dir/build.make nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_createsamples.dir/createsamples.o
 .PHONY : createsamples.o
 
 # target to preprocess a source file
 createsamples.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_createsamples.dir/build.make nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_createsamples.dir/createsamples.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_createsamples.dir/build.make nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_createsamples.dir/createsamples.i
 .PHONY : createsamples.i
 
 # target to generate assembly for a file
 createsamples.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_createsamples.dir/build.make nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_createsamples.dir/createsamples.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_createsamples.dir/build.make nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_createsamples.dir/createsamples.s
 .PHONY : createsamples.s
 
 # target to build an object file
 cvboost.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining_engine.dir/build.make nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining_engine.dir/cvboost.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining_engine.dir/build.make nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining_engine.dir/cvboost.o
 .PHONY : cvboost.o
 
 # target to preprocess a source file
 cvboost.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining_engine.dir/build.make nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining_engine.dir/cvboost.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining_engine.dir/build.make nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining_engine.dir/cvboost.i
 .PHONY : cvboost.i
 
 # target to generate assembly for a file
 cvboost.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining_engine.dir/build.make nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining_engine.dir/cvboost.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining_engine.dir/build.make nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining_engine.dir/cvboost.s
 .PHONY : cvboost.s
 
 # target to build an object file
 cvcommon.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining_engine.dir/build.make nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining_engine.dir/cvcommon.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining_engine.dir/build.make nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining_engine.dir/cvcommon.o
 .PHONY : cvcommon.o
 
 # target to preprocess a source file
 cvcommon.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining_engine.dir/build.make nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining_engine.dir/cvcommon.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining_engine.dir/build.make nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining_engine.dir/cvcommon.i
 .PHONY : cvcommon.i
 
 # target to generate assembly for a file
 cvcommon.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining_engine.dir/build.make nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining_engine.dir/cvcommon.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining_engine.dir/build.make nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining_engine.dir/cvcommon.s
 .PHONY : cvcommon.s
 
 # target to build an object file
 cvhaarclassifier.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining_engine.dir/build.make nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining_engine.dir/cvhaarclassifier.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining_engine.dir/build.make nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining_engine.dir/cvhaarclassifier.o
 .PHONY : cvhaarclassifier.o
 
 # target to preprocess a source file
 cvhaarclassifier.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining_engine.dir/build.make nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining_engine.dir/cvhaarclassifier.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining_engine.dir/build.make nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining_engine.dir/cvhaarclassifier.i
 .PHONY : cvhaarclassifier.i
 
 # target to generate assembly for a file
 cvhaarclassifier.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining_engine.dir/build.make nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining_engine.dir/cvhaarclassifier.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining_engine.dir/build.make nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining_engine.dir/cvhaarclassifier.s
 .PHONY : cvhaarclassifier.s
 
 # target to build an object file
 cvhaartraining.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining_engine.dir/build.make nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining_engine.dir/cvhaartraining.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining_engine.dir/build.make nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining_engine.dir/cvhaartraining.o
 .PHONY : cvhaartraining.o
 
 # target to preprocess a source file
 cvhaartraining.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining_engine.dir/build.make nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining_engine.dir/cvhaartraining.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining_engine.dir/build.make nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining_engine.dir/cvhaartraining.i
 .PHONY : cvhaartraining.i
 
 # target to generate assembly for a file
 cvhaartraining.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining_engine.dir/build.make nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining_engine.dir/cvhaartraining.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining_engine.dir/build.make nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining_engine.dir/cvhaartraining.s
 .PHONY : cvhaartraining.s
 
 # target to build an object file
 cvsamples.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining_engine.dir/build.make nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining_engine.dir/cvsamples.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining_engine.dir/build.make nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining_engine.dir/cvsamples.o
 .PHONY : cvsamples.o
 
 # target to preprocess a source file
 cvsamples.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining_engine.dir/build.make nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining_engine.dir/cvsamples.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining_engine.dir/build.make nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining_engine.dir/cvsamples.i
 .PHONY : cvsamples.i
 
 # target to generate assembly for a file
 cvsamples.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining_engine.dir/build.make nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining_engine.dir/cvsamples.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining_engine.dir/build.make nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining_engine.dir/cvsamples.s
 .PHONY : cvsamples.s
 
 # target to build an object file
 haartraining.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining.dir/build.make nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining.dir/haartraining.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining.dir/build.make nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining.dir/haartraining.o
 .PHONY : haartraining.o
 
 # target to preprocess a source file
 haartraining.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining.dir/build.make nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining.dir/haartraining.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining.dir/build.make nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining.dir/haartraining.i
 .PHONY : haartraining.i
 
 # target to generate assembly for a file
 haartraining.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining.dir/build.make nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining.dir/haartraining.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining.dir/build.make nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining.dir/haartraining.s
 .PHONY : haartraining.s
 
 # target to build an object file
 performance.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_performance.dir/build.make nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_performance.dir/performance.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_performance.dir/build.make nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_performance.dir/performance.o
 .PHONY : performance.o
 
 # target to preprocess a source file
 performance.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_performance.dir/build.make nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_performance.dir/performance.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_performance.dir/build.make nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_performance.dir/performance.i
 .PHONY : performance.i
 
 # target to generate assembly for a file
 performance.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_performance.dir/build.make nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_performance.dir/performance.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_performance.dir/build.make nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_performance.dir/performance.s
 .PHONY : performance.s
 
 # Help Target
@@ -366,6 +366,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

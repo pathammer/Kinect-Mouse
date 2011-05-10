@@ -1,4 +1,4 @@
-# Install script for directory: /home/louis/Documents/Motion Capture/Mouse/nestk/deps/glew
+# Install script for directory: /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/glew
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)

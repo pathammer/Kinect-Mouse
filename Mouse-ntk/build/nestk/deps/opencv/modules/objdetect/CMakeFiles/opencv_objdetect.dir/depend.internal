@@ -17,8 +17,8 @@ nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/cascaded
  ../nestk/deps/opencv/modules/objdetect/../imgproc/include/opencv2/imgproc/imgproc_c.h
  ../nestk/deps/opencv/modules/objdetect/../imgproc/include/opencv2/imgproc/types_c.h
  ../nestk/deps/opencv/modules/objdetect/include/opencv2/objdetect/objdetect.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/cascadedetect.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/cascadedetect.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/distancetransform.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -36,11 +36,11 @@ nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/distance
  ../nestk/deps/opencv/modules/objdetect/../imgproc/include/opencv2/imgproc/imgproc_c.h
  ../nestk/deps/opencv/modules/objdetect/../imgproc/include/opencv2/imgproc/types_c.h
  ../nestk/deps/opencv/modules/objdetect/include/opencv2/objdetect/objdetect.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/_lsvm_distancetransform.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/_lsvm_error.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/_lsvm_types.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/distancetransform.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/_lsvm_distancetransform.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/_lsvm_error.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/_lsvm_types.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/distancetransform.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/featurepyramid.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -58,13 +58,13 @@ nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/featurep
  ../nestk/deps/opencv/modules/objdetect/../imgproc/include/opencv2/imgproc/imgproc_c.h
  ../nestk/deps/opencv/modules/objdetect/../imgproc/include/opencv2/imgproc/types_c.h
  ../nestk/deps/opencv/modules/objdetect/include/opencv2/objdetect/objdetect.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/_latentsvm.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/_lsvm_error.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/_lsvm_resizeimg.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/_lsvm_routine.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/_lsvm_types.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/featurepyramid.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/_latentsvm.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/_lsvm_error.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/_lsvm_resizeimg.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/_lsvm_routine.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/_lsvm_types.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/featurepyramid.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/fft.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -82,11 +82,11 @@ nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/fft.o
  ../nestk/deps/opencv/modules/objdetect/../imgproc/include/opencv2/imgproc/imgproc_c.h
  ../nestk/deps/opencv/modules/objdetect/../imgproc/include/opencv2/imgproc/types_c.h
  ../nestk/deps/opencv/modules/objdetect/include/opencv2/objdetect/objdetect.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/_lsvm_error.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/_lsvm_fft.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/_lsvm_types.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/fft.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/_lsvm_error.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/_lsvm_fft.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/_lsvm_types.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/fft.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/haar.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -104,8 +104,8 @@ nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/haar.o
  ../nestk/deps/opencv/modules/objdetect/../imgproc/include/opencv2/imgproc/imgproc_c.h
  ../nestk/deps/opencv/modules/objdetect/../imgproc/include/opencv2/imgproc/types_c.h
  ../nestk/deps/opencv/modules/objdetect/include/opencv2/objdetect/objdetect.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/haar.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/haar.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/hog.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -123,8 +123,8 @@ nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/hog.o
  ../nestk/deps/opencv/modules/objdetect/../imgproc/include/opencv2/imgproc/imgproc_c.h
  ../nestk/deps/opencv/modules/objdetect/../imgproc/include/opencv2/imgproc/types_c.h
  ../nestk/deps/opencv/modules/objdetect/include/opencv2/objdetect/objdetect.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/hog.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/hog.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/latentsvm.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -142,15 +142,15 @@ nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/latentsv
  ../nestk/deps/opencv/modules/objdetect/../imgproc/include/opencv2/imgproc/imgproc_c.h
  ../nestk/deps/opencv/modules/objdetect/../imgproc/include/opencv2/imgproc/types_c.h
  ../nestk/deps/opencv/modules/objdetect/include/opencv2/objdetect/objdetect.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/_latentsvm.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/_lsvm_distancetransform.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/_lsvm_error.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/_lsvm_fft.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/_lsvm_matching.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/_lsvm_routine.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/_lsvm_types.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/latentsvm.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/_latentsvm.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/_lsvm_distancetransform.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/_lsvm_error.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/_lsvm_fft.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/_lsvm_matching.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/_lsvm_routine.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/_lsvm_types.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/latentsvm.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/latentsvmdetector.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -168,16 +168,16 @@ nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/latentsv
  ../nestk/deps/opencv/modules/objdetect/../imgproc/include/opencv2/imgproc/imgproc_c.h
  ../nestk/deps/opencv/modules/objdetect/../imgproc/include/opencv2/imgproc/types_c.h
  ../nestk/deps/opencv/modules/objdetect/include/opencv2/objdetect/objdetect.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/_latentsvm.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/_lsvm_distancetransform.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/_lsvm_error.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/_lsvm_fft.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/_lsvm_matching.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/_lsvm_routine.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/_lsvm_types.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/_lsvmparser.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/latentsvmdetector.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/_latentsvm.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/_lsvm_distancetransform.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/_lsvm_error.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/_lsvm_fft.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/_lsvm_matching.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/_lsvm_routine.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/_lsvm_types.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/_lsvmparser.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/latentsvmdetector.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/lsvmparser.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -195,11 +195,11 @@ nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/lsvmpars
  ../nestk/deps/opencv/modules/objdetect/../imgproc/include/opencv2/imgproc/imgproc_c.h
  ../nestk/deps/opencv/modules/objdetect/../imgproc/include/opencv2/imgproc/types_c.h
  ../nestk/deps/opencv/modules/objdetect/include/opencv2/objdetect/objdetect.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/_lsvm_error.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/_lsvm_types.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/_lsvmparser.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/lsvmparser.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/_lsvm_error.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/_lsvm_types.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/_lsvmparser.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/lsvmparser.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/matching.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -217,15 +217,15 @@ nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/matching
  ../nestk/deps/opencv/modules/objdetect/../imgproc/include/opencv2/imgproc/imgproc_c.h
  ../nestk/deps/opencv/modules/objdetect/../imgproc/include/opencv2/imgproc/types_c.h
  ../nestk/deps/opencv/modules/objdetect/include/opencv2/objdetect/objdetect.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/_latentsvm.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/_lsvm_distancetransform.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/_lsvm_error.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/_lsvm_fft.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/_lsvm_matching.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/_lsvm_routine.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/_lsvm_types.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/matching.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/_latentsvm.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/_lsvm_distancetransform.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/_lsvm_error.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/_lsvm_fft.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/_lsvm_matching.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/_lsvm_routine.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/_lsvm_types.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/matching.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/precomp.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -243,8 +243,8 @@ nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/precomp.
  ../nestk/deps/opencv/modules/objdetect/../imgproc/include/opencv2/imgproc/imgproc_c.h
  ../nestk/deps/opencv/modules/objdetect/../imgproc/include/opencv2/imgproc/types_c.h
  ../nestk/deps/opencv/modules/objdetect/include/opencv2/objdetect/objdetect.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/precomp.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/precomp.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/resizeimg.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -262,10 +262,10 @@ nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/resizeim
  ../nestk/deps/opencv/modules/objdetect/../imgproc/include/opencv2/imgproc/imgproc_c.h
  ../nestk/deps/opencv/modules/objdetect/../imgproc/include/opencv2/imgproc/types_c.h
  ../nestk/deps/opencv/modules/objdetect/include/opencv2/objdetect/objdetect.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/_lsvm_resizeimg.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/_lsvm_types.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/precomp.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/resizeimg.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/_lsvm_resizeimg.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/_lsvm_types.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/resizeimg.cpp
  cvconfig.h
 nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/routine.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -283,9 +283,9 @@ nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/routine.
  ../nestk/deps/opencv/modules/objdetect/../imgproc/include/opencv2/imgproc/imgproc_c.h
  ../nestk/deps/opencv/modules/objdetect/../imgproc/include/opencv2/imgproc/types_c.h
  ../nestk/deps/opencv/modules/objdetect/include/opencv2/objdetect/objdetect.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/_lsvm_error.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/_lsvm_routine.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/_lsvm_types.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/precomp.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/routine.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/_lsvm_error.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/_lsvm_routine.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/_lsvm_types.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/routine.cpp
  cvconfig.h

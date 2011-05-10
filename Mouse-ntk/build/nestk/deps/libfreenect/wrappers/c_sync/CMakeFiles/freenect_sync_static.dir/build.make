@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/louis/Documents/Motion Capture/Mouse"
+CMAKE_SOURCE_DIR = /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/louis/Documents/Motion Capture/Mouse/build"
+CMAKE_BINARY_DIR = /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build
 
 # Include any dependencies generated for this target.
 include nestk/deps/libfreenect/wrappers/c_sync/CMakeFiles/freenect_sync_static.dir/depend.make
@@ -51,17 +51,17 @@ include nestk/deps/libfreenect/wrappers/c_sync/CMakeFiles/freenect_sync_static.d
 
 nestk/deps/libfreenect/wrappers/c_sync/CMakeFiles/freenect_sync_static.dir/libfreenect_sync.c.o: nestk/deps/libfreenect/wrappers/c_sync/CMakeFiles/freenect_sync_static.dir/flags.make
 nestk/deps/libfreenect/wrappers/c_sync/CMakeFiles/freenect_sync_static.dir/libfreenect_sync.c.o: ../nestk/deps/libfreenect/wrappers/c_sync/libfreenect_sync.c
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object nestk/deps/libfreenect/wrappers/c_sync/CMakeFiles/freenect_sync_static.dir/libfreenect_sync.c.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/libfreenect/wrappers/c_sync" && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/freenect_sync_static.dir/libfreenect_sync.c.o   -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/libfreenect/wrappers/c_sync/libfreenect_sync.c"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/libfreenect/wrappers/c_sync && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/freenect_sync_static.dir/libfreenect_sync.c.o   -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/libfreenect/wrappers/c_sync/libfreenect_sync.c
 
 nestk/deps/libfreenect/wrappers/c_sync/CMakeFiles/freenect_sync_static.dir/libfreenect_sync.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/freenect_sync_static.dir/libfreenect_sync.c.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/libfreenect/wrappers/c_sync" && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/libfreenect/wrappers/c_sync/libfreenect_sync.c" > CMakeFiles/freenect_sync_static.dir/libfreenect_sync.c.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/libfreenect/wrappers/c_sync && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/libfreenect/wrappers/c_sync/libfreenect_sync.c > CMakeFiles/freenect_sync_static.dir/libfreenect_sync.c.i
 
 nestk/deps/libfreenect/wrappers/c_sync/CMakeFiles/freenect_sync_static.dir/libfreenect_sync.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/freenect_sync_static.dir/libfreenect_sync.c.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/libfreenect/wrappers/c_sync" && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/libfreenect/wrappers/c_sync/libfreenect_sync.c" -o CMakeFiles/freenect_sync_static.dir/libfreenect_sync.c.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/libfreenect/wrappers/c_sync && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/libfreenect/wrappers/c_sync/libfreenect_sync.c -o CMakeFiles/freenect_sync_static.dir/libfreenect_sync.c.s
 
 nestk/deps/libfreenect/wrappers/c_sync/CMakeFiles/freenect_sync_static.dir/libfreenect_sync.c.o.requires:
 .PHONY : nestk/deps/libfreenect/wrappers/c_sync/CMakeFiles/freenect_sync_static.dir/libfreenect_sync.c.o.requires
@@ -84,8 +84,8 @@ lib/libfreenect_sync.a: nestk/deps/libfreenect/wrappers/c_sync/CMakeFiles/freene
 lib/libfreenect_sync.a: nestk/deps/libfreenect/wrappers/c_sync/CMakeFiles/freenect_sync_static.dir/build.make
 lib/libfreenect_sync.a: nestk/deps/libfreenect/wrappers/c_sync/CMakeFiles/freenect_sync_static.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking C static library ../../../../../lib/libfreenect_sync.a"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/libfreenect/wrappers/c_sync" && $(CMAKE_COMMAND) -P CMakeFiles/freenect_sync_static.dir/cmake_clean_target.cmake
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/libfreenect/wrappers/c_sync" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/freenect_sync_static.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/libfreenect/wrappers/c_sync && $(CMAKE_COMMAND) -P CMakeFiles/freenect_sync_static.dir/cmake_clean_target.cmake
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/libfreenect/wrappers/c_sync && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/freenect_sync_static.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 nestk/deps/libfreenect/wrappers/c_sync/CMakeFiles/freenect_sync_static.dir/build: lib/libfreenect_sync.a
@@ -95,10 +95,10 @@ nestk/deps/libfreenect/wrappers/c_sync/CMakeFiles/freenect_sync_static.dir/requi
 .PHONY : nestk/deps/libfreenect/wrappers/c_sync/CMakeFiles/freenect_sync_static.dir/requires
 
 nestk/deps/libfreenect/wrappers/c_sync/CMakeFiles/freenect_sync_static.dir/clean:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/libfreenect/wrappers/c_sync" && $(CMAKE_COMMAND) -P CMakeFiles/freenect_sync_static.dir/cmake_clean.cmake
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/libfreenect/wrappers/c_sync && $(CMAKE_COMMAND) -P CMakeFiles/freenect_sync_static.dir/cmake_clean.cmake
 .PHONY : nestk/deps/libfreenect/wrappers/c_sync/CMakeFiles/freenect_sync_static.dir/clean
 
 nestk/deps/libfreenect/wrappers/c_sync/CMakeFiles/freenect_sync_static.dir/depend:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/louis/Documents/Motion Capture/Mouse" "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/libfreenect/wrappers/c_sync" "/home/louis/Documents/Motion Capture/Mouse/build" "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/libfreenect/wrappers/c_sync" "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/libfreenect/wrappers/c_sync/CMakeFiles/freenect_sync_static.dir/DependInfo.cmake" --color=$(COLOR)
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/libfreenect/wrappers/c_sync /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/libfreenect/wrappers/c_sync /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/libfreenect/wrappers/c_sync/CMakeFiles/freenect_sync_static.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : nestk/deps/libfreenect/wrappers/c_sync/CMakeFiles/freenect_sync_static.dir/depend
 

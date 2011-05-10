@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/haartraining/cvhaartraining.h
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/haartraining/cvhaartraining.h
 
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/haartraining/haartraining.cpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/haartraining/haartraining.cpp
 cstdio
 -
 cstring
@@ -16,5 +16,5 @@ cstring
 cstdlib
 -
 cvhaartraining.h
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/haartraining/cvhaartraining.h
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/haartraining/cvhaartraining.h
 

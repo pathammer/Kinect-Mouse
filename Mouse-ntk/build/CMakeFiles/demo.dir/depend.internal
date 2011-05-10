@@ -175,7 +175,7 @@ CMakeFiles/demo.dir/demo.cpp.o
  ../nestk/ntk/utils/time.h
  ../nestk/ntk/utils/xml_parser.h
  ../nestk/ntk/utils/xml_serializable.h
- /home/louis/Documents/Motion Capture/Mouse/demo.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/demo.cpp
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QDataStream

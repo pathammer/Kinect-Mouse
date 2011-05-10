@@ -176,47 +176,47 @@ opencv2/imgproc/types_c.h
 opencv2/core/core.hpp
 ../nestk/deps/opencv/modules/calib3d/include/opencv2/calib3d/opencv2/core/core.hpp
 
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/calib3d/src/_modelest.h
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/calib3d/src/_modelest.h
 precomp.hpp
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/calib3d/src/precomp.hpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/calib3d/src/precomp.hpp
 
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/calib3d/src/calibinit.cpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/calib3d/src/calibinit.cpp
 precomp.hpp
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/calib3d/src/precomp.hpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/calib3d/src/precomp.hpp
 stdarg.h
 -
 ..//..//include/opencv/highgui.h
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/calib3d/src/..//..//include/opencv/highgui.h
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/calib3d/src/..//..//include/opencv/highgui.h
 
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/calib3d/src/calibration.cpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/calib3d/src/calibration.cpp
 precomp.hpp
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/calib3d/src/precomp.hpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/calib3d/src/precomp.hpp
 stdio.h
 -
 iterator
 -
 
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/calib3d/src/checkchessboard.cpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/calib3d/src/checkchessboard.cpp
 precomp.hpp
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/calib3d/src/precomp.hpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/calib3d/src/precomp.hpp
 vector
 -
 algorithm
 -
 highgui.h
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/calib3d/src/highgui.h
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/calib3d/src/highgui.h
 
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/calib3d/src/fundam.cpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/calib3d/src/fundam.cpp
 precomp.hpp
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/calib3d/src/precomp.hpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/calib3d/src/precomp.hpp
 _modelest.h
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/calib3d/src/_modelest.h
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/calib3d/src/_modelest.h
 
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/calib3d/src/modelest.cpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/calib3d/src/modelest.cpp
 precomp.hpp
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/calib3d/src/precomp.hpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/calib3d/src/precomp.hpp
 _modelest.h
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/calib3d/src/_modelest.h
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/calib3d/src/_modelest.h
 algorithm
 -
 iterator
@@ -224,47 +224,47 @@ iterator
 limits
 -
 
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/calib3d/src/posit.cpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/calib3d/src/posit.cpp
 precomp.hpp
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/calib3d/src/precomp.hpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/calib3d/src/precomp.hpp
 
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/calib3d/src/precomp.cpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/calib3d/src/precomp.cpp
 precomp.hpp
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/calib3d/src/precomp.hpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/calib3d/src/precomp.hpp
 
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/calib3d/src/precomp.hpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/calib3d/src/precomp.hpp
 cvconfig.h
 -
 opencv2/calib3d/calib3d.hpp
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/calib3d/src/opencv2/calib3d/calib3d.hpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/calib3d/src/opencv2/calib3d/calib3d.hpp
 opencv2/imgproc/imgproc.hpp
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/calib3d/src/opencv2/imgproc/imgproc.hpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/calib3d/src/opencv2/imgproc/imgproc.hpp
 opencv2/imgproc/imgproc_c.h
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/calib3d/src/opencv2/imgproc/imgproc_c.h
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/calib3d/src/opencv2/imgproc/imgproc_c.h
 opencv2/core/internal.hpp
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/calib3d/src/opencv2/core/internal.hpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/calib3d/src/opencv2/core/internal.hpp
 
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/calib3d/src/stereobm.cpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/calib3d/src/stereobm.cpp
 precomp.hpp
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/calib3d/src/precomp.hpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/calib3d/src/precomp.hpp
 stdio.h
 -
 limits
 -
 
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/calib3d/src/stereogc.cpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/calib3d/src/stereogc.cpp
 precomp.hpp
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/calib3d/src/precomp.hpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/calib3d/src/precomp.hpp
 
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/calib3d/src/stereosgbm.cpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/calib3d/src/stereosgbm.cpp
 precomp.hpp
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/calib3d/src/precomp.hpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/calib3d/src/precomp.hpp
 limits.h
 -
 
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/calib3d/src/triangulate.cpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/calib3d/src/triangulate.cpp
 precomp.hpp
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/calib3d/src/precomp.hpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/calib3d/src/precomp.hpp
 
 cvconfig.h
 

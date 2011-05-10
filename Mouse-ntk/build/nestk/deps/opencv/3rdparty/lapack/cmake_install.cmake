@@ -1,4 +1,4 @@
-# Install script for directory: /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/3rdparty/lapack
+# Install script for directory: /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/3rdparty/lapack
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)

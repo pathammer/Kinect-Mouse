@@ -1,4 +1,4 @@
-# Install script for directory: /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules
+# Install script for directory: /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,20 +34,20 @@ ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  INCLUDE("/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/calib3d/cmake_install.cmake")
-  INCLUDE("/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/core/cmake_install.cmake")
-  INCLUDE("/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/features2d/cmake_install.cmake")
-  INCLUDE("/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/flann/cmake_install.cmake")
-  INCLUDE("/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/highgui/cmake_install.cmake")
-  INCLUDE("/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/imgproc/cmake_install.cmake")
-  INCLUDE("/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy/cmake_install.cmake")
-  INCLUDE("/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/contrib/cmake_install.cmake")
-  INCLUDE("/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/ml/cmake_install.cmake")
-  INCLUDE("/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/objdetect/cmake_install.cmake")
-  INCLUDE("/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/video/cmake_install.cmake")
-  INCLUDE("/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/haartraining/cmake_install.cmake")
-  INCLUDE("/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/traincascade/cmake_install.cmake")
-  INCLUDE("/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/gpu/cmake_install.cmake")
+  INCLUDE("/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/calib3d/cmake_install.cmake")
+  INCLUDE("/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/core/cmake_install.cmake")
+  INCLUDE("/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/features2d/cmake_install.cmake")
+  INCLUDE("/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/flann/cmake_install.cmake")
+  INCLUDE("/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/highgui/cmake_install.cmake")
+  INCLUDE("/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/imgproc/cmake_install.cmake")
+  INCLUDE("/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy/cmake_install.cmake")
+  INCLUDE("/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/contrib/cmake_install.cmake")
+  INCLUDE("/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/ml/cmake_install.cmake")
+  INCLUDE("/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/objdetect/cmake_install.cmake")
+  INCLUDE("/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/video/cmake_install.cmake")
+  INCLUDE("/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/haartraining/cmake_install.cmake")
+  INCLUDE("/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/traincascade/cmake_install.cmake")
+  INCLUDE("/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/gpu/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 

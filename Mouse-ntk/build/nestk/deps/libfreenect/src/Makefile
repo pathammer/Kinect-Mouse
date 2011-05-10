@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/louis/Documents/Motion Capture/Mouse"
+CMAKE_SOURCE_DIR = /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/louis/Documents/Motion Capture/Mouse/build"
+CMAKE_BINARY_DIR = /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -110,14 +110,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/libfreenect/src/CMakeFiles/progress.marks"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f CMakeFiles/Makefile2 nestk/deps/libfreenect/src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 0
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/libfreenect/src/CMakeFiles/progress.marks
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f CMakeFiles/Makefile2 nestk/deps/libfreenect/src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f CMakeFiles/Makefile2 nestk/deps/libfreenect/src/clean
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f CMakeFiles/Makefile2 nestk/deps/libfreenect/src/clean
 .PHONY : clean
 
 # The main clean target
@@ -126,22 +126,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f CMakeFiles/Makefile2 nestk/deps/libfreenect/src/preinstall
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f CMakeFiles/Makefile2 nestk/deps/libfreenect/src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f CMakeFiles/Makefile2 nestk/deps/libfreenect/src/preinstall
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f CMakeFiles/Makefile2 nestk/deps/libfreenect/src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/rule:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f CMakeFiles/Makefile2 nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/rule
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f CMakeFiles/Makefile2 nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/rule
 .PHONY : nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/rule
 
 # Convenience name for target.
@@ -150,12 +150,12 @@ freenect: nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/rule
 
 # fast build rule for target.
 freenect/fast:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/build.make nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/build
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/build.make nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/build
 .PHONY : freenect/fast
 
 # Convenience name for target.
 nestk/deps/libfreenect/src/CMakeFiles/freenectstatic.dir/rule:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f CMakeFiles/Makefile2 nestk/deps/libfreenect/src/CMakeFiles/freenectstatic.dir/rule
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f CMakeFiles/Makefile2 nestk/deps/libfreenect/src/CMakeFiles/freenectstatic.dir/rule
 .PHONY : nestk/deps/libfreenect/src/CMakeFiles/freenectstatic.dir/rule
 
 # Convenience name for target.
@@ -164,7 +164,7 @@ freenectstatic: nestk/deps/libfreenect/src/CMakeFiles/freenectstatic.dir/rule
 
 # fast build rule for target.
 freenectstatic/fast:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/libfreenect/src/CMakeFiles/freenectstatic.dir/build.make nestk/deps/libfreenect/src/CMakeFiles/freenectstatic.dir/build
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/libfreenect/src/CMakeFiles/freenectstatic.dir/build.make nestk/deps/libfreenect/src/CMakeFiles/freenectstatic.dir/build
 .PHONY : freenectstatic/fast
 
 cameras.o: cameras.c.o
@@ -172,8 +172,8 @@ cameras.o: cameras.c.o
 
 # target to build an object file
 cameras.c.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/build.make nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/cameras.c.o
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/libfreenect/src/CMakeFiles/freenectstatic.dir/build.make nestk/deps/libfreenect/src/CMakeFiles/freenectstatic.dir/cameras.c.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/build.make nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/cameras.c.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/libfreenect/src/CMakeFiles/freenectstatic.dir/build.make nestk/deps/libfreenect/src/CMakeFiles/freenectstatic.dir/cameras.c.o
 .PHONY : cameras.c.o
 
 cameras.i: cameras.c.i
@@ -181,8 +181,8 @@ cameras.i: cameras.c.i
 
 # target to preprocess a source file
 cameras.c.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/build.make nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/cameras.c.i
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/libfreenect/src/CMakeFiles/freenectstatic.dir/build.make nestk/deps/libfreenect/src/CMakeFiles/freenectstatic.dir/cameras.c.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/build.make nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/cameras.c.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/libfreenect/src/CMakeFiles/freenectstatic.dir/build.make nestk/deps/libfreenect/src/CMakeFiles/freenectstatic.dir/cameras.c.i
 .PHONY : cameras.c.i
 
 cameras.s: cameras.c.s
@@ -190,8 +190,8 @@ cameras.s: cameras.c.s
 
 # target to generate assembly for a file
 cameras.c.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/build.make nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/cameras.c.s
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/libfreenect/src/CMakeFiles/freenectstatic.dir/build.make nestk/deps/libfreenect/src/CMakeFiles/freenectstatic.dir/cameras.c.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/build.make nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/cameras.c.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/libfreenect/src/CMakeFiles/freenectstatic.dir/build.make nestk/deps/libfreenect/src/CMakeFiles/freenectstatic.dir/cameras.c.s
 .PHONY : cameras.c.s
 
 core.o: core.c.o
@@ -199,8 +199,8 @@ core.o: core.c.o
 
 # target to build an object file
 core.c.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/build.make nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/core.c.o
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/libfreenect/src/CMakeFiles/freenectstatic.dir/build.make nestk/deps/libfreenect/src/CMakeFiles/freenectstatic.dir/core.c.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/build.make nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/core.c.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/libfreenect/src/CMakeFiles/freenectstatic.dir/build.make nestk/deps/libfreenect/src/CMakeFiles/freenectstatic.dir/core.c.o
 .PHONY : core.c.o
 
 core.i: core.c.i
@@ -208,8 +208,8 @@ core.i: core.c.i
 
 # target to preprocess a source file
 core.c.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/build.make nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/core.c.i
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/libfreenect/src/CMakeFiles/freenectstatic.dir/build.make nestk/deps/libfreenect/src/CMakeFiles/freenectstatic.dir/core.c.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/build.make nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/core.c.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/libfreenect/src/CMakeFiles/freenectstatic.dir/build.make nestk/deps/libfreenect/src/CMakeFiles/freenectstatic.dir/core.c.i
 .PHONY : core.c.i
 
 core.s: core.c.s
@@ -217,8 +217,8 @@ core.s: core.c.s
 
 # target to generate assembly for a file
 core.c.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/build.make nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/core.c.s
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/libfreenect/src/CMakeFiles/freenectstatic.dir/build.make nestk/deps/libfreenect/src/CMakeFiles/freenectstatic.dir/core.c.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/build.make nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/core.c.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/libfreenect/src/CMakeFiles/freenectstatic.dir/build.make nestk/deps/libfreenect/src/CMakeFiles/freenectstatic.dir/core.c.s
 .PHONY : core.c.s
 
 tilt.o: tilt.c.o
@@ -226,8 +226,8 @@ tilt.o: tilt.c.o
 
 # target to build an object file
 tilt.c.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/build.make nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/tilt.c.o
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/libfreenect/src/CMakeFiles/freenectstatic.dir/build.make nestk/deps/libfreenect/src/CMakeFiles/freenectstatic.dir/tilt.c.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/build.make nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/tilt.c.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/libfreenect/src/CMakeFiles/freenectstatic.dir/build.make nestk/deps/libfreenect/src/CMakeFiles/freenectstatic.dir/tilt.c.o
 .PHONY : tilt.c.o
 
 tilt.i: tilt.c.i
@@ -235,8 +235,8 @@ tilt.i: tilt.c.i
 
 # target to preprocess a source file
 tilt.c.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/build.make nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/tilt.c.i
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/libfreenect/src/CMakeFiles/freenectstatic.dir/build.make nestk/deps/libfreenect/src/CMakeFiles/freenectstatic.dir/tilt.c.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/build.make nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/tilt.c.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/libfreenect/src/CMakeFiles/freenectstatic.dir/build.make nestk/deps/libfreenect/src/CMakeFiles/freenectstatic.dir/tilt.c.i
 .PHONY : tilt.c.i
 
 tilt.s: tilt.c.s
@@ -244,8 +244,8 @@ tilt.s: tilt.c.s
 
 # target to generate assembly for a file
 tilt.c.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/build.make nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/tilt.c.s
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/libfreenect/src/CMakeFiles/freenectstatic.dir/build.make nestk/deps/libfreenect/src/CMakeFiles/freenectstatic.dir/tilt.c.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/build.make nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/tilt.c.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/libfreenect/src/CMakeFiles/freenectstatic.dir/build.make nestk/deps/libfreenect/src/CMakeFiles/freenectstatic.dir/tilt.c.s
 .PHONY : tilt.c.s
 
 usb_libusb10.o: usb_libusb10.c.o
@@ -253,8 +253,8 @@ usb_libusb10.o: usb_libusb10.c.o
 
 # target to build an object file
 usb_libusb10.c.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/build.make nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/usb_libusb10.c.o
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/libfreenect/src/CMakeFiles/freenectstatic.dir/build.make nestk/deps/libfreenect/src/CMakeFiles/freenectstatic.dir/usb_libusb10.c.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/build.make nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/usb_libusb10.c.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/libfreenect/src/CMakeFiles/freenectstatic.dir/build.make nestk/deps/libfreenect/src/CMakeFiles/freenectstatic.dir/usb_libusb10.c.o
 .PHONY : usb_libusb10.c.o
 
 usb_libusb10.i: usb_libusb10.c.i
@@ -262,8 +262,8 @@ usb_libusb10.i: usb_libusb10.c.i
 
 # target to preprocess a source file
 usb_libusb10.c.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/build.make nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/usb_libusb10.c.i
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/libfreenect/src/CMakeFiles/freenectstatic.dir/build.make nestk/deps/libfreenect/src/CMakeFiles/freenectstatic.dir/usb_libusb10.c.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/build.make nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/usb_libusb10.c.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/libfreenect/src/CMakeFiles/freenectstatic.dir/build.make nestk/deps/libfreenect/src/CMakeFiles/freenectstatic.dir/usb_libusb10.c.i
 .PHONY : usb_libusb10.c.i
 
 usb_libusb10.s: usb_libusb10.c.s
@@ -271,8 +271,8 @@ usb_libusb10.s: usb_libusb10.c.s
 
 # target to generate assembly for a file
 usb_libusb10.c.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/build.make nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/usb_libusb10.c.s
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/libfreenect/src/CMakeFiles/freenectstatic.dir/build.make nestk/deps/libfreenect/src/CMakeFiles/freenectstatic.dir/usb_libusb10.c.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/build.make nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/usb_libusb10.c.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/libfreenect/src/CMakeFiles/freenectstatic.dir/build.make nestk/deps/libfreenect/src/CMakeFiles/freenectstatic.dir/usb_libusb10.c.s
 .PHONY : usb_libusb10.c.s
 
 # Help Target
@@ -312,6 +312,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

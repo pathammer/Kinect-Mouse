@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/louis/Documents/Motion Capture/Mouse"
+CMAKE_SOURCE_DIR = /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/louis/Documents/Motion Capture/Mouse/build"
+CMAKE_BINARY_DIR = /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -110,9 +110,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -413,6 +413,45 @@ zlib/fast:
 .PHONY : zlib/fast
 
 #=============================================================================
+# Target rules for targets named libjasper
+
+# Build rule for target.
+libjasper: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 libjasper
+.PHONY : libjasper
+
+# fast build rule for target.
+libjasper/fast:
+	$(MAKE) -f nestk/deps/opencv/3rdparty/libjasper/CMakeFiles/libjasper.dir/build.make nestk/deps/opencv/3rdparty/libjasper/CMakeFiles/libjasper.dir/build
+.PHONY : libjasper/fast
+
+#=============================================================================
+# Target rules for targets named libjpeg
+
+# Build rule for target.
+libjpeg: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 libjpeg
+.PHONY : libjpeg
+
+# fast build rule for target.
+libjpeg/fast:
+	$(MAKE) -f nestk/deps/opencv/3rdparty/libjpeg/CMakeFiles/libjpeg.dir/build.make nestk/deps/opencv/3rdparty/libjpeg/CMakeFiles/libjpeg.dir/build
+.PHONY : libjpeg/fast
+
+#=============================================================================
+# Target rules for targets named libtiff
+
+# Build rule for target.
+libtiff: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 libtiff
+.PHONY : libtiff
+
+# fast build rule for target.
+libtiff/fast:
+	$(MAKE) -f nestk/deps/opencv/3rdparty/libtiff/CMakeFiles/libtiff.dir/build.make nestk/deps/opencv/3rdparty/libtiff/CMakeFiles/libtiff.dir/build
+.PHONY : libtiff/fast
+
+#=============================================================================
 # Target rules for targets named glew
 
 # Build rule for target.
@@ -529,266 +568,6 @@ nestk/fast:
 	$(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/build
 .PHONY : nestk/fast
 
-#=============================================================================
-# Target rules for targets named check
-
-# Build rule for target.
-check: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 check
-.PHONY : check
-
-# fast build rule for target.
-check/fast:
-	$(MAKE) -f nestk/tests/CMakeFiles/check.dir/build.make nestk/tests/CMakeFiles/check.dir/build
-.PHONY : check/fast
-
-#=============================================================================
-# Target rules for targets named test-algorithm
-
-# Build rule for target.
-test-algorithm: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 test-algorithm
-.PHONY : test-algorithm
-
-# fast build rule for target.
-test-algorithm/fast:
-	$(MAKE) -f nestk/tests/CMakeFiles/test-algorithm.dir/build.make nestk/tests/CMakeFiles/test-algorithm.dir/build
-.PHONY : test-algorithm/fast
-
-#=============================================================================
-# Target rules for targets named test-async-grabber
-
-# Build rule for target.
-test-async-grabber: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 test-async-grabber
-.PHONY : test-async-grabber
-
-# fast build rule for target.
-test-async-grabber/fast:
-	$(MAKE) -f nestk/tests/CMakeFiles/test-async-grabber.dir/build.make nestk/tests/CMakeFiles/test-async-grabber.dir/build
-.PHONY : test-async-grabber/fast
-
-#=============================================================================
-# Target rules for targets named test-distributions
-
-# Build rule for target.
-test-distributions: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 test-distributions
-.PHONY : test-distributions
-
-# fast build rule for target.
-test-distributions/fast:
-	$(MAKE) -f nestk/tests/CMakeFiles/test-distributions.dir/build.make nestk/tests/CMakeFiles/test-distributions.dir/build
-.PHONY : test-distributions/fast
-
-#=============================================================================
-# Target rules for targets named test-features
-
-# Build rule for target.
-test-features: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 test-features
-.PHONY : test-features
-
-# fast build rule for target.
-test-features/fast:
-	$(MAKE) -f nestk/tests/CMakeFiles/test-features.dir/build.make nestk/tests/CMakeFiles/test-features.dir/build
-.PHONY : test-features/fast
-
-#=============================================================================
-# Target rules for targets named test-hscolor
-
-# Build rule for target.
-test-hscolor: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 test-hscolor
-.PHONY : test-hscolor
-
-# fast build rule for target.
-test-hscolor/fast:
-	$(MAKE) -f nestk/tests/CMakeFiles/test-hscolor.dir/build.make nestk/tests/CMakeFiles/test-hscolor.dir/build
-.PHONY : test-hscolor/fast
-
-#=============================================================================
-# Target rules for targets named test-kinect-3d
-
-# Build rule for target.
-test-kinect-3d: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 test-kinect-3d
-.PHONY : test-kinect-3d
-
-# fast build rule for target.
-test-kinect-3d/fast:
-	$(MAKE) -f nestk/tests/CMakeFiles/test-kinect-3d.dir/build.make nestk/tests/CMakeFiles/test-kinect-3d.dir/build
-.PHONY : test-kinect-3d/fast
-
-#=============================================================================
-# Target rules for targets named test-kinect-grabber
-
-# Build rule for target.
-test-kinect-grabber: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 test-kinect-grabber
-.PHONY : test-kinect-grabber
-
-# fast build rule for target.
-test-kinect-grabber/fast:
-	$(MAKE) -f nestk/tests/CMakeFiles/test-kinect-grabber.dir/build.make nestk/tests/CMakeFiles/test-kinect-grabber.dir/build
-.PHONY : test-kinect-grabber/fast
-
-#=============================================================================
-# Target rules for targets named test-math
-
-# Build rule for target.
-test-math: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 test-math
-.PHONY : test-math
-
-# fast build rule for target.
-test-math/fast:
-	$(MAKE) -f nestk/tests/CMakeFiles/test-math.dir/build.make nestk/tests/CMakeFiles/test-math.dir/build
-.PHONY : test-math/fast
-
-#=============================================================================
-# Target rules for targets named test-mesh
-
-# Build rule for target.
-test-mesh: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 test-mesh
-.PHONY : test-mesh
-
-# fast build rule for target.
-test-mesh/fast:
-	$(MAKE) -f nestk/tests/CMakeFiles/test-mesh.dir/build.make nestk/tests/CMakeFiles/test-mesh.dir/build
-.PHONY : test-mesh/fast
-
-#=============================================================================
-# Target rules for targets named test-minimizers
-
-# Build rule for target.
-test-minimizers: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 test-minimizers
-.PHONY : test-minimizers
-
-# fast build rule for target.
-test-minimizers/fast:
-	$(MAKE) -f nestk/tests/CMakeFiles/test-minimizers.dir/build.make nestk/tests/CMakeFiles/test-minimizers.dir/build
-.PHONY : test-minimizers/fast
-
-#=============================================================================
-# Target rules for targets named test-opencv-grabber
-
-# Build rule for target.
-test-opencv-grabber: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 test-opencv-grabber
-.PHONY : test-opencv-grabber
-
-# fast build rule for target.
-test-opencv-grabber/fast:
-	$(MAKE) -f nestk/tests/CMakeFiles/test-opencv-grabber.dir/build.make nestk/tests/CMakeFiles/test-opencv-grabber.dir/build
-.PHONY : test-opencv-grabber/fast
-
-#=============================================================================
-# Target rules for targets named test-pose3d
-
-# Build rule for target.
-test-pose3d: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 test-pose3d
-.PHONY : test-pose3d
-
-# fast build rule for target.
-test-pose3d/fast:
-	$(MAKE) -f nestk/tests/CMakeFiles/test-pose3d.dir/build.make nestk/tests/CMakeFiles/test-pose3d.dir/build
-.PHONY : test-pose3d/fast
-
-#=============================================================================
-# Target rules for targets named test-serialization
-
-# Build rule for target.
-test-serialization: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 test-serialization
-.PHONY : test-serialization
-
-# fast build rule for target.
-test-serialization/fast:
-	$(MAKE) -f nestk/tests/CMakeFiles/test-serialization.dir/build.make nestk/tests/CMakeFiles/test-serialization.dir/build
-.PHONY : test-serialization/fast
-
-#=============================================================================
-# Target rules for targets named test-siftgpu
-
-# Build rule for target.
-test-siftgpu: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 test-siftgpu
-.PHONY : test-siftgpu
-
-# fast build rule for target.
-test-siftgpu/fast:
-	$(MAKE) -f nestk/tests/CMakeFiles/test-siftgpu.dir/build.make nestk/tests/CMakeFiles/test-siftgpu.dir/build
-.PHONY : test-siftgpu/fast
-
-#=============================================================================
-# Target rules for targets named test-siftgpu-server
-
-# Build rule for target.
-test-siftgpu-server: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 test-siftgpu-server
-.PHONY : test-siftgpu-server
-
-# fast build rule for target.
-test-siftgpu-server/fast:
-	$(MAKE) -f nestk/tests/CMakeFiles/test-siftgpu-server.dir/build.make nestk/tests/CMakeFiles/test-siftgpu-server.dir/build
-.PHONY : test-siftgpu-server/fast
-
-#=============================================================================
-# Target rules for targets named test-stl
-
-# Build rule for target.
-test-stl: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 test-stl
-.PHONY : test-stl
-
-# fast build rule for target.
-test-stl/fast:
-	$(MAKE) -f nestk/tests/CMakeFiles/test-stl.dir/build.make nestk/tests/CMakeFiles/test-stl.dir/build
-.PHONY : test-stl/fast
-
-#=============================================================================
-# Target rules for targets named test-threads
-
-# Build rule for target.
-test-threads: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 test-threads
-.PHONY : test-threads
-
-# fast build rule for target.
-test-threads/fast:
-	$(MAKE) -f nestk/tests/CMakeFiles/test-threads.dir/build.make nestk/tests/CMakeFiles/test-threads.dir/build
-.PHONY : test-threads/fast
-
-#=============================================================================
-# Target rules for targets named test-transactions
-
-# Build rule for target.
-test-transactions: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 test-transactions
-.PHONY : test-transactions
-
-# fast build rule for target.
-test-transactions/fast:
-	$(MAKE) -f nestk/tests/CMakeFiles/test-transactions.dir/build.make nestk/tests/CMakeFiles/test-transactions.dir/build
-.PHONY : test-transactions/fast
-
-#=============================================================================
-# Target rules for targets named test-transform
-
-# Build rule for target.
-test-transform: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 test-transform
-.PHONY : test-transform
-
-# fast build rule for target.
-test-transform/fast:
-	$(MAKE) -f nestk/tests/CMakeFiles/test-transform.dir/build.make nestk/tests/CMakeFiles/test-transform.dir/build
-.PHONY : test-transform/fast
-
 demo.o: demo.cpp.o
 .PHONY : demo.o
 
@@ -846,6 +625,9 @@ help:
 	@echo "... opencv_gpu"
 	@echo "... opencv_lapack"
 	@echo "... zlib"
+	@echo "... libjasper"
+	@echo "... libjpeg"
+	@echo "... libtiff"
 	@echo "... glew"
 	@echo "... libfreenect_uninstall"
 	@echo "... freenect"
@@ -855,26 +637,6 @@ help:
 	@echo "... freenect_sync"
 	@echo "... freenect_sync_static"
 	@echo "... nestk"
-	@echo "... check"
-	@echo "... test-algorithm"
-	@echo "... test-async-grabber"
-	@echo "... test-distributions"
-	@echo "... test-features"
-	@echo "... test-hscolor"
-	@echo "... test-kinect-3d"
-	@echo "... test-kinect-grabber"
-	@echo "... test-math"
-	@echo "... test-mesh"
-	@echo "... test-minimizers"
-	@echo "... test-opencv-grabber"
-	@echo "... test-pose3d"
-	@echo "... test-serialization"
-	@echo "... test-siftgpu"
-	@echo "... test-siftgpu-server"
-	@echo "... test-stl"
-	@echo "... test-threads"
-	@echo "... test-transactions"
-	@echo "... test-transform"
 	@echo "... demo.o"
 	@echo "... demo.i"
 	@echo "... demo.s"

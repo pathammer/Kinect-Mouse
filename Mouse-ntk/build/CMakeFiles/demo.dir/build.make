@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/louis/Documents/Motion Capture/Mouse"
+CMAKE_SOURCE_DIR = /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/louis/Documents/Motion Capture/Mouse/build"
+CMAKE_BINARY_DIR = /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/demo.dir/depend.make
@@ -51,17 +51,17 @@ include CMakeFiles/demo.dir/flags.make
 
 CMakeFiles/demo.dir/demo.cpp.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/demo.cpp.o: ../demo.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/demo.dir/demo.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/demo.dir/demo.cpp.o -c "/home/louis/Documents/Motion Capture/Mouse/demo.cpp"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/demo.dir/demo.cpp.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/demo.cpp
 
 CMakeFiles/demo.dir/demo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/demo.dir/demo.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/demo.cpp" > CMakeFiles/demo.dir/demo.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/demo.cpp > CMakeFiles/demo.dir/demo.cpp.i
 
 CMakeFiles/demo.dir/demo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/demo.dir/demo.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/demo.cpp" -o CMakeFiles/demo.dir/demo.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/demo.cpp -o CMakeFiles/demo.dir/demo.cpp.s
 
 CMakeFiles/demo.dir/demo.cpp.o.requires:
 .PHONY : CMakeFiles/demo.dir/demo.cpp.o.requires
@@ -85,19 +85,9 @@ bin/demo: lib/libnestk.a
 bin/demo: /usr/lib/libQtOpenGL.so
 bin/demo: /usr/lib/libQtSvg.so
 bin/demo: /usr/lib/libQtGui.so
-bin/demo: /usr/lib/libpng.so
-bin/demo: /usr/lib/libXrender.so
-bin/demo: /usr/lib/libfreetype.so
-bin/demo: /usr/lib/libfontconfig.so
-bin/demo: /usr/lib/libm.so
 bin/demo: /usr/lib/libQtXml.so
 bin/demo: /usr/lib/libQtNetwork.so
 bin/demo: /usr/lib/libQtCore.so
-bin/demo: /usr/lib/libz.so
-bin/demo: /usr/lib/libgthread-2.0.so
-bin/demo: /usr/lib/libglib-2.0.so
-bin/demo: /usr/lib/libgobject-2.0.so
-bin/demo: /usr/lib/librt.so
 bin/demo: lib/libglew.so
 bin/demo: /usr/lib/libglut.so
 bin/demo: /usr/lib/libXmu.so
@@ -141,6 +131,6 @@ CMakeFiles/demo.dir/clean:
 .PHONY : CMakeFiles/demo.dir/clean
 
 CMakeFiles/demo.dir/depend:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/louis/Documents/Motion Capture/Mouse" "/home/louis/Documents/Motion Capture/Mouse" "/home/louis/Documents/Motion Capture/Mouse/build" "/home/louis/Documents/Motion Capture/Mouse/build" "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles/demo.dir/DependInfo.cmake" --color=$(COLOR)
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles/demo.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/demo.dir/depend
 

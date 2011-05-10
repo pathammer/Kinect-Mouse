@@ -1,4 +1,4 @@
-# Install script for directory: /home/louis/Documents/Motion Capture/Mouse/nestk/deps/eigen/unsupported/Eigen/src/BVH
+# Install script for directory: /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/eigen/unsupported/Eigen/src/BVH
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,8 +34,8 @@ ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Devel")
   FILE(INSTALL DESTINATION "/usr/local/include/eigen3/unsupported/Eigen/src/BVH" TYPE FILE FILES
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/eigen/unsupported/Eigen/src/BVH/BVAlgorithms.h"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/eigen/unsupported/Eigen/src/BVH/KdBVH.h"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/eigen/unsupported/Eigen/src/BVH/BVAlgorithms.h"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/eigen/unsupported/Eigen/src/BVH/KdBVH.h"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Devel")
 

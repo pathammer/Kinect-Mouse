@@ -1,4 +1,4 @@
-# Install script for directory: /home/louis/Documents/Motion Capture/Mouse/nestk/deps/eigen/unsupported/Eigen/src/MatrixFunctions
+# Install script for directory: /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/eigen/unsupported/Eigen/src/MatrixFunctions
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,10 +34,10 @@ ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Devel")
   FILE(INSTALL DESTINATION "/usr/local/include/eigen3/unsupported/Eigen/src/MatrixFunctions" TYPE FILE FILES
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/eigen/unsupported/Eigen/src/MatrixFunctions/MatrixFunctionAtomic.h"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/eigen/unsupported/Eigen/src/MatrixFunctions/StemFunction.h"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/eigen/unsupported/Eigen/src/MatrixFunctions/MatrixExponential.h"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/eigen/unsupported/Eigen/src/MatrixFunctions/MatrixFunction.h"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/eigen/unsupported/Eigen/src/MatrixFunctions/MatrixFunctionAtomic.h"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/eigen/unsupported/Eigen/src/MatrixFunctions/MatrixExponential.h"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/eigen/unsupported/Eigen/src/MatrixFunctions/MatrixFunction.h"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/eigen/unsupported/Eigen/src/MatrixFunctions/StemFunction.h"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Devel")
 

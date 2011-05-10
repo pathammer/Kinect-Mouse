@@ -35,15 +35,15 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/louis/Documents/Motion Capture/Mouse"
+CMAKE_SOURCE_DIR = /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/louis/Documents/Motion Capture/Mouse/build"
+CMAKE_BINARY_DIR = /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build
 
 # Utility rule file for libfreenect_uninstall.
 
 nestk/deps/libfreenect/CMakeFiles/libfreenect_uninstall:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/libfreenect" && /usr/bin/cmake -P /home/louis/Documents/Motion\ Capture/Mouse/build/nestk/deps/libfreenect/UninstallTarget.cmake
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/libfreenect && /usr/bin/cmake -P /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/libfreenect/UninstallTarget.cmake
 
 libfreenect_uninstall: nestk/deps/libfreenect/CMakeFiles/libfreenect_uninstall
 libfreenect_uninstall: nestk/deps/libfreenect/CMakeFiles/libfreenect_uninstall.dir/build.make
@@ -54,10 +54,10 @@ nestk/deps/libfreenect/CMakeFiles/libfreenect_uninstall.dir/build: libfreenect_u
 .PHONY : nestk/deps/libfreenect/CMakeFiles/libfreenect_uninstall.dir/build
 
 nestk/deps/libfreenect/CMakeFiles/libfreenect_uninstall.dir/clean:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/libfreenect" && $(CMAKE_COMMAND) -P CMakeFiles/libfreenect_uninstall.dir/cmake_clean.cmake
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/libfreenect && $(CMAKE_COMMAND) -P CMakeFiles/libfreenect_uninstall.dir/cmake_clean.cmake
 .PHONY : nestk/deps/libfreenect/CMakeFiles/libfreenect_uninstall.dir/clean
 
 nestk/deps/libfreenect/CMakeFiles/libfreenect_uninstall.dir/depend:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/louis/Documents/Motion Capture/Mouse" "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/libfreenect" "/home/louis/Documents/Motion Capture/Mouse/build" "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/libfreenect" "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/libfreenect/CMakeFiles/libfreenect_uninstall.dir/DependInfo.cmake" --color=$(COLOR)
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/libfreenect /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/libfreenect /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/libfreenect/CMakeFiles/libfreenect_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : nestk/deps/libfreenect/CMakeFiles/libfreenect_uninstall.dir/depend
 

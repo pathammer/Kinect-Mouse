@@ -1,4 +1,4 @@
-# Install script for directory: /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/flann
+# Install script for directory: /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/flann
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,76 +34,104 @@ ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "main")
   IF("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    IF(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libopencv_flann.so.2.2.0")
-      FILE(RPATH_CHECK
-           FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libopencv_flann.so.2.2.0"
-           RPATH "/usr/local/lib")
-    ENDIF(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libopencv_flann.so.2.2.0")
+    FOREACH(file
+        "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libopencv_flann.so.2.2.0"
+        "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libopencv_flann.so.2.2"
+        "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libopencv_flann.so"
+        )
+      IF(EXISTS "${file}" AND
+         NOT IS_SYMLINK "${file}")
+        FILE(RPATH_CHECK
+             FILE "${file}"
+             RPATH "/usr/local/lib")
+      ENDIF()
+    ENDFOREACH()
     FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES
-      "/home/louis/Documents/Motion Capture/Mouse/build/lib/libopencv_flann.so.2.2.0"
-      "/home/louis/Documents/Motion Capture/Mouse/build/lib/libopencv_flann.so.2.2"
-      "/home/louis/Documents/Motion Capture/Mouse/build/lib/libopencv_flann.so"
+      "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/lib/libopencv_flann.so.2.2.0"
+      "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/lib/libopencv_flann.so.2.2"
+      "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/lib/libopencv_flann.so"
       )
-    IF(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libopencv_flann.so.2.2.0")
-      FILE(RPATH_CHANGE
-           FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libopencv_flann.so.2.2.0"
-           OLD_RPATH "/home/louis/Documents/Motion Capture/Mouse/build/lib:"
-           NEW_RPATH "/usr/local/lib")
-      IF(CMAKE_INSTALL_DO_STRIP)
-        EXECUTE_PROCESS(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libopencv_flann.so.2.2.0")
-      ENDIF(CMAKE_INSTALL_DO_STRIP)
-    ENDIF(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libopencv_flann.so.2.2.0")
+    FOREACH(file
+        "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libopencv_flann.so.2.2.0"
+        "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libopencv_flann.so.2.2"
+        "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libopencv_flann.so"
+        )
+      IF(EXISTS "${file}" AND
+         NOT IS_SYMLINK "${file}")
+        FILE(RPATH_CHANGE
+             FILE "${file}"
+             OLD_RPATH "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/lib:"
+             NEW_RPATH "/usr/local/lib")
+        IF(CMAKE_INSTALL_DO_STRIP)
+          EXECUTE_PROCESS(COMMAND "/usr/bin/strip" "${file}")
+        ENDIF(CMAKE_INSTALL_DO_STRIP)
+      ENDIF()
+    ENDFOREACH()
   ENDIF("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
   IF("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee],[Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
-    IF(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libopencv_flann.so.2.2.0")
-      FILE(RPATH_CHECK
-           FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libopencv_flann.so.2.2.0"
-           RPATH "/usr/local/lib")
-    ENDIF(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libopencv_flann.so.2.2.0")
+    FOREACH(file
+        "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libopencv_flann.so.2.2.0"
+        "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libopencv_flann.so.2.2"
+        "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libopencv_flann.so"
+        )
+      IF(EXISTS "${file}" AND
+         NOT IS_SYMLINK "${file}")
+        FILE(RPATH_CHECK
+             FILE "${file}"
+             RPATH "/usr/local/lib")
+      ENDIF()
+    ENDFOREACH()
     FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES
-      "/home/louis/Documents/Motion Capture/Mouse/build/lib/libopencv_flann.so.2.2.0"
-      "/home/louis/Documents/Motion Capture/Mouse/build/lib/libopencv_flann.so.2.2"
-      "/home/louis/Documents/Motion Capture/Mouse/build/lib/libopencv_flann.so"
+      "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/lib/libopencv_flann.so.2.2.0"
+      "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/lib/libopencv_flann.so.2.2"
+      "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/lib/libopencv_flann.so"
       )
-    IF(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libopencv_flann.so.2.2.0")
-      FILE(RPATH_CHANGE
-           FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libopencv_flann.so.2.2.0"
-           OLD_RPATH "/home/louis/Documents/Motion Capture/Mouse/build/lib:"
-           NEW_RPATH "/usr/local/lib")
-      IF(CMAKE_INSTALL_DO_STRIP)
-        EXECUTE_PROCESS(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libopencv_flann.so.2.2.0")
-      ENDIF(CMAKE_INSTALL_DO_STRIP)
-    ENDIF(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libopencv_flann.so.2.2.0")
+    FOREACH(file
+        "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libopencv_flann.so.2.2.0"
+        "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libopencv_flann.so.2.2"
+        "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libopencv_flann.so"
+        )
+      IF(EXISTS "${file}" AND
+         NOT IS_SYMLINK "${file}")
+        FILE(RPATH_CHANGE
+             FILE "${file}"
+             OLD_RPATH "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/lib:"
+             NEW_RPATH "/usr/local/lib")
+        IF(CMAKE_INSTALL_DO_STRIP)
+          EXECUTE_PROCESS(COMMAND "/usr/bin/strip" "${file}")
+        ENDIF(CMAKE_INSTALL_DO_STRIP)
+      ENDIF()
+    ENDFOREACH()
   ENDIF("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee],[Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "main")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "main")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv2/flann" TYPE FILE FILES
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/flann/include/opencv2/flann/index_testing.h"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/flann/include/opencv2/flann/all_indices.h"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/flann/include/opencv2/flann/kmeans_index.h"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/flann/include/opencv2/flann/nn_index.h"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/flann/include/opencv2/flann/ground_truth.h"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/flann/include/opencv2/flann/hdf5.h"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/flann/include/opencv2/flann/allocator.h"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/flann/include/opencv2/flann/saving.h"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/flann/include/opencv2/flann/sampling.h"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/flann/include/opencv2/flann/timer.h"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/flann/include/opencv2/flann/kdtree_index.h"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/flann/include/opencv2/flann/autotuned_index.h"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/flann/include/opencv2/flann/heap.h"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/flann/include/opencv2/flann/composite_index.h"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/flann/include/opencv2/flann/flann_base.hpp"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/flann/include/opencv2/flann/flann.hpp"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/flann/include/opencv2/flann/object_factory.h"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/flann/include/opencv2/flann/simplex_downhill.h"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/flann/include/opencv2/flann/result_set.h"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/flann/include/opencv2/flann/linear_index.h"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/flann/include/opencv2/flann/random.h"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/flann/include/opencv2/flann/general.h"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/flann/include/opencv2/flann/logger.h"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/flann/include/opencv2/flann/dist.h"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/flann/include/opencv2/flann/matrix.h"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/flann/include/opencv2/flann/saving.h"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/flann/include/opencv2/flann/autotuned_index.h"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/flann/include/opencv2/flann/random.h"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/flann/include/opencv2/flann/result_set.h"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/flann/include/opencv2/flann/flann.hpp"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/flann/include/opencv2/flann/general.h"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/flann/include/opencv2/flann/timer.h"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/flann/include/opencv2/flann/simplex_downhill.h"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/flann/include/opencv2/flann/object_factory.h"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/flann/include/opencv2/flann/all_indices.h"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/flann/include/opencv2/flann/dist.h"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/flann/include/opencv2/flann/hdf5.h"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/flann/include/opencv2/flann/matrix.h"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/flann/include/opencv2/flann/index_testing.h"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/flann/include/opencv2/flann/nn_index.h"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/flann/include/opencv2/flann/sampling.h"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/flann/include/opencv2/flann/kdtree_index.h"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/flann/include/opencv2/flann/linear_index.h"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/flann/include/opencv2/flann/flann_base.hpp"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/flann/include/opencv2/flann/kmeans_index.h"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/flann/include/opencv2/flann/composite_index.h"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/flann/include/opencv2/flann/heap.h"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/flann/include/opencv2/flann/logger.h"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/flann/include/opencv2/flann/ground_truth.h"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/flann/include/opencv2/flann/allocator.h"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "main")
 

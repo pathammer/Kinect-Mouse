@@ -1,4 +1,4 @@
-# Install script for directory: /home/louis/Documents/Motion Capture/Mouse/nestk/ntk
+# Install script for directory: /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,270 +34,270 @@ ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   IF("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/louis/Documents/Motion Capture/Mouse/build/lib/libnestk.a")
+    FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/lib/libnestk.a")
   ENDIF("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
   IF("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee],[Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
-    FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/louis/Documents/Motion Capture/Mouse/build/lib/libnestk.a")
+    FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/lib/libnestk.a")
   ENDIF("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee],[Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk" TYPE FILE FILES "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/core.h")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk" TYPE FILE FILES "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/core.h")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk" TYPE FILE FILES "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/ntk.h")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk" TYPE FILE FILES "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/ntk.h")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/camera" TYPE FILE FILES "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/camera/calibration.h")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/camera" TYPE FILE FILES "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/camera/calibration.h")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/camera" TYPE FILE FILES "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/camera/file_grabber.h")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/camera" TYPE FILE FILES "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/camera/file_grabber.h")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/camera" TYPE FILE FILES "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/camera/opencv_grabber.h")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/camera" TYPE FILE FILES "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/camera/opencv_grabber.h")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/camera" TYPE FILE FILES "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/camera/rgbd_frame_recorder.h")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/camera" TYPE FILE FILES "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/camera/rgbd_frame_recorder.h")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/camera" TYPE FILE FILES "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/camera/rgbd_grabber.h")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/camera" TYPE FILE FILES "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/camera/rgbd_grabber.h")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/camera" TYPE FILE FILES "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/camera/rgbd_image.h")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/camera" TYPE FILE FILES "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/camera/rgbd_image.h")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/camera" TYPE FILE FILES "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/camera/rgbd_processor.h")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/camera" TYPE FILE FILES "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/camera/rgbd_processor.h")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/camera" TYPE FILE FILES "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/camera/kinect_grabber.h")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/camera" TYPE FILE FILES "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/camera/kinect_grabber.h")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/geometry" TYPE FILE FILES "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/geometry/affine_transform.h")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/geometry" TYPE FILE FILES "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/geometry/affine_transform.h")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/geometry" TYPE FILE FILES "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/geometry/eigen_utils.h")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/geometry" TYPE FILE FILES "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/geometry/eigen_utils.h")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/geometry" TYPE FILE FILES "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/geometry/plane.h")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/geometry" TYPE FILE FILES "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/geometry/plane.h")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/geometry" TYPE FILE FILES "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/geometry/polygon.h")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/geometry" TYPE FILE FILES "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/geometry/polygon.h")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/geometry" TYPE FILE FILES "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/geometry/pose_3d.h")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/geometry" TYPE FILE FILES "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/geometry/pose_3d.h")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/geometry" TYPE FILE FILES "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/geometry/relative_pose_estimator.h")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/geometry" TYPE FILE FILES "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/geometry/relative_pose_estimator.h")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/geometry" TYPE FILE FILES "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/geometry/similarity_transform.h")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/geometry" TYPE FILE FILES "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/geometry/similarity_transform.h")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/image" TYPE FILE FILES "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/color_model.h")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/image" TYPE FILE FILES "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/color_model.h")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/image" TYPE FILE FILES "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/feature.h")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/image" TYPE FILE FILES "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/feature.h")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/image" TYPE FILE FILES "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/sift.h")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/image" TYPE FILE FILES "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/sift.h")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/image" TYPE FILE FILES "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/sift_gpu.h")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/image" TYPE FILE FILES "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/sift_gpu.h")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/image/siftgpu" TYPE FILE FILES "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/siftgpu/SiftGPU.h")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/image/siftgpu" TYPE FILE FILES "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/siftgpu/SiftGPU.h")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/image/siftgpu" TYPE FILE FILES "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/siftgpu/FrameBufferObject.h")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/image/siftgpu" TYPE FILE FILES "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/siftgpu/FrameBufferObject.h")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/image/siftgpu" TYPE FILE FILES "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/siftgpu/GlobalUtil.h")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/image/siftgpu" TYPE FILE FILES "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/siftgpu/GlobalUtil.h")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/image/siftgpu" TYPE FILE FILES "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/siftgpu/GLTexImage.h")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/image/siftgpu" TYPE FILE FILES "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/siftgpu/GLTexImage.h")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/image/siftgpu" TYPE FILE FILES "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/siftgpu/LiteWindow.h")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/image/siftgpu" TYPE FILE FILES "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/siftgpu/LiteWindow.h")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/image/siftgpu" TYPE FILE FILES "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/siftgpu/ProgramGLSL.h")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/image/siftgpu" TYPE FILE FILES "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/siftgpu/ProgramGLSL.h")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/image/siftgpu" TYPE FILE FILES "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/siftgpu/ProgramGPU.h")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/image/siftgpu" TYPE FILE FILES "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/siftgpu/ProgramGPU.h")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/image/siftgpu" TYPE FILE FILES "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/siftgpu/PyramidGL.h")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/image/siftgpu" TYPE FILE FILES "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/siftgpu/PyramidGL.h")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/image/siftgpu" TYPE FILE FILES "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/siftgpu/ShaderMan.h")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/image/siftgpu" TYPE FILE FILES "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/siftgpu/ShaderMan.h")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/image/siftgpu" TYPE FILE FILES "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/image/siftgpu/SiftPyramid.h")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/image/siftgpu" TYPE FILE FILES "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/image/siftgpu/SiftPyramid.h")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/mesh" TYPE FILE FILES "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/mesh/ply.h")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/mesh" TYPE FILE FILES "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/mesh/ply.h")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/mesh" TYPE FILE FILES "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/mesh/mesh.h")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/mesh" TYPE FILE FILES "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/mesh/mesh.h")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/mesh" TYPE FILE FILES "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/mesh/mesh_generator.h")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/mesh" TYPE FILE FILES "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/mesh/mesh_generator.h")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/mesh" TYPE FILE FILES "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/mesh/mesh_renderer.h")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/mesh" TYPE FILE FILES "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/mesh/mesh_renderer.h")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/mesh" TYPE FILE FILES "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/mesh/rgbd_modeler.h")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/mesh" TYPE FILE FILES "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/mesh/rgbd_modeler.h")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/mesh" TYPE FILE FILES "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/mesh/surfels_rgbd_modeler.h")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/mesh" TYPE FILE FILES "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/mesh/surfels_rgbd_modeler.h")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/numeric" TYPE FILE FILES "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/numeric/cost_function.h")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/numeric" TYPE FILE FILES "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/numeric/cost_function.h")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/numeric" TYPE FILE FILES "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/numeric/levenberg_marquart_minimizer.h")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/numeric" TYPE FILE FILES "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/numeric/levenberg_marquart_minimizer.h")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/numeric" TYPE FILE FILES "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/numeric/cost_function.h")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/numeric" TYPE FILE FILES "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/numeric/cost_function.h")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/numeric" TYPE FILE FILES "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/numeric/utils.h")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/numeric" TYPE FILE FILES "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/numeric/utils.h")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/numeric" TYPE FILE FILES "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/numeric/differential_evolution_solver.h")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/numeric" TYPE FILE FILES "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/numeric/differential_evolution_solver.h")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/numeric" TYPE FILE FILES "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/numeric/differential_evolution_minimizer.h")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/numeric" TYPE FILE FILES "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/numeric/differential_evolution_minimizer.h")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/stats" TYPE FILE FILES "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/stats/distributions.h")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/stats" TYPE FILE FILES "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/stats/distributions.h")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/stats" TYPE FILE FILES "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/stats/estimation.h")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/stats" TYPE FILE FILES "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/stats/estimation.h")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/stats" TYPE FILE FILES "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/stats/histogram.h")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/stats" TYPE FILE FILES "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/stats/histogram.h")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/stats" TYPE FILE FILES "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/stats/hypothesis_testing.h")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/stats" TYPE FILE FILES "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/stats/hypothesis_testing.h")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/stats" TYPE FILE FILES "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/stats/hypothesis_testing.hxx")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/stats" TYPE FILE FILES "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/stats/hypothesis_testing.hxx")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/stats" TYPE FILE FILES "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/stats/moments.h")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/stats" TYPE FILE FILES "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/stats/moments.h")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/stats" TYPE FILE FILES "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/stats/moments.hxx")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/stats" TYPE FILE FILES "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/stats/moments.hxx")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/thread" TYPE FILE FILES "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/thread/event.h")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/thread" TYPE FILE FILES "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/thread/event.h")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/thread" TYPE FILE FILES "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/thread/utils.h")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/thread" TYPE FILE FILES "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/thread/utils.h")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/utils" TYPE FILE FILES "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/utils/arg.h")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/utils" TYPE FILE FILES "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/utils/arg.h")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/utils" TYPE FILE FILES "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/utils/common.h")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/utils" TYPE FILE FILES "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/utils/common.h")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/utils" TYPE FILE FILES "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/utils/debug.h")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/utils" TYPE FILE FILES "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/utils/debug.h")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/utils" TYPE FILE FILES "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/utils/opencv_utils.h")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/utils" TYPE FILE FILES "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/utils/opencv_utils.h")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/utils" TYPE FILE FILES "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/utils/qt_utils.h")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/utils" TYPE FILE FILES "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/utils/qt_utils.h")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/utils" TYPE FILE FILES "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/utils/stl.h")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/utils" TYPE FILE FILES "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/utils/stl.h")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/utils" TYPE FILE FILES "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/utils/serializable.h")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/utils" TYPE FILE FILES "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/utils/serializable.h")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/utils" TYPE FILE FILES "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/utils/time.h")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/utils" TYPE FILE FILES "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/utils/time.h")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/utils" TYPE FILE FILES "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/utils/xml_parser.h")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/utils" TYPE FILE FILES "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/utils/xml_parser.h")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/utils" TYPE FILE FILES "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/utils/xml_serializable.h")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/utils" TYPE FILE FILES "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/utils/xml_serializable.h")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/gui" TYPE FILE FILES "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/gui/image_widget.h")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/gui" TYPE FILE FILES "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/gui/image_widget.h")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/gui" TYPE FILE FILES "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/gui/screen_grabber.h")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/gui" TYPE FILE FILES "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/gui/screen_grabber.h")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/mesh" TYPE FILE FILES "/home/louis/Documents/Motion Capture/Mouse/nestk/ntk/mesh/mesh_viewer.h")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ntk/mesh" TYPE FILE FILES "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/ntk/mesh/mesh_viewer.h")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

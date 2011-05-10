@@ -1,4 +1,4 @@
-# Install script for directory: /home/louis/Documents/Motion Capture/Mouse/nestk/deps/cmake
+# Install script for directory: /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/cmake
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,10 +34,10 @@ ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/nestk-deps/cmake" TYPE FILE FILES
-    "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/cmake/NestkDepsConfig.cmake"
-    "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/cmake/UseNestkDeps.cmake"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/cmake/utils.cmake"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/cmake/msvc.cmake"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/cmake/NestkDepsConfig.cmake"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/cmake/UseNestkDeps.cmake"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/cmake/utils.cmake"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/cmake/msvc.cmake"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

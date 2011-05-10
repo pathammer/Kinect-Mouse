@@ -40,8 +40,8 @@ nestk/deps/opencv/modules/contrib/CMakeFiles/opencv_contrib.dir/src/adaptiveskin
  ../nestk/deps/opencv/modules/contrib/../imgproc/include/opencv2/imgproc/types_c.h
  ../nestk/deps/opencv/modules/contrib/../objdetect/include/opencv2/objdetect/objdetect.hpp
  ../nestk/deps/opencv/modules/contrib/include/opencv2/contrib/contrib.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/contrib/src/adaptiveskindetector.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/contrib/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/contrib/src/adaptiveskindetector.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/contrib/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/contrib/CMakeFiles/opencv_contrib.dir/src/ba.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -83,8 +83,8 @@ nestk/deps/opencv/modules/contrib/CMakeFiles/opencv_contrib.dir/src/ba.o
  ../nestk/deps/opencv/modules/contrib/../imgproc/include/opencv2/imgproc/types_c.h
  ../nestk/deps/opencv/modules/contrib/../objdetect/include/opencv2/objdetect/objdetect.hpp
  ../nestk/deps/opencv/modules/contrib/include/opencv2/contrib/contrib.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/contrib/src/ba.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/contrib/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/contrib/src/ba.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/contrib/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/contrib/CMakeFiles/opencv_contrib.dir/src/chamfermatching.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -127,8 +127,8 @@ nestk/deps/opencv/modules/contrib/CMakeFiles/opencv_contrib.dir/src/chamfermatch
  ../nestk/deps/opencv/modules/contrib/../imgproc/include/opencv2/imgproc/types_c.h
  ../nestk/deps/opencv/modules/contrib/../objdetect/include/opencv2/objdetect/objdetect.hpp
  ../nestk/deps/opencv/modules/contrib/include/opencv2/contrib/contrib.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/contrib/src/chamfermatching.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/contrib/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/contrib/src/chamfermatching.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/contrib/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/contrib/CMakeFiles/opencv_contrib.dir/src/fuzzymeanshifttracker.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -169,8 +169,8 @@ nestk/deps/opencv/modules/contrib/CMakeFiles/opencv_contrib.dir/src/fuzzymeanshi
  ../nestk/deps/opencv/modules/contrib/../imgproc/include/opencv2/imgproc/types_c.h
  ../nestk/deps/opencv/modules/contrib/../objdetect/include/opencv2/objdetect/objdetect.hpp
  ../nestk/deps/opencv/modules/contrib/include/opencv2/contrib/contrib.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/contrib/src/fuzzymeanshifttracker.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/contrib/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/contrib/src/fuzzymeanshifttracker.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/contrib/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/contrib/CMakeFiles/opencv_contrib.dir/src/octree.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -211,8 +211,8 @@ nestk/deps/opencv/modules/contrib/CMakeFiles/opencv_contrib.dir/src/octree.o
  ../nestk/deps/opencv/modules/contrib/../imgproc/include/opencv2/imgproc/types_c.h
  ../nestk/deps/opencv/modules/contrib/../objdetect/include/opencv2/objdetect/objdetect.hpp
  ../nestk/deps/opencv/modules/contrib/include/opencv2/contrib/contrib.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/contrib/src/octree.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/contrib/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/contrib/src/octree.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/contrib/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/contrib/CMakeFiles/opencv_contrib.dir/src/precomp.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -253,8 +253,8 @@ nestk/deps/opencv/modules/contrib/CMakeFiles/opencv_contrib.dir/src/precomp.o
  ../nestk/deps/opencv/modules/contrib/../imgproc/include/opencv2/imgproc/types_c.h
  ../nestk/deps/opencv/modules/contrib/../objdetect/include/opencv2/objdetect/objdetect.hpp
  ../nestk/deps/opencv/modules/contrib/include/opencv2/contrib/contrib.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/contrib/src/precomp.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/contrib/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/contrib/src/precomp.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/contrib/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/contrib/CMakeFiles/opencv_contrib.dir/src/quadsubpix.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -295,8 +295,8 @@ nestk/deps/opencv/modules/contrib/CMakeFiles/opencv_contrib.dir/src/quadsubpix.o
  ../nestk/deps/opencv/modules/contrib/../imgproc/include/opencv2/imgproc/types_c.h
  ../nestk/deps/opencv/modules/contrib/../objdetect/include/opencv2/objdetect/objdetect.hpp
  ../nestk/deps/opencv/modules/contrib/include/opencv2/contrib/contrib.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/contrib/src/precomp.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/contrib/src/quadsubpix.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/contrib/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/contrib/src/quadsubpix.cpp
  cvconfig.h
 nestk/deps/opencv/modules/contrib/CMakeFiles/opencv_contrib.dir/src/selfsimilarity.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -337,8 +337,8 @@ nestk/deps/opencv/modules/contrib/CMakeFiles/opencv_contrib.dir/src/selfsimilari
  ../nestk/deps/opencv/modules/contrib/../imgproc/include/opencv2/imgproc/types_c.h
  ../nestk/deps/opencv/modules/contrib/../objdetect/include/opencv2/objdetect/objdetect.hpp
  ../nestk/deps/opencv/modules/contrib/include/opencv2/contrib/contrib.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/contrib/src/precomp.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/contrib/src/selfsimilarity.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/contrib/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/contrib/src/selfsimilarity.cpp
  cvconfig.h
 nestk/deps/opencv/modules/contrib/CMakeFiles/opencv_contrib.dir/src/spinimages.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -379,6 +379,6 @@ nestk/deps/opencv/modules/contrib/CMakeFiles/opencv_contrib.dir/src/spinimages.o
  ../nestk/deps/opencv/modules/contrib/../imgproc/include/opencv2/imgproc/types_c.h
  ../nestk/deps/opencv/modules/contrib/../objdetect/include/opencv2/objdetect/objdetect.hpp
  ../nestk/deps/opencv/modules/contrib/include/opencv2/contrib/contrib.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/contrib/src/precomp.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/contrib/src/spinimages.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/contrib/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/contrib/src/spinimages.cpp
  cvconfig.h

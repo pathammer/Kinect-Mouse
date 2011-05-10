@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/louis/Documents/Motion Capture/Mouse"
+CMAKE_SOURCE_DIR = /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/louis/Documents/Motion Capture/Mouse/build"
+CMAKE_BINARY_DIR = /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build
 
 # Include any dependencies generated for this target.
 include nestk/deps/libfreenect/fakenect/CMakeFiles/fakenect.dir/depend.make
@@ -51,17 +51,17 @@ include nestk/deps/libfreenect/fakenect/CMakeFiles/fakenect.dir/flags.make
 
 nestk/deps/libfreenect/fakenect/CMakeFiles/fakenect.dir/fakenect.c.o: nestk/deps/libfreenect/fakenect/CMakeFiles/fakenect.dir/flags.make
 nestk/deps/libfreenect/fakenect/CMakeFiles/fakenect.dir/fakenect.c.o: ../nestk/deps/libfreenect/fakenect/fakenect.c
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object nestk/deps/libfreenect/fakenect/CMakeFiles/fakenect.dir/fakenect.c.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/libfreenect/fakenect" && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/fakenect.dir/fakenect.c.o   -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/libfreenect/fakenect/fakenect.c"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/libfreenect/fakenect && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/fakenect.dir/fakenect.c.o   -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/libfreenect/fakenect/fakenect.c
 
 nestk/deps/libfreenect/fakenect/CMakeFiles/fakenect.dir/fakenect.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fakenect.dir/fakenect.c.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/libfreenect/fakenect" && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/libfreenect/fakenect/fakenect.c" > CMakeFiles/fakenect.dir/fakenect.c.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/libfreenect/fakenect && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/libfreenect/fakenect/fakenect.c > CMakeFiles/fakenect.dir/fakenect.c.i
 
 nestk/deps/libfreenect/fakenect/CMakeFiles/fakenect.dir/fakenect.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fakenect.dir/fakenect.c.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/libfreenect/fakenect" && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/libfreenect/fakenect/fakenect.c" -o CMakeFiles/fakenect.dir/fakenect.c.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/libfreenect/fakenect && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/libfreenect/fakenect/fakenect.c -o CMakeFiles/fakenect.dir/fakenect.c.s
 
 nestk/deps/libfreenect/fakenect/CMakeFiles/fakenect.dir/fakenect.c.o.requires:
 .PHONY : nestk/deps/libfreenect/fakenect/CMakeFiles/fakenect.dir/fakenect.c.o.requires
@@ -84,8 +84,8 @@ lib/fakenect/libfreenect.so.0.0.1: nestk/deps/libfreenect/fakenect/CMakeFiles/fa
 lib/fakenect/libfreenect.so.0.0.1: nestk/deps/libfreenect/fakenect/CMakeFiles/fakenect.dir/build.make
 lib/fakenect/libfreenect.so.0.0.1: nestk/deps/libfreenect/fakenect/CMakeFiles/fakenect.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking C shared library ../../../../lib/fakenect/libfreenect.so"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/libfreenect/fakenect" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/fakenect.dir/link.txt --verbose=$(VERBOSE)
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/libfreenect/fakenect" && $(CMAKE_COMMAND) -E cmake_symlink_library ../../../../lib/fakenect/libfreenect.so.0.0.1 ../../../../lib/fakenect/libfreenect.so.0.0 ../../../../lib/fakenect/libfreenect.so
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/libfreenect/fakenect && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/fakenect.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/libfreenect/fakenect && $(CMAKE_COMMAND) -E cmake_symlink_library ../../../../lib/fakenect/libfreenect.so.0.0.1 ../../../../lib/fakenect/libfreenect.so.0.0 ../../../../lib/fakenect/libfreenect.so
 
 lib/fakenect/libfreenect.so.0.0: lib/fakenect/libfreenect.so.0.0.1
 
@@ -99,10 +99,10 @@ nestk/deps/libfreenect/fakenect/CMakeFiles/fakenect.dir/requires: nestk/deps/lib
 .PHONY : nestk/deps/libfreenect/fakenect/CMakeFiles/fakenect.dir/requires
 
 nestk/deps/libfreenect/fakenect/CMakeFiles/fakenect.dir/clean:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/libfreenect/fakenect" && $(CMAKE_COMMAND) -P CMakeFiles/fakenect.dir/cmake_clean.cmake
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/libfreenect/fakenect && $(CMAKE_COMMAND) -P CMakeFiles/fakenect.dir/cmake_clean.cmake
 .PHONY : nestk/deps/libfreenect/fakenect/CMakeFiles/fakenect.dir/clean
 
 nestk/deps/libfreenect/fakenect/CMakeFiles/fakenect.dir/depend:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/louis/Documents/Motion Capture/Mouse" "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/libfreenect/fakenect" "/home/louis/Documents/Motion Capture/Mouse/build" "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/libfreenect/fakenect" "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/libfreenect/fakenect/CMakeFiles/fakenect.dir/DependInfo.cmake" --color=$(COLOR)
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/libfreenect/fakenect /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/libfreenect/fakenect /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/libfreenect/fakenect/CMakeFiles/fakenect.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : nestk/deps/libfreenect/fakenect/CMakeFiles/fakenect.dir/depend
 

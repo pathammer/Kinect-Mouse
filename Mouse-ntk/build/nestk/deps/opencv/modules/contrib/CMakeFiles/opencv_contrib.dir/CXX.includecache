@@ -412,61 +412,61 @@ opencv2/features2d/features2d.hpp
 opencv2/objdetect/objdetect.hpp
 ../nestk/deps/opencv/modules/contrib/include/opencv2/contrib/opencv2/objdetect/objdetect.hpp
 
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/contrib/src/adaptiveskindetector.cpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/contrib/src/adaptiveskindetector.cpp
 precomp.hpp
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/contrib/src/precomp.hpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/contrib/src/precomp.hpp
 
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/contrib/src/ba.cpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/contrib/src/ba.cpp
 precomp.hpp
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/contrib/src/precomp.hpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/contrib/src/precomp.hpp
 opencv2/calib3d/calib3d.hpp
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/contrib/src/opencv2/calib3d/calib3d.hpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/contrib/src/opencv2/calib3d/calib3d.hpp
 
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/contrib/src/chamfermatching.cpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/contrib/src/chamfermatching.cpp
 precomp.hpp
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/contrib/src/precomp.hpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/contrib/src/precomp.hpp
 opencv2/highgui/highgui.hpp
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/contrib/src/opencv2/highgui/highgui.hpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/contrib/src/opencv2/highgui/highgui.hpp
 iostream
 -
 queue
 -
 
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/contrib/src/fuzzymeanshifttracker.cpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/contrib/src/fuzzymeanshifttracker.cpp
 precomp.hpp
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/contrib/src/precomp.hpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/contrib/src/precomp.hpp
 
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/contrib/src/octree.cpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/contrib/src/octree.cpp
 precomp.hpp
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/contrib/src/precomp.hpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/contrib/src/precomp.hpp
 limits
 -
 
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/contrib/src/precomp.cpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/contrib/src/precomp.cpp
 precomp.hpp
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/contrib/src/precomp.hpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/contrib/src/precomp.hpp
 
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/contrib/src/precomp.hpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/contrib/src/precomp.hpp
 cvconfig.h
 -
 cvconfig.h
 -
 opencv2/contrib/contrib.hpp
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/contrib/src/opencv2/contrib/contrib.hpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/contrib/src/opencv2/contrib/contrib.hpp
 opencv2/features2d/features2d.hpp
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/contrib/src/opencv2/features2d/features2d.hpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/contrib/src/opencv2/features2d/features2d.hpp
 opencv2/objdetect/objdetect.hpp
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/contrib/src/opencv2/objdetect/objdetect.hpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/contrib/src/opencv2/objdetect/objdetect.hpp
 opencv2/imgproc/imgproc.hpp
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/contrib/src/opencv2/imgproc/imgproc.hpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/contrib/src/opencv2/imgproc/imgproc.hpp
 opencv2/imgproc/imgproc_c.h
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/contrib/src/opencv2/imgproc/imgproc_c.h
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/contrib/src/opencv2/imgproc/imgproc_c.h
 opencv2/core/internal.hpp
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/contrib/src/opencv2/core/internal.hpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/contrib/src/opencv2/core/internal.hpp
 
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/contrib/src/quadsubpix.cpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/contrib/src/quadsubpix.cpp
 precomp.hpp
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/contrib/src/precomp.hpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/contrib/src/precomp.hpp
 limits
 -
 utility
@@ -476,13 +476,13 @@ algorithm
 math.h
 -
 
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/contrib/src/selfsimilarity.cpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/contrib/src/selfsimilarity.cpp
 precomp.hpp
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/contrib/src/precomp.hpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/contrib/src/precomp.hpp
 
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/contrib/src/spinimages.cpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/contrib/src/spinimages.cpp
 precomp.hpp
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/contrib/src/precomp.hpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/contrib/src/precomp.hpp
 algorithm
 -
 cmath

@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/louis/Documents/Motion Capture/Mouse"
+CMAKE_SOURCE_DIR = /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/louis/Documents/Motion Capture/Mouse/build"
+CMAKE_BINARY_DIR = /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build
 
 # Include any dependencies generated for this target.
 include nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/depend.make
@@ -51,17 +51,17 @@ include nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/flags.make
 
 nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/core.c.o: nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/flags.make
 nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/core.c.o: ../nestk/deps/libfreenect/src/core.c
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/core.c.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/libfreenect/src" && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/freenect.dir/core.c.o   -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/libfreenect/src/core.c"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/libfreenect/src && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/freenect.dir/core.c.o   -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/libfreenect/src/core.c
 
 nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/core.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/freenect.dir/core.c.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/libfreenect/src" && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/libfreenect/src/core.c" > CMakeFiles/freenect.dir/core.c.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/libfreenect/src && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/libfreenect/src/core.c > CMakeFiles/freenect.dir/core.c.i
 
 nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/core.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/freenect.dir/core.c.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/libfreenect/src" && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/libfreenect/src/core.c" -o CMakeFiles/freenect.dir/core.c.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/libfreenect/src && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/libfreenect/src/core.c -o CMakeFiles/freenect.dir/core.c.s
 
 nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/core.c.o.requires:
 .PHONY : nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/core.c.o.requires
@@ -75,17 +75,17 @@ nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/core.c.o.provides.build: nest
 
 nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/tilt.c.o: nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/flags.make
 nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/tilt.c.o: ../nestk/deps/libfreenect/src/tilt.c
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/tilt.c.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/libfreenect/src" && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/freenect.dir/tilt.c.o   -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/libfreenect/src/tilt.c"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/libfreenect/src && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/freenect.dir/tilt.c.o   -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/libfreenect/src/tilt.c
 
 nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/tilt.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/freenect.dir/tilt.c.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/libfreenect/src" && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/libfreenect/src/tilt.c" > CMakeFiles/freenect.dir/tilt.c.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/libfreenect/src && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/libfreenect/src/tilt.c > CMakeFiles/freenect.dir/tilt.c.i
 
 nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/tilt.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/freenect.dir/tilt.c.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/libfreenect/src" && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/libfreenect/src/tilt.c" -o CMakeFiles/freenect.dir/tilt.c.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/libfreenect/src && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/libfreenect/src/tilt.c -o CMakeFiles/freenect.dir/tilt.c.s
 
 nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/tilt.c.o.requires:
 .PHONY : nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/tilt.c.o.requires
@@ -99,17 +99,17 @@ nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/tilt.c.o.provides.build: nest
 
 nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/cameras.c.o: nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/flags.make
 nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/cameras.c.o: ../nestk/deps/libfreenect/src/cameras.c
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/cameras.c.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/libfreenect/src" && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/freenect.dir/cameras.c.o   -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/libfreenect/src/cameras.c"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/libfreenect/src && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/freenect.dir/cameras.c.o   -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/libfreenect/src/cameras.c
 
 nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/cameras.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/freenect.dir/cameras.c.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/libfreenect/src" && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/libfreenect/src/cameras.c" > CMakeFiles/freenect.dir/cameras.c.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/libfreenect/src && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/libfreenect/src/cameras.c > CMakeFiles/freenect.dir/cameras.c.i
 
 nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/cameras.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/freenect.dir/cameras.c.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/libfreenect/src" && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/libfreenect/src/cameras.c" -o CMakeFiles/freenect.dir/cameras.c.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/libfreenect/src && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/libfreenect/src/cameras.c -o CMakeFiles/freenect.dir/cameras.c.s
 
 nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/cameras.c.o.requires:
 .PHONY : nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/cameras.c.o.requires
@@ -123,17 +123,17 @@ nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/cameras.c.o.provides.build: n
 
 nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/usb_libusb10.c.o: nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/flags.make
 nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/usb_libusb10.c.o: ../nestk/deps/libfreenect/src/usb_libusb10.c
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/usb_libusb10.c.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/libfreenect/src" && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/freenect.dir/usb_libusb10.c.o   -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/libfreenect/src/usb_libusb10.c"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/libfreenect/src && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/freenect.dir/usb_libusb10.c.o   -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/libfreenect/src/usb_libusb10.c
 
 nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/usb_libusb10.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/freenect.dir/usb_libusb10.c.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/libfreenect/src" && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/libfreenect/src/usb_libusb10.c" > CMakeFiles/freenect.dir/usb_libusb10.c.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/libfreenect/src && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/libfreenect/src/usb_libusb10.c > CMakeFiles/freenect.dir/usb_libusb10.c.i
 
 nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/usb_libusb10.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/freenect.dir/usb_libusb10.c.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/libfreenect/src" && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/libfreenect/src/usb_libusb10.c" -o CMakeFiles/freenect.dir/usb_libusb10.c.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/libfreenect/src && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/libfreenect/src/usb_libusb10.c -o CMakeFiles/freenect.dir/usb_libusb10.c.s
 
 nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/usb_libusb10.c.o.requires:
 .PHONY : nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/usb_libusb10.c.o.requires
@@ -163,8 +163,8 @@ lib/libfreenect.so.0.0.1: /usr/lib/libusb-1.0.so
 lib/libfreenect.so.0.0.1: nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/build.make
 lib/libfreenect.so.0.0.1: nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking C shared library ../../../../lib/libfreenect.so"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/libfreenect/src" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/freenect.dir/link.txt --verbose=$(VERBOSE)
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/libfreenect/src" && $(CMAKE_COMMAND) -E cmake_symlink_library ../../../../lib/libfreenect.so.0.0.1 ../../../../lib/libfreenect.so.0.0 ../../../../lib/libfreenect.so
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/libfreenect/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/freenect.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/libfreenect/src && $(CMAKE_COMMAND) -E cmake_symlink_library ../../../../lib/libfreenect.so.0.0.1 ../../../../lib/libfreenect.so.0.0 ../../../../lib/libfreenect.so
 
 lib/libfreenect.so.0.0: lib/libfreenect.so.0.0.1
 
@@ -181,10 +181,10 @@ nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/requires: nestk/deps/libfreen
 .PHONY : nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/requires
 
 nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/clean:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/libfreenect/src" && $(CMAKE_COMMAND) -P CMakeFiles/freenect.dir/cmake_clean.cmake
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/libfreenect/src && $(CMAKE_COMMAND) -P CMakeFiles/freenect.dir/cmake_clean.cmake
 .PHONY : nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/clean
 
 nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/depend:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/louis/Documents/Motion Capture/Mouse" "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/libfreenect/src" "/home/louis/Documents/Motion Capture/Mouse/build" "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/libfreenect/src" "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/DependInfo.cmake" --color=$(COLOR)
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/libfreenect/src /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/libfreenect/src /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/depend
 

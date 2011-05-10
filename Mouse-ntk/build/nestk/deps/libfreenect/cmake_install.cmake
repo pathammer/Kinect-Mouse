@@ -1,4 +1,4 @@
-# Install script for directory: /home/louis/Documents/Motion Capture/Mouse/nestk/deps/libfreenect
+# Install script for directory: /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/libfreenect
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,10 +34,10 @@ ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  INCLUDE("/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/libfreenect/src/cmake_install.cmake")
-  INCLUDE("/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/libfreenect/fakenect/cmake_install.cmake")
-  INCLUDE("/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/libfreenect/wrappers/c_sync/cmake_install.cmake")
-  INCLUDE("/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/libfreenect/wrappers/cpp/cmake_install.cmake")
+  INCLUDE("/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/libfreenect/src/cmake_install.cmake")
+  INCLUDE("/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/libfreenect/fakenect/cmake_install.cmake")
+  INCLUDE("/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/libfreenect/wrappers/c_sync/cmake_install.cmake")
+  INCLUDE("/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/libfreenect/wrappers/cpp/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 

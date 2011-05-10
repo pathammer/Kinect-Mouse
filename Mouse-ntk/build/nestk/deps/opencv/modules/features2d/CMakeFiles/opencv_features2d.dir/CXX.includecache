@@ -400,13 +400,13 @@ opencv2/flann/flann.hpp
 limits
 -
 
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/features2d/src/bagofwords.cpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/features2d/src/bagofwords.cpp
 precomp.hpp
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/features2d/src/precomp.hpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/features2d/src/precomp.hpp
 
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/features2d/src/brief.cpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/features2d/src/brief.cpp
 precomp.hpp
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/features2d/src/precomp.hpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/features2d/src/precomp.hpp
 algorithm
 -
 vector
@@ -416,15 +416,15 @@ cpu-features.h
 arm_neon.h
 -
 generated_16.i
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/features2d/src/generated_16.i
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/features2d/src/generated_16.i
 generated_32.i
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/features2d/src/generated_32.i
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/features2d/src/generated_32.i
 generated_64.i
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/features2d/src/generated_64.i
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/features2d/src/generated_64.i
 
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/features2d/src/calonder.cpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/features2d/src/calonder.cpp
 precomp.hpp
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/features2d/src/precomp.hpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/features2d/src/precomp.hpp
 cstdio
 -
 iostream
@@ -432,87 +432,87 @@ iostream
 fstream
 -
 
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/features2d/src/descriptors.cpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/features2d/src/descriptors.cpp
 precomp.hpp
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/features2d/src/precomp.hpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/features2d/src/precomp.hpp
 
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/features2d/src/detectors.cpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/features2d/src/detectors.cpp
 precomp.hpp
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/features2d/src/precomp.hpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/features2d/src/precomp.hpp
 
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/features2d/src/draw.cpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/features2d/src/draw.cpp
 precomp.hpp
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/features2d/src/precomp.hpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/features2d/src/precomp.hpp
 
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/features2d/src/dynamic.cpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/features2d/src/dynamic.cpp
 precomp.hpp
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/features2d/src/precomp.hpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/features2d/src/precomp.hpp
 
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/features2d/src/evaluation.cpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/features2d/src/evaluation.cpp
 precomp.hpp
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/features2d/src/precomp.hpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/features2d/src/precomp.hpp
 limits
 -
 
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/features2d/src/fast.cpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/features2d/src/fast.cpp
 precomp.hpp
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/features2d/src/precomp.hpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/features2d/src/precomp.hpp
 
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/features2d/src/generated_16.i
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/features2d/src/generated_16.i
 
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/features2d/src/generated_32.i
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/features2d/src/generated_32.i
 
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/features2d/src/generated_64.i
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/features2d/src/generated_64.i
 
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/features2d/src/keypoint.cpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/features2d/src/keypoint.cpp
 precomp.hpp
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/features2d/src/precomp.hpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/features2d/src/precomp.hpp
 
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/features2d/src/matchers.cpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/features2d/src/matchers.cpp
 precomp.hpp
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/features2d/src/precomp.hpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/features2d/src/precomp.hpp
 Eigen/Array
 -
 
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/features2d/src/mser.cpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/features2d/src/mser.cpp
 precomp.hpp
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/features2d/src/precomp.hpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/features2d/src/precomp.hpp
 
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/features2d/src/oneway.cpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/features2d/src/oneway.cpp
 precomp.hpp
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/features2d/src/precomp.hpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/features2d/src/precomp.hpp
 opencv2/highgui/highgui.hpp
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/features2d/src/opencv2/highgui/highgui.hpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/features2d/src/opencv2/highgui/highgui.hpp
 stdio.h
 -
 
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/features2d/src/planardetect.cpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/features2d/src/planardetect.cpp
 precomp.hpp
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/features2d/src/precomp.hpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/features2d/src/precomp.hpp
 opencv2/calib3d/calib3d.hpp
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/features2d/src/opencv2/calib3d/calib3d.hpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/features2d/src/opencv2/calib3d/calib3d.hpp
 stdio.h
 -
 
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/features2d/src/precomp.cpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/features2d/src/precomp.cpp
 precomp.hpp
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/features2d/src/precomp.hpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/features2d/src/precomp.hpp
 
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/features2d/src/precomp.hpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/features2d/src/precomp.hpp
 cvconfig.h
 -
 opencv2/features2d/features2d.hpp
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/features2d/src/opencv2/features2d/features2d.hpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/features2d/src/opencv2/features2d/features2d.hpp
 opencv2/imgproc/imgproc.hpp
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/features2d/src/opencv2/imgproc/imgproc.hpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/features2d/src/opencv2/imgproc/imgproc.hpp
 opencv2/imgproc/imgproc_c.h
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/features2d/src/opencv2/imgproc/imgproc_c.h
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/features2d/src/opencv2/imgproc/imgproc_c.h
 opencv2/core/internal.hpp
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/features2d/src/opencv2/core/internal.hpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/features2d/src/opencv2/core/internal.hpp
 
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/features2d/src/sift.cpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/features2d/src/sift.cpp
 precomp.hpp
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/features2d/src/precomp.hpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/features2d/src/precomp.hpp
 iostream
 -
 limits
@@ -522,13 +522,13 @@ libgen.h
 string.h
 -
 
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/features2d/src/stardetector.cpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/features2d/src/stardetector.cpp
 precomp.hpp
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/features2d/src/precomp.hpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/features2d/src/precomp.hpp
 
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/features2d/src/surf.cpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/features2d/src/surf.cpp
 precomp.hpp
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/features2d/src/precomp.hpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/features2d/src/precomp.hpp
 
 cvconfig.h
 

@@ -47,10 +47,10 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/louis/Documents/Motion Capture/Mouse"
+CMAKE_SOURCE_DIR = /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/louis/Documents/Motion Capture/Mouse/build"
+CMAKE_BINARY_DIR = /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build
 
 #=============================================================================
 # Target rules for target CMakeFiles/demo.dir
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = "/home/louis/Documents/Motion Capture/Mouse/build"
 CMakeFiles/demo.dir/all: nestk/ntk/CMakeFiles/nestk.dir/all
 	$(MAKE) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/depend
 	$(MAKE) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles 
 	@echo "Built target demo"
 .PHONY : CMakeFiles/demo.dir/all
 
@@ -69,9 +69,9 @@ all: CMakeFiles/demo.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/demo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 94
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles 97
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/demo.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles 0
 .PHONY : CMakeFiles/demo.dir/rule
 
 # Convenience name for target.
@@ -93,19 +93,16 @@ clean: CMakeFiles/demo.dir/clean
 # Convenience name for "all" pass in the directory.
 nestk/all: nestk/deps/all
 nestk/all: nestk/ntk/all
-nestk/all: nestk/tests/all
 .PHONY : nestk/all
 
 # Convenience name for "clean" pass in the directory.
 nestk/clean: nestk/deps/clean
 nestk/clean: nestk/ntk/clean
-nestk/clean: nestk/tests/clean
 .PHONY : nestk/clean
 
 # Convenience name for "preinstall" pass in the directory.
 nestk/preinstall: nestk/deps/preinstall
 nestk/preinstall: nestk/ntk/preinstall
-nestk/preinstall: nestk/tests/preinstall
 .PHONY : nestk/preinstall
 
 #=============================================================================
@@ -170,15 +167,15 @@ nestk/deps/opencv/preinstall: nestk/deps/opencv/3rdparty/preinstall
 nestk/deps/opencv/CMakeFiles/uninstall.dir/all:
 	$(MAKE) -f nestk/deps/opencv/CMakeFiles/uninstall.dir/build.make nestk/deps/opencv/CMakeFiles/uninstall.dir/depend
 	$(MAKE) -f nestk/deps/opencv/CMakeFiles/uninstall.dir/build.make nestk/deps/opencv/CMakeFiles/uninstall.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles 
 	@echo "Built target uninstall"
 .PHONY : nestk/deps/opencv/CMakeFiles/uninstall.dir/all
 
 # Build rule for subdir invocation for target.
 nestk/deps/opencv/CMakeFiles/uninstall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 nestk/deps/opencv/CMakeFiles/uninstall.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles 0
 .PHONY : nestk/deps/opencv/CMakeFiles/uninstall.dir/rule
 
 # Convenience name for target.
@@ -282,12 +279,12 @@ nestk/deps/opencv/modules/calib3d/preinstall:
 # Target rules for target nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir
 
 # All Build rule for target.
+nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/all: nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/all
 nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/all: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/all
 nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/all: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/all
-nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/all: nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/all
 	$(MAKE) -f nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/depend
 	$(MAKE) -f nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles"  11 12
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles  25 26
 	@echo "Built target opencv_calib3d"
 .PHONY : nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/all
 
@@ -297,9 +294,9 @@ all: nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/all
 
 # Build rule for subdir invocation for target.
 nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 62
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles 70
 	$(MAKE) -f CMakeFiles/Makefile2 nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles 0
 .PHONY : nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/rule
 
 # Convenience name for target.
@@ -338,7 +335,7 @@ nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/all: nestk/deps/opencv
 nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/all: nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/all
 	$(MAKE) -f nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/build.make nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/depend
 	$(MAKE) -f nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/build.make nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles"  14 15 16
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles  28 29 30
 	@echo "Built target opencv_core"
 .PHONY : nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/all
 
@@ -348,9 +345,9 @@ all: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/all
 
 # Build rule for subdir invocation for target.
 nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 51
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles 44
 	$(MAKE) -f CMakeFiles/Makefile2 nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles 0
 .PHONY : nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/rule
 
 # Convenience name for target.
@@ -385,14 +382,14 @@ nestk/deps/opencv/modules/features2d/preinstall:
 # Target rules for target nestk/deps/opencv/modules/features2d/CMakeFiles/opencv_features2d.dir
 
 # All Build rule for target.
+nestk/deps/opencv/modules/features2d/CMakeFiles/opencv_features2d.dir/all: nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/all
+nestk/deps/opencv/modules/features2d/CMakeFiles/opencv_features2d.dir/all: nestk/deps/opencv/modules/flann/CMakeFiles/opencv_flann.dir/all
 nestk/deps/opencv/modules/features2d/CMakeFiles/opencv_features2d.dir/all: nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/all
 nestk/deps/opencv/modules/features2d/CMakeFiles/opencv_features2d.dir/all: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/all
-nestk/deps/opencv/modules/features2d/CMakeFiles/opencv_features2d.dir/all: nestk/deps/opencv/modules/flann/CMakeFiles/opencv_flann.dir/all
 nestk/deps/opencv/modules/features2d/CMakeFiles/opencv_features2d.dir/all: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/all
-nestk/deps/opencv/modules/features2d/CMakeFiles/opencv_features2d.dir/all: nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/all
 	$(MAKE) -f nestk/deps/opencv/modules/features2d/CMakeFiles/opencv_features2d.dir/build.make nestk/deps/opencv/modules/features2d/CMakeFiles/opencv_features2d.dir/depend
 	$(MAKE) -f nestk/deps/opencv/modules/features2d/CMakeFiles/opencv_features2d.dir/build.make nestk/deps/opencv/modules/features2d/CMakeFiles/opencv_features2d.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles"  17 18 19
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles  31 32
 	@echo "Built target opencv_features2d"
 .PHONY : nestk/deps/opencv/modules/features2d/CMakeFiles/opencv_features2d.dir/all
 
@@ -402,9 +399,9 @@ all: nestk/deps/opencv/modules/features2d/CMakeFiles/opencv_features2d.dir/all
 
 # Build rule for subdir invocation for target.
 nestk/deps/opencv/modules/features2d/CMakeFiles/opencv_features2d.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 65
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles 72
 	$(MAKE) -f CMakeFiles/Makefile2 nestk/deps/opencv/modules/features2d/CMakeFiles/opencv_features2d.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles 0
 .PHONY : nestk/deps/opencv/modules/features2d/CMakeFiles/opencv_features2d.dir/rule
 
 # Convenience name for target.
@@ -442,7 +439,7 @@ nestk/deps/opencv/modules/flann/preinstall:
 nestk/deps/opencv/modules/flann/CMakeFiles/opencv_flann.dir/all: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/all
 	$(MAKE) -f nestk/deps/opencv/modules/flann/CMakeFiles/opencv_flann.dir/build.make nestk/deps/opencv/modules/flann/CMakeFiles/opencv_flann.dir/depend
 	$(MAKE) -f nestk/deps/opencv/modules/flann/CMakeFiles/opencv_flann.dir/build.make nestk/deps/opencv/modules/flann/CMakeFiles/opencv_flann.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles 
 	@echo "Built target opencv_flann"
 .PHONY : nestk/deps/opencv/modules/flann/CMakeFiles/opencv_flann.dir/all
 
@@ -452,9 +449,9 @@ all: nestk/deps/opencv/modules/flann/CMakeFiles/opencv_flann.dir/all
 
 # Build rule for subdir invocation for target.
 nestk/deps/opencv/modules/flann/CMakeFiles/opencv_flann.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 51
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles 44
 	$(MAKE) -f CMakeFiles/Makefile2 nestk/deps/opencv/modules/flann/CMakeFiles/opencv_flann.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles 0
 .PHONY : nestk/deps/opencv/modules/flann/CMakeFiles/opencv_flann.dir/rule
 
 # Convenience name for target.
@@ -489,12 +486,15 @@ nestk/deps/opencv/modules/highgui/preinstall:
 # Target rules for target nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir
 
 # All Build rule for target.
-nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/all: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/all
 nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/all: nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/all
+nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/all: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/all
 nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/all: nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/all
+nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/all: nestk/deps/opencv/3rdparty/libjasper/CMakeFiles/libjasper.dir/all
+nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/all: nestk/deps/opencv/3rdparty/libjpeg/CMakeFiles/libjpeg.dir/all
+nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/all: nestk/deps/opencv/3rdparty/libtiff/CMakeFiles/libtiff.dir/all
 	$(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/depend
 	$(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles"  24 25 26
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles  36 37 38
 	@echo "Built target opencv_highgui"
 .PHONY : nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/all
 
@@ -504,9 +504,9 @@ all: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/all
 
 # Build rule for subdir invocation for target.
 nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 60
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles 68
 	$(MAKE) -f CMakeFiles/Makefile2 nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles 0
 .PHONY : nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/rule
 
 # Convenience name for target.
@@ -544,7 +544,7 @@ nestk/deps/opencv/modules/imgproc/preinstall:
 nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/all: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/all
 	$(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/depend
 	$(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles"  27 28 29 30 31 32
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles  39 40 41 42 43
 	@echo "Built target opencv_imgproc"
 .PHONY : nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/all
 
@@ -554,9 +554,9 @@ all: nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/all
 
 # Build rule for subdir invocation for target.
 nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 57
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles 49
 	$(MAKE) -f CMakeFiles/Makefile2 nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles 0
 .PHONY : nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/rule
 
 # Convenience name for target.
@@ -591,16 +591,16 @@ nestk/deps/opencv/modules/legacy/preinstall:
 # Target rules for target nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir
 
 # All Build rule for target.
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/all: nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/all
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/all: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/all
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/all: nestk/deps/opencv/modules/features2d/CMakeFiles/opencv_features2d.dir/all
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/all: nestk/deps/opencv/modules/flann/CMakeFiles/opencv_flann.dir/all
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/all: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/all
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/all: nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/all
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/all: nestk/deps/opencv/modules/flann/CMakeFiles/opencv_flann.dir/all
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/all: nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/all
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/all: nestk/deps/opencv/modules/features2d/CMakeFiles/opencv_features2d.dir/all
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/all: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/all
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/all: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/all
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/all: nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/all
 	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/depend
 	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles"  78 79 80 81 82 83 84 85 86 87
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles  83 84 85 86 87 88 89 90 91
 	@echo "Built target opencv_legacy"
 .PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/all
 
@@ -610,9 +610,9 @@ all: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/all
 
 # Build rule for subdir invocation for target.
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 77
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles 82
 	$(MAKE) -f CMakeFiles/Makefile2 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles 0
 .PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/rule
 
 # Convenience name for target.
@@ -647,18 +647,18 @@ nestk/deps/opencv/modules/contrib/preinstall:
 # Target rules for target nestk/deps/opencv/modules/contrib/CMakeFiles/opencv_contrib.dir
 
 # All Build rule for target.
-nestk/deps/opencv/modules/contrib/CMakeFiles/opencv_contrib.dir/all: nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/all
-nestk/deps/opencv/modules/contrib/CMakeFiles/opencv_contrib.dir/all: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/all
-nestk/deps/opencv/modules/contrib/CMakeFiles/opencv_contrib.dir/all: nestk/deps/opencv/modules/features2d/CMakeFiles/opencv_features2d.dir/all
-nestk/deps/opencv/modules/contrib/CMakeFiles/opencv_contrib.dir/all: nestk/deps/opencv/modules/flann/CMakeFiles/opencv_flann.dir/all
-nestk/deps/opencv/modules/contrib/CMakeFiles/opencv_contrib.dir/all: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/all
 nestk/deps/opencv/modules/contrib/CMakeFiles/opencv_contrib.dir/all: nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/all
+nestk/deps/opencv/modules/contrib/CMakeFiles/opencv_contrib.dir/all: nestk/deps/opencv/modules/flann/CMakeFiles/opencv_flann.dir/all
+nestk/deps/opencv/modules/contrib/CMakeFiles/opencv_contrib.dir/all: nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/all
+nestk/deps/opencv/modules/contrib/CMakeFiles/opencv_contrib.dir/all: nestk/deps/opencv/modules/features2d/CMakeFiles/opencv_features2d.dir/all
+nestk/deps/opencv/modules/contrib/CMakeFiles/opencv_contrib.dir/all: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/all
+nestk/deps/opencv/modules/contrib/CMakeFiles/opencv_contrib.dir/all: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/all
 nestk/deps/opencv/modules/contrib/CMakeFiles/opencv_contrib.dir/all: nestk/deps/opencv/modules/ml/CMakeFiles/opencv_ml.dir/all
 nestk/deps/opencv/modules/contrib/CMakeFiles/opencv_contrib.dir/all: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/all
 nestk/deps/opencv/modules/contrib/CMakeFiles/opencv_contrib.dir/all: nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/all
 	$(MAKE) -f nestk/deps/opencv/modules/contrib/CMakeFiles/opencv_contrib.dir/build.make nestk/deps/opencv/modules/contrib/CMakeFiles/opencv_contrib.dir/depend
 	$(MAKE) -f nestk/deps/opencv/modules/contrib/CMakeFiles/opencv_contrib.dir/build.make nestk/deps/opencv/modules/contrib/CMakeFiles/opencv_contrib.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles"  13
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles  27
 	@echo "Built target opencv_contrib"
 .PHONY : nestk/deps/opencv/modules/contrib/CMakeFiles/opencv_contrib.dir/all
 
@@ -668,9 +668,9 @@ all: nestk/deps/opencv/modules/contrib/CMakeFiles/opencv_contrib.dir/all
 
 # Build rule for subdir invocation for target.
 nestk/deps/opencv/modules/contrib/CMakeFiles/opencv_contrib.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 72
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles 78
 	$(MAKE) -f CMakeFiles/Makefile2 nestk/deps/opencv/modules/contrib/CMakeFiles/opencv_contrib.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles 0
 .PHONY : nestk/deps/opencv/modules/contrib/CMakeFiles/opencv_contrib.dir/rule
 
 # Convenience name for target.
@@ -708,7 +708,7 @@ nestk/deps/opencv/modules/ml/preinstall:
 nestk/deps/opencv/modules/ml/CMakeFiles/opencv_ml.dir/all: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/all
 	$(MAKE) -f nestk/deps/opencv/modules/ml/CMakeFiles/opencv_ml.dir/build.make nestk/deps/opencv/modules/ml/CMakeFiles/opencv_ml.dir/depend
 	$(MAKE) -f nestk/deps/opencv/modules/ml/CMakeFiles/opencv_ml.dir/build.make nestk/deps/opencv/modules/ml/CMakeFiles/opencv_ml.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles"  88 89
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles  92 93
 	@echo "Built target opencv_ml"
 .PHONY : nestk/deps/opencv/modules/ml/CMakeFiles/opencv_ml.dir/all
 
@@ -718,9 +718,9 @@ all: nestk/deps/opencv/modules/ml/CMakeFiles/opencv_ml.dir/all
 
 # Build rule for subdir invocation for target.
 nestk/deps/opencv/modules/ml/CMakeFiles/opencv_ml.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 53
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles 46
 	$(MAKE) -f CMakeFiles/Makefile2 nestk/deps/opencv/modules/ml/CMakeFiles/opencv_ml.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles 0
 .PHONY : nestk/deps/opencv/modules/ml/CMakeFiles/opencv_ml.dir/rule
 
 # Convenience name for target.
@@ -755,12 +755,12 @@ nestk/deps/opencv/modules/objdetect/preinstall:
 # Target rules for target nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir
 
 # All Build rule for target.
+nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/all: nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/all
 nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/all: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/all
 nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/all: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/all
-nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/all: nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/all
 	$(MAKE) -f nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/build.make nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/depend
 	$(MAKE) -f nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/build.make nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles"  90 91
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles  94 95
 	@echo "Built target opencv_objdetect"
 .PHONY : nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/all
 
@@ -770,9 +770,9 @@ all: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/all
 
 # Build rule for subdir invocation for target.
 nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 62
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles 70
 	$(MAKE) -f CMakeFiles/Makefile2 nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles 0
 .PHONY : nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/rule
 
 # Convenience name for target.
@@ -807,11 +807,11 @@ nestk/deps/opencv/modules/video/preinstall:
 # Target rules for target nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir
 
 # All Build rule for target.
-nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/all: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/all
 nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/all: nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/all
+nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/all: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/all
 	$(MAKE) -f nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/build.make nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/depend
 	$(MAKE) -f nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/build.make nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles"  93 94
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles  97
 	@echo "Built target opencv_video"
 .PHONY : nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/all
 
@@ -821,9 +821,9 @@ all: nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/all
 
 # Build rule for subdir invocation for target.
 nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 59
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles 50
 	$(MAKE) -f CMakeFiles/Makefile2 nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles 0
 .PHONY : nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/rule
 
 # Convenience name for target.
@@ -864,15 +864,15 @@ nestk/deps/opencv/modules/haartraining/preinstall:
 # Target rules for target nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_createsamples.dir
 
 # All Build rule for target.
+nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_createsamples.dir/all: nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/all
 nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_createsamples.dir/all: nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/all
 nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_createsamples.dir/all: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/all
 nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_createsamples.dir/all: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/all
-nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_createsamples.dir/all: nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/all
 nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_createsamples.dir/all: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/all
 nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_createsamples.dir/all: nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining_engine.dir/all
 	$(MAKE) -f nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_createsamples.dir/build.make nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_createsamples.dir/depend
 	$(MAKE) -f nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_createsamples.dir/build.make nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_createsamples.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles 
 	@echo "Built target opencv_createsamples"
 .PHONY : nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_createsamples.dir/all
 
@@ -882,9 +882,9 @@ all: nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_createsamples.dir/
 
 # Build rule for subdir invocation for target.
 nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_createsamples.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 65
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles 72
 	$(MAKE) -f CMakeFiles/Makefile2 nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_createsamples.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles 0
 .PHONY : nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_createsamples.dir/rule
 
 # Convenience name for target.
@@ -904,15 +904,15 @@ clean: nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_createsamples.di
 # Target rules for target nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining.dir
 
 # All Build rule for target.
+nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining.dir/all: nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/all
 nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining.dir/all: nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/all
 nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining.dir/all: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/all
 nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining.dir/all: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/all
-nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining.dir/all: nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/all
 nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining.dir/all: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/all
 nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining.dir/all: nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining_engine.dir/all
 	$(MAKE) -f nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining.dir/build.make nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining.dir/depend
 	$(MAKE) -f nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining.dir/build.make nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles 
 	@echo "Built target opencv_haartraining"
 .PHONY : nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining.dir/all
 
@@ -922,9 +922,9 @@ all: nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining.dir/a
 
 # Build rule for subdir invocation for target.
 nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 65
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles 72
 	$(MAKE) -f CMakeFiles/Makefile2 nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles 0
 .PHONY : nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining.dir/rule
 
 # Convenience name for target.
@@ -944,14 +944,14 @@ clean: nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining.dir
 # Target rules for target nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining_engine.dir
 
 # All Build rule for target.
+nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining_engine.dir/all: nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/all
 nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining_engine.dir/all: nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/all
 nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining_engine.dir/all: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/all
 nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining_engine.dir/all: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/all
-nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining_engine.dir/all: nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/all
 nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining_engine.dir/all: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/all
 	$(MAKE) -f nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining_engine.dir/build.make nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining_engine.dir/depend
 	$(MAKE) -f nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining_engine.dir/build.make nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining_engine.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles"  23
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles 
 	@echo "Built target opencv_haartraining_engine"
 .PHONY : nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining_engine.dir/all
 
@@ -961,9 +961,9 @@ all: nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining_engin
 
 # Build rule for subdir invocation for target.
 nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining_engine.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 65
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles 72
 	$(MAKE) -f CMakeFiles/Makefile2 nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining_engine.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles 0
 .PHONY : nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining_engine.dir/rule
 
 # Convenience name for target.
@@ -983,15 +983,15 @@ clean: nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining_eng
 # Target rules for target nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_performance.dir
 
 # All Build rule for target.
+nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_performance.dir/all: nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/all
 nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_performance.dir/all: nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/all
 nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_performance.dir/all: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/all
 nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_performance.dir/all: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/all
-nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_performance.dir/all: nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/all
 nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_performance.dir/all: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/all
 nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_performance.dir/all: nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining_engine.dir/all
 	$(MAKE) -f nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_performance.dir/build.make nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_performance.dir/depend
 	$(MAKE) -f nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_performance.dir/build.make nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_performance.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles 
 	@echo "Built target opencv_performance"
 .PHONY : nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_performance.dir/all
 
@@ -1001,9 +1001,9 @@ all: nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_performance.dir/al
 
 # Build rule for subdir invocation for target.
 nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_performance.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 65
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles 72
 	$(MAKE) -f CMakeFiles/Makefile2 nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_performance.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles 0
 .PHONY : nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_performance.dir/rule
 
 # Convenience name for target.
@@ -1038,15 +1038,15 @@ nestk/deps/opencv/modules/traincascade/preinstall:
 # Target rules for target nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir
 
 # All Build rule for target.
+nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/all: nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/all
 nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/all: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/all
 nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/all: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/all
-nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/all: nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/all
 nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/all: nestk/deps/opencv/modules/ml/CMakeFiles/opencv_ml.dir/all
 nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/all: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/all
 nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/all: nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining_engine.dir/all
 	$(MAKE) -f nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/build.make nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/depend
 	$(MAKE) -f nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/build.make nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles"  92
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles  96
 	@echo "Built target opencv_traincascade"
 .PHONY : nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/all
 
@@ -1056,9 +1056,9 @@ all: nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/a
 
 # Build rule for subdir invocation for target.
 nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 68
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles 75
 	$(MAKE) -f CMakeFiles/Makefile2 nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles 0
 .PHONY : nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/rule
 
 # Convenience name for target.
@@ -1093,12 +1093,12 @@ nestk/deps/opencv/modules/gpu/preinstall:
 # Target rules for target nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir
 
 # All Build rule for target.
-nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/all: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/all
 nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/all: nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/all
+nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/all: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/all
 nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/all: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/all
 	$(MAKE) -f nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/build.make nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/depend
 	$(MAKE) -f nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/build.make nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles"  20 21 22
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles  33 34 35
 	@echo "Built target opencv_gpu"
 .PHONY : nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/all
 
@@ -1108,9 +1108,9 @@ all: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/all
 
 # Build rule for subdir invocation for target.
 nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 65
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles 73
 	$(MAKE) -f CMakeFiles/Makefile2 nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles 0
 .PHONY : nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/rule
 
 # Convenience name for target.
@@ -1162,16 +1162,25 @@ nestk/deps/opencv/data/preinstall:
 # Convenience name for "all" pass in the directory.
 nestk/deps/opencv/3rdparty/all: nestk/deps/opencv/3rdparty/lapack/all
 nestk/deps/opencv/3rdparty/all: nestk/deps/opencv/3rdparty/zlib/all
+nestk/deps/opencv/3rdparty/all: nestk/deps/opencv/3rdparty/libjasper/all
+nestk/deps/opencv/3rdparty/all: nestk/deps/opencv/3rdparty/libjpeg/all
+nestk/deps/opencv/3rdparty/all: nestk/deps/opencv/3rdparty/libtiff/all
 .PHONY : nestk/deps/opencv/3rdparty/all
 
 # Convenience name for "clean" pass in the directory.
 nestk/deps/opencv/3rdparty/clean: nestk/deps/opencv/3rdparty/lapack/clean
 nestk/deps/opencv/3rdparty/clean: nestk/deps/opencv/3rdparty/zlib/clean
+nestk/deps/opencv/3rdparty/clean: nestk/deps/opencv/3rdparty/libjasper/clean
+nestk/deps/opencv/3rdparty/clean: nestk/deps/opencv/3rdparty/libjpeg/clean
+nestk/deps/opencv/3rdparty/clean: nestk/deps/opencv/3rdparty/libtiff/clean
 .PHONY : nestk/deps/opencv/3rdparty/clean
 
 # Convenience name for "preinstall" pass in the directory.
 nestk/deps/opencv/3rdparty/preinstall: nestk/deps/opencv/3rdparty/lapack/preinstall
 nestk/deps/opencv/3rdparty/preinstall: nestk/deps/opencv/3rdparty/zlib/preinstall
+nestk/deps/opencv/3rdparty/preinstall: nestk/deps/opencv/3rdparty/libjasper/preinstall
+nestk/deps/opencv/3rdparty/preinstall: nestk/deps/opencv/3rdparty/libjpeg/preinstall
+nestk/deps/opencv/3rdparty/preinstall: nestk/deps/opencv/3rdparty/libtiff/preinstall
 .PHONY : nestk/deps/opencv/3rdparty/preinstall
 
 #=============================================================================
@@ -1196,7 +1205,7 @@ nestk/deps/opencv/3rdparty/lapack/preinstall:
 nestk/deps/opencv/3rdparty/lapack/CMakeFiles/opencv_lapack.dir/all:
 	$(MAKE) -f nestk/deps/opencv/3rdparty/lapack/CMakeFiles/opencv_lapack.dir/build.make nestk/deps/opencv/3rdparty/lapack/CMakeFiles/opencv_lapack.dir/depend
 	$(MAKE) -f nestk/deps/opencv/3rdparty/lapack/CMakeFiles/opencv_lapack.dir/build.make nestk/deps/opencv/3rdparty/lapack/CMakeFiles/opencv_lapack.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles"  33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles  44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82
 	@echo "Built target opencv_lapack"
 .PHONY : nestk/deps/opencv/3rdparty/lapack/CMakeFiles/opencv_lapack.dir/all
 
@@ -1206,9 +1215,9 @@ all: nestk/deps/opencv/3rdparty/lapack/CMakeFiles/opencv_lapack.dir/all
 
 # Build rule for subdir invocation for target.
 nestk/deps/opencv/3rdparty/lapack/CMakeFiles/opencv_lapack.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 45
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles 39
 	$(MAKE) -f CMakeFiles/Makefile2 nestk/deps/opencv/3rdparty/lapack/CMakeFiles/opencv_lapack.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles 0
 .PHONY : nestk/deps/opencv/3rdparty/lapack/CMakeFiles/opencv_lapack.dir/rule
 
 # Convenience name for target.
@@ -1246,7 +1255,7 @@ nestk/deps/opencv/3rdparty/zlib/preinstall:
 nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/all:
 	$(MAKE) -f nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/build.make nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/depend
 	$(MAKE) -f nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/build.make nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles"  98 99 100
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles  99 100
 	@echo "Built target zlib"
 .PHONY : nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/all
 
@@ -1256,9 +1265,9 @@ all: nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/all
 
 # Build rule for subdir invocation for target.
 nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles 0
 .PHONY : nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/rule
 
 # Convenience name for target.
@@ -1272,6 +1281,156 @@ nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/clean:
 
 # clean rule for target.
 clean: nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory nestk/deps/opencv/3rdparty/libjasper
+
+# Convenience name for "all" pass in the directory.
+nestk/deps/opencv/3rdparty/libjasper/all: nestk/deps/opencv/3rdparty/libjasper/CMakeFiles/libjasper.dir/all
+.PHONY : nestk/deps/opencv/3rdparty/libjasper/all
+
+# Convenience name for "clean" pass in the directory.
+nestk/deps/opencv/3rdparty/libjasper/clean: nestk/deps/opencv/3rdparty/libjasper/CMakeFiles/libjasper.dir/clean
+.PHONY : nestk/deps/opencv/3rdparty/libjasper/clean
+
+# Convenience name for "preinstall" pass in the directory.
+nestk/deps/opencv/3rdparty/libjasper/preinstall:
+.PHONY : nestk/deps/opencv/3rdparty/libjasper/preinstall
+
+#=============================================================================
+# Target rules for target nestk/deps/opencv/3rdparty/libjasper/CMakeFiles/libjasper.dir
+
+# All Build rule for target.
+nestk/deps/opencv/3rdparty/libjasper/CMakeFiles/libjasper.dir/all:
+	$(MAKE) -f nestk/deps/opencv/3rdparty/libjasper/CMakeFiles/libjasper.dir/build.make nestk/deps/opencv/3rdparty/libjasper/CMakeFiles/libjasper.dir/depend
+	$(MAKE) -f nestk/deps/opencv/3rdparty/libjasper/CMakeFiles/libjasper.dir/build.make nestk/deps/opencv/3rdparty/libjasper/CMakeFiles/libjasper.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles  2 3 4 5 6
+	@echo "Built target libjasper"
+.PHONY : nestk/deps/opencv/3rdparty/libjasper/CMakeFiles/libjasper.dir/all
+
+# Include target in all.
+all: nestk/deps/opencv/3rdparty/libjasper/CMakeFiles/libjasper.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+nestk/deps/opencv/3rdparty/libjasper/CMakeFiles/libjasper.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles 5
+	$(MAKE) -f CMakeFiles/Makefile2 nestk/deps/opencv/3rdparty/libjasper/CMakeFiles/libjasper.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles 0
+.PHONY : nestk/deps/opencv/3rdparty/libjasper/CMakeFiles/libjasper.dir/rule
+
+# Convenience name for target.
+libjasper: nestk/deps/opencv/3rdparty/libjasper/CMakeFiles/libjasper.dir/rule
+.PHONY : libjasper
+
+# clean rule for target.
+nestk/deps/opencv/3rdparty/libjasper/CMakeFiles/libjasper.dir/clean:
+	$(MAKE) -f nestk/deps/opencv/3rdparty/libjasper/CMakeFiles/libjasper.dir/build.make nestk/deps/opencv/3rdparty/libjasper/CMakeFiles/libjasper.dir/clean
+.PHONY : nestk/deps/opencv/3rdparty/libjasper/CMakeFiles/libjasper.dir/clean
+
+# clean rule for target.
+clean: nestk/deps/opencv/3rdparty/libjasper/CMakeFiles/libjasper.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory nestk/deps/opencv/3rdparty/libjpeg
+
+# Convenience name for "all" pass in the directory.
+nestk/deps/opencv/3rdparty/libjpeg/all: nestk/deps/opencv/3rdparty/libjpeg/CMakeFiles/libjpeg.dir/all
+.PHONY : nestk/deps/opencv/3rdparty/libjpeg/all
+
+# Convenience name for "clean" pass in the directory.
+nestk/deps/opencv/3rdparty/libjpeg/clean: nestk/deps/opencv/3rdparty/libjpeg/CMakeFiles/libjpeg.dir/clean
+.PHONY : nestk/deps/opencv/3rdparty/libjpeg/clean
+
+# Convenience name for "preinstall" pass in the directory.
+nestk/deps/opencv/3rdparty/libjpeg/preinstall:
+.PHONY : nestk/deps/opencv/3rdparty/libjpeg/preinstall
+
+#=============================================================================
+# Target rules for target nestk/deps/opencv/3rdparty/libjpeg/CMakeFiles/libjpeg.dir
+
+# All Build rule for target.
+nestk/deps/opencv/3rdparty/libjpeg/CMakeFiles/libjpeg.dir/all:
+	$(MAKE) -f nestk/deps/opencv/3rdparty/libjpeg/CMakeFiles/libjpeg.dir/build.make nestk/deps/opencv/3rdparty/libjpeg/CMakeFiles/libjpeg.dir/depend
+	$(MAKE) -f nestk/deps/opencv/3rdparty/libjpeg/CMakeFiles/libjpeg.dir/build.make nestk/deps/opencv/3rdparty/libjpeg/CMakeFiles/libjpeg.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles  7 8 9 10 11 12
+	@echo "Built target libjpeg"
+.PHONY : nestk/deps/opencv/3rdparty/libjpeg/CMakeFiles/libjpeg.dir/all
+
+# Include target in all.
+all: nestk/deps/opencv/3rdparty/libjpeg/CMakeFiles/libjpeg.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+nestk/deps/opencv/3rdparty/libjpeg/CMakeFiles/libjpeg.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles 6
+	$(MAKE) -f CMakeFiles/Makefile2 nestk/deps/opencv/3rdparty/libjpeg/CMakeFiles/libjpeg.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles 0
+.PHONY : nestk/deps/opencv/3rdparty/libjpeg/CMakeFiles/libjpeg.dir/rule
+
+# Convenience name for target.
+libjpeg: nestk/deps/opencv/3rdparty/libjpeg/CMakeFiles/libjpeg.dir/rule
+.PHONY : libjpeg
+
+# clean rule for target.
+nestk/deps/opencv/3rdparty/libjpeg/CMakeFiles/libjpeg.dir/clean:
+	$(MAKE) -f nestk/deps/opencv/3rdparty/libjpeg/CMakeFiles/libjpeg.dir/build.make nestk/deps/opencv/3rdparty/libjpeg/CMakeFiles/libjpeg.dir/clean
+.PHONY : nestk/deps/opencv/3rdparty/libjpeg/CMakeFiles/libjpeg.dir/clean
+
+# clean rule for target.
+clean: nestk/deps/opencv/3rdparty/libjpeg/CMakeFiles/libjpeg.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory nestk/deps/opencv/3rdparty/libtiff
+
+# Convenience name for "all" pass in the directory.
+nestk/deps/opencv/3rdparty/libtiff/all: nestk/deps/opencv/3rdparty/libtiff/CMakeFiles/libtiff.dir/all
+.PHONY : nestk/deps/opencv/3rdparty/libtiff/all
+
+# Convenience name for "clean" pass in the directory.
+nestk/deps/opencv/3rdparty/libtiff/clean: nestk/deps/opencv/3rdparty/libtiff/CMakeFiles/libtiff.dir/clean
+.PHONY : nestk/deps/opencv/3rdparty/libtiff/clean
+
+# Convenience name for "preinstall" pass in the directory.
+nestk/deps/opencv/3rdparty/libtiff/preinstall:
+.PHONY : nestk/deps/opencv/3rdparty/libtiff/preinstall
+
+#=============================================================================
+# Target rules for target nestk/deps/opencv/3rdparty/libtiff/CMakeFiles/libtiff.dir
+
+# All Build rule for target.
+nestk/deps/opencv/3rdparty/libtiff/CMakeFiles/libtiff.dir/all:
+	$(MAKE) -f nestk/deps/opencv/3rdparty/libtiff/CMakeFiles/libtiff.dir/build.make nestk/deps/opencv/3rdparty/libtiff/CMakeFiles/libtiff.dir/depend
+	$(MAKE) -f nestk/deps/opencv/3rdparty/libtiff/CMakeFiles/libtiff.dir/build.make nestk/deps/opencv/3rdparty/libtiff/CMakeFiles/libtiff.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles  13 14 15 16 17
+	@echo "Built target libtiff"
+.PHONY : nestk/deps/opencv/3rdparty/libtiff/CMakeFiles/libtiff.dir/all
+
+# Include target in all.
+all: nestk/deps/opencv/3rdparty/libtiff/CMakeFiles/libtiff.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+nestk/deps/opencv/3rdparty/libtiff/CMakeFiles/libtiff.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles 5
+	$(MAKE) -f CMakeFiles/Makefile2 nestk/deps/opencv/3rdparty/libtiff/CMakeFiles/libtiff.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles 0
+.PHONY : nestk/deps/opencv/3rdparty/libtiff/CMakeFiles/libtiff.dir/rule
+
+# Convenience name for target.
+libtiff: nestk/deps/opencv/3rdparty/libtiff/CMakeFiles/libtiff.dir/rule
+.PHONY : libtiff
+
+# clean rule for target.
+nestk/deps/opencv/3rdparty/libtiff/CMakeFiles/libtiff.dir/clean:
+	$(MAKE) -f nestk/deps/opencv/3rdparty/libtiff/CMakeFiles/libtiff.dir/build.make nestk/deps/opencv/3rdparty/libtiff/CMakeFiles/libtiff.dir/clean
+.PHONY : nestk/deps/opencv/3rdparty/libtiff/CMakeFiles/libtiff.dir/clean
+
+# clean rule for target.
+clean: nestk/deps/opencv/3rdparty/libtiff/CMakeFiles/libtiff.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -1296,7 +1455,7 @@ nestk/deps/glew/preinstall:
 nestk/deps/glew/CMakeFiles/glew.dir/all:
 	$(MAKE) -f nestk/deps/glew/CMakeFiles/glew.dir/build.make nestk/deps/glew/CMakeFiles/glew.dir/depend
 	$(MAKE) -f nestk/deps/glew/CMakeFiles/glew.dir/build.make nestk/deps/glew/CMakeFiles/glew.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles 
 	@echo "Built target glew"
 .PHONY : nestk/deps/glew/CMakeFiles/glew.dir/all
 
@@ -1306,9 +1465,9 @@ all: nestk/deps/glew/CMakeFiles/glew.dir/all
 
 # Build rule for subdir invocation for target.
 nestk/deps/glew/CMakeFiles/glew.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 nestk/deps/glew/CMakeFiles/glew.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles 0
 .PHONY : nestk/deps/glew/CMakeFiles/glew.dir/rule
 
 # Convenience name for target.
@@ -1356,15 +1515,15 @@ nestk/deps/libfreenect/preinstall: nestk/deps/libfreenect/wrappers/cpp/preinstal
 nestk/deps/libfreenect/CMakeFiles/libfreenect_uninstall.dir/all:
 	$(MAKE) -f nestk/deps/libfreenect/CMakeFiles/libfreenect_uninstall.dir/build.make nestk/deps/libfreenect/CMakeFiles/libfreenect_uninstall.dir/depend
 	$(MAKE) -f nestk/deps/libfreenect/CMakeFiles/libfreenect_uninstall.dir/build.make nestk/deps/libfreenect/CMakeFiles/libfreenect_uninstall.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles 
 	@echo "Built target libfreenect_uninstall"
 .PHONY : nestk/deps/libfreenect/CMakeFiles/libfreenect_uninstall.dir/all
 
 # Build rule for subdir invocation for target.
 nestk/deps/libfreenect/CMakeFiles/libfreenect_uninstall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 nestk/deps/libfreenect/CMakeFiles/libfreenect_uninstall.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles 0
 .PHONY : nestk/deps/libfreenect/CMakeFiles/libfreenect_uninstall.dir/rule
 
 # Convenience name for target.
@@ -1404,7 +1563,7 @@ nestk/deps/libfreenect/src/preinstall:
 nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/all:
 	$(MAKE) -f nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/build.make nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/depend
 	$(MAKE) -f nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/build.make nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles 
 	@echo "Built target freenect"
 .PHONY : nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/all
 
@@ -1414,9 +1573,9 @@ all: nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/all
 
 # Build rule for subdir invocation for target.
 nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles 0
 .PHONY : nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/rule
 
 # Convenience name for target.
@@ -1439,7 +1598,7 @@ clean: nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/clean
 nestk/deps/libfreenect/src/CMakeFiles/freenectstatic.dir/all:
 	$(MAKE) -f nestk/deps/libfreenect/src/CMakeFiles/freenectstatic.dir/build.make nestk/deps/libfreenect/src/CMakeFiles/freenectstatic.dir/depend
 	$(MAKE) -f nestk/deps/libfreenect/src/CMakeFiles/freenectstatic.dir/build.make nestk/deps/libfreenect/src/CMakeFiles/freenectstatic.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles 
 	@echo "Built target freenectstatic"
 .PHONY : nestk/deps/libfreenect/src/CMakeFiles/freenectstatic.dir/all
 
@@ -1449,9 +1608,9 @@ all: nestk/deps/libfreenect/src/CMakeFiles/freenectstatic.dir/all
 
 # Build rule for subdir invocation for target.
 nestk/deps/libfreenect/src/CMakeFiles/freenectstatic.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 nestk/deps/libfreenect/src/CMakeFiles/freenectstatic.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles 0
 .PHONY : nestk/deps/libfreenect/src/CMakeFiles/freenectstatic.dir/rule
 
 # Convenience name for target.
@@ -1491,7 +1650,7 @@ nestk/deps/libfreenect/fakenect/preinstall:
 nestk/deps/libfreenect/fakenect/CMakeFiles/fakenect.dir/all:
 	$(MAKE) -f nestk/deps/libfreenect/fakenect/CMakeFiles/fakenect.dir/build.make nestk/deps/libfreenect/fakenect/CMakeFiles/fakenect.dir/depend
 	$(MAKE) -f nestk/deps/libfreenect/fakenect/CMakeFiles/fakenect.dir/build.make nestk/deps/libfreenect/fakenect/CMakeFiles/fakenect.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles 
 	@echo "Built target fakenect"
 .PHONY : nestk/deps/libfreenect/fakenect/CMakeFiles/fakenect.dir/all
 
@@ -1501,9 +1660,9 @@ all: nestk/deps/libfreenect/fakenect/CMakeFiles/fakenect.dir/all
 
 # Build rule for subdir invocation for target.
 nestk/deps/libfreenect/fakenect/CMakeFiles/fakenect.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 nestk/deps/libfreenect/fakenect/CMakeFiles/fakenect.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles 0
 .PHONY : nestk/deps/libfreenect/fakenect/CMakeFiles/fakenect.dir/rule
 
 # Convenience name for target.
@@ -1526,7 +1685,7 @@ clean: nestk/deps/libfreenect/fakenect/CMakeFiles/fakenect.dir/clean
 nestk/deps/libfreenect/fakenect/CMakeFiles/record.dir/all: nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/all
 	$(MAKE) -f nestk/deps/libfreenect/fakenect/CMakeFiles/record.dir/build.make nestk/deps/libfreenect/fakenect/CMakeFiles/record.dir/depend
 	$(MAKE) -f nestk/deps/libfreenect/fakenect/CMakeFiles/record.dir/build.make nestk/deps/libfreenect/fakenect/CMakeFiles/record.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles"  95
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles  98
 	@echo "Built target record"
 .PHONY : nestk/deps/libfreenect/fakenect/CMakeFiles/record.dir/all
 
@@ -1536,9 +1695,9 @@ all: nestk/deps/libfreenect/fakenect/CMakeFiles/record.dir/all
 
 # Build rule for subdir invocation for target.
 nestk/deps/libfreenect/fakenect/CMakeFiles/record.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 nestk/deps/libfreenect/fakenect/CMakeFiles/record.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles 0
 .PHONY : nestk/deps/libfreenect/fakenect/CMakeFiles/record.dir/rule
 
 # Convenience name for target.
@@ -1578,7 +1737,7 @@ nestk/deps/libfreenect/wrappers/c_sync/preinstall:
 nestk/deps/libfreenect/wrappers/c_sync/CMakeFiles/freenect_sync.dir/all: nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/all
 	$(MAKE) -f nestk/deps/libfreenect/wrappers/c_sync/CMakeFiles/freenect_sync.dir/build.make nestk/deps/libfreenect/wrappers/c_sync/CMakeFiles/freenect_sync.dir/depend
 	$(MAKE) -f nestk/deps/libfreenect/wrappers/c_sync/CMakeFiles/freenect_sync.dir/build.make nestk/deps/libfreenect/wrappers/c_sync/CMakeFiles/freenect_sync.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles"  1
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles 
 	@echo "Built target freenect_sync"
 .PHONY : nestk/deps/libfreenect/wrappers/c_sync/CMakeFiles/freenect_sync.dir/all
 
@@ -1588,9 +1747,9 @@ all: nestk/deps/libfreenect/wrappers/c_sync/CMakeFiles/freenect_sync.dir/all
 
 # Build rule for subdir invocation for target.
 nestk/deps/libfreenect/wrappers/c_sync/CMakeFiles/freenect_sync.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 nestk/deps/libfreenect/wrappers/c_sync/CMakeFiles/freenect_sync.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles 0
 .PHONY : nestk/deps/libfreenect/wrappers/c_sync/CMakeFiles/freenect_sync.dir/rule
 
 # Convenience name for target.
@@ -1613,7 +1772,7 @@ clean: nestk/deps/libfreenect/wrappers/c_sync/CMakeFiles/freenect_sync.dir/clean
 nestk/deps/libfreenect/wrappers/c_sync/CMakeFiles/freenect_sync_static.dir/all: nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/all
 	$(MAKE) -f nestk/deps/libfreenect/wrappers/c_sync/CMakeFiles/freenect_sync_static.dir/build.make nestk/deps/libfreenect/wrappers/c_sync/CMakeFiles/freenect_sync_static.dir/depend
 	$(MAKE) -f nestk/deps/libfreenect/wrappers/c_sync/CMakeFiles/freenect_sync_static.dir/build.make nestk/deps/libfreenect/wrappers/c_sync/CMakeFiles/freenect_sync_static.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles  1
 	@echo "Built target freenect_sync_static"
 .PHONY : nestk/deps/libfreenect/wrappers/c_sync/CMakeFiles/freenect_sync_static.dir/all
 
@@ -1623,9 +1782,9 @@ all: nestk/deps/libfreenect/wrappers/c_sync/CMakeFiles/freenect_sync_static.dir/
 
 # Build rule for subdir invocation for target.
 nestk/deps/libfreenect/wrappers/c_sync/CMakeFiles/freenect_sync_static.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 nestk/deps/libfreenect/wrappers/c_sync/CMakeFiles/freenect_sync_static.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles 0
 .PHONY : nestk/deps/libfreenect/wrappers/c_sync/CMakeFiles/freenect_sync_static.dir/rule
 
 # Convenience name for target.
@@ -1696,85 +1855,85 @@ nestk/deps/eigen/Eigen/preinstall: nestk/deps/eigen/Eigen/src/preinstall
 # Directory level rules for directory nestk/deps/eigen/Eigen/src
 
 # Convenience name for "all" pass in the directory.
-nestk/deps/eigen/Eigen/src/all: nestk/deps/eigen/Eigen/src/Geometry/all
-nestk/deps/eigen/Eigen/src/all: nestk/deps/eigen/Eigen/src/Householder/all
-nestk/deps/eigen/Eigen/src/all: nestk/deps/eigen/Eigen/src/Core/all
+nestk/deps/eigen/Eigen/src/all: nestk/deps/eigen/Eigen/src/SVD/all
 nestk/deps/eigen/Eigen/src/all: nestk/deps/eigen/Eigen/src/misc/all
-nestk/deps/eigen/Eigen/src/all: nestk/deps/eigen/Eigen/src/Sparse/all
+nestk/deps/eigen/Eigen/src/all: nestk/deps/eigen/Eigen/src/Householder/all
 nestk/deps/eigen/Eigen/src/all: nestk/deps/eigen/Eigen/src/Eigenvalues/all
-nestk/deps/eigen/Eigen/src/all: nestk/deps/eigen/Eigen/src/StlSupport/all
+nestk/deps/eigen/Eigen/src/all: nestk/deps/eigen/Eigen/src/Cholesky/all
+nestk/deps/eigen/Eigen/src/all: nestk/deps/eigen/Eigen/src/Jacobi/all
 nestk/deps/eigen/Eigen/src/all: nestk/deps/eigen/Eigen/src/LU/all
 nestk/deps/eigen/Eigen/src/all: nestk/deps/eigen/Eigen/src/Eigen2Support/all
 nestk/deps/eigen/Eigen/src/all: nestk/deps/eigen/Eigen/src/QR/all
+nestk/deps/eigen/Eigen/src/all: nestk/deps/eigen/Eigen/src/Core/all
 nestk/deps/eigen/Eigen/src/all: nestk/deps/eigen/Eigen/src/plugins/all
-nestk/deps/eigen/Eigen/src/all: nestk/deps/eigen/Eigen/src/SVD/all
-nestk/deps/eigen/Eigen/src/all: nestk/deps/eigen/Eigen/src/Cholesky/all
-nestk/deps/eigen/Eigen/src/all: nestk/deps/eigen/Eigen/src/Jacobi/all
+nestk/deps/eigen/Eigen/src/all: nestk/deps/eigen/Eigen/src/Geometry/all
+nestk/deps/eigen/Eigen/src/all: nestk/deps/eigen/Eigen/src/Sparse/all
+nestk/deps/eigen/Eigen/src/all: nestk/deps/eigen/Eigen/src/StlSupport/all
 .PHONY : nestk/deps/eigen/Eigen/src/all
 
 # Convenience name for "clean" pass in the directory.
-nestk/deps/eigen/Eigen/src/clean: nestk/deps/eigen/Eigen/src/Geometry/clean
-nestk/deps/eigen/Eigen/src/clean: nestk/deps/eigen/Eigen/src/Householder/clean
-nestk/deps/eigen/Eigen/src/clean: nestk/deps/eigen/Eigen/src/Core/clean
+nestk/deps/eigen/Eigen/src/clean: nestk/deps/eigen/Eigen/src/SVD/clean
 nestk/deps/eigen/Eigen/src/clean: nestk/deps/eigen/Eigen/src/misc/clean
-nestk/deps/eigen/Eigen/src/clean: nestk/deps/eigen/Eigen/src/Sparse/clean
+nestk/deps/eigen/Eigen/src/clean: nestk/deps/eigen/Eigen/src/Householder/clean
 nestk/deps/eigen/Eigen/src/clean: nestk/deps/eigen/Eigen/src/Eigenvalues/clean
-nestk/deps/eigen/Eigen/src/clean: nestk/deps/eigen/Eigen/src/StlSupport/clean
+nestk/deps/eigen/Eigen/src/clean: nestk/deps/eigen/Eigen/src/Cholesky/clean
+nestk/deps/eigen/Eigen/src/clean: nestk/deps/eigen/Eigen/src/Jacobi/clean
 nestk/deps/eigen/Eigen/src/clean: nestk/deps/eigen/Eigen/src/LU/clean
 nestk/deps/eigen/Eigen/src/clean: nestk/deps/eigen/Eigen/src/Eigen2Support/clean
 nestk/deps/eigen/Eigen/src/clean: nestk/deps/eigen/Eigen/src/QR/clean
+nestk/deps/eigen/Eigen/src/clean: nestk/deps/eigen/Eigen/src/Core/clean
 nestk/deps/eigen/Eigen/src/clean: nestk/deps/eigen/Eigen/src/plugins/clean
-nestk/deps/eigen/Eigen/src/clean: nestk/deps/eigen/Eigen/src/SVD/clean
-nestk/deps/eigen/Eigen/src/clean: nestk/deps/eigen/Eigen/src/Cholesky/clean
-nestk/deps/eigen/Eigen/src/clean: nestk/deps/eigen/Eigen/src/Jacobi/clean
+nestk/deps/eigen/Eigen/src/clean: nestk/deps/eigen/Eigen/src/Geometry/clean
+nestk/deps/eigen/Eigen/src/clean: nestk/deps/eigen/Eigen/src/Sparse/clean
+nestk/deps/eigen/Eigen/src/clean: nestk/deps/eigen/Eigen/src/StlSupport/clean
 .PHONY : nestk/deps/eigen/Eigen/src/clean
 
 # Convenience name for "preinstall" pass in the directory.
-nestk/deps/eigen/Eigen/src/preinstall: nestk/deps/eigen/Eigen/src/Geometry/preinstall
-nestk/deps/eigen/Eigen/src/preinstall: nestk/deps/eigen/Eigen/src/Householder/preinstall
-nestk/deps/eigen/Eigen/src/preinstall: nestk/deps/eigen/Eigen/src/Core/preinstall
+nestk/deps/eigen/Eigen/src/preinstall: nestk/deps/eigen/Eigen/src/SVD/preinstall
 nestk/deps/eigen/Eigen/src/preinstall: nestk/deps/eigen/Eigen/src/misc/preinstall
-nestk/deps/eigen/Eigen/src/preinstall: nestk/deps/eigen/Eigen/src/Sparse/preinstall
+nestk/deps/eigen/Eigen/src/preinstall: nestk/deps/eigen/Eigen/src/Householder/preinstall
 nestk/deps/eigen/Eigen/src/preinstall: nestk/deps/eigen/Eigen/src/Eigenvalues/preinstall
-nestk/deps/eigen/Eigen/src/preinstall: nestk/deps/eigen/Eigen/src/StlSupport/preinstall
+nestk/deps/eigen/Eigen/src/preinstall: nestk/deps/eigen/Eigen/src/Cholesky/preinstall
+nestk/deps/eigen/Eigen/src/preinstall: nestk/deps/eigen/Eigen/src/Jacobi/preinstall
 nestk/deps/eigen/Eigen/src/preinstall: nestk/deps/eigen/Eigen/src/LU/preinstall
 nestk/deps/eigen/Eigen/src/preinstall: nestk/deps/eigen/Eigen/src/Eigen2Support/preinstall
 nestk/deps/eigen/Eigen/src/preinstall: nestk/deps/eigen/Eigen/src/QR/preinstall
+nestk/deps/eigen/Eigen/src/preinstall: nestk/deps/eigen/Eigen/src/Core/preinstall
 nestk/deps/eigen/Eigen/src/preinstall: nestk/deps/eigen/Eigen/src/plugins/preinstall
-nestk/deps/eigen/Eigen/src/preinstall: nestk/deps/eigen/Eigen/src/SVD/preinstall
-nestk/deps/eigen/Eigen/src/preinstall: nestk/deps/eigen/Eigen/src/Cholesky/preinstall
-nestk/deps/eigen/Eigen/src/preinstall: nestk/deps/eigen/Eigen/src/Jacobi/preinstall
+nestk/deps/eigen/Eigen/src/preinstall: nestk/deps/eigen/Eigen/src/Geometry/preinstall
+nestk/deps/eigen/Eigen/src/preinstall: nestk/deps/eigen/Eigen/src/Sparse/preinstall
+nestk/deps/eigen/Eigen/src/preinstall: nestk/deps/eigen/Eigen/src/StlSupport/preinstall
 .PHONY : nestk/deps/eigen/Eigen/src/preinstall
 
 #=============================================================================
-# Directory level rules for directory nestk/deps/eigen/Eigen/src/Geometry
+# Directory level rules for directory nestk/deps/eigen/Eigen/src/SVD
 
 # Convenience name for "all" pass in the directory.
-nestk/deps/eigen/Eigen/src/Geometry/all: nestk/deps/eigen/Eigen/src/Geometry/arch/all
-.PHONY : nestk/deps/eigen/Eigen/src/Geometry/all
+nestk/deps/eigen/Eigen/src/SVD/all:
+.PHONY : nestk/deps/eigen/Eigen/src/SVD/all
 
 # Convenience name for "clean" pass in the directory.
-nestk/deps/eigen/Eigen/src/Geometry/clean: nestk/deps/eigen/Eigen/src/Geometry/arch/clean
-.PHONY : nestk/deps/eigen/Eigen/src/Geometry/clean
+nestk/deps/eigen/Eigen/src/SVD/clean:
+.PHONY : nestk/deps/eigen/Eigen/src/SVD/clean
 
 # Convenience name for "preinstall" pass in the directory.
-nestk/deps/eigen/Eigen/src/Geometry/preinstall: nestk/deps/eigen/Eigen/src/Geometry/arch/preinstall
-.PHONY : nestk/deps/eigen/Eigen/src/Geometry/preinstall
+nestk/deps/eigen/Eigen/src/SVD/preinstall:
+.PHONY : nestk/deps/eigen/Eigen/src/SVD/preinstall
 
 #=============================================================================
-# Directory level rules for directory nestk/deps/eigen/Eigen/src/Geometry/arch
+# Directory level rules for directory nestk/deps/eigen/Eigen/src/misc
 
 # Convenience name for "all" pass in the directory.
-nestk/deps/eigen/Eigen/src/Geometry/arch/all:
-.PHONY : nestk/deps/eigen/Eigen/src/Geometry/arch/all
+nestk/deps/eigen/Eigen/src/misc/all:
+.PHONY : nestk/deps/eigen/Eigen/src/misc/all
 
 # Convenience name for "clean" pass in the directory.
-nestk/deps/eigen/Eigen/src/Geometry/arch/clean:
-.PHONY : nestk/deps/eigen/Eigen/src/Geometry/arch/clean
+nestk/deps/eigen/Eigen/src/misc/clean:
+.PHONY : nestk/deps/eigen/Eigen/src/misc/clean
 
 # Convenience name for "preinstall" pass in the directory.
-nestk/deps/eigen/Eigen/src/Geometry/arch/preinstall:
-.PHONY : nestk/deps/eigen/Eigen/src/Geometry/arch/preinstall
+nestk/deps/eigen/Eigen/src/misc/preinstall:
+.PHONY : nestk/deps/eigen/Eigen/src/misc/preinstall
 
 #=============================================================================
 # Directory level rules for directory nestk/deps/eigen/Eigen/src/Householder
@@ -1790,6 +1949,111 @@ nestk/deps/eigen/Eigen/src/Householder/clean:
 # Convenience name for "preinstall" pass in the directory.
 nestk/deps/eigen/Eigen/src/Householder/preinstall:
 .PHONY : nestk/deps/eigen/Eigen/src/Householder/preinstall
+
+#=============================================================================
+# Directory level rules for directory nestk/deps/eigen/Eigen/src/Eigenvalues
+
+# Convenience name for "all" pass in the directory.
+nestk/deps/eigen/Eigen/src/Eigenvalues/all:
+.PHONY : nestk/deps/eigen/Eigen/src/Eigenvalues/all
+
+# Convenience name for "clean" pass in the directory.
+nestk/deps/eigen/Eigen/src/Eigenvalues/clean:
+.PHONY : nestk/deps/eigen/Eigen/src/Eigenvalues/clean
+
+# Convenience name for "preinstall" pass in the directory.
+nestk/deps/eigen/Eigen/src/Eigenvalues/preinstall:
+.PHONY : nestk/deps/eigen/Eigen/src/Eigenvalues/preinstall
+
+#=============================================================================
+# Directory level rules for directory nestk/deps/eigen/Eigen/src/Cholesky
+
+# Convenience name for "all" pass in the directory.
+nestk/deps/eigen/Eigen/src/Cholesky/all:
+.PHONY : nestk/deps/eigen/Eigen/src/Cholesky/all
+
+# Convenience name for "clean" pass in the directory.
+nestk/deps/eigen/Eigen/src/Cholesky/clean:
+.PHONY : nestk/deps/eigen/Eigen/src/Cholesky/clean
+
+# Convenience name for "preinstall" pass in the directory.
+nestk/deps/eigen/Eigen/src/Cholesky/preinstall:
+.PHONY : nestk/deps/eigen/Eigen/src/Cholesky/preinstall
+
+#=============================================================================
+# Directory level rules for directory nestk/deps/eigen/Eigen/src/Jacobi
+
+# Convenience name for "all" pass in the directory.
+nestk/deps/eigen/Eigen/src/Jacobi/all:
+.PHONY : nestk/deps/eigen/Eigen/src/Jacobi/all
+
+# Convenience name for "clean" pass in the directory.
+nestk/deps/eigen/Eigen/src/Jacobi/clean:
+.PHONY : nestk/deps/eigen/Eigen/src/Jacobi/clean
+
+# Convenience name for "preinstall" pass in the directory.
+nestk/deps/eigen/Eigen/src/Jacobi/preinstall:
+.PHONY : nestk/deps/eigen/Eigen/src/Jacobi/preinstall
+
+#=============================================================================
+# Directory level rules for directory nestk/deps/eigen/Eigen/src/LU
+
+# Convenience name for "all" pass in the directory.
+nestk/deps/eigen/Eigen/src/LU/all: nestk/deps/eigen/Eigen/src/LU/arch/all
+.PHONY : nestk/deps/eigen/Eigen/src/LU/all
+
+# Convenience name for "clean" pass in the directory.
+nestk/deps/eigen/Eigen/src/LU/clean: nestk/deps/eigen/Eigen/src/LU/arch/clean
+.PHONY : nestk/deps/eigen/Eigen/src/LU/clean
+
+# Convenience name for "preinstall" pass in the directory.
+nestk/deps/eigen/Eigen/src/LU/preinstall: nestk/deps/eigen/Eigen/src/LU/arch/preinstall
+.PHONY : nestk/deps/eigen/Eigen/src/LU/preinstall
+
+#=============================================================================
+# Directory level rules for directory nestk/deps/eigen/Eigen/src/LU/arch
+
+# Convenience name for "all" pass in the directory.
+nestk/deps/eigen/Eigen/src/LU/arch/all:
+.PHONY : nestk/deps/eigen/Eigen/src/LU/arch/all
+
+# Convenience name for "clean" pass in the directory.
+nestk/deps/eigen/Eigen/src/LU/arch/clean:
+.PHONY : nestk/deps/eigen/Eigen/src/LU/arch/clean
+
+# Convenience name for "preinstall" pass in the directory.
+nestk/deps/eigen/Eigen/src/LU/arch/preinstall:
+.PHONY : nestk/deps/eigen/Eigen/src/LU/arch/preinstall
+
+#=============================================================================
+# Directory level rules for directory nestk/deps/eigen/Eigen/src/Eigen2Support
+
+# Convenience name for "all" pass in the directory.
+nestk/deps/eigen/Eigen/src/Eigen2Support/all:
+.PHONY : nestk/deps/eigen/Eigen/src/Eigen2Support/all
+
+# Convenience name for "clean" pass in the directory.
+nestk/deps/eigen/Eigen/src/Eigen2Support/clean:
+.PHONY : nestk/deps/eigen/Eigen/src/Eigen2Support/clean
+
+# Convenience name for "preinstall" pass in the directory.
+nestk/deps/eigen/Eigen/src/Eigen2Support/preinstall:
+.PHONY : nestk/deps/eigen/Eigen/src/Eigen2Support/preinstall
+
+#=============================================================================
+# Directory level rules for directory nestk/deps/eigen/Eigen/src/QR
+
+# Convenience name for "all" pass in the directory.
+nestk/deps/eigen/Eigen/src/QR/all:
+.PHONY : nestk/deps/eigen/Eigen/src/QR/all
+
+# Convenience name for "clean" pass in the directory.
+nestk/deps/eigen/Eigen/src/QR/clean:
+.PHONY : nestk/deps/eigen/Eigen/src/QR/clean
+
+# Convenience name for "preinstall" pass in the directory.
+nestk/deps/eigen/Eigen/src/QR/preinstall:
+.PHONY : nestk/deps/eigen/Eigen/src/QR/preinstall
 
 #=============================================================================
 # Directory level rules for directory nestk/deps/eigen/Eigen/src/Core
@@ -1927,19 +2191,49 @@ nestk/deps/eigen/Eigen/src/Core/arch/Default/preinstall:
 .PHONY : nestk/deps/eigen/Eigen/src/Core/arch/Default/preinstall
 
 #=============================================================================
-# Directory level rules for directory nestk/deps/eigen/Eigen/src/misc
+# Directory level rules for directory nestk/deps/eigen/Eigen/src/plugins
 
 # Convenience name for "all" pass in the directory.
-nestk/deps/eigen/Eigen/src/misc/all:
-.PHONY : nestk/deps/eigen/Eigen/src/misc/all
+nestk/deps/eigen/Eigen/src/plugins/all:
+.PHONY : nestk/deps/eigen/Eigen/src/plugins/all
 
 # Convenience name for "clean" pass in the directory.
-nestk/deps/eigen/Eigen/src/misc/clean:
-.PHONY : nestk/deps/eigen/Eigen/src/misc/clean
+nestk/deps/eigen/Eigen/src/plugins/clean:
+.PHONY : nestk/deps/eigen/Eigen/src/plugins/clean
 
 # Convenience name for "preinstall" pass in the directory.
-nestk/deps/eigen/Eigen/src/misc/preinstall:
-.PHONY : nestk/deps/eigen/Eigen/src/misc/preinstall
+nestk/deps/eigen/Eigen/src/plugins/preinstall:
+.PHONY : nestk/deps/eigen/Eigen/src/plugins/preinstall
+
+#=============================================================================
+# Directory level rules for directory nestk/deps/eigen/Eigen/src/Geometry
+
+# Convenience name for "all" pass in the directory.
+nestk/deps/eigen/Eigen/src/Geometry/all: nestk/deps/eigen/Eigen/src/Geometry/arch/all
+.PHONY : nestk/deps/eigen/Eigen/src/Geometry/all
+
+# Convenience name for "clean" pass in the directory.
+nestk/deps/eigen/Eigen/src/Geometry/clean: nestk/deps/eigen/Eigen/src/Geometry/arch/clean
+.PHONY : nestk/deps/eigen/Eigen/src/Geometry/clean
+
+# Convenience name for "preinstall" pass in the directory.
+nestk/deps/eigen/Eigen/src/Geometry/preinstall: nestk/deps/eigen/Eigen/src/Geometry/arch/preinstall
+.PHONY : nestk/deps/eigen/Eigen/src/Geometry/preinstall
+
+#=============================================================================
+# Directory level rules for directory nestk/deps/eigen/Eigen/src/Geometry/arch
+
+# Convenience name for "all" pass in the directory.
+nestk/deps/eigen/Eigen/src/Geometry/arch/all:
+.PHONY : nestk/deps/eigen/Eigen/src/Geometry/arch/all
+
+# Convenience name for "clean" pass in the directory.
+nestk/deps/eigen/Eigen/src/Geometry/arch/clean:
+.PHONY : nestk/deps/eigen/Eigen/src/Geometry/arch/clean
+
+# Convenience name for "preinstall" pass in the directory.
+nestk/deps/eigen/Eigen/src/Geometry/arch/preinstall:
+.PHONY : nestk/deps/eigen/Eigen/src/Geometry/arch/preinstall
 
 #=============================================================================
 # Directory level rules for directory nestk/deps/eigen/Eigen/src/Sparse
@@ -1957,21 +2251,6 @@ nestk/deps/eigen/Eigen/src/Sparse/preinstall:
 .PHONY : nestk/deps/eigen/Eigen/src/Sparse/preinstall
 
 #=============================================================================
-# Directory level rules for directory nestk/deps/eigen/Eigen/src/Eigenvalues
-
-# Convenience name for "all" pass in the directory.
-nestk/deps/eigen/Eigen/src/Eigenvalues/all:
-.PHONY : nestk/deps/eigen/Eigen/src/Eigenvalues/all
-
-# Convenience name for "clean" pass in the directory.
-nestk/deps/eigen/Eigen/src/Eigenvalues/clean:
-.PHONY : nestk/deps/eigen/Eigen/src/Eigenvalues/clean
-
-# Convenience name for "preinstall" pass in the directory.
-nestk/deps/eigen/Eigen/src/Eigenvalues/preinstall:
-.PHONY : nestk/deps/eigen/Eigen/src/Eigenvalues/preinstall
-
-#=============================================================================
 # Directory level rules for directory nestk/deps/eigen/Eigen/src/StlSupport
 
 # Convenience name for "all" pass in the directory.
@@ -1985,126 +2264,6 @@ nestk/deps/eigen/Eigen/src/StlSupport/clean:
 # Convenience name for "preinstall" pass in the directory.
 nestk/deps/eigen/Eigen/src/StlSupport/preinstall:
 .PHONY : nestk/deps/eigen/Eigen/src/StlSupport/preinstall
-
-#=============================================================================
-# Directory level rules for directory nestk/deps/eigen/Eigen/src/LU
-
-# Convenience name for "all" pass in the directory.
-nestk/deps/eigen/Eigen/src/LU/all: nestk/deps/eigen/Eigen/src/LU/arch/all
-.PHONY : nestk/deps/eigen/Eigen/src/LU/all
-
-# Convenience name for "clean" pass in the directory.
-nestk/deps/eigen/Eigen/src/LU/clean: nestk/deps/eigen/Eigen/src/LU/arch/clean
-.PHONY : nestk/deps/eigen/Eigen/src/LU/clean
-
-# Convenience name for "preinstall" pass in the directory.
-nestk/deps/eigen/Eigen/src/LU/preinstall: nestk/deps/eigen/Eigen/src/LU/arch/preinstall
-.PHONY : nestk/deps/eigen/Eigen/src/LU/preinstall
-
-#=============================================================================
-# Directory level rules for directory nestk/deps/eigen/Eigen/src/LU/arch
-
-# Convenience name for "all" pass in the directory.
-nestk/deps/eigen/Eigen/src/LU/arch/all:
-.PHONY : nestk/deps/eigen/Eigen/src/LU/arch/all
-
-# Convenience name for "clean" pass in the directory.
-nestk/deps/eigen/Eigen/src/LU/arch/clean:
-.PHONY : nestk/deps/eigen/Eigen/src/LU/arch/clean
-
-# Convenience name for "preinstall" pass in the directory.
-nestk/deps/eigen/Eigen/src/LU/arch/preinstall:
-.PHONY : nestk/deps/eigen/Eigen/src/LU/arch/preinstall
-
-#=============================================================================
-# Directory level rules for directory nestk/deps/eigen/Eigen/src/Eigen2Support
-
-# Convenience name for "all" pass in the directory.
-nestk/deps/eigen/Eigen/src/Eigen2Support/all:
-.PHONY : nestk/deps/eigen/Eigen/src/Eigen2Support/all
-
-# Convenience name for "clean" pass in the directory.
-nestk/deps/eigen/Eigen/src/Eigen2Support/clean:
-.PHONY : nestk/deps/eigen/Eigen/src/Eigen2Support/clean
-
-# Convenience name for "preinstall" pass in the directory.
-nestk/deps/eigen/Eigen/src/Eigen2Support/preinstall:
-.PHONY : nestk/deps/eigen/Eigen/src/Eigen2Support/preinstall
-
-#=============================================================================
-# Directory level rules for directory nestk/deps/eigen/Eigen/src/QR
-
-# Convenience name for "all" pass in the directory.
-nestk/deps/eigen/Eigen/src/QR/all:
-.PHONY : nestk/deps/eigen/Eigen/src/QR/all
-
-# Convenience name for "clean" pass in the directory.
-nestk/deps/eigen/Eigen/src/QR/clean:
-.PHONY : nestk/deps/eigen/Eigen/src/QR/clean
-
-# Convenience name for "preinstall" pass in the directory.
-nestk/deps/eigen/Eigen/src/QR/preinstall:
-.PHONY : nestk/deps/eigen/Eigen/src/QR/preinstall
-
-#=============================================================================
-# Directory level rules for directory nestk/deps/eigen/Eigen/src/plugins
-
-# Convenience name for "all" pass in the directory.
-nestk/deps/eigen/Eigen/src/plugins/all:
-.PHONY : nestk/deps/eigen/Eigen/src/plugins/all
-
-# Convenience name for "clean" pass in the directory.
-nestk/deps/eigen/Eigen/src/plugins/clean:
-.PHONY : nestk/deps/eigen/Eigen/src/plugins/clean
-
-# Convenience name for "preinstall" pass in the directory.
-nestk/deps/eigen/Eigen/src/plugins/preinstall:
-.PHONY : nestk/deps/eigen/Eigen/src/plugins/preinstall
-
-#=============================================================================
-# Directory level rules for directory nestk/deps/eigen/Eigen/src/SVD
-
-# Convenience name for "all" pass in the directory.
-nestk/deps/eigen/Eigen/src/SVD/all:
-.PHONY : nestk/deps/eigen/Eigen/src/SVD/all
-
-# Convenience name for "clean" pass in the directory.
-nestk/deps/eigen/Eigen/src/SVD/clean:
-.PHONY : nestk/deps/eigen/Eigen/src/SVD/clean
-
-# Convenience name for "preinstall" pass in the directory.
-nestk/deps/eigen/Eigen/src/SVD/preinstall:
-.PHONY : nestk/deps/eigen/Eigen/src/SVD/preinstall
-
-#=============================================================================
-# Directory level rules for directory nestk/deps/eigen/Eigen/src/Cholesky
-
-# Convenience name for "all" pass in the directory.
-nestk/deps/eigen/Eigen/src/Cholesky/all:
-.PHONY : nestk/deps/eigen/Eigen/src/Cholesky/all
-
-# Convenience name for "clean" pass in the directory.
-nestk/deps/eigen/Eigen/src/Cholesky/clean:
-.PHONY : nestk/deps/eigen/Eigen/src/Cholesky/clean
-
-# Convenience name for "preinstall" pass in the directory.
-nestk/deps/eigen/Eigen/src/Cholesky/preinstall:
-.PHONY : nestk/deps/eigen/Eigen/src/Cholesky/preinstall
-
-#=============================================================================
-# Directory level rules for directory nestk/deps/eigen/Eigen/src/Jacobi
-
-# Convenience name for "all" pass in the directory.
-nestk/deps/eigen/Eigen/src/Jacobi/all:
-.PHONY : nestk/deps/eigen/Eigen/src/Jacobi/all
-
-# Convenience name for "clean" pass in the directory.
-nestk/deps/eigen/Eigen/src/Jacobi/clean:
-.PHONY : nestk/deps/eigen/Eigen/src/Jacobi/clean
-
-# Convenience name for "preinstall" pass in the directory.
-nestk/deps/eigen/Eigen/src/Jacobi/preinstall:
-.PHONY : nestk/deps/eigen/Eigen/src/Jacobi/preinstall
 
 #=============================================================================
 # Directory level rules for directory nestk/deps/eigen/unsupported
@@ -2323,23 +2482,23 @@ nestk/ntk/preinstall:
 # Target rules for target nestk/ntk/CMakeFiles/nestk.dir
 
 # All Build rule for target.
-nestk/ntk/CMakeFiles/nestk.dir/all: nestk/deps/glew/CMakeFiles/glew.dir/all
-nestk/ntk/CMakeFiles/nestk.dir/all: nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/all
-nestk/ntk/CMakeFiles/nestk.dir/all: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/all
-nestk/ntk/CMakeFiles/nestk.dir/all: nestk/deps/opencv/modules/features2d/CMakeFiles/opencv_features2d.dir/all
-nestk/ntk/CMakeFiles/nestk.dir/all: nestk/deps/opencv/modules/flann/CMakeFiles/opencv_flann.dir/all
-nestk/ntk/CMakeFiles/nestk.dir/all: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/all
 nestk/ntk/CMakeFiles/nestk.dir/all: nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/all
+nestk/ntk/CMakeFiles/nestk.dir/all: nestk/deps/opencv/modules/flann/CMakeFiles/opencv_flann.dir/all
+nestk/ntk/CMakeFiles/nestk.dir/all: nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/all
+nestk/ntk/CMakeFiles/nestk.dir/all: nestk/deps/opencv/modules/features2d/CMakeFiles/opencv_features2d.dir/all
+nestk/ntk/CMakeFiles/nestk.dir/all: nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/all
+nestk/ntk/CMakeFiles/nestk.dir/all: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/all
 nestk/ntk/CMakeFiles/nestk.dir/all: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/all
 nestk/ntk/CMakeFiles/nestk.dir/all: nestk/deps/opencv/modules/contrib/CMakeFiles/opencv_contrib.dir/all
 nestk/ntk/CMakeFiles/nestk.dir/all: nestk/deps/opencv/modules/ml/CMakeFiles/opencv_ml.dir/all
 nestk/ntk/CMakeFiles/nestk.dir/all: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/all
 nestk/ntk/CMakeFiles/nestk.dir/all: nestk/deps/opencv/modules/video/CMakeFiles/opencv_video.dir/all
 nestk/ntk/CMakeFiles/nestk.dir/all: nestk/deps/opencv/modules/gpu/CMakeFiles/opencv_gpu.dir/all
+nestk/ntk/CMakeFiles/nestk.dir/all: nestk/deps/glew/CMakeFiles/glew.dir/all
 nestk/ntk/CMakeFiles/nestk.dir/all: nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/all
 	$(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/depend
 	$(MAKE) -f nestk/ntk/CMakeFiles/nestk.dir/build.make nestk/ntk/CMakeFiles/nestk.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles"  2 3 4 5 6 7 8 9 10
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles  18 19 20 21 22 23 24
 	@echo "Built target nestk"
 .PHONY : nestk/ntk/CMakeFiles/nestk.dir/all
 
@@ -2349,9 +2508,9 @@ all: nestk/ntk/CMakeFiles/nestk.dir/all
 
 # Build rule for subdir invocation for target.
 nestk/ntk/CMakeFiles/nestk.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 94
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles 97
 	$(MAKE) -f CMakeFiles/Makefile2 nestk/ntk/CMakeFiles/nestk.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles 0
 .PHONY : nestk/ntk/CMakeFiles/nestk.dir/rule
 
 # Convenience name for target.
@@ -2365,772 +2524,6 @@ nestk/ntk/CMakeFiles/nestk.dir/clean:
 
 # clean rule for target.
 clean: nestk/ntk/CMakeFiles/nestk.dir/clean
-.PHONY : clean
-
-#=============================================================================
-# Directory level rules for directory nestk/tests
-
-# Convenience name for "all" pass in the directory.
-nestk/tests/all: nestk/tests/CMakeFiles/test-algorithm.dir/all
-nestk/tests/all: nestk/tests/CMakeFiles/test-async-grabber.dir/all
-nestk/tests/all: nestk/tests/CMakeFiles/test-distributions.dir/all
-nestk/tests/all: nestk/tests/CMakeFiles/test-features.dir/all
-nestk/tests/all: nestk/tests/CMakeFiles/test-hscolor.dir/all
-nestk/tests/all: nestk/tests/CMakeFiles/test-kinect-3d.dir/all
-nestk/tests/all: nestk/tests/CMakeFiles/test-kinect-grabber.dir/all
-nestk/tests/all: nestk/tests/CMakeFiles/test-math.dir/all
-nestk/tests/all: nestk/tests/CMakeFiles/test-mesh.dir/all
-nestk/tests/all: nestk/tests/CMakeFiles/test-minimizers.dir/all
-nestk/tests/all: nestk/tests/CMakeFiles/test-opencv-grabber.dir/all
-nestk/tests/all: nestk/tests/CMakeFiles/test-pose3d.dir/all
-nestk/tests/all: nestk/tests/CMakeFiles/test-serialization.dir/all
-nestk/tests/all: nestk/tests/CMakeFiles/test-siftgpu.dir/all
-nestk/tests/all: nestk/tests/CMakeFiles/test-siftgpu-server.dir/all
-nestk/tests/all: nestk/tests/CMakeFiles/test-stl.dir/all
-nestk/tests/all: nestk/tests/CMakeFiles/test-threads.dir/all
-nestk/tests/all: nestk/tests/CMakeFiles/test-transactions.dir/all
-nestk/tests/all: nestk/tests/CMakeFiles/test-transform.dir/all
-.PHONY : nestk/tests/all
-
-# Convenience name for "clean" pass in the directory.
-nestk/tests/clean: nestk/tests/CMakeFiles/check.dir/clean
-nestk/tests/clean: nestk/tests/CMakeFiles/test-algorithm.dir/clean
-nestk/tests/clean: nestk/tests/CMakeFiles/test-async-grabber.dir/clean
-nestk/tests/clean: nestk/tests/CMakeFiles/test-distributions.dir/clean
-nestk/tests/clean: nestk/tests/CMakeFiles/test-features.dir/clean
-nestk/tests/clean: nestk/tests/CMakeFiles/test-hscolor.dir/clean
-nestk/tests/clean: nestk/tests/CMakeFiles/test-kinect-3d.dir/clean
-nestk/tests/clean: nestk/tests/CMakeFiles/test-kinect-grabber.dir/clean
-nestk/tests/clean: nestk/tests/CMakeFiles/test-math.dir/clean
-nestk/tests/clean: nestk/tests/CMakeFiles/test-mesh.dir/clean
-nestk/tests/clean: nestk/tests/CMakeFiles/test-minimizers.dir/clean
-nestk/tests/clean: nestk/tests/CMakeFiles/test-opencv-grabber.dir/clean
-nestk/tests/clean: nestk/tests/CMakeFiles/test-pose3d.dir/clean
-nestk/tests/clean: nestk/tests/CMakeFiles/test-serialization.dir/clean
-nestk/tests/clean: nestk/tests/CMakeFiles/test-siftgpu.dir/clean
-nestk/tests/clean: nestk/tests/CMakeFiles/test-siftgpu-server.dir/clean
-nestk/tests/clean: nestk/tests/CMakeFiles/test-stl.dir/clean
-nestk/tests/clean: nestk/tests/CMakeFiles/test-threads.dir/clean
-nestk/tests/clean: nestk/tests/CMakeFiles/test-transactions.dir/clean
-nestk/tests/clean: nestk/tests/CMakeFiles/test-transform.dir/clean
-.PHONY : nestk/tests/clean
-
-# Convenience name for "preinstall" pass in the directory.
-nestk/tests/preinstall:
-.PHONY : nestk/tests/preinstall
-
-#=============================================================================
-# Target rules for target nestk/tests/CMakeFiles/check.dir
-
-# All Build rule for target.
-nestk/tests/CMakeFiles/check.dir/all: nestk/tests/CMakeFiles/test-math.dir/all
-nestk/tests/CMakeFiles/check.dir/all: nestk/tests/CMakeFiles/test-hscolor.dir/all
-nestk/tests/CMakeFiles/check.dir/all: nestk/tests/CMakeFiles/test-distributions.dir/all
-nestk/tests/CMakeFiles/check.dir/all: nestk/tests/CMakeFiles/test-algorithm.dir/all
-nestk/tests/CMakeFiles/check.dir/all: nestk/tests/CMakeFiles/test-minimizers.dir/all
-nestk/tests/CMakeFiles/check.dir/all: nestk/tests/CMakeFiles/test-mesh.dir/all
-nestk/tests/CMakeFiles/check.dir/all: nestk/tests/CMakeFiles/test-transactions.dir/all
-nestk/tests/CMakeFiles/check.dir/all: nestk/tests/CMakeFiles/test-stl.dir/all
-nestk/tests/CMakeFiles/check.dir/all: nestk/tests/CMakeFiles/test-pose3d.dir/all
-nestk/tests/CMakeFiles/check.dir/all: nestk/tests/CMakeFiles/test-transform.dir/all
-nestk/tests/CMakeFiles/check.dir/all: nestk/tests/CMakeFiles/test-kinect-3d.dir/all
-nestk/tests/CMakeFiles/check.dir/all: nestk/tests/CMakeFiles/test-kinect-grabber.dir/all
-nestk/tests/CMakeFiles/check.dir/all: nestk/tests/CMakeFiles/test-async-grabber.dir/all
-nestk/tests/CMakeFiles/check.dir/all: nestk/tests/CMakeFiles/test-opencv-grabber.dir/all
-nestk/tests/CMakeFiles/check.dir/all: nestk/tests/CMakeFiles/test-siftgpu.dir/all
-nestk/tests/CMakeFiles/check.dir/all: nestk/tests/CMakeFiles/test-siftgpu-server.dir/all
-nestk/tests/CMakeFiles/check.dir/all: nestk/tests/CMakeFiles/test-features.dir/all
-nestk/tests/CMakeFiles/check.dir/all: nestk/tests/CMakeFiles/test-threads.dir/all
-nestk/tests/CMakeFiles/check.dir/all: nestk/tests/CMakeFiles/test-serialization.dir/all
-	$(MAKE) -f nestk/tests/CMakeFiles/check.dir/build.make nestk/tests/CMakeFiles/check.dir/depend
-	$(MAKE) -f nestk/tests/CMakeFiles/check.dir/build.make nestk/tests/CMakeFiles/check.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 
-	@echo "Built target check"
-.PHONY : nestk/tests/CMakeFiles/check.dir/all
-
-# Build rule for subdir invocation for target.
-nestk/tests/CMakeFiles/check.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 96
-	$(MAKE) -f CMakeFiles/Makefile2 nestk/tests/CMakeFiles/check.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 0
-.PHONY : nestk/tests/CMakeFiles/check.dir/rule
-
-# Convenience name for target.
-check: nestk/tests/CMakeFiles/check.dir/rule
-.PHONY : check
-
-# clean rule for target.
-nestk/tests/CMakeFiles/check.dir/clean:
-	$(MAKE) -f nestk/tests/CMakeFiles/check.dir/build.make nestk/tests/CMakeFiles/check.dir/clean
-.PHONY : nestk/tests/CMakeFiles/check.dir/clean
-
-# clean rule for target.
-clean: nestk/tests/CMakeFiles/check.dir/clean
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target nestk/tests/CMakeFiles/test-algorithm.dir
-
-# All Build rule for target.
-nestk/tests/CMakeFiles/test-algorithm.dir/all: nestk/ntk/CMakeFiles/nestk.dir/all
-	$(MAKE) -f nestk/tests/CMakeFiles/test-algorithm.dir/build.make nestk/tests/CMakeFiles/test-algorithm.dir/depend
-	$(MAKE) -f nestk/tests/CMakeFiles/test-algorithm.dir/build.make nestk/tests/CMakeFiles/test-algorithm.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 
-	@echo "Built target test-algorithm"
-.PHONY : nestk/tests/CMakeFiles/test-algorithm.dir/all
-
-# Include target in all.
-all: nestk/tests/CMakeFiles/test-algorithm.dir/all
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-nestk/tests/CMakeFiles/test-algorithm.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 94
-	$(MAKE) -f CMakeFiles/Makefile2 nestk/tests/CMakeFiles/test-algorithm.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 0
-.PHONY : nestk/tests/CMakeFiles/test-algorithm.dir/rule
-
-# Convenience name for target.
-test-algorithm: nestk/tests/CMakeFiles/test-algorithm.dir/rule
-.PHONY : test-algorithm
-
-# clean rule for target.
-nestk/tests/CMakeFiles/test-algorithm.dir/clean:
-	$(MAKE) -f nestk/tests/CMakeFiles/test-algorithm.dir/build.make nestk/tests/CMakeFiles/test-algorithm.dir/clean
-.PHONY : nestk/tests/CMakeFiles/test-algorithm.dir/clean
-
-# clean rule for target.
-clean: nestk/tests/CMakeFiles/test-algorithm.dir/clean
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target nestk/tests/CMakeFiles/test-async-grabber.dir
-
-# All Build rule for target.
-nestk/tests/CMakeFiles/test-async-grabber.dir/all: nestk/ntk/CMakeFiles/nestk.dir/all
-	$(MAKE) -f nestk/tests/CMakeFiles/test-async-grabber.dir/build.make nestk/tests/CMakeFiles/test-async-grabber.dir/depend
-	$(MAKE) -f nestk/tests/CMakeFiles/test-async-grabber.dir/build.make nestk/tests/CMakeFiles/test-async-grabber.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 
-	@echo "Built target test-async-grabber"
-.PHONY : nestk/tests/CMakeFiles/test-async-grabber.dir/all
-
-# Include target in all.
-all: nestk/tests/CMakeFiles/test-async-grabber.dir/all
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-nestk/tests/CMakeFiles/test-async-grabber.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 94
-	$(MAKE) -f CMakeFiles/Makefile2 nestk/tests/CMakeFiles/test-async-grabber.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 0
-.PHONY : nestk/tests/CMakeFiles/test-async-grabber.dir/rule
-
-# Convenience name for target.
-test-async-grabber: nestk/tests/CMakeFiles/test-async-grabber.dir/rule
-.PHONY : test-async-grabber
-
-# clean rule for target.
-nestk/tests/CMakeFiles/test-async-grabber.dir/clean:
-	$(MAKE) -f nestk/tests/CMakeFiles/test-async-grabber.dir/build.make nestk/tests/CMakeFiles/test-async-grabber.dir/clean
-.PHONY : nestk/tests/CMakeFiles/test-async-grabber.dir/clean
-
-# clean rule for target.
-clean: nestk/tests/CMakeFiles/test-async-grabber.dir/clean
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target nestk/tests/CMakeFiles/test-distributions.dir
-
-# All Build rule for target.
-nestk/tests/CMakeFiles/test-distributions.dir/all: nestk/ntk/CMakeFiles/nestk.dir/all
-	$(MAKE) -f nestk/tests/CMakeFiles/test-distributions.dir/build.make nestk/tests/CMakeFiles/test-distributions.dir/depend
-	$(MAKE) -f nestk/tests/CMakeFiles/test-distributions.dir/build.make nestk/tests/CMakeFiles/test-distributions.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 
-	@echo "Built target test-distributions"
-.PHONY : nestk/tests/CMakeFiles/test-distributions.dir/all
-
-# Include target in all.
-all: nestk/tests/CMakeFiles/test-distributions.dir/all
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-nestk/tests/CMakeFiles/test-distributions.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 94
-	$(MAKE) -f CMakeFiles/Makefile2 nestk/tests/CMakeFiles/test-distributions.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 0
-.PHONY : nestk/tests/CMakeFiles/test-distributions.dir/rule
-
-# Convenience name for target.
-test-distributions: nestk/tests/CMakeFiles/test-distributions.dir/rule
-.PHONY : test-distributions
-
-# clean rule for target.
-nestk/tests/CMakeFiles/test-distributions.dir/clean:
-	$(MAKE) -f nestk/tests/CMakeFiles/test-distributions.dir/build.make nestk/tests/CMakeFiles/test-distributions.dir/clean
-.PHONY : nestk/tests/CMakeFiles/test-distributions.dir/clean
-
-# clean rule for target.
-clean: nestk/tests/CMakeFiles/test-distributions.dir/clean
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target nestk/tests/CMakeFiles/test-features.dir
-
-# All Build rule for target.
-nestk/tests/CMakeFiles/test-features.dir/all: nestk/ntk/CMakeFiles/nestk.dir/all
-	$(MAKE) -f nestk/tests/CMakeFiles/test-features.dir/build.make nestk/tests/CMakeFiles/test-features.dir/depend
-	$(MAKE) -f nestk/tests/CMakeFiles/test-features.dir/build.make nestk/tests/CMakeFiles/test-features.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 
-	@echo "Built target test-features"
-.PHONY : nestk/tests/CMakeFiles/test-features.dir/all
-
-# Include target in all.
-all: nestk/tests/CMakeFiles/test-features.dir/all
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-nestk/tests/CMakeFiles/test-features.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 94
-	$(MAKE) -f CMakeFiles/Makefile2 nestk/tests/CMakeFiles/test-features.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 0
-.PHONY : nestk/tests/CMakeFiles/test-features.dir/rule
-
-# Convenience name for target.
-test-features: nestk/tests/CMakeFiles/test-features.dir/rule
-.PHONY : test-features
-
-# clean rule for target.
-nestk/tests/CMakeFiles/test-features.dir/clean:
-	$(MAKE) -f nestk/tests/CMakeFiles/test-features.dir/build.make nestk/tests/CMakeFiles/test-features.dir/clean
-.PHONY : nestk/tests/CMakeFiles/test-features.dir/clean
-
-# clean rule for target.
-clean: nestk/tests/CMakeFiles/test-features.dir/clean
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target nestk/tests/CMakeFiles/test-hscolor.dir
-
-# All Build rule for target.
-nestk/tests/CMakeFiles/test-hscolor.dir/all: nestk/ntk/CMakeFiles/nestk.dir/all
-	$(MAKE) -f nestk/tests/CMakeFiles/test-hscolor.dir/build.make nestk/tests/CMakeFiles/test-hscolor.dir/depend
-	$(MAKE) -f nestk/tests/CMakeFiles/test-hscolor.dir/build.make nestk/tests/CMakeFiles/test-hscolor.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 
-	@echo "Built target test-hscolor"
-.PHONY : nestk/tests/CMakeFiles/test-hscolor.dir/all
-
-# Include target in all.
-all: nestk/tests/CMakeFiles/test-hscolor.dir/all
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-nestk/tests/CMakeFiles/test-hscolor.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 94
-	$(MAKE) -f CMakeFiles/Makefile2 nestk/tests/CMakeFiles/test-hscolor.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 0
-.PHONY : nestk/tests/CMakeFiles/test-hscolor.dir/rule
-
-# Convenience name for target.
-test-hscolor: nestk/tests/CMakeFiles/test-hscolor.dir/rule
-.PHONY : test-hscolor
-
-# clean rule for target.
-nestk/tests/CMakeFiles/test-hscolor.dir/clean:
-	$(MAKE) -f nestk/tests/CMakeFiles/test-hscolor.dir/build.make nestk/tests/CMakeFiles/test-hscolor.dir/clean
-.PHONY : nestk/tests/CMakeFiles/test-hscolor.dir/clean
-
-# clean rule for target.
-clean: nestk/tests/CMakeFiles/test-hscolor.dir/clean
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target nestk/tests/CMakeFiles/test-kinect-3d.dir
-
-# All Build rule for target.
-nestk/tests/CMakeFiles/test-kinect-3d.dir/all: nestk/ntk/CMakeFiles/nestk.dir/all
-	$(MAKE) -f nestk/tests/CMakeFiles/test-kinect-3d.dir/build.make nestk/tests/CMakeFiles/test-kinect-3d.dir/depend
-	$(MAKE) -f nestk/tests/CMakeFiles/test-kinect-3d.dir/build.make nestk/tests/CMakeFiles/test-kinect-3d.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 
-	@echo "Built target test-kinect-3d"
-.PHONY : nestk/tests/CMakeFiles/test-kinect-3d.dir/all
-
-# Include target in all.
-all: nestk/tests/CMakeFiles/test-kinect-3d.dir/all
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-nestk/tests/CMakeFiles/test-kinect-3d.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 94
-	$(MAKE) -f CMakeFiles/Makefile2 nestk/tests/CMakeFiles/test-kinect-3d.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 0
-.PHONY : nestk/tests/CMakeFiles/test-kinect-3d.dir/rule
-
-# Convenience name for target.
-test-kinect-3d: nestk/tests/CMakeFiles/test-kinect-3d.dir/rule
-.PHONY : test-kinect-3d
-
-# clean rule for target.
-nestk/tests/CMakeFiles/test-kinect-3d.dir/clean:
-	$(MAKE) -f nestk/tests/CMakeFiles/test-kinect-3d.dir/build.make nestk/tests/CMakeFiles/test-kinect-3d.dir/clean
-.PHONY : nestk/tests/CMakeFiles/test-kinect-3d.dir/clean
-
-# clean rule for target.
-clean: nestk/tests/CMakeFiles/test-kinect-3d.dir/clean
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target nestk/tests/CMakeFiles/test-kinect-grabber.dir
-
-# All Build rule for target.
-nestk/tests/CMakeFiles/test-kinect-grabber.dir/all: nestk/ntk/CMakeFiles/nestk.dir/all
-	$(MAKE) -f nestk/tests/CMakeFiles/test-kinect-grabber.dir/build.make nestk/tests/CMakeFiles/test-kinect-grabber.dir/depend
-	$(MAKE) -f nestk/tests/CMakeFiles/test-kinect-grabber.dir/build.make nestk/tests/CMakeFiles/test-kinect-grabber.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles"  96
-	@echo "Built target test-kinect-grabber"
-.PHONY : nestk/tests/CMakeFiles/test-kinect-grabber.dir/all
-
-# Include target in all.
-all: nestk/tests/CMakeFiles/test-kinect-grabber.dir/all
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-nestk/tests/CMakeFiles/test-kinect-grabber.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 95
-	$(MAKE) -f CMakeFiles/Makefile2 nestk/tests/CMakeFiles/test-kinect-grabber.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 0
-.PHONY : nestk/tests/CMakeFiles/test-kinect-grabber.dir/rule
-
-# Convenience name for target.
-test-kinect-grabber: nestk/tests/CMakeFiles/test-kinect-grabber.dir/rule
-.PHONY : test-kinect-grabber
-
-# clean rule for target.
-nestk/tests/CMakeFiles/test-kinect-grabber.dir/clean:
-	$(MAKE) -f nestk/tests/CMakeFiles/test-kinect-grabber.dir/build.make nestk/tests/CMakeFiles/test-kinect-grabber.dir/clean
-.PHONY : nestk/tests/CMakeFiles/test-kinect-grabber.dir/clean
-
-# clean rule for target.
-clean: nestk/tests/CMakeFiles/test-kinect-grabber.dir/clean
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target nestk/tests/CMakeFiles/test-math.dir
-
-# All Build rule for target.
-nestk/tests/CMakeFiles/test-math.dir/all: nestk/ntk/CMakeFiles/nestk.dir/all
-	$(MAKE) -f nestk/tests/CMakeFiles/test-math.dir/build.make nestk/tests/CMakeFiles/test-math.dir/depend
-	$(MAKE) -f nestk/tests/CMakeFiles/test-math.dir/build.make nestk/tests/CMakeFiles/test-math.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 
-	@echo "Built target test-math"
-.PHONY : nestk/tests/CMakeFiles/test-math.dir/all
-
-# Include target in all.
-all: nestk/tests/CMakeFiles/test-math.dir/all
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-nestk/tests/CMakeFiles/test-math.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 94
-	$(MAKE) -f CMakeFiles/Makefile2 nestk/tests/CMakeFiles/test-math.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 0
-.PHONY : nestk/tests/CMakeFiles/test-math.dir/rule
-
-# Convenience name for target.
-test-math: nestk/tests/CMakeFiles/test-math.dir/rule
-.PHONY : test-math
-
-# clean rule for target.
-nestk/tests/CMakeFiles/test-math.dir/clean:
-	$(MAKE) -f nestk/tests/CMakeFiles/test-math.dir/build.make nestk/tests/CMakeFiles/test-math.dir/clean
-.PHONY : nestk/tests/CMakeFiles/test-math.dir/clean
-
-# clean rule for target.
-clean: nestk/tests/CMakeFiles/test-math.dir/clean
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target nestk/tests/CMakeFiles/test-mesh.dir
-
-# All Build rule for target.
-nestk/tests/CMakeFiles/test-mesh.dir/all: nestk/ntk/CMakeFiles/nestk.dir/all
-	$(MAKE) -f nestk/tests/CMakeFiles/test-mesh.dir/build.make nestk/tests/CMakeFiles/test-mesh.dir/depend
-	$(MAKE) -f nestk/tests/CMakeFiles/test-mesh.dir/build.make nestk/tests/CMakeFiles/test-mesh.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 
-	@echo "Built target test-mesh"
-.PHONY : nestk/tests/CMakeFiles/test-mesh.dir/all
-
-# Include target in all.
-all: nestk/tests/CMakeFiles/test-mesh.dir/all
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-nestk/tests/CMakeFiles/test-mesh.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 94
-	$(MAKE) -f CMakeFiles/Makefile2 nestk/tests/CMakeFiles/test-mesh.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 0
-.PHONY : nestk/tests/CMakeFiles/test-mesh.dir/rule
-
-# Convenience name for target.
-test-mesh: nestk/tests/CMakeFiles/test-mesh.dir/rule
-.PHONY : test-mesh
-
-# clean rule for target.
-nestk/tests/CMakeFiles/test-mesh.dir/clean:
-	$(MAKE) -f nestk/tests/CMakeFiles/test-mesh.dir/build.make nestk/tests/CMakeFiles/test-mesh.dir/clean
-.PHONY : nestk/tests/CMakeFiles/test-mesh.dir/clean
-
-# clean rule for target.
-clean: nestk/tests/CMakeFiles/test-mesh.dir/clean
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target nestk/tests/CMakeFiles/test-minimizers.dir
-
-# All Build rule for target.
-nestk/tests/CMakeFiles/test-minimizers.dir/all: nestk/ntk/CMakeFiles/nestk.dir/all
-	$(MAKE) -f nestk/tests/CMakeFiles/test-minimizers.dir/build.make nestk/tests/CMakeFiles/test-minimizers.dir/depend
-	$(MAKE) -f nestk/tests/CMakeFiles/test-minimizers.dir/build.make nestk/tests/CMakeFiles/test-minimizers.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 
-	@echo "Built target test-minimizers"
-.PHONY : nestk/tests/CMakeFiles/test-minimizers.dir/all
-
-# Include target in all.
-all: nestk/tests/CMakeFiles/test-minimizers.dir/all
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-nestk/tests/CMakeFiles/test-minimizers.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 94
-	$(MAKE) -f CMakeFiles/Makefile2 nestk/tests/CMakeFiles/test-minimizers.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 0
-.PHONY : nestk/tests/CMakeFiles/test-minimizers.dir/rule
-
-# Convenience name for target.
-test-minimizers: nestk/tests/CMakeFiles/test-minimizers.dir/rule
-.PHONY : test-minimizers
-
-# clean rule for target.
-nestk/tests/CMakeFiles/test-minimizers.dir/clean:
-	$(MAKE) -f nestk/tests/CMakeFiles/test-minimizers.dir/build.make nestk/tests/CMakeFiles/test-minimizers.dir/clean
-.PHONY : nestk/tests/CMakeFiles/test-minimizers.dir/clean
-
-# clean rule for target.
-clean: nestk/tests/CMakeFiles/test-minimizers.dir/clean
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target nestk/tests/CMakeFiles/test-opencv-grabber.dir
-
-# All Build rule for target.
-nestk/tests/CMakeFiles/test-opencv-grabber.dir/all: nestk/ntk/CMakeFiles/nestk.dir/all
-	$(MAKE) -f nestk/tests/CMakeFiles/test-opencv-grabber.dir/build.make nestk/tests/CMakeFiles/test-opencv-grabber.dir/depend
-	$(MAKE) -f nestk/tests/CMakeFiles/test-opencv-grabber.dir/build.make nestk/tests/CMakeFiles/test-opencv-grabber.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 
-	@echo "Built target test-opencv-grabber"
-.PHONY : nestk/tests/CMakeFiles/test-opencv-grabber.dir/all
-
-# Include target in all.
-all: nestk/tests/CMakeFiles/test-opencv-grabber.dir/all
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-nestk/tests/CMakeFiles/test-opencv-grabber.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 94
-	$(MAKE) -f CMakeFiles/Makefile2 nestk/tests/CMakeFiles/test-opencv-grabber.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 0
-.PHONY : nestk/tests/CMakeFiles/test-opencv-grabber.dir/rule
-
-# Convenience name for target.
-test-opencv-grabber: nestk/tests/CMakeFiles/test-opencv-grabber.dir/rule
-.PHONY : test-opencv-grabber
-
-# clean rule for target.
-nestk/tests/CMakeFiles/test-opencv-grabber.dir/clean:
-	$(MAKE) -f nestk/tests/CMakeFiles/test-opencv-grabber.dir/build.make nestk/tests/CMakeFiles/test-opencv-grabber.dir/clean
-.PHONY : nestk/tests/CMakeFiles/test-opencv-grabber.dir/clean
-
-# clean rule for target.
-clean: nestk/tests/CMakeFiles/test-opencv-grabber.dir/clean
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target nestk/tests/CMakeFiles/test-pose3d.dir
-
-# All Build rule for target.
-nestk/tests/CMakeFiles/test-pose3d.dir/all: nestk/ntk/CMakeFiles/nestk.dir/all
-	$(MAKE) -f nestk/tests/CMakeFiles/test-pose3d.dir/build.make nestk/tests/CMakeFiles/test-pose3d.dir/depend
-	$(MAKE) -f nestk/tests/CMakeFiles/test-pose3d.dir/build.make nestk/tests/CMakeFiles/test-pose3d.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 
-	@echo "Built target test-pose3d"
-.PHONY : nestk/tests/CMakeFiles/test-pose3d.dir/all
-
-# Include target in all.
-all: nestk/tests/CMakeFiles/test-pose3d.dir/all
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-nestk/tests/CMakeFiles/test-pose3d.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 94
-	$(MAKE) -f CMakeFiles/Makefile2 nestk/tests/CMakeFiles/test-pose3d.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 0
-.PHONY : nestk/tests/CMakeFiles/test-pose3d.dir/rule
-
-# Convenience name for target.
-test-pose3d: nestk/tests/CMakeFiles/test-pose3d.dir/rule
-.PHONY : test-pose3d
-
-# clean rule for target.
-nestk/tests/CMakeFiles/test-pose3d.dir/clean:
-	$(MAKE) -f nestk/tests/CMakeFiles/test-pose3d.dir/build.make nestk/tests/CMakeFiles/test-pose3d.dir/clean
-.PHONY : nestk/tests/CMakeFiles/test-pose3d.dir/clean
-
-# clean rule for target.
-clean: nestk/tests/CMakeFiles/test-pose3d.dir/clean
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target nestk/tests/CMakeFiles/test-serialization.dir
-
-# All Build rule for target.
-nestk/tests/CMakeFiles/test-serialization.dir/all: nestk/ntk/CMakeFiles/nestk.dir/all
-	$(MAKE) -f nestk/tests/CMakeFiles/test-serialization.dir/build.make nestk/tests/CMakeFiles/test-serialization.dir/depend
-	$(MAKE) -f nestk/tests/CMakeFiles/test-serialization.dir/build.make nestk/tests/CMakeFiles/test-serialization.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 
-	@echo "Built target test-serialization"
-.PHONY : nestk/tests/CMakeFiles/test-serialization.dir/all
-
-# Include target in all.
-all: nestk/tests/CMakeFiles/test-serialization.dir/all
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-nestk/tests/CMakeFiles/test-serialization.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 94
-	$(MAKE) -f CMakeFiles/Makefile2 nestk/tests/CMakeFiles/test-serialization.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 0
-.PHONY : nestk/tests/CMakeFiles/test-serialization.dir/rule
-
-# Convenience name for target.
-test-serialization: nestk/tests/CMakeFiles/test-serialization.dir/rule
-.PHONY : test-serialization
-
-# clean rule for target.
-nestk/tests/CMakeFiles/test-serialization.dir/clean:
-	$(MAKE) -f nestk/tests/CMakeFiles/test-serialization.dir/build.make nestk/tests/CMakeFiles/test-serialization.dir/clean
-.PHONY : nestk/tests/CMakeFiles/test-serialization.dir/clean
-
-# clean rule for target.
-clean: nestk/tests/CMakeFiles/test-serialization.dir/clean
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target nestk/tests/CMakeFiles/test-siftgpu.dir
-
-# All Build rule for target.
-nestk/tests/CMakeFiles/test-siftgpu.dir/all: nestk/ntk/CMakeFiles/nestk.dir/all
-	$(MAKE) -f nestk/tests/CMakeFiles/test-siftgpu.dir/build.make nestk/tests/CMakeFiles/test-siftgpu.dir/depend
-	$(MAKE) -f nestk/tests/CMakeFiles/test-siftgpu.dir/build.make nestk/tests/CMakeFiles/test-siftgpu.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles"  97
-	@echo "Built target test-siftgpu"
-.PHONY : nestk/tests/CMakeFiles/test-siftgpu.dir/all
-
-# Include target in all.
-all: nestk/tests/CMakeFiles/test-siftgpu.dir/all
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-nestk/tests/CMakeFiles/test-siftgpu.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 95
-	$(MAKE) -f CMakeFiles/Makefile2 nestk/tests/CMakeFiles/test-siftgpu.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 0
-.PHONY : nestk/tests/CMakeFiles/test-siftgpu.dir/rule
-
-# Convenience name for target.
-test-siftgpu: nestk/tests/CMakeFiles/test-siftgpu.dir/rule
-.PHONY : test-siftgpu
-
-# clean rule for target.
-nestk/tests/CMakeFiles/test-siftgpu.dir/clean:
-	$(MAKE) -f nestk/tests/CMakeFiles/test-siftgpu.dir/build.make nestk/tests/CMakeFiles/test-siftgpu.dir/clean
-.PHONY : nestk/tests/CMakeFiles/test-siftgpu.dir/clean
-
-# clean rule for target.
-clean: nestk/tests/CMakeFiles/test-siftgpu.dir/clean
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target nestk/tests/CMakeFiles/test-siftgpu-server.dir
-
-# All Build rule for target.
-nestk/tests/CMakeFiles/test-siftgpu-server.dir/all: nestk/ntk/CMakeFiles/nestk.dir/all
-	$(MAKE) -f nestk/tests/CMakeFiles/test-siftgpu-server.dir/build.make nestk/tests/CMakeFiles/test-siftgpu-server.dir/depend
-	$(MAKE) -f nestk/tests/CMakeFiles/test-siftgpu-server.dir/build.make nestk/tests/CMakeFiles/test-siftgpu-server.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 
-	@echo "Built target test-siftgpu-server"
-.PHONY : nestk/tests/CMakeFiles/test-siftgpu-server.dir/all
-
-# Include target in all.
-all: nestk/tests/CMakeFiles/test-siftgpu-server.dir/all
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-nestk/tests/CMakeFiles/test-siftgpu-server.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 94
-	$(MAKE) -f CMakeFiles/Makefile2 nestk/tests/CMakeFiles/test-siftgpu-server.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 0
-.PHONY : nestk/tests/CMakeFiles/test-siftgpu-server.dir/rule
-
-# Convenience name for target.
-test-siftgpu-server: nestk/tests/CMakeFiles/test-siftgpu-server.dir/rule
-.PHONY : test-siftgpu-server
-
-# clean rule for target.
-nestk/tests/CMakeFiles/test-siftgpu-server.dir/clean:
-	$(MAKE) -f nestk/tests/CMakeFiles/test-siftgpu-server.dir/build.make nestk/tests/CMakeFiles/test-siftgpu-server.dir/clean
-.PHONY : nestk/tests/CMakeFiles/test-siftgpu-server.dir/clean
-
-# clean rule for target.
-clean: nestk/tests/CMakeFiles/test-siftgpu-server.dir/clean
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target nestk/tests/CMakeFiles/test-stl.dir
-
-# All Build rule for target.
-nestk/tests/CMakeFiles/test-stl.dir/all: nestk/ntk/CMakeFiles/nestk.dir/all
-	$(MAKE) -f nestk/tests/CMakeFiles/test-stl.dir/build.make nestk/tests/CMakeFiles/test-stl.dir/depend
-	$(MAKE) -f nestk/tests/CMakeFiles/test-stl.dir/build.make nestk/tests/CMakeFiles/test-stl.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 
-	@echo "Built target test-stl"
-.PHONY : nestk/tests/CMakeFiles/test-stl.dir/all
-
-# Include target in all.
-all: nestk/tests/CMakeFiles/test-stl.dir/all
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-nestk/tests/CMakeFiles/test-stl.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 94
-	$(MAKE) -f CMakeFiles/Makefile2 nestk/tests/CMakeFiles/test-stl.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 0
-.PHONY : nestk/tests/CMakeFiles/test-stl.dir/rule
-
-# Convenience name for target.
-test-stl: nestk/tests/CMakeFiles/test-stl.dir/rule
-.PHONY : test-stl
-
-# clean rule for target.
-nestk/tests/CMakeFiles/test-stl.dir/clean:
-	$(MAKE) -f nestk/tests/CMakeFiles/test-stl.dir/build.make nestk/tests/CMakeFiles/test-stl.dir/clean
-.PHONY : nestk/tests/CMakeFiles/test-stl.dir/clean
-
-# clean rule for target.
-clean: nestk/tests/CMakeFiles/test-stl.dir/clean
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target nestk/tests/CMakeFiles/test-threads.dir
-
-# All Build rule for target.
-nestk/tests/CMakeFiles/test-threads.dir/all: nestk/ntk/CMakeFiles/nestk.dir/all
-	$(MAKE) -f nestk/tests/CMakeFiles/test-threads.dir/build.make nestk/tests/CMakeFiles/test-threads.dir/depend
-	$(MAKE) -f nestk/tests/CMakeFiles/test-threads.dir/build.make nestk/tests/CMakeFiles/test-threads.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 
-	@echo "Built target test-threads"
-.PHONY : nestk/tests/CMakeFiles/test-threads.dir/all
-
-# Include target in all.
-all: nestk/tests/CMakeFiles/test-threads.dir/all
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-nestk/tests/CMakeFiles/test-threads.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 94
-	$(MAKE) -f CMakeFiles/Makefile2 nestk/tests/CMakeFiles/test-threads.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 0
-.PHONY : nestk/tests/CMakeFiles/test-threads.dir/rule
-
-# Convenience name for target.
-test-threads: nestk/tests/CMakeFiles/test-threads.dir/rule
-.PHONY : test-threads
-
-# clean rule for target.
-nestk/tests/CMakeFiles/test-threads.dir/clean:
-	$(MAKE) -f nestk/tests/CMakeFiles/test-threads.dir/build.make nestk/tests/CMakeFiles/test-threads.dir/clean
-.PHONY : nestk/tests/CMakeFiles/test-threads.dir/clean
-
-# clean rule for target.
-clean: nestk/tests/CMakeFiles/test-threads.dir/clean
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target nestk/tests/CMakeFiles/test-transactions.dir
-
-# All Build rule for target.
-nestk/tests/CMakeFiles/test-transactions.dir/all: nestk/ntk/CMakeFiles/nestk.dir/all
-	$(MAKE) -f nestk/tests/CMakeFiles/test-transactions.dir/build.make nestk/tests/CMakeFiles/test-transactions.dir/depend
-	$(MAKE) -f nestk/tests/CMakeFiles/test-transactions.dir/build.make nestk/tests/CMakeFiles/test-transactions.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 
-	@echo "Built target test-transactions"
-.PHONY : nestk/tests/CMakeFiles/test-transactions.dir/all
-
-# Include target in all.
-all: nestk/tests/CMakeFiles/test-transactions.dir/all
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-nestk/tests/CMakeFiles/test-transactions.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 94
-	$(MAKE) -f CMakeFiles/Makefile2 nestk/tests/CMakeFiles/test-transactions.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 0
-.PHONY : nestk/tests/CMakeFiles/test-transactions.dir/rule
-
-# Convenience name for target.
-test-transactions: nestk/tests/CMakeFiles/test-transactions.dir/rule
-.PHONY : test-transactions
-
-# clean rule for target.
-nestk/tests/CMakeFiles/test-transactions.dir/clean:
-	$(MAKE) -f nestk/tests/CMakeFiles/test-transactions.dir/build.make nestk/tests/CMakeFiles/test-transactions.dir/clean
-.PHONY : nestk/tests/CMakeFiles/test-transactions.dir/clean
-
-# clean rule for target.
-clean: nestk/tests/CMakeFiles/test-transactions.dir/clean
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target nestk/tests/CMakeFiles/test-transform.dir
-
-# All Build rule for target.
-nestk/tests/CMakeFiles/test-transform.dir/all: nestk/ntk/CMakeFiles/nestk.dir/all
-	$(MAKE) -f nestk/tests/CMakeFiles/test-transform.dir/build.make nestk/tests/CMakeFiles/test-transform.dir/depend
-	$(MAKE) -f nestk/tests/CMakeFiles/test-transform.dir/build.make nestk/tests/CMakeFiles/test-transform.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 
-	@echo "Built target test-transform"
-.PHONY : nestk/tests/CMakeFiles/test-transform.dir/all
-
-# Include target in all.
-all: nestk/tests/CMakeFiles/test-transform.dir/all
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-nestk/tests/CMakeFiles/test-transform.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 94
-	$(MAKE) -f CMakeFiles/Makefile2 nestk/tests/CMakeFiles/test-transform.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 0
-.PHONY : nestk/tests/CMakeFiles/test-transform.dir/rule
-
-# Convenience name for target.
-test-transform: nestk/tests/CMakeFiles/test-transform.dir/rule
-.PHONY : test-transform
-
-# clean rule for target.
-nestk/tests/CMakeFiles/test-transform.dir/clean:
-	$(MAKE) -f nestk/tests/CMakeFiles/test-transform.dir/build.make nestk/tests/CMakeFiles/test-transform.dir/clean
-.PHONY : nestk/tests/CMakeFiles/test-transform.dir/clean
-
-# clean rule for target.
-clean: nestk/tests/CMakeFiles/test-transform.dir/clean
 .PHONY : clean
 
 #=============================================================================

@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/louis/Documents/Motion Capture/Mouse"
+CMAKE_SOURCE_DIR = /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/louis/Documents/Motion Capture/Mouse/build"
+CMAKE_BINARY_DIR = /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -110,14 +110,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/imgproc/CMakeFiles/progress.marks"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f CMakeFiles/Makefile2 nestk/deps/opencv/modules/imgproc/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 0
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/imgproc/CMakeFiles/progress.marks
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f CMakeFiles/Makefile2 nestk/deps/opencv/modules/imgproc/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f CMakeFiles/Makefile2 nestk/deps/opencv/modules/imgproc/clean
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f CMakeFiles/Makefile2 nestk/deps/opencv/modules/imgproc/clean
 .PHONY : clean
 
 # The main clean target
@@ -126,22 +126,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f CMakeFiles/Makefile2 nestk/deps/opencv/modules/imgproc/preinstall
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f CMakeFiles/Makefile2 nestk/deps/opencv/modules/imgproc/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f CMakeFiles/Makefile2 nestk/deps/opencv/modules/imgproc/preinstall
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f CMakeFiles/Makefile2 nestk/deps/opencv/modules/imgproc/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/rule:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f CMakeFiles/Makefile2 nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/rule
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f CMakeFiles/Makefile2 nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/rule
 .PHONY : nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/rule
 
 # Convenience name for target.
@@ -150,652 +150,652 @@ opencv_imgproc: nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/
 
 # fast build rule for target.
 opencv_imgproc/fast:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build
 .PHONY : opencv_imgproc/fast
 
 # target to build an object file
 src/accum.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/accum.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/accum.o
 .PHONY : src/accum.o
 
 # target to preprocess a source file
 src/accum.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/accum.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/accum.i
 .PHONY : src/accum.i
 
 # target to generate assembly for a file
 src/accum.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/accum.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/accum.s
 .PHONY : src/accum.s
 
 # target to build an object file
 src/approx.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/approx.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/approx.o
 .PHONY : src/approx.o
 
 # target to preprocess a source file
 src/approx.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/approx.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/approx.i
 .PHONY : src/approx.i
 
 # target to generate assembly for a file
 src/approx.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/approx.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/approx.s
 .PHONY : src/approx.s
 
 # target to build an object file
 src/canny.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/canny.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/canny.o
 .PHONY : src/canny.o
 
 # target to preprocess a source file
 src/canny.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/canny.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/canny.i
 .PHONY : src/canny.i
 
 # target to generate assembly for a file
 src/canny.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/canny.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/canny.s
 .PHONY : src/canny.s
 
 # target to build an object file
 src/color.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/color.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/color.o
 .PHONY : src/color.o
 
 # target to preprocess a source file
 src/color.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/color.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/color.i
 .PHONY : src/color.i
 
 # target to generate assembly for a file
 src/color.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/color.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/color.s
 .PHONY : src/color.s
 
 # target to build an object file
 src/contours.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/contours.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/contours.o
 .PHONY : src/contours.o
 
 # target to preprocess a source file
 src/contours.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/contours.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/contours.i
 .PHONY : src/contours.i
 
 # target to generate assembly for a file
 src/contours.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/contours.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/contours.s
 .PHONY : src/contours.s
 
 # target to build an object file
 src/convhull.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/convhull.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/convhull.o
 .PHONY : src/convhull.o
 
 # target to preprocess a source file
 src/convhull.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/convhull.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/convhull.i
 .PHONY : src/convhull.i
 
 # target to generate assembly for a file
 src/convhull.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/convhull.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/convhull.s
 .PHONY : src/convhull.s
 
 # target to build an object file
 src/corner.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/corner.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/corner.o
 .PHONY : src/corner.o
 
 # target to preprocess a source file
 src/corner.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/corner.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/corner.i
 .PHONY : src/corner.i
 
 # target to generate assembly for a file
 src/corner.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/corner.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/corner.s
 .PHONY : src/corner.s
 
 # target to build an object file
 src/cornersubpix.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/cornersubpix.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/cornersubpix.o
 .PHONY : src/cornersubpix.o
 
 # target to preprocess a source file
 src/cornersubpix.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/cornersubpix.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/cornersubpix.i
 .PHONY : src/cornersubpix.i
 
 # target to generate assembly for a file
 src/cornersubpix.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/cornersubpix.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/cornersubpix.s
 .PHONY : src/cornersubpix.s
 
 # target to build an object file
 src/deriv.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/deriv.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/deriv.o
 .PHONY : src/deriv.o
 
 # target to preprocess a source file
 src/deriv.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/deriv.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/deriv.i
 .PHONY : src/deriv.i
 
 # target to generate assembly for a file
 src/deriv.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/deriv.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/deriv.s
 .PHONY : src/deriv.s
 
 # target to build an object file
 src/distransform.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/distransform.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/distransform.o
 .PHONY : src/distransform.o
 
 # target to preprocess a source file
 src/distransform.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/distransform.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/distransform.i
 .PHONY : src/distransform.i
 
 # target to generate assembly for a file
 src/distransform.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/distransform.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/distransform.s
 .PHONY : src/distransform.s
 
 # target to build an object file
 src/emd.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/emd.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/emd.o
 .PHONY : src/emd.o
 
 # target to preprocess a source file
 src/emd.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/emd.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/emd.i
 .PHONY : src/emd.i
 
 # target to generate assembly for a file
 src/emd.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/emd.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/emd.s
 .PHONY : src/emd.s
 
 # target to build an object file
 src/featureselect.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/featureselect.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/featureselect.o
 .PHONY : src/featureselect.o
 
 # target to preprocess a source file
 src/featureselect.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/featureselect.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/featureselect.i
 .PHONY : src/featureselect.i
 
 # target to generate assembly for a file
 src/featureselect.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/featureselect.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/featureselect.s
 .PHONY : src/featureselect.s
 
 # target to build an object file
 src/featuretree.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/featuretree.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/featuretree.o
 .PHONY : src/featuretree.o
 
 # target to preprocess a source file
 src/featuretree.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/featuretree.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/featuretree.i
 .PHONY : src/featuretree.i
 
 # target to generate assembly for a file
 src/featuretree.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/featuretree.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/featuretree.s
 .PHONY : src/featuretree.s
 
 # target to build an object file
 src/filter.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/filter.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/filter.o
 .PHONY : src/filter.o
 
 # target to preprocess a source file
 src/filter.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/filter.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/filter.i
 .PHONY : src/filter.i
 
 # target to generate assembly for a file
 src/filter.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/filter.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/filter.s
 .PHONY : src/filter.s
 
 # target to build an object file
 src/floodfill.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/floodfill.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/floodfill.o
 .PHONY : src/floodfill.o
 
 # target to preprocess a source file
 src/floodfill.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/floodfill.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/floodfill.i
 .PHONY : src/floodfill.i
 
 # target to generate assembly for a file
 src/floodfill.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/floodfill.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/floodfill.s
 .PHONY : src/floodfill.s
 
 # target to build an object file
 src/geometry.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/geometry.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/geometry.o
 .PHONY : src/geometry.o
 
 # target to preprocess a source file
 src/geometry.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/geometry.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/geometry.i
 .PHONY : src/geometry.i
 
 # target to generate assembly for a file
 src/geometry.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/geometry.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/geometry.s
 .PHONY : src/geometry.s
 
 # target to build an object file
 src/grabcut.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/grabcut.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/grabcut.o
 .PHONY : src/grabcut.o
 
 # target to preprocess a source file
 src/grabcut.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/grabcut.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/grabcut.i
 .PHONY : src/grabcut.i
 
 # target to generate assembly for a file
 src/grabcut.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/grabcut.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/grabcut.s
 .PHONY : src/grabcut.s
 
 # target to build an object file
 src/histogram.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/histogram.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/histogram.o
 .PHONY : src/histogram.o
 
 # target to preprocess a source file
 src/histogram.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/histogram.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/histogram.i
 .PHONY : src/histogram.i
 
 # target to generate assembly for a file
 src/histogram.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/histogram.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/histogram.s
 .PHONY : src/histogram.s
 
 # target to build an object file
 src/hough.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/hough.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/hough.o
 .PHONY : src/hough.o
 
 # target to preprocess a source file
 src/hough.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/hough.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/hough.i
 .PHONY : src/hough.i
 
 # target to generate assembly for a file
 src/hough.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/hough.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/hough.s
 .PHONY : src/hough.s
 
 # target to build an object file
 src/imgwarp.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/imgwarp.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/imgwarp.o
 .PHONY : src/imgwarp.o
 
 # target to preprocess a source file
 src/imgwarp.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/imgwarp.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/imgwarp.i
 .PHONY : src/imgwarp.i
 
 # target to generate assembly for a file
 src/imgwarp.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/imgwarp.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/imgwarp.s
 .PHONY : src/imgwarp.s
 
 # target to build an object file
 src/inpaint.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/inpaint.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/inpaint.o
 .PHONY : src/inpaint.o
 
 # target to preprocess a source file
 src/inpaint.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/inpaint.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/inpaint.i
 .PHONY : src/inpaint.i
 
 # target to generate assembly for a file
 src/inpaint.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/inpaint.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/inpaint.s
 .PHONY : src/inpaint.s
 
 # target to build an object file
 src/kdtree.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/kdtree.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/kdtree.o
 .PHONY : src/kdtree.o
 
 # target to preprocess a source file
 src/kdtree.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/kdtree.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/kdtree.i
 .PHONY : src/kdtree.i
 
 # target to generate assembly for a file
 src/kdtree.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/kdtree.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/kdtree.s
 .PHONY : src/kdtree.s
 
 # target to build an object file
 src/linefit.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/linefit.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/linefit.o
 .PHONY : src/linefit.o
 
 # target to preprocess a source file
 src/linefit.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/linefit.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/linefit.i
 .PHONY : src/linefit.i
 
 # target to generate assembly for a file
 src/linefit.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/linefit.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/linefit.s
 .PHONY : src/linefit.s
 
 # target to build an object file
 src/lsh.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/lsh.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/lsh.o
 .PHONY : src/lsh.o
 
 # target to preprocess a source file
 src/lsh.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/lsh.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/lsh.i
 .PHONY : src/lsh.i
 
 # target to generate assembly for a file
 src/lsh.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/lsh.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/lsh.s
 .PHONY : src/lsh.s
 
 # target to build an object file
 src/matchcontours.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/matchcontours.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/matchcontours.o
 .PHONY : src/matchcontours.o
 
 # target to preprocess a source file
 src/matchcontours.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/matchcontours.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/matchcontours.i
 .PHONY : src/matchcontours.i
 
 # target to generate assembly for a file
 src/matchcontours.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/matchcontours.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/matchcontours.s
 .PHONY : src/matchcontours.s
 
 # target to build an object file
 src/moments.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/moments.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/moments.o
 .PHONY : src/moments.o
 
 # target to preprocess a source file
 src/moments.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/moments.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/moments.i
 .PHONY : src/moments.i
 
 # target to generate assembly for a file
 src/moments.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/moments.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/moments.s
 .PHONY : src/moments.s
 
 # target to build an object file
 src/morph.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/morph.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/morph.o
 .PHONY : src/morph.o
 
 # target to preprocess a source file
 src/morph.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/morph.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/morph.i
 .PHONY : src/morph.i
 
 # target to generate assembly for a file
 src/morph.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/morph.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/morph.s
 .PHONY : src/morph.s
 
 # target to build an object file
 src/precomp.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/precomp.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/precomp.o
 .PHONY : src/precomp.o
 
 # target to preprocess a source file
 src/precomp.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/precomp.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/precomp.i
 .PHONY : src/precomp.i
 
 # target to generate assembly for a file
 src/precomp.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/precomp.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/precomp.s
 .PHONY : src/precomp.s
 
 # target to build an object file
 src/pyramids.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/pyramids.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/pyramids.o
 .PHONY : src/pyramids.o
 
 # target to preprocess a source file
 src/pyramids.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/pyramids.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/pyramids.i
 .PHONY : src/pyramids.i
 
 # target to generate assembly for a file
 src/pyramids.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/pyramids.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/pyramids.s
 .PHONY : src/pyramids.s
 
 # target to build an object file
 src/pyrsegmentation.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/pyrsegmentation.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/pyrsegmentation.o
 .PHONY : src/pyrsegmentation.o
 
 # target to preprocess a source file
 src/pyrsegmentation.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/pyrsegmentation.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/pyrsegmentation.i
 .PHONY : src/pyrsegmentation.i
 
 # target to generate assembly for a file
 src/pyrsegmentation.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/pyrsegmentation.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/pyrsegmentation.s
 .PHONY : src/pyrsegmentation.s
 
 # target to build an object file
 src/rotcalipers.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/rotcalipers.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/rotcalipers.o
 .PHONY : src/rotcalipers.o
 
 # target to preprocess a source file
 src/rotcalipers.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/rotcalipers.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/rotcalipers.i
 .PHONY : src/rotcalipers.i
 
 # target to generate assembly for a file
 src/rotcalipers.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/rotcalipers.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/rotcalipers.s
 .PHONY : src/rotcalipers.s
 
 # target to build an object file
 src/samplers.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/samplers.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/samplers.o
 .PHONY : src/samplers.o
 
 # target to preprocess a source file
 src/samplers.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/samplers.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/samplers.i
 .PHONY : src/samplers.i
 
 # target to generate assembly for a file
 src/samplers.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/samplers.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/samplers.s
 .PHONY : src/samplers.s
 
 # target to build an object file
 src/segmentation.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/segmentation.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/segmentation.o
 .PHONY : src/segmentation.o
 
 # target to preprocess a source file
 src/segmentation.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/segmentation.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/segmentation.i
 .PHONY : src/segmentation.i
 
 # target to generate assembly for a file
 src/segmentation.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/segmentation.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/segmentation.s
 .PHONY : src/segmentation.s
 
 # target to build an object file
 src/shapedescr.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/shapedescr.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/shapedescr.o
 .PHONY : src/shapedescr.o
 
 # target to preprocess a source file
 src/shapedescr.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/shapedescr.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/shapedescr.i
 .PHONY : src/shapedescr.i
 
 # target to generate assembly for a file
 src/shapedescr.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/shapedescr.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/shapedescr.s
 .PHONY : src/shapedescr.s
 
 # target to build an object file
 src/smooth.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/smooth.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/smooth.o
 .PHONY : src/smooth.o
 
 # target to preprocess a source file
 src/smooth.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/smooth.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/smooth.i
 .PHONY : src/smooth.i
 
 # target to generate assembly for a file
 src/smooth.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/smooth.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/smooth.s
 .PHONY : src/smooth.s
 
 # target to build an object file
 src/spilltree.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/spilltree.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/spilltree.o
 .PHONY : src/spilltree.o
 
 # target to preprocess a source file
 src/spilltree.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/spilltree.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/spilltree.i
 .PHONY : src/spilltree.i
 
 # target to generate assembly for a file
 src/spilltree.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/spilltree.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/spilltree.s
 .PHONY : src/spilltree.s
 
 # target to build an object file
 src/subdivision2d.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/subdivision2d.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/subdivision2d.o
 .PHONY : src/subdivision2d.o
 
 # target to preprocess a source file
 src/subdivision2d.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/subdivision2d.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/subdivision2d.i
 .PHONY : src/subdivision2d.i
 
 # target to generate assembly for a file
 src/subdivision2d.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/subdivision2d.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/subdivision2d.s
 .PHONY : src/subdivision2d.s
 
 # target to build an object file
 src/sumpixels.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/sumpixels.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/sumpixels.o
 .PHONY : src/sumpixels.o
 
 # target to preprocess a source file
 src/sumpixels.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/sumpixels.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/sumpixels.i
 .PHONY : src/sumpixels.i
 
 # target to generate assembly for a file
 src/sumpixels.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/sumpixels.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/sumpixels.s
 .PHONY : src/sumpixels.s
 
 # target to build an object file
 src/tables.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/tables.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/tables.o
 .PHONY : src/tables.o
 
 # target to preprocess a source file
 src/tables.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/tables.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/tables.i
 .PHONY : src/tables.i
 
 # target to generate assembly for a file
 src/tables.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/tables.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/tables.s
 .PHONY : src/tables.s
 
 # target to build an object file
 src/templmatch.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/templmatch.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/templmatch.o
 .PHONY : src/templmatch.o
 
 # target to preprocess a source file
 src/templmatch.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/templmatch.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/templmatch.i
 .PHONY : src/templmatch.i
 
 # target to generate assembly for a file
 src/templmatch.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/templmatch.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/templmatch.s
 .PHONY : src/templmatch.s
 
 # target to build an object file
 src/thresh.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/thresh.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/thresh.o
 .PHONY : src/thresh.o
 
 # target to preprocess a source file
 src/thresh.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/thresh.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/thresh.i
 .PHONY : src/thresh.i
 
 # target to generate assembly for a file
 src/thresh.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/thresh.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/thresh.s
 .PHONY : src/thresh.s
 
 # target to build an object file
 src/undistort.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/undistort.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/undistort.o
 .PHONY : src/undistort.o
 
 # target to preprocess a source file
 src/undistort.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/undistort.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/undistort.i
 .PHONY : src/undistort.i
 
 # target to generate assembly for a file
 src/undistort.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/undistort.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/undistort.s
 .PHONY : src/undistort.s
 
 # target to build an object file
 src/utils.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/utils.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/utils.o
 .PHONY : src/utils.o
 
 # target to preprocess a source file
 src/utils.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/utils.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/utils.i
 .PHONY : src/utils.i
 
 # target to generate assembly for a file
 src/utils.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/utils.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/build.make nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/utils.s
 .PHONY : src/utils.s
 
 # Help Target
@@ -951,6 +951,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/louis/Documents/Motion Capture/Mouse/nestk/deps/eigen/Eigen/src/Core/arch/NEON
+# Install script for directory: /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/eigen/Eigen/src/Core/arch/NEON
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,8 +34,8 @@ ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Devel")
   FILE(INSTALL DESTINATION "/usr/local/include/eigen3/Eigen/src/Core/arch/NEON" TYPE FILE FILES
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/eigen/Eigen/src/Core/arch/NEON/PacketMath.h"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/eigen/Eigen/src/Core/arch/NEON/Complex.h"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/eigen/Eigen/src/Core/arch/NEON/PacketMath.h"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/eigen/Eigen/src/Core/arch/NEON/Complex.h"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Devel")
 

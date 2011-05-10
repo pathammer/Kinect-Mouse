@@ -454,7 +454,7 @@ opencv2/core/core.hpp
 opencv2/imgproc/imgproc_c.h
 ../nestk/deps/opencv/modules/video/include/opencv2/video/opencv2/imgproc/imgproc_c.h
 
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/haartraining/performance.cpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/haartraining/performance.cpp
 cv.h
 -
 highgui.h

@@ -1,4 +1,4 @@
-# Install script for directory: /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/doc
+# Install script for directory: /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/doc
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,33 +34,33 @@ ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "main")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/opencv/doc" TYPE FILE FILES
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/doc/haartraining.htm"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/doc/README.txt"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/doc/CMakeLists.txt"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/doc/packaging.txt"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/doc/license.txt"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/doc/opencv.jpg"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/doc/opencv-logo.png"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/doc/opencv-logo2.png"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/doc/opencv.pdf"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/doc/opencv_cheatsheet.pdf"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/doc/pattern.pdf"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/doc/haartraining.htm"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/doc/packaging.txt"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/doc/CMakeLists.txt"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/doc/license.txt"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/doc/README.txt"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/doc/opencv.jpg"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/doc/opencv-logo2.png"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/doc/opencv-logo.png"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/doc/opencv.pdf"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/doc/opencv_cheatsheet.pdf"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/doc/pattern.pdf"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "main")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "main")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/opencv/doc/papers" TYPE FILE FILES
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/doc/papers/camshift.pdf"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/doc/papers/algo_tracking.pdf"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/doc/papers/avbpa99.ps"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/doc/papers/camshift.pdf"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/doc/papers/algo_tracking.pdf"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/doc/papers/avbpa99.ps"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "main")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "main")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/opencv/doc/vidsurv" TYPE FILE FILES
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/doc/vidsurv/Blob_Tracking_Modules.doc"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/doc/vidsurv/Blob_Tracking_Tests.doc"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/doc/vidsurv/TestSeq.doc"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/doc/vidsurv/Blob_Tracking_Modules.doc"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/doc/vidsurv/TestSeq.doc"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/doc/vidsurv/Blob_Tracking_Tests.doc"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "main")
 

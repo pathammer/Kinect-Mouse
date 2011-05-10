@@ -1248,18 +1248,22 @@ QFileInfo
 QString
 -
 
-/home/louis/Documents/Motion Capture/Mouse/demo.cpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/demo.cpp
 ntk/ntk.h
 -
 ntk/camera/calibration.h
 -
 pmdsdk2.h
-/home/louis/Documents/Motion Capture/Mouse/pmdsdk2.h
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/pmdsdk2.h
 ntk/private/camera/pmd_grabber.h
 -
 ntk/private/camera/pmd_rgb_grabber.h
 -
 iostream
+-
+math.h
+-
+deque
 -
 stdio.h
 -
@@ -1282,6 +1286,14 @@ ntk/camera/kinect_grabber.h
 ntk/camera/rgbd_processor.h
 -
 ntk/utils/opencv_utils.h
+-
+assert.h
+-
+X11/Xlib.h
+-
+X11/Xatom.h
+-
+X11/extensions/XTest.h
 -
 
 /usr/include/qt4/Qt3Support/q3cstring.h
@@ -1473,7 +1485,7 @@ QtCore/qatomic_powerpc.h
 /usr/include/qt4/QtCore/qatomic_sparc.h
 
 /usr/include/qt4/QtCore/qatomic_symbian.h
-qglobal.h
+QtCore/qglobal.h
 -
 e32std.h
 -
@@ -1664,6 +1676,8 @@ iterator
 list
 -
 new
+-
+limits.h
 -
 string.h
 -

@@ -480,65 +480,65 @@ opencv2/core/core.hpp
 opencv2/imgproc/imgproc_c.h
 ../nestk/deps/opencv/modules/video/include/opencv2/video/opencv2/imgproc/imgproc_c.h
 
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/traincascade/boost.cpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/traincascade/boost.cpp
 boost.h
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/traincascade/boost.h
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/traincascade/boost.h
 cascadeclassifier.h
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/traincascade/cascadeclassifier.h
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/traincascade/cascadeclassifier.h
 queue
 -
 cxmisc.h
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/traincascade/cxmisc.h
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/traincascade/cxmisc.h
 
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/traincascade/boost.h
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/traincascade/boost.h
 traincascade_features.h
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/traincascade/traincascade_features.h
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/traincascade/traincascade_features.h
 ml.h
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/traincascade/ml.h
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/traincascade/ml.h
 
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/traincascade/cascadeclassifier.cpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/traincascade/cascadeclassifier.cpp
 cascadeclassifier.h
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/traincascade/cascadeclassifier.h
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/traincascade/cascadeclassifier.h
 queue
 -
 
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/traincascade/cascadeclassifier.h
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/traincascade/cascadeclassifier.h
 ctime
 -
 traincascade_features.h
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/traincascade/traincascade_features.h
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/traincascade/traincascade_features.h
 haarfeatures.h
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/traincascade/haarfeatures.h
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/traincascade/haarfeatures.h
 lbpfeatures.h
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/traincascade/lbpfeatures.h
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/traincascade/lbpfeatures.h
 boost.h
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/traincascade/boost.h
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/traincascade/boost.h
 cv.h
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/traincascade/cv.h
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/traincascade/cv.h
 cxcore.h
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/traincascade/cxcore.h
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/traincascade/cxcore.h
 
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/traincascade/features.cpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/traincascade/features.cpp
 traincascade_features.h
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/traincascade/traincascade_features.h
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/traincascade/traincascade_features.h
 cascadeclassifier.h
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/traincascade/cascadeclassifier.h
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/traincascade/cascadeclassifier.h
 
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/traincascade/haarfeatures.cpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/traincascade/haarfeatures.cpp
 haarfeatures.h
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/traincascade/haarfeatures.h
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/traincascade/haarfeatures.h
 cascadeclassifier.h
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/traincascade/cascadeclassifier.h
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/traincascade/cascadeclassifier.h
 
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/traincascade/haarfeatures.h
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/traincascade/haarfeatures.h
 traincascade_features.h
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/traincascade/traincascade_features.h
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/traincascade/traincascade_features.h
 
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/traincascade/imagestorage.cpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/traincascade/imagestorage.cpp
 cv.h
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/traincascade/cv.h
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/traincascade/cv.h
 imagestorage.h
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/traincascade/imagestorage.h
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/traincascade/imagestorage.h
 stdio.h
 -
 iostream
@@ -546,35 +546,35 @@ iostream
 fstream
 -
 
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/traincascade/imagestorage.h
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/traincascade/imagestorage.h
 highgui.h
 -
 
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/traincascade/lbpfeatures.cpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/traincascade/lbpfeatures.cpp
 lbpfeatures.h
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/traincascade/lbpfeatures.h
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/traincascade/lbpfeatures.h
 cascadeclassifier.h
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/traincascade/cascadeclassifier.h
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/traincascade/cascadeclassifier.h
 
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/traincascade/lbpfeatures.h
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/traincascade/lbpfeatures.h
 traincascade_features.h
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/traincascade/traincascade_features.h
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/traincascade/traincascade_features.h
 
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/traincascade/traincascade.cpp
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/traincascade/traincascade.cpp
 cv.h
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/traincascade/cv.h
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/traincascade/cv.h
 cascadeclassifier.h
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/traincascade/cascadeclassifier.h
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/traincascade/cascadeclassifier.h
 
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/traincascade/traincascade_features.h
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/traincascade/traincascade_features.h
 imagestorage.h
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/traincascade/imagestorage.h
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/traincascade/imagestorage.h
 cxcore.h
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/traincascade/cxcore.h
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/traincascade/cxcore.h
 cv.h
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/traincascade/cv.h
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/traincascade/cv.h
 ml.h
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/traincascade/ml.h
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/traincascade/ml.h
 stdio.h
 -
 

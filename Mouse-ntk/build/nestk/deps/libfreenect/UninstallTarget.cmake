@@ -1,8 +1,8 @@
-if (NOT EXISTS "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/libfreenect/install_manifest.txt")
-    message(FATAL_ERROR "Cannot find install manifest: \"/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/libfreenect/install_manifest.txt\"")
-endif(NOT EXISTS "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/libfreenect/install_manifest.txt")
+if (NOT EXISTS "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/libfreenect/install_manifest.txt")
+    message(FATAL_ERROR "Cannot find install manifest: \"/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/libfreenect/install_manifest.txt\"")
+endif(NOT EXISTS "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/libfreenect/install_manifest.txt")
 
-file(READ "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/libfreenect/install_manifest.txt" files)
+file(READ "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/libfreenect/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 foreach (file ${files})
     message(STATUS "Uninstalling \"$ENV{DESTDIR}${file}\"")

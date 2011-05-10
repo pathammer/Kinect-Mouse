@@ -3,21 +3,21 @@
 
 nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/cameras.c.o
  ../nestk/deps/libfreenect/include/libfreenect.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/libfreenect/src/cameras.c
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/libfreenect/src/freenect_internal.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/libfreenect/src/usb_libusb10.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/libfreenect/src/cameras.c
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/libfreenect/src/freenect_internal.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/libfreenect/src/usb_libusb10.h
 nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/core.c.o
  ../nestk/deps/libfreenect/include/libfreenect.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/libfreenect/src/core.c
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/libfreenect/src/freenect_internal.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/libfreenect/src/usb_libusb10.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/libfreenect/src/core.c
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/libfreenect/src/freenect_internal.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/libfreenect/src/usb_libusb10.h
 nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/tilt.c.o
  ../nestk/deps/libfreenect/include/libfreenect.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/libfreenect/src/freenect_internal.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/libfreenect/src/tilt.c
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/libfreenect/src/usb_libusb10.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/libfreenect/src/freenect_internal.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/libfreenect/src/tilt.c
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/libfreenect/src/usb_libusb10.h
 nestk/deps/libfreenect/src/CMakeFiles/freenect.dir/usb_libusb10.c.o
  ../nestk/deps/libfreenect/include/libfreenect.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/libfreenect/src/freenect_internal.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/libfreenect/src/usb_libusb10.c
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/libfreenect/src/usb_libusb10.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/libfreenect/src/freenect_internal.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/libfreenect/src/usb_libusb10.c
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/libfreenect/src/usb_libusb10.h

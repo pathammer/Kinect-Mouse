@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/haartraining/createsamples.cpp" "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_createsamples.dir/createsamples.o"
+  "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/haartraining/createsamples.cpp" "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_createsamples.dir/createsamples.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -15,12 +15,12 @@ SET(CMAKE_TARGET_DEFINITIONS
 
 # Targets to which this target links.
 SET(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/DependInfo.cmake"
-  "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/DependInfo.cmake"
-  "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/DependInfo.cmake"
-  "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/DependInfo.cmake"
-  "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/DependInfo.cmake"
-  "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining_engine.dir/DependInfo.cmake"
-  "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/3rdparty/lapack/CMakeFiles/opencv_lapack.dir/DependInfo.cmake"
-  "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/DependInfo.cmake"
+  "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/DependInfo.cmake"
+  "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/DependInfo.cmake"
+  "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/DependInfo.cmake"
+  "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/DependInfo.cmake"
+  "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/DependInfo.cmake"
+  "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining_engine.dir/DependInfo.cmake"
+  "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/3rdparty/lapack/CMakeFiles/opencv_lapack.dir/DependInfo.cmake"
+  "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/DependInfo.cmake"
   )

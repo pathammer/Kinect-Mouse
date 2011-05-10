@@ -1,25 +1,42 @@
-Determining if the include file ffmpeg/avformat.h exists failed with the following output:
-Change Dir: /home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles/CMakeTmp
+Determining if the include file libavformat/avformat.h exists failed with the following output:
+Change Dir: /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles/CMakeTmp
 
 Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
 /usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
-make[1]: Entering directory `/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles/CMakeTmp/CMakeFiles" 1
+make[1]: Entering directory `/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles/CMakeTmp/CMakeFiles 1
 Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o
-/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o   -c "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
-/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:29: error: ffmpeg/avformat.h: No such file or directory
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o   -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1: fatal error: libavformat/avformat.h: No such file or directory
+compilation terminated.
 make[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o] Error 1
-make[1]: Leaving directory `/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory `/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec/fast] Error 2
+
+
+Determining if the include file ffmpeg/avformat.h exists failed with the following output:
+Change Dir: /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o   -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1: fatal error: ffmpeg/avformat.h: No such file or directory
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory `/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles/CMakeTmp'
 make: *** [cmTryCompileExec/fast] Error 2
 
 
 Determining if the function alloca exists failed with the following output:
-Change Dir: /home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles/CMakeTmp
+Change Dir: /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles/CMakeTmp
 
 Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
 /usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
-make[1]: Entering directory `/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles/CMakeTmp/CMakeFiles" 1
+make[1]: Entering directory `/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles/CMakeTmp/CMakeFiles 1
 Building C object CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o
 /usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=alloca   -o CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
 /usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3: warning: conflicting types for built-in function ‘alloca’
@@ -29,24 +46,24 @@ Linking C executable cmTryCompileExec
 CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o: In function `main':
 CheckFunctionExists.c:(.text+0x26): undefined reference to `alloca'
 collect2: ld returned 1 exit status
-make[1]: Leaving directory `/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles/CMakeTmp'
 make[1]: *** [cmTryCompileExec] Error 1
+make[1]: Leaving directory `/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles/CMakeTmp'
 make: *** [cmTryCompileExec/fast] Error 2
 
 
 Determining if the system is big endian passed with the following output:
-Change Dir: /home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles/CMakeTmp
+Change Dir: /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles/CMakeTmp
 
 Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
 /usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
-make[1]: Entering directory `/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles/CMakeTmp/CMakeFiles" 1
+make[1]: Entering directory `/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles/CMakeTmp/CMakeFiles 1
 Building C object CMakeFiles/cmTryCompileExec.dir/TestEndianess.c.o
-/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec.dir/TestEndianess.c.o   -c "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles/CMakeTmp/TestEndianess.c"
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec.dir/TestEndianess.c.o   -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles/CMakeTmp/TestEndianess.c
 Linking C executable cmTryCompileExec
 /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
 /usr/bin/gcc        CMakeFiles/cmTryCompileExec.dir/TestEndianess.c.o  -o cmTryCompileExec -rdynamic 
-make[1]: Leaving directory `/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory `/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles/CMakeTmp'
 
 TestEndianess.c:
 /* A 16 bit integer is required. */
@@ -75,23 +92,23 @@ int main(int argc, char *argv[])
 
 
 Determining if the Q_WS_WIN exist failed with the following output:
-Change Dir: /home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles/CMakeTmp
+Change Dir: /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles/CMakeTmp
 
 Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
 /usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
-make[1]: Entering directory `/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles/CMakeTmp/CMakeFiles" 1
+make[1]: Entering directory `/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles/CMakeTmp/CMakeFiles 1
 Building C object CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.c.o
-/usr/bin/gcc   -I/usr/include/qt4   -o CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.c.o   -c "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
-/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
-/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8: error: ‘Q_WS_WIN’ undeclared (first use in this function)
-/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8: error: (Each undeclared identifier is reported only once
-/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8: error: for each function it appears in.)
+/usr/bin/gcc   -I/usr/include/qt4   -o CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.c.o   -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8: error: ‘Q_WS_WIN’ undeclared (first use in this function)
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8: error: (Each undeclared identifier is reported only once
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8: error: for each function it appears in.)
+make[1]: Leaving directory `/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles/CMakeTmp'
 make[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.c.o] Error 1
-make[1]: Leaving directory `/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles/CMakeTmp'
 make: *** [cmTryCompileExec/fast] Error 2
 
-File /home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <QtCore/qglobal.h>
 
@@ -105,23 +122,23 @@ int main()
 }
 
 Determining if the Q_WS_QWS exist failed with the following output:
-Change Dir: /home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles/CMakeTmp
+Change Dir: /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles/CMakeTmp
 
 Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
 /usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
-make[1]: Entering directory `/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles/CMakeTmp/CMakeFiles" 1
+make[1]: Entering directory `/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles/CMakeTmp/CMakeFiles 1
 Building C object CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.c.o
-/usr/bin/gcc   -I/usr/include/qt4   -o CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.c.o   -c "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
-/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
-/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8: error: ‘Q_WS_QWS’ undeclared (first use in this function)
-/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8: error: (Each undeclared identifier is reported only once
-/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8: error: for each function it appears in.)
-make[1]: Leaving directory `/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles/CMakeTmp'
+/usr/bin/gcc   -I/usr/include/qt4   -o CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.c.o   -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8: error: ‘Q_WS_QWS’ undeclared (first use in this function)
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8: error: (Each undeclared identifier is reported only once
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8: error: for each function it appears in.)
+make[1]: Leaving directory `/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles/CMakeTmp'
 make[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.c.o] Error 1
 make: *** [cmTryCompileExec/fast] Error 2
 
-File /home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <QtCore/qglobal.h>
 
@@ -135,23 +152,23 @@ int main()
 }
 
 Determining if the Q_WS_MAC exist failed with the following output:
-Change Dir: /home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles/CMakeTmp
+Change Dir: /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles/CMakeTmp
 
 Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
 /usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
-make[1]: Entering directory `/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles/CMakeTmp/CMakeFiles" 1
+make[1]: Entering directory `/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles/CMakeTmp/CMakeFiles 1
 Building C object CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.c.o
-/usr/bin/gcc   -I/usr/include/qt4   -o CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.c.o   -c "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
-/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
-/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8: error: ‘Q_WS_MAC’ undeclared (first use in this function)
-/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8: error: (Each undeclared identifier is reported only once
-/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8: error: for each function it appears in.)
+/usr/bin/gcc   -I/usr/include/qt4   -o CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.c.o   -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8: error: ‘Q_WS_MAC’ undeclared (first use in this function)
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8: error: (Each undeclared identifier is reported only once
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8: error: for each function it appears in.)
 make[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.c.o] Error 1
-make[1]: Leaving directory `/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory `/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles/CMakeTmp'
 make: *** [cmTryCompileExec/fast] Error 2
 
-File /home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <QtCore/qglobal.h>
 

@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/louis/Documents/Motion Capture/Mouse"
+CMAKE_SOURCE_DIR = /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/louis/Documents/Motion Capture/Mouse/build"
+CMAKE_BINARY_DIR = /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build
 
 # Include any dependencies generated for this target.
 include nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/depend.make
@@ -49,715 +49,43 @@ include nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/progress.m
 # Include the compile flags for this target's objects.
 include nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
 
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/contourtree.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/contourtree.o: ../nestk/deps/opencv/modules/legacy/src/contourtree.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_1)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/contourtree.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/contourtree.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/contourtree.cpp"
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/contourtree.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/contourtree.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/contourtree.cpp" > CMakeFiles/opencv_legacy.dir/src/contourtree.i
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/contourtree.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/contourtree.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/contourtree.cpp" -o CMakeFiles/opencv_legacy.dir/src/contourtree.s
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/contourtree.o.requires:
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/contourtree.o.requires
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/contourtree.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/contourtree.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/contourtree.o.provides.build
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/contourtree.o.provides
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/contourtree.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/contourtree.o
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/contourtree.o.provides.build
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/3dtracker.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/3dtracker.o: ../nestk/deps/opencv/modules/legacy/src/3dtracker.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_2)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/3dtracker.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/3dtracker.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/3dtracker.cpp"
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/3dtracker.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/3dtracker.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/3dtracker.cpp" > CMakeFiles/opencv_legacy.dir/src/3dtracker.i
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/3dtracker.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/3dtracker.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/3dtracker.cpp" -o CMakeFiles/opencv_legacy.dir/src/3dtracker.s
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/3dtracker.o.requires:
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/3dtracker.o.requires
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/3dtracker.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/3dtracker.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/3dtracker.o.provides.build
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/3dtracker.o.provides
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/3dtracker.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/3dtracker.o
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/3dtracker.o.provides.build
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/pgh.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/pgh.o: ../nestk/deps/opencv/modules/legacy/src/pgh.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_3)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/pgh.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/pgh.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/pgh.cpp"
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/pgh.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/pgh.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/pgh.cpp" > CMakeFiles/opencv_legacy.dir/src/pgh.i
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/pgh.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/pgh.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/pgh.cpp" -o CMakeFiles/opencv_legacy.dir/src/pgh.s
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/pgh.o.requires:
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/pgh.o.requires
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/pgh.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/pgh.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/pgh.o.provides.build
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/pgh.o.provides
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/pgh.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/pgh.o
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/pgh.o.provides.build
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lmeds.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lmeds.o: ../nestk/deps/opencv/modules/legacy/src/lmeds.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_4)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lmeds.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/lmeds.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/lmeds.cpp"
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lmeds.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/lmeds.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/lmeds.cpp" > CMakeFiles/opencv_legacy.dir/src/lmeds.i
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lmeds.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/lmeds.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/lmeds.cpp" -o CMakeFiles/opencv_legacy.dir/src/lmeds.s
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lmeds.o.requires:
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lmeds.o.requires
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lmeds.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lmeds.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lmeds.o.provides.build
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lmeds.o.provides
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lmeds.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lmeds.o
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lmeds.o.provides.build
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/hmm.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/hmm.o: ../nestk/deps/opencv/modules/legacy/src/hmm.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_5)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/hmm.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/hmm.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/hmm.cpp"
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/hmm.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/hmm.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/hmm.cpp" > CMakeFiles/opencv_legacy.dir/src/hmm.i
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/hmm.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/hmm.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/hmm.cpp" -o CMakeFiles/opencv_legacy.dir/src/hmm.s
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/hmm.o.requires:
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/hmm.o.requires
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/hmm.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/hmm.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/hmm.o.provides.build
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/hmm.o.provides
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/hmm.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/hmm.o
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/hmm.o.provides.build
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/calcimagehomography.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/calcimagehomography.o: ../nestk/deps/opencv/modules/legacy/src/calcimagehomography.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_6)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/calcimagehomography.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/calcimagehomography.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/calcimagehomography.cpp"
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/calcimagehomography.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/calcimagehomography.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/calcimagehomography.cpp" > CMakeFiles/opencv_legacy.dir/src/calcimagehomography.i
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/calcimagehomography.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/calcimagehomography.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/calcimagehomography.cpp" -o CMakeFiles/opencv_legacy.dir/src/calcimagehomography.s
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/calcimagehomography.o.requires:
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/calcimagehomography.o.requires
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/calcimagehomography.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/calcimagehomography.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/calcimagehomography.o.provides.build
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/calcimagehomography.o.provides
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/calcimagehomography.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/calcimagehomography.o
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/calcimagehomography.o.provides.build
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/eigenobjects.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/eigenobjects.o: ../nestk/deps/opencv/modules/legacy/src/eigenobjects.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_7)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/eigenobjects.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/eigenobjects.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/eigenobjects.cpp"
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/eigenobjects.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/eigenobjects.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/eigenobjects.cpp" > CMakeFiles/opencv_legacy.dir/src/eigenobjects.i
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/eigenobjects.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/eigenobjects.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/eigenobjects.cpp" -o CMakeFiles/opencv_legacy.dir/src/eigenobjects.s
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/eigenobjects.o.requires:
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/eigenobjects.o.requires
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/eigenobjects.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/eigenobjects.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/eigenobjects.o.provides.build
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/eigenobjects.o.provides
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/eigenobjects.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/eigenobjects.o
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/eigenobjects.o.provides.build
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingmsfg.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingmsfg.o: ../nestk/deps/opencv/modules/legacy/src/blobtrackingmsfg.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_8)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingmsfg.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/blobtrackingmsfg.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/blobtrackingmsfg.cpp"
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingmsfg.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/blobtrackingmsfg.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/blobtrackingmsfg.cpp" > CMakeFiles/opencv_legacy.dir/src/blobtrackingmsfg.i
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingmsfg.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/blobtrackingmsfg.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/blobtrackingmsfg.cpp" -o CMakeFiles/opencv_legacy.dir/src/blobtrackingmsfg.s
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingmsfg.o.requires:
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingmsfg.o.requires
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingmsfg.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingmsfg.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingmsfg.o.provides.build
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingmsfg.o.provides
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingmsfg.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingmsfg.o
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingmsfg.o.provides.build
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingccwithcr.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingccwithcr.o: ../nestk/deps/opencv/modules/legacy/src/blobtrackingccwithcr.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_9)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingccwithcr.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/blobtrackingccwithcr.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/blobtrackingccwithcr.cpp"
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingccwithcr.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/blobtrackingccwithcr.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/blobtrackingccwithcr.cpp" > CMakeFiles/opencv_legacy.dir/src/blobtrackingccwithcr.i
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingccwithcr.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/blobtrackingccwithcr.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/blobtrackingccwithcr.cpp" -o CMakeFiles/opencv_legacy.dir/src/blobtrackingccwithcr.s
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingccwithcr.o.requires:
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingccwithcr.o.requires
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingccwithcr.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingccwithcr.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingccwithcr.o.provides.build
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingccwithcr.o.provides
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingccwithcr.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingccwithcr.o
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingccwithcr.o.provides.build
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/hmm1d.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/hmm1d.o: ../nestk/deps/opencv/modules/legacy/src/hmm1d.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_10)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/hmm1d.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/hmm1d.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/hmm1d.cpp"
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/hmm1d.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/hmm1d.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/hmm1d.cpp" > CMakeFiles/opencv_legacy.dir/src/hmm1d.i
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/hmm1d.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/hmm1d.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/hmm1d.cpp" -o CMakeFiles/opencv_legacy.dir/src/hmm1d.s
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/hmm1d.o.requires:
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/hmm1d.o.requires
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/hmm1d.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/hmm1d.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/hmm1d.o.provides.build
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/hmm1d.o.provides
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/hmm1d.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/hmm1d.o
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/hmm1d.o.provides.build
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysishist.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysishist.o: ../nestk/deps/opencv/modules/legacy/src/blobtrackanalysishist.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_11)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysishist.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/blobtrackanalysishist.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/blobtrackanalysishist.cpp"
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysishist.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/blobtrackanalysishist.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/blobtrackanalysishist.cpp" > CMakeFiles/opencv_legacy.dir/src/blobtrackanalysishist.i
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysishist.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/blobtrackanalysishist.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/blobtrackanalysishist.cpp" -o CMakeFiles/opencv_legacy.dir/src/blobtrackanalysishist.s
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysishist.o.requires:
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysishist.o.requires
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysishist.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysishist.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysishist.o.provides.build
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysishist.o.provides
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysishist.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysishist.o
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysishist.o.provides.build
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lines.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lines.o: ../nestk/deps/opencv/modules/legacy/src/lines.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_12)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lines.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/lines.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/lines.cpp"
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lines.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/lines.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/lines.cpp" > CMakeFiles/opencv_legacy.dir/src/lines.i
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lines.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/lines.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/lines.cpp" -o CMakeFiles/opencv_legacy.dir/src/lines.s
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lines.o.requires:
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lines.o.requires
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lines.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lines.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lines.o.provides.build
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lines.o.provides
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lines.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lines.o
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lines.o.provides.build
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/findface.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/findface.o: ../nestk/deps/opencv/modules/legacy/src/findface.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_13)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/findface.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/findface.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/findface.cpp"
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/findface.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/findface.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/findface.cpp" > CMakeFiles/opencv_legacy.dir/src/findface.i
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/findface.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/findface.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/findface.cpp" -o CMakeFiles/opencv_legacy.dir/src/findface.s
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/findface.o.requires:
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/findface.o.requires
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/findface.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/findface.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/findface.o.provides.build
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/findface.o.provides
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/findface.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/findface.o
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/findface.o.provides.build
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/dominants.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/dominants.o: ../nestk/deps/opencv/modules/legacy/src/dominants.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_14)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/dominants.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/dominants.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/dominants.cpp"
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/dominants.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/dominants.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/dominants.cpp" > CMakeFiles/opencv_legacy.dir/src/dominants.i
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/dominants.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/dominants.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/dominants.cpp" -o CMakeFiles/opencv_legacy.dir/src/dominants.s
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/dominants.o.requires:
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/dominants.o.requires
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/dominants.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/dominants.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/dominants.o.provides.build
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/dominants.o.provides
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/dominants.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/dominants.o
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/dominants.o.provides.build
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/image.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/image.o: ../nestk/deps/opencv/modules/legacy/src/image.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_15)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/image.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/image.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/image.cpp"
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/image.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/image.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/image.cpp" > CMakeFiles/opencv_legacy.dir/src/image.i
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/image.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/image.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/image.cpp" -o CMakeFiles/opencv_legacy.dir/src/image.s
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/image.o.requires:
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/image.o.requires
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/image.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/image.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/image.o.provides.build
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/image.o.provides
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/image.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/image.o
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/image.o.provides.build
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/levmartrif.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/levmartrif.o: ../nestk/deps/opencv/modules/legacy/src/levmartrif.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_16)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/levmartrif.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/levmartrif.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/levmartrif.cpp"
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/levmartrif.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/levmartrif.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/levmartrif.cpp" > CMakeFiles/opencv_legacy.dir/src/levmartrif.i
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/levmartrif.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/levmartrif.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/levmartrif.cpp" -o CMakeFiles/opencv_legacy.dir/src/levmartrif.s
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/levmartrif.o.requires:
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/levmartrif.o.requires
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/levmartrif.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/levmartrif.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/levmartrif.o.provides.build
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/levmartrif.o.provides
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/levmartrif.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/levmartrif.o
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/levmartrif.o.provides.build
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lee.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lee.o: ../nestk/deps/opencv/modules/legacy/src/lee.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_17)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lee.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/lee.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/lee.cpp"
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lee.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/lee.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/lee.cpp" > CMakeFiles/opencv_legacy.dir/src/lee.i
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lee.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/lee.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/lee.cpp" -o CMakeFiles/opencv_legacy.dir/src/lee.s
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lee.o.requires:
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lee.o.requires
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lee.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lee.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lee.o.provides.build
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lee.o.provides
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lee.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lee.o
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lee.o.provides.build
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/subdiv2.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/subdiv2.o: ../nestk/deps/opencv/modules/legacy/src/subdiv2.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_18)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/subdiv2.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/subdiv2.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/subdiv2.cpp"
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/subdiv2.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/subdiv2.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/subdiv2.cpp" > CMakeFiles/opencv_legacy.dir/src/subdiv2.i
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/subdiv2.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/subdiv2.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/subdiv2.cpp" -o CMakeFiles/opencv_legacy.dir/src/subdiv2.s
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/subdiv2.o.requires:
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/subdiv2.o.requires
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/subdiv2.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/subdiv2.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/subdiv2.o.provides.build
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/subdiv2.o.provides
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/subdiv2.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/subdiv2.o
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/subdiv2.o.provides.build
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/vecfacetracking.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/vecfacetracking.o: ../nestk/deps/opencv/modules/legacy/src/vecfacetracking.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_19)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/vecfacetracking.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/vecfacetracking.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/vecfacetracking.cpp"
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/vecfacetracking.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/vecfacetracking.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/vecfacetracking.cpp" > CMakeFiles/opencv_legacy.dir/src/vecfacetracking.i
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/vecfacetracking.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/vecfacetracking.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/vecfacetracking.cpp" -o CMakeFiles/opencv_legacy.dir/src/vecfacetracking.s
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/vecfacetracking.o.requires:
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/vecfacetracking.o.requires
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/vecfacetracking.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/vecfacetracking.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/vecfacetracking.o.provides.build
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/vecfacetracking.o.provides
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/vecfacetracking.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/vecfacetracking.o
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/vecfacetracking.o.provides.build
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingauto.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingauto.o: ../nestk/deps/opencv/modules/legacy/src/blobtrackingauto.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_20)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingauto.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/blobtrackingauto.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/blobtrackingauto.cpp"
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingauto.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/blobtrackingauto.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/blobtrackingauto.cpp" > CMakeFiles/opencv_legacy.dir/src/blobtrackingauto.i
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingauto.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/blobtrackingauto.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/blobtrackingauto.cpp" -o CMakeFiles/opencv_legacy.dir/src/blobtrackingauto.s
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingauto.o.requires:
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingauto.o.requires
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingauto.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingauto.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingauto.o.provides.build
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingauto.o.provides
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingauto.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingauto.o
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingauto.o.provides.build
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackpostprockalman.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackpostprockalman.o: ../nestk/deps/opencv/modules/legacy/src/blobtrackpostprockalman.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_21)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackpostprockalman.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/blobtrackpostprockalman.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/blobtrackpostprockalman.cpp"
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackpostprockalman.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/blobtrackpostprockalman.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/blobtrackpostprockalman.cpp" > CMakeFiles/opencv_legacy.dir/src/blobtrackpostprockalman.i
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackpostprockalman.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/blobtrackpostprockalman.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/blobtrackpostprockalman.cpp" -o CMakeFiles/opencv_legacy.dir/src/blobtrackpostprockalman.s
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackpostprockalman.o.requires:
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackpostprockalman.o.requires
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackpostprockalman.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackpostprockalman.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackpostprockalman.o.provides.build
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackpostprockalman.o.provides
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackpostprockalman.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackpostprockalman.o
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackpostprockalman.o.provides.build
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackgen1.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackgen1.o: ../nestk/deps/opencv/modules/legacy/src/blobtrackgen1.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_22)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackgen1.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/blobtrackgen1.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/blobtrackgen1.cpp"
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackgen1.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/blobtrackgen1.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/blobtrackgen1.cpp" > CMakeFiles/opencv_legacy.dir/src/blobtrackgen1.i
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackgen1.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/blobtrackgen1.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/blobtrackgen1.cpp" -o CMakeFiles/opencv_legacy.dir/src/blobtrackgen1.s
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackgen1.o.requires:
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackgen1.o.requires
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackgen1.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackgen1.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackgen1.o.provides.build
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackgen1.o.provides
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackgen1.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackgen1.o
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackgen1.o.provides.build
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/video.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/video.o: ../nestk/deps/opencv/modules/legacy/src/video.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_23)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/video.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/video.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/video.cpp"
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/video.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/video.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/video.cpp" > CMakeFiles/opencv_legacy.dir/src/video.i
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/video.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/video.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/video.cpp" -o CMakeFiles/opencv_legacy.dir/src/video.s
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/video.o.requires:
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/video.o.requires
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/video.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/video.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/video.o.provides.build
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/video.o.provides
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/video.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/video.o
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/video.o.provides.build
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/decomppoly.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/decomppoly.o: ../nestk/deps/opencv/modules/legacy/src/decomppoly.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_24)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/decomppoly.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/decomppoly.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/decomppoly.cpp"
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/decomppoly.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/decomppoly.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/decomppoly.cpp" > CMakeFiles/opencv_legacy.dir/src/decomppoly.i
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/decomppoly.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/decomppoly.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/decomppoly.cpp" -o CMakeFiles/opencv_legacy.dir/src/decomppoly.s
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/decomppoly.o.requires:
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/decomppoly.o.requires
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/decomppoly.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/decomppoly.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/decomppoly.o.provides.build
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/decomppoly.o.provides
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/decomppoly.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/decomppoly.o
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/decomppoly.o.provides.build
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/morphing.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/morphing.o: ../nestk/deps/opencv/modules/legacy/src/morphing.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_25)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/morphing.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/morphing.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/morphing.cpp"
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/morphing.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/morphing.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/morphing.cpp" > CMakeFiles/opencv_legacy.dir/src/morphing.i
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/morphing.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/morphing.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/morphing.cpp" -o CMakeFiles/opencv_legacy.dir/src/morphing.s
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/morphing.o.requires:
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/morphing.o.requires
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/morphing.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/morphing.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/morphing.o.provides.build
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/morphing.o.provides
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/morphing.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/morphing.o
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/morphing.o.provides.build
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysis.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysis.o: ../nestk/deps/opencv/modules/legacy/src/blobtrackanalysis.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_26)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysis.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/blobtrackanalysis.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/blobtrackanalysis.cpp"
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysis.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/blobtrackanalysis.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/blobtrackanalysis.cpp" > CMakeFiles/opencv_legacy.dir/src/blobtrackanalysis.i
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysis.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/blobtrackanalysis.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/blobtrackanalysis.cpp" -o CMakeFiles/opencv_legacy.dir/src/blobtrackanalysis.s
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysis.o.requires:
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysis.o.requires
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysis.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysis.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysis.o.provides.build
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysis.o.provides
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysis.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysis.o
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysis.o.provides.build
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/correspond.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/correspond.o: ../nestk/deps/opencv/modules/legacy/src/correspond.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_27)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/correspond.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/correspond.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/correspond.cpp"
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/correspond.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/correspond.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/correspond.cpp" > CMakeFiles/opencv_legacy.dir/src/correspond.i
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/correspond.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/correspond.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/correspond.cpp" -o CMakeFiles/opencv_legacy.dir/src/correspond.s
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/correspond.o.requires:
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/correspond.o.requires
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/correspond.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/correspond.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/correspond.o.provides.build
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/correspond.o.provides
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/correspond.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/correspond.o
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/correspond.o.provides.build
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackpostproclist.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackpostproclist.o: ../nestk/deps/opencv/modules/legacy/src/blobtrackpostproclist.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_28)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackpostproclist.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/blobtrackpostproclist.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/blobtrackpostproclist.cpp"
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackpostproclist.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/blobtrackpostproclist.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/blobtrackpostproclist.cpp" > CMakeFiles/opencv_legacy.dir/src/blobtrackpostproclist.i
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackpostproclist.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/blobtrackpostproclist.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/blobtrackpostproclist.cpp" -o CMakeFiles/opencv_legacy.dir/src/blobtrackpostproclist.s
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackpostproclist.o.requires:
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackpostproclist.o.requires
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackpostproclist.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackpostproclist.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackpostproclist.o.provides.build
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackpostproclist.o.provides
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackpostproclist.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackpostproclist.o
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackpostproclist.o.provides.build
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/bgfg_estimation.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/bgfg_estimation.o: ../nestk/deps/opencv/modules/legacy/src/bgfg_estimation.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_29)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/bgfg_estimation.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/bgfg_estimation.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/bgfg_estimation.cpp"
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/bgfg_estimation.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/bgfg_estimation.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/bgfg_estimation.cpp" > CMakeFiles/opencv_legacy.dir/src/bgfg_estimation.i
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/bgfg_estimation.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/bgfg_estimation.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/bgfg_estimation.cpp" -o CMakeFiles/opencv_legacy.dir/src/bgfg_estimation.s
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/bgfg_estimation.o.requires:
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/bgfg_estimation.o.requires
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/bgfg_estimation.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/bgfg_estimation.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/bgfg_estimation.o.provides.build
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/bgfg_estimation.o.provides
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/bgfg_estimation.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/bgfg_estimation.o
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/bgfg_estimation.o.provides.build
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysisior.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysisior.o: ../nestk/deps/opencv/modules/legacy/src/blobtrackanalysisior.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysisior.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/blobtrackanalysisior.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/blobtrackanalysisior.cpp
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysisior.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/blobtrackanalysisior.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/blobtrackanalysisior.cpp > CMakeFiles/opencv_legacy.dir/src/blobtrackanalysisior.i
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysisior.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/blobtrackanalysisior.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/blobtrackanalysisior.cpp -o CMakeFiles/opencv_legacy.dir/src/blobtrackanalysisior.s
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysisior.o.requires:
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysisior.o.requires
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysisior.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysisior.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysisior.o.provides.build
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysisior.o.provides
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysisior.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysisior.o
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysisior.o.provides.build
 
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/corrimages.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/corrimages.o: ../nestk/deps/opencv/modules/legacy/src/corrimages.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_30)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/corrimages.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/corrimages.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/corrimages.cpp"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/corrimages.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/corrimages.cpp
 
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/corrimages.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/corrimages.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/corrimages.cpp" > CMakeFiles/opencv_legacy.dir/src/corrimages.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/corrimages.cpp > CMakeFiles/opencv_legacy.dir/src/corrimages.i
 
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/corrimages.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/corrimages.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/corrimages.cpp" -o CMakeFiles/opencv_legacy.dir/src/corrimages.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/corrimages.cpp -o CMakeFiles/opencv_legacy.dir/src/corrimages.s
 
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/corrimages.o.requires:
 .PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/corrimages.o.requires
@@ -769,91 +97,547 @@ nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/corrimages.o.p
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/corrimages.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/corrimages.o
 .PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/corrimages.o.provides.build
 
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/face.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/face.o: ../nestk/deps/opencv/modules/legacy/src/face.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_31)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/face.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/face.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/face.cpp"
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/levmarprojbandle.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/levmarprojbandle.o: ../nestk/deps/opencv/modules/legacy/src/levmarprojbandle.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/levmarprojbandle.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/levmarprojbandle.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/levmarprojbandle.cpp
 
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/face.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/face.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/face.cpp" > CMakeFiles/opencv_legacy.dir/src/face.i
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/levmarprojbandle.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/levmarprojbandle.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/levmarprojbandle.cpp > CMakeFiles/opencv_legacy.dir/src/levmarprojbandle.i
 
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/face.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/face.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/face.cpp" -o CMakeFiles/opencv_legacy.dir/src/face.s
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/levmarprojbandle.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/levmarprojbandle.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/levmarprojbandle.cpp -o CMakeFiles/opencv_legacy.dir/src/levmarprojbandle.s
 
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/face.o.requires:
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/face.o.requires
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/levmarprojbandle.o.requires:
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/levmarprojbandle.o.requires
 
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/face.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/face.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/face.o.provides.build
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/face.o.provides
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/levmarprojbandle.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/levmarprojbandle.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/levmarprojbandle.o.provides.build
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/levmarprojbandle.o.provides
 
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/face.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/face.o
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/face.o.provides.build
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/levmarprojbandle.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/levmarprojbandle.o
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/levmarprojbandle.o.provides.build
 
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/facetemplate.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/facetemplate.o: ../nestk/deps/opencv/modules/legacy/src/facetemplate.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_32)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/facetemplate.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/facetemplate.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/facetemplate.cpp"
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/createhandmask.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/createhandmask.o: ../nestk/deps/opencv/modules/legacy/src/createhandmask.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_4)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/createhandmask.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/createhandmask.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/createhandmask.cpp
 
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/facetemplate.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/facetemplate.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/facetemplate.cpp" > CMakeFiles/opencv_legacy.dir/src/facetemplate.i
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/createhandmask.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/createhandmask.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/createhandmask.cpp > CMakeFiles/opencv_legacy.dir/src/createhandmask.i
 
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/facetemplate.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/facetemplate.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/facetemplate.cpp" -o CMakeFiles/opencv_legacy.dir/src/facetemplate.s
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/createhandmask.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/createhandmask.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/createhandmask.cpp -o CMakeFiles/opencv_legacy.dir/src/createhandmask.s
 
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/facetemplate.o.requires:
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/facetemplate.o.requires
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/createhandmask.o.requires:
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/createhandmask.o.requires
 
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/facetemplate.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/facetemplate.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/facetemplate.o.provides.build
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/facetemplate.o.provides
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/createhandmask.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/createhandmask.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/createhandmask.o.provides.build
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/createhandmask.o.provides
 
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/facetemplate.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/facetemplate.o
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/facetemplate.o.provides.build
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/createhandmask.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/createhandmask.o
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/createhandmask.o.provides.build
 
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/compat.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/compat.o: ../nestk/deps/opencv/modules/legacy/src/compat.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_33)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/compat.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/compat.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/compat.cpp"
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/camshift.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/camshift.o: ../nestk/deps/opencv/modules/legacy/src/camshift.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_5)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/camshift.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/camshift.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/camshift.cpp
 
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/compat.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/compat.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/compat.cpp" > CMakeFiles/opencv_legacy.dir/src/compat.i
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/camshift.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/camshift.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/camshift.cpp > CMakeFiles/opencv_legacy.dir/src/camshift.i
 
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/compat.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/compat.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/compat.cpp" -o CMakeFiles/opencv_legacy.dir/src/compat.s
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/camshift.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/camshift.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/camshift.cpp -o CMakeFiles/opencv_legacy.dir/src/camshift.s
 
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/compat.o.requires:
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/compat.o.requires
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/camshift.o.requires:
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/camshift.o.requires
 
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/compat.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/compat.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/compat.o.provides.build
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/compat.o.provides
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/camshift.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/camshift.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/camshift.o.provides.build
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/camshift.o.provides
 
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/compat.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/compat.o
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/compat.o.provides.build
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/camshift.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/camshift.o
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/camshift.o.provides.build
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/hmm.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/hmm.o: ../nestk/deps/opencv/modules/legacy/src/hmm.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_6)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/hmm.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/hmm.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/hmm.cpp
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/hmm.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/hmm.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/hmm.cpp > CMakeFiles/opencv_legacy.dir/src/hmm.i
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/hmm.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/hmm.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/hmm.cpp -o CMakeFiles/opencv_legacy.dir/src/hmm.s
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/hmm.o.requires:
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/hmm.o.requires
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/hmm.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/hmm.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/hmm.o.provides.build
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/hmm.o.provides
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/hmm.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/hmm.o
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/hmm.o.provides.build
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/levmartrif.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/levmartrif.o: ../nestk/deps/opencv/modules/legacy/src/levmartrif.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_7)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/levmartrif.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/levmartrif.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/levmartrif.cpp
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/levmartrif.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/levmartrif.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/levmartrif.cpp > CMakeFiles/opencv_legacy.dir/src/levmartrif.i
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/levmartrif.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/levmartrif.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/levmartrif.cpp -o CMakeFiles/opencv_legacy.dir/src/levmartrif.s
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/levmartrif.o.requires:
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/levmartrif.o.requires
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/levmartrif.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/levmartrif.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/levmartrif.o.provides.build
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/levmartrif.o.provides
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/levmartrif.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/levmartrif.o
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/levmartrif.o.provides.build
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/extendededges.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/extendededges.o: ../nestk/deps/opencv/modules/legacy/src/extendededges.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_8)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/extendededges.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/extendededges.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/extendededges.cpp
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/extendededges.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/extendededges.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/extendededges.cpp > CMakeFiles/opencv_legacy.dir/src/extendededges.i
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/extendededges.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/extendededges.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/extendededges.cpp -o CMakeFiles/opencv_legacy.dir/src/extendededges.s
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/extendededges.o.requires:
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/extendededges.o.requires
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/extendededges.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/extendededges.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/extendededges.o.provides.build
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/extendededges.o.provides
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/extendededges.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/extendededges.o
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/extendededges.o.provides.build
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/eigenobjects.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/eigenobjects.o: ../nestk/deps/opencv/modules/legacy/src/eigenobjects.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_9)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/eigenobjects.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/eigenobjects.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/eigenobjects.cpp
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/eigenobjects.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/eigenobjects.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/eigenobjects.cpp > CMakeFiles/opencv_legacy.dir/src/eigenobjects.i
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/eigenobjects.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/eigenobjects.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/eigenobjects.cpp -o CMakeFiles/opencv_legacy.dir/src/eigenobjects.s
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/eigenobjects.o.requires:
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/eigenobjects.o.requires
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/eigenobjects.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/eigenobjects.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/eigenobjects.o.provides.build
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/eigenobjects.o.provides
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/eigenobjects.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/eigenobjects.o
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/eigenobjects.o.provides.build
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysis.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysis.o: ../nestk/deps/opencv/modules/legacy/src/blobtrackanalysis.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_10)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysis.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/blobtrackanalysis.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/blobtrackanalysis.cpp
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysis.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/blobtrackanalysis.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/blobtrackanalysis.cpp > CMakeFiles/opencv_legacy.dir/src/blobtrackanalysis.i
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysis.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/blobtrackanalysis.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/blobtrackanalysis.cpp -o CMakeFiles/opencv_legacy.dir/src/blobtrackanalysis.s
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysis.o.requires:
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysis.o.requires
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysis.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysis.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysis.o.provides.build
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysis.o.provides
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysis.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysis.o
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysis.o.provides.build
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/contourtree.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/contourtree.o: ../nestk/deps/opencv/modules/legacy/src/contourtree.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_11)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/contourtree.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/contourtree.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/contourtree.cpp
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/contourtree.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/contourtree.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/contourtree.cpp > CMakeFiles/opencv_legacy.dir/src/contourtree.i
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/contourtree.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/contourtree.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/contourtree.cpp -o CMakeFiles/opencv_legacy.dir/src/contourtree.s
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/contourtree.o.requires:
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/contourtree.o.requires
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/contourtree.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/contourtree.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/contourtree.o.provides.build
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/contourtree.o.provides
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/contourtree.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/contourtree.o
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/contourtree.o.provides.build
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/condens.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/condens.o: ../nestk/deps/opencv/modules/legacy/src/condens.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_12)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/condens.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/condens.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/condens.cpp
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/condens.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/condens.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/condens.cpp > CMakeFiles/opencv_legacy.dir/src/condens.i
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/condens.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/condens.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/condens.cpp -o CMakeFiles/opencv_legacy.dir/src/condens.s
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/condens.o.requires:
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/condens.o.requires
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/condens.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/condens.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/condens.o.provides.build
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/condens.o.provides
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/condens.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/condens.o
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/condens.o.provides.build
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/segment.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/segment.o: ../nestk/deps/opencv/modules/legacy/src/segment.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_13)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/segment.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/segment.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/segment.cpp
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/segment.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/segment.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/segment.cpp > CMakeFiles/opencv_legacy.dir/src/segment.i
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/segment.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/segment.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/segment.cpp -o CMakeFiles/opencv_legacy.dir/src/segment.s
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/segment.o.requires:
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/segment.o.requires
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/segment.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/segment.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/segment.o.provides.build
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/segment.o.provides
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/segment.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/segment.o
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/segment.o.provides.build
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/morphcontours.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/morphcontours.o: ../nestk/deps/opencv/modules/legacy/src/morphcontours.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_14)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/morphcontours.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/morphcontours.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/morphcontours.cpp
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/morphcontours.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/morphcontours.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/morphcontours.cpp > CMakeFiles/opencv_legacy.dir/src/morphcontours.i
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/morphcontours.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/morphcontours.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/morphcontours.cpp -o CMakeFiles/opencv_legacy.dir/src/morphcontours.s
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/morphcontours.o.requires:
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/morphcontours.o.requires
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/morphcontours.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/morphcontours.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/morphcontours.o.provides.build
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/morphcontours.o.provides
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/morphcontours.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/morphcontours.o
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/morphcontours.o.provides.build
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysishist.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysishist.o: ../nestk/deps/opencv/modules/legacy/src/blobtrackanalysishist.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_15)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysishist.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/blobtrackanalysishist.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/blobtrackanalysishist.cpp
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysishist.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/blobtrackanalysishist.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/blobtrackanalysishist.cpp > CMakeFiles/opencv_legacy.dir/src/blobtrackanalysishist.i
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysishist.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/blobtrackanalysishist.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/blobtrackanalysishist.cpp -o CMakeFiles/opencv_legacy.dir/src/blobtrackanalysishist.s
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysishist.o.requires:
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysishist.o.requires
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysishist.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysishist.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysishist.o.provides.build
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysishist.o.provides
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysishist.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysishist.o
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysishist.o.provides.build
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/pgh.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/pgh.o: ../nestk/deps/opencv/modules/legacy/src/pgh.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_16)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/pgh.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/pgh.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/pgh.cpp
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/pgh.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/pgh.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/pgh.cpp > CMakeFiles/opencv_legacy.dir/src/pgh.i
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/pgh.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/pgh.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/pgh.cpp -o CMakeFiles/opencv_legacy.dir/src/pgh.s
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/pgh.o.requires:
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/pgh.o.requires
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/pgh.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/pgh.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/pgh.o.provides.build
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/pgh.o.provides
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/pgh.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/pgh.o
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/pgh.o.provides.build
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/auxutils.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/auxutils.o: ../nestk/deps/opencv/modules/legacy/src/auxutils.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_17)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/auxutils.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/auxutils.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/auxutils.cpp
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/auxutils.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/auxutils.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/auxutils.cpp > CMakeFiles/opencv_legacy.dir/src/auxutils.i
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/auxutils.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/auxutils.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/auxutils.cpp -o CMakeFiles/opencv_legacy.dir/src/auxutils.s
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/auxutils.o.requires:
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/auxutils.o.requires
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/auxutils.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/auxutils.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/auxutils.o.provides.build
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/auxutils.o.provides
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/auxutils.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/auxutils.o
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/auxutils.o.provides.build
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/epilines.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/epilines.o: ../nestk/deps/opencv/modules/legacy/src/epilines.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_18)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/epilines.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/epilines.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/epilines.cpp
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/epilines.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/epilines.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/epilines.cpp > CMakeFiles/opencv_legacy.dir/src/epilines.i
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/epilines.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/epilines.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/epilines.cpp -o CMakeFiles/opencv_legacy.dir/src/epilines.s
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/epilines.o.requires:
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/epilines.o.requires
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/epilines.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/epilines.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/epilines.o.provides.build
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/epilines.o.provides
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/epilines.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/epilines.o
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/epilines.o.provides.build
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/hmmobs.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/hmmobs.o: ../nestk/deps/opencv/modules/legacy/src/hmmobs.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_19)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/hmmobs.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/hmmobs.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/hmmobs.cpp
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/hmmobs.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/hmmobs.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/hmmobs.cpp > CMakeFiles/opencv_legacy.dir/src/hmmobs.i
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/hmmobs.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/hmmobs.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/hmmobs.cpp -o CMakeFiles/opencv_legacy.dir/src/hmmobs.s
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/hmmobs.o.requires:
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/hmmobs.o.requires
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/hmmobs.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/hmmobs.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/hmmobs.o.provides.build
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/hmmobs.o.provides
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/hmmobs.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/hmmobs.o
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/hmmobs.o.provides.build
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/3dtracker.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/3dtracker.o: ../nestk/deps/opencv/modules/legacy/src/3dtracker.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_20)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/3dtracker.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/3dtracker.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/3dtracker.cpp
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/3dtracker.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/3dtracker.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/3dtracker.cpp > CMakeFiles/opencv_legacy.dir/src/3dtracker.i
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/3dtracker.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/3dtracker.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/3dtracker.cpp -o CMakeFiles/opencv_legacy.dir/src/3dtracker.s
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/3dtracker.o.requires:
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/3dtracker.o.requires
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/3dtracker.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/3dtracker.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/3dtracker.o.provides.build
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/3dtracker.o.provides
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/3dtracker.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/3dtracker.o
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/3dtracker.o.provides.build
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lcm.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lcm.o: ../nestk/deps/opencv/modules/legacy/src/lcm.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_21)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lcm.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/lcm.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/lcm.cpp
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lcm.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/lcm.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/lcm.cpp > CMakeFiles/opencv_legacy.dir/src/lcm.i
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lcm.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/lcm.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/lcm.cpp -o CMakeFiles/opencv_legacy.dir/src/lcm.s
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lcm.o.requires:
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lcm.o.requires
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lcm.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lcm.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lcm.o.provides.build
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lcm.o.provides
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lcm.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lcm.o
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lcm.o.provides.build
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/dpstereo.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/dpstereo.o: ../nestk/deps/opencv/modules/legacy/src/dpstereo.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_22)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/dpstereo.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/dpstereo.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/dpstereo.cpp
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/dpstereo.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/dpstereo.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/dpstereo.cpp > CMakeFiles/opencv_legacy.dir/src/dpstereo.i
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/dpstereo.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/dpstereo.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/dpstereo.cpp -o CMakeFiles/opencv_legacy.dir/src/dpstereo.s
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/dpstereo.o.requires:
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/dpstereo.o.requires
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/dpstereo.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/dpstereo.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/dpstereo.o.provides.build
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/dpstereo.o.provides
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/dpstereo.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/dpstereo.o
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/dpstereo.o.provides.build
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lmeds.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lmeds.o: ../nestk/deps/opencv/modules/legacy/src/lmeds.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_23)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lmeds.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/lmeds.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/lmeds.cpp
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lmeds.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/lmeds.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/lmeds.cpp > CMakeFiles/opencv_legacy.dir/src/lmeds.i
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lmeds.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/lmeds.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/lmeds.cpp -o CMakeFiles/opencv_legacy.dir/src/lmeds.s
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lmeds.o.requires:
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lmeds.o.requires
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lmeds.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lmeds.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lmeds.o.provides.build
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lmeds.o.provides
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lmeds.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lmeds.o
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lmeds.o.provides.build
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/facedetection.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/facedetection.o: ../nestk/deps/opencv/modules/legacy/src/facedetection.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_24)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/facedetection.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/facedetection.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/facedetection.cpp
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/facedetection.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/facedetection.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/facedetection.cpp > CMakeFiles/opencv_legacy.dir/src/facedetection.i
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/facedetection.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/facedetection.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/facedetection.cpp -o CMakeFiles/opencv_legacy.dir/src/facedetection.s
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/facedetection.o.requires:
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/facedetection.o.requires
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/facedetection.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/facedetection.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/facedetection.o.provides.build
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/facedetection.o.provides
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/facedetection.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/facedetection.o
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/facedetection.o.provides.build
 
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackpostproclinear.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackpostproclinear.o: ../nestk/deps/opencv/modules/legacy/src/blobtrackpostproclinear.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_34)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_25)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackpostproclinear.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/blobtrackpostproclinear.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/blobtrackpostproclinear.cpp"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/blobtrackpostproclinear.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/blobtrackpostproclinear.cpp
 
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackpostproclinear.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/blobtrackpostproclinear.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/blobtrackpostproclinear.cpp" > CMakeFiles/opencv_legacy.dir/src/blobtrackpostproclinear.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/blobtrackpostproclinear.cpp > CMakeFiles/opencv_legacy.dir/src/blobtrackpostproclinear.i
 
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackpostproclinear.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/blobtrackpostproclinear.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/blobtrackpostproclinear.cpp" -o CMakeFiles/opencv_legacy.dir/src/blobtrackpostproclinear.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/blobtrackpostproclinear.cpp -o CMakeFiles/opencv_legacy.dir/src/blobtrackpostproclinear.s
 
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackpostproclinear.o.requires:
 .PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackpostproclinear.o.requires
@@ -865,43 +649,307 @@ nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackpostp
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackpostproclinear.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackpostproclinear.o
 .PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackpostproclinear.o.provides.build
 
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingmsfgs.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingmsfgs.o: ../nestk/deps/opencv/modules/legacy/src/blobtrackingmsfgs.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_35)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingmsfgs.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/blobtrackingmsfgs.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/blobtrackingmsfgs.cpp"
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/testseq.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/testseq.o: ../nestk/deps/opencv/modules/legacy/src/testseq.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_26)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/testseq.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/testseq.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/testseq.cpp
 
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingmsfgs.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/blobtrackingmsfgs.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/blobtrackingmsfgs.cpp" > CMakeFiles/opencv_legacy.dir/src/blobtrackingmsfgs.i
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/testseq.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/testseq.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/testseq.cpp > CMakeFiles/opencv_legacy.dir/src/testseq.i
 
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingmsfgs.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/blobtrackingmsfgs.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/blobtrackingmsfgs.cpp" -o CMakeFiles/opencv_legacy.dir/src/blobtrackingmsfgs.s
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/testseq.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/testseq.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/testseq.cpp -o CMakeFiles/opencv_legacy.dir/src/testseq.s
 
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingmsfgs.o.requires:
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingmsfgs.o.requires
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/testseq.o.requires:
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/testseq.o.requires
 
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingmsfgs.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingmsfgs.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingmsfgs.o.provides.build
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingmsfgs.o.provides
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/testseq.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/testseq.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/testseq.o.provides.build
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/testseq.o.provides
 
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingmsfgs.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingmsfgs.o
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingmsfgs.o.provides.build
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/testseq.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/testseq.o
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/testseq.o.provides.build
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/precomp.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/precomp.o: ../nestk/deps/opencv/modules/legacy/src/precomp.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_27)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/precomp.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/precomp.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/precomp.cpp
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/precomp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/precomp.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/precomp.cpp > CMakeFiles/opencv_legacy.dir/src/precomp.i
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/precomp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/precomp.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/precomp.cpp -o CMakeFiles/opencv_legacy.dir/src/precomp.s
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/precomp.o.requires:
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/precomp.o.requires
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/precomp.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/precomp.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/precomp.o.provides.build
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/precomp.o.provides
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/precomp.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/precomp.o
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/precomp.o.provides.build
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/vecfacetracking.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/vecfacetracking.o: ../nestk/deps/opencv/modules/legacy/src/vecfacetracking.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_28)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/vecfacetracking.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/vecfacetracking.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/vecfacetracking.cpp
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/vecfacetracking.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/vecfacetracking.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/vecfacetracking.cpp > CMakeFiles/opencv_legacy.dir/src/vecfacetracking.i
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/vecfacetracking.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/vecfacetracking.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/vecfacetracking.cpp -o CMakeFiles/opencv_legacy.dir/src/vecfacetracking.s
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/vecfacetracking.o.requires:
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/vecfacetracking.o.requires
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/vecfacetracking.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/vecfacetracking.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/vecfacetracking.o.provides.build
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/vecfacetracking.o.provides
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/vecfacetracking.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/vecfacetracking.o
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/vecfacetracking.o.provides.build
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/hmm1d.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/hmm1d.o: ../nestk/deps/opencv/modules/legacy/src/hmm1d.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_29)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/hmm1d.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/hmm1d.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/hmm1d.cpp
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/hmm1d.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/hmm1d.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/hmm1d.cpp > CMakeFiles/opencv_legacy.dir/src/hmm1d.i
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/hmm1d.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/hmm1d.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/hmm1d.cpp -o CMakeFiles/opencv_legacy.dir/src/hmm1d.s
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/hmm1d.o.requires:
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/hmm1d.o.requires
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/hmm1d.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/hmm1d.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/hmm1d.o.provides.build
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/hmm1d.o.provides
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/hmm1d.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/hmm1d.o
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/hmm1d.o.provides.build
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingauto.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingauto.o: ../nestk/deps/opencv/modules/legacy/src/blobtrackingauto.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_30)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingauto.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/blobtrackingauto.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/blobtrackingauto.cpp
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingauto.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/blobtrackingauto.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/blobtrackingauto.cpp > CMakeFiles/opencv_legacy.dir/src/blobtrackingauto.i
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingauto.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/blobtrackingauto.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/blobtrackingauto.cpp -o CMakeFiles/opencv_legacy.dir/src/blobtrackingauto.s
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingauto.o.requires:
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingauto.o.requires
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingauto.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingauto.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingauto.o.provides.build
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingauto.o.provides
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingauto.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingauto.o
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingauto.o.provides.build
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/levmar.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/levmar.o: ../nestk/deps/opencv/modules/legacy/src/levmar.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_31)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/levmar.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/levmar.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/levmar.cpp
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/levmar.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/levmar.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/levmar.cpp > CMakeFiles/opencv_legacy.dir/src/levmar.i
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/levmar.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/levmar.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/levmar.cpp -o CMakeFiles/opencv_legacy.dir/src/levmar.s
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/levmar.o.requires:
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/levmar.o.requires
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/levmar.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/levmar.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/levmar.o.provides.build
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/levmar.o.provides
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/levmar.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/levmar.o
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/levmar.o.provides.build
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/bgfg_estimation.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/bgfg_estimation.o: ../nestk/deps/opencv/modules/legacy/src/bgfg_estimation.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_32)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/bgfg_estimation.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/bgfg_estimation.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/bgfg_estimation.cpp
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/bgfg_estimation.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/bgfg_estimation.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/bgfg_estimation.cpp > CMakeFiles/opencv_legacy.dir/src/bgfg_estimation.i
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/bgfg_estimation.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/bgfg_estimation.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/bgfg_estimation.cpp -o CMakeFiles/opencv_legacy.dir/src/bgfg_estimation.s
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/bgfg_estimation.o.requires:
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/bgfg_estimation.o.requires
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/bgfg_estimation.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/bgfg_estimation.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/bgfg_estimation.o.provides.build
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/bgfg_estimation.o.provides
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/bgfg_estimation.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/bgfg_estimation.o
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/bgfg_estimation.o.provides.build
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/compat.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/compat.o: ../nestk/deps/opencv/modules/legacy/src/compat.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_33)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/compat.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/compat.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/compat.cpp
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/compat.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/compat.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/compat.cpp > CMakeFiles/opencv_legacy.dir/src/compat.i
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/compat.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/compat.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/compat.cpp -o CMakeFiles/opencv_legacy.dir/src/compat.s
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/compat.o.requires:
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/compat.o.requires
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/compat.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/compat.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/compat.o.provides.build
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/compat.o.provides
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/compat.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/compat.o
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/compat.o.provides.build
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lee.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lee.o: ../nestk/deps/opencv/modules/legacy/src/lee.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_34)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lee.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/lee.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/lee.cpp
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lee.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/lee.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/lee.cpp > CMakeFiles/opencv_legacy.dir/src/lee.i
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lee.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/lee.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/lee.cpp -o CMakeFiles/opencv_legacy.dir/src/lee.s
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lee.o.requires:
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lee.o.requires
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lee.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lee.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lee.o.provides.build
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lee.o.provides
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lee.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lee.o
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lee.o.provides.build
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/morphing.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/morphing.o: ../nestk/deps/opencv/modules/legacy/src/morphing.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_35)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/morphing.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/morphing.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/morphing.cpp
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/morphing.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/morphing.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/morphing.cpp > CMakeFiles/opencv_legacy.dir/src/morphing.i
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/morphing.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/morphing.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/morphing.cpp -o CMakeFiles/opencv_legacy.dir/src/morphing.s
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/morphing.o.requires:
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/morphing.o.requires
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/morphing.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/morphing.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/morphing.o.provides.build
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/morphing.o.provides
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/morphing.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/morphing.o
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/morphing.o.provides.build
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/correspond.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/correspond.o: ../nestk/deps/opencv/modules/legacy/src/correspond.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_36)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/correspond.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/correspond.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/correspond.cpp
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/correspond.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/correspond.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/correspond.cpp > CMakeFiles/opencv_legacy.dir/src/correspond.i
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/correspond.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/correspond.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/correspond.cpp -o CMakeFiles/opencv_legacy.dir/src/correspond.s
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/correspond.o.requires:
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/correspond.o.requires
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/correspond.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/correspond.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/correspond.o.provides.build
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/correspond.o.provides
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/correspond.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/correspond.o
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/correspond.o.provides.build
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/calcimagehomography.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/calcimagehomography.o: ../nestk/deps/opencv/modules/legacy/src/calcimagehomography.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_37)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/calcimagehomography.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/calcimagehomography.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/calcimagehomography.cpp
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/calcimagehomography.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/calcimagehomography.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/calcimagehomography.cpp > CMakeFiles/opencv_legacy.dir/src/calcimagehomography.i
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/calcimagehomography.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/calcimagehomography.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/calcimagehomography.cpp -o CMakeFiles/opencv_legacy.dir/src/calcimagehomography.s
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/calcimagehomography.o.requires:
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/calcimagehomography.o.requires
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/calcimagehomography.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/calcimagehomography.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/calcimagehomography.o.provides.build
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/calcimagehomography.o.provides
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/calcimagehomography.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/calcimagehomography.o
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/calcimagehomography.o.provides.build
 
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/enteringblobdetection.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/enteringblobdetection.o: ../nestk/deps/opencv/modules/legacy/src/enteringblobdetection.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_36)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_38)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/enteringblobdetection.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/enteringblobdetection.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/enteringblobdetection.cpp"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/enteringblobdetection.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/enteringblobdetection.cpp
 
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/enteringblobdetection.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/enteringblobdetection.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/enteringblobdetection.cpp" > CMakeFiles/opencv_legacy.dir/src/enteringblobdetection.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/enteringblobdetection.cpp > CMakeFiles/opencv_legacy.dir/src/enteringblobdetection.i
 
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/enteringblobdetection.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/enteringblobdetection.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/enteringblobdetection.cpp" -o CMakeFiles/opencv_legacy.dir/src/enteringblobdetection.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/enteringblobdetection.cpp -o CMakeFiles/opencv_legacy.dir/src/enteringblobdetection.s
 
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/enteringblobdetection.o.requires:
 .PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/enteringblobdetection.o.requires
@@ -915,17 +963,17 @@ nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/enteringblobde
 
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/trifocal.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/trifocal.o: ../nestk/deps/opencv/modules/legacy/src/trifocal.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_37)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_39)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/trifocal.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/trifocal.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/trifocal.cpp"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/trifocal.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/trifocal.cpp
 
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/trifocal.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/trifocal.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/trifocal.cpp" > CMakeFiles/opencv_legacy.dir/src/trifocal.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/trifocal.cpp > CMakeFiles/opencv_legacy.dir/src/trifocal.i
 
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/trifocal.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/trifocal.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/trifocal.cpp" -o CMakeFiles/opencv_legacy.dir/src/trifocal.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/trifocal.cpp -o CMakeFiles/opencv_legacy.dir/src/trifocal.s
 
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/trifocal.o.requires:
 .PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/trifocal.o.requires
@@ -937,475 +985,43 @@ nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/trifocal.o.pro
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/trifocal.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/trifocal.o
 .PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/trifocal.o.provides.build
 
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/dpstereo.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/dpstereo.o: ../nestk/deps/opencv/modules/legacy/src/dpstereo.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_38)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/dpstereo.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/dpstereo.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/dpstereo.cpp"
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/dpstereo.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/dpstereo.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/dpstereo.cpp" > CMakeFiles/opencv_legacy.dir/src/dpstereo.i
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/dpstereo.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/dpstereo.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/dpstereo.cpp" -o CMakeFiles/opencv_legacy.dir/src/dpstereo.s
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/dpstereo.o.requires:
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/dpstereo.o.requires
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/dpstereo.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/dpstereo.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/dpstereo.o.provides.build
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/dpstereo.o.provides
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/dpstereo.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/dpstereo.o
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/dpstereo.o.provides.build
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/hmmobs.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/hmmobs.o: ../nestk/deps/opencv/modules/legacy/src/hmmobs.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_39)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/hmmobs.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/hmmobs.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/hmmobs.cpp"
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/hmmobs.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/hmmobs.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/hmmobs.cpp" > CMakeFiles/opencv_legacy.dir/src/hmmobs.i
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/hmmobs.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/hmmobs.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/hmmobs.cpp" -o CMakeFiles/opencv_legacy.dir/src/hmmobs.s
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/hmmobs.o.requires:
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/hmmobs.o.requires
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/hmmobs.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/hmmobs.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/hmmobs.o.provides.build
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/hmmobs.o.provides
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/hmmobs.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/hmmobs.o
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/hmmobs.o.provides.build
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/morphcontours.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/morphcontours.o: ../nestk/deps/opencv/modules/legacy/src/morphcontours.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_40)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/morphcontours.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/morphcontours.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/morphcontours.cpp"
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/morphcontours.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/morphcontours.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/morphcontours.cpp" > CMakeFiles/opencv_legacy.dir/src/morphcontours.i
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/morphcontours.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/morphcontours.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/morphcontours.cpp" -o CMakeFiles/opencv_legacy.dir/src/morphcontours.s
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/morphcontours.o.requires:
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/morphcontours.o.requires
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/morphcontours.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/morphcontours.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/morphcontours.o.provides.build
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/morphcontours.o.provides
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/morphcontours.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/morphcontours.o
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/morphcontours.o.provides.build
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/facedetection.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/facedetection.o: ../nestk/deps/opencv/modules/legacy/src/facedetection.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_41)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/facedetection.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/facedetection.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/facedetection.cpp"
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/facedetection.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/facedetection.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/facedetection.cpp" > CMakeFiles/opencv_legacy.dir/src/facedetection.i
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/facedetection.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/facedetection.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/facedetection.cpp" -o CMakeFiles/opencv_legacy.dir/src/facedetection.s
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/facedetection.o.requires:
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/facedetection.o.requires
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/facedetection.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/facedetection.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/facedetection.o.provides.build
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/facedetection.o.provides
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/facedetection.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/facedetection.o
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/facedetection.o.provides.build
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysistrackdist.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysistrackdist.o: ../nestk/deps/opencv/modules/legacy/src/blobtrackanalysistrackdist.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_42)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysistrackdist.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/blobtrackanalysistrackdist.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/blobtrackanalysistrackdist.cpp"
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysistrackdist.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/blobtrackanalysistrackdist.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/blobtrackanalysistrackdist.cpp" > CMakeFiles/opencv_legacy.dir/src/blobtrackanalysistrackdist.i
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysistrackdist.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/blobtrackanalysistrackdist.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/blobtrackanalysistrackdist.cpp" -o CMakeFiles/opencv_legacy.dir/src/blobtrackanalysistrackdist.s
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysistrackdist.o.requires:
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysistrackdist.o.requires
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysistrackdist.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysistrackdist.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysistrackdist.o.provides.build
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysistrackdist.o.provides
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysistrackdist.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysistrackdist.o
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysistrackdist.o.provides.build
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/condens.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/condens.o: ../nestk/deps/opencv/modules/legacy/src/condens.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_43)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/condens.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/condens.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/condens.cpp"
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/condens.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/condens.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/condens.cpp" > CMakeFiles/opencv_legacy.dir/src/condens.i
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/condens.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/condens.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/condens.cpp" -o CMakeFiles/opencv_legacy.dir/src/condens.s
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/condens.o.requires:
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/condens.o.requires
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/condens.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/condens.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/condens.o.provides.build
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/condens.o.provides
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/condens.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/condens.o
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/condens.o.provides.build
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/testseq.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/testseq.o: ../nestk/deps/opencv/modules/legacy/src/testseq.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_44)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/testseq.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/testseq.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/testseq.cpp"
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/testseq.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/testseq.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/testseq.cpp" > CMakeFiles/opencv_legacy.dir/src/testseq.i
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/testseq.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/testseq.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/testseq.cpp" -o CMakeFiles/opencv_legacy.dir/src/testseq.s
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/testseq.o.requires:
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/testseq.o.requires
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/testseq.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/testseq.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/testseq.o.provides.build
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/testseq.o.provides
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/testseq.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/testseq.o
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/testseq.o.provides.build
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/epilines.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/epilines.o: ../nestk/deps/opencv/modules/legacy/src/epilines.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_45)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/epilines.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/epilines.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/epilines.cpp"
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/epilines.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/epilines.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/epilines.cpp" > CMakeFiles/opencv_legacy.dir/src/epilines.i
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/epilines.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/epilines.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/epilines.cpp" -o CMakeFiles/opencv_legacy.dir/src/epilines.s
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/epilines.o.requires:
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/epilines.o.requires
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/epilines.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/epilines.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/epilines.o.provides.build
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/epilines.o.provides
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/epilines.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/epilines.o
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/epilines.o.provides.build
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrack.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrack.o: ../nestk/deps/opencv/modules/legacy/src/blobtrack.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_46)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrack.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/blobtrack.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/blobtrack.cpp"
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrack.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/blobtrack.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/blobtrack.cpp" > CMakeFiles/opencv_legacy.dir/src/blobtrack.i
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrack.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/blobtrack.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/blobtrack.cpp" -o CMakeFiles/opencv_legacy.dir/src/blobtrack.s
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrack.o.requires:
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrack.o.requires
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrack.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrack.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrack.o.provides.build
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrack.o.provides
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrack.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrack.o
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrack.o.provides.build
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/segment.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/segment.o: ../nestk/deps/opencv/modules/legacy/src/segment.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_47)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/segment.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/segment.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/segment.cpp"
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/segment.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/segment.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/segment.cpp" > CMakeFiles/opencv_legacy.dir/src/segment.i
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/segment.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/segment.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/segment.cpp" -o CMakeFiles/opencv_legacy.dir/src/segment.s
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/segment.o.requires:
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/segment.o.requires
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/segment.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/segment.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/segment.o.provides.build
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/segment.o.provides
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/segment.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/segment.o
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/segment.o.provides.build
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/prewarp.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/prewarp.o: ../nestk/deps/opencv/modules/legacy/src/prewarp.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_48)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/prewarp.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/prewarp.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/prewarp.cpp"
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/prewarp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/prewarp.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/prewarp.cpp" > CMakeFiles/opencv_legacy.dir/src/prewarp.i
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/prewarp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/prewarp.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/prewarp.cpp" -o CMakeFiles/opencv_legacy.dir/src/prewarp.s
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/prewarp.o.requires:
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/prewarp.o.requires
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/prewarp.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/prewarp.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/prewarp.o.provides.build
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/prewarp.o.provides
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/prewarp.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/prewarp.o
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/prewarp.o.provides.build
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/enmin.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/enmin.o: ../nestk/deps/opencv/modules/legacy/src/enmin.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_49)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/enmin.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/enmin.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/enmin.cpp"
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/enmin.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/enmin.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/enmin.cpp" > CMakeFiles/opencv_legacy.dir/src/enmin.i
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/enmin.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/enmin.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/enmin.cpp" -o CMakeFiles/opencv_legacy.dir/src/enmin.s
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/enmin.o.requires:
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/enmin.o.requires
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/enmin.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/enmin.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/enmin.o.provides.build
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/enmin.o.provides
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/enmin.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/enmin.o
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/enmin.o.provides.build
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/levmarprojbandle.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/levmarprojbandle.o: ../nestk/deps/opencv/modules/legacy/src/levmarprojbandle.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_50)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/levmarprojbandle.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/levmarprojbandle.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/levmarprojbandle.cpp"
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/levmarprojbandle.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/levmarprojbandle.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/levmarprojbandle.cpp" > CMakeFiles/opencv_legacy.dir/src/levmarprojbandle.i
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/levmarprojbandle.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/levmarprojbandle.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/levmarprojbandle.cpp" -o CMakeFiles/opencv_legacy.dir/src/levmarprojbandle.s
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/levmarprojbandle.o.requires:
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/levmarprojbandle.o.requires
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/levmarprojbandle.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/levmarprojbandle.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/levmarprojbandle.o.provides.build
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/levmarprojbandle.o.provides
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/levmarprojbandle.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/levmarprojbandle.o
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/levmarprojbandle.o.provides.build
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/clique.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/clique.o: ../nestk/deps/opencv/modules/legacy/src/clique.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_51)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/clique.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/clique.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/clique.cpp"
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/clique.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/clique.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/clique.cpp" > CMakeFiles/opencv_legacy.dir/src/clique.i
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/clique.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/clique.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/clique.cpp" -o CMakeFiles/opencv_legacy.dir/src/clique.s
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/clique.o.requires:
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/clique.o.requires
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/clique.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/clique.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/clique.o.provides.build
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/clique.o.provides
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/clique.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/clique.o
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/clique.o.provides.build
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/extendededges.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/extendededges.o: ../nestk/deps/opencv/modules/legacy/src/extendededges.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_52)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/extendededges.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/extendededges.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/extendededges.cpp"
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/extendededges.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/extendededges.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/extendededges.cpp" > CMakeFiles/opencv_legacy.dir/src/extendededges.i
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/extendededges.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/extendededges.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/extendededges.cpp" -o CMakeFiles/opencv_legacy.dir/src/extendededges.s
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/extendededges.o.requires:
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/extendededges.o.requires
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/extendededges.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/extendededges.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/extendededges.o.provides.build
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/extendededges.o.provides
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/extendededges.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/extendededges.o
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/extendededges.o.provides.build
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/precomp.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/precomp.o: ../nestk/deps/opencv/modules/legacy/src/precomp.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_53)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/precomp.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/precomp.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.cpp"
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/precomp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/precomp.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.cpp" > CMakeFiles/opencv_legacy.dir/src/precomp.i
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/precomp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/precomp.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/precomp.cpp" -o CMakeFiles/opencv_legacy.dir/src/precomp.s
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/precomp.o.requires:
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/precomp.o.requires
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/precomp.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/precomp.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/precomp.o.provides.build
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/precomp.o.provides
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/precomp.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/precomp.o
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/precomp.o.provides.build
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/snakes.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/snakes.o: ../nestk/deps/opencv/modules/legacy/src/snakes.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_54)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/snakes.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/snakes.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/snakes.cpp"
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/snakes.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/snakes.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/snakes.cpp" > CMakeFiles/opencv_legacy.dir/src/snakes.i
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/snakes.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/snakes.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/snakes.cpp" -o CMakeFiles/opencv_legacy.dir/src/snakes.s
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/snakes.o.requires:
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/snakes.o.requires
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/snakes.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/snakes.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/snakes.o.provides.build
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/snakes.o.provides
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/snakes.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/snakes.o
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/snakes.o.provides.build
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/calibfilter.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/calibfilter.o: ../nestk/deps/opencv/modules/legacy/src/calibfilter.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_55)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/calibfilter.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/calibfilter.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/calibfilter.cpp"
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/calibfilter.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/calibfilter.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/calibfilter.cpp" > CMakeFiles/opencv_legacy.dir/src/calibfilter.i
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/calibfilter.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/calibfilter.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/calibfilter.cpp" -o CMakeFiles/opencv_legacy.dir/src/calibfilter.s
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/calibfilter.o.requires:
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/calibfilter.o.requires
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/calibfilter.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/calibfilter.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/calibfilter.o.provides.build
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/calibfilter.o.provides
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/calibfilter.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/calibfilter.o
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/calibfilter.o.provides.build
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/createhandmask.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/createhandmask.o: ../nestk/deps/opencv/modules/legacy/src/createhandmask.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_56)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/createhandmask.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/createhandmask.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/createhandmask.cpp"
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/createhandmask.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/createhandmask.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/createhandmask.cpp" > CMakeFiles/opencv_legacy.dir/src/createhandmask.i
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/createhandmask.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/createhandmask.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/createhandmask.cpp" -o CMakeFiles/opencv_legacy.dir/src/createhandmask.s
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/createhandmask.o.requires:
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/createhandmask.o.requires
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/createhandmask.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/createhandmask.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/createhandmask.o.provides.build
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/createhandmask.o.provides
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/createhandmask.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/createhandmask.o
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/createhandmask.o.provides.build
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackgen1.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackgen1.o: ../nestk/deps/opencv/modules/legacy/src/blobtrackgen1.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_40)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackgen1.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/blobtrackgen1.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/blobtrackgen1.cpp
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackgen1.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/blobtrackgen1.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/blobtrackgen1.cpp > CMakeFiles/opencv_legacy.dir/src/blobtrackgen1.i
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackgen1.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/blobtrackgen1.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/blobtrackgen1.cpp -o CMakeFiles/opencv_legacy.dir/src/blobtrackgen1.s
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackgen1.o.requires:
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackgen1.o.requires
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackgen1.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackgen1.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackgen1.o.provides.build
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackgen1.o.provides
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackgen1.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackgen1.o
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackgen1.o.provides.build
 
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/findhandregion.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/findhandregion.o: ../nestk/deps/opencv/modules/legacy/src/findhandregion.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_57)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_41)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/findhandregion.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/findhandregion.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/findhandregion.cpp"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/findhandregion.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/findhandregion.cpp
 
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/findhandregion.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/findhandregion.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/findhandregion.cpp" > CMakeFiles/opencv_legacy.dir/src/findhandregion.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/findhandregion.cpp > CMakeFiles/opencv_legacy.dir/src/findhandregion.i
 
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/findhandregion.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/findhandregion.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/findhandregion.cpp" -o CMakeFiles/opencv_legacy.dir/src/findhandregion.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/findhandregion.cpp -o CMakeFiles/opencv_legacy.dir/src/findhandregion.s
 
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/findhandregion.o.requires:
 .PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/findhandregion.o.requires
@@ -1417,139 +1033,115 @@ nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/findhandregion
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/findhandregion.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/findhandregion.o
 .PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/findhandregion.o.provides.build
 
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackgenyml.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackgenyml.o: ../nestk/deps/opencv/modules/legacy/src/blobtrackgenyml.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_58)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackgenyml.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/blobtrackgenyml.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/blobtrackgenyml.cpp"
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackpostproclist.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackpostproclist.o: ../nestk/deps/opencv/modules/legacy/src/blobtrackpostproclist.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_42)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackpostproclist.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/blobtrackpostproclist.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/blobtrackpostproclist.cpp
 
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackgenyml.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/blobtrackgenyml.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/blobtrackgenyml.cpp" > CMakeFiles/opencv_legacy.dir/src/blobtrackgenyml.i
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackpostproclist.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/blobtrackpostproclist.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/blobtrackpostproclist.cpp > CMakeFiles/opencv_legacy.dir/src/blobtrackpostproclist.i
 
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackgenyml.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/blobtrackgenyml.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/blobtrackgenyml.cpp" -o CMakeFiles/opencv_legacy.dir/src/blobtrackgenyml.s
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackpostproclist.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/blobtrackpostproclist.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/blobtrackpostproclist.cpp -o CMakeFiles/opencv_legacy.dir/src/blobtrackpostproclist.s
 
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackgenyml.o.requires:
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackgenyml.o.requires
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackpostproclist.o.requires:
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackpostproclist.o.requires
 
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackgenyml.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackgenyml.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackgenyml.o.provides.build
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackgenyml.o.provides
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackpostproclist.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackpostproclist.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackpostproclist.o.provides.build
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackpostproclist.o.provides
 
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackgenyml.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackgenyml.o
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackgenyml.o.provides.build
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackpostproclist.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackpostproclist.o
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackpostproclist.o.provides.build
 
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lcm.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lcm.o: ../nestk/deps/opencv/modules/legacy/src/lcm.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_59)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lcm.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/lcm.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/lcm.cpp"
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingccwithcr.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingccwithcr.o: ../nestk/deps/opencv/modules/legacy/src/blobtrackingccwithcr.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_43)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingccwithcr.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/blobtrackingccwithcr.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/blobtrackingccwithcr.cpp
 
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lcm.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/lcm.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/lcm.cpp" > CMakeFiles/opencv_legacy.dir/src/lcm.i
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingccwithcr.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/blobtrackingccwithcr.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/blobtrackingccwithcr.cpp > CMakeFiles/opencv_legacy.dir/src/blobtrackingccwithcr.i
 
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lcm.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/lcm.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/lcm.cpp" -o CMakeFiles/opencv_legacy.dir/src/lcm.s
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingccwithcr.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/blobtrackingccwithcr.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/blobtrackingccwithcr.cpp -o CMakeFiles/opencv_legacy.dir/src/blobtrackingccwithcr.s
 
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lcm.o.requires:
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lcm.o.requires
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingccwithcr.o.requires:
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingccwithcr.o.requires
 
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lcm.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lcm.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lcm.o.provides.build
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lcm.o.provides
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingccwithcr.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingccwithcr.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingccwithcr.o.provides.build
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingccwithcr.o.provides
 
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lcm.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lcm.o
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lcm.o.provides.build
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingccwithcr.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingccwithcr.o
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingccwithcr.o.provides.build
 
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackinglist.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackinglist.o: ../nestk/deps/opencv/modules/legacy/src/blobtrackinglist.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_60)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackinglist.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/blobtrackinglist.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/blobtrackinglist.cpp"
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/findface.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/findface.o: ../nestk/deps/opencv/modules/legacy/src/findface.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_44)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/findface.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/findface.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/findface.cpp
 
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackinglist.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/blobtrackinglist.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/blobtrackinglist.cpp" > CMakeFiles/opencv_legacy.dir/src/blobtrackinglist.i
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/findface.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/findface.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/findface.cpp > CMakeFiles/opencv_legacy.dir/src/findface.i
 
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackinglist.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/blobtrackinglist.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/blobtrackinglist.cpp" -o CMakeFiles/opencv_legacy.dir/src/blobtrackinglist.s
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/findface.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/findface.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/findface.cpp -o CMakeFiles/opencv_legacy.dir/src/findface.s
 
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackinglist.o.requires:
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackinglist.o.requires
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/findface.o.requires:
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/findface.o.requires
 
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackinglist.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackinglist.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackinglist.o.provides.build
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackinglist.o.provides
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/findface.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/findface.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/findface.o.provides.build
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/findface.o.provides
 
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackinglist.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackinglist.o
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackinglist.o.provides.build
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/findface.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/findface.o
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/findface.o.provides.build
 
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysisior.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysisior.o: ../nestk/deps/opencv/modules/legacy/src/blobtrackanalysisior.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_61)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysisior.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/blobtrackanalysisior.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/blobtrackanalysisior.cpp"
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/calibfilter.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/calibfilter.o: ../nestk/deps/opencv/modules/legacy/src/calibfilter.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_45)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/calibfilter.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/calibfilter.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/calibfilter.cpp
 
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysisior.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/blobtrackanalysisior.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/blobtrackanalysisior.cpp" > CMakeFiles/opencv_legacy.dir/src/blobtrackanalysisior.i
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/calibfilter.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/calibfilter.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/calibfilter.cpp > CMakeFiles/opencv_legacy.dir/src/calibfilter.i
 
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysisior.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/blobtrackanalysisior.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/blobtrackanalysisior.cpp" -o CMakeFiles/opencv_legacy.dir/src/blobtrackanalysisior.s
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/calibfilter.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/calibfilter.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/calibfilter.cpp -o CMakeFiles/opencv_legacy.dir/src/calibfilter.s
 
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysisior.o.requires:
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysisior.o.requires
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/calibfilter.o.requires:
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/calibfilter.o.requires
 
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysisior.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysisior.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysisior.o.provides.build
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysisior.o.provides
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/calibfilter.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/calibfilter.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/calibfilter.o.provides.build
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/calibfilter.o.provides
 
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysisior.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysisior.o
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysisior.o.provides.build
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/camshift.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/camshift.o: ../nestk/deps/opencv/modules/legacy/src/camshift.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_62)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/camshift.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/camshift.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/camshift.cpp"
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/camshift.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/camshift.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/camshift.cpp" > CMakeFiles/opencv_legacy.dir/src/camshift.i
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/camshift.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/camshift.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/camshift.cpp" -o CMakeFiles/opencv_legacy.dir/src/camshift.s
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/camshift.o.requires:
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/camshift.o.requires
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/camshift.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/camshift.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/camshift.o.provides.build
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/camshift.o.provides
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/camshift.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/camshift.o
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/camshift.o.provides.build
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/calibfilter.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/calibfilter.o
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/calibfilter.o.provides.build
 
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingkalman.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingkalman.o: ../nestk/deps/opencv/modules/legacy/src/blobtrackingkalman.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_63)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_46)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingkalman.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/blobtrackingkalman.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/blobtrackingkalman.cpp"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/blobtrackingkalman.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/blobtrackingkalman.cpp
 
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingkalman.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/blobtrackingkalman.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/blobtrackingkalman.cpp" > CMakeFiles/opencv_legacy.dir/src/blobtrackingkalman.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/blobtrackingkalman.cpp > CMakeFiles/opencv_legacy.dir/src/blobtrackingkalman.i
 
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingkalman.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/blobtrackingkalman.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/blobtrackingkalman.cpp" -o CMakeFiles/opencv_legacy.dir/src/blobtrackingkalman.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/blobtrackingkalman.cpp -o CMakeFiles/opencv_legacy.dir/src/blobtrackingkalman.s
 
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingkalman.o.requires:
 .PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingkalman.o.requires
@@ -1561,91 +1153,19 @@ nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingka
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingkalman.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingkalman.o
 .PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingkalman.o.provides.build
 
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/texture.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/texture.o: ../nestk/deps/opencv/modules/legacy/src/texture.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_64)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/texture.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/texture.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/texture.cpp"
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/texture.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/texture.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/texture.cpp" > CMakeFiles/opencv_legacy.dir/src/texture.i
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/texture.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/texture.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/texture.cpp" -o CMakeFiles/opencv_legacy.dir/src/texture.s
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/texture.o.requires:
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/texture.o.requires
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/texture.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/texture.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/texture.o.provides.build
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/texture.o.provides
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/texture.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/texture.o
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/texture.o.provides.build
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/auxutils.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/auxutils.o: ../nestk/deps/opencv/modules/legacy/src/auxutils.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_65)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/auxutils.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/auxutils.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/auxutils.cpp"
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/auxutils.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/auxutils.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/auxutils.cpp" > CMakeFiles/opencv_legacy.dir/src/auxutils.i
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/auxutils.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/auxutils.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/auxutils.cpp" -o CMakeFiles/opencv_legacy.dir/src/auxutils.s
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/auxutils.o.requires:
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/auxutils.o.requires
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/auxutils.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/auxutils.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/auxutils.o.provides.build
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/auxutils.o.provides
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/auxutils.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/auxutils.o
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/auxutils.o.provides.build
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/levmar.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/levmar.o: ../nestk/deps/opencv/modules/legacy/src/levmar.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_66)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/levmar.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/levmar.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/levmar.cpp"
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/levmar.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/levmar.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/levmar.cpp" > CMakeFiles/opencv_legacy.dir/src/levmar.i
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/levmar.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/levmar.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/levmar.cpp" -o CMakeFiles/opencv_legacy.dir/src/levmar.s
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/levmar.o.requires:
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/levmar.o.requires
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/levmar.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/levmar.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/levmar.o.provides.build
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/levmar.o.provides
-
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/levmar.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/levmar.o
-.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/levmar.o.provides.build
-
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/enteringblobdetectionreal.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/enteringblobdetectionreal.o: ../nestk/deps/opencv/modules/legacy/src/enteringblobdetectionreal.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_67)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_47)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/enteringblobdetectionreal.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/enteringblobdetectionreal.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/enteringblobdetectionreal.cpp"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/enteringblobdetectionreal.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/enteringblobdetectionreal.cpp
 
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/enteringblobdetectionreal.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/enteringblobdetectionreal.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/enteringblobdetectionreal.cpp" > CMakeFiles/opencv_legacy.dir/src/enteringblobdetectionreal.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/enteringblobdetectionreal.cpp > CMakeFiles/opencv_legacy.dir/src/enteringblobdetectionreal.i
 
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/enteringblobdetectionreal.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/enteringblobdetectionreal.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/enteringblobdetectionreal.cpp" -o CMakeFiles/opencv_legacy.dir/src/enteringblobdetectionreal.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/enteringblobdetectionreal.cpp -o CMakeFiles/opencv_legacy.dir/src/enteringblobdetectionreal.s
 
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/enteringblobdetectionreal.o.requires:
 .PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/enteringblobdetectionreal.o.requires
@@ -1657,19 +1177,67 @@ nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/enteringblobde
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/enteringblobdetectionreal.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/enteringblobdetectionreal.o
 .PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/enteringblobdetectionreal.o.provides.build
 
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/enmin.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/enmin.o: ../nestk/deps/opencv/modules/legacy/src/enmin.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_48)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/enmin.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/enmin.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/enmin.cpp
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/enmin.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/enmin.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/enmin.cpp > CMakeFiles/opencv_legacy.dir/src/enmin.i
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/enmin.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/enmin.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/enmin.cpp -o CMakeFiles/opencv_legacy.dir/src/enmin.s
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/enmin.o.requires:
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/enmin.o.requires
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/enmin.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/enmin.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/enmin.o.provides.build
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/enmin.o.provides
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/enmin.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/enmin.o
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/enmin.o.provides.build
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/dominants.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/dominants.o: ../nestk/deps/opencv/modules/legacy/src/dominants.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_49)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/dominants.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/dominants.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/dominants.cpp
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/dominants.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/dominants.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/dominants.cpp > CMakeFiles/opencv_legacy.dir/src/dominants.i
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/dominants.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/dominants.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/dominants.cpp -o CMakeFiles/opencv_legacy.dir/src/dominants.s
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/dominants.o.requires:
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/dominants.o.requires
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/dominants.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/dominants.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/dominants.o.provides.build
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/dominants.o.provides
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/dominants.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/dominants.o
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/dominants.o.provides.build
+
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingcc.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingcc.o: ../nestk/deps/opencv/modules/legacy/src/blobtrackingcc.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_68)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_50)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingcc.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/blobtrackingcc.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/blobtrackingcc.cpp"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/blobtrackingcc.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/blobtrackingcc.cpp
 
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingcc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/blobtrackingcc.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/blobtrackingcc.cpp" > CMakeFiles/opencv_legacy.dir/src/blobtrackingcc.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/blobtrackingcc.cpp > CMakeFiles/opencv_legacy.dir/src/blobtrackingcc.i
 
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingcc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/blobtrackingcc.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/blobtrackingcc.cpp" -o CMakeFiles/opencv_legacy.dir/src/blobtrackingcc.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/blobtrackingcc.cpp -o CMakeFiles/opencv_legacy.dir/src/blobtrackingcc.s
 
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingcc.o.requires:
 .PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingcc.o.requires
@@ -1681,19 +1249,91 @@ nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingcc
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingcc.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingcc.o
 .PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingcc.o.provides.build
 
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/prewarp.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/prewarp.o: ../nestk/deps/opencv/modules/legacy/src/prewarp.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_51)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/prewarp.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/prewarp.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/prewarp.cpp
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/prewarp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/prewarp.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/prewarp.cpp > CMakeFiles/opencv_legacy.dir/src/prewarp.i
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/prewarp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/prewarp.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/prewarp.cpp -o CMakeFiles/opencv_legacy.dir/src/prewarp.s
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/prewarp.o.requires:
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/prewarp.o.requires
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/prewarp.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/prewarp.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/prewarp.o.provides.build
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/prewarp.o.provides
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/prewarp.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/prewarp.o
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/prewarp.o.provides.build
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackgenyml.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackgenyml.o: ../nestk/deps/opencv/modules/legacy/src/blobtrackgenyml.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_52)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackgenyml.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/blobtrackgenyml.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/blobtrackgenyml.cpp
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackgenyml.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/blobtrackgenyml.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/blobtrackgenyml.cpp > CMakeFiles/opencv_legacy.dir/src/blobtrackgenyml.i
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackgenyml.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/blobtrackgenyml.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/blobtrackgenyml.cpp -o CMakeFiles/opencv_legacy.dir/src/blobtrackgenyml.s
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackgenyml.o.requires:
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackgenyml.o.requires
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackgenyml.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackgenyml.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackgenyml.o.provides.build
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackgenyml.o.provides
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackgenyml.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackgenyml.o
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackgenyml.o.provides.build
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/decomppoly.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/decomppoly.o: ../nestk/deps/opencv/modules/legacy/src/decomppoly.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_53)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/decomppoly.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/decomppoly.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/decomppoly.cpp
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/decomppoly.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/decomppoly.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/decomppoly.cpp > CMakeFiles/opencv_legacy.dir/src/decomppoly.i
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/decomppoly.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/decomppoly.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/decomppoly.cpp -o CMakeFiles/opencv_legacy.dir/src/decomppoly.s
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/decomppoly.o.requires:
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/decomppoly.o.requires
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/decomppoly.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/decomppoly.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/decomppoly.o.provides.build
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/decomppoly.o.provides
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/decomppoly.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/decomppoly.o
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/decomppoly.o.provides.build
+
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/scanlines.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/scanlines.o: ../nestk/deps/opencv/modules/legacy/src/scanlines.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_69)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_54)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/scanlines.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/scanlines.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/scanlines.cpp"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/scanlines.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/scanlines.cpp
 
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/scanlines.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/scanlines.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/scanlines.cpp" > CMakeFiles/opencv_legacy.dir/src/scanlines.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/scanlines.cpp > CMakeFiles/opencv_legacy.dir/src/scanlines.i
 
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/scanlines.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/scanlines.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy/src/scanlines.cpp" -o CMakeFiles/opencv_legacy.dir/src/scanlines.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/scanlines.cpp -o CMakeFiles/opencv_legacy.dir/src/scanlines.s
 
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/scanlines.o.requires:
 .PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/scanlines.o.requires
@@ -1705,150 +1345,510 @@ nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/scanlines.o.pr
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/scanlines.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/scanlines.o
 .PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/scanlines.o.provides.build
 
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/face.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/face.o: ../nestk/deps/opencv/modules/legacy/src/face.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_55)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/face.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/face.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/face.cpp
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/face.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/face.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/face.cpp > CMakeFiles/opencv_legacy.dir/src/face.i
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/face.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/face.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/face.cpp -o CMakeFiles/opencv_legacy.dir/src/face.s
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/face.o.requires:
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/face.o.requires
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/face.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/face.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/face.o.provides.build
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/face.o.provides
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/face.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/face.o
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/face.o.provides.build
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/video.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/video.o: ../nestk/deps/opencv/modules/legacy/src/video.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_56)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/video.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/video.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/video.cpp
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/video.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/video.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/video.cpp > CMakeFiles/opencv_legacy.dir/src/video.i
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/video.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/video.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/video.cpp -o CMakeFiles/opencv_legacy.dir/src/video.s
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/video.o.requires:
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/video.o.requires
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/video.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/video.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/video.o.provides.build
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/video.o.provides
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/video.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/video.o
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/video.o.provides.build
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/snakes.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/snakes.o: ../nestk/deps/opencv/modules/legacy/src/snakes.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_57)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/snakes.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/snakes.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/snakes.cpp
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/snakes.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/snakes.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/snakes.cpp > CMakeFiles/opencv_legacy.dir/src/snakes.i
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/snakes.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/snakes.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/snakes.cpp -o CMakeFiles/opencv_legacy.dir/src/snakes.s
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/snakes.o.requires:
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/snakes.o.requires
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/snakes.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/snakes.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/snakes.o.provides.build
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/snakes.o.provides
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/snakes.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/snakes.o
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/snakes.o.provides.build
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/texture.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/texture.o: ../nestk/deps/opencv/modules/legacy/src/texture.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_58)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/texture.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/texture.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/texture.cpp
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/texture.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/texture.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/texture.cpp > CMakeFiles/opencv_legacy.dir/src/texture.i
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/texture.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/texture.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/texture.cpp -o CMakeFiles/opencv_legacy.dir/src/texture.s
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/texture.o.requires:
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/texture.o.requires
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/texture.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/texture.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/texture.o.provides.build
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/texture.o.provides
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/texture.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/texture.o
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/texture.o.provides.build
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackinglist.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackinglist.o: ../nestk/deps/opencv/modules/legacy/src/blobtrackinglist.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_59)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackinglist.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/blobtrackinglist.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/blobtrackinglist.cpp
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackinglist.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/blobtrackinglist.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/blobtrackinglist.cpp > CMakeFiles/opencv_legacy.dir/src/blobtrackinglist.i
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackinglist.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/blobtrackinglist.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/blobtrackinglist.cpp -o CMakeFiles/opencv_legacy.dir/src/blobtrackinglist.s
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackinglist.o.requires:
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackinglist.o.requires
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackinglist.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackinglist.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackinglist.o.provides.build
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackinglist.o.provides
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackinglist.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackinglist.o
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackinglist.o.provides.build
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/image.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/image.o: ../nestk/deps/opencv/modules/legacy/src/image.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_60)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/image.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/image.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/image.cpp
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/image.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/image.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/image.cpp > CMakeFiles/opencv_legacy.dir/src/image.i
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/image.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/image.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/image.cpp -o CMakeFiles/opencv_legacy.dir/src/image.s
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/image.o.requires:
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/image.o.requires
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/image.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/image.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/image.o.provides.build
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/image.o.provides
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/image.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/image.o
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/image.o.provides.build
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysistrackdist.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysistrackdist.o: ../nestk/deps/opencv/modules/legacy/src/blobtrackanalysistrackdist.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_61)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysistrackdist.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/blobtrackanalysistrackdist.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/blobtrackanalysistrackdist.cpp
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysistrackdist.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/blobtrackanalysistrackdist.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/blobtrackanalysistrackdist.cpp > CMakeFiles/opencv_legacy.dir/src/blobtrackanalysistrackdist.i
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysistrackdist.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/blobtrackanalysistrackdist.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/blobtrackanalysistrackdist.cpp -o CMakeFiles/opencv_legacy.dir/src/blobtrackanalysistrackdist.s
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysistrackdist.o.requires:
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysistrackdist.o.requires
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysistrackdist.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysistrackdist.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysistrackdist.o.provides.build
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysistrackdist.o.provides
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysistrackdist.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysistrackdist.o
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysistrackdist.o.provides.build
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/facetemplate.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/facetemplate.o: ../nestk/deps/opencv/modules/legacy/src/facetemplate.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_62)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/facetemplate.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/facetemplate.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/facetemplate.cpp
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/facetemplate.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/facetemplate.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/facetemplate.cpp > CMakeFiles/opencv_legacy.dir/src/facetemplate.i
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/facetemplate.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/facetemplate.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/facetemplate.cpp -o CMakeFiles/opencv_legacy.dir/src/facetemplate.s
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/facetemplate.o.requires:
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/facetemplate.o.requires
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/facetemplate.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/facetemplate.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/facetemplate.o.provides.build
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/facetemplate.o.provides
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/facetemplate.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/facetemplate.o
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/facetemplate.o.provides.build
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrack.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrack.o: ../nestk/deps/opencv/modules/legacy/src/blobtrack.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_63)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrack.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/blobtrack.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/blobtrack.cpp
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrack.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/blobtrack.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/blobtrack.cpp > CMakeFiles/opencv_legacy.dir/src/blobtrack.i
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrack.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/blobtrack.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/blobtrack.cpp -o CMakeFiles/opencv_legacy.dir/src/blobtrack.s
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrack.o.requires:
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrack.o.requires
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrack.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrack.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrack.o.provides.build
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrack.o.provides
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrack.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrack.o
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrack.o.provides.build
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/subdiv2.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/subdiv2.o: ../nestk/deps/opencv/modules/legacy/src/subdiv2.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_64)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/subdiv2.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/subdiv2.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/subdiv2.cpp
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/subdiv2.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/subdiv2.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/subdiv2.cpp > CMakeFiles/opencv_legacy.dir/src/subdiv2.i
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/subdiv2.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/subdiv2.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/subdiv2.cpp -o CMakeFiles/opencv_legacy.dir/src/subdiv2.s
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/subdiv2.o.requires:
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/subdiv2.o.requires
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/subdiv2.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/subdiv2.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/subdiv2.o.provides.build
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/subdiv2.o.provides
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/subdiv2.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/subdiv2.o
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/subdiv2.o.provides.build
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackpostprockalman.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackpostprockalman.o: ../nestk/deps/opencv/modules/legacy/src/blobtrackpostprockalman.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_65)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackpostprockalman.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/blobtrackpostprockalman.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/blobtrackpostprockalman.cpp
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackpostprockalman.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/blobtrackpostprockalman.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/blobtrackpostprockalman.cpp > CMakeFiles/opencv_legacy.dir/src/blobtrackpostprockalman.i
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackpostprockalman.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/blobtrackpostprockalman.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/blobtrackpostprockalman.cpp -o CMakeFiles/opencv_legacy.dir/src/blobtrackpostprockalman.s
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackpostprockalman.o.requires:
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackpostprockalman.o.requires
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackpostprockalman.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackpostprockalman.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackpostprockalman.o.provides.build
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackpostprockalman.o.provides
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackpostprockalman.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackpostprockalman.o
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackpostprockalman.o.provides.build
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingmsfg.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingmsfg.o: ../nestk/deps/opencv/modules/legacy/src/blobtrackingmsfg.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_66)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingmsfg.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/blobtrackingmsfg.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/blobtrackingmsfg.cpp
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingmsfg.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/blobtrackingmsfg.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/blobtrackingmsfg.cpp > CMakeFiles/opencv_legacy.dir/src/blobtrackingmsfg.i
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingmsfg.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/blobtrackingmsfg.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/blobtrackingmsfg.cpp -o CMakeFiles/opencv_legacy.dir/src/blobtrackingmsfg.s
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingmsfg.o.requires:
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingmsfg.o.requires
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingmsfg.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingmsfg.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingmsfg.o.provides.build
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingmsfg.o.provides
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingmsfg.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingmsfg.o
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingmsfg.o.provides.build
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingmsfgs.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingmsfgs.o: ../nestk/deps/opencv/modules/legacy/src/blobtrackingmsfgs.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_67)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingmsfgs.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/blobtrackingmsfgs.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/blobtrackingmsfgs.cpp
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingmsfgs.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/blobtrackingmsfgs.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/blobtrackingmsfgs.cpp > CMakeFiles/opencv_legacy.dir/src/blobtrackingmsfgs.i
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingmsfgs.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/blobtrackingmsfgs.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/blobtrackingmsfgs.cpp -o CMakeFiles/opencv_legacy.dir/src/blobtrackingmsfgs.s
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingmsfgs.o.requires:
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingmsfgs.o.requires
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingmsfgs.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingmsfgs.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingmsfgs.o.provides.build
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingmsfgs.o.provides
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingmsfgs.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingmsfgs.o
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingmsfgs.o.provides.build
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lines.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lines.o: ../nestk/deps/opencv/modules/legacy/src/lines.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_68)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lines.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/lines.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/lines.cpp
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lines.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/lines.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/lines.cpp > CMakeFiles/opencv_legacy.dir/src/lines.i
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lines.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/lines.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/lines.cpp -o CMakeFiles/opencv_legacy.dir/src/lines.s
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lines.o.requires:
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lines.o.requires
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lines.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lines.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lines.o.provides.build
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lines.o.provides
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lines.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lines.o
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lines.o.provides.build
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/clique.o: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/flags.make
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/clique.o: ../nestk/deps/opencv/modules/legacy/src/clique.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_69)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/clique.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_legacy.dir/src/clique.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/clique.cpp
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/clique.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_legacy.dir/src/clique.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/clique.cpp > CMakeFiles/opencv_legacy.dir/src/clique.i
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/clique.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_legacy.dir/src/clique.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy/src/clique.cpp -o CMakeFiles/opencv_legacy.dir/src/clique.s
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/clique.o.requires:
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/clique.o.requires
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/clique.o.provides: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/clique.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/clique.o.provides.build
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/clique.o.provides
+
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/clique.o.provides.build: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/clique.o
+.PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/clique.o.provides.build
+
 # Object files for target opencv_legacy
 opencv_legacy_OBJECTS = \
-"CMakeFiles/opencv_legacy.dir/src/contourtree.o" \
-"CMakeFiles/opencv_legacy.dir/src/3dtracker.o" \
-"CMakeFiles/opencv_legacy.dir/src/pgh.o" \
-"CMakeFiles/opencv_legacy.dir/src/lmeds.o" \
-"CMakeFiles/opencv_legacy.dir/src/hmm.o" \
-"CMakeFiles/opencv_legacy.dir/src/calcimagehomography.o" \
-"CMakeFiles/opencv_legacy.dir/src/eigenobjects.o" \
-"CMakeFiles/opencv_legacy.dir/src/blobtrackingmsfg.o" \
-"CMakeFiles/opencv_legacy.dir/src/blobtrackingccwithcr.o" \
-"CMakeFiles/opencv_legacy.dir/src/hmm1d.o" \
-"CMakeFiles/opencv_legacy.dir/src/blobtrackanalysishist.o" \
-"CMakeFiles/opencv_legacy.dir/src/lines.o" \
-"CMakeFiles/opencv_legacy.dir/src/findface.o" \
-"CMakeFiles/opencv_legacy.dir/src/dominants.o" \
-"CMakeFiles/opencv_legacy.dir/src/image.o" \
-"CMakeFiles/opencv_legacy.dir/src/levmartrif.o" \
-"CMakeFiles/opencv_legacy.dir/src/lee.o" \
-"CMakeFiles/opencv_legacy.dir/src/subdiv2.o" \
-"CMakeFiles/opencv_legacy.dir/src/vecfacetracking.o" \
-"CMakeFiles/opencv_legacy.dir/src/blobtrackingauto.o" \
-"CMakeFiles/opencv_legacy.dir/src/blobtrackpostprockalman.o" \
-"CMakeFiles/opencv_legacy.dir/src/blobtrackgen1.o" \
-"CMakeFiles/opencv_legacy.dir/src/video.o" \
-"CMakeFiles/opencv_legacy.dir/src/decomppoly.o" \
-"CMakeFiles/opencv_legacy.dir/src/morphing.o" \
-"CMakeFiles/opencv_legacy.dir/src/blobtrackanalysis.o" \
-"CMakeFiles/opencv_legacy.dir/src/correspond.o" \
-"CMakeFiles/opencv_legacy.dir/src/blobtrackpostproclist.o" \
-"CMakeFiles/opencv_legacy.dir/src/bgfg_estimation.o" \
+"CMakeFiles/opencv_legacy.dir/src/blobtrackanalysisior.o" \
 "CMakeFiles/opencv_legacy.dir/src/corrimages.o" \
-"CMakeFiles/opencv_legacy.dir/src/face.o" \
-"CMakeFiles/opencv_legacy.dir/src/facetemplate.o" \
-"CMakeFiles/opencv_legacy.dir/src/compat.o" \
+"CMakeFiles/opencv_legacy.dir/src/levmarprojbandle.o" \
+"CMakeFiles/opencv_legacy.dir/src/createhandmask.o" \
+"CMakeFiles/opencv_legacy.dir/src/camshift.o" \
+"CMakeFiles/opencv_legacy.dir/src/hmm.o" \
+"CMakeFiles/opencv_legacy.dir/src/levmartrif.o" \
+"CMakeFiles/opencv_legacy.dir/src/extendededges.o" \
+"CMakeFiles/opencv_legacy.dir/src/eigenobjects.o" \
+"CMakeFiles/opencv_legacy.dir/src/blobtrackanalysis.o" \
+"CMakeFiles/opencv_legacy.dir/src/contourtree.o" \
+"CMakeFiles/opencv_legacy.dir/src/condens.o" \
+"CMakeFiles/opencv_legacy.dir/src/segment.o" \
+"CMakeFiles/opencv_legacy.dir/src/morphcontours.o" \
+"CMakeFiles/opencv_legacy.dir/src/blobtrackanalysishist.o" \
+"CMakeFiles/opencv_legacy.dir/src/pgh.o" \
+"CMakeFiles/opencv_legacy.dir/src/auxutils.o" \
+"CMakeFiles/opencv_legacy.dir/src/epilines.o" \
+"CMakeFiles/opencv_legacy.dir/src/hmmobs.o" \
+"CMakeFiles/opencv_legacy.dir/src/3dtracker.o" \
+"CMakeFiles/opencv_legacy.dir/src/lcm.o" \
+"CMakeFiles/opencv_legacy.dir/src/dpstereo.o" \
+"CMakeFiles/opencv_legacy.dir/src/lmeds.o" \
+"CMakeFiles/opencv_legacy.dir/src/facedetection.o" \
 "CMakeFiles/opencv_legacy.dir/src/blobtrackpostproclinear.o" \
-"CMakeFiles/opencv_legacy.dir/src/blobtrackingmsfgs.o" \
+"CMakeFiles/opencv_legacy.dir/src/testseq.o" \
+"CMakeFiles/opencv_legacy.dir/src/precomp.o" \
+"CMakeFiles/opencv_legacy.dir/src/vecfacetracking.o" \
+"CMakeFiles/opencv_legacy.dir/src/hmm1d.o" \
+"CMakeFiles/opencv_legacy.dir/src/blobtrackingauto.o" \
+"CMakeFiles/opencv_legacy.dir/src/levmar.o" \
+"CMakeFiles/opencv_legacy.dir/src/bgfg_estimation.o" \
+"CMakeFiles/opencv_legacy.dir/src/compat.o" \
+"CMakeFiles/opencv_legacy.dir/src/lee.o" \
+"CMakeFiles/opencv_legacy.dir/src/morphing.o" \
+"CMakeFiles/opencv_legacy.dir/src/correspond.o" \
+"CMakeFiles/opencv_legacy.dir/src/calcimagehomography.o" \
 "CMakeFiles/opencv_legacy.dir/src/enteringblobdetection.o" \
 "CMakeFiles/opencv_legacy.dir/src/trifocal.o" \
-"CMakeFiles/opencv_legacy.dir/src/dpstereo.o" \
-"CMakeFiles/opencv_legacy.dir/src/hmmobs.o" \
-"CMakeFiles/opencv_legacy.dir/src/morphcontours.o" \
-"CMakeFiles/opencv_legacy.dir/src/facedetection.o" \
-"CMakeFiles/opencv_legacy.dir/src/blobtrackanalysistrackdist.o" \
-"CMakeFiles/opencv_legacy.dir/src/condens.o" \
-"CMakeFiles/opencv_legacy.dir/src/testseq.o" \
-"CMakeFiles/opencv_legacy.dir/src/epilines.o" \
-"CMakeFiles/opencv_legacy.dir/src/blobtrack.o" \
-"CMakeFiles/opencv_legacy.dir/src/segment.o" \
-"CMakeFiles/opencv_legacy.dir/src/prewarp.o" \
-"CMakeFiles/opencv_legacy.dir/src/enmin.o" \
-"CMakeFiles/opencv_legacy.dir/src/levmarprojbandle.o" \
-"CMakeFiles/opencv_legacy.dir/src/clique.o" \
-"CMakeFiles/opencv_legacy.dir/src/extendededges.o" \
-"CMakeFiles/opencv_legacy.dir/src/precomp.o" \
-"CMakeFiles/opencv_legacy.dir/src/snakes.o" \
-"CMakeFiles/opencv_legacy.dir/src/calibfilter.o" \
-"CMakeFiles/opencv_legacy.dir/src/createhandmask.o" \
+"CMakeFiles/opencv_legacy.dir/src/blobtrackgen1.o" \
 "CMakeFiles/opencv_legacy.dir/src/findhandregion.o" \
-"CMakeFiles/opencv_legacy.dir/src/blobtrackgenyml.o" \
-"CMakeFiles/opencv_legacy.dir/src/lcm.o" \
-"CMakeFiles/opencv_legacy.dir/src/blobtrackinglist.o" \
-"CMakeFiles/opencv_legacy.dir/src/blobtrackanalysisior.o" \
-"CMakeFiles/opencv_legacy.dir/src/camshift.o" \
+"CMakeFiles/opencv_legacy.dir/src/blobtrackpostproclist.o" \
+"CMakeFiles/opencv_legacy.dir/src/blobtrackingccwithcr.o" \
+"CMakeFiles/opencv_legacy.dir/src/findface.o" \
+"CMakeFiles/opencv_legacy.dir/src/calibfilter.o" \
 "CMakeFiles/opencv_legacy.dir/src/blobtrackingkalman.o" \
-"CMakeFiles/opencv_legacy.dir/src/texture.o" \
-"CMakeFiles/opencv_legacy.dir/src/auxutils.o" \
-"CMakeFiles/opencv_legacy.dir/src/levmar.o" \
 "CMakeFiles/opencv_legacy.dir/src/enteringblobdetectionreal.o" \
+"CMakeFiles/opencv_legacy.dir/src/enmin.o" \
+"CMakeFiles/opencv_legacy.dir/src/dominants.o" \
 "CMakeFiles/opencv_legacy.dir/src/blobtrackingcc.o" \
-"CMakeFiles/opencv_legacy.dir/src/scanlines.o"
+"CMakeFiles/opencv_legacy.dir/src/prewarp.o" \
+"CMakeFiles/opencv_legacy.dir/src/blobtrackgenyml.o" \
+"CMakeFiles/opencv_legacy.dir/src/decomppoly.o" \
+"CMakeFiles/opencv_legacy.dir/src/scanlines.o" \
+"CMakeFiles/opencv_legacy.dir/src/face.o" \
+"CMakeFiles/opencv_legacy.dir/src/video.o" \
+"CMakeFiles/opencv_legacy.dir/src/snakes.o" \
+"CMakeFiles/opencv_legacy.dir/src/texture.o" \
+"CMakeFiles/opencv_legacy.dir/src/blobtrackinglist.o" \
+"CMakeFiles/opencv_legacy.dir/src/image.o" \
+"CMakeFiles/opencv_legacy.dir/src/blobtrackanalysistrackdist.o" \
+"CMakeFiles/opencv_legacy.dir/src/facetemplate.o" \
+"CMakeFiles/opencv_legacy.dir/src/blobtrack.o" \
+"CMakeFiles/opencv_legacy.dir/src/subdiv2.o" \
+"CMakeFiles/opencv_legacy.dir/src/blobtrackpostprockalman.o" \
+"CMakeFiles/opencv_legacy.dir/src/blobtrackingmsfg.o" \
+"CMakeFiles/opencv_legacy.dir/src/blobtrackingmsfgs.o" \
+"CMakeFiles/opencv_legacy.dir/src/lines.o" \
+"CMakeFiles/opencv_legacy.dir/src/clique.o"
 
 # External object files for target opencv_legacy
 opencv_legacy_EXTERNAL_OBJECTS =
 
-lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/contourtree.o
-lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/3dtracker.o
-lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/pgh.o
-lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lmeds.o
-lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/hmm.o
-lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/calcimagehomography.o
-lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/eigenobjects.o
-lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingmsfg.o
-lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingccwithcr.o
-lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/hmm1d.o
-lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysishist.o
-lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lines.o
-lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/findface.o
-lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/dominants.o
-lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/image.o
-lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/levmartrif.o
-lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lee.o
-lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/subdiv2.o
-lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/vecfacetracking.o
-lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingauto.o
-lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackpostprockalman.o
-lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackgen1.o
-lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/video.o
-lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/decomppoly.o
-lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/morphing.o
-lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysis.o
-lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/correspond.o
-lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackpostproclist.o
-lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/bgfg_estimation.o
+lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysisior.o
 lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/corrimages.o
-lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/face.o
-lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/facetemplate.o
-lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/compat.o
+lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/levmarprojbandle.o
+lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/createhandmask.o
+lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/camshift.o
+lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/hmm.o
+lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/levmartrif.o
+lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/extendededges.o
+lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/eigenobjects.o
+lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysis.o
+lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/contourtree.o
+lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/condens.o
+lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/segment.o
+lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/morphcontours.o
+lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysishist.o
+lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/pgh.o
+lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/auxutils.o
+lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/epilines.o
+lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/hmmobs.o
+lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/3dtracker.o
+lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lcm.o
+lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/dpstereo.o
+lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lmeds.o
+lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/facedetection.o
 lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackpostproclinear.o
-lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingmsfgs.o
+lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/testseq.o
+lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/precomp.o
+lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/vecfacetracking.o
+lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/hmm1d.o
+lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingauto.o
+lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/levmar.o
+lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/bgfg_estimation.o
+lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/compat.o
+lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lee.o
+lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/morphing.o
+lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/correspond.o
+lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/calcimagehomography.o
 lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/enteringblobdetection.o
 lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/trifocal.o
-lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/dpstereo.o
-lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/hmmobs.o
-lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/morphcontours.o
-lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/facedetection.o
-lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysistrackdist.o
-lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/condens.o
-lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/testseq.o
-lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/epilines.o
-lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrack.o
-lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/segment.o
-lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/prewarp.o
-lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/enmin.o
-lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/levmarprojbandle.o
-lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/clique.o
-lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/extendededges.o
-lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/precomp.o
-lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/snakes.o
-lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/calibfilter.o
-lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/createhandmask.o
+lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackgen1.o
 lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/findhandregion.o
-lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackgenyml.o
-lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lcm.o
-lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackinglist.o
-lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysisior.o
-lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/camshift.o
+lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackpostproclist.o
+lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingccwithcr.o
+lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/findface.o
+lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/calibfilter.o
 lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingkalman.o
-lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/texture.o
-lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/auxutils.o
-lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/levmar.o
 lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/enteringblobdetectionreal.o
+lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/enmin.o
+lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/dominants.o
 lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingcc.o
+lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/prewarp.o
+lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackgenyml.o
+lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/decomppoly.o
 lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/scanlines.o
+lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/face.o
+lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/video.o
+lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/snakes.o
+lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/texture.o
+lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackinglist.o
+lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/image.o
+lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysistrackdist.o
+lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/facetemplate.o
+lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrack.o
+lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/subdiv2.o
+lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackpostprockalman.o
+lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingmsfg.o
+lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingmsfgs.o
+lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lines.o
+lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/clique.o
 lib/libopencv_legacy.so.2.2.0: lib/libopencv_core.so.2.2.0
 lib/libopencv_legacy.so.2.2.0: lib/libopencv_imgproc.so.2.2.0
 lib/libopencv_legacy.so.2.2.0: lib/libopencv_calib3d.so.2.2.0
@@ -1865,8 +1865,8 @@ lib/libopencv_legacy.so.2.2.0: 3rdparty/lib/libzlib.a
 lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build.make
 lib/libopencv_legacy.so.2.2.0: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library ../../../../../lib/libopencv_legacy.so"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/opencv_legacy.dir/link.txt --verbose=$(VERBOSE)
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && $(CMAKE_COMMAND) -E cmake_symlink_library ../../../../../lib/libopencv_legacy.so.2.2.0 ../../../../../lib/libopencv_legacy.so.2.2 ../../../../../lib/libopencv_legacy.so
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/opencv_legacy.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && $(CMAKE_COMMAND) -E cmake_symlink_library ../../../../../lib/libopencv_legacy.so.2.2.0 ../../../../../lib/libopencv_legacy.so.2.2 ../../../../../lib/libopencv_legacy.so
 
 lib/libopencv_legacy.so.2.2: lib/libopencv_legacy.so.2.2.0
 
@@ -1876,82 +1876,82 @@ lib/libopencv_legacy.so: lib/libopencv_legacy.so.2.2.0
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build: lib/libopencv_legacy.so
 .PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/build
 
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/contourtree.o.requires
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/3dtracker.o.requires
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/pgh.o.requires
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lmeds.o.requires
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/hmm.o.requires
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/calcimagehomography.o.requires
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/eigenobjects.o.requires
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingmsfg.o.requires
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingccwithcr.o.requires
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/hmm1d.o.requires
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysishist.o.requires
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lines.o.requires
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/findface.o.requires
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/dominants.o.requires
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/image.o.requires
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/levmartrif.o.requires
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lee.o.requires
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/subdiv2.o.requires
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/vecfacetracking.o.requires
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingauto.o.requires
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackpostprockalman.o.requires
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackgen1.o.requires
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/video.o.requires
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/decomppoly.o.requires
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/morphing.o.requires
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysis.o.requires
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/correspond.o.requires
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackpostproclist.o.requires
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/bgfg_estimation.o.requires
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysisior.o.requires
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/corrimages.o.requires
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/face.o.requires
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/facetemplate.o.requires
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/compat.o.requires
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/levmarprojbandle.o.requires
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/createhandmask.o.requires
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/camshift.o.requires
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/hmm.o.requires
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/levmartrif.o.requires
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/extendededges.o.requires
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/eigenobjects.o.requires
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysis.o.requires
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/contourtree.o.requires
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/condens.o.requires
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/segment.o.requires
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/morphcontours.o.requires
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysishist.o.requires
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/pgh.o.requires
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/auxutils.o.requires
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/epilines.o.requires
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/hmmobs.o.requires
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/3dtracker.o.requires
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lcm.o.requires
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/dpstereo.o.requires
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lmeds.o.requires
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/facedetection.o.requires
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackpostproclinear.o.requires
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingmsfgs.o.requires
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/testseq.o.requires
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/precomp.o.requires
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/vecfacetracking.o.requires
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/hmm1d.o.requires
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingauto.o.requires
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/levmar.o.requires
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/bgfg_estimation.o.requires
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/compat.o.requires
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lee.o.requires
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/morphing.o.requires
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/correspond.o.requires
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/calcimagehomography.o.requires
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/enteringblobdetection.o.requires
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/trifocal.o.requires
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/dpstereo.o.requires
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/hmmobs.o.requires
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/morphcontours.o.requires
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/facedetection.o.requires
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysistrackdist.o.requires
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/condens.o.requires
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/testseq.o.requires
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/epilines.o.requires
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrack.o.requires
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/segment.o.requires
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/prewarp.o.requires
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/enmin.o.requires
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/levmarprojbandle.o.requires
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/clique.o.requires
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/extendededges.o.requires
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/precomp.o.requires
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/snakes.o.requires
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/calibfilter.o.requires
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/createhandmask.o.requires
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackgen1.o.requires
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/findhandregion.o.requires
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackgenyml.o.requires
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lcm.o.requires
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackinglist.o.requires
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysisior.o.requires
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/camshift.o.requires
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackpostproclist.o.requires
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingccwithcr.o.requires
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/findface.o.requires
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/calibfilter.o.requires
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingkalman.o.requires
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/texture.o.requires
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/auxutils.o.requires
-nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/levmar.o.requires
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/enteringblobdetectionreal.o.requires
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/enmin.o.requires
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/dominants.o.requires
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingcc.o.requires
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/prewarp.o.requires
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackgenyml.o.requires
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/decomppoly.o.requires
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/scanlines.o.requires
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/face.o.requires
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/video.o.requires
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/snakes.o.requires
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/texture.o.requires
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackinglist.o.requires
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/image.o.requires
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackanalysistrackdist.o.requires
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/facetemplate.o.requires
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrack.o.requires
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/subdiv2.o.requires
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackpostprockalman.o.requires
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingmsfg.o.requires
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/blobtrackingmsfgs.o.requires
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/lines.o.requires
+nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires: nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/src/clique.o.requires
 .PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/requires
 
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/clean:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" && $(CMAKE_COMMAND) -P CMakeFiles/opencv_legacy.dir/cmake_clean.cmake
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy && $(CMAKE_COMMAND) -P CMakeFiles/opencv_legacy.dir/cmake_clean.cmake
 .PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/clean
 
 nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/depend:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/louis/Documents/Motion Capture/Mouse" "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/legacy" "/home/louis/Documents/Motion Capture/Mouse/build" "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy" "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/DependInfo.cmake" --color=$(COLOR)
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/legacy /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : nestk/deps/opencv/modules/legacy/CMakeFiles/opencv_legacy.dir/depend
 

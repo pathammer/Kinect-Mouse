@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/louis/Documents/Motion Capture/Mouse"
+CMAKE_SOURCE_DIR = /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/louis/Documents/Motion Capture/Mouse/build"
+CMAKE_BINARY_DIR = /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -110,14 +110,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/traincascade/CMakeFiles/progress.marks"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f CMakeFiles/Makefile2 nestk/deps/opencv/modules/traincascade/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 0
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/traincascade/CMakeFiles/progress.marks
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f CMakeFiles/Makefile2 nestk/deps/opencv/modules/traincascade/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f CMakeFiles/Makefile2 nestk/deps/opencv/modules/traincascade/clean
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f CMakeFiles/Makefile2 nestk/deps/opencv/modules/traincascade/clean
 .PHONY : clean
 
 # The main clean target
@@ -126,22 +126,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f CMakeFiles/Makefile2 nestk/deps/opencv/modules/traincascade/preinstall
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f CMakeFiles/Makefile2 nestk/deps/opencv/modules/traincascade/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f CMakeFiles/Makefile2 nestk/deps/opencv/modules/traincascade/preinstall
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f CMakeFiles/Makefile2 nestk/deps/opencv/modules/traincascade/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/rule:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f CMakeFiles/Makefile2 nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/rule
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f CMakeFiles/Makefile2 nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/rule
 .PHONY : nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/rule
 
 # Convenience name for target.
@@ -150,112 +150,112 @@ opencv_traincascade: nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_tr
 
 # fast build rule for target.
 opencv_traincascade/fast:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/build.make nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/build
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/build.make nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/build
 .PHONY : opencv_traincascade/fast
 
 # target to build an object file
 boost.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/build.make nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/boost.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/build.make nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/boost.o
 .PHONY : boost.o
 
 # target to preprocess a source file
 boost.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/build.make nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/boost.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/build.make nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/boost.i
 .PHONY : boost.i
 
 # target to generate assembly for a file
 boost.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/build.make nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/boost.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/build.make nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/boost.s
 .PHONY : boost.s
 
 # target to build an object file
 cascadeclassifier.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/build.make nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/cascadeclassifier.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/build.make nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/cascadeclassifier.o
 .PHONY : cascadeclassifier.o
 
 # target to preprocess a source file
 cascadeclassifier.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/build.make nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/cascadeclassifier.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/build.make nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/cascadeclassifier.i
 .PHONY : cascadeclassifier.i
 
 # target to generate assembly for a file
 cascadeclassifier.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/build.make nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/cascadeclassifier.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/build.make nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/cascadeclassifier.s
 .PHONY : cascadeclassifier.s
 
 # target to build an object file
 features.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/build.make nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/features.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/build.make nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/features.o
 .PHONY : features.o
 
 # target to preprocess a source file
 features.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/build.make nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/features.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/build.make nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/features.i
 .PHONY : features.i
 
 # target to generate assembly for a file
 features.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/build.make nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/features.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/build.make nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/features.s
 .PHONY : features.s
 
 # target to build an object file
 haarfeatures.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/build.make nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/haarfeatures.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/build.make nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/haarfeatures.o
 .PHONY : haarfeatures.o
 
 # target to preprocess a source file
 haarfeatures.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/build.make nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/haarfeatures.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/build.make nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/haarfeatures.i
 .PHONY : haarfeatures.i
 
 # target to generate assembly for a file
 haarfeatures.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/build.make nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/haarfeatures.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/build.make nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/haarfeatures.s
 .PHONY : haarfeatures.s
 
 # target to build an object file
 imagestorage.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/build.make nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/imagestorage.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/build.make nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/imagestorage.o
 .PHONY : imagestorage.o
 
 # target to preprocess a source file
 imagestorage.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/build.make nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/imagestorage.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/build.make nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/imagestorage.i
 .PHONY : imagestorage.i
 
 # target to generate assembly for a file
 imagestorage.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/build.make nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/imagestorage.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/build.make nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/imagestorage.s
 .PHONY : imagestorage.s
 
 # target to build an object file
 lbpfeatures.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/build.make nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/lbpfeatures.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/build.make nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/lbpfeatures.o
 .PHONY : lbpfeatures.o
 
 # target to preprocess a source file
 lbpfeatures.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/build.make nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/lbpfeatures.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/build.make nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/lbpfeatures.i
 .PHONY : lbpfeatures.i
 
 # target to generate assembly for a file
 lbpfeatures.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/build.make nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/lbpfeatures.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/build.make nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/lbpfeatures.s
 .PHONY : lbpfeatures.s
 
 # target to build an object file
 traincascade.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/build.make nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/traincascade.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/build.make nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/traincascade.o
 .PHONY : traincascade.o
 
 # target to preprocess a source file
 traincascade.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/build.make nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/traincascade.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/build.make nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/traincascade.i
 .PHONY : traincascade.i
 
 # target to generate assembly for a file
 traincascade.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/build.make nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/traincascade.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/build.make nestk/deps/opencv/modules/traincascade/CMakeFiles/opencv_traincascade.dir/traincascade.s
 .PHONY : traincascade.s
 
 # Help Target
@@ -303,6 +303,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

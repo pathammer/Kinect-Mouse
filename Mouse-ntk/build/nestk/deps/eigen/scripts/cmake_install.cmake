@@ -1,4 +1,4 @@
-# Install script for directory: /home/louis/Documents/Motion Capture/Mouse/nestk/deps/eigen/scripts
+# Install script for directory: /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/eigen/scripts
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)

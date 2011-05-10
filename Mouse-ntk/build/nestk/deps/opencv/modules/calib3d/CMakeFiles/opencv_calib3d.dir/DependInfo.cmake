@@ -4,17 +4,17 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/calib3d/src/calibinit.cpp" "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/calibinit.o"
-  "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/calib3d/src/calibration.cpp" "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/calibration.o"
-  "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/calib3d/src/checkchessboard.cpp" "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/checkchessboard.o"
-  "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/calib3d/src/fundam.cpp" "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/fundam.o"
-  "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/calib3d/src/modelest.cpp" "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/modelest.o"
-  "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/calib3d/src/posit.cpp" "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/posit.o"
-  "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/calib3d/src/precomp.cpp" "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/precomp.o"
-  "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/calib3d/src/stereobm.cpp" "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/stereobm.o"
-  "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/calib3d/src/stereogc.cpp" "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/stereogc.o"
-  "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/calib3d/src/stereosgbm.cpp" "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/stereosgbm.o"
-  "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/calib3d/src/triangulate.cpp" "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/triangulate.o"
+  "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/calib3d/src/calibinit.cpp" "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/calibinit.o"
+  "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/calib3d/src/calibration.cpp" "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/calibration.o"
+  "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/calib3d/src/checkchessboard.cpp" "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/checkchessboard.o"
+  "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/calib3d/src/fundam.cpp" "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/fundam.o"
+  "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/calib3d/src/modelest.cpp" "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/modelest.o"
+  "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/calib3d/src/posit.cpp" "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/posit.o"
+  "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/calib3d/src/precomp.cpp" "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/precomp.o"
+  "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/calib3d/src/stereobm.cpp" "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/stereobm.o"
+  "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/calib3d/src/stereogc.cpp" "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/stereogc.o"
+  "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/calib3d/src/stereosgbm.cpp" "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/stereosgbm.o"
+  "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/calib3d/src/triangulate.cpp" "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/triangulate.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -26,16 +26,16 @@ SET(CMAKE_TARGET_DEFINITIONS
 
 # Pairs of files generated by the same build rule.
 SET(CMAKE_MULTIPLE_OUTPUT_PAIRS
-  "/home/louis/Documents/Motion Capture/Mouse/build/lib/libopencv_calib3d.so" "/home/louis/Documents/Motion Capture/Mouse/build/lib/libopencv_calib3d.so.2.2.0"
-  "/home/louis/Documents/Motion Capture/Mouse/build/lib/libopencv_calib3d.so.2.2" "/home/louis/Documents/Motion Capture/Mouse/build/lib/libopencv_calib3d.so.2.2.0"
+  "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/lib/libopencv_calib3d.so" "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/lib/libopencv_calib3d.so.2.2.0"
+  "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/lib/libopencv_calib3d.so.2.2" "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/lib/libopencv_calib3d.so.2.2.0"
   )
 
 
 # Targets to which this target links.
 SET(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/DependInfo.cmake"
-  "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/DependInfo.cmake"
-  "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/DependInfo.cmake"
-  "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/3rdparty/lapack/CMakeFiles/opencv_lapack.dir/DependInfo.cmake"
-  "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/DependInfo.cmake"
+  "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/DependInfo.cmake"
+  "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/DependInfo.cmake"
+  "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/DependInfo.cmake"
+  "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/3rdparty/lapack/CMakeFiles/opencv_lapack.dir/DependInfo.cmake"
+  "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/DependInfo.cmake"
   )

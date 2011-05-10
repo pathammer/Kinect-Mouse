@@ -4,28 +4,25 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/bitstrm.cpp" "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/bitstrm.o"
-  "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/cap.cpp" "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap.o"
-  "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/cap_dc1394_v2.cpp" "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_dc1394_v2.o"
-  "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/cap_ffmpeg.cpp" "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_ffmpeg.o"
-  "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/cap_gstreamer.cpp" "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_gstreamer.o"
-  "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/cap_images.cpp" "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_images.o"
-  "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/cap_libv4l.cpp" "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_libv4l.o"
-  "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/grfmt_base.cpp" "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_base.o"
-  "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/grfmt_bmp.cpp" "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_bmp.o"
-  "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/grfmt_exr.cpp" "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_exr.o"
-  "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/grfmt_imageio.cpp" "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_imageio.o"
-  "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/grfmt_jpeg.cpp" "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_jpeg.o"
-  "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/grfmt_jpeg2000.cpp" "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_jpeg2000.o"
-  "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/grfmt_png.cpp" "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_png.o"
-  "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/grfmt_pxm.cpp" "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_pxm.o"
-  "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/grfmt_sunras.cpp" "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_sunras.o"
-  "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/grfmt_tiff.cpp" "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_tiff.o"
-  "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/loadsave.cpp" "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/loadsave.o"
-  "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/precomp.cpp" "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/precomp.o"
-  "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/utils.cpp" "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/utils.o"
-  "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/window.cpp" "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/window.o"
-  "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/window_gtk.cpp" "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/window_gtk.o"
+  "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/bitstrm.cpp" "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/bitstrm.o"
+  "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/cap.cpp" "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap.o"
+  "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/cap_images.cpp" "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_images.o"
+  "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/cap_v4l.cpp" "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_v4l.o"
+  "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/grfmt_base.cpp" "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_base.o"
+  "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/grfmt_bmp.cpp" "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_bmp.o"
+  "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/grfmt_exr.cpp" "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_exr.o"
+  "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/grfmt_imageio.cpp" "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_imageio.o"
+  "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/grfmt_jpeg.cpp" "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_jpeg.o"
+  "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/grfmt_jpeg2000.cpp" "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_jpeg2000.o"
+  "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/grfmt_png.cpp" "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_png.o"
+  "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/grfmt_pxm.cpp" "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_pxm.o"
+  "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/grfmt_sunras.cpp" "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_sunras.o"
+  "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/grfmt_tiff.cpp" "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_tiff.o"
+  "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/loadsave.cpp" "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/loadsave.o"
+  "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/precomp.cpp" "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/precomp.o"
+  "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/utils.cpp" "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/utils.o"
+  "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/window.cpp" "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/window.o"
+  "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/window_gtk.cpp" "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/window_gtk.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -42,15 +39,18 @@ SET(CMAKE_TARGET_DEFINITIONS
 
 # Pairs of files generated by the same build rule.
 SET(CMAKE_MULTIPLE_OUTPUT_PAIRS
-  "/home/louis/Documents/Motion Capture/Mouse/build/lib/libopencv_highgui.so" "/home/louis/Documents/Motion Capture/Mouse/build/lib/libopencv_highgui.so.2.2.0"
-  "/home/louis/Documents/Motion Capture/Mouse/build/lib/libopencv_highgui.so.2.2" "/home/louis/Documents/Motion Capture/Mouse/build/lib/libopencv_highgui.so.2.2.0"
+  "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/lib/libopencv_highgui.so" "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/lib/libopencv_highgui.so.2.2.0"
+  "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/lib/libopencv_highgui.so.2.2" "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/lib/libopencv_highgui.so.2.2.0"
   )
 
 
 # Targets to which this target links.
 SET(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/DependInfo.cmake"
-  "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/DependInfo.cmake"
-  "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/DependInfo.cmake"
-  "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/3rdparty/lapack/CMakeFiles/opencv_lapack.dir/DependInfo.cmake"
+  "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/core/CMakeFiles/opencv_core.dir/DependInfo.cmake"
+  "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/DependInfo.cmake"
+  "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/DependInfo.cmake"
+  "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/3rdparty/libjpeg/CMakeFiles/libjpeg.dir/DependInfo.cmake"
+  "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/3rdparty/libtiff/CMakeFiles/libtiff.dir/DependInfo.cmake"
+  "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/3rdparty/libjasper/CMakeFiles/libjasper.dir/DependInfo.cmake"
+  "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/3rdparty/lapack/CMakeFiles/opencv_lapack.dir/DependInfo.cmake"
   )

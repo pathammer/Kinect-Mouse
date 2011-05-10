@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/louis/Documents/Motion Capture/Mouse"
+CMAKE_SOURCE_DIR = /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/louis/Documents/Motion Capture/Mouse/build"
+CMAKE_BINARY_DIR = /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build
 
 # Include any dependencies generated for this target.
 include nestk/deps/opencv/modules/flann/CMakeFiles/opencv_flann.dir/depend.make
@@ -51,17 +51,17 @@ include nestk/deps/opencv/modules/flann/CMakeFiles/opencv_flann.dir/flags.make
 
 nestk/deps/opencv/modules/flann/CMakeFiles/opencv_flann.dir/src/flann.o: nestk/deps/opencv/modules/flann/CMakeFiles/opencv_flann.dir/flags.make
 nestk/deps/opencv/modules/flann/CMakeFiles/opencv_flann.dir/src/flann.o: ../nestk/deps/opencv/modules/flann/src/flann.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/flann/CMakeFiles/opencv_flann.dir/src/flann.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/flann" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_flann.dir/src/flann.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/flann/src/flann.cpp"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/flann && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_flann.dir/src/flann.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/flann/src/flann.cpp
 
 nestk/deps/opencv/modules/flann/CMakeFiles/opencv_flann.dir/src/flann.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_flann.dir/src/flann.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/flann" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/flann/src/flann.cpp" > CMakeFiles/opencv_flann.dir/src/flann.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/flann && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/flann/src/flann.cpp > CMakeFiles/opencv_flann.dir/src/flann.i
 
 nestk/deps/opencv/modules/flann/CMakeFiles/opencv_flann.dir/src/flann.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_flann.dir/src/flann.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/flann" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/flann/src/flann.cpp" -o CMakeFiles/opencv_flann.dir/src/flann.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/flann && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/flann/src/flann.cpp -o CMakeFiles/opencv_flann.dir/src/flann.s
 
 nestk/deps/opencv/modules/flann/CMakeFiles/opencv_flann.dir/src/flann.o.requires:
 .PHONY : nestk/deps/opencv/modules/flann/CMakeFiles/opencv_flann.dir/src/flann.o.requires
@@ -75,17 +75,17 @@ nestk/deps/opencv/modules/flann/CMakeFiles/opencv_flann.dir/src/flann.o.provides
 
 nestk/deps/opencv/modules/flann/CMakeFiles/opencv_flann.dir/src/precomp.o: nestk/deps/opencv/modules/flann/CMakeFiles/opencv_flann.dir/flags.make
 nestk/deps/opencv/modules/flann/CMakeFiles/opencv_flann.dir/src/precomp.o: ../nestk/deps/opencv/modules/flann/src/precomp.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/flann/CMakeFiles/opencv_flann.dir/src/precomp.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/flann" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_flann.dir/src/precomp.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/flann/src/precomp.cpp"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/flann && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_flann.dir/src/precomp.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/flann/src/precomp.cpp
 
 nestk/deps/opencv/modules/flann/CMakeFiles/opencv_flann.dir/src/precomp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_flann.dir/src/precomp.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/flann" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/flann/src/precomp.cpp" > CMakeFiles/opencv_flann.dir/src/precomp.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/flann && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/flann/src/precomp.cpp > CMakeFiles/opencv_flann.dir/src/precomp.i
 
 nestk/deps/opencv/modules/flann/CMakeFiles/opencv_flann.dir/src/precomp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_flann.dir/src/precomp.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/flann" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/flann/src/precomp.cpp" -o CMakeFiles/opencv_flann.dir/src/precomp.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/flann && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/flann/src/precomp.cpp -o CMakeFiles/opencv_flann.dir/src/precomp.s
 
 nestk/deps/opencv/modules/flann/CMakeFiles/opencv_flann.dir/src/precomp.o.requires:
 .PHONY : nestk/deps/opencv/modules/flann/CMakeFiles/opencv_flann.dir/src/precomp.o.requires
@@ -113,8 +113,8 @@ lib/libopencv_flann.so.2.2.0: 3rdparty/lib/libzlib.a
 lib/libopencv_flann.so.2.2.0: nestk/deps/opencv/modules/flann/CMakeFiles/opencv_flann.dir/build.make
 lib/libopencv_flann.so.2.2.0: nestk/deps/opencv/modules/flann/CMakeFiles/opencv_flann.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library ../../../../../lib/libopencv_flann.so"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/flann" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/opencv_flann.dir/link.txt --verbose=$(VERBOSE)
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/flann" && $(CMAKE_COMMAND) -E cmake_symlink_library ../../../../../lib/libopencv_flann.so.2.2.0 ../../../../../lib/libopencv_flann.so.2.2 ../../../../../lib/libopencv_flann.so
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/flann && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/opencv_flann.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/flann && $(CMAKE_COMMAND) -E cmake_symlink_library ../../../../../lib/libopencv_flann.so.2.2.0 ../../../../../lib/libopencv_flann.so.2.2 ../../../../../lib/libopencv_flann.so
 
 lib/libopencv_flann.so.2.2: lib/libopencv_flann.so.2.2.0
 
@@ -129,10 +129,10 @@ nestk/deps/opencv/modules/flann/CMakeFiles/opencv_flann.dir/requires: nestk/deps
 .PHONY : nestk/deps/opencv/modules/flann/CMakeFiles/opencv_flann.dir/requires
 
 nestk/deps/opencv/modules/flann/CMakeFiles/opencv_flann.dir/clean:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/flann" && $(CMAKE_COMMAND) -P CMakeFiles/opencv_flann.dir/cmake_clean.cmake
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/flann && $(CMAKE_COMMAND) -P CMakeFiles/opencv_flann.dir/cmake_clean.cmake
 .PHONY : nestk/deps/opencv/modules/flann/CMakeFiles/opencv_flann.dir/clean
 
 nestk/deps/opencv/modules/flann/CMakeFiles/opencv_flann.dir/depend:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/louis/Documents/Motion Capture/Mouse" "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/flann" "/home/louis/Documents/Motion Capture/Mouse/build" "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/flann" "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/flann/CMakeFiles/opencv_flann.dir/DependInfo.cmake" --color=$(COLOR)
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/flann /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/flann /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/flann/CMakeFiles/opencv_flann.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : nestk/deps/opencv/modules/flann/CMakeFiles/opencv_flann.dir/depend
 

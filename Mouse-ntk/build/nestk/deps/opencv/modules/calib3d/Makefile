@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/louis/Documents/Motion Capture/Mouse"
+CMAKE_SOURCE_DIR = /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/louis/Documents/Motion Capture/Mouse/build"
+CMAKE_BINARY_DIR = /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -110,14 +110,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/calib3d/CMakeFiles/progress.marks"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f CMakeFiles/Makefile2 nestk/deps/opencv/modules/calib3d/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 0
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/calib3d/CMakeFiles/progress.marks
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f CMakeFiles/Makefile2 nestk/deps/opencv/modules/calib3d/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f CMakeFiles/Makefile2 nestk/deps/opencv/modules/calib3d/clean
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f CMakeFiles/Makefile2 nestk/deps/opencv/modules/calib3d/clean
 .PHONY : clean
 
 # The main clean target
@@ -126,22 +126,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f CMakeFiles/Makefile2 nestk/deps/opencv/modules/calib3d/preinstall
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f CMakeFiles/Makefile2 nestk/deps/opencv/modules/calib3d/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f CMakeFiles/Makefile2 nestk/deps/opencv/modules/calib3d/preinstall
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f CMakeFiles/Makefile2 nestk/deps/opencv/modules/calib3d/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/rule:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f CMakeFiles/Makefile2 nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/rule
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f CMakeFiles/Makefile2 nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/rule
 .PHONY : nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/rule
 
 # Convenience name for target.
@@ -150,172 +150,172 @@ opencv_calib3d: nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/
 
 # fast build rule for target.
 opencv_calib3d/fast:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/build
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/build
 .PHONY : opencv_calib3d/fast
 
 # target to build an object file
 src/calibinit.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/calibinit.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/calibinit.o
 .PHONY : src/calibinit.o
 
 # target to preprocess a source file
 src/calibinit.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/calibinit.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/calibinit.i
 .PHONY : src/calibinit.i
 
 # target to generate assembly for a file
 src/calibinit.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/calibinit.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/calibinit.s
 .PHONY : src/calibinit.s
 
 # target to build an object file
 src/calibration.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/calibration.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/calibration.o
 .PHONY : src/calibration.o
 
 # target to preprocess a source file
 src/calibration.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/calibration.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/calibration.i
 .PHONY : src/calibration.i
 
 # target to generate assembly for a file
 src/calibration.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/calibration.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/calibration.s
 .PHONY : src/calibration.s
 
 # target to build an object file
 src/checkchessboard.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/checkchessboard.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/checkchessboard.o
 .PHONY : src/checkchessboard.o
 
 # target to preprocess a source file
 src/checkchessboard.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/checkchessboard.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/checkchessboard.i
 .PHONY : src/checkchessboard.i
 
 # target to generate assembly for a file
 src/checkchessboard.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/checkchessboard.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/checkchessboard.s
 .PHONY : src/checkchessboard.s
 
 # target to build an object file
 src/fundam.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/fundam.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/fundam.o
 .PHONY : src/fundam.o
 
 # target to preprocess a source file
 src/fundam.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/fundam.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/fundam.i
 .PHONY : src/fundam.i
 
 # target to generate assembly for a file
 src/fundam.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/fundam.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/fundam.s
 .PHONY : src/fundam.s
 
 # target to build an object file
 src/modelest.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/modelest.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/modelest.o
 .PHONY : src/modelest.o
 
 # target to preprocess a source file
 src/modelest.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/modelest.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/modelest.i
 .PHONY : src/modelest.i
 
 # target to generate assembly for a file
 src/modelest.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/modelest.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/modelest.s
 .PHONY : src/modelest.s
 
 # target to build an object file
 src/posit.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/posit.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/posit.o
 .PHONY : src/posit.o
 
 # target to preprocess a source file
 src/posit.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/posit.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/posit.i
 .PHONY : src/posit.i
 
 # target to generate assembly for a file
 src/posit.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/posit.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/posit.s
 .PHONY : src/posit.s
 
 # target to build an object file
 src/precomp.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/precomp.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/precomp.o
 .PHONY : src/precomp.o
 
 # target to preprocess a source file
 src/precomp.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/precomp.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/precomp.i
 .PHONY : src/precomp.i
 
 # target to generate assembly for a file
 src/precomp.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/precomp.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/precomp.s
 .PHONY : src/precomp.s
 
 # target to build an object file
 src/stereobm.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/stereobm.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/stereobm.o
 .PHONY : src/stereobm.o
 
 # target to preprocess a source file
 src/stereobm.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/stereobm.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/stereobm.i
 .PHONY : src/stereobm.i
 
 # target to generate assembly for a file
 src/stereobm.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/stereobm.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/stereobm.s
 .PHONY : src/stereobm.s
 
 # target to build an object file
 src/stereogc.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/stereogc.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/stereogc.o
 .PHONY : src/stereogc.o
 
 # target to preprocess a source file
 src/stereogc.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/stereogc.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/stereogc.i
 .PHONY : src/stereogc.i
 
 # target to generate assembly for a file
 src/stereogc.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/stereogc.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/stereogc.s
 .PHONY : src/stereogc.s
 
 # target to build an object file
 src/stereosgbm.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/stereosgbm.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/stereosgbm.o
 .PHONY : src/stereosgbm.o
 
 # target to preprocess a source file
 src/stereosgbm.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/stereosgbm.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/stereosgbm.i
 .PHONY : src/stereosgbm.i
 
 # target to generate assembly for a file
 src/stereosgbm.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/stereosgbm.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/stereosgbm.s
 .PHONY : src/stereosgbm.s
 
 # target to build an object file
 src/triangulate.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/triangulate.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/triangulate.o
 .PHONY : src/triangulate.o
 
 # target to preprocess a source file
 src/triangulate.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/triangulate.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/triangulate.i
 .PHONY : src/triangulate.i
 
 # target to generate assembly for a file
 src/triangulate.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/triangulate.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/build.make nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/triangulate.s
 .PHONY : src/triangulate.s
 
 # Help Target
@@ -375,6 +375,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

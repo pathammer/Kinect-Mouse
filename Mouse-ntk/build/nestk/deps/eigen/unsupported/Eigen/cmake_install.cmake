@@ -1,4 +1,4 @@
-# Install script for directory: /home/louis/Documents/Motion Capture/Mouse/nestk/deps/eigen/unsupported/Eigen
+# Install script for directory: /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/eigen/unsupported/Eigen
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,30 +34,30 @@ ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Devel")
   FILE(INSTALL DESTINATION "/usr/local/include/eigen3/unsupported/Eigen" TYPE FILE FILES
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/eigen/unsupported/Eigen/AdolcForward"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/eigen/unsupported/Eigen/BVH"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/eigen/unsupported/Eigen/IterativeSolvers"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/eigen/unsupported/Eigen/MatrixFunctions"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/eigen/unsupported/Eigen/MoreVectorization"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/eigen/unsupported/Eigen/AutoDiff"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/eigen/unsupported/Eigen/AlignedVector3"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/eigen/unsupported/Eigen/Polynomials"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/eigen/unsupported/Eigen/CholmodSupport"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/eigen/unsupported/Eigen/FFT"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/eigen/unsupported/Eigen/NonLinearOptimization"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/eigen/unsupported/Eigen/SparseExtra"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/eigen/unsupported/Eigen/SuperLUSupport"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/eigen/unsupported/Eigen/UmfPackSupport"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/eigen/unsupported/Eigen/IterativeSolvers"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/eigen/unsupported/Eigen/NumericalDiff"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/eigen/unsupported/Eigen/Skyline"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/eigen/unsupported/Eigen/MPRealSupport"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/eigen/unsupported/Eigen/AdolcForward"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/eigen/unsupported/Eigen/BVH"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/eigen/unsupported/Eigen/IterativeSolvers"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/eigen/unsupported/Eigen/MatrixFunctions"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/eigen/unsupported/Eigen/MoreVectorization"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/eigen/unsupported/Eigen/AutoDiff"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/eigen/unsupported/Eigen/AlignedVector3"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/eigen/unsupported/Eigen/Polynomials"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/eigen/unsupported/Eigen/CholmodSupport"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/eigen/unsupported/Eigen/FFT"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/eigen/unsupported/Eigen/NonLinearOptimization"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/eigen/unsupported/Eigen/SparseExtra"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/eigen/unsupported/Eigen/SuperLUSupport"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/eigen/unsupported/Eigen/UmfPackSupport"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/eigen/unsupported/Eigen/IterativeSolvers"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/eigen/unsupported/Eigen/NumericalDiff"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/eigen/unsupported/Eigen/Skyline"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/eigen/unsupported/Eigen/MPRealSupport"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Devel")
 
 IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  INCLUDE("/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/eigen/unsupported/Eigen/src/cmake_install.cmake")
+  INCLUDE("/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/eigen/unsupported/Eigen/src/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/data
+# Install script for directory: /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/data
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,29 +34,29 @@ ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "main")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/opencv/haarcascades" TYPE FILE FILES
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/data/haarcascades/haarcascade_lefteye_2splits.xml"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/data/haarcascades/haarcascade_fullbody.xml"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/data/haarcascades/haarcascade_mcs_mouth.xml"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/data/haarcascades/haarcascade_mcs_lefteye.xml"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/data/haarcascades/haarcascade_righteye_2splits.xml"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/data/haarcascades/haarcascade_frontalface_alt.xml"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/data/haarcascades/haarcascade_mcs_righteye.xml"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/data/haarcascades/haarcascade_frontalface_default.xml"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/data/haarcascades/haarcascade_mcs_nose.xml"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/data/haarcascades/haarcascade_eye_tree_eyeglasses.xml"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/data/haarcascades/haarcascade_frontalface_alt_tree.xml"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/data/haarcascades/haarcascade_eye.xml"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/data/haarcascades/haarcascade_upperbody.xml"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/data/haarcascades/haarcascade_mcs_upperbody.xml"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/data/haarcascades/haarcascade_mcs_eyepair_small.xml"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/data/haarcascades/haarcascade_mcs_eyepair_big.xml"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/data/haarcascades/haarcascade_lowerbody.xml"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/data/haarcascades/haarcascade_profileface.xml"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/data/haarcascades/haarcascade_frontalface_alt2.xml"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/data/haarcascades/haarcascade_mcs_righteye.xml"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/data/haarcascades/haarcascade_righteye_2splits.xml"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/data/haarcascades/haarcascade_profileface.xml"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/data/haarcascades/haarcascade_upperbody.xml"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/data/haarcascades/haarcascade_fullbody.xml"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/data/haarcascades/haarcascade_frontalface_alt.xml"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/data/haarcascades/haarcascade_mcs_upperbody.xml"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/data/haarcascades/haarcascade_mcs_lefteye.xml"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/data/haarcascades/haarcascade_lowerbody.xml"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/data/haarcascades/haarcascade_lefteye_2splits.xml"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/data/haarcascades/haarcascade_mcs_eyepair_small.xml"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/data/haarcascades/haarcascade_eye_tree_eyeglasses.xml"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/data/haarcascades/haarcascade_eye.xml"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/data/haarcascades/haarcascade_frontalface_alt2.xml"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/data/haarcascades/haarcascade_mcs_mouth.xml"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/data/haarcascades/haarcascade_frontalface_alt_tree.xml"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/data/haarcascades/haarcascade_frontalface_default.xml"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/data/haarcascades/haarcascade_mcs_eyepair_big.xml"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/data/haarcascades/haarcascade_mcs_nose.xml"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "main")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "main")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/opencv/lbpcascades" TYPE FILE FILES "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/data/lbpcascades/lbpcascade_frontalface.xml")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/opencv/lbpcascades" TYPE FILE FILES "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/data/lbpcascades/lbpcascade_frontalface.xml")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "main")
 

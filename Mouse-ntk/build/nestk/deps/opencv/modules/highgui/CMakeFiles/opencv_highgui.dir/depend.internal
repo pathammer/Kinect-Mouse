@@ -15,9 +15,9 @@ nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/bitstrm.o
  ../nestk/deps/opencv/modules/highgui/../imgproc/include/opencv2/imgproc/types_c.h
  ../nestk/deps/opencv/modules/highgui/include/opencv2/highgui/highgui.hpp
  ../nestk/deps/opencv/modules/highgui/include/opencv2/highgui/highgui_c.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/bitstrm.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/bitstrm.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/bitstrm.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/bitstrm.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -33,224 +33,8 @@ nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap.o
  ../nestk/deps/opencv/modules/highgui/../imgproc/include/opencv2/imgproc/types_c.h
  ../nestk/deps/opencv/modules/highgui/include/opencv2/highgui/highgui.hpp
  ../nestk/deps/opencv/modules/highgui/include/opencv2/highgui/highgui_c.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/cap.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/precomp.hpp
- cvconfig.h
-nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_dc1394_v2.o
- ../nestk/deps/opencv/include/opencv/cxcore.h
- ../nestk/deps/opencv/modules/highgui/../core/include/opencv2/core/core.hpp
- ../nestk/deps/opencv/modules/highgui/../core/include/opencv2/core/core_c.h
- ../nestk/deps/opencv/modules/highgui/../core/include/opencv2/core/eigen.hpp
- ../nestk/deps/opencv/modules/highgui/../core/include/opencv2/core/internal.hpp
- ../nestk/deps/opencv/modules/highgui/../core/include/opencv2/core/mat.hpp
- ../nestk/deps/opencv/modules/highgui/../core/include/opencv2/core/operations.hpp
- ../nestk/deps/opencv/modules/highgui/../core/include/opencv2/core/types_c.h
- ../nestk/deps/opencv/modules/highgui/../core/include/opencv2/core/version.hpp
- ../nestk/deps/opencv/modules/highgui/../imgproc/include/opencv2/imgproc/imgproc_c.h
- ../nestk/deps/opencv/modules/highgui/../imgproc/include/opencv2/imgproc/types_c.h
- ../nestk/deps/opencv/modules/highgui/include/opencv2/highgui/highgui.hpp
- ../nestk/deps/opencv/modules/highgui/include/opencv2/highgui/highgui_c.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/cap_dc1394_v2.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/precomp.hpp
- cvconfig.h
-nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_ffmpeg.o
- ../nestk/deps/opencv/include/opencv/cxcore.h
- ../nestk/deps/opencv/modules/highgui/../core/include/opencv2/core/core.hpp
- ../nestk/deps/opencv/modules/highgui/../core/include/opencv2/core/core_c.h
- ../nestk/deps/opencv/modules/highgui/../core/include/opencv2/core/eigen.hpp
- ../nestk/deps/opencv/modules/highgui/../core/include/opencv2/core/internal.hpp
- ../nestk/deps/opencv/modules/highgui/../core/include/opencv2/core/mat.hpp
- ../nestk/deps/opencv/modules/highgui/../core/include/opencv2/core/operations.hpp
- ../nestk/deps/opencv/modules/highgui/../core/include/opencv2/core/types_c.h
- ../nestk/deps/opencv/modules/highgui/../core/include/opencv2/core/version.hpp
- ../nestk/deps/opencv/modules/highgui/../imgproc/include/opencv2/imgproc/imgproc_c.h
- ../nestk/deps/opencv/modules/highgui/../imgproc/include/opencv2/imgproc/types_c.h
- ../nestk/deps/opencv/modules/highgui/include/opencv2/highgui/highgui.hpp
- ../nestk/deps/opencv/modules/highgui/include/opencv2/highgui/highgui_c.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/cap_ffmpeg.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/precomp.hpp
- cvconfig.h
-nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_gstreamer.o
- ../nestk/deps/opencv/include/opencv/cxcore.h
- ../nestk/deps/opencv/modules/highgui/../core/include/opencv2/core/core.hpp
- ../nestk/deps/opencv/modules/highgui/../core/include/opencv2/core/core_c.h
- ../nestk/deps/opencv/modules/highgui/../core/include/opencv2/core/eigen.hpp
- ../nestk/deps/opencv/modules/highgui/../core/include/opencv2/core/internal.hpp
- ../nestk/deps/opencv/modules/highgui/../core/include/opencv2/core/mat.hpp
- ../nestk/deps/opencv/modules/highgui/../core/include/opencv2/core/operations.hpp
- ../nestk/deps/opencv/modules/highgui/../core/include/opencv2/core/types_c.h
- ../nestk/deps/opencv/modules/highgui/../core/include/opencv2/core/version.hpp
- ../nestk/deps/opencv/modules/highgui/../imgproc/include/opencv2/imgproc/imgproc_c.h
- ../nestk/deps/opencv/modules/highgui/../imgproc/include/opencv2/imgproc/types_c.h
- ../nestk/deps/opencv/modules/highgui/include/opencv2/highgui/highgui.hpp
- ../nestk/deps/opencv/modules/highgui/include/opencv2/highgui/highgui_c.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/cap_gstreamer.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/gstappsink.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/precomp.hpp
- /usr/include/glib-2.0/glib-object.h
- /usr/include/glib-2.0/glib.h
- /usr/include/glib-2.0/glib/galloca.h
- /usr/include/glib-2.0/glib/garray.h
- /usr/include/glib-2.0/glib/gasyncqueue.h
- /usr/include/glib-2.0/glib/gatomic.h
- /usr/include/glib-2.0/glib/gbacktrace.h
- /usr/include/glib-2.0/glib/gbase64.h
- /usr/include/glib-2.0/glib/gbitlock.h
- /usr/include/glib-2.0/glib/gbookmarkfile.h
- /usr/include/glib-2.0/glib/gcache.h
- /usr/include/glib-2.0/glib/gchecksum.h
- /usr/include/glib-2.0/glib/gcompletion.h
- /usr/include/glib-2.0/glib/gconvert.h
- /usr/include/glib-2.0/glib/gdataset.h
- /usr/include/glib-2.0/glib/gdate.h
- /usr/include/glib-2.0/glib/gdir.h
- /usr/include/glib-2.0/glib/gerror.h
- /usr/include/glib-2.0/glib/gfileutils.h
- /usr/include/glib-2.0/glib/ghash.h
- /usr/include/glib-2.0/glib/ghook.h
- /usr/include/glib-2.0/glib/ghostutils.h
- /usr/include/glib-2.0/glib/giochannel.h
- /usr/include/glib-2.0/glib/gkeyfile.h
- /usr/include/glib-2.0/glib/glist.h
- /usr/include/glib-2.0/glib/gmacros.h
- /usr/include/glib-2.0/glib/gmain.h
- /usr/include/glib-2.0/glib/gmappedfile.h
- /usr/include/glib-2.0/glib/gmarkup.h
- /usr/include/glib-2.0/glib/gmem.h
- /usr/include/glib-2.0/glib/gmessages.h
- /usr/include/glib-2.0/glib/gnode.h
- /usr/include/glib-2.0/glib/goption.h
- /usr/include/glib-2.0/glib/gpattern.h
- /usr/include/glib-2.0/glib/gpoll.h
- /usr/include/glib-2.0/glib/gprimes.h
- /usr/include/glib-2.0/glib/gqsort.h
- /usr/include/glib-2.0/glib/gquark.h
- /usr/include/glib-2.0/glib/gqueue.h
- /usr/include/glib-2.0/glib/grand.h
- /usr/include/glib-2.0/glib/gregex.h
- /usr/include/glib-2.0/glib/grel.h
- /usr/include/glib-2.0/glib/gscanner.h
- /usr/include/glib-2.0/glib/gsequence.h
- /usr/include/glib-2.0/glib/gshell.h
- /usr/include/glib-2.0/glib/gslice.h
- /usr/include/glib-2.0/glib/gslist.h
- /usr/include/glib-2.0/glib/gspawn.h
- /usr/include/glib-2.0/glib/gstrfuncs.h
- /usr/include/glib-2.0/glib/gstring.h
- /usr/include/glib-2.0/glib/gtestutils.h
- /usr/include/glib-2.0/glib/gthread.h
- /usr/include/glib-2.0/glib/gthreadpool.h
- /usr/include/glib-2.0/glib/gtimer.h
- /usr/include/glib-2.0/glib/gtree.h
- /usr/include/glib-2.0/glib/gtypes.h
- /usr/include/glib-2.0/glib/gunicode.h
- /usr/include/glib-2.0/glib/gurifuncs.h
- /usr/include/glib-2.0/glib/gutils.h
- /usr/include/glib-2.0/glib/gvariant.h
- /usr/include/glib-2.0/glib/gvarianttype.h
- /usr/include/glib-2.0/glib/gwin32.h
- /usr/include/glib-2.0/gmodule.h
- /usr/include/glib-2.0/gobject/gboxed.h
- /usr/include/glib-2.0/gobject/gclosure.h
- /usr/include/glib-2.0/gobject/genums.h
- /usr/include/glib-2.0/gobject/gmarshal.h
- /usr/include/glib-2.0/gobject/gobject.h
- /usr/include/glib-2.0/gobject/gparam.h
- /usr/include/glib-2.0/gobject/gparamspecs.h
- /usr/include/glib-2.0/gobject/gsignal.h
- /usr/include/glib-2.0/gobject/gsourceclosure.h
- /usr/include/glib-2.0/gobject/gtype.h
- /usr/include/glib-2.0/gobject/gtypemodule.h
- /usr/include/glib-2.0/gobject/gtypeplugin.h
- /usr/include/glib-2.0/gobject/gvalue.h
- /usr/include/glib-2.0/gobject/gvaluearray.h
- /usr/include/glib-2.0/gobject/gvaluetypes.h
- /usr/include/gstreamer-0.10/gst/app/gstappsink.h
- /usr/include/gstreamer-0.10/gst/app/gstappsrc.h
- /usr/include/gstreamer-0.10/gst/base/gstbasesink.h
- /usr/include/gstreamer-0.10/gst/base/gstbasesrc.h
- /usr/include/gstreamer-0.10/gst/base/gstpushsrc.h
- /usr/include/gstreamer-0.10/gst/glib-compat.h
- /usr/include/gstreamer-0.10/gst/gst.h
- /usr/include/gstreamer-0.10/gst/gstbin.h
- /usr/include/gstreamer-0.10/gst/gstbuffer.h
- /usr/include/gstreamer-0.10/gst/gstbufferlist.h
- /usr/include/gstreamer-0.10/gst/gstbus.h
- /usr/include/gstreamer-0.10/gst/gstcaps.h
- /usr/include/gstreamer-0.10/gst/gstchildproxy.h
- /usr/include/gstreamer-0.10/gst/gstclock.h
- /usr/include/gstreamer-0.10/gst/gstcompat.h
- /usr/include/gstreamer-0.10/gst/gstconfig.h
- /usr/include/gstreamer-0.10/gst/gstdebugutils.h
- /usr/include/gstreamer-0.10/gst/gstelement.h
- /usr/include/gstreamer-0.10/gst/gstelementfactory.h
- /usr/include/gstreamer-0.10/gst/gstenumtypes.h
- /usr/include/gstreamer-0.10/gst/gsterror.h
- /usr/include/gstreamer-0.10/gst/gstevent.h
- /usr/include/gstreamer-0.10/gst/gstformat.h
- /usr/include/gstreamer-0.10/gst/gstghostpad.h
- /usr/include/gstreamer-0.10/gst/gstindex.h
- /usr/include/gstreamer-0.10/gst/gstindexfactory.h
- /usr/include/gstreamer-0.10/gst/gstinfo.h
- /usr/include/gstreamer-0.10/gst/gstinterface.h
- /usr/include/gstreamer-0.10/gst/gstiterator.h
- /usr/include/gstreamer-0.10/gst/gstmacros.h
- /usr/include/gstreamer-0.10/gst/gstmarshal.h
- /usr/include/gstreamer-0.10/gst/gstmessage.h
- /usr/include/gstreamer-0.10/gst/gstminiobject.h
- /usr/include/gstreamer-0.10/gst/gstobject.h
- /usr/include/gstreamer-0.10/gst/gstpad.h
- /usr/include/gstreamer-0.10/gst/gstpadtemplate.h
- /usr/include/gstreamer-0.10/gst/gstparamspecs.h
- /usr/include/gstreamer-0.10/gst/gstparse.h
- /usr/include/gstreamer-0.10/gst/gstpipeline.h
- /usr/include/gstreamer-0.10/gst/gstplugin.h
- /usr/include/gstreamer-0.10/gst/gstpluginfeature.h
- /usr/include/gstreamer-0.10/gst/gstpoll.h
- /usr/include/gstreamer-0.10/gst/gstpreset.h
- /usr/include/gstreamer-0.10/gst/gstquery.h
- /usr/include/gstreamer-0.10/gst/gstregistry.h
- /usr/include/gstreamer-0.10/gst/gstsegment.h
- /usr/include/gstreamer-0.10/gst/gststructure.h
- /usr/include/gstreamer-0.10/gst/gstsystemclock.h
- /usr/include/gstreamer-0.10/gst/gsttaglist.h
- /usr/include/gstreamer-0.10/gst/gsttagsetter.h
- /usr/include/gstreamer-0.10/gst/gsttask.h
- /usr/include/gstreamer-0.10/gst/gsttaskpool.h
- /usr/include/gstreamer-0.10/gst/gsttrace.h
- /usr/include/gstreamer-0.10/gst/gsttypefind.h
- /usr/include/gstreamer-0.10/gst/gsttypefindfactory.h
- /usr/include/gstreamer-0.10/gst/gsturi.h
- /usr/include/gstreamer-0.10/gst/gstutils.h
- /usr/include/gstreamer-0.10/gst/gstvalue.h
- /usr/include/gstreamer-0.10/gst/gstversion.h
- /usr/include/gstreamer-0.10/gst/gstxml.h
- /usr/include/gstreamer-0.10/gst/riff/riff-ids.h
- /usr/include/gstreamer-0.10/gst/riff/riff-media.h
- /usr/include/gstreamer-0.10/gst/video/video-enumtypes.h
- /usr/include/gstreamer-0.10/gst/video/video.h
- /usr/include/libxml2/libxml/SAX.h
- /usr/include/libxml2/libxml/SAX2.h
- /usr/include/libxml2/libxml/dict.h
- /usr/include/libxml2/libxml/encoding.h
- /usr/include/libxml2/libxml/entities.h
- /usr/include/libxml2/libxml/globals.h
- /usr/include/libxml2/libxml/hash.h
- /usr/include/libxml2/libxml/list.h
- /usr/include/libxml2/libxml/parser.h
- /usr/include/libxml2/libxml/threads.h
- /usr/include/libxml2/libxml/tree.h
- /usr/include/libxml2/libxml/valid.h
- /usr/include/libxml2/libxml/xlink.h
- /usr/include/libxml2/libxml/xmlIO.h
- /usr/include/libxml2/libxml/xmlautomata.h
- /usr/include/libxml2/libxml/xmlerror.h
- /usr/include/libxml2/libxml/xmlexports.h
- /usr/include/libxml2/libxml/xmlmemory.h
- /usr/include/libxml2/libxml/xmlregexp.h
- /usr/include/libxml2/libxml/xmlstring.h
- /usr/include/libxml2/libxml/xmlversion.h
- /usr/lib/glib-2.0/include/glibconfig.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/cap.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_images.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -266,12 +50,11 @@ nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_images.o
  ../nestk/deps/opencv/modules/highgui/../imgproc/include/opencv2/imgproc/types_c.h
  ../nestk/deps/opencv/modules/highgui/include/opencv2/highgui/highgui.hpp
  ../nestk/deps/opencv/modules/highgui/include/opencv2/highgui/highgui_c.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/cap_images.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/cap_images.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/precomp.hpp
  cvconfig.h
-nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_libv4l.o
+nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_v4l.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
- ../nestk/deps/opencv/include/opencv/highgui.h
  ../nestk/deps/opencv/modules/highgui/../core/include/opencv2/core/core.hpp
  ../nestk/deps/opencv/modules/highgui/../core/include/opencv2/core/core_c.h
  ../nestk/deps/opencv/modules/highgui/../core/include/opencv2/core/eigen.hpp
@@ -284,8 +67,8 @@ nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_libv4l.o
  ../nestk/deps/opencv/modules/highgui/../imgproc/include/opencv2/imgproc/types_c.h
  ../nestk/deps/opencv/modules/highgui/include/opencv2/highgui/highgui.hpp
  ../nestk/deps/opencv/modules/highgui/include/opencv2/highgui/highgui_c.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/cap_libv4l.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/cap_v4l.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_base.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -301,11 +84,11 @@ nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_base.o
  ../nestk/deps/opencv/modules/highgui/../imgproc/include/opencv2/imgproc/types_c.h
  ../nestk/deps/opencv/modules/highgui/include/opencv2/highgui/highgui.hpp
  ../nestk/deps/opencv/modules/highgui/include/opencv2/highgui/highgui_c.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/bitstrm.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/grfmt_base.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/grfmt_base.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/precomp.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/utils.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/bitstrm.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/grfmt_base.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/grfmt_base.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/utils.hpp
  cvconfig.h
 nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_bmp.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -321,12 +104,12 @@ nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_bmp.o
  ../nestk/deps/opencv/modules/highgui/../imgproc/include/opencv2/imgproc/types_c.h
  ../nestk/deps/opencv/modules/highgui/include/opencv2/highgui/highgui.hpp
  ../nestk/deps/opencv/modules/highgui/include/opencv2/highgui/highgui_c.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/bitstrm.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/grfmt_base.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/grfmt_bmp.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/grfmt_bmp.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/precomp.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/utils.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/bitstrm.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/grfmt_base.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/grfmt_bmp.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/grfmt_bmp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/utils.hpp
  cvconfig.h
 nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_exr.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -342,12 +125,12 @@ nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_exr.o
  ../nestk/deps/opencv/modules/highgui/../imgproc/include/opencv2/imgproc/types_c.h
  ../nestk/deps/opencv/modules/highgui/include/opencv2/highgui/highgui.hpp
  ../nestk/deps/opencv/modules/highgui/include/opencv2/highgui/highgui_c.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/bitstrm.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/grfmt_base.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/grfmt_exr.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/grfmt_exr.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/precomp.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/utils.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/bitstrm.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/grfmt_base.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/grfmt_exr.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/grfmt_exr.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/utils.hpp
  cvconfig.h
 nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_imageio.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -363,15 +146,18 @@ nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_imagei
  ../nestk/deps/opencv/modules/highgui/../imgproc/include/opencv2/imgproc/types_c.h
  ../nestk/deps/opencv/modules/highgui/include/opencv2/highgui/highgui.hpp
  ../nestk/deps/opencv/modules/highgui/include/opencv2/highgui/highgui_c.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/bitstrm.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/grfmt_base.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/grfmt_imageio.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/grfmt_imageio.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/precomp.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/utils.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/bitstrm.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/grfmt_base.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/grfmt_imageio.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/grfmt_imageio.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/utils.hpp
  cvconfig.h
 nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_jpeg.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
+ ../nestk/deps/opencv/modules/highgui/../../3rdparty/include/jconfig.h
+ ../nestk/deps/opencv/modules/highgui/../../3rdparty/include/jmorecfg.h
+ ../nestk/deps/opencv/modules/highgui/../../3rdparty/include/jpeglib.h
  ../nestk/deps/opencv/modules/highgui/../core/include/opencv2/core/core.hpp
  ../nestk/deps/opencv/modules/highgui/../core/include/opencv2/core/core_c.h
  ../nestk/deps/opencv/modules/highgui/../core/include/opencv2/core/eigen.hpp
@@ -384,15 +170,34 @@ nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_jpeg.o
  ../nestk/deps/opencv/modules/highgui/../imgproc/include/opencv2/imgproc/types_c.h
  ../nestk/deps/opencv/modules/highgui/include/opencv2/highgui/highgui.hpp
  ../nestk/deps/opencv/modules/highgui/include/opencv2/highgui/highgui_c.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/bitstrm.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/grfmt_base.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/grfmt_jpeg.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/grfmt_jpeg.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/precomp.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/utils.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/bitstrm.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/grfmt_base.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/grfmt_jpeg.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/grfmt_jpeg.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/utils.hpp
  cvconfig.h
 nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_jpeg2000.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
+ ../nestk/deps/opencv/modules/highgui/../../3rdparty/include/jasper/jas_cm.h
+ ../nestk/deps/opencv/modules/highgui/../../3rdparty/include/jasper/jas_config.h
+ ../nestk/deps/opencv/modules/highgui/../../3rdparty/include/jasper/jas_config2.h
+ ../nestk/deps/opencv/modules/highgui/../../3rdparty/include/jasper/jas_debug.h
+ ../nestk/deps/opencv/modules/highgui/../../3rdparty/include/jasper/jas_fix.h
+ ../nestk/deps/opencv/modules/highgui/../../3rdparty/include/jasper/jas_getopt.h
+ ../nestk/deps/opencv/modules/highgui/../../3rdparty/include/jasper/jas_icc.h
+ ../nestk/deps/opencv/modules/highgui/../../3rdparty/include/jasper/jas_image.h
+ ../nestk/deps/opencv/modules/highgui/../../3rdparty/include/jasper/jas_init.h
+ ../nestk/deps/opencv/modules/highgui/../../3rdparty/include/jasper/jas_malloc.h
+ ../nestk/deps/opencv/modules/highgui/../../3rdparty/include/jasper/jas_math.h
+ ../nestk/deps/opencv/modules/highgui/../../3rdparty/include/jasper/jas_seq.h
+ ../nestk/deps/opencv/modules/highgui/../../3rdparty/include/jasper/jas_stream.h
+ ../nestk/deps/opencv/modules/highgui/../../3rdparty/include/jasper/jas_string.h
+ ../nestk/deps/opencv/modules/highgui/../../3rdparty/include/jasper/jas_tmr.h
+ ../nestk/deps/opencv/modules/highgui/../../3rdparty/include/jasper/jas_tvp.h
+ ../nestk/deps/opencv/modules/highgui/../../3rdparty/include/jasper/jas_types.h
+ ../nestk/deps/opencv/modules/highgui/../../3rdparty/include/jasper/jas_version.h
+ ../nestk/deps/opencv/modules/highgui/../../3rdparty/include/jasper/jasper.h
  ../nestk/deps/opencv/modules/highgui/../core/include/opencv2/core/core.hpp
  ../nestk/deps/opencv/modules/highgui/../core/include/opencv2/core/core_c.h
  ../nestk/deps/opencv/modules/highgui/../core/include/opencv2/core/eigen.hpp
@@ -405,15 +210,19 @@ nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_jpeg20
  ../nestk/deps/opencv/modules/highgui/../imgproc/include/opencv2/imgproc/types_c.h
  ../nestk/deps/opencv/modules/highgui/include/opencv2/highgui/highgui.hpp
  ../nestk/deps/opencv/modules/highgui/include/opencv2/highgui/highgui_c.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/bitstrm.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/grfmt_base.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/grfmt_jpeg2000.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/grfmt_jpeg2000.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/precomp.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/utils.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/bitstrm.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/grfmt_base.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/grfmt_jpeg2000.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/grfmt_jpeg2000.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/utils.hpp
  cvconfig.h
 nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_png.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
+ ../nestk/deps/opencv/modules/highgui/../../3rdparty/include/png.h
+ ../nestk/deps/opencv/modules/highgui/../../3rdparty/include/pngconf.h
+ ../nestk/deps/opencv/modules/highgui/../../3rdparty/include/zconf.h
+ ../nestk/deps/opencv/modules/highgui/../../3rdparty/include/zlib.h
  ../nestk/deps/opencv/modules/highgui/../core/include/opencv2/core/core.hpp
  ../nestk/deps/opencv/modules/highgui/../core/include/opencv2/core/core_c.h
  ../nestk/deps/opencv/modules/highgui/../core/include/opencv2/core/eigen.hpp
@@ -426,14 +235,12 @@ nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_png.o
  ../nestk/deps/opencv/modules/highgui/../imgproc/include/opencv2/imgproc/types_c.h
  ../nestk/deps/opencv/modules/highgui/include/opencv2/highgui/highgui.hpp
  ../nestk/deps/opencv/modules/highgui/include/opencv2/highgui/highgui_c.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/bitstrm.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/grfmt_base.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/grfmt_png.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/grfmt_png.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/precomp.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/utils.hpp
- /usr/include/libpng12/png.h
- /usr/include/libpng12/pngconf.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/bitstrm.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/grfmt_base.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/grfmt_png.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/grfmt_png.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/utils.hpp
  cvconfig.h
 nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_pxm.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -449,12 +256,12 @@ nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_pxm.o
  ../nestk/deps/opencv/modules/highgui/../imgproc/include/opencv2/imgproc/types_c.h
  ../nestk/deps/opencv/modules/highgui/include/opencv2/highgui/highgui.hpp
  ../nestk/deps/opencv/modules/highgui/include/opencv2/highgui/highgui_c.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/bitstrm.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/grfmt_base.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/grfmt_pxm.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/grfmt_pxm.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/precomp.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/utils.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/bitstrm.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/grfmt_base.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/grfmt_pxm.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/grfmt_pxm.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/utils.hpp
  cvconfig.h
 nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_sunras.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -470,15 +277,19 @@ nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_sunras
  ../nestk/deps/opencv/modules/highgui/../imgproc/include/opencv2/imgproc/types_c.h
  ../nestk/deps/opencv/modules/highgui/include/opencv2/highgui/highgui.hpp
  ../nestk/deps/opencv/modules/highgui/include/opencv2/highgui/highgui_c.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/bitstrm.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/grfmt_base.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/grfmt_sunras.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/grfmt_sunras.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/precomp.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/utils.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/bitstrm.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/grfmt_base.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/grfmt_sunras.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/grfmt_sunras.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/utils.hpp
  cvconfig.h
 nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_tiff.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
+ ../nestk/deps/opencv/modules/highgui/../../3rdparty/include/tiff.h
+ ../nestk/deps/opencv/modules/highgui/../../3rdparty/include/tiffconf.h
+ ../nestk/deps/opencv/modules/highgui/../../3rdparty/include/tiffio.h
+ ../nestk/deps/opencv/modules/highgui/../../3rdparty/include/tiffvers.h
  ../nestk/deps/opencv/modules/highgui/../core/include/opencv2/core/core.hpp
  ../nestk/deps/opencv/modules/highgui/../core/include/opencv2/core/core_c.h
  ../nestk/deps/opencv/modules/highgui/../core/include/opencv2/core/eigen.hpp
@@ -491,12 +302,12 @@ nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_tiff.o
  ../nestk/deps/opencv/modules/highgui/../imgproc/include/opencv2/imgproc/types_c.h
  ../nestk/deps/opencv/modules/highgui/include/opencv2/highgui/highgui.hpp
  ../nestk/deps/opencv/modules/highgui/include/opencv2/highgui/highgui_c.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/bitstrm.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/grfmt_base.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/grfmt_tiff.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/grfmt_tiff.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/precomp.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/utils.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/bitstrm.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/grfmt_base.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/grfmt_tiff.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/grfmt_tiff.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/utils.hpp
  cvconfig.h
 nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/loadsave.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -512,21 +323,21 @@ nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/loadsave.o
  ../nestk/deps/opencv/modules/highgui/../imgproc/include/opencv2/imgproc/types_c.h
  ../nestk/deps/opencv/modules/highgui/include/opencv2/highgui/highgui.hpp
  ../nestk/deps/opencv/modules/highgui/include/opencv2/highgui/highgui_c.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/bitstrm.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/grfmt_base.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/grfmt_bmp.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/grfmt_exr.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/grfmt_imageio.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/grfmt_jpeg.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/grfmt_jpeg2000.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/grfmt_png.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/grfmt_pxm.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/grfmt_sunras.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/grfmt_tiff.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/grfmts.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/loadsave.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/precomp.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/utils.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/bitstrm.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/grfmt_base.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/grfmt_bmp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/grfmt_exr.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/grfmt_imageio.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/grfmt_jpeg.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/grfmt_jpeg2000.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/grfmt_png.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/grfmt_pxm.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/grfmt_sunras.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/grfmt_tiff.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/grfmts.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/loadsave.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/utils.hpp
  cvconfig.h
 nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/precomp.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -542,8 +353,8 @@ nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/precomp.o
  ../nestk/deps/opencv/modules/highgui/../imgproc/include/opencv2/imgproc/types_c.h
  ../nestk/deps/opencv/modules/highgui/include/opencv2/highgui/highgui.hpp
  ../nestk/deps/opencv/modules/highgui/include/opencv2/highgui/highgui_c.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/precomp.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/precomp.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/utils.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -559,9 +370,9 @@ nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/utils.o
  ../nestk/deps/opencv/modules/highgui/../imgproc/include/opencv2/imgproc/types_c.h
  ../nestk/deps/opencv/modules/highgui/include/opencv2/highgui/highgui.hpp
  ../nestk/deps/opencv/modules/highgui/include/opencv2/highgui/highgui_c.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/precomp.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/utils.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/utils.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/utils.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/utils.hpp
  cvconfig.h
 nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/window.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -577,8 +388,8 @@ nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/window.o
  ../nestk/deps/opencv/modules/highgui/../imgproc/include/opencv2/imgproc/types_c.h
  ../nestk/deps/opencv/modules/highgui/include/opencv2/highgui/highgui.hpp
  ../nestk/deps/opencv/modules/highgui/include/opencv2/highgui/highgui_c.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/precomp.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/window.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/window.cpp
  cvconfig.h
 nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/window_gtk.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -594,8 +405,8 @@ nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/window_gtk.o
  ../nestk/deps/opencv/modules/highgui/../imgproc/include/opencv2/imgproc/types_c.h
  ../nestk/deps/opencv/modules/highgui/include/opencv2/highgui/highgui.hpp
  ../nestk/deps/opencv/modules/highgui/include/opencv2/highgui/highgui_c.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/precomp.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/window_gtk.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/window_gtk.cpp
  /usr/include/atk-1.0/atk/atk.h
  /usr/include/atk-1.0/atk/atkaction.h
  /usr/include/atk-1.0/atk/atkcomponent.h
@@ -629,6 +440,15 @@ nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/window_gtk.o
  /usr/include/cairo/cairo-features.h
  /usr/include/cairo/cairo-version.h
  /usr/include/cairo/cairo.h
+ /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-animation.h
+ /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-core.h
+ /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-enum-types.h
+ /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-features.h
+ /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-io.h
+ /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-loader.h
+ /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-simple-anim.h
+ /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-transform.h
+ /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h
  /usr/include/glib-2.0/gio/gappinfo.h
  /usr/include/glib-2.0/gio/gasyncinitable.h
  /usr/include/glib-2.0/gio/gasyncresult.h
@@ -640,8 +460,21 @@ nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/window_gtk.o
  /usr/include/glib-2.0/gio/gconverter.h
  /usr/include/glib-2.0/gio/gconverterinputstream.h
  /usr/include/glib-2.0/gio/gconverteroutputstream.h
+ /usr/include/glib-2.0/gio/gcredentials.h
  /usr/include/glib-2.0/gio/gdatainputstream.h
  /usr/include/glib-2.0/gio/gdataoutputstream.h
+ /usr/include/glib-2.0/gio/gdbusaddress.h
+ /usr/include/glib-2.0/gio/gdbusauthobserver.h
+ /usr/include/glib-2.0/gio/gdbusconnection.h
+ /usr/include/glib-2.0/gio/gdbuserror.h
+ /usr/include/glib-2.0/gio/gdbusintrospection.h
+ /usr/include/glib-2.0/gio/gdbusmessage.h
+ /usr/include/glib-2.0/gio/gdbusmethodinvocation.h
+ /usr/include/glib-2.0/gio/gdbusnameowning.h
+ /usr/include/glib-2.0/gio/gdbusnamewatching.h
+ /usr/include/glib-2.0/gio/gdbusproxy.h
+ /usr/include/glib-2.0/gio/gdbusserver.h
+ /usr/include/glib-2.0/gio/gdbusutils.h
  /usr/include/glib-2.0/gio/gdrive.h
  /usr/include/glib-2.0/gio/gemblem.h
  /usr/include/glib-2.0/gio/gemblemedicon.h
@@ -679,9 +512,16 @@ nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/window_gtk.o
  /usr/include/glib-2.0/gio/gnetworkaddress.h
  /usr/include/glib-2.0/gio/gnetworkservice.h
  /usr/include/glib-2.0/gio/goutputstream.h
+ /usr/include/glib-2.0/gio/gpermission.h
+ /usr/include/glib-2.0/gio/gproxy.h
+ /usr/include/glib-2.0/gio/gproxyaddress.h
+ /usr/include/glib-2.0/gio/gproxyaddressenumerator.h
+ /usr/include/glib-2.0/gio/gproxyresolver.h
  /usr/include/glib-2.0/gio/gresolver.h
  /usr/include/glib-2.0/gio/gseekable.h
+ /usr/include/glib-2.0/gio/gsettings.h
  /usr/include/glib-2.0/gio/gsimpleasyncresult.h
+ /usr/include/glib-2.0/gio/gsimplepermission.h
  /usr/include/glib-2.0/gio/gsocket.h
  /usr/include/glib-2.0/gio/gsocketaddress.h
  /usr/include/glib-2.0/gio/gsocketaddressenumerator.h
@@ -716,6 +556,7 @@ nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/window_gtk.o
  /usr/include/glib-2.0/glib/gconvert.h
  /usr/include/glib-2.0/glib/gdataset.h
  /usr/include/glib-2.0/glib/gdate.h
+ /usr/include/glib-2.0/glib/gdatetime.h
  /usr/include/glib-2.0/glib/gdir.h
  /usr/include/glib-2.0/glib/gerror.h
  /usr/include/glib-2.0/glib/gfileutils.h
@@ -754,6 +595,7 @@ nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/window_gtk.o
  /usr/include/glib-2.0/glib/gthread.h
  /usr/include/glib-2.0/glib/gthreadpool.h
  /usr/include/glib-2.0/glib/gtimer.h
+ /usr/include/glib-2.0/glib/gtimezone.h
  /usr/include/glib-2.0/glib/gtree.h
  /usr/include/glib-2.0/glib/gtypes.h
  /usr/include/glib-2.0/glib/gunicode.h
@@ -763,6 +605,7 @@ nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/window_gtk.o
  /usr/include/glib-2.0/glib/gvarianttype.h
  /usr/include/glib-2.0/glib/gwin32.h
  /usr/include/glib-2.0/gmodule.h
+ /usr/include/glib-2.0/gobject/gbinding.h
  /usr/include/glib-2.0/gobject/gboxed.h
  /usr/include/glib-2.0/gobject/gclosure.h
  /usr/include/glib-2.0/gobject/genums.h
@@ -778,15 +621,6 @@ nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/window_gtk.o
  /usr/include/glib-2.0/gobject/gvalue.h
  /usr/include/glib-2.0/gobject/gvaluearray.h
  /usr/include/glib-2.0/gobject/gvaluetypes.h
- /usr/include/gtk-2.0/gdk-pixbuf/gdk-pixbuf-animation.h
- /usr/include/gtk-2.0/gdk-pixbuf/gdk-pixbuf-core.h
- /usr/include/gtk-2.0/gdk-pixbuf/gdk-pixbuf-enum-types.h
- /usr/include/gtk-2.0/gdk-pixbuf/gdk-pixbuf-features.h
- /usr/include/gtk-2.0/gdk-pixbuf/gdk-pixbuf-io.h
- /usr/include/gtk-2.0/gdk-pixbuf/gdk-pixbuf-loader.h
- /usr/include/gtk-2.0/gdk-pixbuf/gdk-pixbuf-simple-anim.h
- /usr/include/gtk-2.0/gdk-pixbuf/gdk-pixbuf-transform.h
- /usr/include/gtk-2.0/gdk-pixbuf/gdk-pixbuf.h
  /usr/include/gtk-2.0/gdk/gdk.h
  /usr/include/gtk-2.0/gdk/gdkapplaunchcontext.h
  /usr/include/gtk-2.0/gdk/gdkcairo.h
@@ -803,6 +637,7 @@ nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/window_gtk.o
  /usr/include/gtk-2.0/gdk/gdkimage.h
  /usr/include/gtk-2.0/gdk/gdkinput.h
  /usr/include/gtk-2.0/gdk/gdkkeys.h
+ /usr/include/gtk-2.0/gdk/gdkkeysyms-compat.h
  /usr/include/gtk-2.0/gdk/gdkkeysyms.h
  /usr/include/gtk-2.0/gdk/gdkpango.h
  /usr/include/gtk-2.0/gdk/gdkpixbuf.h
@@ -1027,6 +862,8 @@ nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/window_gtk.o
  /usr/include/gtk-2.0/gtk/gtkvseparator.h
  /usr/include/gtk-2.0/gtk/gtkwidget.h
  /usr/include/gtk-2.0/gtk/gtkwindow.h
+ /usr/include/gtk-2.0/gtk/ubuntumenuproxy.h
+ /usr/include/gtk-2.0/gtk/ubuntumenuproxymodule.h
  /usr/include/pango-1.0/pango/pango-attributes.h
  /usr/include/pango-1.0/pango/pango-bidi-type.h
  /usr/include/pango-1.0/pango/pango-break.h

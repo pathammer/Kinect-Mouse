@@ -12,7 +12,7 @@ stdint.h
 libusb-1.0/libusb.h
 -
 
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/libfreenect/fakenect/record.c
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/libfreenect/fakenect/record.c
 sys/stat.h
 -
 sys/types.h

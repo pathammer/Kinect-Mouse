@@ -44,9 +44,9 @@ nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining_engine.dir
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/compat.hpp
  ../nestk/deps/opencv/modules/objdetect/include/opencv2/objdetect/objdetect.hpp
  ../nestk/deps/opencv/modules/video/include/opencv2/video/tracking.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/haartraining/_cvcommon.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/haartraining/cvboost.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/haartraining/cvclassifier.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/haartraining/_cvcommon.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/haartraining/cvboost.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/haartraining/cvclassifier.h
  cvconfig.h
 nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining_engine.dir/cvcommon.o
  ../nestk/deps/opencv/include/opencv/cv.h
@@ -91,8 +91,8 @@ nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining_engine.dir
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/compat.hpp
  ../nestk/deps/opencv/modules/objdetect/include/opencv2/objdetect/objdetect.hpp
  ../nestk/deps/opencv/modules/video/include/opencv2/video/tracking.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/haartraining/_cvcommon.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/haartraining/cvcommon.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/haartraining/_cvcommon.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/haartraining/cvcommon.cpp
 nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining_engine.dir/cvhaarclassifier.o
  ../nestk/deps/opencv/include/opencv/cv.h
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -136,10 +136,10 @@ nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining_engine.dir
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/compat.hpp
  ../nestk/deps/opencv/modules/objdetect/include/opencv2/objdetect/objdetect.hpp
  ../nestk/deps/opencv/modules/video/include/opencv2/video/tracking.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/haartraining/_cvcommon.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/haartraining/_cvhaartraining.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/haartraining/cvclassifier.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/haartraining/cvhaarclassifier.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/haartraining/_cvcommon.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/haartraining/_cvhaartraining.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/haartraining/cvclassifier.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/haartraining/cvhaarclassifier.cpp
 nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining_engine.dir/cvhaartraining.o
  ../nestk/deps/opencv/include/opencv/cv.h
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -186,11 +186,11 @@ nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining_engine.dir
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/compat.hpp
  ../nestk/deps/opencv/modules/objdetect/include/opencv2/objdetect/objdetect.hpp
  ../nestk/deps/opencv/modules/video/include/opencv2/video/tracking.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/haartraining/_cvcommon.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/haartraining/_cvhaartraining.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/haartraining/cvclassifier.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/haartraining/cvhaartraining.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/haartraining/cvhaartraining.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/haartraining/_cvcommon.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/haartraining/_cvhaartraining.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/haartraining/cvclassifier.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/haartraining/cvhaartraining.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/haartraining/cvhaartraining.h
 nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining_engine.dir/cvsamples.o
  ../nestk/deps/opencv/include/opencv/cv.h
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -237,8 +237,8 @@ nestk/deps/opencv/modules/haartraining/CMakeFiles/opencv_haartraining_engine.dir
  ../nestk/deps/opencv/modules/legacy/include/opencv2/legacy/compat.hpp
  ../nestk/deps/opencv/modules/objdetect/include/opencv2/objdetect/objdetect.hpp
  ../nestk/deps/opencv/modules/video/include/opencv2/video/tracking.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/haartraining/_cvcommon.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/haartraining/_cvhaartraining.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/haartraining/cvclassifier.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/haartraining/cvhaartraining.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/haartraining/cvsamples.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/haartraining/_cvcommon.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/haartraining/_cvhaartraining.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/haartraining/cvclassifier.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/haartraining/cvhaartraining.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/haartraining/cvsamples.cpp

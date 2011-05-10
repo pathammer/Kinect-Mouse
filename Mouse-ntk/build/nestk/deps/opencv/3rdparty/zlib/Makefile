@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/louis/Documents/Motion Capture/Mouse"
+CMAKE_SOURCE_DIR = /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/louis/Documents/Motion Capture/Mouse/build"
+CMAKE_BINARY_DIR = /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -110,14 +110,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/3rdparty/zlib/CMakeFiles/progress.marks"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f CMakeFiles/Makefile2 nestk/deps/opencv/3rdparty/zlib/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" 0
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/3rdparty/zlib/CMakeFiles/progress.marks
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f CMakeFiles/Makefile2 nestk/deps/opencv/3rdparty/zlib/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f CMakeFiles/Makefile2 nestk/deps/opencv/3rdparty/zlib/clean
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f CMakeFiles/Makefile2 nestk/deps/opencv/3rdparty/zlib/clean
 .PHONY : clean
 
 # The main clean target
@@ -126,22 +126,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f CMakeFiles/Makefile2 nestk/deps/opencv/3rdparty/zlib/preinstall
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f CMakeFiles/Makefile2 nestk/deps/opencv/3rdparty/zlib/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f CMakeFiles/Makefile2 nestk/deps/opencv/3rdparty/zlib/preinstall
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f CMakeFiles/Makefile2 nestk/deps/opencv/3rdparty/zlib/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/rule:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f CMakeFiles/Makefile2 nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/rule
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f CMakeFiles/Makefile2 nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/rule
 .PHONY : nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/rule
 
 # Convenience name for target.
@@ -150,232 +150,232 @@ zlib: nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/rule
 
 # fast build rule for target.
 zlib/fast:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/build.make nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/build
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/build.make nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/build
 .PHONY : zlib/fast
 
 # target to build an object file
 adler32.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/build.make nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/adler32.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/build.make nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/adler32.o
 .PHONY : adler32.o
 
 # target to preprocess a source file
 adler32.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/build.make nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/adler32.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/build.make nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/adler32.i
 .PHONY : adler32.i
 
 # target to generate assembly for a file
 adler32.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/build.make nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/adler32.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/build.make nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/adler32.s
 .PHONY : adler32.s
 
 # target to build an object file
 compress.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/build.make nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/compress.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/build.make nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/compress.o
 .PHONY : compress.o
 
 # target to preprocess a source file
 compress.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/build.make nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/compress.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/build.make nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/compress.i
 .PHONY : compress.i
 
 # target to generate assembly for a file
 compress.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/build.make nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/compress.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/build.make nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/compress.s
 .PHONY : compress.s
 
 # target to build an object file
 crc32.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/build.make nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/crc32.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/build.make nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/crc32.o
 .PHONY : crc32.o
 
 # target to preprocess a source file
 crc32.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/build.make nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/crc32.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/build.make nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/crc32.i
 .PHONY : crc32.i
 
 # target to generate assembly for a file
 crc32.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/build.make nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/crc32.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/build.make nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/crc32.s
 .PHONY : crc32.s
 
 # target to build an object file
 deflate.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/build.make nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/deflate.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/build.make nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/deflate.o
 .PHONY : deflate.o
 
 # target to preprocess a source file
 deflate.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/build.make nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/deflate.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/build.make nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/deflate.i
 .PHONY : deflate.i
 
 # target to generate assembly for a file
 deflate.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/build.make nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/deflate.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/build.make nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/deflate.s
 .PHONY : deflate.s
 
 # target to build an object file
 gzclose.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/build.make nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/gzclose.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/build.make nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/gzclose.o
 .PHONY : gzclose.o
 
 # target to preprocess a source file
 gzclose.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/build.make nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/gzclose.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/build.make nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/gzclose.i
 .PHONY : gzclose.i
 
 # target to generate assembly for a file
 gzclose.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/build.make nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/gzclose.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/build.make nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/gzclose.s
 .PHONY : gzclose.s
 
 # target to build an object file
 gzlib.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/build.make nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/gzlib.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/build.make nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/gzlib.o
 .PHONY : gzlib.o
 
 # target to preprocess a source file
 gzlib.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/build.make nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/gzlib.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/build.make nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/gzlib.i
 .PHONY : gzlib.i
 
 # target to generate assembly for a file
 gzlib.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/build.make nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/gzlib.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/build.make nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/gzlib.s
 .PHONY : gzlib.s
 
 # target to build an object file
 gzread.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/build.make nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/gzread.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/build.make nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/gzread.o
 .PHONY : gzread.o
 
 # target to preprocess a source file
 gzread.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/build.make nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/gzread.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/build.make nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/gzread.i
 .PHONY : gzread.i
 
 # target to generate assembly for a file
 gzread.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/build.make nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/gzread.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/build.make nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/gzread.s
 .PHONY : gzread.s
 
 # target to build an object file
 gzwrite.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/build.make nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/gzwrite.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/build.make nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/gzwrite.o
 .PHONY : gzwrite.o
 
 # target to preprocess a source file
 gzwrite.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/build.make nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/gzwrite.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/build.make nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/gzwrite.i
 .PHONY : gzwrite.i
 
 # target to generate assembly for a file
 gzwrite.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/build.make nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/gzwrite.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/build.make nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/gzwrite.s
 .PHONY : gzwrite.s
 
 # target to build an object file
 infback.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/build.make nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/infback.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/build.make nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/infback.o
 .PHONY : infback.o
 
 # target to preprocess a source file
 infback.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/build.make nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/infback.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/build.make nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/infback.i
 .PHONY : infback.i
 
 # target to generate assembly for a file
 infback.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/build.make nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/infback.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/build.make nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/infback.s
 .PHONY : infback.s
 
 # target to build an object file
 inffast.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/build.make nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/inffast.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/build.make nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/inffast.o
 .PHONY : inffast.o
 
 # target to preprocess a source file
 inffast.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/build.make nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/inffast.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/build.make nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/inffast.i
 .PHONY : inffast.i
 
 # target to generate assembly for a file
 inffast.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/build.make nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/inffast.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/build.make nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/inffast.s
 .PHONY : inffast.s
 
 # target to build an object file
 inflate.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/build.make nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/inflate.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/build.make nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/inflate.o
 .PHONY : inflate.o
 
 # target to preprocess a source file
 inflate.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/build.make nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/inflate.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/build.make nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/inflate.i
 .PHONY : inflate.i
 
 # target to generate assembly for a file
 inflate.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/build.make nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/inflate.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/build.make nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/inflate.s
 .PHONY : inflate.s
 
 # target to build an object file
 inftrees.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/build.make nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/inftrees.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/build.make nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/inftrees.o
 .PHONY : inftrees.o
 
 # target to preprocess a source file
 inftrees.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/build.make nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/inftrees.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/build.make nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/inftrees.i
 .PHONY : inftrees.i
 
 # target to generate assembly for a file
 inftrees.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/build.make nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/inftrees.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/build.make nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/inftrees.s
 .PHONY : inftrees.s
 
 # target to build an object file
 trees.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/build.make nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/trees.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/build.make nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/trees.o
 .PHONY : trees.o
 
 # target to preprocess a source file
 trees.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/build.make nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/trees.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/build.make nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/trees.i
 .PHONY : trees.i
 
 # target to generate assembly for a file
 trees.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/build.make nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/trees.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/build.make nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/trees.s
 .PHONY : trees.s
 
 # target to build an object file
 uncompr.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/build.make nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/uncompr.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/build.make nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/uncompr.o
 .PHONY : uncompr.o
 
 # target to preprocess a source file
 uncompr.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/build.make nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/uncompr.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/build.make nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/uncompr.i
 .PHONY : uncompr.i
 
 # target to generate assembly for a file
 uncompr.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/build.make nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/uncompr.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/build.make nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/uncompr.s
 .PHONY : uncompr.s
 
 # target to build an object file
 zutil.o:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/build.make nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/zutil.o
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/build.make nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/zutil.o
 .PHONY : zutil.o
 
 # target to preprocess a source file
 zutil.i:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/build.make nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/zutil.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/build.make nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/zutil.i
 .PHONY : zutil.i
 
 # target to generate assembly for a file
 zutil.s:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(MAKE) -f nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/build.make nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/zutil.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(MAKE) -f nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/build.make nestk/deps/opencv/3rdparty/zlib/CMakeFiles/zlib.dir/zutil.s
 .PHONY : zutil.s
 
 # Help Target
@@ -447,6 +447,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

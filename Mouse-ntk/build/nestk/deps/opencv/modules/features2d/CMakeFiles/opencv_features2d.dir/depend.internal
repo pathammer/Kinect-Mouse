@@ -38,8 +38,8 @@ nestk/deps/opencv/modules/features2d/CMakeFiles/opencv_features2d.dir/src/bagofw
  ../nestk/deps/opencv/modules/features2d/../imgproc/include/opencv2/imgproc/imgproc_c.h
  ../nestk/deps/opencv/modules/features2d/../imgproc/include/opencv2/imgproc/types_c.h
  ../nestk/deps/opencv/modules/features2d/include/opencv2/features2d/features2d.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/features2d/src/bagofwords.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/features2d/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/features2d/src/bagofwords.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/features2d/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/features2d/CMakeFiles/opencv_features2d.dir/src/brief.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -78,11 +78,11 @@ nestk/deps/opencv/modules/features2d/CMakeFiles/opencv_features2d.dir/src/brief.
  ../nestk/deps/opencv/modules/features2d/../imgproc/include/opencv2/imgproc/imgproc_c.h
  ../nestk/deps/opencv/modules/features2d/../imgproc/include/opencv2/imgproc/types_c.h
  ../nestk/deps/opencv/modules/features2d/include/opencv2/features2d/features2d.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/features2d/src/brief.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/features2d/src/generated_16.i
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/features2d/src/generated_32.i
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/features2d/src/generated_64.i
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/features2d/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/features2d/src/brief.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/features2d/src/generated_16.i
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/features2d/src/generated_32.i
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/features2d/src/generated_64.i
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/features2d/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/features2d/CMakeFiles/opencv_features2d.dir/src/calonder.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -121,8 +121,8 @@ nestk/deps/opencv/modules/features2d/CMakeFiles/opencv_features2d.dir/src/calond
  ../nestk/deps/opencv/modules/features2d/../imgproc/include/opencv2/imgproc/imgproc_c.h
  ../nestk/deps/opencv/modules/features2d/../imgproc/include/opencv2/imgproc/types_c.h
  ../nestk/deps/opencv/modules/features2d/include/opencv2/features2d/features2d.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/features2d/src/calonder.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/features2d/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/features2d/src/calonder.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/features2d/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/features2d/CMakeFiles/opencv_features2d.dir/src/descriptors.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -161,8 +161,8 @@ nestk/deps/opencv/modules/features2d/CMakeFiles/opencv_features2d.dir/src/descri
  ../nestk/deps/opencv/modules/features2d/../imgproc/include/opencv2/imgproc/imgproc_c.h
  ../nestk/deps/opencv/modules/features2d/../imgproc/include/opencv2/imgproc/types_c.h
  ../nestk/deps/opencv/modules/features2d/include/opencv2/features2d/features2d.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/features2d/src/descriptors.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/features2d/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/features2d/src/descriptors.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/features2d/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/features2d/CMakeFiles/opencv_features2d.dir/src/detectors.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -201,8 +201,8 @@ nestk/deps/opencv/modules/features2d/CMakeFiles/opencv_features2d.dir/src/detect
  ../nestk/deps/opencv/modules/features2d/../imgproc/include/opencv2/imgproc/imgproc_c.h
  ../nestk/deps/opencv/modules/features2d/../imgproc/include/opencv2/imgproc/types_c.h
  ../nestk/deps/opencv/modules/features2d/include/opencv2/features2d/features2d.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/features2d/src/detectors.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/features2d/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/features2d/src/detectors.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/features2d/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/features2d/CMakeFiles/opencv_features2d.dir/src/draw.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -241,8 +241,8 @@ nestk/deps/opencv/modules/features2d/CMakeFiles/opencv_features2d.dir/src/draw.o
  ../nestk/deps/opencv/modules/features2d/../imgproc/include/opencv2/imgproc/imgproc_c.h
  ../nestk/deps/opencv/modules/features2d/../imgproc/include/opencv2/imgproc/types_c.h
  ../nestk/deps/opencv/modules/features2d/include/opencv2/features2d/features2d.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/features2d/src/draw.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/features2d/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/features2d/src/draw.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/features2d/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/features2d/CMakeFiles/opencv_features2d.dir/src/dynamic.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -281,8 +281,8 @@ nestk/deps/opencv/modules/features2d/CMakeFiles/opencv_features2d.dir/src/dynami
  ../nestk/deps/opencv/modules/features2d/../imgproc/include/opencv2/imgproc/imgproc_c.h
  ../nestk/deps/opencv/modules/features2d/../imgproc/include/opencv2/imgproc/types_c.h
  ../nestk/deps/opencv/modules/features2d/include/opencv2/features2d/features2d.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/features2d/src/dynamic.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/features2d/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/features2d/src/dynamic.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/features2d/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/features2d/CMakeFiles/opencv_features2d.dir/src/evaluation.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -321,8 +321,8 @@ nestk/deps/opencv/modules/features2d/CMakeFiles/opencv_features2d.dir/src/evalua
  ../nestk/deps/opencv/modules/features2d/../imgproc/include/opencv2/imgproc/imgproc_c.h
  ../nestk/deps/opencv/modules/features2d/../imgproc/include/opencv2/imgproc/types_c.h
  ../nestk/deps/opencv/modules/features2d/include/opencv2/features2d/features2d.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/features2d/src/evaluation.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/features2d/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/features2d/src/evaluation.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/features2d/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/features2d/CMakeFiles/opencv_features2d.dir/src/fast.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -361,8 +361,8 @@ nestk/deps/opencv/modules/features2d/CMakeFiles/opencv_features2d.dir/src/fast.o
  ../nestk/deps/opencv/modules/features2d/../imgproc/include/opencv2/imgproc/imgproc_c.h
  ../nestk/deps/opencv/modules/features2d/../imgproc/include/opencv2/imgproc/types_c.h
  ../nestk/deps/opencv/modules/features2d/include/opencv2/features2d/features2d.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/features2d/src/fast.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/features2d/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/features2d/src/fast.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/features2d/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/features2d/CMakeFiles/opencv_features2d.dir/src/keypoint.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -401,8 +401,8 @@ nestk/deps/opencv/modules/features2d/CMakeFiles/opencv_features2d.dir/src/keypoi
  ../nestk/deps/opencv/modules/features2d/../imgproc/include/opencv2/imgproc/imgproc_c.h
  ../nestk/deps/opencv/modules/features2d/../imgproc/include/opencv2/imgproc/types_c.h
  ../nestk/deps/opencv/modules/features2d/include/opencv2/features2d/features2d.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/features2d/src/keypoint.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/features2d/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/features2d/src/keypoint.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/features2d/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/features2d/CMakeFiles/opencv_features2d.dir/src/matchers.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -441,8 +441,8 @@ nestk/deps/opencv/modules/features2d/CMakeFiles/opencv_features2d.dir/src/matche
  ../nestk/deps/opencv/modules/features2d/../imgproc/include/opencv2/imgproc/imgproc_c.h
  ../nestk/deps/opencv/modules/features2d/../imgproc/include/opencv2/imgproc/types_c.h
  ../nestk/deps/opencv/modules/features2d/include/opencv2/features2d/features2d.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/features2d/src/matchers.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/features2d/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/features2d/src/matchers.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/features2d/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/features2d/CMakeFiles/opencv_features2d.dir/src/mser.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -481,8 +481,8 @@ nestk/deps/opencv/modules/features2d/CMakeFiles/opencv_features2d.dir/src/mser.o
  ../nestk/deps/opencv/modules/features2d/../imgproc/include/opencv2/imgproc/imgproc_c.h
  ../nestk/deps/opencv/modules/features2d/../imgproc/include/opencv2/imgproc/types_c.h
  ../nestk/deps/opencv/modules/features2d/include/opencv2/features2d/features2d.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/features2d/src/mser.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/features2d/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/features2d/src/mser.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/features2d/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/features2d/CMakeFiles/opencv_features2d.dir/src/oneway.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -523,8 +523,8 @@ nestk/deps/opencv/modules/features2d/CMakeFiles/opencv_features2d.dir/src/oneway
  ../nestk/deps/opencv/modules/features2d/../imgproc/include/opencv2/imgproc/imgproc_c.h
  ../nestk/deps/opencv/modules/features2d/../imgproc/include/opencv2/imgproc/types_c.h
  ../nestk/deps/opencv/modules/features2d/include/opencv2/features2d/features2d.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/features2d/src/oneway.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/features2d/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/features2d/src/oneway.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/features2d/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/features2d/CMakeFiles/opencv_features2d.dir/src/planardetect.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -564,8 +564,8 @@ nestk/deps/opencv/modules/features2d/CMakeFiles/opencv_features2d.dir/src/planar
  ../nestk/deps/opencv/modules/features2d/../imgproc/include/opencv2/imgproc/imgproc_c.h
  ../nestk/deps/opencv/modules/features2d/../imgproc/include/opencv2/imgproc/types_c.h
  ../nestk/deps/opencv/modules/features2d/include/opencv2/features2d/features2d.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/features2d/src/planardetect.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/features2d/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/features2d/src/planardetect.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/features2d/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/features2d/CMakeFiles/opencv_features2d.dir/src/precomp.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -604,8 +604,8 @@ nestk/deps/opencv/modules/features2d/CMakeFiles/opencv_features2d.dir/src/precom
  ../nestk/deps/opencv/modules/features2d/../imgproc/include/opencv2/imgproc/imgproc_c.h
  ../nestk/deps/opencv/modules/features2d/../imgproc/include/opencv2/imgproc/types_c.h
  ../nestk/deps/opencv/modules/features2d/include/opencv2/features2d/features2d.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/features2d/src/precomp.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/features2d/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/features2d/src/precomp.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/features2d/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/features2d/CMakeFiles/opencv_features2d.dir/src/sift.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -644,8 +644,8 @@ nestk/deps/opencv/modules/features2d/CMakeFiles/opencv_features2d.dir/src/sift.o
  ../nestk/deps/opencv/modules/features2d/../imgproc/include/opencv2/imgproc/imgproc_c.h
  ../nestk/deps/opencv/modules/features2d/../imgproc/include/opencv2/imgproc/types_c.h
  ../nestk/deps/opencv/modules/features2d/include/opencv2/features2d/features2d.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/features2d/src/precomp.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/features2d/src/sift.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/features2d/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/features2d/src/sift.cpp
  cvconfig.h
 nestk/deps/opencv/modules/features2d/CMakeFiles/opencv_features2d.dir/src/stardetector.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -684,8 +684,8 @@ nestk/deps/opencv/modules/features2d/CMakeFiles/opencv_features2d.dir/src/starde
  ../nestk/deps/opencv/modules/features2d/../imgproc/include/opencv2/imgproc/imgproc_c.h
  ../nestk/deps/opencv/modules/features2d/../imgproc/include/opencv2/imgproc/types_c.h
  ../nestk/deps/opencv/modules/features2d/include/opencv2/features2d/features2d.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/features2d/src/precomp.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/features2d/src/stardetector.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/features2d/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/features2d/src/stardetector.cpp
  cvconfig.h
 nestk/deps/opencv/modules/features2d/CMakeFiles/opencv_features2d.dir/src/surf.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -724,6 +724,6 @@ nestk/deps/opencv/modules/features2d/CMakeFiles/opencv_features2d.dir/src/surf.o
  ../nestk/deps/opencv/modules/features2d/../imgproc/include/opencv2/imgproc/imgproc_c.h
  ../nestk/deps/opencv/modules/features2d/../imgproc/include/opencv2/imgproc/types_c.h
  ../nestk/deps/opencv/modules/features2d/include/opencv2/features2d/features2d.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/features2d/src/precomp.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/features2d/src/surf.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/features2d/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/features2d/src/surf.cpp
  cvconfig.h

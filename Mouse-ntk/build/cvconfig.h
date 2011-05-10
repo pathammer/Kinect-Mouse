@@ -29,22 +29,22 @@
 /* #undef HAVE_DC1394_095 */
 
 /* IEEE1394 capturing support - libdc1394 v2.x */
-#define HAVE_DC1394_2
+/* #undef HAVE_DC1394_2 */
 
 /* ffmpeg in Gentoo */
-#define HAVE_GENTOO_FFMPEG
+/* #undef HAVE_GENTOO_FFMPEG */
 
 /* FFMpeg video library */
-#define  HAVE_FFMPEG
+/* #undef HAVE_FFMPEG */
 
 /* ffmpeg's libswscale */
-#define  HAVE_FFMPEG_SWSCALE
+/* #undef HAVE_FFMPEG_SWSCALE */
 
 /* GStreamer multimedia framework */
-#define  HAVE_GSTREAMER
+/* #undef HAVE_GSTREAMER */
 
 /* GStreamer with gstappsink & gstappsrc */
-#define  HAVE_GSTREAMER_APP
+/* #undef HAVE_GSTREAMER_APP */
 
 /* GTK+ 2.0 Thread support */
 #define  HAVE_GTHREAD

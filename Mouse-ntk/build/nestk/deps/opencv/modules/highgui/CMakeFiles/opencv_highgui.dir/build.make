@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/louis/Documents/Motion Capture/Mouse"
+CMAKE_SOURCE_DIR = /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/louis/Documents/Motion Capture/Mouse/build"
+CMAKE_BINARY_DIR = /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build
 
 # Include any dependencies generated for this target.
 include nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/depend.make
@@ -51,17 +51,17 @@ include nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/flags.ma
 
 nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap.o: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/flags.make
 nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap.o: ../nestk/deps/opencv/modules/highgui/src/cap.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/highgui" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_highgui.dir/src/cap.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/cap.cpp"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/highgui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_highgui.dir/src/cap.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/cap.cpp
 
 nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_highgui.dir/src/cap.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/highgui" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/cap.cpp" > CMakeFiles/opencv_highgui.dir/src/cap.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/highgui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/cap.cpp > CMakeFiles/opencv_highgui.dir/src/cap.i
 
 nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_highgui.dir/src/cap.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/highgui" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/cap.cpp" -o CMakeFiles/opencv_highgui.dir/src/cap.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/highgui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/cap.cpp -o CMakeFiles/opencv_highgui.dir/src/cap.s
 
 nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap.o.requires:
 .PHONY : nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap.o.requires
@@ -75,17 +75,17 @@ nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap.o.provid
 
 nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_images.o: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/flags.make
 nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_images.o: ../nestk/deps/opencv/modules/highgui/src/cap_images.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_images.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/highgui" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_highgui.dir/src/cap_images.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/cap_images.cpp"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/highgui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_highgui.dir/src/cap_images.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/cap_images.cpp
 
 nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_images.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_highgui.dir/src/cap_images.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/highgui" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/cap_images.cpp" > CMakeFiles/opencv_highgui.dir/src/cap_images.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/highgui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/cap_images.cpp > CMakeFiles/opencv_highgui.dir/src/cap_images.i
 
 nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_images.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_highgui.dir/src/cap_images.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/highgui" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/cap_images.cpp" -o CMakeFiles/opencv_highgui.dir/src/cap_images.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/highgui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/cap_images.cpp -o CMakeFiles/opencv_highgui.dir/src/cap_images.s
 
 nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_images.o.requires:
 .PHONY : nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_images.o.requires
@@ -99,17 +99,17 @@ nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_images.o
 
 nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/loadsave.o: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/flags.make
 nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/loadsave.o: ../nestk/deps/opencv/modules/highgui/src/loadsave.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/loadsave.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/highgui" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_highgui.dir/src/loadsave.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/loadsave.cpp"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/highgui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_highgui.dir/src/loadsave.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/loadsave.cpp
 
 nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/loadsave.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_highgui.dir/src/loadsave.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/highgui" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/loadsave.cpp" > CMakeFiles/opencv_highgui.dir/src/loadsave.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/highgui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/loadsave.cpp > CMakeFiles/opencv_highgui.dir/src/loadsave.i
 
 nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/loadsave.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_highgui.dir/src/loadsave.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/highgui" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/loadsave.cpp" -o CMakeFiles/opencv_highgui.dir/src/loadsave.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/highgui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/loadsave.cpp -o CMakeFiles/opencv_highgui.dir/src/loadsave.s
 
 nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/loadsave.o.requires:
 .PHONY : nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/loadsave.o.requires
@@ -123,17 +123,17 @@ nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/loadsave.o.p
 
 nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/precomp.o: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/flags.make
 nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/precomp.o: ../nestk/deps/opencv/modules/highgui/src/precomp.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/precomp.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/highgui" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_highgui.dir/src/precomp.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/precomp.cpp"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/highgui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_highgui.dir/src/precomp.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/precomp.cpp
 
 nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/precomp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_highgui.dir/src/precomp.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/highgui" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/precomp.cpp" > CMakeFiles/opencv_highgui.dir/src/precomp.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/highgui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/precomp.cpp > CMakeFiles/opencv_highgui.dir/src/precomp.i
 
 nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/precomp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_highgui.dir/src/precomp.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/highgui" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/precomp.cpp" -o CMakeFiles/opencv_highgui.dir/src/precomp.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/highgui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/precomp.cpp -o CMakeFiles/opencv_highgui.dir/src/precomp.s
 
 nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/precomp.o.requires:
 .PHONY : nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/precomp.o.requires
@@ -147,17 +147,17 @@ nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/precomp.o.pr
 
 nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/utils.o: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/flags.make
 nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/utils.o: ../nestk/deps/opencv/modules/highgui/src/utils.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/utils.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/highgui" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_highgui.dir/src/utils.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/utils.cpp"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/highgui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_highgui.dir/src/utils.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/utils.cpp
 
 nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/utils.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_highgui.dir/src/utils.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/highgui" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/utils.cpp" > CMakeFiles/opencv_highgui.dir/src/utils.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/highgui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/utils.cpp > CMakeFiles/opencv_highgui.dir/src/utils.i
 
 nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/utils.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_highgui.dir/src/utils.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/highgui" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/utils.cpp" -o CMakeFiles/opencv_highgui.dir/src/utils.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/highgui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/utils.cpp -o CMakeFiles/opencv_highgui.dir/src/utils.s
 
 nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/utils.o.requires:
 .PHONY : nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/utils.o.requires
@@ -171,17 +171,17 @@ nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/utils.o.prov
 
 nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/window.o: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/flags.make
 nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/window.o: ../nestk/deps/opencv/modules/highgui/src/window.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/window.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/highgui" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_highgui.dir/src/window.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/window.cpp"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/highgui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_highgui.dir/src/window.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/window.cpp
 
 nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/window.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_highgui.dir/src/window.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/highgui" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/window.cpp" > CMakeFiles/opencv_highgui.dir/src/window.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/highgui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/window.cpp > CMakeFiles/opencv_highgui.dir/src/window.i
 
 nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/window.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_highgui.dir/src/window.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/highgui" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/window.cpp" -o CMakeFiles/opencv_highgui.dir/src/window.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/highgui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/window.cpp -o CMakeFiles/opencv_highgui.dir/src/window.s
 
 nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/window.o.requires:
 .PHONY : nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/window.o.requires
@@ -195,17 +195,17 @@ nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/window.o.pro
 
 nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/window_gtk.o: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/flags.make
 nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/window_gtk.o: ../nestk/deps/opencv/modules/highgui/src/window_gtk.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/window_gtk.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/highgui" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_highgui.dir/src/window_gtk.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/window_gtk.cpp"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/highgui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_highgui.dir/src/window_gtk.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/window_gtk.cpp
 
 nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/window_gtk.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_highgui.dir/src/window_gtk.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/highgui" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/window_gtk.cpp" > CMakeFiles/opencv_highgui.dir/src/window_gtk.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/highgui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/window_gtk.cpp > CMakeFiles/opencv_highgui.dir/src/window_gtk.i
 
 nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/window_gtk.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_highgui.dir/src/window_gtk.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/highgui" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/window_gtk.cpp" -o CMakeFiles/opencv_highgui.dir/src/window_gtk.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/highgui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/window_gtk.cpp -o CMakeFiles/opencv_highgui.dir/src/window_gtk.s
 
 nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/window_gtk.o.requires:
 .PHONY : nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/window_gtk.o.requires
@@ -217,115 +217,43 @@ nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/window_gtk.o
 nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/window_gtk.o.provides.build: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/window_gtk.o
 .PHONY : nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/window_gtk.o.provides.build
 
-nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_dc1394_v2.o: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/flags.make
-nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_dc1394_v2.o: ../nestk/deps/opencv/modules/highgui/src/cap_dc1394_v2.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_8)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_dc1394_v2.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/highgui" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_highgui.dir/src/cap_dc1394_v2.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/cap_dc1394_v2.cpp"
+nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_v4l.o: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/flags.make
+nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_v4l.o: ../nestk/deps/opencv/modules/highgui/src/cap_v4l.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_8)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_v4l.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/highgui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_highgui.dir/src/cap_v4l.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/cap_v4l.cpp
 
-nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_dc1394_v2.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_highgui.dir/src/cap_dc1394_v2.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/highgui" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/cap_dc1394_v2.cpp" > CMakeFiles/opencv_highgui.dir/src/cap_dc1394_v2.i
+nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_v4l.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_highgui.dir/src/cap_v4l.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/highgui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/cap_v4l.cpp > CMakeFiles/opencv_highgui.dir/src/cap_v4l.i
 
-nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_dc1394_v2.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_highgui.dir/src/cap_dc1394_v2.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/highgui" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/cap_dc1394_v2.cpp" -o CMakeFiles/opencv_highgui.dir/src/cap_dc1394_v2.s
+nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_v4l.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_highgui.dir/src/cap_v4l.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/highgui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/cap_v4l.cpp -o CMakeFiles/opencv_highgui.dir/src/cap_v4l.s
 
-nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_dc1394_v2.o.requires:
-.PHONY : nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_dc1394_v2.o.requires
+nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_v4l.o.requires:
+.PHONY : nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_v4l.o.requires
 
-nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_dc1394_v2.o.provides: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_dc1394_v2.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_dc1394_v2.o.provides.build
-.PHONY : nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_dc1394_v2.o.provides
+nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_v4l.o.provides: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_v4l.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_v4l.o.provides.build
+.PHONY : nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_v4l.o.provides
 
-nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_dc1394_v2.o.provides.build: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_dc1394_v2.o
-.PHONY : nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_dc1394_v2.o.provides.build
-
-nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_ffmpeg.o: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/flags.make
-nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_ffmpeg.o: ../nestk/deps/opencv/modules/highgui/src/cap_ffmpeg.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_9)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_ffmpeg.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/highgui" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_highgui.dir/src/cap_ffmpeg.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/cap_ffmpeg.cpp"
-
-nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_ffmpeg.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_highgui.dir/src/cap_ffmpeg.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/highgui" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/cap_ffmpeg.cpp" > CMakeFiles/opencv_highgui.dir/src/cap_ffmpeg.i
-
-nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_ffmpeg.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_highgui.dir/src/cap_ffmpeg.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/highgui" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/cap_ffmpeg.cpp" -o CMakeFiles/opencv_highgui.dir/src/cap_ffmpeg.s
-
-nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_ffmpeg.o.requires:
-.PHONY : nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_ffmpeg.o.requires
-
-nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_ffmpeg.o.provides: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_ffmpeg.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_ffmpeg.o.provides.build
-.PHONY : nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_ffmpeg.o.provides
-
-nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_ffmpeg.o.provides.build: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_ffmpeg.o
-.PHONY : nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_ffmpeg.o.provides.build
-
-nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_gstreamer.o: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/flags.make
-nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_gstreamer.o: ../nestk/deps/opencv/modules/highgui/src/cap_gstreamer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_10)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_gstreamer.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/highgui" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_highgui.dir/src/cap_gstreamer.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/cap_gstreamer.cpp"
-
-nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_gstreamer.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_highgui.dir/src/cap_gstreamer.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/highgui" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/cap_gstreamer.cpp" > CMakeFiles/opencv_highgui.dir/src/cap_gstreamer.i
-
-nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_gstreamer.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_highgui.dir/src/cap_gstreamer.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/highgui" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/cap_gstreamer.cpp" -o CMakeFiles/opencv_highgui.dir/src/cap_gstreamer.s
-
-nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_gstreamer.o.requires:
-.PHONY : nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_gstreamer.o.requires
-
-nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_gstreamer.o.provides: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_gstreamer.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_gstreamer.o.provides.build
-.PHONY : nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_gstreamer.o.provides
-
-nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_gstreamer.o.provides.build: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_gstreamer.o
-.PHONY : nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_gstreamer.o.provides.build
-
-nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_libv4l.o: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/flags.make
-nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_libv4l.o: ../nestk/deps/opencv/modules/highgui/src/cap_libv4l.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_11)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_libv4l.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/highgui" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_highgui.dir/src/cap_libv4l.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/cap_libv4l.cpp"
-
-nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_libv4l.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_highgui.dir/src/cap_libv4l.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/highgui" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/cap_libv4l.cpp" > CMakeFiles/opencv_highgui.dir/src/cap_libv4l.i
-
-nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_libv4l.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_highgui.dir/src/cap_libv4l.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/highgui" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/cap_libv4l.cpp" -o CMakeFiles/opencv_highgui.dir/src/cap_libv4l.s
-
-nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_libv4l.o.requires:
-.PHONY : nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_libv4l.o.requires
-
-nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_libv4l.o.provides: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_libv4l.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_libv4l.o.provides.build
-.PHONY : nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_libv4l.o.provides
-
-nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_libv4l.o.provides.build: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_libv4l.o
-.PHONY : nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_libv4l.o.provides.build
+nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_v4l.o.provides.build: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_v4l.o
+.PHONY : nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_v4l.o.provides.build
 
 nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/bitstrm.o: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/flags.make
 nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/bitstrm.o: ../nestk/deps/opencv/modules/highgui/src/bitstrm.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_12)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/bitstrm.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/highgui" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_highgui.dir/src/bitstrm.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/bitstrm.cpp"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/highgui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_highgui.dir/src/bitstrm.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/bitstrm.cpp
 
 nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/bitstrm.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_highgui.dir/src/bitstrm.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/highgui" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/bitstrm.cpp" > CMakeFiles/opencv_highgui.dir/src/bitstrm.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/highgui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/bitstrm.cpp > CMakeFiles/opencv_highgui.dir/src/bitstrm.i
 
 nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/bitstrm.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_highgui.dir/src/bitstrm.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/highgui" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/bitstrm.cpp" -o CMakeFiles/opencv_highgui.dir/src/bitstrm.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/highgui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/bitstrm.cpp -o CMakeFiles/opencv_highgui.dir/src/bitstrm.s
 
 nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/bitstrm.o.requires:
 .PHONY : nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/bitstrm.o.requires
@@ -337,91 +265,19 @@ nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/bitstrm.o.pr
 nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/bitstrm.o.provides.build: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/bitstrm.o
 .PHONY : nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/bitstrm.o.provides.build
 
-nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_pxm.o: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/flags.make
-nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_pxm.o: ../nestk/deps/opencv/modules/highgui/src/grfmt_pxm.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_13)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_pxm.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/highgui" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_highgui.dir/src/grfmt_pxm.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/grfmt_pxm.cpp"
-
-nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_pxm.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_highgui.dir/src/grfmt_pxm.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/highgui" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/grfmt_pxm.cpp" > CMakeFiles/opencv_highgui.dir/src/grfmt_pxm.i
-
-nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_pxm.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_highgui.dir/src/grfmt_pxm.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/highgui" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/grfmt_pxm.cpp" -o CMakeFiles/opencv_highgui.dir/src/grfmt_pxm.s
-
-nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_pxm.o.requires:
-.PHONY : nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_pxm.o.requires
-
-nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_pxm.o.provides: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_pxm.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_pxm.o.provides.build
-.PHONY : nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_pxm.o.provides
-
-nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_pxm.o.provides.build: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_pxm.o
-.PHONY : nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_pxm.o.provides.build
-
-nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_sunras.o: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/flags.make
-nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_sunras.o: ../nestk/deps/opencv/modules/highgui/src/grfmt_sunras.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_14)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_sunras.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/highgui" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_highgui.dir/src/grfmt_sunras.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/grfmt_sunras.cpp"
-
-nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_sunras.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_highgui.dir/src/grfmt_sunras.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/highgui" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/grfmt_sunras.cpp" > CMakeFiles/opencv_highgui.dir/src/grfmt_sunras.i
-
-nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_sunras.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_highgui.dir/src/grfmt_sunras.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/highgui" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/grfmt_sunras.cpp" -o CMakeFiles/opencv_highgui.dir/src/grfmt_sunras.s
-
-nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_sunras.o.requires:
-.PHONY : nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_sunras.o.requires
-
-nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_sunras.o.provides: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_sunras.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_sunras.o.provides.build
-.PHONY : nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_sunras.o.provides
-
-nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_sunras.o.provides.build: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_sunras.o
-.PHONY : nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_sunras.o.provides.build
-
-nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_jpeg2000.o: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/flags.make
-nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_jpeg2000.o: ../nestk/deps/opencv/modules/highgui/src/grfmt_jpeg2000.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_15)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_jpeg2000.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/highgui" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_highgui.dir/src/grfmt_jpeg2000.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/grfmt_jpeg2000.cpp"
-
-nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_jpeg2000.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_highgui.dir/src/grfmt_jpeg2000.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/highgui" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/grfmt_jpeg2000.cpp" > CMakeFiles/opencv_highgui.dir/src/grfmt_jpeg2000.i
-
-nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_jpeg2000.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_highgui.dir/src/grfmt_jpeg2000.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/highgui" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/grfmt_jpeg2000.cpp" -o CMakeFiles/opencv_highgui.dir/src/grfmt_jpeg2000.s
-
-nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_jpeg2000.o.requires:
-.PHONY : nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_jpeg2000.o.requires
-
-nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_jpeg2000.o.provides: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_jpeg2000.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_jpeg2000.o.provides.build
-.PHONY : nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_jpeg2000.o.provides
-
-nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_jpeg2000.o.provides.build: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_jpeg2000.o
-.PHONY : nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_jpeg2000.o.provides.build
-
 nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_jpeg.o: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/flags.make
 nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_jpeg.o: ../nestk/deps/opencv/modules/highgui/src/grfmt_jpeg.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_16)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_jpeg.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/highgui" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_highgui.dir/src/grfmt_jpeg.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/grfmt_jpeg.cpp"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/highgui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_highgui.dir/src/grfmt_jpeg.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/grfmt_jpeg.cpp
 
 nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_jpeg.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_highgui.dir/src/grfmt_jpeg.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/highgui" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/grfmt_jpeg.cpp" > CMakeFiles/opencv_highgui.dir/src/grfmt_jpeg.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/highgui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/grfmt_jpeg.cpp > CMakeFiles/opencv_highgui.dir/src/grfmt_jpeg.i
 
 nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_jpeg.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_highgui.dir/src/grfmt_jpeg.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/highgui" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/grfmt_jpeg.cpp" -o CMakeFiles/opencv_highgui.dir/src/grfmt_jpeg.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/highgui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/grfmt_jpeg.cpp -o CMakeFiles/opencv_highgui.dir/src/grfmt_jpeg.s
 
 nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_jpeg.o.requires:
 .PHONY : nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_jpeg.o.requires
@@ -433,115 +289,19 @@ nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_jpeg.o
 nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_jpeg.o.provides.build: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_jpeg.o
 .PHONY : nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_jpeg.o.provides.build
 
-nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_imageio.o: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/flags.make
-nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_imageio.o: ../nestk/deps/opencv/modules/highgui/src/grfmt_imageio.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_17)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_imageio.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/highgui" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_highgui.dir/src/grfmt_imageio.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/grfmt_imageio.cpp"
-
-nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_imageio.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_highgui.dir/src/grfmt_imageio.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/highgui" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/grfmt_imageio.cpp" > CMakeFiles/opencv_highgui.dir/src/grfmt_imageio.i
-
-nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_imageio.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_highgui.dir/src/grfmt_imageio.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/highgui" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/grfmt_imageio.cpp" -o CMakeFiles/opencv_highgui.dir/src/grfmt_imageio.s
-
-nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_imageio.o.requires:
-.PHONY : nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_imageio.o.requires
-
-nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_imageio.o.provides: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_imageio.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_imageio.o.provides.build
-.PHONY : nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_imageio.o.provides
-
-nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_imageio.o.provides.build: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_imageio.o
-.PHONY : nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_imageio.o.provides.build
-
-nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_exr.o: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/flags.make
-nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_exr.o: ../nestk/deps/opencv/modules/highgui/src/grfmt_exr.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_18)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_exr.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/highgui" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_highgui.dir/src/grfmt_exr.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/grfmt_exr.cpp"
-
-nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_exr.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_highgui.dir/src/grfmt_exr.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/highgui" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/grfmt_exr.cpp" > CMakeFiles/opencv_highgui.dir/src/grfmt_exr.i
-
-nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_exr.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_highgui.dir/src/grfmt_exr.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/highgui" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/grfmt_exr.cpp" -o CMakeFiles/opencv_highgui.dir/src/grfmt_exr.s
-
-nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_exr.o.requires:
-.PHONY : nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_exr.o.requires
-
-nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_exr.o.provides: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_exr.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_exr.o.provides.build
-.PHONY : nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_exr.o.provides
-
-nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_exr.o.provides.build: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_exr.o
-.PHONY : nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_exr.o.provides.build
-
-nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_tiff.o: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/flags.make
-nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_tiff.o: ../nestk/deps/opencv/modules/highgui/src/grfmt_tiff.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_19)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_tiff.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/highgui" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_highgui.dir/src/grfmt_tiff.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/grfmt_tiff.cpp"
-
-nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_tiff.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_highgui.dir/src/grfmt_tiff.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/highgui" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/grfmt_tiff.cpp" > CMakeFiles/opencv_highgui.dir/src/grfmt_tiff.i
-
-nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_tiff.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_highgui.dir/src/grfmt_tiff.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/highgui" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/grfmt_tiff.cpp" -o CMakeFiles/opencv_highgui.dir/src/grfmt_tiff.s
-
-nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_tiff.o.requires:
-.PHONY : nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_tiff.o.requires
-
-nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_tiff.o.provides: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_tiff.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_tiff.o.provides.build
-.PHONY : nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_tiff.o.provides
-
-nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_tiff.o.provides.build: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_tiff.o
-.PHONY : nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_tiff.o.provides.build
-
-nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_png.o: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/flags.make
-nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_png.o: ../nestk/deps/opencv/modules/highgui/src/grfmt_png.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_20)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_png.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/highgui" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_highgui.dir/src/grfmt_png.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/grfmt_png.cpp"
-
-nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_png.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_highgui.dir/src/grfmt_png.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/highgui" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/grfmt_png.cpp" > CMakeFiles/opencv_highgui.dir/src/grfmt_png.i
-
-nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_png.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_highgui.dir/src/grfmt_png.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/highgui" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/grfmt_png.cpp" -o CMakeFiles/opencv_highgui.dir/src/grfmt_png.s
-
-nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_png.o.requires:
-.PHONY : nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_png.o.requires
-
-nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_png.o.provides: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_png.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_png.o.provides.build
-.PHONY : nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_png.o.provides
-
-nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_png.o.provides.build: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_png.o
-.PHONY : nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_png.o.provides.build
-
 nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_base.o: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/flags.make
 nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_base.o: ../nestk/deps/opencv/modules/highgui/src/grfmt_base.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_21)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_base.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/highgui" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_highgui.dir/src/grfmt_base.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/grfmt_base.cpp"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/highgui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_highgui.dir/src/grfmt_base.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/grfmt_base.cpp
 
 nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_base.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_highgui.dir/src/grfmt_base.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/highgui" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/grfmt_base.cpp" > CMakeFiles/opencv_highgui.dir/src/grfmt_base.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/highgui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/grfmt_base.cpp > CMakeFiles/opencv_highgui.dir/src/grfmt_base.i
 
 nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_base.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_highgui.dir/src/grfmt_base.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/highgui" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/grfmt_base.cpp" -o CMakeFiles/opencv_highgui.dir/src/grfmt_base.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/highgui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/grfmt_base.cpp -o CMakeFiles/opencv_highgui.dir/src/grfmt_base.s
 
 nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_base.o.requires:
 .PHONY : nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_base.o.requires
@@ -553,19 +313,115 @@ nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_base.o
 nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_base.o.provides.build: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_base.o
 .PHONY : nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_base.o.provides.build
 
+nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_jpeg2000.o: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/flags.make
+nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_jpeg2000.o: ../nestk/deps/opencv/modules/highgui/src/grfmt_jpeg2000.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_12)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_jpeg2000.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/highgui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_highgui.dir/src/grfmt_jpeg2000.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/grfmt_jpeg2000.cpp
+
+nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_jpeg2000.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_highgui.dir/src/grfmt_jpeg2000.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/highgui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/grfmt_jpeg2000.cpp > CMakeFiles/opencv_highgui.dir/src/grfmt_jpeg2000.i
+
+nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_jpeg2000.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_highgui.dir/src/grfmt_jpeg2000.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/highgui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/grfmt_jpeg2000.cpp -o CMakeFiles/opencv_highgui.dir/src/grfmt_jpeg2000.s
+
+nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_jpeg2000.o.requires:
+.PHONY : nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_jpeg2000.o.requires
+
+nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_jpeg2000.o.provides: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_jpeg2000.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_jpeg2000.o.provides.build
+.PHONY : nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_jpeg2000.o.provides
+
+nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_jpeg2000.o.provides.build: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_jpeg2000.o
+.PHONY : nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_jpeg2000.o.provides.build
+
+nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_pxm.o: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/flags.make
+nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_pxm.o: ../nestk/deps/opencv/modules/highgui/src/grfmt_pxm.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_13)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_pxm.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/highgui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_highgui.dir/src/grfmt_pxm.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/grfmt_pxm.cpp
+
+nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_pxm.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_highgui.dir/src/grfmt_pxm.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/highgui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/grfmt_pxm.cpp > CMakeFiles/opencv_highgui.dir/src/grfmt_pxm.i
+
+nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_pxm.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_highgui.dir/src/grfmt_pxm.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/highgui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/grfmt_pxm.cpp -o CMakeFiles/opencv_highgui.dir/src/grfmt_pxm.s
+
+nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_pxm.o.requires:
+.PHONY : nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_pxm.o.requires
+
+nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_pxm.o.provides: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_pxm.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_pxm.o.provides.build
+.PHONY : nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_pxm.o.provides
+
+nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_pxm.o.provides.build: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_pxm.o
+.PHONY : nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_pxm.o.provides.build
+
+nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_imageio.o: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/flags.make
+nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_imageio.o: ../nestk/deps/opencv/modules/highgui/src/grfmt_imageio.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_14)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_imageio.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/highgui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_highgui.dir/src/grfmt_imageio.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/grfmt_imageio.cpp
+
+nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_imageio.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_highgui.dir/src/grfmt_imageio.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/highgui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/grfmt_imageio.cpp > CMakeFiles/opencv_highgui.dir/src/grfmt_imageio.i
+
+nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_imageio.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_highgui.dir/src/grfmt_imageio.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/highgui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/grfmt_imageio.cpp -o CMakeFiles/opencv_highgui.dir/src/grfmt_imageio.s
+
+nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_imageio.o.requires:
+.PHONY : nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_imageio.o.requires
+
+nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_imageio.o.provides: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_imageio.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_imageio.o.provides.build
+.PHONY : nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_imageio.o.provides
+
+nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_imageio.o.provides.build: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_imageio.o
+.PHONY : nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_imageio.o.provides.build
+
+nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_png.o: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/flags.make
+nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_png.o: ../nestk/deps/opencv/modules/highgui/src/grfmt_png.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_15)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_png.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/highgui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_highgui.dir/src/grfmt_png.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/grfmt_png.cpp
+
+nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_png.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_highgui.dir/src/grfmt_png.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/highgui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/grfmt_png.cpp > CMakeFiles/opencv_highgui.dir/src/grfmt_png.i
+
+nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_png.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_highgui.dir/src/grfmt_png.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/highgui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/grfmt_png.cpp -o CMakeFiles/opencv_highgui.dir/src/grfmt_png.s
+
+nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_png.o.requires:
+.PHONY : nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_png.o.requires
+
+nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_png.o.provides: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_png.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_png.o.provides.build
+.PHONY : nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_png.o.provides
+
+nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_png.o.provides.build: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_png.o
+.PHONY : nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_png.o.provides.build
+
 nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_bmp.o: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/flags.make
 nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_bmp.o: ../nestk/deps/opencv/modules/highgui/src/grfmt_bmp.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_22)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_16)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_bmp.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/highgui" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_highgui.dir/src/grfmt_bmp.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/grfmt_bmp.cpp"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/highgui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_highgui.dir/src/grfmt_bmp.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/grfmt_bmp.cpp
 
 nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_bmp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_highgui.dir/src/grfmt_bmp.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/highgui" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/grfmt_bmp.cpp" > CMakeFiles/opencv_highgui.dir/src/grfmt_bmp.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/highgui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/grfmt_bmp.cpp > CMakeFiles/opencv_highgui.dir/src/grfmt_bmp.i
 
 nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_bmp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_highgui.dir/src/grfmt_bmp.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/highgui" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui/src/grfmt_bmp.cpp" -o CMakeFiles/opencv_highgui.dir/src/grfmt_bmp.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/highgui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/grfmt_bmp.cpp -o CMakeFiles/opencv_highgui.dir/src/grfmt_bmp.s
 
 nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_bmp.o.requires:
 .PHONY : nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_bmp.o.requires
@@ -577,6 +433,78 @@ nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_bmp.o.
 nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_bmp.o.provides.build: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_bmp.o
 .PHONY : nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_bmp.o.provides.build
 
+nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_exr.o: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/flags.make
+nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_exr.o: ../nestk/deps/opencv/modules/highgui/src/grfmt_exr.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_17)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_exr.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/highgui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_highgui.dir/src/grfmt_exr.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/grfmt_exr.cpp
+
+nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_exr.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_highgui.dir/src/grfmt_exr.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/highgui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/grfmt_exr.cpp > CMakeFiles/opencv_highgui.dir/src/grfmt_exr.i
+
+nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_exr.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_highgui.dir/src/grfmt_exr.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/highgui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/grfmt_exr.cpp -o CMakeFiles/opencv_highgui.dir/src/grfmt_exr.s
+
+nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_exr.o.requires:
+.PHONY : nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_exr.o.requires
+
+nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_exr.o.provides: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_exr.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_exr.o.provides.build
+.PHONY : nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_exr.o.provides
+
+nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_exr.o.provides.build: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_exr.o
+.PHONY : nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_exr.o.provides.build
+
+nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_sunras.o: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/flags.make
+nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_sunras.o: ../nestk/deps/opencv/modules/highgui/src/grfmt_sunras.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_18)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_sunras.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/highgui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_highgui.dir/src/grfmt_sunras.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/grfmt_sunras.cpp
+
+nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_sunras.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_highgui.dir/src/grfmt_sunras.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/highgui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/grfmt_sunras.cpp > CMakeFiles/opencv_highgui.dir/src/grfmt_sunras.i
+
+nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_sunras.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_highgui.dir/src/grfmt_sunras.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/highgui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/grfmt_sunras.cpp -o CMakeFiles/opencv_highgui.dir/src/grfmt_sunras.s
+
+nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_sunras.o.requires:
+.PHONY : nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_sunras.o.requires
+
+nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_sunras.o.provides: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_sunras.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_sunras.o.provides.build
+.PHONY : nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_sunras.o.provides
+
+nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_sunras.o.provides.build: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_sunras.o
+.PHONY : nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_sunras.o.provides.build
+
+nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_tiff.o: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/flags.make
+nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_tiff.o: ../nestk/deps/opencv/modules/highgui/src/grfmt_tiff.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_19)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_tiff.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/highgui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_highgui.dir/src/grfmt_tiff.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/grfmt_tiff.cpp
+
+nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_tiff.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_highgui.dir/src/grfmt_tiff.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/highgui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/grfmt_tiff.cpp > CMakeFiles/opencv_highgui.dir/src/grfmt_tiff.i
+
+nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_tiff.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_highgui.dir/src/grfmt_tiff.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/highgui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui/src/grfmt_tiff.cpp -o CMakeFiles/opencv_highgui.dir/src/grfmt_tiff.s
+
+nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_tiff.o.requires:
+.PHONY : nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_tiff.o.requires
+
+nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_tiff.o.provides: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_tiff.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_tiff.o.provides.build
+.PHONY : nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_tiff.o.provides
+
+nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_tiff.o.provides.build: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_tiff.o
+.PHONY : nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_tiff.o.provides.build
+
 # Object files for target opencv_highgui
 opencv_highgui_OBJECTS = \
 "CMakeFiles/opencv_highgui.dir/src/cap.o" \
@@ -586,21 +514,18 @@ opencv_highgui_OBJECTS = \
 "CMakeFiles/opencv_highgui.dir/src/utils.o" \
 "CMakeFiles/opencv_highgui.dir/src/window.o" \
 "CMakeFiles/opencv_highgui.dir/src/window_gtk.o" \
-"CMakeFiles/opencv_highgui.dir/src/cap_dc1394_v2.o" \
-"CMakeFiles/opencv_highgui.dir/src/cap_ffmpeg.o" \
-"CMakeFiles/opencv_highgui.dir/src/cap_gstreamer.o" \
-"CMakeFiles/opencv_highgui.dir/src/cap_libv4l.o" \
+"CMakeFiles/opencv_highgui.dir/src/cap_v4l.o" \
 "CMakeFiles/opencv_highgui.dir/src/bitstrm.o" \
-"CMakeFiles/opencv_highgui.dir/src/grfmt_pxm.o" \
-"CMakeFiles/opencv_highgui.dir/src/grfmt_sunras.o" \
-"CMakeFiles/opencv_highgui.dir/src/grfmt_jpeg2000.o" \
 "CMakeFiles/opencv_highgui.dir/src/grfmt_jpeg.o" \
-"CMakeFiles/opencv_highgui.dir/src/grfmt_imageio.o" \
-"CMakeFiles/opencv_highgui.dir/src/grfmt_exr.o" \
-"CMakeFiles/opencv_highgui.dir/src/grfmt_tiff.o" \
-"CMakeFiles/opencv_highgui.dir/src/grfmt_png.o" \
 "CMakeFiles/opencv_highgui.dir/src/grfmt_base.o" \
-"CMakeFiles/opencv_highgui.dir/src/grfmt_bmp.o"
+"CMakeFiles/opencv_highgui.dir/src/grfmt_jpeg2000.o" \
+"CMakeFiles/opencv_highgui.dir/src/grfmt_pxm.o" \
+"CMakeFiles/opencv_highgui.dir/src/grfmt_imageio.o" \
+"CMakeFiles/opencv_highgui.dir/src/grfmt_png.o" \
+"CMakeFiles/opencv_highgui.dir/src/grfmt_bmp.o" \
+"CMakeFiles/opencv_highgui.dir/src/grfmt_exr.o" \
+"CMakeFiles/opencv_highgui.dir/src/grfmt_sunras.o" \
+"CMakeFiles/opencv_highgui.dir/src/grfmt_tiff.o"
 
 # External object files for target opencv_highgui
 opencv_highgui_EXTERNAL_OBJECTS =
@@ -612,44 +537,34 @@ lib/libopencv_highgui.so.2.2.0: nestk/deps/opencv/modules/highgui/CMakeFiles/ope
 lib/libopencv_highgui.so.2.2.0: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/utils.o
 lib/libopencv_highgui.so.2.2.0: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/window.o
 lib/libopencv_highgui.so.2.2.0: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/window_gtk.o
-lib/libopencv_highgui.so.2.2.0: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_dc1394_v2.o
-lib/libopencv_highgui.so.2.2.0: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_ffmpeg.o
-lib/libopencv_highgui.so.2.2.0: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_gstreamer.o
-lib/libopencv_highgui.so.2.2.0: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_libv4l.o
+lib/libopencv_highgui.so.2.2.0: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_v4l.o
 lib/libopencv_highgui.so.2.2.0: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/bitstrm.o
-lib/libopencv_highgui.so.2.2.0: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_pxm.o
-lib/libopencv_highgui.so.2.2.0: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_sunras.o
-lib/libopencv_highgui.so.2.2.0: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_jpeg2000.o
 lib/libopencv_highgui.so.2.2.0: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_jpeg.o
-lib/libopencv_highgui.so.2.2.0: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_imageio.o
-lib/libopencv_highgui.so.2.2.0: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_exr.o
-lib/libopencv_highgui.so.2.2.0: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_tiff.o
-lib/libopencv_highgui.so.2.2.0: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_png.o
 lib/libopencv_highgui.so.2.2.0: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_base.o
+lib/libopencv_highgui.so.2.2.0: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_jpeg2000.o
+lib/libopencv_highgui.so.2.2.0: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_pxm.o
+lib/libopencv_highgui.so.2.2.0: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_imageio.o
+lib/libopencv_highgui.so.2.2.0: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_png.o
 lib/libopencv_highgui.so.2.2.0: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_bmp.o
+lib/libopencv_highgui.so.2.2.0: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_exr.o
+lib/libopencv_highgui.so.2.2.0: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_sunras.o
+lib/libopencv_highgui.so.2.2.0: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_tiff.o
 lib/libopencv_highgui.so.2.2.0: lib/libopencv_core.so.2.2.0
 lib/libopencv_highgui.so.2.2.0: lib/libopencv_imgproc.so.2.2.0
 lib/libopencv_highgui.so.2.2.0: 3rdparty/lib/libzlib.a
-lib/libopencv_highgui.so.2.2.0: /usr/lib/libjpeg.so
+lib/libopencv_highgui.so.2.2.0: 3rdparty/lib/liblibjpeg.a
 lib/libopencv_highgui.so.2.2.0: /usr/lib/libpng.so
 lib/libopencv_highgui.so.2.2.0: /usr/lib/libz.so
-lib/libopencv_highgui.so.2.2.0: /usr/lib/libtiff.so
-lib/libopencv_highgui.so.2.2.0: /usr/lib/libjasper.so
-lib/libopencv_highgui.so.2.2.0: /usr/lib/libjpeg.so
-lib/libopencv_highgui.so.2.2.0: /lib/libbz2.so.1
+lib/libopencv_highgui.so.2.2.0: 3rdparty/lib/liblibtiff.a
+lib/libopencv_highgui.so.2.2.0: 3rdparty/lib/liblibjasper.a
 lib/libopencv_highgui.so.2.2.0: lib/libopencv_core.so.2.2.0
 lib/libopencv_highgui.so.2.2.0: 3rdparty/lib/libzlib.a
 lib/libopencv_highgui.so.2.2.0: 3rdparty/lib/libopencv_lapack.a
-lib/libopencv_highgui.so.2.2.0: /usr/lib/libpng.so
-lib/libopencv_highgui.so.2.2.0: /usr/lib/libz.so
-lib/libopencv_highgui.so.2.2.0: /usr/lib/libtiff.so
-lib/libopencv_highgui.so.2.2.0: /usr/lib/libjasper.so
-lib/libopencv_highgui.so.2.2.0: /lib/libbz2.so.1
 lib/libopencv_highgui.so.2.2.0: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/build.make
 lib/libopencv_highgui.so.2.2.0: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library ../../../../../lib/libopencv_highgui.so"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/highgui" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/opencv_highgui.dir/link.txt --verbose=$(VERBOSE)
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/highgui" && $(CMAKE_COMMAND) -E cmake_symlink_library ../../../../../lib/libopencv_highgui.so.2.2.0 ../../../../../lib/libopencv_highgui.so.2.2 ../../../../../lib/libopencv_highgui.so
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/highgui && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/opencv_highgui.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/highgui && $(CMAKE_COMMAND) -E cmake_symlink_library ../../../../../lib/libopencv_highgui.so.2.2.0 ../../../../../lib/libopencv_highgui.so.2.2 ../../../../../lib/libopencv_highgui.so
 
 lib/libopencv_highgui.so.2.2: lib/libopencv_highgui.so.2.2.0
 
@@ -666,28 +581,25 @@ nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/requires: nestk/
 nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/requires: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/utils.o.requires
 nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/requires: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/window.o.requires
 nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/requires: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/window_gtk.o.requires
-nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/requires: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_dc1394_v2.o.requires
-nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/requires: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_ffmpeg.o.requires
-nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/requires: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_gstreamer.o.requires
-nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/requires: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_libv4l.o.requires
+nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/requires: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/cap_v4l.o.requires
 nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/requires: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/bitstrm.o.requires
-nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/requires: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_pxm.o.requires
-nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/requires: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_sunras.o.requires
-nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/requires: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_jpeg2000.o.requires
 nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/requires: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_jpeg.o.requires
-nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/requires: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_imageio.o.requires
-nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/requires: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_exr.o.requires
-nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/requires: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_tiff.o.requires
-nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/requires: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_png.o.requires
 nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/requires: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_base.o.requires
+nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/requires: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_jpeg2000.o.requires
+nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/requires: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_pxm.o.requires
+nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/requires: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_imageio.o.requires
+nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/requires: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_png.o.requires
 nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/requires: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_bmp.o.requires
+nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/requires: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_exr.o.requires
+nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/requires: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_sunras.o.requires
+nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/requires: nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/src/grfmt_tiff.o.requires
 .PHONY : nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/requires
 
 nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/clean:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/highgui" && $(CMAKE_COMMAND) -P CMakeFiles/opencv_highgui.dir/cmake_clean.cmake
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/highgui && $(CMAKE_COMMAND) -P CMakeFiles/opencv_highgui.dir/cmake_clean.cmake
 .PHONY : nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/clean
 
 nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/depend:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/louis/Documents/Motion Capture/Mouse" "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/highgui" "/home/louis/Documents/Motion Capture/Mouse/build" "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/highgui" "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/DependInfo.cmake" --color=$(COLOR)
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/highgui /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/highgui /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : nestk/deps/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/depend
 

@@ -4,10 +4,10 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_C
-  "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/libfreenect/src/cameras.c" "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/libfreenect/src/CMakeFiles/freenectstatic.dir/cameras.c.o"
-  "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/libfreenect/src/core.c" "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/libfreenect/src/CMakeFiles/freenectstatic.dir/core.c.o"
-  "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/libfreenect/src/tilt.c" "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/libfreenect/src/CMakeFiles/freenectstatic.dir/tilt.c.o"
-  "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/libfreenect/src/usb_libusb10.c" "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/libfreenect/src/CMakeFiles/freenectstatic.dir/usb_libusb10.c.o"
+  "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/libfreenect/src/cameras.c" "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/libfreenect/src/CMakeFiles/freenectstatic.dir/cameras.c.o"
+  "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/libfreenect/src/core.c" "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/libfreenect/src/CMakeFiles/freenectstatic.dir/core.c.o"
+  "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/libfreenect/src/tilt.c" "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/libfreenect/src/CMakeFiles/freenectstatic.dir/tilt.c.o"
+  "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/libfreenect/src/usb_libusb10.c" "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/libfreenect/src/CMakeFiles/freenectstatic.dir/usb_libusb10.c.o"
   )
 SET(CMAKE_C_COMPILER_ID "GNU")
 

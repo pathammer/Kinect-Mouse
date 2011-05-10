@@ -18,8 +18,8 @@ nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/calibinit.o
  ../nestk/deps/opencv/modules/calib3d/../imgproc/include/opencv2/imgproc/imgproc_c.h
  ../nestk/deps/opencv/modules/calib3d/../imgproc/include/opencv2/imgproc/types_c.h
  ../nestk/deps/opencv/modules/calib3d/include/opencv2/calib3d/calib3d.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/calib3d/src/calibinit.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/calib3d/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/calib3d/src/calibinit.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/calib3d/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/calibration.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -35,8 +35,8 @@ nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/calibration.
  ../nestk/deps/opencv/modules/calib3d/../imgproc/include/opencv2/imgproc/imgproc_c.h
  ../nestk/deps/opencv/modules/calib3d/../imgproc/include/opencv2/imgproc/types_c.h
  ../nestk/deps/opencv/modules/calib3d/include/opencv2/calib3d/calib3d.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/calib3d/src/calibration.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/calib3d/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/calib3d/src/calibration.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/calib3d/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/checkchessboard.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -55,8 +55,8 @@ nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/checkchessbo
  ../nestk/deps/opencv/modules/calib3d/../imgproc/include/opencv2/imgproc/imgproc_c.h
  ../nestk/deps/opencv/modules/calib3d/../imgproc/include/opencv2/imgproc/types_c.h
  ../nestk/deps/opencv/modules/calib3d/include/opencv2/calib3d/calib3d.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/calib3d/src/checkchessboard.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/calib3d/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/calib3d/src/checkchessboard.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/calib3d/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/fundam.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -72,9 +72,9 @@ nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/fundam.o
  ../nestk/deps/opencv/modules/calib3d/../imgproc/include/opencv2/imgproc/imgproc_c.h
  ../nestk/deps/opencv/modules/calib3d/../imgproc/include/opencv2/imgproc/types_c.h
  ../nestk/deps/opencv/modules/calib3d/include/opencv2/calib3d/calib3d.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/calib3d/src/_modelest.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/calib3d/src/fundam.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/calib3d/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/calib3d/src/_modelest.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/calib3d/src/fundam.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/calib3d/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/modelest.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -90,9 +90,9 @@ nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/modelest.o
  ../nestk/deps/opencv/modules/calib3d/../imgproc/include/opencv2/imgproc/imgproc_c.h
  ../nestk/deps/opencv/modules/calib3d/../imgproc/include/opencv2/imgproc/types_c.h
  ../nestk/deps/opencv/modules/calib3d/include/opencv2/calib3d/calib3d.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/calib3d/src/_modelest.h
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/calib3d/src/modelest.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/calib3d/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/calib3d/src/_modelest.h
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/calib3d/src/modelest.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/calib3d/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/posit.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -108,8 +108,8 @@ nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/posit.o
  ../nestk/deps/opencv/modules/calib3d/../imgproc/include/opencv2/imgproc/imgproc_c.h
  ../nestk/deps/opencv/modules/calib3d/../imgproc/include/opencv2/imgproc/types_c.h
  ../nestk/deps/opencv/modules/calib3d/include/opencv2/calib3d/calib3d.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/calib3d/src/posit.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/calib3d/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/calib3d/src/posit.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/calib3d/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/precomp.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -125,8 +125,8 @@ nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/precomp.o
  ../nestk/deps/opencv/modules/calib3d/../imgproc/include/opencv2/imgproc/imgproc_c.h
  ../nestk/deps/opencv/modules/calib3d/../imgproc/include/opencv2/imgproc/types_c.h
  ../nestk/deps/opencv/modules/calib3d/include/opencv2/calib3d/calib3d.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/calib3d/src/precomp.cpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/calib3d/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/calib3d/src/precomp.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/calib3d/src/precomp.hpp
  cvconfig.h
 nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/stereobm.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -142,8 +142,8 @@ nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/stereobm.o
  ../nestk/deps/opencv/modules/calib3d/../imgproc/include/opencv2/imgproc/imgproc_c.h
  ../nestk/deps/opencv/modules/calib3d/../imgproc/include/opencv2/imgproc/types_c.h
  ../nestk/deps/opencv/modules/calib3d/include/opencv2/calib3d/calib3d.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/calib3d/src/precomp.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/calib3d/src/stereobm.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/calib3d/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/calib3d/src/stereobm.cpp
  cvconfig.h
 nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/stereogc.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -159,8 +159,8 @@ nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/stereogc.o
  ../nestk/deps/opencv/modules/calib3d/../imgproc/include/opencv2/imgproc/imgproc_c.h
  ../nestk/deps/opencv/modules/calib3d/../imgproc/include/opencv2/imgproc/types_c.h
  ../nestk/deps/opencv/modules/calib3d/include/opencv2/calib3d/calib3d.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/calib3d/src/precomp.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/calib3d/src/stereogc.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/calib3d/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/calib3d/src/stereogc.cpp
  cvconfig.h
 nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/stereosgbm.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -176,8 +176,8 @@ nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/stereosgbm.o
  ../nestk/deps/opencv/modules/calib3d/../imgproc/include/opencv2/imgproc/imgproc_c.h
  ../nestk/deps/opencv/modules/calib3d/../imgproc/include/opencv2/imgproc/types_c.h
  ../nestk/deps/opencv/modules/calib3d/include/opencv2/calib3d/calib3d.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/calib3d/src/precomp.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/calib3d/src/stereosgbm.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/calib3d/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/calib3d/src/stereosgbm.cpp
  cvconfig.h
 nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/triangulate.o
  ../nestk/deps/opencv/include/opencv/cxcore.h
@@ -193,6 +193,6 @@ nestk/deps/opencv/modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/triangulate.
  ../nestk/deps/opencv/modules/calib3d/../imgproc/include/opencv2/imgproc/imgproc_c.h
  ../nestk/deps/opencv/modules/calib3d/../imgproc/include/opencv2/imgproc/types_c.h
  ../nestk/deps/opencv/modules/calib3d/include/opencv2/calib3d/calib3d.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/calib3d/src/precomp.hpp
- /home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/calib3d/src/triangulate.cpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/calib3d/src/precomp.hpp
+ /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/calib3d/src/triangulate.cpp
  cvconfig.h

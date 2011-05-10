@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/louis/Documents/Motion Capture/Mouse"
+CMAKE_SOURCE_DIR = /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/louis/Documents/Motion Capture/Mouse/build"
+CMAKE_BINARY_DIR = /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build
 
 # Include any dependencies generated for this target.
 include nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/depend.make
@@ -49,307 +49,19 @@ include nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/prog
 # Include the compile flags for this target's objects.
 include nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/flags.make
 
-nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/featurepyramid.o: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/flags.make
-nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/featurepyramid.o: ../nestk/deps/opencv/modules/objdetect/src/featurepyramid.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_1)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/featurepyramid.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/objdetect" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_objdetect.dir/src/featurepyramid.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/featurepyramid.cpp"
-
-nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/featurepyramid.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_objdetect.dir/src/featurepyramid.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/objdetect" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/featurepyramid.cpp" > CMakeFiles/opencv_objdetect.dir/src/featurepyramid.i
-
-nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/featurepyramid.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_objdetect.dir/src/featurepyramid.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/objdetect" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/featurepyramid.cpp" -o CMakeFiles/opencv_objdetect.dir/src/featurepyramid.s
-
-nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/featurepyramid.o.requires:
-.PHONY : nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/featurepyramid.o.requires
-
-nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/featurepyramid.o.provides: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/featurepyramid.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/build.make nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/featurepyramid.o.provides.build
-.PHONY : nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/featurepyramid.o.provides
-
-nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/featurepyramid.o.provides.build: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/featurepyramid.o
-.PHONY : nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/featurepyramid.o.provides.build
-
-nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/hog.o: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/flags.make
-nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/hog.o: ../nestk/deps/opencv/modules/objdetect/src/hog.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_2)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/hog.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/objdetect" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_objdetect.dir/src/hog.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/hog.cpp"
-
-nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/hog.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_objdetect.dir/src/hog.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/objdetect" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/hog.cpp" > CMakeFiles/opencv_objdetect.dir/src/hog.i
-
-nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/hog.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_objdetect.dir/src/hog.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/objdetect" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/hog.cpp" -o CMakeFiles/opencv_objdetect.dir/src/hog.s
-
-nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/hog.o.requires:
-.PHONY : nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/hog.o.requires
-
-nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/hog.o.provides: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/hog.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/build.make nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/hog.o.provides.build
-.PHONY : nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/hog.o.provides
-
-nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/hog.o.provides.build: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/hog.o
-.PHONY : nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/hog.o.provides.build
-
-nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/matching.o: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/flags.make
-nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/matching.o: ../nestk/deps/opencv/modules/objdetect/src/matching.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_3)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/matching.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/objdetect" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_objdetect.dir/src/matching.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/matching.cpp"
-
-nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/matching.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_objdetect.dir/src/matching.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/objdetect" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/matching.cpp" > CMakeFiles/opencv_objdetect.dir/src/matching.i
-
-nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/matching.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_objdetect.dir/src/matching.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/objdetect" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/matching.cpp" -o CMakeFiles/opencv_objdetect.dir/src/matching.s
-
-nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/matching.o.requires:
-.PHONY : nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/matching.o.requires
-
-nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/matching.o.provides: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/matching.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/build.make nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/matching.o.provides.build
-.PHONY : nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/matching.o.provides
-
-nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/matching.o.provides.build: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/matching.o
-.PHONY : nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/matching.o.provides.build
-
-nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/cascadedetect.o: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/flags.make
-nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/cascadedetect.o: ../nestk/deps/opencv/modules/objdetect/src/cascadedetect.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_4)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/cascadedetect.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/objdetect" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_objdetect.dir/src/cascadedetect.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/cascadedetect.cpp"
-
-nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/cascadedetect.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_objdetect.dir/src/cascadedetect.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/objdetect" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/cascadedetect.cpp" > CMakeFiles/opencv_objdetect.dir/src/cascadedetect.i
-
-nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/cascadedetect.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_objdetect.dir/src/cascadedetect.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/objdetect" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/cascadedetect.cpp" -o CMakeFiles/opencv_objdetect.dir/src/cascadedetect.s
-
-nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/cascadedetect.o.requires:
-.PHONY : nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/cascadedetect.o.requires
-
-nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/cascadedetect.o.provides: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/cascadedetect.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/build.make nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/cascadedetect.o.provides.build
-.PHONY : nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/cascadedetect.o.provides
-
-nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/cascadedetect.o.provides.build: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/cascadedetect.o
-.PHONY : nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/cascadedetect.o.provides.build
-
-nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/distancetransform.o: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/flags.make
-nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/distancetransform.o: ../nestk/deps/opencv/modules/objdetect/src/distancetransform.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_5)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/distancetransform.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/objdetect" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_objdetect.dir/src/distancetransform.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/distancetransform.cpp"
-
-nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/distancetransform.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_objdetect.dir/src/distancetransform.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/objdetect" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/distancetransform.cpp" > CMakeFiles/opencv_objdetect.dir/src/distancetransform.i
-
-nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/distancetransform.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_objdetect.dir/src/distancetransform.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/objdetect" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/distancetransform.cpp" -o CMakeFiles/opencv_objdetect.dir/src/distancetransform.s
-
-nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/distancetransform.o.requires:
-.PHONY : nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/distancetransform.o.requires
-
-nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/distancetransform.o.provides: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/distancetransform.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/build.make nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/distancetransform.o.provides.build
-.PHONY : nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/distancetransform.o.provides
-
-nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/distancetransform.o.provides.build: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/distancetransform.o
-.PHONY : nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/distancetransform.o.provides.build
-
-nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/haar.o: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/flags.make
-nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/haar.o: ../nestk/deps/opencv/modules/objdetect/src/haar.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_6)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/haar.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/objdetect" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_objdetect.dir/src/haar.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/haar.cpp"
-
-nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/haar.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_objdetect.dir/src/haar.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/objdetect" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/haar.cpp" > CMakeFiles/opencv_objdetect.dir/src/haar.i
-
-nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/haar.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_objdetect.dir/src/haar.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/objdetect" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/haar.cpp" -o CMakeFiles/opencv_objdetect.dir/src/haar.s
-
-nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/haar.o.requires:
-.PHONY : nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/haar.o.requires
-
-nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/haar.o.provides: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/haar.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/build.make nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/haar.o.provides.build
-.PHONY : nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/haar.o.provides
-
-nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/haar.o.provides.build: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/haar.o
-.PHONY : nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/haar.o.provides.build
-
-nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/lsvmparser.o: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/flags.make
-nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/lsvmparser.o: ../nestk/deps/opencv/modules/objdetect/src/lsvmparser.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_7)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/lsvmparser.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/objdetect" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_objdetect.dir/src/lsvmparser.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/lsvmparser.cpp"
-
-nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/lsvmparser.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_objdetect.dir/src/lsvmparser.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/objdetect" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/lsvmparser.cpp" > CMakeFiles/opencv_objdetect.dir/src/lsvmparser.i
-
-nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/lsvmparser.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_objdetect.dir/src/lsvmparser.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/objdetect" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/lsvmparser.cpp" -o CMakeFiles/opencv_objdetect.dir/src/lsvmparser.s
-
-nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/lsvmparser.o.requires:
-.PHONY : nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/lsvmparser.o.requires
-
-nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/lsvmparser.o.provides: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/lsvmparser.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/build.make nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/lsvmparser.o.provides.build
-.PHONY : nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/lsvmparser.o.provides
-
-nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/lsvmparser.o.provides.build: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/lsvmparser.o
-.PHONY : nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/lsvmparser.o.provides.build
-
-nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/fft.o: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/flags.make
-nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/fft.o: ../nestk/deps/opencv/modules/objdetect/src/fft.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_8)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/fft.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/objdetect" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_objdetect.dir/src/fft.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/fft.cpp"
-
-nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/fft.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_objdetect.dir/src/fft.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/objdetect" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/fft.cpp" > CMakeFiles/opencv_objdetect.dir/src/fft.i
-
-nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/fft.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_objdetect.dir/src/fft.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/objdetect" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/fft.cpp" -o CMakeFiles/opencv_objdetect.dir/src/fft.s
-
-nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/fft.o.requires:
-.PHONY : nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/fft.o.requires
-
-nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/fft.o.provides: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/fft.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/build.make nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/fft.o.provides.build
-.PHONY : nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/fft.o.provides
-
-nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/fft.o.provides.build: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/fft.o
-.PHONY : nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/fft.o.provides.build
-
-nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/resizeimg.o: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/flags.make
-nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/resizeimg.o: ../nestk/deps/opencv/modules/objdetect/src/resizeimg.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_9)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/resizeimg.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/objdetect" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_objdetect.dir/src/resizeimg.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/resizeimg.cpp"
-
-nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/resizeimg.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_objdetect.dir/src/resizeimg.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/objdetect" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/resizeimg.cpp" > CMakeFiles/opencv_objdetect.dir/src/resizeimg.i
-
-nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/resizeimg.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_objdetect.dir/src/resizeimg.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/objdetect" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/resizeimg.cpp" -o CMakeFiles/opencv_objdetect.dir/src/resizeimg.s
-
-nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/resizeimg.o.requires:
-.PHONY : nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/resizeimg.o.requires
-
-nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/resizeimg.o.provides: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/resizeimg.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/build.make nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/resizeimg.o.provides.build
-.PHONY : nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/resizeimg.o.provides
-
-nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/resizeimg.o.provides.build: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/resizeimg.o
-.PHONY : nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/resizeimg.o.provides.build
-
-nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/latentsvmdetector.o: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/flags.make
-nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/latentsvmdetector.o: ../nestk/deps/opencv/modules/objdetect/src/latentsvmdetector.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_10)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/latentsvmdetector.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/objdetect" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_objdetect.dir/src/latentsvmdetector.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/latentsvmdetector.cpp"
-
-nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/latentsvmdetector.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_objdetect.dir/src/latentsvmdetector.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/objdetect" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/latentsvmdetector.cpp" > CMakeFiles/opencv_objdetect.dir/src/latentsvmdetector.i
-
-nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/latentsvmdetector.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_objdetect.dir/src/latentsvmdetector.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/objdetect" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/latentsvmdetector.cpp" -o CMakeFiles/opencv_objdetect.dir/src/latentsvmdetector.s
-
-nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/latentsvmdetector.o.requires:
-.PHONY : nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/latentsvmdetector.o.requires
-
-nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/latentsvmdetector.o.provides: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/latentsvmdetector.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/build.make nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/latentsvmdetector.o.provides.build
-.PHONY : nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/latentsvmdetector.o.provides
-
-nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/latentsvmdetector.o.provides.build: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/latentsvmdetector.o
-.PHONY : nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/latentsvmdetector.o.provides.build
-
-nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/precomp.o: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/flags.make
-nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/precomp.o: ../nestk/deps/opencv/modules/objdetect/src/precomp.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_11)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/precomp.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/objdetect" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_objdetect.dir/src/precomp.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/precomp.cpp"
-
-nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/precomp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_objdetect.dir/src/precomp.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/objdetect" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/precomp.cpp" > CMakeFiles/opencv_objdetect.dir/src/precomp.i
-
-nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/precomp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_objdetect.dir/src/precomp.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/objdetect" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/precomp.cpp" -o CMakeFiles/opencv_objdetect.dir/src/precomp.s
-
-nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/precomp.o.requires:
-.PHONY : nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/precomp.o.requires
-
-nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/precomp.o.provides: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/precomp.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/build.make nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/precomp.o.provides.build
-.PHONY : nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/precomp.o.provides
-
-nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/precomp.o.provides.build: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/precomp.o
-.PHONY : nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/precomp.o.provides.build
-
-nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/routine.o: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/flags.make
-nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/routine.o: ../nestk/deps/opencv/modules/objdetect/src/routine.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_12)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/routine.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/objdetect" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_objdetect.dir/src/routine.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/routine.cpp"
-
-nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/routine.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_objdetect.dir/src/routine.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/objdetect" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/routine.cpp" > CMakeFiles/opencv_objdetect.dir/src/routine.i
-
-nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/routine.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_objdetect.dir/src/routine.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/objdetect" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/routine.cpp" -o CMakeFiles/opencv_objdetect.dir/src/routine.s
-
-nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/routine.o.requires:
-.PHONY : nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/routine.o.requires
-
-nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/routine.o.provides: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/routine.o.requires
-	$(MAKE) -f nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/build.make nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/routine.o.provides.build
-.PHONY : nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/routine.o.provides
-
-nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/routine.o.provides.build: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/routine.o
-.PHONY : nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/routine.o.provides.build
-
 nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/latentsvm.o: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/flags.make
 nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/latentsvm.o: ../nestk/deps/opencv/modules/objdetect/src/latentsvm.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/louis/Documents/Motion Capture/Mouse/build/CMakeFiles" $(CMAKE_PROGRESS_13)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/latentsvm.o"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/objdetect" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_objdetect.dir/src/latentsvm.o -c "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/latentsvm.cpp"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/objdetect && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_objdetect.dir/src/latentsvm.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/latentsvm.cpp
 
 nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/latentsvm.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_objdetect.dir/src/latentsvm.i"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/objdetect" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/latentsvm.cpp" > CMakeFiles/opencv_objdetect.dir/src/latentsvm.i
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/objdetect && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/latentsvm.cpp > CMakeFiles/opencv_objdetect.dir/src/latentsvm.i
 
 nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/latentsvm.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_objdetect.dir/src/latentsvm.s"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/objdetect" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect/src/latentsvm.cpp" -o CMakeFiles/opencv_objdetect.dir/src/latentsvm.s
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/objdetect && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/latentsvm.cpp -o CMakeFiles/opencv_objdetect.dir/src/latentsvm.s
 
 nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/latentsvm.o.requires:
 .PHONY : nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/latentsvm.o.requires
@@ -361,38 +73,326 @@ nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/latentsv
 nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/latentsvm.o.provides.build: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/latentsvm.o
 .PHONY : nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/latentsvm.o.provides.build
 
+nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/featurepyramid.o: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/flags.make
+nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/featurepyramid.o: ../nestk/deps/opencv/modules/objdetect/src/featurepyramid.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/featurepyramid.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/objdetect && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_objdetect.dir/src/featurepyramid.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/featurepyramid.cpp
+
+nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/featurepyramid.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_objdetect.dir/src/featurepyramid.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/objdetect && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/featurepyramid.cpp > CMakeFiles/opencv_objdetect.dir/src/featurepyramid.i
+
+nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/featurepyramid.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_objdetect.dir/src/featurepyramid.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/objdetect && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/featurepyramid.cpp -o CMakeFiles/opencv_objdetect.dir/src/featurepyramid.s
+
+nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/featurepyramid.o.requires:
+.PHONY : nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/featurepyramid.o.requires
+
+nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/featurepyramid.o.provides: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/featurepyramid.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/build.make nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/featurepyramid.o.provides.build
+.PHONY : nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/featurepyramid.o.provides
+
+nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/featurepyramid.o.provides.build: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/featurepyramid.o
+.PHONY : nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/featurepyramid.o.provides.build
+
+nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/latentsvmdetector.o: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/flags.make
+nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/latentsvmdetector.o: ../nestk/deps/opencv/modules/objdetect/src/latentsvmdetector.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/latentsvmdetector.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/objdetect && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_objdetect.dir/src/latentsvmdetector.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/latentsvmdetector.cpp
+
+nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/latentsvmdetector.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_objdetect.dir/src/latentsvmdetector.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/objdetect && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/latentsvmdetector.cpp > CMakeFiles/opencv_objdetect.dir/src/latentsvmdetector.i
+
+nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/latentsvmdetector.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_objdetect.dir/src/latentsvmdetector.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/objdetect && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/latentsvmdetector.cpp -o CMakeFiles/opencv_objdetect.dir/src/latentsvmdetector.s
+
+nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/latentsvmdetector.o.requires:
+.PHONY : nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/latentsvmdetector.o.requires
+
+nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/latentsvmdetector.o.provides: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/latentsvmdetector.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/build.make nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/latentsvmdetector.o.provides.build
+.PHONY : nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/latentsvmdetector.o.provides
+
+nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/latentsvmdetector.o.provides.build: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/latentsvmdetector.o
+.PHONY : nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/latentsvmdetector.o.provides.build
+
+nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/hog.o: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/flags.make
+nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/hog.o: ../nestk/deps/opencv/modules/objdetect/src/hog.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_4)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/hog.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/objdetect && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_objdetect.dir/src/hog.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/hog.cpp
+
+nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/hog.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_objdetect.dir/src/hog.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/objdetect && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/hog.cpp > CMakeFiles/opencv_objdetect.dir/src/hog.i
+
+nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/hog.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_objdetect.dir/src/hog.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/objdetect && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/hog.cpp -o CMakeFiles/opencv_objdetect.dir/src/hog.s
+
+nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/hog.o.requires:
+.PHONY : nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/hog.o.requires
+
+nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/hog.o.provides: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/hog.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/build.make nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/hog.o.provides.build
+.PHONY : nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/hog.o.provides
+
+nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/hog.o.provides.build: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/hog.o
+.PHONY : nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/hog.o.provides.build
+
+nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/distancetransform.o: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/flags.make
+nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/distancetransform.o: ../nestk/deps/opencv/modules/objdetect/src/distancetransform.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_5)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/distancetransform.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/objdetect && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_objdetect.dir/src/distancetransform.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/distancetransform.cpp
+
+nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/distancetransform.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_objdetect.dir/src/distancetransform.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/objdetect && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/distancetransform.cpp > CMakeFiles/opencv_objdetect.dir/src/distancetransform.i
+
+nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/distancetransform.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_objdetect.dir/src/distancetransform.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/objdetect && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/distancetransform.cpp -o CMakeFiles/opencv_objdetect.dir/src/distancetransform.s
+
+nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/distancetransform.o.requires:
+.PHONY : nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/distancetransform.o.requires
+
+nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/distancetransform.o.provides: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/distancetransform.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/build.make nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/distancetransform.o.provides.build
+.PHONY : nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/distancetransform.o.provides
+
+nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/distancetransform.o.provides.build: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/distancetransform.o
+.PHONY : nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/distancetransform.o.provides.build
+
+nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/routine.o: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/flags.make
+nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/routine.o: ../nestk/deps/opencv/modules/objdetect/src/routine.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_6)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/routine.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/objdetect && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_objdetect.dir/src/routine.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/routine.cpp
+
+nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/routine.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_objdetect.dir/src/routine.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/objdetect && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/routine.cpp > CMakeFiles/opencv_objdetect.dir/src/routine.i
+
+nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/routine.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_objdetect.dir/src/routine.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/objdetect && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/routine.cpp -o CMakeFiles/opencv_objdetect.dir/src/routine.s
+
+nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/routine.o.requires:
+.PHONY : nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/routine.o.requires
+
+nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/routine.o.provides: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/routine.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/build.make nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/routine.o.provides.build
+.PHONY : nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/routine.o.provides
+
+nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/routine.o.provides.build: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/routine.o
+.PHONY : nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/routine.o.provides.build
+
+nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/precomp.o: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/flags.make
+nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/precomp.o: ../nestk/deps/opencv/modules/objdetect/src/precomp.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_7)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/precomp.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/objdetect && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_objdetect.dir/src/precomp.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/precomp.cpp
+
+nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/precomp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_objdetect.dir/src/precomp.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/objdetect && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/precomp.cpp > CMakeFiles/opencv_objdetect.dir/src/precomp.i
+
+nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/precomp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_objdetect.dir/src/precomp.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/objdetect && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/precomp.cpp -o CMakeFiles/opencv_objdetect.dir/src/precomp.s
+
+nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/precomp.o.requires:
+.PHONY : nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/precomp.o.requires
+
+nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/precomp.o.provides: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/precomp.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/build.make nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/precomp.o.provides.build
+.PHONY : nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/precomp.o.provides
+
+nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/precomp.o.provides.build: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/precomp.o
+.PHONY : nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/precomp.o.provides.build
+
+nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/lsvmparser.o: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/flags.make
+nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/lsvmparser.o: ../nestk/deps/opencv/modules/objdetect/src/lsvmparser.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_8)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/lsvmparser.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/objdetect && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_objdetect.dir/src/lsvmparser.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/lsvmparser.cpp
+
+nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/lsvmparser.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_objdetect.dir/src/lsvmparser.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/objdetect && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/lsvmparser.cpp > CMakeFiles/opencv_objdetect.dir/src/lsvmparser.i
+
+nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/lsvmparser.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_objdetect.dir/src/lsvmparser.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/objdetect && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/lsvmparser.cpp -o CMakeFiles/opencv_objdetect.dir/src/lsvmparser.s
+
+nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/lsvmparser.o.requires:
+.PHONY : nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/lsvmparser.o.requires
+
+nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/lsvmparser.o.provides: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/lsvmparser.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/build.make nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/lsvmparser.o.provides.build
+.PHONY : nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/lsvmparser.o.provides
+
+nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/lsvmparser.o.provides.build: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/lsvmparser.o
+.PHONY : nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/lsvmparser.o.provides.build
+
+nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/resizeimg.o: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/flags.make
+nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/resizeimg.o: ../nestk/deps/opencv/modules/objdetect/src/resizeimg.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_9)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/resizeimg.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/objdetect && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_objdetect.dir/src/resizeimg.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/resizeimg.cpp
+
+nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/resizeimg.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_objdetect.dir/src/resizeimg.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/objdetect && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/resizeimg.cpp > CMakeFiles/opencv_objdetect.dir/src/resizeimg.i
+
+nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/resizeimg.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_objdetect.dir/src/resizeimg.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/objdetect && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/resizeimg.cpp -o CMakeFiles/opencv_objdetect.dir/src/resizeimg.s
+
+nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/resizeimg.o.requires:
+.PHONY : nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/resizeimg.o.requires
+
+nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/resizeimg.o.provides: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/resizeimg.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/build.make nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/resizeimg.o.provides.build
+.PHONY : nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/resizeimg.o.provides
+
+nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/resizeimg.o.provides.build: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/resizeimg.o
+.PHONY : nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/resizeimg.o.provides.build
+
+nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/cascadedetect.o: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/flags.make
+nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/cascadedetect.o: ../nestk/deps/opencv/modules/objdetect/src/cascadedetect.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_10)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/cascadedetect.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/objdetect && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_objdetect.dir/src/cascadedetect.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/cascadedetect.cpp
+
+nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/cascadedetect.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_objdetect.dir/src/cascadedetect.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/objdetect && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/cascadedetect.cpp > CMakeFiles/opencv_objdetect.dir/src/cascadedetect.i
+
+nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/cascadedetect.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_objdetect.dir/src/cascadedetect.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/objdetect && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/cascadedetect.cpp -o CMakeFiles/opencv_objdetect.dir/src/cascadedetect.s
+
+nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/cascadedetect.o.requires:
+.PHONY : nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/cascadedetect.o.requires
+
+nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/cascadedetect.o.provides: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/cascadedetect.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/build.make nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/cascadedetect.o.provides.build
+.PHONY : nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/cascadedetect.o.provides
+
+nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/cascadedetect.o.provides.build: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/cascadedetect.o
+.PHONY : nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/cascadedetect.o.provides.build
+
+nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/fft.o: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/flags.make
+nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/fft.o: ../nestk/deps/opencv/modules/objdetect/src/fft.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_11)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/fft.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/objdetect && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_objdetect.dir/src/fft.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/fft.cpp
+
+nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/fft.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_objdetect.dir/src/fft.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/objdetect && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/fft.cpp > CMakeFiles/opencv_objdetect.dir/src/fft.i
+
+nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/fft.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_objdetect.dir/src/fft.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/objdetect && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/fft.cpp -o CMakeFiles/opencv_objdetect.dir/src/fft.s
+
+nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/fft.o.requires:
+.PHONY : nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/fft.o.requires
+
+nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/fft.o.provides: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/fft.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/build.make nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/fft.o.provides.build
+.PHONY : nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/fft.o.provides
+
+nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/fft.o.provides.build: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/fft.o
+.PHONY : nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/fft.o.provides.build
+
+nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/matching.o: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/flags.make
+nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/matching.o: ../nestk/deps/opencv/modules/objdetect/src/matching.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_12)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/matching.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/objdetect && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_objdetect.dir/src/matching.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/matching.cpp
+
+nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/matching.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_objdetect.dir/src/matching.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/objdetect && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/matching.cpp > CMakeFiles/opencv_objdetect.dir/src/matching.i
+
+nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/matching.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_objdetect.dir/src/matching.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/objdetect && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/matching.cpp -o CMakeFiles/opencv_objdetect.dir/src/matching.s
+
+nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/matching.o.requires:
+.PHONY : nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/matching.o.requires
+
+nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/matching.o.provides: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/matching.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/build.make nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/matching.o.provides.build
+.PHONY : nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/matching.o.provides
+
+nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/matching.o.provides.build: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/matching.o
+.PHONY : nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/matching.o.provides.build
+
+nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/haar.o: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/flags.make
+nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/haar.o: ../nestk/deps/opencv/modules/objdetect/src/haar.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/CMakeFiles $(CMAKE_PROGRESS_13)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/haar.o"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/objdetect && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/opencv_objdetect.dir/src/haar.o -c /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/haar.cpp
+
+nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/haar.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_objdetect.dir/src/haar.i"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/objdetect && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/haar.cpp > CMakeFiles/opencv_objdetect.dir/src/haar.i
+
+nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/haar.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_objdetect.dir/src/haar.s"
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/objdetect && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect/src/haar.cpp -o CMakeFiles/opencv_objdetect.dir/src/haar.s
+
+nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/haar.o.requires:
+.PHONY : nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/haar.o.requires
+
+nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/haar.o.provides: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/haar.o.requires
+	$(MAKE) -f nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/build.make nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/haar.o.provides.build
+.PHONY : nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/haar.o.provides
+
+nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/haar.o.provides.build: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/haar.o
+.PHONY : nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/haar.o.provides.build
+
 # Object files for target opencv_objdetect
 opencv_objdetect_OBJECTS = \
+"CMakeFiles/opencv_objdetect.dir/src/latentsvm.o" \
 "CMakeFiles/opencv_objdetect.dir/src/featurepyramid.o" \
-"CMakeFiles/opencv_objdetect.dir/src/hog.o" \
-"CMakeFiles/opencv_objdetect.dir/src/matching.o" \
-"CMakeFiles/opencv_objdetect.dir/src/cascadedetect.o" \
-"CMakeFiles/opencv_objdetect.dir/src/distancetransform.o" \
-"CMakeFiles/opencv_objdetect.dir/src/haar.o" \
-"CMakeFiles/opencv_objdetect.dir/src/lsvmparser.o" \
-"CMakeFiles/opencv_objdetect.dir/src/fft.o" \
-"CMakeFiles/opencv_objdetect.dir/src/resizeimg.o" \
 "CMakeFiles/opencv_objdetect.dir/src/latentsvmdetector.o" \
-"CMakeFiles/opencv_objdetect.dir/src/precomp.o" \
+"CMakeFiles/opencv_objdetect.dir/src/hog.o" \
+"CMakeFiles/opencv_objdetect.dir/src/distancetransform.o" \
 "CMakeFiles/opencv_objdetect.dir/src/routine.o" \
-"CMakeFiles/opencv_objdetect.dir/src/latentsvm.o"
+"CMakeFiles/opencv_objdetect.dir/src/precomp.o" \
+"CMakeFiles/opencv_objdetect.dir/src/lsvmparser.o" \
+"CMakeFiles/opencv_objdetect.dir/src/resizeimg.o" \
+"CMakeFiles/opencv_objdetect.dir/src/cascadedetect.o" \
+"CMakeFiles/opencv_objdetect.dir/src/fft.o" \
+"CMakeFiles/opencv_objdetect.dir/src/matching.o" \
+"CMakeFiles/opencv_objdetect.dir/src/haar.o"
 
 # External object files for target opencv_objdetect
 opencv_objdetect_EXTERNAL_OBJECTS =
 
-lib/libopencv_objdetect.so.2.2.0: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/featurepyramid.o
-lib/libopencv_objdetect.so.2.2.0: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/hog.o
-lib/libopencv_objdetect.so.2.2.0: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/matching.o
-lib/libopencv_objdetect.so.2.2.0: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/cascadedetect.o
-lib/libopencv_objdetect.so.2.2.0: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/distancetransform.o
-lib/libopencv_objdetect.so.2.2.0: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/haar.o
-lib/libopencv_objdetect.so.2.2.0: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/lsvmparser.o
-lib/libopencv_objdetect.so.2.2.0: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/fft.o
-lib/libopencv_objdetect.so.2.2.0: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/resizeimg.o
-lib/libopencv_objdetect.so.2.2.0: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/latentsvmdetector.o
-lib/libopencv_objdetect.so.2.2.0: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/precomp.o
-lib/libopencv_objdetect.so.2.2.0: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/routine.o
 lib/libopencv_objdetect.so.2.2.0: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/latentsvm.o
+lib/libopencv_objdetect.so.2.2.0: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/featurepyramid.o
+lib/libopencv_objdetect.so.2.2.0: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/latentsvmdetector.o
+lib/libopencv_objdetect.so.2.2.0: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/hog.o
+lib/libopencv_objdetect.so.2.2.0: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/distancetransform.o
+lib/libopencv_objdetect.so.2.2.0: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/routine.o
+lib/libopencv_objdetect.so.2.2.0: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/precomp.o
+lib/libopencv_objdetect.so.2.2.0: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/lsvmparser.o
+lib/libopencv_objdetect.so.2.2.0: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/resizeimg.o
+lib/libopencv_objdetect.so.2.2.0: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/cascadedetect.o
+lib/libopencv_objdetect.so.2.2.0: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/fft.o
+lib/libopencv_objdetect.so.2.2.0: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/matching.o
+lib/libopencv_objdetect.so.2.2.0: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/haar.o
 lib/libopencv_objdetect.so.2.2.0: lib/libopencv_core.so.2.2.0
 lib/libopencv_objdetect.so.2.2.0: lib/libopencv_imgproc.so.2.2.0
 lib/libopencv_objdetect.so.2.2.0: lib/libopencv_highgui.so.2.2.0
@@ -403,8 +403,8 @@ lib/libopencv_objdetect.so.2.2.0: 3rdparty/lib/libzlib.a
 lib/libopencv_objdetect.so.2.2.0: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/build.make
 lib/libopencv_objdetect.so.2.2.0: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library ../../../../../lib/libopencv_objdetect.so"
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/objdetect" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/opencv_objdetect.dir/link.txt --verbose=$(VERBOSE)
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/objdetect" && $(CMAKE_COMMAND) -E cmake_symlink_library ../../../../../lib/libopencv_objdetect.so.2.2.0 ../../../../../lib/libopencv_objdetect.so.2.2 ../../../../../lib/libopencv_objdetect.so
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/objdetect && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/opencv_objdetect.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/objdetect && $(CMAKE_COMMAND) -E cmake_symlink_library ../../../../../lib/libopencv_objdetect.so.2.2.0 ../../../../../lib/libopencv_objdetect.so.2.2 ../../../../../lib/libopencv_objdetect.so
 
 lib/libopencv_objdetect.so.2.2: lib/libopencv_objdetect.so.2.2.0
 
@@ -414,26 +414,26 @@ lib/libopencv_objdetect.so: lib/libopencv_objdetect.so.2.2.0
 nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/build: lib/libopencv_objdetect.so
 .PHONY : nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/build
 
-nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/requires: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/featurepyramid.o.requires
-nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/requires: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/hog.o.requires
-nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/requires: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/matching.o.requires
-nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/requires: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/cascadedetect.o.requires
-nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/requires: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/distancetransform.o.requires
-nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/requires: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/haar.o.requires
-nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/requires: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/lsvmparser.o.requires
-nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/requires: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/fft.o.requires
-nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/requires: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/resizeimg.o.requires
-nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/requires: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/latentsvmdetector.o.requires
-nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/requires: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/precomp.o.requires
-nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/requires: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/routine.o.requires
 nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/requires: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/latentsvm.o.requires
+nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/requires: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/featurepyramid.o.requires
+nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/requires: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/latentsvmdetector.o.requires
+nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/requires: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/hog.o.requires
+nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/requires: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/distancetransform.o.requires
+nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/requires: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/routine.o.requires
+nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/requires: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/precomp.o.requires
+nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/requires: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/lsvmparser.o.requires
+nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/requires: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/resizeimg.o.requires
+nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/requires: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/cascadedetect.o.requires
+nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/requires: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/fft.o.requires
+nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/requires: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/matching.o.requires
+nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/requires: nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/haar.o.requires
 .PHONY : nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/requires
 
 nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/clean:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/objdetect" && $(CMAKE_COMMAND) -P CMakeFiles/opencv_objdetect.dir/cmake_clean.cmake
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/objdetect && $(CMAKE_COMMAND) -P CMakeFiles/opencv_objdetect.dir/cmake_clean.cmake
 .PHONY : nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/clean
 
 nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/depend:
-	cd "/home/louis/Documents/Motion Capture/Mouse/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/louis/Documents/Motion Capture/Mouse" "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/opencv/modules/objdetect" "/home/louis/Documents/Motion Capture/Mouse/build" "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/objdetect" "/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/DependInfo.cmake" --color=$(COLOR)
+	cd /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/opencv/modules/objdetect /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/objdetect /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : nestk/deps/opencv/modules/objdetect/CMakeFiles/opencv_objdetect.dir/depend
 

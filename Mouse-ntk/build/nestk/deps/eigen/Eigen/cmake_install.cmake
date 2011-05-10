@@ -1,4 +1,4 @@
-# Install script for directory: /home/louis/Documents/Motion Capture/Mouse/nestk/deps/eigen/Eigen
+# Install script for directory: /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/eigen/Eigen
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,30 +34,30 @@ ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Devel")
   FILE(INSTALL DESTINATION "/usr/local/include/eigen3/Eigen" TYPE FILE FILES
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/eigen/Eigen/Geometry"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/eigen/Eigen/QtAlignedMalloc"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/eigen/Eigen/Householder"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/eigen/Eigen/Core"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/eigen/Eigen/Sparse"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/eigen/Eigen/Eigenvalues"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/eigen/Eigen/StdDeque"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/eigen/Eigen/LU"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/eigen/Eigen/StdVector"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/eigen/Eigen/Eigen2Support"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/eigen/Eigen/QR"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/eigen/Eigen/Eigen"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/eigen/Eigen/StdList"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/eigen/Eigen/SVD"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/eigen/Eigen/Dense"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/eigen/Eigen/Array"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/eigen/Eigen/Cholesky"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/eigen/Eigen/Jacobi"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/eigen/Eigen/SVD"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/eigen/Eigen/StdList"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/eigen/Eigen/Householder"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/eigen/Eigen/Array"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/eigen/Eigen/Eigenvalues"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/eigen/Eigen/Dense"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/eigen/Eigen/Cholesky"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/eigen/Eigen/Jacobi"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/eigen/Eigen/LU"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/eigen/Eigen/Eigen2Support"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/eigen/Eigen/QR"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/eigen/Eigen/QtAlignedMalloc"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/eigen/Eigen/Core"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/eigen/Eigen/Eigen"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/eigen/Eigen/StdVector"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/eigen/Eigen/StdDeque"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/eigen/Eigen/Geometry"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/eigen/Eigen/Sparse"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Devel")
 
 IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  INCLUDE("/home/louis/Documents/Motion Capture/Mouse/build/nestk/deps/eigen/Eigen/src/cmake_install.cmake")
+  INCLUDE("/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/build/nestk/deps/eigen/Eigen/src/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 

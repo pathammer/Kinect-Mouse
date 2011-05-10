@@ -1,4 +1,4 @@
-# Install script for directory: /home/louis/Documents/Motion Capture/Mouse/nestk/deps/eigen/unsupported/Eigen/src/SparseExtra
+# Install script for directory: /home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/eigen/unsupported/Eigen/src/SparseExtra
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,13 +34,13 @@ ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Devel")
   FILE(INSTALL DESTINATION "/usr/local/include/eigen3/unsupported/Eigen/src/SparseExtra" TYPE FILE FILES
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/eigen/unsupported/Eigen/src/SparseExtra/SparseLLT.h"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/eigen/unsupported/Eigen/src/SparseExtra/SuperLUSupport.h"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/eigen/unsupported/Eigen/src/SparseExtra/SparseLDLT.h"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/eigen/unsupported/Eigen/src/SparseExtra/SparseLU.h"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/eigen/unsupported/Eigen/src/SparseExtra/UmfPackSupport.h"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/eigen/unsupported/Eigen/src/SparseExtra/RandomSetter.h"
-    "/home/louis/Documents/Motion Capture/Mouse/nestk/deps/eigen/unsupported/Eigen/src/SparseExtra/CholmodSupport.h"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/eigen/unsupported/Eigen/src/SparseExtra/UmfPackSupport.h"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/eigen/unsupported/Eigen/src/SparseExtra/SuperLUSupport.h"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/eigen/unsupported/Eigen/src/SparseExtra/SparseLLT.h"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/eigen/unsupported/Eigen/src/SparseExtra/SparseLDLT.h"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/eigen/unsupported/Eigen/src/SparseExtra/CholmodSupport.h"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/eigen/unsupported/Eigen/src/SparseExtra/RandomSetter.h"
+    "/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/eigen/unsupported/Eigen/src/SparseExtra/SparseLU.h"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Devel")
 

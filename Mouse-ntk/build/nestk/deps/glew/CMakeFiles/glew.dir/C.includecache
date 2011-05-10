@@ -36,7 +36,7 @@ inttypes.h
 windows.h
 -
 
-/home/louis/Documents/Motion Capture/Mouse/nestk/deps/glew/src/glew.c
+/home/gcamilo/kmouse/Kinect-Mouse/Mouse-ntk/nestk/deps/glew/src/glew.c
 GL/glew.h
 -
 GL/wglew.h
