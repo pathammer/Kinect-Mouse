@@ -40,6 +40,7 @@ float tmousex = 0, tmousey = 0;
 int snstvty;
 int pauseTime = 0;
 int pusx = 0, pusy = 0;
+int allowMouse = 0;
 
 // use viewer for GUI and object detection
 
@@ -466,13 +467,16 @@ int main(int argc, char** argv) {
 
    //X11 Mouse Control Code
     //Right now giving priority to hand 1
-    int px, py;
-    if(hand1.isOn){
+    int px, py, isMouse=0;
+    if(hand1.isOn&&(hand1.center.x!=0 && hand1.center.y!=0)){
       px = hand1.center.x; py = hand1.center.y;
+      isMouse=1;
     }
-    else if(hand2.isOn){
+      else if(hand2.isOn&&!hand1.isOn&&(hand2.center.x!=0 && hand2.center.y!=0)){
       px = hand2.center.x; py = hand2.center.y;
+      isMouse=1;
     }
+      if(isMouse&&allowMouse){
 	    pointerx = ((px-640.0f) / -1);
 	    pointery = (py);
 	    mousex = ((pointerx / 630.0f) * screenw);
@@ -507,11 +511,18 @@ int main(int argc, char** argv) {
 			XSync(display, 0);
 
 			//printf("\n\n %d  -  %d \n\n", mx, my);
- 
+      }
     
     unsigned char c = cv::waitKey(10) & 0xff;
     if (c == 'q' || c == 27)
       exit(0);
+    else if (c == 'm'){
+      if(allowMouse==0)
+	allowMouse=1;
+      else
+	allowMouse=0;
+
+    }
   }
 
   return 0;
